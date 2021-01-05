@@ -270,3 +270,11 @@
   background-color: var(--background-primary) !important;
   color: var(--text-normal) !important;
 }
+
+
+/**
+ * Delete message
+ */
+ .message-2qRu38 {
+  background-color: var(--background-secondary-alt) !important;
+}
