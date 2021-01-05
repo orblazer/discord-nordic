@@ -4,6 +4,10 @@ This theme change all discord style for follow [Nord palette](https://www.nordth
 
 This theme is developed for **[BandagedBD](https://github.com/rauenzi/BetterDiscordApp)**.
 
+## Preview
+
+![preview](./preview.png)
+
 ## Download
 
 1. Download [nordic.theme.css](./nordic.theme.css)
