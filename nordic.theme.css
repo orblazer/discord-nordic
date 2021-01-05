@@ -8,6 +8,14 @@
  * @authorId 179681974879911946
 */
 
+@import url('https://orblazer.github.io/discord-nordic/components/badges-icon.css');
+@import url('https://orblazer.github.io/discord-nordic/components/button.css');
+@import url('https://orblazer.github.io/discord-nordic/components/form.css');
+@import url('https://orblazer.github.io/discord-nordic/components/guild-messages.css');
+@import url('https://orblazer.github.io/discord-nordic/components/other.css');
+@import url('https://orblazer.github.io/discord-nordic/components/popout.css');
+@import url('https://orblazer.github.io/discord-nordic/components/settings.css');
+
 :root {
   --nord-dark1: #2e3440;
   --nord-dark2: #3b4252;
@@ -279,11 +287,3 @@
   --deprecated-text-input-border-disabled: #dcddde;
   --deprecated-text-input-prefix: #b9bbbe;
 }
-
-@import 'https://raw.githubusercontent.com/orblazer/discord-nordic/master/components/badges-icon.css';
-@import 'https://raw.githubusercontent.com/orblazer/discord-nordic/master/components/button.css';
-@import 'https://raw.githubusercontent.com/orblazer/discord-nordic/master/components/form.css';
-@import 'https://raw.githubusercontent.com/orblazer/discord-nordic/master/components/guild-messages.css';
-@import 'https://raw.githubusercontent.com/orblazer/discord-nordic/master/components/other.css';
-@import 'https://raw.githubusercontent.com/orblazer/discord-nordic/master/components/popout.css';
-@import 'https://raw.githubusercontent.com/orblazer/discord-nordic/master/components/settings.css';
