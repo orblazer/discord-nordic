@@ -1,7 +1,7 @@
 /**
  * @name Nordic
  * @author orblazer#9152
- * @version 1.0.0
+ * @version 2.0.0
  * @description Complete theme for Nordic (https://www.nordtheme.com/)
  * @source https://github.com/orblazer/discord-nordic
  * @donate https://www.paypal.me/orblazer
@@ -9,12 +9,6 @@
 */
 
 :root {
-  --bd-blue: var(--nord-green-blue);
-  --bd-blue-hover: var(--nord-green-blue2);
-  --bd-blue-active: var(--nord-green-blue2);
-  --blurple: var(--nord-blue);
-  --bdfdb-blurple: var(--nord-turquoise);
-
   --nord-dark1: #2e3440;
   --nord-dark2: #3b4252;
   --nord-dark3: #434c5e;
@@ -32,26 +26,101 @@
   --nord-green: #a3be8c;
   --nord-pink: #b48ead;
 
+  --nord-light-1: #cdd3e0;
+  --nord-light0: #c5ccd8;
+  --nord-light4: #f1f3f7;
+  --nord-light5: #f8f9fc;
+  --nord-grey1: #9ba2ac;
   --nord-black1: #2b303b;
   --nord-black2: #20242c;
   --nord-black3: #15181e;
-  --nord-green-blue2: #95C6C5;
-  --nord-red2: #CA505C;
   --nord-dark5: #606d85;
-  --nord-green2: #9BBA80;
+  --nord-primary: var(--nord-green-blue);
+
+  --button-primary: var(--nord-primary);
+  --button-primary-text: var(--nord-dark1);
+  --button-primary-hover: #7da8a8;
+  --button-primary-active: #709494;
+  --button-primary-active-outlined: rgba(143, 188, 187, 0.1);
+  --button-primary-disabled: #749191;
+  --button-primary-ghost: rgba(143, 188, 187, 0.1);
+  --button-primary-ghost-text: var(--nord-primary);
+  --button-primary-ghost-hover: rgba(125, 168, 168, 0.1);
+  --button-primary-ghost-active: rgba(112, 148, 148, 0.1);
+  --button-green: var(--nord-green);
+  --button-green-text: var(--nord-dark1);
+  --button-green-hover: #93ac7e;
+  --button-green-active: #82996f;
+  --button-green-ghost: rgba(163, 190, 140, 0.1);
+  --button-green-ghost-text: var(--nord-green);
+  --button-green-ghost-hover: rgba(147, 172, 126, 0.1);
+  --button-green-ghost-active: rgba(130, 153, 111, 0.1);
+  --button-grey: var(--nord-dark4);
+  --button-grey-text: var(--nord-light1);
+  --button-grey-hover: var(--nord-dark3);
+  --button-grey-active: var(--nord-dark2);
+  --button-grey-ghost: rgba(76, 86, 106, 0.1);
+  --button-grey-ghost-text: var(--nord-dark4);
+  --button-red: var(--nord-red);
+  --button-red-text: var(--nord-light1);
+  --button-red-hover: #ac5861;
+  --button-red-active: #975056;
+  --button-red-active-outlined: rgba(191, 97, 106, 0.1);
+  --button-white: var(--nord-light3);
+  --button-white-text: var(--nord-black1);
+  --button-white-hover: var(--nord-light1);
+  --button-white-active: var(--nord-light0);
+  --button-white-outlined: rgba(236, 239, 244, 0.1);
+
+  --category-fade-background: rgba(143, 188, 187, 0.8);
+  --category-fade-background-hover: rgba(143, 188, 187, 0.95);
 }
 
 .theme-dark {
   --header-primary: var(--nord-light3);
   --header-secondary: #a6b0bf;
   --text-normal: var(--nord-light1);
-  --text-muted: #6b7994;
-  --text-link: #3B8EF3;
+  --text-secondary: var(--nord-light0);
+  --text-primary-background: var(--nord-black1);
+  --text-muted: var(--nord-dark5);
+  --text-link: #3b8ef3;
+  --text-searchbox-close: var(--nord-dark4);
   --channels-default: var(--text-normal);
+  --message-mentioned: var(--nord-primary);
+  --calendar-border: var(--nord-black2);
+
+  --text-mention: var(--nord-primary);
+  --background-mention: rgba(143, 188, 187, 0.1);
+  --text-mention-hover: var(--text-primary-background);
+  --background-mention-hover: var(--nord-primary);
+
+  --background-defaultindicator: var(--nord-black3);
+  --text-defaultindicator: var(--text-normal);
+
+  --card-settings-background: var(--nord-black1);
+  --card-settings-border: var(--nord-black3);
+
+  --keybind-background: var(--nord-dark5);
+  --keybind-text: var(--text-normal);
+  --keybind-shadow: var(--nord-black2);
+
+  --emoji-game-input-background: var(--nord-black3);
+  --emoji-game-input-border: var(--nord-black4);
+
+  --text-bot-badge: var(--text-primary-background);
+  --background-bot-badge: var(--nord-primary);
+
+  --status-online: var(--nord-green);
+  --status-offline: var(--nord-grey1);
+  --status-idle: var(--nord-orange);
+  --status-dnd: var(--nord-red);
+  --status-stream: var(--nord-pink);
+  --ownerIcon: var(--nord-orange);
+  --adminIcon: var(--nord-dark5);
 
   --interactive-normal: var(--text-normal);
-  --interactive-hover: var(--nord-green-blue);
-  --interactive-active: var(--nord-green-blue);
+  --interactive-hover: var(--nord-primary);
+  --interactive-active: var(--nord-primary);
   --interactive-muted: var(--text-muted);
 
   --background-primary: var(--nord-dark1);
@@ -60,457 +129,161 @@
   --background-tertiary: var(--nord-dark2);
   --background-accent: var(--nord-dark3);
   --background-floating: var(--background-secondary);
-  --background-modifier-hover: rgba(76,86,106,0.3);
-  --background-modifier-active: rgba(76,86,106,0.24);
-  --background-modifier-selected: rgba(76,86,106,0.32);
-  --background-modifier-accent: hsla(0,0%,100%,0.06);
-  --background-mentioned: rgba(94, 129, 172, 0.25);
-  --background-mentioned-hover: rgba(94, 129, 172, 0.4);
-  --background-message-hover: rgba(59,66,82,0.3);
-  --background-help-warning: rgba(208,135,112,0.1);
-  --background-help-info: rgba(94,129,172,0.1);
+  --background-floating-gradient: linear-gradient(90deg, rgba(54, 60, 74, 0), var(--background-floating) 80%);
+  --background-modifier-hover: rgba(76, 86, 106, 0.3);
+  --background-modifier-hover-gradient: linear-gradient(
+    90deg,
+    rgba(76, 86, 106, 0),
+    var(--background-secondary-alt) 50%
+  );
+  --background-modifier-active: rgba(76, 86, 106, 0.24);
+  --background-modifier-selected: rgba(76, 86, 106, 0.32);
+  --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+  --background-mentioned: rgba(143, 188, 187, 0.25);
+  --background-mentioned-hover: rgba(143, 188, 187, 0.35);
+  --background-message-hover: rgba(59, 66, 82, 0.3);
+  --background-help-warning: rgba(208, 135, 112, 0.1);
+  --background-help-info: rgba(94, 129, 172, 0.1);
+  --background-channel-header: var(--background-secondary);
+  --background-channel-header-gradient: linear-gradient(90deg, rgba(54, 60, 74, 0) 0, var(--background-secondary));
+  --background-server: var(--nord-black3);
+  --background-friends-server: var(--nord-black1);
+  --background-slider: var(--nord-black2);
+  --background-friends-activity: var(--nord-black1);
+
   --scrollbar-thin-thumb: var(--nord-dark4);
   --scrollbar-thin-track: transparent;
   --scrollbar-auto-thumb: var(--nord-dark4);
   --scrollbar-auto-track: var(--nord-black1);
   --scrollbar-auto-scrollbar-color-thumb: var(--nord-dark4);
   --scrollbar-auto-scrollbar-color-track: var(--nord-black1);
+
   --elevation-stroke: 0 0 0 1px var(--nord-dark1);
   --elevation-low: 0 1px 0 var(--nord-black1);
+
   --logo-primary: #fff;
   --focus-primary: var(--nord-blue);
-  --radio-group-dot-foreground: var(--nord-green-blue);
+  --radio-group-dot-foreground: var(--nord-primary);
   --channeltextarea-background: var(--background-secondary-alt);
 
   --deprecated-card-bg: var(--nord-dark1);
-  --deprecated-card-editable-bg: rgba(32,34,37,0.3);
+  --deprecated-card-editable-bg: rgba(32, 34, 37, 0.3);
   --deprecated-store-bg: #36393f;
   --deprecated-quickswitcher-input-background: #72767d;
-  --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
-  --deprecated-text-input-bg: rgba(0,0,0,0.1);
-  --deprecated-text-input-border: rgba(0,0,0,0.3);
+  --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
+  --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
+  --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
   --deprecated-text-input-border-hover: #040405;
   --deprecated-text-input-border-disabled: #202225;
   --deprecated-text-input-prefix: #dcddde;
 }
 
-.da-elevationHigh {
-    background-color: var(--nord-black1) !important;
-}
-
-
-/**
- * Settings
- **/
-.da-sidebarRegionScroller {
-    background-color: var(--background-secondary-alt);
-}
-
-.da-contentRegionScroller {
-    background-color: var(--background-secondary);
-}
-
-.da-background, .da-connection, .da-preview.da-card,
-.da-contentRegionScroller .da-item:not([aria-checked=true]) {
-    background-color: var(--background-primary);
-}
-
-.da-fieldList {
-    background-color: var(--background-secondary);
-}
-
-.da-codeRedemptionRedirect, .da-previewOverlay,
-.da-card::before, .da-removeGame {
-    background-color: var(--nord-black1) !important;
-    border-color: var(--nord-black2) !important;
-}
-
-.da-removeKeybind {
-    background-color: var(--nord-red);
-}
-
-.da-removeKeybind:hover {
-    background-color: var(--nord-red2);
-}
-
-.da-activeGame.da-notDetected {
-    background-color: var(--nord-black1);
-}
-
-.da-gameNameInput:focus, .da-gameNameInput:hover {
-    background-color: var(--nord-black2) !important;
-    border-color: var(--nord-black3) !important;
-}
-
-.da-sidebar .da-item[style="color: rgb(240, 71, 71);"] {
-    color: var(--nord-red) !important;
-}
-
-.da-sidebar .da-item[style="color: rgb(240, 71, 71);"]:hover {
-    color: var(--nord-red2) !important;
-    background-color: rgba(202, 80, 92, 0.1) !important;
-}
-
-.da-avatarUploaderIndicator {
-    background-color: var(--nord-light1) !important;
-}
-
-
-/**
- * Servers
- */
-.da-pill .da-item {
-    background-color: var(--nord-green-blue);
-}
-
-.da-selected > .da-childWrapper {
-    background-color: var(--nord-green-blue) !important;
-}
-
-.da-circleIconButton {
-    color: var(--nord-green-blue);
-}
-
-.da-circleIconButton.da-selected {
-    background-color: var(--nord-green-blue);
-}
-
-
-/**
- * Messages header
- */
-.da-title.da-themed {
-    background: var(--background-secondary) !important;
-}
-
-.da-themed .da-children::after {
-    display: none;
-}
-
-.da-container#search-results {
-    background-color: var(--background-secondary);
-}
-
-.da-container#search-results .da-selected {
-    background-color: var(--background-modifier-hover);
-}
-
-.da-container#search-results .da-option::after {
-    display: none;
-}
-
-.da-container#search-results .da-focused {
-    background-color: var(--background-primary) !important;
-}
-
-
-/**
- * Messages
- **/
-.da-mentioned:before {
-    background-color: var(--nord-blue);
-}
-
-.da-newMessagesBar {
-    background-color: var(--nord-green-blue);
-}
-
-.da-barButtonBase {
-    color: var(--nord-dark1);
-}
-
-.da-buttons .da-wrapper {
-    background-color: var(--background-secondary);
-}
-
-
-/**
- * Root
- */
-.da-fullscreenOnMobile.da-root, .da-contentWrapper {
-    background-color: var(--background-primary) !important;
-}
-
-.da-fullscreenOnMobile .da-footer {
-    background-color: var(--background-secondary);
-}
-
-
-/**
- * User popout
- */
-.da-userPopout > .da-body,
-.da-userPopout > .da-footer {
-    background: var(--background-secondary);
-}
-
-.da-headerNormal {
-    background-color: var(--nord-dark1) !important;
-}
-
-.da-headerPlaying {
-    background-color: var(--nord-blue);
-}
-
-
-/**
- * Context menu, tooltip
- */
-.da-menu .da-focused {
-    background-color: var(--background-modifier-hover) !important;
-}
-
-.da-tooltip {
-    background-color: var(--nord-black2) !important;
-}
-
-.da-tooltip > .da-tooltipPointer {
-    border-top-color: var(--nord-black2) !important;
-}
-
-
-/**
- * Hint, protip and colors
- */
-.da-hintValue {
-    background-color: var(--nord-green-blue) !important;
-    color: var(--nord-dark1) !important;
-}
-
-.da-protip[class^="colorStatusGreen"], .da-title.da-isEnabled {
-    color: var(--nord-green);
-    fill: var(--nord-green) !important;
-}
-
-.da-colorDanger, .da-beta {
-  color: var(--nord-red);
-}
-
-.da-strikethrough {
-    color: var(--nord-red);
-}
-
-.da-iconContainer path[fill="#faa61a"] {
-    fill: var(--nord-orange);
-}
-
-.da-warning {
-    border-color: var(--nord-orange);
-    color: var(--nord-light1);
-}
-
-.da-warning > .da-icon {
-    color: var(--nord-orange);
-}
-
-.da-info {
-    border-color: var(--nord-blue);
-    color: var(--nord-light1);
-}
-
-.da-info > .da-icon {
-    color: var(--nord-blue);
-}
-
-.da-textBadge[style*="background-color: rgb(240, 71, 71);"] {
-    background-color: var(--nord-red) !important;
-}
-
-.da-pillIconOnline {
-    background-color: var(--nord-green);
-}
-
-
-/**
- * Status
- */
-.da-pointerEvents[mask="url(#svg-mask-status-online)"],
-.da-avatar .da-cursorDefault rect[fill="#43b581"] {
-    fill: var(--nord-green);
-}
-
-.da-pointerEvents[mask="url(#svg-mask-status-dnd)"],
-.da-avatar .da-cursorDefault rect[fill="#f04747"] {
-    fill: var(--nord-red);
-}
-
-.da-pointerEvents[mask="url(#svg-mask-status-idle)"],
-.da-avatar .da-cursorDefault rect[fill="#faa61a"] {
-    fill: var(--nord-orange);
-}
-
-.da-pointerEvents[mask="url(#svg-mask-status-offline)"] {
-    fill: var(--nord-dark4);
-}
-
-/**
- * Keybind
- */
-.da-keybindShortcut span,
-.da-keybindShortcutSearchPopout span {
-    background-color: var(--nord-dark2) !important;
-    box-shadow: inset 0 -4px 0 var(--nord-black2) !important;
-}
-
-
-/**
- * Form elements
- */
-.da-icon > .da-checkbox {
-    color: var(--nord-green-blue) !important;
-}
-
-.da-slider .da-bar {
-    background-color: var(--nord-dark1);
-}
-
-.da-slider .da-barFill,
-.da-slider .da-speaking {
-    background-color: var(--nord-green-blue) !important;
-}
-
-.da-item.da-deny.da-selected {
-    background-color: var(--nord-red);
-}
-
-.da-item.da-deny:not(.da-selected) {
-    color: var(--nord-red);
-}
-
-.da-item.da-passthrough.da-selected {
-    background-color: var(--nord-dark4);
-}
-
-.da-item.da-allow.da-selected {
-    background-color: var(--nord-green);
-    color: var(--nord-black1);
-}
-
-.da-item.da-allow:not(.da-selected) {
-    color: var(--nord-green);
-}
-
-.da-input {
-    border-color: var(--nord-black2);
-}
-
-.da-input:hover {
-    border-color: var(--nord-black3);
-}
-
-.da-input:focus {
-    border-color: var(--nord-green-blue);
-}
-
-.da-defaultValue > .da-markValue {
-    color: var(--nord-green) !important;
-}
+.theme-light {
+  --header-primary: var(--nord-dark4);
+  --header-secondary: #4f5660;
+  --text-normal: var(--nord-dark2);
+  --text-secondary: var(--nord-dark4);
+  --text-primary-background: #ffffff;
+  --text-muted: var(--nord-grey1);
+  --text-link: #3b8ef3;
+  --text-searchbox-close: var(--nord-light3);
+  --channels-default: var(--text-normal);
+  --message-mentioned: var(--nord-primary);
+  --calendar-border: var(--nord-light0);
+
+  --text-mention: var(--nord-primary);
+  --background-mention: rgba(143, 188, 187, 0.1);
+  --text-mention-hover: var(--text-primary-background);
+  --background-mention-hover: var(--nord-primary);
+
+  --background-defaultindicator: var(--nord-light4);
+  --text-defaultindicator: var(--text-normal);
+
+  --card-settings-background: var(--nord-light0);
+  --card-settings-border: var(--nord-light-1);
+
+  --keybind-background: var(--nord-light4);
+  --keybind-text: var(--text-normal);
+  --keybind-shadow: var(--nord-light-1);
+
+  --emoji-game-input-background: var(--nord-light3);
+  --emoji-game-input-border: var(--nord-light4);
+
+  --text-bot-badge: var(--text-primary-background);
+  --background-bot-badge: var(--nord-primary);
+
+  --status-online: var(--nord-green);
+  --status-offline: var(--nord-dark5);
+  --status-idle: var(--nord-orange);
+  --status-dnd: var(--nord-red);
+  --status-stream: var(--nord-pink);
+  --ownerIcon: var(--nord-orange);
+  --adminIcon: var(--nord-dark5);
+
+  --interactive-normal: var(--text-normal);
+  --interactive-hover: var(--nord-primary);
+  --interactive-active: var(--nord-primary);
+  --interactive-muted: var(--text-muted);
+
+  --background-primary: var(--nord-light1);
+  --background-secondary: var(--nord-light2);
+  --background-secondary-alt: var(--nord-light3);
+  --background-tertiary: var(--nord-light3);
+  --background-accent: var(--nord-light-1);
+  --background-floating: var(--background-secondary);
+  --background-floating-gradient: linear-gradient(90deg, rgba(229, 233, 240, 0), var(--background-floating) 80%);
+  --background-modifier-hover: var(--nord-light3);
+  --background-modifier-hover-gradient: linear-gradient(
+    90deg,
+    rgba(236, 239, 244, 0),
+    var(--background-secondary-alt) 50%
+  );
+  --background-modifier-active: rgba(236, 239, 244, 0.24);
+  --background-modifier-selected: rgba(236, 239, 244, 0.32);
+  --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+  --background-mentioned: rgba(143, 188, 187, 0.35);
+  --background-mentioned-hover: rgba(143, 188, 187, 0.45);
+  --background-message-hover: rgba(155, 162, 172, 0.15);
+  --background-help-warning: rgba(208, 135, 112, 0.1);
+  --background-help-info: rgba(94, 129, 172, 0.1);
+  --background-channel-header: var(--background-secondary);
+  --background-channel-header-gradient: linear-gradient(90deg, rgba(229, 233, 240, 0) 0, var(--background-secondary));
+  --background-server: var(--nord-light1);
+  --background-friends-server: var(--nord-light2);
+  --background-slider: var(--nord-light3);
+  --background-friends-activity: var(--nord-light1);
+
+  --scrollbar-thin-thumb: var(--nord-light-1);
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: var(--nord-light2);
+  --scrollbar-auto-track: var(--nord-light-1);
+  --scrollbar-auto-scrollbar-color-thumb: var(--nord-light-1);
+  --scrollbar-auto-scrollbar-color-track: var(--nord-light1);
+
+  --elevation-stroke: 0 0 0 1px var(--nord-light1);
+  --elevation-low: 0 1px 0 var(--nord-black1);
+
+  --logo-primary: var(--nord-primary);
+  --focus-primary: var(--nord-blue);
+  --radio-group-dot-foreground: var(--nord-primary);
+  --channeltextarea-background: var(--background-secondary-alt);
+
+  --deprecated-card-bg: var(--nord-light1);
+  --deprecated-card-editable-bg: rgba(236, 239, 244, 0.3);
+  --deprecated-store-bg: #f8f9f9;
+  --deprecated-quickswitcher-input-background: #fff;
+  --deprecated-quickswitcher-input-placeholder: rgba(79, 84, 92, 0.3);
+  --deprecated-text-input-bg: rgba(255, 255, 255, 0.1);
+  --deprecated-text-input-border: rgba(255, 255, 255, 0.3);
+  --deprecated-text-input-border-hover: #b9bbbe;
+  --deprecated-text-input-border-disabled: #dcddde;
+  --deprecated-text-input-prefix: #b9bbbe;
+}
 
-.da-checkbox.da-checked {
-    border-color: var(--nord-green-blue) !important;
-    background-color: var(--nord-green-blue) !important;
-}
-
-.da-control > .da-container > .da-slider > rect {
-    fill: var(--nord-light1);
-}
-
-.da-control > .da-container[style*="background-color: rgb(67, 181, 129)"] {
-    background-color: var(--nord-green-blue) !important;
-}
-.da-control > .da-container[style*="background-color: rgb(67, 181, 129)"] path[fill="rgba(67, 181, 129, 1)"] {
-    fill: var(--nord-green-blue) !important;
-}
-
-.da-control > .da-container[style*="background-color: rgb(114, 118, 125)"] {
-    background-color: var(--nord-black1) !important;
-}
-.da-control > .da-container[style*="background-color: rgb(114, 118, 125)"] path[fill="rgba(114, 118, 125, 1)"] {
-    fill: var(--nord-dark1) !important;
-}
-
-
-/**
- * Button
- */
-.da-button[class*="lookOutlined"][class*="colorRed"] {
-    border-color: var(--nord-red);
-    color: var(--nord-red);
-}
-
-.da-button[class*="lookOutlined"][class*="colorRed"]:hover {
-    border-color: var(--nord-red2);
-    color: var(--nord-red2);
-}
-
-.da-button[class*="lookFilled"][class*="colorRed"] {
-    background-color: var(--nord-red);
-}
-
-.da-button[class*="lookFilled"][class*="colorRed"]:hover {
-    background-color: var(--nord-red2);
-}
-
-.da-button[class*="lookFilled"][class*="colorBrand"] {
-    background-color: var(--nord-green-blue);
-    color: var(--nord-black1);
-}
-
-.da-button[class*="lookFilled"][class*="colorBrand"]:hover {
-    background-color: var(--nord-green-blue2);
-}
-
-.da-button[class*="lookOutlined"][class*="colorBrand"] {
-    border-color: var(--nord-green-blue);
-    color: var(--nord-green-blue);
-}
-
-.da-button[class*="lookOutlined"][class*="colorBrand"]:hover {
-    border-color: var(--nord-green-blue2);
-    color: var(--nord-green-blue2);
-}
-
-.da-button[class*="lookFilled"][class*="colorPrimary"],
-.da-button[class*="lookFilled"][class*="colorGrey"] {
-    background-color: var(--nord-dark4);
-}
-
-.da-button[class*="lookFilled"][class*="colorPrimary"]:hover,
-.da-button[class*="lookFilled"][class*="colorGrey"]:hover {
-    background-color: var(--nord-dark5);
-}
-
-.da-button[class*="lookFilled"][class*="colorGreen"] {
-    background-color: var(--nord-green);
-    color: var(--nord-black1);
-}
-
-.da-button[class*="lookFilled"][class*="colorGreen"]:hover {
-    background-color: var(--nord-green2);
-}
-
-.da-linkButton[class*="colorBrand"] {
-    color: var(--nord-green-blue);
-}
-
-
-
-/**
- * Date picker
- */
-.da-datePicker .react-datepicker,
-.da-datePicker .react-datepicker__header {
-    background-color: var(--background-secondary) !important;
-}
-
-
-.da-datePicker .react-datepicker__day:hover:not(.react-datepicker__day--disabled):not(.react-datepicker__day--outside-month),
-.da-datePicker .react-datepicker__day.react-datepicker__day--selected:hover,
-.da-datePicker .react-datepicker__day.react-datepicker__day--selected:after {
-    background-color: var(--nord-green-blue) !important;
-}
-
-.da-datePicker .react-datepicker__day--disabled,
-.da-datePicker .react-datepicker__day--outside-month {
-    background-color: var(--background-primary) !important;
-}
+@import 'https://raw.githubusercontent.com/orblazer/discord-nordic/master/components/badges-icon.css';
+@import 'https://raw.githubusercontent.com/orblazer/discord-nordic/master/components/button.css';
+@import 'https://raw.githubusercontent.com/orblazer/discord-nordic/master/components/form.css';
+@import 'https://raw.githubusercontent.com/orblazer/discord-nordic/master/components/guild-messages.css';
+@import 'https://raw.githubusercontent.com/orblazer/discord-nordic/master/components/other.css';
+@import 'https://raw.githubusercontent.com/orblazer/discord-nordic/master/components/popout.css';
+@import 'https://raw.githubusercontent.com/orblazer/discord-nordic/master/components/settings.css';

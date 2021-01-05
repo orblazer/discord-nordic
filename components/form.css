@@ -1,0 +1,123 @@
+.input-cIJ7To.focused-1mmYsC,
+.input-cIJ7To:focus {
+  border-color: var(--nord-primary);
+}
+
+.copyInputSuccess-XZc7BO,
+.input-cIJ7To.success-2-F980 {
+  border-color: var(--button-green);
+}
+.inputSuccess-3U9sNd {
+  color: var(--button-green);
+}
+
+/**
+ * Checkbox / Radio
+ */
+.checkbox-1ix_J3 {
+  border-color: var(--interactive-normal) !important;
+}
+
+.colorDefault-2K3EoJ .checkbox-3s5GYZ,
+.colorDefault-2K3EoJ .radioSelection-1HmrQS {
+  color: var(--nord-primary);
+}
+
+.checked-3_4uQ9 {
+  border-color: var(--nord-primary) !important;
+  background-color: var(--nord-primary) !important;
+}
+
+/**
+ * Checkbox (slider)
+ */
+.container-3auIfb[style*='background-color: rgb(114, 118, 125)'] {
+  background-color: var(--button-grey) !important;
+}
+.slider-TkfMQL > rect {
+  fill: var(--nord-light1);
+}
+.slider-TkfMQL path[fill='rgba(114, 118, 125, 1)'] {
+  fill: var(--button-grey);
+}
+
+.container-3auIfb[style*='background-color: rgb(67, 181, 129)'] {
+  background-color: var(--button-primary) !important;
+}
+.slider-TkfMQL path[fill='rgba(67, 181, 129, 1)'] {
+  fill: var(--button-primary);
+}
+
+/**
+ * Slider
+ */
+.bar-2Qqk5Z {
+  background-color: var(--background-slider) !important;
+}
+
+.barFill-23-gu- {
+  background-color: var(--nord-primary);
+}
+
+.userSettingsVoice-iwdUCU .sliderBar-3DezvM.speaking-2bFhO4 {
+  background-color: var(--nord-green);
+}
+
+/**
+ * Select
+ */
+ .css-3vaxre-menu,
+ .css-1x99fvh-menu {
+   background-color: var(--background-floating);
+   color: var(--text-normal);
+ }
+
+ .css-3vaxre-menu {
+   border-color: var(--nord-black1);
+ }
+ .css-1x99fvh-menu {
+   border-color: var(--nord-grey1);
+ }
+
+.css-1ye7vu0::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thin-thumb);
+}
+.css-1ye7vu0::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-thin-track);
+}
+
+.css-rzbxvl-option {
+  background-color: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+
+.css-1ba14n5-option {
+  background-color: var(--background-modifier-active);
+  color: var(--text-normal);
+}
+
+/**
+ * Search box
+ */
+.search-1iTphC .searchBox-2_mAlO {
+  background-color: var(--background-primary);
+}
+
+.search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng {
+  color: var(--text-normal);
+}
+.search-1iTphC .searchBox-2_mAlO .closeIcon-2WLZc1,
+.search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng::placeholder,
+.search-1iTphC .searchBox-2_mAlO .searchIcon-6ljH-4 {
+  color: var(--text-muted);
+}
+
+.search-1iTphC .searchBox-2_mAlO .closeIcon-2WLZc1:hover {
+  color: var(--text-searchbox-close) !important;
+}
+
+.search-1iTphC .searchBox-2_mAlO:focus,
+.search-1iTphC .searchBox-2_mAlO:focus-within {
+  box-shadow: 0 0 0 2.2px var(--nord-primary);
+  border-color: transparent;
+}

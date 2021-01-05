@@ -1,0 +1,148 @@
+/**
+ * Guild icon
+ */
+.voiceSectionIconWrapper-FO7UEY,
+.voiceSectionNoGuildImageWrapper-TicZR3,
+.childWrapper-anI2G9,
+.icon-27yU2q {
+  background-color: var(--background-server) !important;
+  color: var(--text-normal);
+}
+
+.voiceSectionIcon-1b3cOo,
+.xboxSectionIcon-1Y8MqF {
+  color: var(--header-primary);
+}
+
+.icon-3o6xvg {
+  background-color: var(--background-friends-server) !important;
+  color: var(--text-normal);
+}
+
+/**
+ * Servers list
+ */
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+  background-color: var(--nord-primary) !important;
+  color: var(--text-primary-background) !important;
+}
+
+.item-2hkk8m {
+  background-color: var(--nord-primary);
+}
+
+.circleIconButton-jET_ig {
+  color: var(--nord-green);
+}
+
+.iconBadge-2wi9r4.participating-NBGDkr {
+  background-color: var(--button-green);
+  color: var(--button-green-text);
+}
+
+/**
+ * Channel
+ */
+.modeUnread-1qO3K1 .name-23GUGE {
+  color: var(--channels-default);
+  font-weight: 700;
+}
+
+.wrapper-3WhCwL {
+  color: var(--text-mention);
+  background-color: var(--background-mention);
+}
+.wrapper-3WhCwL:hover {
+  color: var(--text-mention-hover);
+  background-color: var(--background-mention-hover);
+}
+
+/**
+ * Messages actions
+ */
+.wrapper-2aW0bm {
+  background-color: var(--background-secondary);
+}
+
+/**
+ * Mentioned
+ */
+.mentioned-xhSam7::before {
+  background-color: var(--message-mentioned);
+}
+
+.mentioned-xhSam7 .mention.interactive:hover {
+  color: var(--text-mention) !important;
+}
+
+/**
+ * Message bars
+ */
+.newMessagesBar-265mhP {
+  background-color: var(--button-primary);
+}
+.newMessagesBar-265mhP .barButtonBase-2uLO1z {
+  color: var(--button-primary-text);
+}
+
+.messagesErrorBar-nyJGU7 {
+  background-color: var(--nord-red);
+  color: var(--text-normal);
+}
+
+.isUnread-3Ef-o9 {
+  background-color: var(--nord-red);
+}
+
+.isUnread-3Ef-o9 .content-1o0f9g {
+  color: var(--nord-red);
+}
+
+/**
+ * Voice
+ */
+/* RTC status */
+.rtcConnectionStatusConnected-VRZDjy,
+.rtcConnectionQualityFine-2J6i8z .pingForeground-2uAOZ3 {
+  color: var(--nord-green);
+}
+
+/* Screen share */
+.segmentControlOption-1vCKaY {
+  color: var(--text-secondary);
+}
+
+.segmentControlOption-1vCKaY:hover {
+  color: var(--nord-normal);
+}
+
+.selected-P8xTeN {
+  color: var(--nord-primary);
+  border-bottom-color: var(--nord-primary) !important;
+}
+
+.tile-2w4k5N:hover .sourceThumbnail-27dolk,
+.sourceThumbnail-27dolk.selected-1nOkyc {
+  box-shadow: inset 0 0 0 2px var(--nord-primary);
+}
+
+.tile-2w4k5N:hover .sourceName-1y7Taj,
+.tile-2w4k5N.selected-1nOkyc .sourceName-1y7Taj {
+  color: var(--nord-primary);
+}
+
+.selectorTextSelected-1ymya_,
+.selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover,
+.selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):active {
+  color: currentColor;
+}
+
+/* No people */
+.tile-2naSqK {
+  background-color: var(--background-primary);
+}
+
+.header-2Zv56X {
+  color: var(--text-normal);
+}

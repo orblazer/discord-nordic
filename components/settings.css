@@ -1,0 +1,145 @@
+/**
+ * Security selector
+ */
+.radioBar-bMNUI-[style*='--radio-bar-accent-color:#43b581'] {
+  border-left-color: var(--nord-green);
+}
+
+.radioBar-bMNUI-[style*='--radio-bar-accent-color:#faa61a'] {
+  border-left-color: var(--nord-yellow);
+}
+
+.radioBar-bMNUI-[style*='--radio-bar-accent-color:#f57731'] {
+  border-left-color: var(--nord-orange);
+}
+
+.radioBar-bMNUI-[style*='--radio-bar-accent-color:#f04747'] {
+  border-left-color: var(--nord-red);
+}
+
+/**
+ * Redemption redirect, video preview & keybind hover
+ */
+.codeRedemptionRedirect-1wVR4b,
+.userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
+.card-FDVird:before {
+  background-color: var(--card-settings-background) !important;
+  border-color: var(--card-settings-border) !important;
+  color: var(--text-normal) !important;
+}
+
+/**
+ * Keybind
+ */
+.keybindShortcut-1BD6Z1 span {
+  background-color: var(--keybind-background) !important;
+  color: var(--keybind-text) !important;
+  box-shadow: inset 0 -4px 0 var(--keybind-shadow) !important;
+}
+
+/**
+ * Game activity
+ */
+.notDetected-33MY4s,
+.default-3oAQTF {
+  background-color: var(--background-secondary) !important;
+}
+
+.default-3oAQTF:hover {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.gameName-1RiWHm {
+  color: var(--text-normal) !important;
+}
+
+.lastPlayed-3bQ7Bo,
+.overlayStatusText-L2IACa {
+  color: var(--text-muted) !important;
+}
+
+/**
+ * Avatar
+ */
+.avatarUploaderInner-3UNxY3 {
+  background-color: var(--nord-black1);
+}
+
+.avatarUploader-3XDtmn .removeButton-1hcZyG {
+  color: var(--text-normal) !important;
+}
+
+/**
+ * Game name & Emoji alias
+ */
+.emojiAliasInput-1y-NBz .emojiInput-1aLNse,
+.gameNameInput-385LoS:focus,
+.gameNameInput-385LoS:hover {
+  background-color: var(--emoji-game-input-background) !important;
+  border-color: var(--emoji-game-input-border) !important;
+}
+
+.emojiAliasInput-1y-NBz .emojiInput-1aLNse:focus,
+.gameNameInput-385LoS:focus {
+  border-color: var(--nord-primary) !important;
+}
+
+/**
+ * Server boost
+ */
+.background-3xPPFc,
+.barBackground-2EEiLw {
+  color: var(--background-slider) !important;
+}
+
+.tierInProgress-3mBoXq,
+.tierMarkerInProgress-24LMzJ {
+  background-color: var(--background-slider) !important;
+}
+
+.foreground-2EIns2,
+.tierMarkerLabelPlusIcon-1OS7E9,
+.tierMarkerInProgress-24LMzJ .currentTierIcon-2gcTCn.tier3Icon-Ku4Ahe {
+  color: var(--nord-pink) !important;
+}
+
+.tierAccomplished-2eXPdI,
+.tierCurrent-Lw7-4E,
+.tierDefault-2qaRkD,
+.barForeground-3KglC8,
+.tierMarkerAccomplished-2MiXeg {
+  background-color: var(--nord-pink) !important;
+}
+
+.tierHeaderLocked-1a2opw,
+.tierHeaderLocked-1s2JJz {
+  background-color: var(--background-secondary-alt) !important;
+  color: var(--text-muted) !important;
+}
+
+.tierHeaderUnlocked-2RhWqn {
+  background-color: var(--background-accent) !important;
+  color: var(--nord-light3) !important;
+}
+
+.tierHeaderUnlockedBackground-MW5XJU,
+.tierHeaderUnlocked-1n-OTI {
+  background-image: linear-gradient(90deg, var(--nord-blue), var(--nord-pink)) !important;
+}
+
+.tierUnlocked-27DwHo,
+.tierUnlocked-25K6Kv {
+  background-color: var(--nord-primary) !important;
+  color: var(--text-primary-background) !important;
+}
+
+.tierBody-x9kBBp,
+.tierBody-16Chc9 {
+  background-color: var(--background-floating) !important;
+  color: var(--text-secondary) !important;
+}
+
+.tierLock-1oFMOZ,
+.tierLock-3CSxSX {
+  color: var(--interactive-muted) !important;
+}

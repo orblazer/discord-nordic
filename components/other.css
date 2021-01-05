@@ -1,0 +1,115 @@
+.theme-light .card-o7rAq- {
+  border-color: var(--nord-light2);
+}
+
+.pageWrapper-1PgVDX,
+.container-1D34oG {
+  background-color: var(--background-primary) !important;
+  color: var(--text-normal) !important;
+}
+
+/**
+ * Text
+ */
+/* Primary */
+.colorBrand-ROmMP1 {
+  color: var(--nord-primary);
+}
+
+/* Green */
+.colorStatusGreen-2saF4_,
+.pro-1T8RK7[style*='color: rgb(67, 181, 129)'],
+.defaultValue-3gC7yw .markValue-2DwdXI,
+.userSettingsSecurity-3IYeMF .isEnabled-24g9qA,
+.unlocked-251xRB {
+  color: var(--nord-green) !important;
+}
+
+/* Red */
+.colorDanger-2qLCe1,
+.colorDanger-2qLCe1 .checkbox-3s5GYZ,
+.colorDanger-2qLCe1 .radioSelection-1HmrQS,
+.beta-3smTDE,
+.warning-3qyw2h,
+.doesNot-36YbF_,
+.colorError-3RX-d6,
+.pruneLink-3V7wes {
+  color: var(--nord-red) !important;
+}
+
+/**
+ * Channel header
+ */
+.container-1r6BKw.themed-ANHk51 {
+  background-color: var(--background-channel-header);
+}
+
+.children-19S4PO::after {
+  background: var(--background-channel-header-gradient) !important;
+}
+
+.strikethrough-1n4ekb {
+  color: var(--nord-red);
+}
+
+.activeCircle-15Lt-Q,
+.activeCircle-1486wp {
+  background-color: var(--nord-primary);
+}
+
+/**
+ * Warning cards
+ */
+.warning-3C2pOH {
+  border-color: var(--nord-orange);
+  color: var(--interactive-normal);
+}
+.warning-3C2pOH .icon-1jlFSw {
+  color: var(--nord-orange);
+}
+
+.cardWarning-2yPNAa {
+  border-color: var(--nord-orange);
+  background-color: var(--nord-orange);
+  color: var(--nord-light3);
+}
+
+/**
+ * Friends
+ */
+ .outer-1AjyKL.active-1xchHY,
+ .outer-1AjyKL.interactive-3B9GmY:hover,
+ .iconContainer-IBAtWs:hover > .icon-3o6xvg {
+   background-color: var(--background-accent) !important;
+ }
+
+ .inset-3sAvek {
+   background-color: var(--background-friends-activity);
+ }
+
+ /**
+  * Tooltip
+  */
+ /* Black */
+ .tooltipBlack-PPG47z {
+   background-color: var(--nord-black3) !important;
+ }
+ .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
+   border-top-color: var(--nord-black3) !important;
+ }
+
+ /* Green */
+ .tooltipGreen-WdeQwd {
+   background-color: var(--nord-green) !important;
+ }
+ .tooltipGreen-WdeQwd .tooltipPointer-3ZfirK {
+   border-top-color: var(--nord-green) !important;
+ }
+
+ /* Red */
+ .tooltipRed-8-9NeP {
+   background-color: var(--nord-red) !important;
+ }
+ .tooltipRed-8-9NeP .tooltipPointer-3ZfirK {
+   border-top-color: var(--nord-red) !important;
+ }

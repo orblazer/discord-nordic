@@ -1,0 +1,199 @@
+/**
+ * Badges
+ */
+.defaultIndicator-G3c16x {
+  background-color: var(--background-defaultindicator) !important;
+  color: var(--text-defaultindicator) !important;
+}
+
+.planOptionDiscount-cS8uaO {
+  background-color: var(--button-green);
+  color: var(--button-green-text);
+}
+
+/**
+ * Number badge
+ */
+.numberBadge-2s8kKX[style*='background-color: rgb(240, 71, 71)'] {
+  background-color: var(--nord-red) !important;
+}
+.numberBadge-2s8kKX[style*='background-color: rgb(114, 137, 218)'] {
+  background-color: var(--nord-primary) !important;
+  color: var(--text-primary-background);
+}
+
+/**
+ * User status
+ */
+/* Online */
+.mask-1l8v16 rect[fill='#43b581'],
+.mask-1qbNWk rect[fill='rgba(67, 181, 129, 1)'] {
+  fill: var(--status-online);
+}
+.status-1AY8sU[style*='background-color: rgb(67, 181, 129)'],
+.dotOnline-pxc5-3,
+.dotOnline-8Ag7EB {
+  background-color: var(--status-online) !important;
+}
+
+/* Offline */
+.mask-1l8v16 rect[fill='#747f8d'],
+.mask-1qbNWk rect[fill='rgba(116, 127, 141, 1)'] {
+  fill: var(--status-offline);
+}
+.status-1AY8sU[style*='background-color: rgb(116, 127, 141)'],
+.dotOffline-3DXoDy {
+  background-color: var(--status-offline) !important;
+}
+
+/* Idle */
+.mask-1l8v16 rect[fill='#faa61a'],
+.mask-1qbNWk rect[fill='rgba(250, 166, 26, 1)'] {
+  fill: var(--status-idle);
+}
+.status-1AY8sU[style*='background-color: rgb(250, 166, 26)'] {
+  background-color: var(--status-idle) !important;
+}
+
+/* DND */
+.mask-1l8v16 rect[fill='#f04747'],
+.mask-1qbNWk rect[fill='rgba(240, 71, 71, 1)'] {
+  fill: var(--status-dnd);
+}
+.status-1AY8sU[style*='background-color: rgb(240, 71, 71)'] {
+  background-color: var(--status-dnd) !important;
+}
+
+/* Stream */
+.mask-1l8v16 rect[fill='#593695'],
+.mask-1qbNWk rect[fill='rgba(89, 54, 149, 1)'] {
+  fill: var(--status-stream);
+}
+.status-1AY8sU[style*='background-color: rgb(89, 54, 149)'] {
+  background-color: var(--status-stream) !important;
+}
+
+/* White */
+.mask-1l8v16 rect[fill='#ffffff'] {
+  fill: var(--nord-light4);
+}
+
+/**
+ * Pill
+ */
+.unreadPill-2HyYtt {
+  background-color: var(--nord-red);
+  color: var(--text-normal);
+}
+.unreadPillCapStroke-7rkHbg {
+  color: var(--nord-red);
+  fill: var(--nord-red);
+}
+
+/**
+ * Bot/Icon badges
+ */
+.ownerIcon-2NH9FM {
+  color: var(--ownerIcon);
+}
+
+.ownerIcon-2NH9FM.icon-1A2_vz.admin-Kv1Hp_ {
+  color: var(--adminIcon);
+}
+
+.botTagRegular-2HEhHi {
+  background-color: var(--background-bot-badge);
+  color: var(--text-bot-badge);
+}
+
+.iconBadge-qZ4Ksk {
+  background-color: var(--nord-red);
+}
+
+/**
+ * Server
+ */
+.partnered-3nJayh {
+  color: var(--button-primary);
+}
+.partnered-3nJayh .icon-1ihkOt {
+  color: var(--button-primary-text);
+}
+
+.verified-1eC5dy {
+  color: var(--button-green);
+}
+.verified-1eC5dy .icon-1ihkOt {
+  color: var(--button-green-text);
+}
+
+/**
+ * NSFW
+ */
+.textBadge-1iylP6[style*='background-color: rgb(240, 71, 71)'] {
+  background-color: var(--button-red);
+  color: var(--button-red-text);
+}
+
+/**
+ * Icon
+ */
+.descriptionIcon-36p1fN circle[fill='#ffffff'] {
+  fill: var(--text-normal);
+}
+
+.descriptionIcon-36p1fN path[fill='#43b581'] {
+  fill: var(--nord-green);
+}
+
+.descriptionIcon-36p1fN path[fill='#f04747'],
+.checklistIcon-6Kez2J path[fill='#f04747'] {
+  fill: var(--nord-red);
+}
+
+.featureIcon-3p1TC_ path[fill='#7289da'] {
+  fill: var(--nord-primary);
+}
+
+.bannerVisible-2ZE_qG .iconBackgroundTierOne-2OQMBY,
+.bannerVisible-2ZE_qG .iconBackgroundTierThree-FWlUL9,
+.bannerVisible-2ZE_qG .iconBackgroundTierTwo-Eab9L6,
+.iconTierOne-s_oiRb,
+.iconTierTwo-1JOWNK {
+  color: var(--text-normal);
+}
+
+/* Boost icons */
+.emoji-14TyAm,
+.featureEmoji-3pTtR2 .featureTitle-W5O6R1 {
+  color: var(--nord-yellow) !important;
+}
+
+.audio-PN_OoN,
+.featurePremiumGuild-2KpCr6 .featureTitle-W5O6R1 {
+  color: var(--nord-blue) !important;
+}
+
+.customization-1Iu5cE,
+.featureProfile-tTo0C- .featureTitle-W5O6R1 {
+  color: var(--nord-turquoise) !important;
+}
+
+.upload-2-2ZMI,
+.featureBadge-3ZA-Ca .featureTitle-W5O6R1,
+.icon-QVoPRH,
+.badgeIconWithSubscribers-3PlMu9,
+.colorPremium-p4p7qO .icon-LYJorE,
+.premiumIcon-1rDbWQ {
+  color: var(--nord-pink) !important;
+}
+
+.stream-3mNTxK,
+.featureUploadSize-2CAVFL .featureTitle-W5O6R1 {
+  color: var(--nord-cyan) !important;
+}
+
+.vanity-284TLk,
+.featureGoLive-30cvVw .featureTitle-W5O6R1 {
+  color: var(--nord-orange) !important;
+}
