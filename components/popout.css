@@ -10,11 +10,13 @@
 /**
  * Modal
  */
-.root-1gCeng {
+.root-1gCeng,
+.uploadModal-2ifh8j {
   background-color: var(--background-floating) !important;
 }
 
-.footer-2gL1pp {
+.footer-2gL1pp,
+.footer-3mqk7D {
   background-color: var(--background-secondary-alt) !important;
 }
 
