@@ -266,7 +266,7 @@
   box-shadow: inset 0 0 0 2px var(--nord-primary), inset 0 0 0 3px var(--background-floating) !important;
 }
 
-.theme-light .emptyHintCard-2mUdMe {
-  background-color: var(--background-primary);
-  color: var(--text-normal);
+.emptyHintCard-2mUdMe {
+  background-color: var(--background-primary) !important;
+  color: var(--text-normal) !important;
 }
