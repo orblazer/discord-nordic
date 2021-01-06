@@ -1,7 +1,7 @@
 /**
  * @name Nordic
  * @author orblazer#9152
- * @version 2.2.1
+ * @version 2.2.2
  * @description Complete theme for Nordic (https://www.nordtheme.com/)
  * @source https://github.com/orblazer/discord-nordic
  * @donate https://www.paypal.me/orblazer
@@ -154,7 +154,7 @@
   --background-help-info: rgba(94, 129, 172, 0.1);
   --background-channel-header: var(--background-secondary);
   --background-channel-header-gradient: linear-gradient(90deg, rgba(54, 60, 74, 0) 0, var(--background-secondary));
-  --background-server: var(--nord-black3);
+  --background-server: var(--background-primary);
   --background-friends-server: var(--nord-black1);
   --background-slider: var(--nord-black2);
   --background-friends-activity: var(--nord-black1);
@@ -256,7 +256,7 @@
   --background-help-info: rgba(94, 129, 172, 0.1);
   --background-channel-header: var(--background-secondary);
   --background-channel-header-gradient: linear-gradient(90deg, rgba(229, 233, 240, 0) 0, var(--background-secondary));
-  --background-server: var(--nord-light1);
+  --background-server: var(--background-primary);
   --background-friends-server: var(--nord-light2);
   --background-slider: var(--nord-light3);
   --background-friends-activity: var(--nord-light1);
