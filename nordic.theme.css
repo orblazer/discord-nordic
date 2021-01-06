@@ -1,7 +1,7 @@
 /**
  * @name Nordic
  * @author orblazer#9152
- * @version 2.2.2
+ * @version 2.2.3
  * @description Complete theme for Nordic (https://www.nordtheme.com/)
  * @source https://github.com/orblazer/discord-nordic
  * @donate https://www.paypal.me/orblazer
@@ -115,6 +115,9 @@
   --emoji-game-input-background: var(--nord-black3);
   --emoji-game-input-border: var(--nord-black4);
 
+  --text-flowerstar: var(--nord-light1);
+  --background-flowerstar: var(--nord-dark5);
+
   --text-bot-badge: var(--text-primary-background);
   --background-bot-badge: var(--nord-primary);
 
@@ -158,6 +161,7 @@
   --background-friends-server: var(--nord-black1);
   --background-slider: var(--nord-black2);
   --background-friends-activity: var(--nord-black1);
+  --background-spotify-slider: rgba(248, 249, 252, 0.3);
 
   --scrollbar-thin-thumb: var(--nord-dark4);
   --scrollbar-thin-track: transparent;
@@ -217,6 +221,9 @@
   --emoji-game-input-background: var(--nord-light3);
   --emoji-game-input-border: var(--nord-light4);
 
+  --text-flowerstar: var(--nord-dark1);
+  --background-flowerstar: var(--nord-light-1);
+
   --text-bot-badge: var(--text-primary-background);
   --background-bot-badge: var(--nord-primary);
 
@@ -260,6 +267,7 @@
   --background-friends-server: var(--nord-light2);
   --background-slider: var(--nord-light3);
   --background-friends-activity: var(--nord-light1);
+  --background-spotify-slider: rgba(248, 249, 252, 0.3);
 
   --scrollbar-thin-thumb: var(--nord-light-1);
   --scrollbar-thin-track: transparent;

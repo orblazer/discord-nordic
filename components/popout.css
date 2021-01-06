@@ -63,7 +63,9 @@
 .topSectionPlaying-1J5E4n .username-3gJmXY {
   color: var(--nord-light5);
 }
-.topSectionNormal-2-vo2m .username-3gJmXY {
+.topSectionNormal-2-vo2m .username-3gJmXY,
+.headerName-fajvi9,
+.headerTagUsernameNoNickname-2_H881 {
   color: var(--text-normal);
 }
 
@@ -75,9 +77,6 @@
 .topSectionSpotify-1lI0-P .discriminator-xUhQkU,
 .topSectionPlaying-1J5E4n .discriminator-xUhQkU {
   color: var(--nord-light2);
-}
-.topSectionNormal-2-vo2m .discriminator-xUhQkU {
-  color: var(--text-second);
 }
 
 .buttonInvertedPurple-WtBglX {
@@ -104,6 +103,10 @@
   color: var(--nord-light5) !important;
 }
 
+.text-AOoUen {
+  color: currentColor;
+}
+
 .topSectionStreaming-1Tpf5X .additionalActionsIcon-1FoUlE,
 .topSectionSpotify-1lI0-P .additionalActionsIcon-1FoUlE {
   color: var(--nord-light3);
@@ -119,6 +122,14 @@
 .tabBarItem-1b8RUP[style*='color: rgba(255, 255, 255, 0.6)'] {
   color: var(--nord-light3) !important;
   border-color: transparent !important;
+}
+
+.bar-3urHkF {
+  background-color: var(--background-spotify-slider);
+}
+
+.barInner-3NDaY_ {
+  background-color: var(--nord-light5);
 }
 
 /**
@@ -273,10 +284,9 @@
   color: var(--text-normal) !important;
 }
 
-
 /**
  * Delete message
  */
- .message-2qRu38 {
+.message-2qRu38 {
   background-color: var(--background-secondary-alt) !important;
 }

@@ -11,6 +11,13 @@
   color: var(--button-green-text);
 }
 
+.flowerStar-1GeTsn > path {
+  fill: var(--background-flowerstar);
+}
+.flowerStar-1GeTsn ~ .childContainer-1wxZNh path {
+  fill: var(--text-flowerstar);
+}
+
 /**
  * Number badge
  */
