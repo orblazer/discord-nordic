@@ -34,6 +34,8 @@
  */
 /* Online */
 .mask-1l8v16 rect[fill='#43b581'],
+.mask-1l8v16 rect[fill='rgba(67, 181, 129, 1)'],
+.mask-1qbNWk rect[fill='#43b581'],
 .mask-1qbNWk rect[fill='rgba(67, 181, 129, 1)'] {
   fill: var(--status-online);
 }
@@ -45,6 +47,8 @@
 
 /* Offline */
 .mask-1l8v16 rect[fill='#747f8d'],
+.mask-1l8v16 rect[fill='rgba(116, 127, 141, 1)'],
+.mask-1qbNWk rect[fill='#747f8d'],
 .mask-1qbNWk rect[fill='rgba(116, 127, 141, 1)'] {
   fill: var(--status-offline);
 }
@@ -55,6 +59,8 @@
 
 /* Idle */
 .mask-1l8v16 rect[fill='#faa61a'],
+.mask-1l8v16 rect[fill='rgba(250, 166, 26, 1)'],
+.mask-1qbNWk rect[fill='#747f8d'],
 .mask-1qbNWk rect[fill='rgba(250, 166, 26, 1)'] {
   fill: var(--status-idle);
 }
@@ -64,6 +70,8 @@
 
 /* DND */
 .mask-1l8v16 rect[fill='#f04747'],
+.mask-1l8v16 rect[fill='rgba(240, 71, 71, 1)'],
+.mask-1qbNWk rect[fill='#f04747'],
 .mask-1qbNWk rect[fill='rgba(240, 71, 71, 1)'] {
   fill: var(--status-dnd);
 }
@@ -73,6 +81,8 @@
 
 /* Stream */
 .mask-1l8v16 rect[fill='#593695'],
+.mask-1l8v16 rect[fill='rgba(89, 54, 149, 1)'],
+.mask-1qbNWk rect[fill='#593695'],
 .mask-1qbNWk rect[fill='rgba(89, 54, 149, 1)'] {
   fill: var(--status-stream);
 }
@@ -81,7 +91,8 @@
 }
 
 /* White */
-.mask-1l8v16 rect[fill='#ffffff'] {
+.mask-1l8v16 rect[fill='#ffffff'],
+.mask-1l8v16 rect[fill='rgba(255, 255, 255, 1)'] {
   fill: var(--nord-light4);
 }
 
