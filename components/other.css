@@ -84,7 +84,7 @@
  }
 
  .inset-3sAvek {
-   background-color: var(--background-friends-activity);
+   background-color: var(--background-friends-activity) !important;
  }
 
  /**
