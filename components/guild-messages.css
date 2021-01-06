@@ -102,6 +102,9 @@
 /**
  * Voice
  */
+.colorable-1bkp8v.red-33-Lnk .centerIcon-2G6o-T {
+  color: var(--button-red-text);
+}
 .colorable-1bkp8v.green-plH-Mj .centerIcon-2G6o-T {
   color: var(--button-green-text);
 }
