@@ -1,7 +1,7 @@
 /**
  * @name Nordic
  * @author orblazer#9152
- * @version 2.2.3
+ * @version 2.2.4
  * @description Complete theme for Nordic (https://www.nordtheme.com/)
  * @source https://github.com/orblazer/discord-nordic
  * @donate https://www.paypal.me/orblazer
@@ -181,8 +181,8 @@
   --deprecated-card-bg: var(--nord-dark1);
   --deprecated-card-editable-bg: rgba(32, 34, 37, 0.3);
   --deprecated-store-bg: #36393f;
-  --deprecated-quickswitcher-input-background: #72767d;
-  --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
+  --deprecated-quickswitcher-input-background: var(--nord-black2);
+  --deprecated-quickswitcher-input-placeholder: var(--text-muted);
   --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
   --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
   --deprecated-text-input-border-hover: #040405;
@@ -287,8 +287,8 @@
   --deprecated-card-bg: var(--nord-light1);
   --deprecated-card-editable-bg: rgba(236, 239, 244, 0.3);
   --deprecated-store-bg: #f8f9f9;
-  --deprecated-quickswitcher-input-background: #fff;
-  --deprecated-quickswitcher-input-placeholder: rgba(79, 84, 92, 0.3);
+  --deprecated-quickswitcher-input-background: var(--nord-light4);
+  --deprecated-quickswitcher-input-placeholder: var(--text-muted);
   --deprecated-text-input-bg: rgba(255, 255, 255, 0.1);
   --deprecated-text-input-border: rgba(255, 255, 255, 0.3);
   --deprecated-text-input-border-hover: #b9bbbe;
