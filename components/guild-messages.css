@@ -102,6 +102,10 @@
 /**
  * Voice
  */
+.colorable-1bkp8v.green-plH-Mj .centerIcon-2G6o-T {
+  color: var(--button-green-text);
+}
+
 /* RTC status */
 .rtcConnectionStatusConnected-VRZDjy,
 .rtcConnectionQualityFine-2J6i8z .pingForeground-2uAOZ3 {

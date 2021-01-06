@@ -146,20 +146,23 @@
 .lookFilled-1Gx00P.colorGreen-29iAKY,
 .tabBar-ZmDY9v .item-3HknzM[style*='background-color: rgb(67, 181, 129)'],
 .circleIconButton-jET_ig:hover,
-.circleIconButton-jET_ig.selected-ugP_am {
+.circleIconButton-jET_ig.selected-ugP_am,
+.colorable-1bkp8v.green-plH-Mj {
   background-color: var(--button-green) !important;
   color: var(--button-green-text) !important;
 }
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover,
 .tabBar-ZmDY9v .item-3HknzM[style*='background-color: rgb(67, 181, 129)']:hover,
-.circleIconButton-jET_ig:active {
+.circleIconButton-jET_ig:active,
+.colorable-1bkp8v.green-plH-Mj:hover {
   background-color: var(--button-green-hover) !important;
 }
 .lookFilled-1Gx00P.colorGreen-29iAKY:active,
 .tabBar-ZmDY9v .item-3HknzM[style*='background-color: rgb(67, 181, 129)']:active {
   background-color: var(--button-green-active) !important;
 }
-.lookOutlined-3sRXeN.colorGreen-29iAKY {
+.lookOutlined-3sRXeN.colorGreen-29iAKY,
+.colorable-1bkp8v.green-plH-Mj:active {
   color: var(--button-green);
   border-color: var(--button-green);
 }
