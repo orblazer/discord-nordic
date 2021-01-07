@@ -290,3 +290,34 @@
 .message-2qRu38 {
   background-color: var(--background-secondary-alt) !important;
 }
+
+/**
+ * Auto complete
+ */
+.autocomplete-1vrmpx {
+  background-color: var(--background-floating) !important;
+}
+
+.selected-1Tbx07 {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.contentTitle-2tG_sM {
+  color: var(--header-secondary) !important;
+}
+
+.contentTitle-2tG_sM > strong {
+  color: var(--header-primary) !important;
+}
+
+.content-Qb0rXO {
+  color: var(--text-normal) !important;
+}
+
+.descriptionUsername-J_75O8 {
+  color: var(--header-secondary) !important;
+}
+
+.descriptionDiscriminator-3vUOCc {
+  color: var(--text-muted) !important;
+}
