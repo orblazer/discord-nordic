@@ -65,6 +65,13 @@
   background-color: var(--background-secondary);
 }
 
+.operations-36ENbA {
+  color: var(--text-muted) !important;
+}
+.operations-36ENbA > a {
+  color: var(--nord-primary) !important;
+}
+
 /**
  * Mentioned
  */
