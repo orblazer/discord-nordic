@@ -40,32 +40,35 @@
   color: var(--text-normal) !important;
 }
 
-.topSectionStreaming-1Tpf5X {
+.topSectionStreaming-1Tpf5X,
+.headerStreaming-2FjmGz {
   background-color: var(--status-stream) !important;
 }
 
-.topSectionSpotify-1lI0-P {
+.topSectionSpotify-1lI0-P,
+.headerSpotify-zpWxgT {
   background-color: var(--nord-green);
 }
 
-.topSectionPlaying-1J5E4n {
+.topSectionPlaying-1J5E4n,
+.headerPlaying-j0WQBV {
   background-color: var(--nord-primary);
 }
 
 .body-3iLsc4,
 .footer-1fjuF6 {
   background-color: var(--background-floating) !important;
-  color: var(--text-muted) !important;
+  color: var(--text-secondary) !important;
 }
 
 .topSectionStreaming-1Tpf5X .username-3gJmXY,
 .topSectionSpotify-1lI0-P .username-3gJmXY,
-.topSectionPlaying-1J5E4n .username-3gJmXY {
+.topSectionPlaying-1J5E4n .username-3gJmXY,
+.headerPlaying-j0WQBV .headerName-fajvi9,
+.headerPlaying-j0WQBV .headerTagUsernameNoNickname-2_H881 {
   color: var(--nord-light5);
 }
-.topSectionNormal-2-vo2m .username-3gJmXY,
-.headerName-fajvi9,
-.headerTagUsernameNoNickname-2_H881 {
+.topSectionNormal-2-vo2m .username-3gJmXY {
   color: var(--text-normal);
 }
 
@@ -75,7 +78,10 @@
 
 .topSectionStreaming-1Tpf5X .discriminator-xUhQkU,
 .topSectionSpotify-1lI0-P .discriminator-xUhQkU,
-.topSectionPlaying-1J5E4n .discriminator-xUhQkU {
+.topSectionPlaying-1J5E4n .discriminator-xUhQkU,
+.headerStreaming-2FjmGz .headerTag-2pZJzA,
+.headerSpotify-zpWxgT .headerTag-2pZJzA,
+.headerPlaying-j0WQBV .headerTag-2pZJzA {
   color: var(--nord-light2);
 }
 
