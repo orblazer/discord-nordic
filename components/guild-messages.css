@@ -116,6 +116,10 @@
   color: var(--button-green-text);
 }
 
+.border-Jn5IOt.speaking-B2MXPi {
+  box-shadow: inset 0 0 0 2px var(--nord-green), inset 0 0 0 3px var(--background-floating);
+}
+
 /* RTC status */
 .rtcConnectionStatusConnected-VRZDjy,
 .rtcConnectionQualityFine-2J6i8z .pingForeground-2uAOZ3 {
