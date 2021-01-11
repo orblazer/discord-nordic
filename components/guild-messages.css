@@ -163,6 +163,14 @@
 .rtcConnectionQualityFine-2J6i8z .pingForeground-2uAOZ3 {
   color: var(--nord-green);
 }
+.rtcConnectionStatusConnecting-3322Pa,
+.rtcConnectionQualityAverage-3KV0u- .pingForeground-2uAOZ3:not(:last-child)  {
+  color: var(--nord-orange);
+}
+.rtcConnectionStatusError-2hLzrL,
+.rtcConnectionQualityBad-1J7mUU .pingForeground-2uAOZ3:first-child {
+  color: var(--nord-red);
+}
 
 /* Screen share */
 .segmentControlOption-1vCKaY {
