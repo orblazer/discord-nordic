@@ -1,7 +1,7 @@
 /**
  * @name Nordic
  * @author orblazer#9152
- * @version 2.5.4
+ * @version 2.6.0
  * @description Complete theme for Nordic (https://www.nordtheme.com/)
  * @source https://github.com/orblazer/discord-nordic
  * @donate https://www.paypal.me/orblazer
@@ -97,10 +97,17 @@
   --message-mentioned: var(--nord-primary);
   --calendar-border: var(--nord-black2);
 
+  --reaction-count: var(--nord-grey1);
+  --reaction-hover: var(--nord-light0);
+  --reaction-me: rgba(143, 188, 187, 0.3);
+
   --text-mention: var(--nord-primary);
   --background-mention: rgba(143, 188, 187, 0.1);
   --text-mention-hover: var(--text-primary-background);
   --background-mention-hover: var(--nord-primary);
+  --message-ephemeral: var(--nord-blue);
+  --background-ephemeral: rgba(94, 129, 172, 0.1);
+  --background-ephemeral-hover: rgba(94, 129, 172, 0.2);
 
   --background-defaultindicator: var(--nord-black3);
   --text-defaultindicator: var(--text-normal);
@@ -203,10 +210,17 @@
   --message-mentioned: var(--nord-primary);
   --calendar-border: var(--nord-light0);
 
+  --reaction-count: var(--nord-grey1);
+  --reaction-hover: var(--nord-dark5);
+  --reaction-me: rgba(143, 188, 187, 0.3);
+
   --text-mention: var(--nord-primary);
   --background-mention: rgba(143, 188, 187, 0.1);
   --text-mention-hover: var(--text-primary-background);
   --background-mention-hover: var(--nord-primary);
+  --message-ephemeral: var(--nord-blue);
+  --background-ephemeral: rgba(94, 129, 172, 0.1);
+  --background-ephemeral-hover: rgba(94, 129, 172, 0.2);
 
   --background-defaultindicator: var(--nord-light4);
   --text-defaultindicator: var(--text-normal);

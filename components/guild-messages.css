@@ -53,9 +53,12 @@
   color: var(--text-mention);
   background-color: var(--background-mention);
 }
-.wrapper-3WhCwL:hover {
+.message-2qnXI6:not(.mentioned-xhSam7) .wrapper-3WhCwL:hover {
   color: var(--text-mention-hover);
   background-color: var(--background-mention-hover);
+}
+.message-2qnXI6.mentioned-xhSam7 .mention:hover {
+  text-decoration: underline;
 }
 
 /**
@@ -81,6 +84,41 @@
 
 .mentioned-xhSam7 .mention.interactive:hover {
   color: var(--text-mention) !important;
+}
+
+.reactionCount-2mvXRV {
+  color: var(--reaction-count);
+}
+
+.reaction-1hd86g.reactionMe-wv5HKu {
+  background-color: var(--reaction-me);
+}
+
+.reactionMe-wv5HKu .reactionCount-2mvXRV,
+.reaction-1hd86g:hover .reactionCount-2mvXRV {
+  color: var(--reaction-hover);
+}
+
+/**
+ * Ephemeral
+ */
+.ephemeral-1PsL1r {
+  background-color: var(--background-ephemeral);
+}
+
+.message-2qnXI6.ephemeral-1PsL1r.selected-2P5D_Z,
+.message-2qnXI6.replying-1x3H0T.selected-2P5D_Z,
+.mouse-mode.full-motion .ephemeral-1PsL1r:hover,
+.mouse-mode.full-motion .replying-1x3H0T:hover {
+  background-color: var(--background-ephemeral-hover);
+}
+
+.ephemeral-1PsL1r:before {
+  background-color: var(--message-ephemeral);
+}
+
+.ephemeralMessage-1fEWtQ a {
+  color: var(--message-ephemeral);
 }
 
 /**
