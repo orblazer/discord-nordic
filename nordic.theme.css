@@ -1,7 +1,7 @@
 /**
  * @name Nordic
  * @author orblazer#9152
- * @version 2.5.3
+ * @version 2.5.4
  * @description Complete theme for Nordic (https://www.nordtheme.com/)
  * @source https://github.com/orblazer/discord-nordic
  * @donate https://www.paypal.me/orblazer
@@ -253,9 +253,9 @@
     rgba(236, 239, 244, 0),
     var(--background-secondary-alt) 50%
   );
-  --background-modifier-active: rgba(236, 239, 244, 0.24);
-  --background-modifier-selected: rgba(236, 239, 244, 0.32);
-  --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+  --background-modifier-active: rgba(155, 162, 172, 0.16);
+  --background-modifier-selected: rgba(155, 162, 172, 0.24);
+  --background-modifier-accent: rgba(96, 109, 133, 0.08);
   --background-mentioned: rgba(143, 188, 187, 0.35);
   --background-mentioned-hover: rgba(143, 188, 187, 0.45);
   --background-message-hover: rgba(155, 162, 172, 0.15);
