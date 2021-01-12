@@ -1,7 +1,7 @@
 /**
  * @name Nordic
  * @author orblazer#9152
- * @version 2.7.3
+ * @version 2.7.4
  * @description Complete theme for Nordic (https://www.nordtheme.com/)
  * @source https://github.com/orblazer/discord-nordic
  * @donate https://www.paypal.me/orblazer
@@ -108,6 +108,7 @@
   --message-ephemeral: var(--nord-blue);
   --background-ephemeral: rgba(94, 129, 172, 0.1);
   --background-ephemeral-hover: rgba(94, 129, 172, 0.2);
+  --mentioned-timestamp: var(--nord-grey1);
 
   --background-defaultindicator: var(--nord-black3);
   --text-defaultindicator: var(--text-normal);
@@ -221,6 +222,7 @@
   --message-ephemeral: var(--nord-blue);
   --background-ephemeral: rgba(94, 129, 172, 0.1);
   --background-ephemeral-hover: rgba(94, 129, 172, 0.2);
+  --mentioned-timestamp: var(--nord-grey1);
 
   --background-defaultindicator: var(--nord-light4);
   --text-defaultindicator: var(--text-normal);
