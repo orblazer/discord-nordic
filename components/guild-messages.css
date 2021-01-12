@@ -100,9 +100,10 @@
 }
 
 /**
- * Ephemeral
+ * Ephemeral/Replying
  */
-.ephemeral-1PsL1r {
+.ephemeral-1PsL1r,
+.replying-1x3H0T {
   background-color: var(--background-ephemeral);
 }
 
@@ -113,11 +114,13 @@
   background-color: var(--background-ephemeral-hover);
 }
 
-.ephemeral-1PsL1r:before {
+.ephemeral-1PsL1r::before,
+.replying-1x3H0T::before {
   background-color: var(--message-ephemeral);
 }
 
-.ephemeralMessage-1fEWtQ a {
+.ephemeralMessage-1fEWtQ a,
+.replying-1x3H0T a {
   color: var(--message-ephemeral);
 }
 
