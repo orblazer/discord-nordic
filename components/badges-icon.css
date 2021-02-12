@@ -235,16 +235,20 @@
 
 /* Boost icons */
 .emoji-14TyAm,
+.roleIcon-F8XDd3,
+.uploadSizeIcon-2HNa5p,
 .featureEmoji-3pTtR2 .featureTitle-W5O6R1 {
   color: var(--nord-yellow) !important;
 }
 
 .audio-PN_OoN,
+.audioQualityIcon-1KNkhv,
 .featurePremiumGuild-2KpCr6 .featureTitle-W5O6R1 {
   color: var(--nord-blue) !important;
 }
 
 .customization-1Iu5cE,
+.emojiIcon-2xOPMD,
 .featureProfile-tTo0C- .featureTitle-W5O6R1 {
   color: var(--nord-turquoise) !important;
 }
@@ -254,7 +258,11 @@
 .icon-QVoPRH,
 .badgeIconWithSubscribers-3PlMu9,
 .colorPremium-p4p7qO .icon-LYJorE,
-.premiumIcon-1rDbWQ {
+.premiumIcon-1rDbWQ,
+.premiumGuildIcon-13KUPa,
+.gemWithLabel-2aecE_,
+.gemIndicatorProgressCircle-3wDFa1,
+.memberBadgeIcon-1hpSQc {
   color: var(--nord-pink) !important;
 }
 

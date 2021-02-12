@@ -123,7 +123,8 @@
 }
 
 .tierHeaderUnlockedBackground-MW5XJU,
-.tierHeaderUnlocked-1n-OTI {
+.tierHeaderUnlocked-1n-OTI,
+.wrapper-3nSjSv {
   background-image: linear-gradient(90deg, var(--nord-blue), var(--nord-pink)) !important;
 }
 
@@ -142,4 +143,24 @@
 .tierLock-1oFMOZ,
 .tierLock-3CSxSX {
   color: var(--interactive-muted) !important;
+}
+
+.wrapper-3nSjSv {
+  color: var(--nord-light3);
+}
+
+.tierLabel-39IsmN {
+  color: var(--text-normal) !important;
+}
+
+.circleBackgroundAlt-Eohdst {
+  fill: var(--background-slider);
+}
+
+.gemWithoutLabel-7-ZvB_ {
+  color: var(--text-muted) !important;
+}
+
+.gemIndicatorContainer-2jdECl {
+background-color: var(--background-secondary) !important;
 }
