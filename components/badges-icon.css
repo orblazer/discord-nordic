@@ -41,7 +41,9 @@
 }
 .status-1AY8sU[style*='background-color: rgb(67, 181, 129)'],
 .dotOnline-pxc5-3,
-.dotOnline-8Ag7EB {
+.dotOnline-8Ag7EB,
+.dotOnline-2wEpt_,
+.statusOnline-8PnF5L {
   background-color: var(--status-online) !important;
 }
 
@@ -53,7 +55,9 @@
   fill: var(--status-offline);
 }
 .status-1AY8sU[style*='background-color: rgb(116, 127, 141)'],
-.dotOffline-3DXoDy {
+.dotOffline-3DXoDy,
+.dotMembers-1XEUE5,
+.statusOffline-37RKt7 {
   background-color: var(--status-offline) !important;
 }
 
