@@ -56,14 +56,17 @@
 .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z,
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG,
 .selectorButtonSelected-t5V9On,
-.selectedBrand-1UKrSX {
+.selectedBrand-1UKrSX,
+.activeButton-rvKcqq,
+.activeButton-rvKcqq:hover {
   background-color: var(--button-primary) !important;
   color: var(--button-primary-text) !important;
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover,
 .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z:hover,
 .selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover,
-.selectedBrand-1UKrSX.focused-dKLoQt, .selectedBrand-1UKrSX:hover {
+.selectedBrand-1UKrSX.focused-dKLoQt,
+.selectedBrand-1UKrSX:hover {
   background-color: var(--button-primary-hover) !important;
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91:active,

@@ -82,6 +82,8 @@
 
   --category-fade-background: rgba(143, 188, 187, 0.8);
   --category-fade-background-hover: rgba(143, 188, 187, 0.95);
+
+  --highlight: rgba(235, 203, 139, 0.4);
 }
 
 .theme-dark {

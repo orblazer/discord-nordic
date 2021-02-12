@@ -2,6 +2,10 @@
   background-color: var(--background-selection);
 }
 
+.highlight {
+  background-color: var(--highlight);
+}
+
 .theme-light .card-o7rAq- {
   border-color: var(--nord-light2);
 }
