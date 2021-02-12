@@ -120,8 +120,8 @@
   --keybind-text: var(--text-normal);
   --keybind-shadow: var(--nord-black2);
 
-  --emoji-game-input-background: var(--nord-black3);
-  --emoji-game-input-border: var(--nord-black4);
+  --emoji-game-input-background: transparent;
+  --emoji-game-input-border: var(--nord-black3);
 
   --text-flowerstar: var(--nord-light1);
   --background-flowerstar: var(--nord-dark5);
@@ -234,8 +234,8 @@
   --keybind-text: var(--text-normal);
   --keybind-shadow: var(--nord-light-1);
 
-  --emoji-game-input-background: var(--nord-light3);
-  --emoji-game-input-border: var(--nord-light4);
+  --emoji-game-input-background: transparent;
+  --emoji-game-input-border: var(--nord-dark5);
 
   --text-flowerstar: var(--nord-dark1);
   --background-flowerstar: var(--nord-light-1);
