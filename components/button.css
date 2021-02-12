@@ -139,8 +139,19 @@
   background-color: var(--button-red-active-outlined);
   color: var(--button-red);
 }
+.lookLink-9FtZy-.colorRed-1TFJan,
 .side-8zPYf6 .item-PXvHYJ[style*='color: rgb(240, 71, 71)'] {
   color: var(--button-red) !important;
+}
+.lookLink-9FtZy-.colorRed-1TFJan:hover .contents-18-Yxp {
+  background-image: linear-gradient(
+    0deg,
+    transparent,
+    transparent 1px,
+    var(--button-red) 0,
+    var(--button-red) 2px,
+    transparent 0
+  );
 }
 .side-8zPYf6 .item-PXvHYJ[style*='background-color: rgba(240, 71, 71, 0.1)'] {
   background-color: var(--button-red-active-outlined) !important;
