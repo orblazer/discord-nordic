@@ -5,6 +5,14 @@
   background-color: var(--background-accent);
 }
 
+.actionButton-uPB8Fs.actionAccept-LV-szU:hover {
+  color: var(--nord-green) !important;
+}
+
+.actionButton-uPB8Fs.actionDeny-de_uKj:hover {
+  color: var(--nord-red) !important;
+}
+
 /* Grey/Primary */
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
 .lookFilled-1Gx00P.colorPrimary-3b3xI6,
