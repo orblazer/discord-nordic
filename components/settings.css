@@ -58,6 +58,15 @@
   color: var(--text-muted) !important;
 }
 
+.nowPlaying-284llR {
+  background-color: var(--nord-green) !important;
+}
+
+.nowPlaying-284llR .overlayToggleIconOff-1kT42w .fill-1ugeBG,
+.nowPlaying-284llR .overlayToggleIconOn-3UNmty .fill-1ugeBG {
+  fill: var(--nord-dark5) !important;
+}
+
 /**
  * Avatar
  */
@@ -162,5 +171,5 @@
 }
 
 .gemIndicatorContainer-2jdECl {
-background-color: var(--background-secondary) !important;
+  background-color: var(--background-secondary) !important;
 }

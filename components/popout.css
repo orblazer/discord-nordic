@@ -11,7 +11,8 @@
  * Modal
  */
 .root-1gCeng,
-.uploadModal-2ifh8j {
+.uploadModal-2ifh8j,
+.addGamePopout-2RY8Ju {
   background-color: var(--background-floating) !important;
 }
 
