@@ -118,7 +118,8 @@
 }
 
 /* Black */
-.tooltipBlack-PPG47z {
+.tooltipBlack-PPG47z,
+.popout-38lTFE {
   background-color: var(--nord-black3) !important;
 }
 .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
