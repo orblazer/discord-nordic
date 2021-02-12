@@ -189,8 +189,8 @@
 }
 
 .calendarPicker-2yf6Ci .react-datepicker__day {
-  border-top-color: var(--border-calendar) !important;
-  border-left-color: var(--border-calendar) !important;
+  border-top-color: var(--calendar-border) !important;
+  border-left-color: var(--calendar-border) !important;
   color: var(--text-normal) !important;
 }
 .calendarPicker-2yf6Ci .react-datepicker__week .react-datepicker__day:last-of-type {
