@@ -1,3 +1,7 @@
+::selection {
+  background-color: var(--background-selection);
+}
+
 .theme-light .card-o7rAq- {
   border-color: var(--nord-light2);
 }

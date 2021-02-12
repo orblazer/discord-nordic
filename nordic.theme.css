@@ -170,6 +170,7 @@
   --background-slider: var(--nord-black2);
   --background-friends-activity: var(--nord-black1);
   --background-spotify-slider: rgba(248, 249, 252, 0.3);
+  --background-selection: rgba(94, 129, 172, 0.3);
 
   --scrollbar-thin-thumb: var(--nord-dark4);
   --scrollbar-thin-track: transparent;
@@ -284,6 +285,7 @@
   --background-slider: var(--nord-light3);
   --background-friends-activity: var(--nord-light1);
   --background-spotify-slider: rgba(248, 249, 252, 0.3);
+  --background-selection: rgba(94, 129, 172, 0.3);
 
   --scrollbar-thin-thumb: var(--nord-light-1);
   --scrollbar-thin-track: transparent;
