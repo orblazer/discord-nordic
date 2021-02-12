@@ -173,3 +173,36 @@
 .gemIndicatorContainer-2jdECl {
   background-color: var(--background-secondary) !important;
 }
+
+/**
+ * Overlay
+ */
+.wrapper-3jrx9n {
+  border-color: var(--nord-primary);
+}
+
+.wrapper-3jrx9n.disabledSelected-2Kf0yZ {
+  border-color: var(--nord-red);
+}
+
+.option-n0icdO {
+  background-color: var(--background-accent);
+}
+
+.disabled-3I9jyo {
+  color: var(--background-accent);
+}
+
+.disabled-3I9jyo:hover,
+.selected-mKYnfr.disabled-3I9jyo {
+  color: var(--nord-red);
+}
+
+.selected-mKYnfr.option-n0icdO {
+  background-color: var(--nord-primary);
+  border-color: var(--nord-primary);
+}
+
+.option-n0icdO:hover {
+  background-color: var(--nord-primary);
+}
