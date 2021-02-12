@@ -327,3 +327,18 @@
 .descriptionDiscriminator-3vUOCc {
   color: var(--text-muted) !important;
 }
+
+/**
+ * Quick select
+ */
+.quickSelectPopout-X1hvgV {
+  background-color: var(--background-floating) !important;
+}
+
+.quickSelectPopoutOption-opKBx9:hover {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.regionSelectName-c5qL8O {
+  color: var(--text-normal) !important;
+}
