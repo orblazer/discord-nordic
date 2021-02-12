@@ -295,7 +295,7 @@
   --scrollbar-auto-scrollbar-color-track: var(--nord-light1);
 
   --elevation-stroke: 0 0 0 1px var(--nord-light1);
-  --elevation-low: 0 1px 0 var(--nord-black1);
+  --elevation-low: 0 1px 0 var(--nord-grey1);
 
   --logo-primary: var(--nord-primary);
   --focus-primary: var(--nord-blue);
