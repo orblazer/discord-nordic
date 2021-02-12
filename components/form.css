@@ -51,12 +51,21 @@
 /**
  * Slider
  */
-.bar-2Qqk5Z {
+.bar-2Qqk5Z:not(.sliderBar-3DezvM),
+.progress-1IcQ3A {
   background-color: var(--background-slider) !important;
+}
+
+.bar-2Qqk5Z[style*="background: rgb(105, 196, 154)"] {
+  background-color: var(--nord-green) !important;
 }
 
 .barFill-23-gu- {
   background-color: var(--nord-primary);
+}
+
+.barFill-23-gu-[style*='background: rgb(251, 184, 72)'] {
+  background-color: var(--nord-orange) !important;
 }
 
 .userSettingsVoice-iwdUCU .sliderBar-3DezvM.speaking-2bFhO4 {
@@ -66,18 +75,18 @@
 /**
  * Select
  */
- .css-3vaxre-menu,
- .css-1x99fvh-menu {
-   background-color: var(--background-floating);
-   color: var(--text-normal);
- }
+.css-3vaxre-menu,
+.css-1x99fvh-menu {
+  background-color: var(--background-floating);
+  color: var(--text-normal);
+}
 
- .css-3vaxre-menu {
-   border-color: var(--nord-black1);
- }
- .css-1x99fvh-menu {
-   border-color: var(--nord-grey1);
- }
+.css-3vaxre-menu {
+  border-color: var(--nord-black1);
+}
+.css-1x99fvh-menu {
+  border-color: var(--nord-grey1);
+}
 
 .css-1ye7vu0::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-thin-thumb);
