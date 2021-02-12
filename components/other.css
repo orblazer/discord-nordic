@@ -12,6 +12,15 @@
   color: var(--text-normal) !important;
 }
 
+.notice-1tZwqv {
+  background-color: var(--nord-blue);
+  color: var(--text-normal);
+}
+
+.button-3Ijpww:hover {
+  background-color: var(--nord-cyan);
+}
+
 /**
  * Text
  */
