@@ -149,7 +149,7 @@
  * NSFW
  */
 .textBadge-1iylP6[style*='background-color: rgb(240, 71, 71)'] {
-  background-color: var(--button-red);
+  background-color: var(--button-red) !important;
   color: var(--button-red-text);
 }
 
