@@ -104,6 +104,14 @@
 /**
   * Tooltip
   */
+/* Primary */
+.tooltipBrand-g03Nz8 {
+  background-color: var(--nord-primary) !important;
+}
+.tooltipBrand-g03Nz8 .tooltipPointer-3ZfirK {
+  border-top-color: var(--nord-primary) !important;
+}
+
 /* Black */
 .tooltipBlack-PPG47z {
   background-color: var(--nord-black3) !important;

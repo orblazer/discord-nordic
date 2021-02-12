@@ -96,6 +96,7 @@
   --channels-default: var(--text-normal);
   --message-mentioned: var(--nord-primary);
   --calendar-border: var(--nord-black2);
+  --divider: var(--nord-black2);
 
   --reaction-count: var(--nord-grey1);
   --reaction-hover: var(--nord-light0);
@@ -211,6 +212,7 @@
   --channels-default: var(--text-normal);
   --message-mentioned: var(--nord-primary);
   --calendar-border: var(--nord-light0);
+  --divider: var(--nord-light-1);
 
   --reaction-count: var(--nord-grey1);
   --reaction-hover: var(--nord-dark5);
