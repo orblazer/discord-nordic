@@ -60,7 +60,7 @@
 /* Idle */
 .mask-1l8v16 rect[fill='#faa61a'],
 .mask-1l8v16 rect[fill='rgba(250, 166, 26, 1)'],
-.mask-1qbNWk rect[fill='#747f8d'],
+.mask-1qbNWk rect[fill='#faa61a'],
 .mask-1qbNWk rect[fill='rgba(250, 166, 26, 1)'] {
   fill: var(--status-idle);
 }
