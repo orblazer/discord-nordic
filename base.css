@@ -1,3 +1,11 @@
+@import url('https://orblazer.github.io/discord-nordic/components/badges-icon.css');
+@import url('https://orblazer.github.io/discord-nordic/components/button.css');
+@import url('https://orblazer.github.io/discord-nordic/components/form.css');
+@import url('https://orblazer.github.io/discord-nordic/components/guild-messages.css');
+@import url('https://orblazer.github.io/discord-nordic/components/other.css');
+@import url('https://orblazer.github.io/discord-nordic/components/popout.css');
+@import url('https://orblazer.github.io/discord-nordic/components/settings.css');
+
 :root {
   --nord-dark1: #2e3440;
   --nord-dark2: #3b4252;

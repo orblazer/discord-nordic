@@ -8,11 +8,20 @@
  * @authorId 179681974879911946
 */
 
+/**
+ * SOURCE CODE
+ * /!\ DONT TOUCH ! /!\
+ */
 @import url('https://orblazer.github.io/discord-nordic/base.css');
-@import url('https://orblazer.github.io/discord-nordic/components/badges-icon.css');
-@import url('https://orblazer.github.io/discord-nordic/components/button.css');
-@import url('https://orblazer.github.io/discord-nordic/components/form.css');
-@import url('https://orblazer.github.io/discord-nordic/components/guild-messages.css');
-@import url('https://orblazer.github.io/discord-nordic/components/other.css');
-@import url('https://orblazer.github.io/discord-nordic/components/popout.css');
-@import url('https://orblazer.github.io/discord-nordic/components/settings.css');
+
+/**
+ * CUSTOMIZATION
+ */
+:root {
+}
+
+.theme-dark {
+}
+
+.theme-light {
+}
