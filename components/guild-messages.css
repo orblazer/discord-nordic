@@ -41,6 +41,15 @@
   color: var(--button-green-text);
 }
 
+.guildsError-b7zR5H {
+  border-color: var(--button-red);
+}
+
+.guildsError-b7zR5H:hover {
+  background-color: var(--button-red);
+  color: var(--button-red-text);
+}
+
 /**
  * Channel
  */
