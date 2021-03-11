@@ -13,12 +13,15 @@
 .root-1gCeng:not(.modal-qgFCbT),
 .uploadModal-2ifh8j,
 .addGamePopout-2RY8Ju,
-.modal-yWgWj- {
+.modal-yWgWj-,
+.container-1If-HZ,
+.reactors-Blmlhw {
   background-color: var(--background-floating) !important;
 }
 
 .footer-2gL1pp,
-.footer-3mqk7D {
+.footer-3mqk7D,
+.scroller-1-nKid {
   background-color: var(--background-secondary-alt) !important;
 }
 
@@ -166,7 +169,9 @@
   background: var(--background-floating-gradient) !important;
 }
 
-.option-96V44q.selected-rZcOL- {
+.option-96V44q.selected-rZcOL-,
+.reactionSelected-1pqISm,
+.reactionDefault-GBA58K:hover {
   background-color: var(--background-modifier-hover) !important;
 }
 
