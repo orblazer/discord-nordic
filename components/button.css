@@ -169,15 +169,15 @@
 /* Green */
 .lookFilled-1Gx00P.colorGreen-29iAKY,
 .tabBar-ZmDY9v .item-3HknzM[style*='background-color: rgb(67, 181, 129)'],
-.circleIconButton-jET_ig:hover,
-.circleIconButton-jET_ig.selected-ugP_am,
+.circleIconButton-1QV--U:hover,
+.circleIconButton-1QV--U.selected-ugP_am,
 .colorable-1bkp8v.green-plH-Mj {
   background-color: var(--button-green) !important;
   color: var(--button-green-text) !important;
 }
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover,
 .tabBar-ZmDY9v .item-3HknzM[style*='background-color: rgb(67, 181, 129)']:hover,
-.circleIconButton-jET_ig:active,
+.circleIconButton-1QV--U:active,
 .colorable-1bkp8v.green-plH-Mj:hover {
   background-color: var(--button-green-hover) !important;
 }
