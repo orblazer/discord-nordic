@@ -1,0 +1,4 @@
+.bd-modal-wrapper .bd-modal-body,
+.bd-modal-wrapper .header {
+  background-color: var(--background-floating) !important;
+}
