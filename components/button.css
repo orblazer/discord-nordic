@@ -131,6 +131,9 @@
 .colorable-1bkp8v.red-33-Lnk:active {
   background-color: var(--button-red-active);
 }
+.lookFilled-1Gx00P.colorRed-1TFJan:disabled {
+  background-color: var(--button-red-disabled);
+}
 .lookOutlined-3sRXeN.colorRed-1TFJan {
   border-color: var(--button-red);
   color: var(--button-red);

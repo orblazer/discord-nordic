@@ -65,6 +65,7 @@
   --button-red-hover: #ac5861;
   --button-red-active: #975056;
   --button-red-active-outlined: rgba(191, 97, 106, 0.1);
+  --button-red-disabled: #ab5860;
   --button-white: var(--nord-light3);
   --button-white-text: var(--nord-black1);
   --button-white-hover: var(--nord-light1);
