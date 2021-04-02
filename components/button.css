@@ -37,14 +37,14 @@
   background-color: var(--button-grey-active) !important;
 }
 .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
-  color: var(--text-normal);
-  border-color: var(--text-normal);
+  color: var(--text-normal) !important;
+  border-color: var(--text-normal) !important;
 }
 .lookOutlined-3sRXeN.colorPrimary-3b3xI6:hover {
-  background-color: var(--background-modifier-hover);
+  background-color: var(--background-modifier-hover) !important;
 }
 .lookOutlined-3sRXeN.colorPrimary-3b3xI6:active {
-  background-color: var(--background-modifier-active);
+  background-color: var(--background-modifier-active) !important;
 }
 .lookGhost-2Fn_0-.colorGrey-2DXtkV {
   color: var(--button-grey-ghost-text);
