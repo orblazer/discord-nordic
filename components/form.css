@@ -56,7 +56,7 @@
   background-color: var(--background-slider) !important;
 }
 
-.bar-2Qqk5Z[style*="background: rgb(105, 196, 154)"] {
+.bar-2Qqk5Z[style*='background: rgb(105, 196, 154)'] {
   background-color: var(--nord-green) !important;
 }
 
@@ -108,17 +108,21 @@
 /**
  * Search box
  */
-.search-1iTphC .searchBox-2_mAlO {
-  background-color: var(--background-primary);
+.search-1iTphC .searchBox-2_mAlO,
+.header-2bNvm4 {
+  background-color: var(--background-primary) !important;
 }
 
-.search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng {
-  color: var(--text-normal);
+.search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng,
+.container-VSDcQc .input-1ppKdn {
+  color: var(--text-normal) !important;
 }
 .search-1iTphC .searchBox-2_mAlO .closeIcon-2WLZc1,
 .search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng::placeholder,
-.search-1iTphC .searchBox-2_mAlO .searchIcon-6ljH-4 {
-  color: var(--text-muted);
+.search-1iTphC .searchBox-2_mAlO .searchIcon-6ljH-4,
+.container-VSDcQc .sectionTag-pXyto9,
+.container-VSDcQc .input-1ppKdn::placeholder {
+  color: var(--text-muted) !important;
 }
 
 .search-1iTphC .searchBox-2_mAlO .closeIcon-2WLZc1:hover {
