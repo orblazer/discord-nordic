@@ -1,16 +1,16 @@
 /**
  * Button
  */
-.actionButton-uPB8Fs:hover {
-  background-color: var(--background-accent);
+.passthrough-1c2ewQ.selected-2YhbGh {
+  color: var(--text-normal);
 }
 
-.actionButton-uPB8Fs.actionAccept-LV-szU:hover {
-  color: var(--nord-green) !important;
+.allow-1PzSY3 {
+  color: var(--nord-green);
 }
 
-.actionButton-uPB8Fs.actionDeny-de_uKj:hover {
-  color: var(--nord-red) !important;
+.deny-3nAuT6 {
+  color: var(--nord-red);
 }
 
 /* Grey/Primary */
@@ -120,7 +120,8 @@
 /* Red */
 .lookFilled-1Gx00P.colorRed-1TFJan,
 .filled-1iCBCZ,
-.colorable-1bkp8v.red-33-Lnk {
+.colorable-1bkp8v.red-33-Lnk,
+.deny-3nAuT6.selected-2YhbGh {
   background-color: var(--button-red);
   color: var(--button-red-text);
 }
@@ -177,7 +178,8 @@
 .tabBar-ZmDY9v .item-3HknzM[style*='background-color: rgb(67, 181, 129)'],
 .circleIconButton-1QV--U:hover,
 .circleIconButton-1QV--U.selected-1JjBPm,
-.colorable-1bkp8v.green-plH-Mj {
+.colorable-1bkp8v.green-plH-Mj,
+.allow-1PzSY3.selected-2YhbGh {
   background-color: var(--button-green) !important;
   color: var(--button-green-text) !important;
 }
