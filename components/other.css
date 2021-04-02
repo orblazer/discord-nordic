@@ -149,3 +149,38 @@
 .tooltipYellow-E7eIBE .tooltipPointer-3ZfirK {
   border-top-color: var(--nord-orange) !important;
 }
+
+/**
+ * Changelog
+ */
+.added-2hLRj3 {
+  color: var(--nord-green);
+}
+
+.added-2hLRj3::after {
+  background-color: var(--nord-green);
+}
+
+.fixed-3zCC84 {
+  color: var(--nord-red);
+}
+
+.fixed-3zCC84::after {
+  background-color: var(--nord-red);
+}
+
+.progress-YsDrV- {
+  color: var(--nord-orange);
+}
+
+.progress-YsDrV-::after {
+  background-color: var(--nord-orange);
+}
+
+.improved-1NJK-y {
+  color: var(--nord-primary);
+}
+
+.improved-1NJK-y::after {
+  background-color: var(--nord-primary);
+}
