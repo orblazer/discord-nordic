@@ -148,7 +148,8 @@
   color: var(--button-primary-text);
 }
 
-.messagesErrorBar-nyJGU7 {
+.messagesErrorBar-nyJGU7,
+.status-1WEaea {
   background-color: var(--nord-red);
   color: var(--text-normal);
 }
@@ -179,6 +180,10 @@
 }
 .avatarSpeaking-2IGMRN {
   box-shadow: inset 0 0 0 2px var(--nord-green), inset 0 0 0 3px var(--background-secondary);
+}
+
+.mention-1f5kbO {
+  background-color: var(--nord-red);
 }
 
 /* RTC status */
