@@ -148,8 +148,7 @@
   color: var(--button-primary-text);
 }
 
-.messagesErrorBar-nyJGU7,
-.status-1WEaea {
+.messagesErrorBar-nyJGU7 {
   background-color: var(--nord-red);
   color: var(--text-normal);
 }

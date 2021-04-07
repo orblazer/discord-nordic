@@ -121,18 +121,21 @@
 .lookFilled-1Gx00P.colorRed-1TFJan,
 .filled-1iCBCZ,
 .colorable-1bkp8v.red-33-Lnk,
-.deny-3nAuT6.selected-2YhbGh {
+.deny-3nAuT6.selected-2YhbGh,
+.status-1WEaea {
   background-color: var(--button-red);
   color: var(--button-red-text);
 }
 .lookFilled-1Gx00P.colorRed-1TFJan:hover,
 .filled-1iCBCZ:hover,
-.colorable-1bkp8v.red-33-Lnk:hover {
+.colorable-1bkp8v.red-33-Lnk:hover,
+.status-1WEaea:hover {
   background-color: var(--button-red-hover);
 }
 .lookFilled-1Gx00P.colorRed-1TFJan:active,
 .filled-1iCBCZ:active,
-.colorable-1bkp8v.red-33-Lnk:active {
+.colorable-1bkp8v.red-33-Lnk:active,
+.status-1WEaea:active {
   background-color: var(--button-red-active);
 }
 .lookFilled-1Gx00P.colorRed-1TFJan:disabled {
