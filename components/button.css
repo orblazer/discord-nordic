@@ -36,14 +36,17 @@
 .colorable-1bkp8v.primaryDark-3mSFDl:active {
   background-color: var(--button-grey-active) !important;
 }
-.lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
+.lookOutlined-3sRXeN.colorPrimary-3b3xI6,
+.watchButton-2SbJEo {
   color: var(--text-normal) !important;
   border-color: var(--text-normal) !important;
 }
-.lookOutlined-3sRXeN.colorPrimary-3b3xI6:hover {
+.lookOutlined-3sRXeN.colorPrimary-3b3xI6:hover,
+.watchButton-2SbJEo:hover {
   background-color: var(--background-modifier-hover) !important;
 }
-.lookOutlined-3sRXeN.colorPrimary-3b3xI6:active {
+.lookOutlined-3sRXeN.colorPrimary-3b3xI6:active,
+.watchButton-2SbJEo:active {
   background-color: var(--background-modifier-active) !important;
 }
 .lookGhost-2Fn_0-.colorGrey-2DXtkV {
