@@ -158,7 +158,8 @@
   color: var(--button-red);
 }
 .lookLink-9FtZy-.colorRed-1TFJan,
-.side-8zPYf6 .item-PXvHYJ[style*='color: rgb(240, 71, 71)'] {
+.side-8zPYf6 .item-PXvHYJ[style*='color: rgb(240, 71, 71)'],
+.actionButton-uPB8Fs.actionDeny-de_uKj:hover {
   color: var(--button-red) !important;
 }
 .lookLink-9FtZy-.colorRed-1TFJan:hover .contents-18-Yxp {
@@ -218,6 +219,9 @@
 .tabBar-ZmDY9v
   .item-3HknzM[style*='color: rgb(67, 181, 129)']:not([style*='background-color: rgb(67, 181, 129)']):active {
   background-color: var(--button-green-ghost-active) !important;
+}
+.actionButton-uPB8Fs.actionAccept-LV-szU:hover {
+  color: var(--button-green) !important;
 }
 
 /* White */
