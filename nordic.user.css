@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name            Discord Nordic Theme
+@description     Complete theme for Nordic (https://www.nordtheme.com/)
+@namespace       https://github.com/orblazer/discord-nordic
+@version         2.8.12
+@match           https://discord.com/*
+@homepageURL     https://github.com/orblazer/discord-nordic
+@supportURL      https://github.com/orblazer/discord-nordic/issues
+==/UserStyle== */
+
+@-moz-document domain("discord.com") {    
+    @import url('https://orblazer.github.io/discord-nordic/base.css');
+}
