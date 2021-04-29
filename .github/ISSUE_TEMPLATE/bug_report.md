@@ -28,6 +28,7 @@ If applicable, add screenshots to help explain your problem.
  - Theme version : [e.g. 2.8.1]
  - Discord Version : [e.g. Stable 77192 (f5037df)]
  - BDD version : [e.g. 0.3.5]
+ - Is `nordic.user.css` ?
 
 **Additional context**
 Add any other context about the problem here.

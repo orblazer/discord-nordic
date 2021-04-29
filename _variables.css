@@ -1,0 +1,302 @@
+:root {
+  --nord-dark1: #2e3440;
+  --nord-dark2: #3b4252;
+  --nord-dark3: #434c5e;
+  --nord-dark4: #4c566a;
+  --nord-light1: #d8dee9;
+  --nord-light2: #e5e9f0;
+  --nord-light3: #eceff4;
+  --nord-green-blue: #8fbcbb;
+  --nord-turquoise: #88c0d0;
+  --nord-cyan: #81a1c1;
+  --nord-blue: #5e81ac;
+  --nord-red: #bf616a;
+  --nord-orange: #d08770;
+  --nord-yellow: #ebcb8b;
+  --nord-green: #a3be8c;
+  --nord-pink: #b48ead;
+
+  --nord-light-1: #cdd3e0;
+  --nord-light0: #c5ccd8;
+  --nord-light4: #f1f3f7;
+  --nord-light5: #f8f9fc;
+  --nord-grey1: #9ba2ac;
+  --nord-black1: #2b303b;
+  --nord-black2: #20242c;
+  --nord-black3: #15181e;
+  --nord-dark5: #606d85;
+  --nord-primary: var(--nord-green-blue);
+
+  --button-primary: var(--nord-primary);
+  --button-primary-text: var(--nord-dark1);
+  --button-primary-hover: #7da8a8;
+  --button-primary-active: #709494;
+  --button-primary-active-outlined: rgba(143, 188, 187, 0.1);
+  --button-primary-disabled: #749191;
+  --button-primary-ghost: rgba(143, 188, 187, 0.1);
+  --button-primary-ghost-text: var(--nord-primary);
+  --button-primary-ghost-hover: rgba(125, 168, 168, 0.1);
+  --button-primary-ghost-active: rgba(112, 148, 148, 0.1);
+  --button-green: var(--nord-green);
+  --button-green-text: var(--nord-dark1);
+  --button-green-hover: #93ac7e;
+  --button-green-active: #82996f;
+  --button-green-ghost: rgba(163, 190, 140, 0.1);
+  --button-green-ghost-text: var(--nord-green);
+  --button-green-ghost-hover: rgba(147, 172, 126, 0.1);
+  --button-green-ghost-active: rgba(130, 153, 111, 0.1);
+  --button-grey: var(--nord-dark4);
+  --button-grey-text: var(--nord-light1);
+  --button-grey-hover: var(--nord-dark3);
+  --button-grey-active: var(--nord-dark2);
+  --button-grey-ghost: rgba(76, 86, 106, 0.1);
+  --button-grey-ghost-text: var(--nord-dark4);
+  --button-red: var(--nord-red);
+  --button-red-text: var(--nord-light5);
+  --button-red-hover: #ac5861;
+  --button-red-active: #975056;
+  --button-red-active-outlined: rgba(191, 97, 106, 0.1);
+  --button-red-disabled: #ab5860;
+  --button-white: var(--nord-light3);
+  --button-white-text: var(--nord-black1);
+  --button-white-hover: var(--nord-light1);
+  --button-white-active: var(--nord-light0);
+  --button-white-outlined: rgba(236, 239, 244, 0.1);
+
+  --category-fade-background: rgba(143, 188, 187, 0.8);
+  --category-fade-background-hover: rgba(143, 188, 187, 0.95);
+
+  --highlight: rgba(235, 203, 139, 0.4);
+}
+
+.theme-dark {
+  --header-primary: var(--nord-light3);
+  --header-secondary: #a6b0bf;
+  --text-normal: var(--nord-light1);
+  --text-secondary: var(--nord-light0);
+  --text-primary-background: var(--nord-black1);
+  --text-muted: var(--nord-dark5);
+  --text-link: #3b8ef3;
+  --text-searchbox-close: var(--nord-dark4);
+  --channels-default: var(--text-normal);
+  --message-mentioned: var(--nord-primary);
+  --calendar-border: var(--nord-black2);
+  --divider: var(--nord-black2);
+
+  --reaction-count: var(--nord-grey1);
+  --reaction-hover: var(--nord-light0);
+  --reaction-me: rgba(143, 188, 187, 0.3);
+
+  --text-mention: var(--nord-primary);
+  --background-mention: rgba(143, 188, 187, 0.1);
+  --text-mention-hover: var(--text-primary-background);
+  --background-mention-hover: var(--nord-primary);
+  --message-ephemeral: var(--nord-blue);
+  --background-ephemeral: rgba(94, 129, 172, 0.1);
+  --background-ephemeral-hover: rgba(94, 129, 172, 0.2);
+  --mentioned-timestamp: var(--nord-grey1);
+
+  --background-defaultindicator: var(--nord-black3);
+  --text-defaultindicator: var(--text-normal);
+
+  --card-settings-background: var(--nord-black1);
+  --card-settings-border: var(--nord-black3);
+
+  --keybind-background: var(--nord-dark5);
+  --keybind-text: var(--text-normal);
+  --keybind-shadow: var(--nord-black2);
+
+  --emoji-game-input-background: transparent;
+  --emoji-game-input-border: var(--nord-black3);
+
+  --text-flowerstar: var(--nord-light1);
+  --background-flowerstar: var(--nord-dark5);
+
+  --text-bot-badge: var(--text-primary-background);
+  --background-bot-badge: var(--nord-primary);
+
+  --status-online: var(--nord-green);
+  --status-offline: var(--nord-grey1);
+  --status-idle: var(--nord-orange);
+  --status-dnd: var(--nord-red);
+  --status-stream: var(--nord-pink);
+  --ownerIcon: var(--nord-orange);
+  --adminIcon: var(--nord-dark5);
+
+  --interactive-normal: var(--text-normal);
+  --interactive-hover: var(--nord-primary);
+  --interactive-active: var(--nord-primary);
+  --interactive-muted: var(--text-muted);
+
+  --background-primary: var(--nord-dark1);
+  --background-secondary: #363c4a;
+  --background-secondary-alt: var(--nord-dark2);
+  --background-tertiary: var(--nord-dark2);
+  --background-accent: var(--nord-dark3);
+  --background-floating: var(--background-secondary);
+  --background-floating-gradient: linear-gradient(90deg, rgba(54, 60, 74, 0), var(--background-floating) 80%);
+  --background-modifier-hover: rgba(76, 86, 106, 0.3);
+  --background-modifier-hover-gradient: linear-gradient(
+    90deg,
+    rgba(76, 86, 106, 0),
+    var(--background-secondary-alt) 50%
+  );
+  --background-modifier-active: rgba(76, 86, 106, 0.24);
+  --background-modifier-selected: rgba(76, 86, 106, 0.32);
+  --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+  --background-mentioned: rgba(143, 188, 187, 0.25);
+  --background-mentioned-hover: rgba(143, 188, 187, 0.35);
+  --background-message-hover: rgba(59, 66, 82, 0.3);
+  --background-help-warning: rgba(208, 135, 112, 0.1);
+  --background-help-info: rgba(94, 129, 172, 0.1);
+  --background-channel-header: var(--background-secondary);
+  --background-channel-header-gradient: linear-gradient(90deg, rgba(54, 60, 74, 0) 0, var(--background-secondary));
+  --background-server: var(--background-primary);
+  --background-friends-server: var(--nord-black1);
+  --background-slider: var(--nord-black2);
+  --background-friends-activity: var(--nord-black1);
+  --background-spotify-slider: rgba(248, 249, 252, 0.3);
+  --background-selection: rgba(94, 129, 172, 0.3);
+
+  --scrollbar-thin-thumb: var(--nord-dark4);
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: var(--nord-dark4);
+  --scrollbar-auto-track: var(--nord-black1);
+  --scrollbar-auto-scrollbar-color-thumb: var(--nord-dark4);
+  --scrollbar-auto-scrollbar-color-track: var(--nord-black1);
+
+  --elevation-stroke: 0 0 0 1px var(--nord-dark1);
+  --elevation-low: 0 1px 0 var(--nord-black1);
+
+  --logo-primary: #fff;
+  --focus-primary: var(--nord-blue);
+  --radio-group-dot-foreground: var(--nord-primary);
+  --channeltextarea-background: var(--background-secondary-alt);
+
+  --deprecated-card-bg: var(--nord-dark1);
+  --deprecated-card-editable-bg: rgba(32, 34, 37, 0.3);
+  --deprecated-store-bg: #36393f;
+  --deprecated-quickswitcher-input-background: var(--nord-black2);
+  --deprecated-quickswitcher-input-placeholder: var(--text-muted);
+  --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
+  --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
+  --deprecated-text-input-border-hover: #040405;
+  --deprecated-text-input-border-disabled: #202225;
+  --deprecated-text-input-prefix: #dcddde;
+}
+
+.theme-light {
+  --header-primary: var(--nord-dark4);
+  --header-secondary: #4f5660;
+  --text-normal: var(--nord-dark2);
+  --text-secondary: var(--nord-dark4);
+  --text-primary-background: #ffffff;
+  --text-muted: var(--nord-grey1);
+  --text-link: #3b8ef3;
+  --text-searchbox-close: var(--nord-light3);
+  --channels-default: var(--text-normal);
+  --message-mentioned: var(--nord-primary);
+  --calendar-border: var(--nord-light0);
+  --divider: var(--nord-light-1);
+
+  --reaction-count: var(--nord-grey1);
+  --reaction-hover: var(--nord-dark5);
+  --reaction-me: rgba(143, 188, 187, 0.3);
+
+  --text-mention: var(--nord-primary);
+  --background-mention: rgba(143, 188, 187, 0.1);
+  --text-mention-hover: var(--text-primary-background);
+  --background-mention-hover: var(--nord-primary);
+  --message-ephemeral: var(--nord-blue);
+  --background-ephemeral: rgba(94, 129, 172, 0.1);
+  --background-ephemeral-hover: rgba(94, 129, 172, 0.2);
+  --mentioned-timestamp: var(--nord-grey1);
+
+  --background-defaultindicator: var(--nord-light4);
+  --text-defaultindicator: var(--text-normal);
+
+  --card-settings-background: var(--nord-light0);
+  --card-settings-border: var(--nord-light-1);
+
+  --keybind-background: var(--nord-light4);
+  --keybind-text: var(--text-normal);
+  --keybind-shadow: var(--nord-light-1);
+
+  --emoji-game-input-background: transparent;
+  --emoji-game-input-border: var(--nord-dark5);
+
+  --text-flowerstar: var(--nord-dark1);
+  --background-flowerstar: var(--nord-light-1);
+
+  --text-bot-badge: var(--text-primary-background);
+  --background-bot-badge: var(--nord-primary);
+
+  --status-online: var(--nord-green);
+  --status-offline: var(--nord-dark5);
+  --status-idle: var(--nord-orange);
+  --status-dnd: var(--nord-red);
+  --status-stream: var(--nord-pink);
+  --ownerIcon: var(--nord-orange);
+  --adminIcon: var(--nord-dark5);
+
+  --interactive-normal: var(--text-normal);
+  --interactive-hover: var(--nord-primary);
+  --interactive-active: var(--nord-primary);
+  --interactive-muted: var(--text-muted);
+
+  --background-primary: var(--nord-light1);
+  --background-secondary: var(--nord-light2);
+  --background-secondary-alt: var(--nord-light3);
+  --background-tertiary: var(--nord-light3);
+  --background-accent: var(--nord-light-1);
+  --background-floating: var(--background-secondary);
+  --background-floating-gradient: linear-gradient(90deg, rgba(229, 233, 240, 0), var(--background-floating) 80%);
+  --background-modifier-hover: var(--nord-light3);
+  --background-modifier-hover-gradient: linear-gradient(
+    90deg,
+    rgba(236, 239, 244, 0),
+    var(--background-secondary-alt) 50%
+  );
+  --background-modifier-active: rgba(155, 162, 172, 0.16);
+  --background-modifier-selected: rgba(155, 162, 172, 0.24);
+  --background-modifier-accent: rgba(96, 109, 133, 0.08);
+  --background-mentioned: rgba(143, 188, 187, 0.35);
+  --background-mentioned-hover: rgba(143, 188, 187, 0.45);
+  --background-message-hover: rgba(155, 162, 172, 0.15);
+  --background-help-warning: rgba(208, 135, 112, 0.1);
+  --background-help-info: rgba(94, 129, 172, 0.1);
+  --background-channel-header: var(--background-secondary);
+  --background-channel-header-gradient: linear-gradient(90deg, rgba(229, 233, 240, 0) 0, var(--background-secondary));
+  --background-server: var(--background-primary);
+  --background-friends-server: var(--nord-light2);
+  --background-slider: var(--nord-light3);
+  --background-friends-activity: var(--nord-light1);
+  --background-spotify-slider: rgba(248, 249, 252, 0.3);
+  --background-selection: rgba(94, 129, 172, 0.3);
+
+  --scrollbar-thin-thumb: var(--nord-light-1);
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: var(--nord-light2);
+  --scrollbar-auto-track: var(--nord-light-1);
+  --scrollbar-auto-scrollbar-color-thumb: var(--nord-light-1);
+  --scrollbar-auto-scrollbar-color-track: var(--nord-light1);
+
+  --elevation-stroke: 0 0 0 1px var(--nord-light1);
+  --elevation-low: 0 1px 0 var(--nord-grey1);
+
+  --logo-primary: var(--nord-primary);
+  --focus-primary: var(--nord-blue);
+  --radio-group-dot-foreground: var(--nord-primary);
+  --channeltextarea-background: var(--background-secondary-alt);
+
+  --deprecated-card-bg: var(--nord-light1);
+  --deprecated-card-editable-bg: rgba(236, 239, 244, 0.3);
+  --deprecated-store-bg: #f8f9f9;
+  --deprecated-quickswitcher-input-background: var(--nord-light4);
+  --deprecated-quickswitcher-input-placeholder: var(--text-muted);
+  --deprecated-text-input-bg: rgba(255, 255, 255, 0.1);
+  --deprecated-text-input-border: rgba(255, 255, 255, 0.3);
+  --deprecated-text-input-border-hover: #b9bbbe;
+  --deprecated-text-input-border-disabled: #dcddde;
+  --deprecated-text-input-prefix: #b9bbbe;
+}
