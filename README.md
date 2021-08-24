@@ -12,11 +12,18 @@ This theme is developed for **[BandagedBD](https://github.com/rauenzi/BetterDisc
 
 ## Installation
 
-### Discord App
+### BetterDiscord
 
-1. Download [Nordic theme](https://betterdiscord.net/ghdl?id=3467)
-2. Put it on theme folder (from **[BandagedBD](https://github.com/rauenzi/BetterDiscordApp)**)
-3. Enable it !
+1. Download [Nordic theme](https://betterdiscord.app/Download?id=33)
+2. Put it on theme folder (from **[BetterDiscord](https://betterdiscord.app/)**)
+3. Enable it!
+4. Donate if you could <3
+
+### Powercord
+
+1. Go to your themes folder
+2. Go to your command prompt/terminal with the theme folder as the destination
+3. Paste this: `git clone https://github.com/orblazer/discord-nordic`
 4. Donate if you could <3
 
 ### UserCSS (Stylus)
