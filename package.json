@@ -13,11 +13,13 @@
   "main": "scripts/build.js",
   "scripts": {
     "prepare": "husky install",
+    "diff": "node scripts/diff",
     "build": "node scripts/build.js",
     "lint": "eslint"
   },
   "dependencies": {
-    "csso": "^5.0.2"
+    "csso": "^5.0.2",
+    "diff": "^5.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.0.2",
