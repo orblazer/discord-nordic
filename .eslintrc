@@ -1,3 +1,8 @@
 {
-  "extends": "standard"
+  "extends": ["eslint:recommended", "standard", "prettier"],
+  "plugins": ["prettier"],
+  "env": {
+    "node": true,
+    "es2021": true
+  }
 }
