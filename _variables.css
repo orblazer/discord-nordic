@@ -131,6 +131,8 @@
   --background-modifier-selected: rgba(43, 48, 59, 0.32);
   --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
   --background-slider: var(--nord-black2);
+  --background-channel-header: var(--background-secondary);
+  --background-channel-header-gradient: linear-gradient(90deg, rgba(46, 52, 64, 0) 0, var(--background-secondary));
 
   --info-positive-text: var(--text-normal);
   --info-warning-text: var(--text-normal);
@@ -224,6 +226,8 @@
   --background-modifier-selected: rgba(155, 162, 172, 0.24);
   --background-modifier-accent: rgba(96, 109, 133, 0.08);
   --background-slider: var(--nord-light3);
+  --background-channel-header: var(--background-secondary);
+  --background-channel-header-gradient: linear-gradient(90deg, rgba(229, 233, 240, 0) 0, var(--background-secondary));
 
   --info-positive-text: var(--text-normal);
   --info-warning-text: var(--text-normal);

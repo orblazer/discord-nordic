@@ -63,12 +63,16 @@
 /**
  * Channel header
  */
-.container-1r6BKw.themed-ANHk51 {
+.container-ZMc96U.themed-Hp1KC_ {
   background-color: var(--background-channel-header);
 }
 
-.children-19S4PO::after {
+.children-3xh0VB::after {
   background: var(--background-channel-header-gradient) !important;
+}
+
+.selected-29KTGM .icon-2xnN2Y {
+  color: var(--nord-primary) !important;
 }
 
 /* self mute */
