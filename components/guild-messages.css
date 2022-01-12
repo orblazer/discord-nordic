@@ -99,6 +99,15 @@
   color: var(--nord-primary) !important;
 }
 
+/* Spoiler */
+.spoilerText-27bIiA {
+  background-color: var(--background-accent) !important;
+}
+
+.spoilerText-27bIiA.hidden-3B-Rum {
+  background-color: var(--background-tertiary) !important;
+}
+
 /**
  * Mentioned
  */
