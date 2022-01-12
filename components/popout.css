@@ -308,19 +308,19 @@
 /**
  * Auto complete
  */
-.autocomplete-1vrmpx {
+.autocomplete-3NRXG8 {
   background-color: var(--background-floating) !important;
 }
 
-.selected-1Tbx07 {
+.selected-3H3-RC {
   background-color: var(--background-secondary-alt) !important;
 }
 
-.contentTitle-2tG_sM {
+.contentTitle-3CylD3 {
   color: var(--header-secondary) !important;
 }
 
-.contentTitle-2tG_sM > strong {
+.contentTitle-3CylD3 > strong {
   color: var(--header-primary) !important;
 }
 
@@ -334,6 +334,16 @@
 
 .descriptionDiscriminator-3vUOCc {
   color: var(--text-muted) !important;
+}
+
+
+/* Commands */
+.categoryHeader-OpJ1Ly {
+  background-color: var(--background-accent) !important;
+}
+
+.option-Tt7anD {
+  background-color: var(--background-primary) !important;
 }
 
 /**

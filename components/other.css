@@ -54,7 +54,9 @@
 .colorError-3RX-d6,
 .pruneLink-3V7wes,
 .container-YkUktl .redIcon-1ppjsM,
-.iconServer-GeSR0b {
+.iconServer-GeSR0b, /* voice mute/deaf icons */
+.error-1SecXe, /* Command argument */
+.error-29IZEE /* Command arg err reason */ {
   color: var(--nord-red) !important;
 }
 
