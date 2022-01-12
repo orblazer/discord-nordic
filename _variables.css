@@ -157,8 +157,8 @@
   --control-brand-foreground: var(--text-brand);
   --control-brand-foreground-new: var(--text-brand);
 
-  --background-mentioned: hsla(179, calc(var(--saturation-factor, 1) * 25%), 65%, 0.1);
-  --background-mentioned-hover: hsla(179, calc(var(--saturation-factor, 1) * 25%), 65%, 0.15);
+  --background-mentioned: hsla(179, calc(var(--saturation-factor, 1) * 25%), 65%, 0.15);
+  --background-mentioned-hover: hsla(179, calc(var(--saturation-factor, 1) * 25%), 65%, 0.205);
   --background-message-hover: rgba(43, 48, 59, 0.2);
   --channels-default: var(--nord-grey1);
   --guild-header-text-shadow: 0 1px 1px var(--nord-dark1);
