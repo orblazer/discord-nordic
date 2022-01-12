@@ -246,3 +246,21 @@
 .header-2Zv56X {
   color: var(--text-normal);
 }
+
+/**
+ * Send file
+ */
+ /* Trash */
+.button-3bklZh.dangerous-Y36ifs {
+  color: var(--nord-red);
+}
+
+/* Spoil */
+.actionBarIcon-3IdPoi rect[fill='hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)'] {
+  fill: var(--nord-red) !important;
+}
+
+.altTag-2Bi3uP {
+  background-color: var(--background-floating);
+  color: var(--text-normal);
+}

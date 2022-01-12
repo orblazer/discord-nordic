@@ -41,6 +41,10 @@
   background-color: var(--nord-primary) !important;
 }
 
+.checkbox-f1HnKB path[fill='hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)'] {
+  fill: var(--nord-primary) !important;
+}
+
 /**
  * Checkbox (slider)
  */
