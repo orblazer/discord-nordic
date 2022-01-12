@@ -28,7 +28,7 @@
   --nord-primary: var(--nord-green-blue);
 
   --button-primary: var(--nord-primary);
-  --button-primary-text: var(--nord-dark1);
+  --button-primary-text: var(--nord-black1);
   --button-primary-hover: #7da8a8;
   --button-primary-active: #709494;
   --button-primary-active-outlined: rgba(143, 188, 187, 0.1);
@@ -80,9 +80,9 @@
 }
 
 .theme-dark {
-  --header-primary: var(--nord-light3);
+  --header-primary: var(--nord-light5);
   --header-secondary: #a6b0bf;
-  --text-normal: var(--nord-light1);
+  --text-normal: var(--nord-light2);
   --text-muted: var(--nord-grey1);
   --text-link: hsl(213, calc(var(--saturation-factor, 1) * 75%), 60%); /* #4c91e6 */
   --text-link-low-saturation: hsl(213, calc(var(--saturation-factor, 1) * 32%), 52%); /* --nord-blue */
@@ -111,24 +111,24 @@
   --reaction-hover: var(--nord-light0);
   --reaction-me: hsla(179, calc(var(--saturation-factor, 1) * 25%), 65%, 0.3);
 
-  --background-primary: var(--nord-dark3);
-  --background-secondary: #363c4a;
-  --background-secondary-alt: var(--nord-dark1);
-  --background-tertiary: var(--nord-dark1);
-  --background-accent: var(--nord-dark2);
+  --background-primary: var(--nord-dark2);
+  --background-secondary: var(--nord-dark1);
+  --background-secondary-alt: var(--nord-black1);
+  --background-tertiary: var(--nord-black2);
+  --background-accent: var(--nord-dark1);
   --background-floating: var(--background-secondary);
-  --background-floating-gradient: linear-gradient(90deg, rgba(54, 60, 74, 0), var(--background-floating) 80%);
+  --background-floating-gradient: linear-gradient(90deg, rgba(46, 52, 64, 0), var(--background-floating) 80%);
   --background-nested-floating: #2f3136;
   --background-mobile-primary: #36393f;
   --background-mobile-secondary: #2f3136;
-  --background-modifier-hover: rgba(76, 86, 106, 0.3);
+  --background-modifier-hover: rgba(43, 48, 59, 0.3);
   --background-modifier-hover-gradient: linear-gradient(
     90deg,
-    rgba(76, 86, 106, 0),
+    rgba(43, 48, 59, 0),
     var(--background-secondary-alt) 50%
   );
-  --background-modifier-active: rgba(76, 86, 106, 0.24);
-  --background-modifier-selected: rgba(76, 86, 106, 0.32);
+  --background-modifier-active: rgba(43, 48, 59, 0.24);
+  --background-modifier-selected: rgba(43, 48, 59, 0.32);
   --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
   --background-slider: var(--nord-black2);
 
@@ -140,10 +140,10 @@
   --info-help-text: var(--text-normal);
   --status-warning-text: #000;
 
-  --scrollbar-thin-thumb: var(--nord-black3);
+  --scrollbar-thin-thumb: var(--nord-black2);
   --scrollbar-thin-track: transparent;
-  --scrollbar-auto-thumb: var(--nord-dark1);
-  --scrollbar-auto-track: hsl(222, calc(var(--saturation-factor, 1) * 16%), 28%); /* --nord-dark2 */
+  --scrollbar-auto-thumb: var(--nord-black2);
+  --scrollbar-auto-track: var(--nord-dark1);
   --scrollbar-auto-scrollbar-color-thumb: var(--nord-dark4);
   --scrollbar-auto-scrollbar-color-track: var(--nord-black1);
 
@@ -151,9 +151,9 @@
   --control-brand-foreground: var(--text-brand);
   --control-brand-foreground-new: var(--text-brand);
 
-  --background-mentioned: hsla(179, calc(var(--saturation-factor, 1) * 25%), 65%, 0.25);
-  --background-mentioned-hover: hsla(179, calc(var(--saturation-factor, 1) * 25%), 65%, 0.35);
-  --background-message-hover: rgba(59, 66, 82, 0.3);
+  --background-mentioned: hsla(179, calc(var(--saturation-factor, 1) * 25%), 65%, 0.1);
+  --background-mentioned-hover: hsla(179, calc(var(--saturation-factor, 1) * 25%), 65%, 0.15);
+  --background-message-hover: rgba(43, 48, 59, 0.2);
   --channels-default: var(--nord-grey1);
   --guild-header-text-shadow: 0 1px 1px var(--nord-dark1);
   --channeltextarea-background: var(--nord-dark4);
