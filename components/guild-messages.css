@@ -73,11 +73,11 @@
 /**
  * Mention
  */
-.wrapper-1ZcZW- {
+.wrapper-1ZcZW-:not([style*='color']) {
   color: var(--text-mention) !important;
   background-color: var(--background-mention) !important;
 }
-.message-2CShn3:not(.mentioned-Tre-dv) .wrapper-1ZcZW-:hover {
+.message-2CShn3:not(.mentioned-Tre-dv) .wrapper-1ZcZW-:not([style*='color']):hover {
   color: var(--text-mention-hover);
   background-color: var(--background-mention-hover);
 }
