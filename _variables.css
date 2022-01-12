@@ -91,6 +91,7 @@
   --text-danger: hsl(354, calc(var(--saturation-factor, 1) * 42%), 56%); /* --nord-red */
   --text-brand: hsl(179, calc(var(--saturation-factor, 1) * 25%), 65%); /* --nord-primary */
   --text-primary-background: var(--nord-black1);
+  --calendar-border: var(--nord-black2);
 
   --interactive-normal: var(--text-normal);
   --interactive-hover: var(--nord-primary);
@@ -116,10 +117,16 @@
   --background-tertiary: var(--nord-dark1);
   --background-accent: var(--nord-dark2);
   --background-floating: var(--background-secondary);
+  --background-floating-gradient: linear-gradient(90deg, rgba(54, 60, 74, 0), var(--background-floating) 80%);
   --background-nested-floating: #2f3136;
   --background-mobile-primary: #36393f;
   --background-mobile-secondary: #2f3136;
   --background-modifier-hover: rgba(76, 86, 106, 0.3);
+  --background-modifier-hover-gradient: linear-gradient(
+    90deg,
+    rgba(76, 86, 106, 0),
+    var(--background-secondary-alt) 50%
+  );
   --background-modifier-active: rgba(76, 86, 106, 0.24);
   --background-modifier-selected: rgba(76, 86, 106, 0.32);
   --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
@@ -133,7 +140,7 @@
   --info-help-text: var(--text-normal);
   --status-warning-text: #000;
 
-  --scrollbar-thin-thumb: var(--nord-dark1);
+  --scrollbar-thin-thumb: var(--nord-black3);
   --scrollbar-thin-track: transparent;
   --scrollbar-auto-thumb: var(--nord-dark1);
   --scrollbar-auto-track: hsl(222, calc(var(--saturation-factor, 1) * 16%), 28%); /* --nord-dark2 */
@@ -177,6 +184,7 @@
   --text-danger: hsl(354, calc(var(--saturation-factor, 1) * 42%), 56%); /* --nord-red */
   --text-brand: hsl(179, calc(var(--saturation-factor, 1) * 25%), 65%); /* --nord-primary */
   --text-primary-background: #fff;
+  --calendar-border: var(--nord-light0);
 
   --interactive-normal: var(--text-normal);
   --interactive-hover: var(--nord-primary);
@@ -202,10 +210,16 @@
   --background-tertiary: var(--nord-light3);
   --background-accent: var(--nord-light-1);
   --background-floating: var(--background-secondary);
+  --background-floating-gradient: linear-gradient(90deg, rgba(229, 233, 240, 0), var(--background-floating) 80%);
   --background-nested-floating: #fff;
   --background-mobile-primary: #f8f9f9;
   --background-mobile-secondary: #fff;
   --background-modifier-hover: var(--nord-light3);
+  --background-modifier-hover-gradient: linear-gradient(
+    90deg,
+    rgba(236, 239, 244, 0),
+    var(--background-secondary-alt) 50%
+  );
   --background-modifier-active: rgba(155, 162, 172, 0.16);
   --background-modifier-selected: rgba(155, 162, 172, 0.24);
   --background-modifier-accent: rgba(96, 109, 133, 0.08);
@@ -219,7 +233,7 @@
   --info-help-text: var(--text-normal);
   --status-warning-text: #fff;
 
-  --scrollbar-thin-thumb: var(--nord-light-1);
+  --scrollbar-thin-thumb: var(--nord-dark5);
   --scrollbar-thin-track: transparent;
   --scrollbar-auto-thumb: var(--nord-light2);
   --scrollbar-auto-track: var(--nord-light-1);

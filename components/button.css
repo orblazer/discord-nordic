@@ -60,7 +60,7 @@
 /* Brand (primary now) */
 .lookFilled-yCfaCM.colorBrand-I6CyqQ,
 .lookFilled-yCfaCM.colorBrandNew-2-gGsS,
-.datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z,
+.datePicker--70cO23 .datePickerHint-17MnA8 .hintValue-1x-flY,
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG,
 .selectorButtonSelected-t5V9On,
 .selectedBrand-1UKrSX,
@@ -71,7 +71,7 @@
 }
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover,
 .lookFilled-yCfaCM.colorBrandNew-2-gGsS:hover,
-.datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z:hover,
+.datePicker--70cO23 .datePickerHint-17MnA8 .hintValue-1x-flY:hover,
 .selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover,
 .selectedBrand-1UKrSX.focused-dKLoQt,
 .selectedBrand-1UKrSX:hover {
@@ -79,7 +79,7 @@
 }
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:active,
 .lookFilled-yCfaCM.colorBrandNew-2-gGsS:active,
-.datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z:active,
+.datePicker--70cO23 .datePickerHint-17MnA8 .hintValue-1x-flY:active,
 .selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):active {
   background-color: var(--button-primary-active) !important;
 }
