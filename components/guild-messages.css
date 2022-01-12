@@ -134,20 +134,20 @@
 /**
  * Ephemeral/Replying
  */
-.ephemeral-1PsL1r,
-.replying-1x3H0T {
+.ephemeral-2nDdnn,
+.replying-eZ7p5z {
   background-color: var(--background-ephemeral);
 }
 
-.message-2CShn3.ephemeral-1PsL1r.selected-2P5D_Z,
-.message-2CShn3.replying-1x3H0T.selected-2P5D_Z,
-.mouse-mode.full-motion .ephemeral-1PsL1r:hover,
-.mouse-mode.full-motion .replying-1x3H0T:hover {
+.message-2CShn3.ephemeral-2nDdnn.selected-2LX7Jy,
+.message-2CShn3.replying-eZ7p5z.selected-2LX7Jy,
+.mouse-mode.full-motion .ephemeral-2nDdnn:hover,
+.mouse-mode.full-motion .replying-eZ7p5z:hover {
   background-color: var(--background-ephemeral-hover);
 }
 
-.ephemeral-1PsL1r::before,
-.replying-1x3H0T::before {
+.ephemeral-2nDdnn::before,
+.replying-eZ7p5z::before {
   background-color: var(--message-ephemeral);
 }
 
@@ -250,7 +250,7 @@
 /**
  * Send file
  */
- /* Trash */
+/* Trash */
 .button-3bklZh.dangerous-Y36ifs {
   color: var(--nord-red);
 }
