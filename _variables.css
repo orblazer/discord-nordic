@@ -285,6 +285,8 @@
   --status-danger-text: var(--nord-light5);
 
   --focus-primary: hsl(197, calc(var(--saturation-factor, 1) * 100%), 47.8%);
+
+  --background-selection: hsla(213, calc(var(--saturation-factor, 1) * 75%), 60%, 0.2);
 }
 
 [data-popout-root],
