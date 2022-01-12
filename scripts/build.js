@@ -34,7 +34,7 @@ const files = [
   'components/other.css',
   'components/popout.css',
   'components/settings.css',
-  'components/better-discord.css'
+  'components/better-discord.css',
 ]
 
 /**
@@ -46,6 +46,8 @@ const files = [
 const { lstatSync, readFileSync, writeFileSync } = require('fs')
 const { resolve } = require('path')
 const csso = require('csso')
+
+const dev = typeof process.env.DEV === 'undefined' ? false : Boolean(process.env.DEV)
 
 // Merge files
 let content = ''
@@ -68,7 +70,7 @@ writeFileSync(
  * SOURCE CODE
  * /!\\ DON'T TOUCH ! /!\\
  */
-@import url('https://orblazer.github.io/discord-nordic/base.css');
+${dev ? result : "@import url('https://orblazer.github.io/discord-nordic/base.css');"}
 
 /**
  * CUSTOMIZATION

@@ -34,7 +34,7 @@
  */
 /* Online */
 .mask-1FEkla rect[fill='#3BA55D'],
-.mask-1FEkla rect[fill='rgba(59, 165, 93, 1)'],
+.mask-1FEkla rect[fill='hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)'],
 .mask-1qbNWk rect[fill='#3BA55D'],
 .mask-1qbNWk rect[fill='rgba(59, 165, 93, 1)'] {
   fill: var(--status-online);
@@ -49,7 +49,7 @@
 
 /* Offline */
 .mask-1FEkla rect[fill='#747F8D'],
-.mask-1FEkla rect[fill='rgba(116, 127, 141, 1)'],
+.mask-1FEkla rect[fill='hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)'],
 .mask-1qbNWk rect[fill='#747F8D'],
 .mask-1qbNWk rect[fill='rgba(116, 127, 141, 1)'] {
   fill: var(--status-offline);
@@ -63,7 +63,7 @@
 
 /* Idle */
 .mask-1FEkla rect[fill='#FAA81A'],
-.mask-1FEkla rect[fill='rgba(250, 166, 26, 1)'],
+.mask-1FEkla rect[fill='hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)'],
 .mask-1qbNWk rect[fill='#FAA81A'],
 .mask-1qbNWk rect[fill='rgba(250, 168, 26, 1)'] {
   fill: var(--status-idle);
@@ -74,7 +74,7 @@
 
 /* DND */
 .mask-1FEkla rect[fill='#ED4245'],
-.mask-1FEkla rect[fill='rgba(237, 66, 69, 1)'],
+.mask-1FEkla rect[fill='hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)'],
 .mask-1qbNWk rect[fill='#ED4245'],
 .mask-1qbNWk rect[fill='rgba(237, 66, 69, 1)'] {
   fill: var(--status-dnd);
@@ -85,7 +85,7 @@
 
 /* Stream */
 .mask-1FEkla rect[fill='#593695'],
-.mask-1FEkla rect[fill='rgba(89, 54, 149, 1)'],
+.mask-1FEkla rect[fill='hsl(262, calc(var(--saturation-factor, 1) * 47%), 40%)'],
 .mask-1qbNWk rect[fill='#593695'],
 .mask-1qbNWk rect[fill='rgba(89, 54, 149, 1)'] {
   fill: var(--status-stream);
