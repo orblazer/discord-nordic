@@ -10,8 +10,8 @@
   border-color: var(--nord-light2);
 }
 
-.pageWrapper-1PgVDX,
-.container-1D34oG {
+.pageWrapper-2PwDoS,
+.container-2cd8Mz {
   background-color: var(--background-primary) !important;
   color: var(--text-normal) !important;
 }
@@ -29,14 +29,14 @@
  * Text
  */
 /* Primary */
-.colorBrand-ROmMP1,
+.colorBrand-3cPPsm,
 .colorBrand-2tjs5J {
   color: var(--nord-primary);
 }
 
 /* Green */
 .colorStatusGreen-2saF4_,
-.pro-1T8RK7[style*='color: rgb(67, 181, 129)'],
+.pro-3GwLMX[style*='color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)'],
 .defaultValue-3gC7yw .markValue-2DwdXI,
 .userSettingsSecurity-3IYeMF .isEnabled-24g9qA,
 .unlocked-251xRB,
@@ -45,16 +45,16 @@
 }
 
 /* Red */
-.colorDanger-2qLCe1,
-.colorDanger-2qLCe1 .checkbox-3s5GYZ,
-.colorDanger-2qLCe1 .radioSelection-1HmrQS,
+.colorDanger-3n-KnP,
+.colorDanger-3n-KnP:not(.focused-3qFvc8) .checkbox-hADx5o,
+.colorDanger-3n-KnP .radioSelection-1UHp0b,
 .beta-3smTDE,
-.warning-3qyw2h,
-.doesNot-36YbF_,
+.warning-2DeIgm,
+.doesNot-21xPGK,
 .colorError-3RX-d6,
 .pruneLink-3V7wes,
-.container-3baos1 .redIcon-2uP7Ej,
-.iconServer-Lyg2F4 {
+.container-YkUktl .redIcon-1ppjsM,
+.iconServer-GeSR0b {
   color: var(--nord-red) !important;
 }
 
@@ -69,13 +69,15 @@
   background: var(--background-channel-header-gradient) !important;
 }
 
-.strikethrough-1n4ekb {
+/* self mute */
+.strikethrough-2Kl6HF {
   color: var(--nord-red);
 }
 
-.activeCircle-15Lt-Q,
+.activeCircle-3yNg6t,
 .activeCircle-1486wp {
   background-color: var(--nord-primary);
+  color: var(--text-primary-background);
 }
 
 /**
@@ -98,13 +100,13 @@
 /**
  * Friends
  */
-.outer-1AjyKL.active-1xchHY,
-.outer-1AjyKL.interactive-3B9GmY:hover,
+.outer-2JOHae.active-1W_Gl9,
+.outer-2JOHae.interactive-2zD88a:hover,
 .iconContainer-IBAtWs:hover > .icon-3o6xvg {
   background-color: var(--background-accent) !important;
 }
 
-.inset-3sAvek {
+.inset-SbsSFp {
   background-color: var(--background-friends-activity) !important;
 }
 
@@ -112,77 +114,73 @@
   * Tooltip
   */
 /* Primary */
-.tooltipBrand-g03Nz8 {
+.tooltipBrand-20XsMA {
   background-color: var(--nord-primary) !important;
 }
-.tooltipBrand-g03Nz8 .tooltipPointer-3ZfirK {
+.tooltipBrand-20XsMA .tooltipPointer-3L49xb {
   border-top-color: var(--nord-primary) !important;
 }
 
 /* Black */
-.tooltipBlack-PPG47z,
+.tooltipBlack-vMYxvw,
 .popout-38lTFE {
   background-color: var(--nord-black3) !important;
 }
-.tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
+.tooltipBlack-vMYxvw .tooltipPointer-3L49xb {
   border-top-color: var(--nord-black3) !important;
 }
 
 /* Green */
-.tooltipGreen-WdeQwd {
+.tooltipGreen-oouJdx {
   background-color: var(--nord-green) !important;
 }
-.tooltipGreen-WdeQwd .tooltipPointer-3ZfirK {
+.tooltipGreen-oouJdx .tooltipPointer-3L49xb {
   border-top-color: var(--nord-green) !important;
 }
 
 /* Red */
-.tooltipRed-8-9NeP {
+.tooltipRed-2z14Wl {
   background-color: var(--nord-red) !important;
 }
-.tooltipRed-8-9NeP .tooltipPointer-3ZfirK {
+.tooltipRed-2z14Wl .tooltipPointer-3L49xb {
   border-top-color: var(--nord-red) !important;
 }
 
 /* Yellow */
-.tooltipYellow-E7eIBE {
+.tooltipYellow-3a3Cmr {
   background-color: var(--nord-orange) !important;
 }
-.tooltipYellow-E7eIBE .tooltipPointer-3ZfirK {
+.tooltipYellow-3a3Cmr .tooltipPointer-3L49xb {
   border-top-color: var(--nord-orange) !important;
 }
 
 /**
  * Changelog
  */
-.added-2hLRj3 {
-  color: var(--nord-green);
+.fixed-cTX7Hp {
+  color: var(--text-danger);
 }
 
-.added-2hLRj3::after {
-  background-color: var(--nord-green);
+.fixed-cTX7Hp::after {
+  background-color: var(--info-danger-foreground);
 }
 
-.fixed-3zCC84 {
-  color: var(--nord-red);
-}
-
-.fixed-3zCC84::after {
-  background-color: var(--nord-red);
-}
-
-.progress-YsDrV- {
-  color: var(--nord-orange);
-}
-
-.progress-YsDrV-::after {
-  background-color: var(--nord-orange);
-}
-
-.improved-1NJK-y {
+.improved-2SJXHz-y {
   color: var(--nord-primary);
 }
 
-.improved-1NJK-y::after {
+.improved-2SJXHz::after {
   background-color: var(--nord-primary);
+}
+
+/**
+ * Stream
+ */
+.colorStreamerMode-8uoRWd {
+  background-color: var(--nord-pink);
+  color: var(--nord-light5);
+}
+
+.button-1iHNQ2 {
+  border-color: var(--nord-light5) !important;
 }

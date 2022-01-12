@@ -1,26 +1,26 @@
 /**
  * Security selector
  */
-.radioBar-bMNUI-[style*='--radio-bar-accent-color:#43b581'] {
+.radioBar-3w9XY-[style*='--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)'] {
   border-left-color: var(--nord-green);
 }
 
-.radioBar-bMNUI-[style*='--radio-bar-accent-color:#faa61a'] {
+.radioBar-3w9XY-[style*='--radio-bar-accent-color:hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)'] {
   border-left-color: var(--nord-yellow);
 }
 
-.radioBar-bMNUI-[style*='--radio-bar-accent-color:#f57731'] {
+.radioBar-3w9XY-[style*='--radio-bar-accent-color:hsl(37, calc(var(--saturation-factor, 1) * 81.2%), 43.9%)'] {
   border-left-color: var(--nord-orange);
 }
 
-.radioBar-bMNUI-[style*='--radio-bar-accent-color:#f04747'] {
+.radioBar-3w9XY-[style*='--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)'] {
   border-left-color: var(--nord-red);
 }
 
 /**
  * Redemption redirect, video preview & keybind hover
  */
-.codeRedemptionRedirect-1wVR4b,
+.codeRedemptionRedirect-3SBiCp,
 .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
 .card-FDVird:before {
   background-color: var(--card-settings-background) !important;
@@ -41,11 +41,11 @@
  * Game activity
  */
 .notDetected-33MY4s,
-.default-3oAQTF {
+.default-1Tkeeg {
   background-color: var(--background-secondary) !important;
 }
 
-.default-3oAQTF:hover {
+.default-1Tkeeg:hover {
   background-color: var(--background-secondary-alt) !important;
 }
 
@@ -70,7 +70,8 @@
 /**
  * Avatar
  */
-.avatarUploaderInner-3UNxY3 {
+.avatarUploaderInner-3UNxY3,
+.avatarUploaderInnerSquareDisabled-e_U2MZ {
   background-color: var(--nord-black1);
 }
 
@@ -108,33 +109,46 @@
 
 .foreground-2EIns2,
 .tierMarkerLabelPlusIcon-1OS7E9,
-.tierMarkerInProgress-24LMzJ .currentTierIcon-2gcTCn.tier3Icon-Ku4Ahe {
+.tierMarkerInProgress-24LMzJ .currentTierIcon-2gcTCn.tier3Icon-Ku4Ahe,
+.guildBoostingIcon-35OwPQ,
+.upsellButton-36YQ7c {
   color: var(--nord-pink) !important;
 }
 
-.tierAccomplished-2eXPdI,
-.tierCurrent-Lw7-4E,
-.tierDefault-2qaRkD,
+.tierAccomplished-1I5NaT,
+.tierCurrent-2nowYi,
+.tierDefault-39L2SF,
 .barForeground-3KglC8,
 .tierMarkerAccomplished-2MiXeg {
   background-color: var(--nord-pink) !important;
 }
 
-.tierHeaderLocked-1a2opw,
+.tierHeaderLocked-30MLlO,
 .tierHeaderLocked-1s2JJz {
   background-color: var(--background-secondary-alt) !important;
   color: var(--text-muted) !important;
 }
 
-.tierHeaderUnlocked-2RhWqn {
+.tierHeaderUnlocked-2RhWqn,
+.bannerUpsellContainer-31E9J5 {
   background-color: var(--background-accent) !important;
-  color: var(--nord-light3) !important;
+  color: var(--text-normal) !important;
 }
 
 .tierHeaderUnlockedBackground-MW5XJU,
 .tierHeaderUnlocked-1n-OTI,
-.wrapper-3nSjSv {
+.wrapper-3Zq_cJ,
+.progressBarFill-r3JZQ7 {
   background-image: linear-gradient(90deg, var(--nord-blue), var(--nord-pink)) !important;
+}
+
+.progressBarMarkerNextTier-1lj6AI .progressBarMarkerIndicator-2Vf_sE,
+.progressBarMarkerUnlocked-2l_py0 .progressBarMarkerIndicator-2Vf_sE {
+  background-image: linear-gradient(45deg, var(--nord-blue), var(--nord-pink)) !important;
+}
+
+.perksTableHighlightedColumnHeaderCopy-2DMeJr {
+  background-image: linear-gradient(11deg, var(--nord-blue), var(--nord-pink)) !important;
 }
 
 .tierUnlocked-27DwHo,
@@ -143,7 +157,7 @@
   color: var(--text-primary-background) !important;
 }
 
-.tierBody-x9kBBp,
+.tierBody-1d3UiS,
 .tierBody-16Chc9 {
   background-color: var(--background-floating) !important;
   color: var(--text-secondary) !important;
@@ -162,16 +176,21 @@
   color: var(--text-normal) !important;
 }
 
-.circleBackgroundAlt-Eohdst {
+.circleBackgroundAlt-32_kWx {
   fill: var(--background-slider);
 }
 
-.gemWithoutLabel-7-ZvB_ {
+.gemWithoutLabel-1od40y {
   color: var(--text-muted) !important;
 }
 
-.gemIndicatorContainer-2jdECl {
+.gemIndicatorContainer-PqApbX {
   background-color: var(--background-secondary) !important;
+}
+
+.upsellContainer-22N_CL {
+  background-image: url(/assets/421e9ec77829ec1e4b1dd492dfad2f8a.svg),
+    linear-gradient(90deg, var(--nord-blue), var(--nord-pink)) !important;
 }
 
 /**
@@ -210,17 +229,18 @@
 /**
  * Server
  */
-.typeUpdate-2bwuHy {
+.typeUpdate-34INPr {
   color: var(--nord-orange);
 }
 
-.typeCreate-1kfBMl,
+.typeCreate--o_pRH,
 .check-2-1yhI {
   color: var(--nord-green);
 }
 
-.typeDelete-bTXOuk,
-.cross-22YsmA {
+.typeDelete-1AYMTg,
+.cross-22YsmA,
+.slash-2yrR11 /* Mic mute slash */ {
   color: var(--nord-red);
 }
 
@@ -267,7 +287,7 @@
   color: var(--text-normal);
 }
 
-.overflowRolesPopout-140n9i,
-.overflowRolesPopoutArrow-2O66oH {
+.overflowRolesPopout-1Puiuq,
+.overflowRolesPopoutArrow-2R7g3K {
   background-color: var(--background-floating) !important;
 }
