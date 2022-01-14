@@ -85,9 +85,9 @@
 
 /* Stream */
 .mask-1FEkla rect[fill='#593695'], /* List status */
-.mask-1FEkla rect[fill='hsl(262, calc(var(--saturation-factor, 1) * 47%), 40%)'],
+.mask-1FEkla rect[fill='hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)'],
 .mask-2Me5HY rect[fill='#593695'], /* DM chan header */
-.mask-2Me5HY rect[fill='hsl(262, calc(var(--saturation-factor, 1) * 47%), 40%)'] {
+.mask-2Me5HY rect[fill='hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)'] {
   fill: var(--status-stream);
 }
 .status-2DiCMd[style*='background-color: rgb(89, 54, 149)'] {
