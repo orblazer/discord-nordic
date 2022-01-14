@@ -110,12 +110,11 @@
 /**
  * Bot/Icon badges
  */
-.ownerIcon-255uKo {
-  color: var(--ownerIcon);
-}
-
 .ownerIcon-255uKo.icon-1dGlZy.management-3fF_o8 {
-  color: var(--managementIcon);
+  color: var(--icon-management);
+}
+.ownerIcon-255uKo.icon-1dGlZy.admin-Kv1Hp_ {
+  color: var(--icon-admin);
 }
 
 .botTagRegular-kpctgU {

@@ -75,8 +75,6 @@
   --status-idle: var(--nord-orange);
   --status-dnd: var(--nord-red);
   --status-stream: var(--nord-pink);
-  --ownerIcon: var(--nord-orange);
-  --managementIcon: var(--nord-yellow);
 }
 
 .theme-dark {
@@ -295,6 +293,8 @@
   --focus-primary: hsl(197, calc(var(--saturation-factor, 1) * 100%), 47.8%);
 
   --background-selection: hsla(213, calc(var(--saturation-factor, 1) * 75%), 60%, 0.2);
+  --icon-admin: var(--text-muted);
+  --icon-management: var(--nord-yellow);
 }
 
 [data-popout-root],
