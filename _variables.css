@@ -192,7 +192,7 @@
 
   --interactive-normal: var(--text-normal);
   --interactive-hover: var(--nord-primary);
-  --interactive-active: var(--nord-primary);
+  --interactive-active: var(--nord-dark5);
   --interactive-muted: var(--text-muted);
 
   --text-mention: var(--nord-primary);
