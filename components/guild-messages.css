@@ -194,9 +194,12 @@
 .border-2Vy6FN.speaking-7QZEkv {
   box-shadow: inset 0 0 0 2px var(--nord-green), inset 0 0 0 3px #000000;
 }
-.avatarSpeaking-2pCGrZ,
-.avatarSpeaking-2c8-9i {
+
+.avatarSpeaking-2pCGrZ /* List */ {
   box-shadow: inset 0 0 0 2px var(--nord-green), inset 0 0 0 3px var(--background-secondary);
+}
+.avatarSpeaking-33RRJU /* Self */ {
+  box-shadow: inset 0 0 0 2px var(--nord-green), inset 0 0 0 3px var(--background-secondary-alt);
 }
 
 .mention-1f5kbO {
