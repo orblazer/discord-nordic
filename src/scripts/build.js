@@ -1,7 +1,7 @@
 /**
  * Variables
  */
-const pkg = require('../package.json')
+const pkg = require('../../package.json')
 
 const discordHeader = `/**
  * @name        Nordic
@@ -57,12 +57,14 @@ const { resolve } = require('path')
 const csso = require('csso')
 
 const dev = typeof process.env.DEV === 'undefined' ? false : Boolean(process.env.DEV)
+const srcDir = resolve(__dirname, '..')
 
 // Merge files
 let content = ''
 files.forEach((file) => {
-  if (lstatSync(resolve(file)).isFile()) {
-    content += readFileSync(file).toString()
+  const filePath = resolve(srcDir, file)
+  if (lstatSync(filePath).isFile()) {
+    content += readFileSync(filePath).toString()
   }
 })
 

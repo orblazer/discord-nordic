@@ -13,8 +13,8 @@
   "main": "scripts/build.js",
   "scripts": {
     "prepare": "husky install",
-    "diff": "node scripts/diff",
-    "build": "node scripts/build.js",
+    "diff": "node src/scripts/diff",
+    "build": "node src/scripts/build.js",
     "lint": "eslint"
   },
   "dependencies": {

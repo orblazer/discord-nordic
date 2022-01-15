@@ -8,7 +8,7 @@ const HASHES = {
   current: '532.0f664c4fa9f722e57200',
 }
 
-const cacheDir = resolve(__dirname, '..', '..', '.cache')
+const cacheDir = resolve(__dirname, '..', '..', '..', '.cache')
 ;(async () => {
   // Create dir if not exist
   await mkdir(cacheDir, { recursive: true })

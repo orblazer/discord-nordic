@@ -6,7 +6,7 @@ This theme change all discord style for follow [Nord palette](https://www.nordth
 
 ## Preview
 
-![preview](https://raw.githubusercontent.com/orblazer/discord-nordic/master/preview.png)
+![preview](./.github/preview.png)
 
 ## Installation
 
