@@ -4,7 +4,7 @@
 
 This theme change all discord style for follow [Nord palette](https://www.nordtheme.com/).
 
-This theme is developed for **[BandagedBD](https://github.com/rauenzi/BetterDiscordApp)**.
+This theme is developed for **[BetterDiscord](https://github.com/rauenzi/BetterDiscordApp)**.
 
 ## Preview
 
@@ -14,8 +14,8 @@ This theme is developed for **[BandagedBD](https://github.com/rauenzi/BetterDisc
 
 ### Discord App
 
-1. Download [Nordic theme](https://betterdiscord.net/ghdl?id=3467)
-2. Put it on theme folder (from **[BandagedBD](https://github.com/rauenzi/BetterDiscordApp)**)
+1. Download [Nordic theme](https://betterdiscord.app/theme/Nordic)
+2. Put it on theme folder (from **[BetterDiscord](https://github.com/rauenzi/BetterDiscordApp)**)
 3. Enable it !
 4. Donate if you could <3
 
