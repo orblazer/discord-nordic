@@ -1,0 +1,312 @@
+/*
+ * Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (c) 2017-present Sven Greb <development@svengreb.de>
+ *
+ * Project:    Nord highlight.js
+ * Version:    0.1.0
+ * Repository: https://github.com/arcticicestudio/nord-highlightjs
+ * License:    MIT
+ * References:
+ *   https://github.com/arcticicestudio/nord
+ *
+ * SRC: https://github.com/highlightjs/highlight.js/edit/main/src/styles/nord.css
+ */
+
+.hljs {
+  background: var(--nord-dark1);
+}
+
+.hljs,
+.hljs-subst {
+  color: var(--nord-light1);
+}
+
+.hljs-selector-tag {
+  color: var(--nord-cyan);
+}
+
+.hljs-selector-id {
+  color: var(--nord-green-blue);
+  font-weight: bold;
+}
+
+.hljs-selector-class {
+  color: var(--nord-green-blue);
+}
+
+.hljs-selector-attr {
+  color: var(--nord-green-blue);
+}
+
+.hljs-property {
+  color: var(--nord-turquoise);
+}
+
+.hljs-selector-pseudo {
+  color: var(--nord-turquoise);
+}
+
+.hljs-addition {
+  background-color: rgba(163, 190, 140, 0.5);
+}
+
+.hljs-deletion {
+  background-color: rgba(191, 97, 106, 0.5);
+}
+
+.hljs-built_in,
+.hljs-type {
+  color: var(--nord-green-blue);
+}
+
+.hljs-class {
+  color: var(--nord-green-blue);
+}
+
+.hljs-function {
+  color: var(--nord-turquoise);
+}
+
+.hljs-title.hljs-function,
+.hljs-function > .hljs-title {
+  color: var(--nord-turquoise);
+}
+
+.hljs-keyword,
+.hljs-literal,
+.hljs-symbol {
+  color: var(--nord-cyan);
+}
+
+.hljs-number {
+  color: var(--nord-pink);
+}
+
+.hljs-regexp {
+  color: var(--nord-yellow);
+}
+
+.hljs-string {
+  color: var(--nord-green);
+}
+
+.hljs-title {
+  color: var(--nord-green-blue);
+}
+
+.hljs-params {
+  color: var(--nord-light1);
+}
+
+.hljs-bullet {
+  color: var(--nord-cyan);
+}
+
+.hljs-code {
+  color: var(--nord-green-blue);
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-formula {
+  color: var(--nord-green-blue);
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-link:hover {
+  text-decoration: underline;
+}
+
+.hljs-quote {
+  color: var(--nord-dark4);
+}
+
+.hljs-comment {
+  color: var(--nord-dark4);
+}
+
+.hljs-doctag {
+  color: var(--nord-green-blue);
+}
+
+.hljs-meta,
+.hljs-meta .hljs-keyword {
+
+  color: var(--nord-blue);
+}
+
+.hljs-meta .hljs-string {
+  color: var(--nord-green);
+}
+
+.hljs-attr {
+  color: var(--nord-green-blue);
+}
+
+.hljs-attribute {
+  color: var(--nord-light1);
+}
+
+.hljs-name {
+  color: var(--nord-cyan);
+}
+
+.hljs-section {
+  color: var(--nord-turquoise);
+}
+
+.hljs-tag {
+  color: var(--nord-cyan);
+}
+
+.hljs-variable {
+  color: var(--nord-light1);
+}
+
+.hljs-template-variable {
+  color: var(--nord-light1);
+}
+
+.hljs-template-tag {
+  color: var(--nord-blue);
+}
+
+/* per language customizations */
+
+.language-abnf .hljs-attribute {
+  color: var(--nord-turquoise);
+}
+
+.language-abnf .hljs-symbol {
+  color: var(--nord-yellow);
+}
+
+.language-apache .hljs-attribute {
+  color: var(--nord-turquoise);
+}
+
+.language-apache .hljs-section {
+  color: var(--nord-cyan);
+}
+
+.language-arduino .hljs-built_in {
+  color: var(--nord-turquoise);
+}
+
+.language-aspectj .hljs-meta {
+  color: var(--nord-orange);
+}
+
+.language-aspectj > .hljs-title {
+  color: var(--nord-turquoise);
+}
+
+.language-bnf .hljs-attribute {
+  color: var(--nord-green-blue);
+}
+
+.language-clojure .hljs-name {
+  color: var(--nord-turquoise);
+}
+
+.language-clojure .hljs-symbol {
+  color: var(--nord-yellow);
+}
+
+.language-coq .hljs-built_in {
+  color: var(--nord-turquoise);
+}
+
+.language-cpp .hljs-meta .hljs-string {
+  color: var(--nord-green-blue);
+}
+
+.language-css .hljs-built_in {
+  color: var(--nord-turquoise);
+}
+
+.language-css .hljs-keyword {
+  color: var(--nord-orange);
+}
+
+.language-diff .hljs-meta {
+  color: var(--nord-green-blue);
+}
+
+.language-ebnf .hljs-attribute {
+  color: var(--nord-green-blue);
+}
+
+.language-glsl .hljs-built_in {
+  color: var(--nord-turquoise);
+}
+
+.language-groovy .hljs-meta:not(:first-child) {
+  color: var(--nord-orange);
+}
+
+.language-haxe .hljs-meta {
+  color: var(--nord-orange);
+}
+
+.language-java .hljs-meta {
+  color: var(--nord-orange);
+}
+
+.language-ldif .hljs-attribute {
+  color: var(--nord-green-blue);
+}
+
+.language-lisp .hljs-name {
+  color: var(--nord-turquoise);
+}
+
+.language-lua .hljs-built_in {
+  color: var(--nord-turquoise);
+}
+
+.language-moonscript .hljs-built_in {
+  color: var(--nord-turquoise);
+}
+
+.language-nginx .hljs-attribute {
+  color: var(--nord-turquoise);
+}
+
+.language-nginx .hljs-section {
+  color: var(--nord-blue);
+}
+
+.language-pf .hljs-built_in {
+  color: var(--nord-turquoise);
+}
+
+.language-processing .hljs-built_in {
+  color: var(--nord-turquoise);
+}
+
+.language-scss .hljs-keyword {
+  color: var(--nord-cyan);
+}
+
+.language-stylus .hljs-keyword {
+  color: var(--nord-cyan);
+}
+
+.language-swift .hljs-meta {
+  color: var(--nord-orange);
+}
+
+.language-vim .hljs-built_in {
+  color: var(--nord-turquoise);
+  font-style: italic;
+}
+
+.language-yaml .hljs-meta {
+  color: var(--nord-orange);
+}

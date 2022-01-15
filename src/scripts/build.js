@@ -43,6 +43,7 @@ const files = [
   'components/other.css',
   'components/popout.css',
   'components/settings.css',
+  'components/hljs.css',
   'components/better-discord.css',
 ]
 
