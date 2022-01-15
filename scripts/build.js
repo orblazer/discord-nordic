@@ -25,6 +25,15 @@ const stylusHeader = `/* ==UserStyle==
 @updateURL   https://raw.githubusercontent.com/orblazer/discord-nordic/master/nordic.user.css
 ==/UserStyle== */`
 
+const powercordManifest = {
+  version: pkg.version,
+  name: 'Nordic',
+  description: pkg.description,
+  author: 'orblazer#9152',
+  license: 'CC BY-NC-SA 4.0',
+  theme: 'nordic.theme.css'
+}
+
 const files = [
   '_variables.css',
   'components/badges-icon.css',
@@ -60,7 +69,7 @@ files.forEach((file) => {
 // Minify and optimize
 const result = csso.minify(content).css
 
-// Create discord files
+// Create better discord files
 writeFileSync(resolve('base.css'), result)
 writeFileSync(
   resolve('nordic.theme.css'),
@@ -97,3 +106,5 @@ writeFileSync(
   ${result}
 }`
 )
+// Create powercord file
+writeFileSync(resolve('powercord_manifest.json'), JSON.stringify(powercordManifest, null, 2))

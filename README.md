@@ -4,19 +4,24 @@
 
 This theme change all discord style for follow [Nord palette](https://www.nordtheme.com/).
 
-This theme is developed for **[BetterDiscord](https://github.com/rauenzi/BetterDiscordApp)**.
-
 ## Preview
 
 ![preview](https://raw.githubusercontent.com/orblazer/discord-nordic/master/preview.png)
 
 ## Installation
 
-### Discord App
+### BetterDiscord
 
 1. Download [Nordic theme](https://betterdiscord.app/theme/Nordic)
 2. Put it on theme folder (from **[BetterDiscord](https://github.com/rauenzi/BetterDiscordApp)**)
 3. Enable it !
+4. Donate if you could <3
+
+### Powercord
+
+1. Go to your themes folder (from **[Powercord](https://powercord.dev/)**)
+2. Open a terminal of your choice and run this command: `git clone https://github.com/orblazer/discord-nordic`
+3. Go to the themes tab and click "Load missing themes".
 4. Donate if you could <3
 
 ### UserCSS (Stylus)
@@ -26,6 +31,6 @@ This theme is developed for **[BetterDiscord](https://github.com/rauenzi/BetterD
 3. Click on `Install Style` (keep checked `check for updates`)
 4. Donate if you could <3
 
-## Customize (Discord App)
+## Customize (BetterDiscord & Powercord)
 
 If you want customize the theme can simply edit CSS variables in [nordic.theme.css](https://github.com/orblazer/discord-nordic/blob/master/nordic.theme.css).
