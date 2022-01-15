@@ -290,7 +290,7 @@
   --status-danger-background: hsl(354, calc(var(--saturation-factor, 1) * 42%), 56%);
   --status-danger-text: var(--nord-light5);
 
-  --focus-primary: hsl(197, calc(var(--saturation-factor, 1) * 100%), 47.8%);
+  --focus-primary: var(--nord-primary);
 
   --background-selection: hsla(213, calc(var(--saturation-factor, 1) * 75%), 60%, 0.2);
   --icon-admin: var(--text-muted);
