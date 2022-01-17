@@ -43,7 +43,8 @@
 .dotOnline-j08lOY,
 .dotOnline-8Ag7EB,
 .pillIconOnline-2JLgFw, /* Join server */
-.statusOnline-Iw3r2o {
+.statusOnline-Iw3r2o,
+.liveIndicator-TJKS7N /* Event */ {
   background-color: var(--status-online) !important;
 }
 
