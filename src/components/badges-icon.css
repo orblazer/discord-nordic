@@ -267,6 +267,7 @@
 /* Boost icons */
 .emoji-9BUMSf,
 .archiveThread-31XNI5,
+.perkIcon-2DG0tJ path[fill="hsl(47, calc(var(--saturation-factor, 1) * 98.9%), 63.9%)"], /* archive thread */
 .roleIcon-F8XDd3,
 .uploadSizeIcon-2HNa5p,
 .featureEmoji-3pTtR2 .featureTitle-W5O6R1 {
@@ -281,6 +282,7 @@
 
 .customization-2EsHiN,
 .privateThread-30NcIk,
+.perkIcon-2DG0tJ path[fill="hsl(164, calc(var(--saturation-factor, 1) * 55.1%), 69.4%)"], /* private thread */
 .emojiIcon-2xOPMD,
 .featureProfile-tTo0C- .featureTitle-W5O6R1 {
   color: var(--nord-turquoise) !important;
@@ -289,6 +291,7 @@
 .sticker-1VBw7w,
 .upload-2ZF-qH,
 .customRoleIcon-33irpw,
+.perkIcon-2DG0tJ path[fill="hsl(272, calc(var(--saturation-factor, 1) * 100%), 80.2%)"], /* sticker */
 .featureBadge-3ZA-Ca .featureTitle-W5O6R1,
 .icon-3dkE_X,
 .badgeIconWithSubscribers-2WYJsQ,
@@ -307,6 +310,7 @@
 
 .stream-MrQM3B,
 .animated-1th8Z0,
+.perkIcon-2DG0tJ path[fill="hsl(222, calc(var(--saturation-factor, 1) * 100%), 75.1%)"], /* powerful upgrade */
 .featureUploadSize-2CAVFL .featureTitle-W5O6R1 {
   color: var(--nord-cyan) !important;
 }
