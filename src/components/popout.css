@@ -34,14 +34,14 @@
 .reactors-1VXca7,
 .contentWrapper-3oy4Xo, /* Join server */
 .container-VSDcQc .sectionTag-pXyto9,
-.streamPreview-2-WUWT {
+.streamPreview-3qoMP4 /* Stream popout */ {
   background-color: var(--background-floating) !important;
 }
 
 .footer-31IekZ,
 .footer-VCsJQY,
 .scroller-2GkvCq,
-.previewImage-RxVzkZ,
+.previewContainer-21fFBz, /* Stream popout */
 .optionContainer-yOpaLq {
   background-color: var(--background-secondary-alt) !important;
 }
