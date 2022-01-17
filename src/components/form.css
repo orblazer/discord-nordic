@@ -15,6 +15,11 @@
   color: var(--text-primary-background);
 }
 
+.colorPickerCustom-1swUKF {
+  background-color: var(--background-secondary) !important;
+  border-color: var(--background-tertiary) !important;
+}
+
 /* field star */
 .required---V9PF {
   color: var(--nord-red);

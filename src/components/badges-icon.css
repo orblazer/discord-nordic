@@ -178,7 +178,8 @@
 }
 
 .checklistIcon-D7psvE path[fill='hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)'],
-.card-2EUiNF path[fill='hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)'] {
+.card-2EUiNF path[fill='hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)'],
+.warningCircleIcon-JjxdGS /* server profile */ {
   fill: var(--nord-orange);
 }
 
