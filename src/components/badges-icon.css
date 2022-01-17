@@ -265,29 +265,33 @@
 }
 
 /* Boost icons */
-.emoji-14TyAm,
+.emoji-9BUMSf,
+.archiveThread-31XNI5,
 .roleIcon-F8XDd3,
 .uploadSizeIcon-2HNa5p,
 .featureEmoji-3pTtR2 .featureTitle-W5O6R1 {
   color: var(--nord-yellow) !important;
 }
 
-.audio-PN_OoN,
+.audio-1gwn0y,
 .audioQualityIcon-1KNkhv,
 .featurePremiumGuild-2KpCr6 .featureTitle-W5O6R1 {
   color: var(--nord-blue) !important;
 }
 
-.customization-1Iu5cE,
+.customization-2EsHiN,
+.privateThread-30NcIk,
 .emojiIcon-2xOPMD,
 .featureProfile-tTo0C- .featureTitle-W5O6R1 {
   color: var(--nord-turquoise) !important;
 }
 
-.upload-2-2ZMI,
+.sticker-1VBw7w,
+.upload-2ZF-qH,
+.customRoleIcon-33irpw,
 .featureBadge-3ZA-Ca .featureTitle-W5O6R1,
-.icon-QVoPRH,
-.badgeIconWithSubscribers-3PlMu9,
+.icon-3dkE_X,
+.badgeIconWithSubscribers-2WYJsQ,
 .colorPremium-vwmYZQ .icon-E4cW1l,
 .premiumIcon-1rDbWQ,
 .premiumGuildIcon-13KUPa,
@@ -301,12 +305,13 @@
   color: var(--nord-pink) !important;
 }
 
-.stream-3mNTxK,
+.stream-MrQM3B,
+.animated-1th8Z0,
 .featureUploadSize-2CAVFL .featureTitle-W5O6R1 {
   color: var(--nord-cyan) !important;
 }
 
-.vanity-284TLk,
+.vanity-3w8-tW,
 .featureGoLive-30cvVw .featureTitle-W5O6R1 {
   color: var(--nord-orange) !important;
 }

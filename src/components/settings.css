@@ -97,19 +97,19 @@
 /**
  * Server boost
  */
-.background-3xPPFc,
-.barBackground-2EEiLw {
+.background-3xPPFc {
   color: var(--background-slider) !important;
 }
 
 .tierInProgress-3mBoXq,
-.tierMarkerInProgress-24LMzJ {
+.tierMarkerInProgress-2Tdxjz,
+.barBackground-unEPD {
   background-color: var(--background-slider) !important;
 }
 
+.tierMarkerLabelPlusIcon-2zLkr7,
+.tierMarkerInProgress-2Tdxjz .currentTierIcon-2rq-bv.tier3Icon-959FdD,
 .foreground-2EIns2,
-.tierMarkerLabelPlusIcon-1OS7E9,
-.tierMarkerInProgress-24LMzJ .currentTierIcon-2gcTCn.tier3Icon-Ku4Ahe,
 .guildBoostingIcon-35OwPQ,
 .upsellButton-36YQ7c {
   color: var(--nord-pink) !important;
@@ -118,12 +118,12 @@
 .tierAccomplished-1I5NaT,
 .tierCurrent-2nowYi,
 .tierDefault-39L2SF,
-.barForeground-3KglC8,
-.tierMarkerAccomplished-2MiXeg {
+.barForeground-2kwBa_,
+.tierMarkerAccomplished-1SkbEJ {
   background-color: var(--nord-pink) !important;
 }
 
-.tierHeaderLocked-30MLlO,
+.tierHeaderLocked-3ItHYn,
 .tierHeaderLocked-1s2JJz {
   background-color: var(--background-secondary-alt) !important;
   color: var(--text-muted) !important;
@@ -136,7 +136,7 @@
 }
 
 .tierHeaderUnlockedBackground-MW5XJU,
-.tierHeaderUnlocked-1n-OTI,
+.tierHeaderUnlocked-1IvR2R,
 .wrapper-3Zq_cJ,
 .progressBarFill-r3JZQ7,
 .progressBar-1Tzim4 /* Goal */ {
@@ -152,19 +152,12 @@
   background-image: linear-gradient(11deg, var(--nord-blue), var(--nord-pink)) !important;
 }
 
-.tierUnlocked-27DwHo,
-.tierUnlocked-25K6Kv {
-  background-color: var(--nord-primary) !important;
-  color: var(--text-primary-background) !important;
-}
-
-.tierBody-1d3UiS,
+.tierBody-3ju-rc,
 .tierBody-16Chc9 {
   background-color: var(--background-floating) !important;
-  color: var(--text-secondary) !important;
 }
 
-.tierLock-1oFMOZ,
+.tierLock-1uBqZ0,
 .tierLock-3CSxSX {
   color: var(--interactive-muted) !important;
 }

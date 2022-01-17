@@ -119,9 +119,13 @@
   background-color: var(--nord-light5);
   color: var(--nord-green);
 }
-.lookInverted-2mDUMi.colorBrand-I6CyqQ {
-  background-color: var(--nord-light5);
-  color: var(--nord-primary);
+.lookInverted-2mDUMi.colorBrand-I6CyqQ,
+.tierUnlocked-1yG5Ic {
+  background-color: var(--button-primary-text);
+  color: var(--button-primary);
+}
+.lookInverted-2mDUMi.colorBrand-I6CyqQ:hover {
+  background-color: var(--nord-black2);
 }
 
 .activityProfile-2bJRaP .content-3JfFJh,
@@ -249,18 +253,22 @@
 /**
  * Server boost
  */
-.perksModal-fSYqOq,
-.tierMarkerBackground-3q29am {
+.perksModal-CLcR1c,
+.tierMarkerBackground-G8FoN4 {
   background-color: var(--background-primary) !important;
 }
 
-.currentTierIcon-2gcTCn,
-.selectedTier-1JkO7i .tierMarkerLabelText-F_zS1F {
+.currentTierIcon-2rq-bv,
+.selectedTier-24Xj0k .tierMarkerLabelText-1wk8KK {
   color: var(--text-normal) !important;
 }
 
-.perk-2WeBWW {
+.perk-19D_HN {
   background-color: var(--background-floating) !important;
+}
+
+.headerLogo-2M4f14 {
+  color: var(--header-primary);
 }
 
 /**
