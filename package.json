@@ -18,8 +18,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "csso": "^5.0.2",
-    "diff": "^5.0.0"
+    "csso": "^5.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.0.2",
