@@ -120,12 +120,16 @@
   color: var(--nord-green);
 }
 .lookInverted-2mDUMi.colorBrand-I6CyqQ,
-.tierUnlocked-1yG5Ic {
-  background-color: var(--button-primary-text);
-  color: var(--button-primary);
+.tierUnlocked-1yG5Ic, /* server boost */
+.upsellButtonPrimary-1OnWlC,
+.upsellButtonPrimary-1OnWlC+button {
+  background-color: var(--button-primary-text) !important;
+  color: var(--button-primary) !important;
 }
-.lookInverted-2mDUMi.colorBrand-I6CyqQ:hover {
-  background-color: var(--nord-black2);
+.lookInverted-2mDUMi.colorBrand-I6CyqQ:hover,
+.upsellButtonPrimary-1OnWlC:hover, /* server boost */
+.upsellButtonPrimary-1OnWlC+button:hover {
+  background-color: var(--nord-black2) !important;
 }
 
 .activityProfile-2bJRaP .content-3JfFJh,
@@ -171,11 +175,11 @@
 /**
  * Notice
  */
-.noticeRegion-1YviSH > .elevationHigh-1PneE4 {
-  background-color: var(--nord-black2) !important;
+.noticeRegion-qjyUVg > .elevationHigh-28Pty4[style*='background-color: rgba(32, 34, 37, 0.9)'] {
+  background-color: var(--background-tertiary) !important;
 }
 
-.noticeRegion-1YviSH > .elevationHigh-1PneE4[style*='background-color: rgba(240, 71, 71, 0.9)'] {
+.noticeRegion-qjyUVg > .elevationHigh-28Pty4[style*='background-color: rgba(237, 66, 69, 0.9)'] {
   background-color: var(--nord-red) !important;
 }
 

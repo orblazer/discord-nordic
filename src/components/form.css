@@ -15,6 +15,11 @@
   color: var(--text-primary-background);
 }
 
+/* field star */
+.required---V9PF {
+  color: var(--nord-red);
+}
+
 /* Keybind input */
 .container-1_EVMa:not(.disabled-3S7pz8):focus-within,
 .container-1_EVMa:not(.disabled-3S7pz8):hover {
