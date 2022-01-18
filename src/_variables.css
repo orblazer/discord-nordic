@@ -144,11 +144,11 @@
   --keybind-text: var(--text-normal);
   --keybind-shadow: var(--nord-black2);
 
-  --scrollbar-thin-thumb: var(--nord-black2);
+  --scrollbar-thin-thumb: var(--nord-black3);
   --scrollbar-thin-track: transparent;
-  --scrollbar-auto-thumb: var(--nord-black2);
+  --scrollbar-auto-thumb: var(--nord-black3);
   --scrollbar-auto-track: var(--nord-dark1);
-  --scrollbar-auto-scrollbar-color-thumb: var(--nord-dark4);
+  --scrollbar-auto-scrollbar-color-thumb: var(--nord-black3);
   --scrollbar-auto-scrollbar-color-track: var(--nord-black1);
 
   --logo-primary: #fff;
