@@ -386,3 +386,16 @@
 .phoneFieldPopout-3O-1C3 .countryCode-geijl7 {
   color: var(--text-normal) !important;
 }
+
+/**
+ * Add role/member
+ */
+.autocompleteArrow-jJE9TQ,
+.header-3i_Csh {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.container-1S70rv .sectionTag-28mLyE {
+  background-color: var(--background-floating) !important;
+  color: var(--interactive-muted) !important;
+}
