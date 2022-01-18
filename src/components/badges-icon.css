@@ -329,3 +329,14 @@
 .perksTablePerkCheckmarkTier1-3p68Jf {
   color: var(--nord-primary) !important;
 }
+
+/* Trash */
+.button-3bklZh.dangerous-Y36ifs {
+  color: var(--button-red);
+}
+.button-3bklZh.dangerous-Y36ifs:hover {
+  color: var(--button-red-hover);
+}
+.button-3bklZh.dangerous-Y36ifs:active {
+  color: var(--button-red-active);
+}
