@@ -172,12 +172,12 @@
   background-color: var(--info-danger-foreground);
 }
 
-.improved-2SJXHz-y {
-  color: var(--nord-primary);
+.improved-2SJXHz {
+  color: var(--nord-primary) !important;
 }
 
 .improved-2SJXHz::after {
-  background-color: var(--nord-primary);
+  background-color: var(--nord-primary) !important;
 }
 
 /**
