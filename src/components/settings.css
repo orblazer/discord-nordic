@@ -39,7 +39,7 @@
 /**
  * Game activity
  */
-.notDetected-33MY4s,
+.notDetected-2HEmAp,
 .default-1Tkeeg {
   background-color: var(--background-secondary) !important;
 }
@@ -48,22 +48,21 @@
   background-color: var(--background-secondary-alt) !important;
 }
 
-.gameName-1RiWHm {
+.gameName-Uw4dbt {
   color: var(--text-normal) !important;
 }
 
-.lastPlayed-3bQ7Bo,
-.overlayStatusText-L2IACa {
+.lastPlayed-3aHvxk,
+.overlayStatusText-AHDYB3 {
   color: var(--text-muted) !important;
 }
 
-.nowPlaying-284llR {
+.nowPlaying-zBamm2 {
   background-color: var(--nord-green) !important;
 }
 
-.nowPlaying-284llR .overlayToggleIconOff-1kT42w .fill-1ugeBG,
-.nowPlaying-284llR .overlayToggleIconOn-3UNmty .fill-1ugeBG {
-  fill: var(--nord-dark5) !important;
+.gameVerifiedIcon {
+  fill: var(--nord-primary);
 }
 
 /**
