@@ -156,8 +156,7 @@
 }
 
 .checklistIcon-D7psvE path[fill='hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)'], /* ?? */
-.card-2EUiNF path[fill='hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)'], /* ?? */
-.warningCircleIcon-JjxdGS /* server profile */ {
+.card-2EUiNF path[fill='hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)'], /* ?? */ {
   fill: var(--nord-orange);
 }
 
@@ -221,7 +220,7 @@
 }
 
 .warnIcon-3ly1wg /* nitro price */ {
-  background-image: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMTIgMmMtNS41MTQgMC0xMCA0LjQ4Ny0xMCAxMCAwIDUuNTE1IDQuNDg2IDEwIDEwIDEwczEwLTQuNDg1IDEwLTEwYzAtNS41MTMtNC40ODYtMTAtMTAtMTB6bTAgNC43NTFjLjY5IDAgMS4yNS41NiAxLjI1IDEuMjUgMCAuNjkxLS41NiAxLjI1LTEuMjUgMS4yNXMtMS4yNS0uNTYtMS4yNS0xLjI1MWMwLS42OS41Ni0xLjI0OSAxLjI1LTEuMjQ5em0zIDEwLjI0OWgtNnYtMmgydi0zaC0xdi0yaDJjLjU1MyAwIDEgLjQ0OCAxIDF2NGgyeiIgZmlsbD0iI2ViY2I4YiIvPjwvc3ZnPg==');
+  background-image: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMTIgMmMtNS41MTQgMC0xMCA0LjQ4Ny0xMCAxMCAwIDUuNTE1IDQuNDg2IDEwIDEwIDEwczEwLTQuNDg1IDEwLTEwYzAtNS41MTMtNC40ODYtMTAtMTAtMTB6bTAgNC43NTFjLjY5IDAgMS4yNS41NiAxLjI1IDEuMjUgMCAuNjkxLS41NiAxLjI1LTEuMjUgMS4yNXMtMS4yNS0uNTYtMS4yNS0xLjI1MWMwLS42OS41Ni0xLjI0OSAxLjI1LTEuMjQ5em0zIDEwLjI0OWgtNnYtMmgydi0zaC0xdi0yaDJjLjU1MyAwIDEgLjQ0OCAxIDF2NGgyeiIgZmlsbD0iI2QwODc3MCIvPjwvc3ZnPg==');
 }
 
 /* Boost icons */
@@ -314,4 +313,8 @@
 .strikethrough-4IgyqA, /* thread notification */
 .cross-1t16Bx /* bot permission */ {
   color: var(--nord-red);
+}
+
+.warningCircleIcon-JjxdGS /* server profile */ {
+  color: var(--nord-orange);
 }
