@@ -58,11 +58,6 @@
   color: var(--nord-primary) !important;
 }
 
-/* self mute */
-.strikethrough-2Kl6HF {
-  color: var(--nord-red);
-}
-
 .activeCircle-3yNg6t {
   background-color: var(--nord-primary);
   color: var(--text-primary-background);

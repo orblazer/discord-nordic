@@ -104,18 +104,20 @@
 
 /* Red */
 .lookFilled-yCfaCM.colorRed-rQXKgM,
-.filled-1iCBCZ,
 .colorable-3rVGna.red-3T8maV,
+.filled-2zYazI, /* remove button */
 .deny-1GO6vI.selected-3jieYB /* guild permission */ {
   background-color: var(--button-red);
   color: var(--button-red-text);
 }
 .lookFilled-yCfaCM.colorRed-rQXKgM:hover,
-.colorable-3rVGna.red-3T8maV:hover {
+.colorable-3rVGna.red-3T8maV:hover,
+.filled-2zYazI:hover /* remove button */ {
   background-color: var(--button-red-hover);
 }
 .lookFilled-yCfaCM.colorRed-rQXKgM:active,
-.colorable-3rVGna.red-3T8maV:active {
+.colorable-3rVGna.red-3T8maV:active,
+.filled-2zYazI:active /* remove button */ {
   background-color: var(--button-red-active);
 }
 .lookFilled-yCfaCM.colorRed-rQXKgM:disabled {

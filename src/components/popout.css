@@ -244,3 +244,11 @@
   background-color: var(--background-floating) !important;
   color: var(--interactive-muted) !important;
 }
+
+/**
+ * Server notification
+ */
+.checkbox-f1HnKB.checked-1pZh2h {
+  background-color: var(--nord-green) !important;
+  border-color: var(--nord-green) !important;
+}
