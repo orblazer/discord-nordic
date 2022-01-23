@@ -10,11 +10,11 @@
   color: var(--button-green-text);
 }
 
-.guildsError-b7zR5H {
-  border-color: var(--button-red);
+.guildsError-YJjW3A {
+  border-color: var(--button-red) !important;
 }
 
-.guildsError-b7zR5H:hover {
+.guildsError-YJjW3A:hover {
   background-color: var(--button-red);
   color: var(--button-red-text);
 }
