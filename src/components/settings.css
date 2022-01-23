@@ -21,9 +21,7 @@
 /**
  * Redemption redirect, video preview & keybind hover
  */
-.codeRedemptionRedirect-3SBiCp,
-.userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
-.card-FDVird:before {
+.codeRedemptionRedirect-3SBiCp {
   background-color: var(--card-settings-background) !important;
   border-color: var(--card-settings-border) !important;
   color: var(--text-normal) !important;
@@ -76,25 +74,6 @@
   background-color: var(--nord-black1);
 }
 
-.avatarUploader-3XDtmn .removeButton-1hcZyG {
-  color: var(--text-normal) !important;
-}
-
-/**
- * Game name & Emoji alias
- */
-.emojiAliasInput-1y-NBz .emojiInput-1aLNse,
-.gameNameInput-385LoS:focus,
-.gameNameInput-385LoS:hover {
-  background-color: var(--emoji-game-input-background) !important;
-  border-color: var(--emoji-game-input-border) !important;
-}
-
-.emojiAliasInput-1y-NBz .emojiInput-1aLNse:focus,
-.gameNameInput-385LoS:focus {
-  border-color: var(--nord-primary) !important;
-}
-
 /**
  * Server boost
  */
@@ -102,7 +81,6 @@
   color: var(--background-slider) !important;
 }
 
-.tierInProgress-3mBoXq,
 .tierMarkerInProgress-2Tdxjz,
 .barBackground-unEPD {
   background-color: var(--background-slider) !important;
@@ -135,7 +113,6 @@
   color: var(--text-normal) !important;
 }
 
-.tierHeaderUnlockedBackground-MW5XJU,
 .tierHeaderUnlocked-1IvR2R,
 .wrapper-3Zq_cJ,
 .progressBarFill-r3JZQ7,
@@ -162,14 +139,6 @@
   color: var(--interactive-muted) !important;
 }
 
-.wrapper-3nSjSv {
-  color: var(--nord-light3);
-}
-
-.tierLabel-39IsmN {
-  color: var(--text-normal) !important;
-}
-
 .circleBackgroundAlt-32_kWx {
   fill: var(--background-slider);
 }
@@ -192,47 +161,13 @@
 }
 
 /**
- * Overlay
- */
-.wrapper-3jrx9n {
-  border-color: var(--nord-primary);
-}
-
-.wrapper-3jrx9n.disabledSelected-2Kf0yZ {
-  border-color: var(--nord-red);
-}
-
-.option-n0icdO {
-  background-color: var(--background-accent);
-}
-
-.disabled-3I9jyo {
-  color: var(--background-accent);
-}
-
-.disabled-3I9jyo:hover,
-.selected-mKYnfr.disabled-3I9jyo {
-  color: var(--nord-red);
-}
-
-.selected-mKYnfr.option-n0icdO {
-  background-color: var(--nord-primary);
-  border-color: var(--nord-primary);
-}
-
-.option-n0icdO:hover {
-  background-color: var(--nord-primary);
-}
-
-/**
  * Server
  */
 .typeUpdate-34INPr {
   color: var(--nord-orange);
 }
 
-.typeCreate--o_pRH,
-.check-2-1yhI {
+.typeCreate--o_pRH {
   color: var(--nord-green);
 }
 
@@ -240,49 +175,6 @@
 .cross-22YsmA,
 .slash-2yrR11 /* Mic mute slash */ {
   color: var(--nord-red);
-}
-
-.auditLog-3jNbM6 {
-  border-color: var(--divider) !important;
-  color: var(--text-normal) !important;
-}
-
-.cardPrimaryEditable-3KtE4g,
-.headerClickable-2IVFo9,
-.headerDefault-1wrJcN {
-  background-color: var(--background-secondary) !important;
-  color: var(--text-normal) !important;
-}
-
-.changeDetails-bk98pu {
-  background-color: var(--background-secondary) !important;
-  color: var(--text-muted) !important;
-}
-
-.headerExpanded-CUEwZ5 {
-  background-color: var(--background-tertiary) !important;
-  color: var(--text-normal) !important;
-}
-
-.divider-1pnAR2 {
-  background-color: var(--divider) !important;
-}
-
-.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
-  color: var(--nord-primary);
-}
-
-.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
-  background-color: var(--background-secondary);
-  border-color: var(--background-secondary-alt);
-}
-
-.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
-  border-color: var(--nord-primary);
-}
-
-.regionSelectName-2-2FWh {
-  color: var(--text-normal);
 }
 
 .overflowRolesPopout-1Puiuq,

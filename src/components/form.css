@@ -7,9 +7,6 @@
 .input-2g-os5.success-3HR983 {
   border-color: var(--button-green);
 }
-.inputSuccess-3U9sNd {
-  color: var(--button-green);
-}
 
 .submitText-Kp_2uE {
   color: var(--text-primary-background);
@@ -37,18 +34,9 @@
 /**
  * Checkbox / Radio
  */
-.checkbox-1ix_J3 {
-  border-color: var(--interactive-normal) !important;
-}
-
 .colorDefault-CDqZd0 .checkbox-hADx5o,
 .colorDefault-CDqZd0 .radioSelection-1UHp0b {
   color: var(--nord-primary);
-}
-
-.checkbox-1ix_J3.checked-3_4uQ9 {
-  border-color: var(--nord-primary) !important;
-  background-color: var(--nord-primary) !important;
 }
 
 .checkbox-f1HnKB path[fill='hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)'] {
@@ -79,7 +67,7 @@
  * Slider
  */
 .bar-1Bhnl9:not(.sliderBar-3DezvM),
-.progress-1S-TDF /* Mix test */ {
+.progress-1S-TDF /* Mic test */ {
   background-color: var(--background-slider) !important;
 }
 
@@ -96,55 +84,18 @@
 }
 
 /**
- * Select
- */
-.css-3vaxre-menu,
-.css-1x99fvh-menu {
-  background-color: var(--background-floating);
-  color: var(--text-normal);
-}
-
-.css-3vaxre-menu {
-  border-color: var(--nord-black1);
-}
-.css-1x99fvh-menu {
-  border-color: var(--nord-grey1);
-}
-
-.css-1ye7vu0::-webkit-scrollbar-thumb {
-  background-color: var(--scrollbar-thin-thumb);
-}
-.css-1ye7vu0::-webkit-scrollbar-track {
-  background-color: var(--scrollbar-thin-track);
-}
-
-.css-rzbxvl-option {
-  background-color: var(--background-modifier-hover);
-  color: var(--text-normal);
-}
-
-.css-1ba14n5-option {
-  background-color: var(--background-modifier-active);
-  color: var(--text-normal);
-}
-
-/**
  * Search box
  */
-.search-25t1e9 .searchBox-31Zv9h,
-.header-2bNvm4 {
+.search-25t1e9 .searchBox-31Zv9h {
   background-color: var(--background-primary) !important;
 }
 
-.search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz,
-.container-VSDcQc .input-1ppKdn {
+.search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz {
   color: var(--text-normal) !important;
 }
 .search-25t1e9 .searchBox-31Zv9h .closeIcon-BMGxx0,
 .search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz::placeholder,
-.search-25t1e9 .searchBox-31Zv9h .searchIcon-3X4BYL,
-.container-VSDcQc .sectionTag-pXyto9,
-.container-VSDcQc .input-1ppKdn::placeholder {
+.search-25t1e9 .searchBox-31Zv9h .searchIcon-3X4BYL {
   color: var(--text-muted) !important;
 }
 

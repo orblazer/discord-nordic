@@ -6,40 +6,24 @@
   background-color: var(--highlight);
 }
 
-.theme-light .card-o7rAq- {
-  border-color: var(--nord-light2);
-}
-
 .pageWrapper-2PwDoS,
 .container-2cd8Mz {
   background-color: var(--background-primary) !important;
   color: var(--text-normal) !important;
 }
 
-.notice-18685F {
-  background-color: var(--nord-blue);
-  color: var(--text-normal);
-}
-
-.notice-18685F:hover {
-  background-color: var(--nord-cyan);
-}
-
 /**
  * Text
  */
 /* Primary */
-.colorBrand-3cPPsm,
-.colorBrand-2tjs5J {
+.colorBrand-3cPPsm {
   color: var(--nord-primary);
 }
 
 /* Green */
 .colorStatusGreen-2HKYOW,
 .pro-3GwLMX[style*='color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)'],
-.defaultValue-3gC7yw .markValue-2DwdXI,
-.userSettingsSecurity-3IYeMF .isEnabled-24g9qA,
-.unlocked-Vc8qg9, /* server boost */
+.unlocked-Vc8qg9, /* .server boost */
 .description-1EvxpH.success-t0oxXf,
 .eventStatusGreen-2-f2N8 /* Event detail */ {
   color: var(--nord-green) !important;
@@ -49,10 +33,8 @@
 .colorDanger-3n-KnP,
 .colorDanger-3n-KnP:not(.focused-3qFvc8) .checkbox-hADx5o,
 .colorDanger-3n-KnP .radioSelection-1UHp0b,
-.beta-3smTDE,
-.warning-2DeIgm,
+.warning-2DeIgm, /* .server settings */
 .doesNot-21xPGK,
-.colorError-3RX-d6,
 .container-YkUktl .redIcon-1ppjsM,
 .pruneLink-jE0uo7, /* server member */
 .iconServer-GeSR0b, /* voice mute/deaf icons */
@@ -81,35 +63,16 @@
   color: var(--nord-red);
 }
 
-.activeCircle-3yNg6t,
-.activeCircle-1486wp {
+.activeCircle-3yNg6t {
   background-color: var(--nord-primary);
   color: var(--text-primary-background);
-}
-
-/**
- * Warning cards
- */
-.warning-3C2pOH {
-  border-color: var(--nord-orange);
-  color: var(--interactive-normal);
-}
-.warning-3C2pOH .icon-1jlFSw {
-  color: var(--nord-orange);
-}
-
-.cardWarning-2yPNAa {
-  border-color: var(--nord-orange);
-  background-color: var(--nord-orange);
-  color: var(--nord-light3);
 }
 
 /**
  * Friends
  */
 .outer-2JOHae.active-1W_Gl9,
-.outer-2JOHae.interactive-2zD88a:hover,
-.iconContainer-IBAtWs:hover > .icon-3o6xvg {
+.outer-2JOHae.interactive-2zD88a:hover {
   background-color: var(--background-accent) !important;
 }
 
@@ -129,8 +92,7 @@
 }
 
 /* Black */
-.tooltipBlack-vMYxvw,
-.popout-38lTFE {
+.tooltipBlack-vMYxvw {
   background-color: var(--nord-black3) !important;
 }
 .tooltipBlack-vMYxvw .tooltipPointer-3L49xb {
@@ -181,7 +143,7 @@
 }
 
 /**
- * Stream
+ * Streamer bar
  */
 .colorStreamerMode-8uoRWd {
   background-color: var(--nord-pink);
