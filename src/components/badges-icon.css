@@ -27,7 +27,7 @@
 .mask-2Me5HY rect[fill='hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)'] {
   fill: var(--status-online);
 }
-.status-1AY8sU[style*='background-color: rgb(59, 165, 93)'], /* status picker */
+.status-2DiCMd[style*='background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)'], /* status picker */
 .dotOnline-j08lOY, /* discover */
 .dotOnline-cS7sxB, /* server > discovery */
 .pillIconOnline-2JLgFw, /* Join server */
@@ -43,7 +43,7 @@
 .mask-2Me5HY rect[fill='hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)'] {
   fill: var(--status-offline);
 }
-.status-2DiCMd[style*='background-color: rgb(116, 127, 141)'],  /* status picker */
+.status-2DiCMd[style*='background-color: hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)'],  /* status picker */
 .dotOffline-38lJFn,
 .dotMembers-1XEUE5,
 .statusOffline-2R-ArP {
@@ -57,7 +57,7 @@
 .mask-2Me5HY rect[fill='hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)'] {
   fill: var(--status-idle);
 }
-.status-2DiCMd[style*='background-color: rgb(250, 166, 26)'] /* status picker */ {
+.status-2DiCMd[style*='background-color: hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)'] /* status picker */ {
   background-color: var(--status-idle) !important;
 }
 
@@ -68,7 +68,7 @@
 .mask-2Me5HY rect[fill='hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)'] {
   fill: var(--status-dnd);
 }
-.status-2DiCMd[style*='background-color: rgb(237, 66, 69)'] /* status picker */ {
+.status-2DiCMd[style*='background-color: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)'] /* status picker */ {
   background-color: var(--status-dnd) !important;
 }
 
@@ -78,9 +78,6 @@
 .mask-2Me5HY rect[fill='#593695'], /* .DM chan header */
 .mask-2Me5HY rect[fill='hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)'] {
   fill: var(--status-stream);
-}
-.status-2DiCMd[style*='background-color: rgb(89, 54, 149)']  /* status picker */ {
-  background-color: var(--status-stream) !important;
 }
 
 /**
