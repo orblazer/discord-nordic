@@ -69,10 +69,6 @@
   background-color: var(--text-brand);
 }
 
-.mentioned-Tre-dv .mention.interactive:hover {
-  color: var(--text-mention) !important;
-}
-
 .mentioned-Tre-dv.compact-T3H92H .timestamp-p1Df1m,
 .mentioned-Tre-dv.cozy-VmLDNB .timestamp-p1Df1m.alt-1uNpEt {
   color: var(--mentioned-timestamp);
