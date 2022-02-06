@@ -222,16 +222,19 @@
 /* Boost icons */
 .emoji-9BUMSf,
 .archiveThread-31XNI5,
-.tier1CustomEmojiPerk-2v95LZ /* user nitro */ {
+.tier1CustomEmojiPerk-2v95LZ, /* user nitro */
+.emojiIcon-36tZlH /* settings > server boost */ {
   color: var(--nord-yellow) !important;
 }
 
-.audio-1gwn0y {
+.audio-1gwn0y,
+.audioQualityIcon-MjdH9j /* settings > server boost */ {
   color: var(--nord-blue) !important;
 }
 
-.customization-2EsHiN,
-.privateThread-30NcIk {
+.customization-2EsHiN, /* .guild > server boost */
+.privateThread-30NcIk,
+.threadIcon-19WQOP /* settings > server boost */ {
   color: var(--nord-turquoise) !important;
 }
 
@@ -249,7 +252,9 @@
 .icon-3dkE_X,
 .badgeIconWithSubscribers-2WYJsQ,
 .tier1BoostPerk-V7RkB_, /* .user nitro */
-.tier1UploadPerk-1ZDumb {
+.tier1UploadPerk-1ZDumb,
+.stickerIcon-1yNRcX, /* .settings > server boost */
+.uploadSizeIcon-2rljj- {
   color: var(--nord-pink) !important;
 }
 
@@ -297,7 +302,8 @@
 }
 
 .perkIcon-2DG0tJ path[fill="hsl(272, calc(var(--saturation-factor, 1) * 100%), 80.2%)"], /* sticker (boost server) */
-.perkIcon-2DG0tJ path[fill="hsl(305, calc(var(--saturation-factor, 1) * 100%), 75.1%)"] /* gem (boost server) */ {
+.perkIcon-2DG0tJ path[fill="hsl(305, calc(var(--saturation-factor, 1) * 100%), 75.1%)"], /* gem (boost server) */
+.icon-3FU6Ir[fill="#FF73FA"] /* server > boost button (sidebar) */ {
   fill: var(--nord-pink);
 }
 
