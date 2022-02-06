@@ -307,7 +307,10 @@
 
 .perkIcon-2DG0tJ path[fill="hsl(272, calc(var(--saturation-factor, 1) * 100%), 80.2%)"], /* sticker (boost server) */
 .perkIcon-2DG0tJ path[fill="hsl(305, calc(var(--saturation-factor, 1) * 100%), 75.1%)"], /* gem (boost server) */
-.icon-3FU6Ir[fill="#FF73FA"] /* server > boost button (sidebar) */ {
+.icon-3FU6Ir[fill="#FF73FA"], /* server > boost button (sidebar) */
+.premiumLabel-V52REm svg, /* settings > nitro (icon) */
+.nitroWheel-39nBjR path, /* settings > avatar > nitro gear */
+.root-g14mjS .icon-1YUWIM path /* settings > avatar > gif > nitro gear */{
   fill: var(--nord-pink);
 }
 
