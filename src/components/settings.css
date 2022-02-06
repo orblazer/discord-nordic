@@ -45,7 +45,9 @@
  * Game activity
  */
 .notDetected-2HEmAp,
-.default-1Tkeeg {
+.default-1Tkeeg,
+.gameNameInput-3TuPuA:focus,
+.gameNameInput-3TuPuA:hover {
   background-color: var(--background-secondary) !important;
 }
 
@@ -64,6 +66,15 @@
 
 .nowPlaying-zBamm2 {
   background-color: var(--nord-green) !important;
+}
+
+.nowPlaying-zBamm2 .gameName-Uw4dbt {
+  color: var(--header-primary) !important;
+}
+
+.nowPlaying-zBamm2 .lastPlayed-3aHvxk,
+.nowPlaying-zBamm2 .overlayStatusText-AHDYB3 {
+  color: var(--text-normal) !important;
 }
 
 .gameVerifiedIcon {
