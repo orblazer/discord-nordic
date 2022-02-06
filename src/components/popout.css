@@ -31,14 +31,14 @@
 .container-KM8BU6, /* .Reaction */
 .reactors-1VXca7,
 .contentWrapper-3oy4Xo, /* Join server */
-.streamPreview-3qoMP4 /* Stream popout */ {
+.streamPreview-I7itZ6 /* Stream popout */ {
   background-color: var(--background-floating) !important;
 }
 
 .footer-31IekZ,
 .footer-VCsJQY,
 .scroller-2GkvCq,
-.previewContainer-21fFBz, /* .Stream popout */
+.previewContainer-35LFgt, /* .Stream popout */
 .optionContainer-yOpaLq {
   background-color: var(--background-secondary-alt) !important;
 }
@@ -243,12 +243,4 @@
 .container-1S70rv .sectionTag-28mLyE {
   background-color: var(--background-floating) !important;
   color: var(--interactive-muted) !important;
-}
-
-/**
- * Server notification
- */
-.checkbox-f1HnKB.checked-1pZh2h {
-  background-color: var(--nord-green) !important;
-  border-color: var(--nord-green) !important;
 }

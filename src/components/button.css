@@ -35,16 +35,16 @@
   background-color: var(--button-grey-active) !important;
 }
 .lookOutlined-3yKVGo.colorPrimary-2AuQVo,
-.watchButton-2v6cPT /* Preview popout */ {
+.watchButton-2YRKxv /* Preview popout */ {
   color: var(--text-normal) !important;
   border-color: var(--text-normal) !important;
 }
 .lookOutlined-3yKVGo.colorPrimary-2AuQVo:hover,
-.watchButton-2v6cPT:hover /* Stream popout */ {
+.watchButton-2YRKxv:hover /* Stream popout */ {
   background-color: var(--background-modifier-hover) !important;
 }
 .lookOutlined-3yKVGo.colorPrimary-2AuQVo:active,
-.watchButton-2v6cPT:active /* Stream popout */ {
+.watchButton-2YRKxv:active /* Stream popout */ {
   background-color: var(--background-modifier-active) !important;
 }
 .lookGhost-2Fn_0-.colorGrey-2iAG-B {

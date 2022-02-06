@@ -44,8 +44,7 @@
   fill: var(--status-offline);
 }
 .status-2DiCMd[style*='background-color: hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)'],  /* status picker */
-.dotOffline-38lJFn,
-.dotMembers-1XEUE5,
+.dotOffline-38lJFn, /* discover */
 .statusOffline-2R-ArP {
   background-color: var(--status-offline) !important;
 }
@@ -105,14 +104,11 @@
 /**
  * Server
  */
-.partnered-3nJayh {
-  color: var(--button-primary);
-}
-.partnered-3nJayh .icon-1ihkOt {
+.partnered-23cXFN .icon-3BYlXK /* server list > hover > partner */ {
   color: var(--button-primary-text);
 }
 
-.verified-1Jv_7P {
+.verified-1Jv_7P /* .server list > hover > partner */ {
   color: var(--button-green);
 }
 .verified-1Jv_7P .icon-3BYlXK {
