@@ -311,3 +311,11 @@
 .warningCircleIcon-JjxdGS /* server profile */ {
   color: var(--nord-orange);
 }
+
+/* game verified icon */
+.flowerStar-2tNFCR path[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"] /* game activity */ {
+  fill: var(--nord-primary);
+}
+.flowerStar-2tNFCR path[fill="hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%)"] /* game activity */ {
+  fill: var(--nord-primary-background);
+}
