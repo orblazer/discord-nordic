@@ -115,8 +115,11 @@
   color: var(--button-green-text);
 }
 
-/* Pin dot */
-.iconBadge-3Mmg92 {
+.checked-1pZh2h path[fill="hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%)"] /* guild > partner & discover */ {
+  fill: var(--button-primary-text);
+}
+
+.iconBadge-3Mmg92 /* Pin dot */ {
   background-color: var(--nord-red) !important;
 }
 
@@ -148,8 +151,8 @@
   fill: var(--nord-primary);
 }
 
-.checklistIcon-D7psvE path[fill='hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)'], /* ?? */
-.card-2EUiNF path[fill='hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)'], /* ?? */ {
+.checklistIcon-D7psvE path[fill='hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)'], /* Server > discover & partner */
+.card-2EUiNF path[fill='hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)'] /* ?? */ {
   fill: var(--nord-orange);
 }
 
