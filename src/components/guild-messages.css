@@ -135,6 +135,15 @@
   box-shadow: inset 0 0 0 2px var(--nord-green), inset 0 0 0 3px var(--background-secondary-alt);
 }
 
+/* full screen (invite) */
+.tile-2TcwiO,
+.header-1BxQhu {
+  color: var(--text-normal);
+}
+.tile-2TcwiO {
+  background-color: var(--background-tertiary);
+}
+
 /**
  * Send file
  */

@@ -18,20 +18,23 @@
 .lookFilled-yCfaCM.colorGrey-2iAG-B,
 .lookFilled-yCfaCM.colorPrimary-2AuQVo,
 .iconWrapper-2_MXbk,
-.colorable-3rVGna.primaryDark-3mSFDl {
+.colorable-3rVGna.primaryDark-3mSFDl,
+.button-3Vyz67 /* voice  full screen (invite) */ {
   background-color: var(--button-grey) !important;
   color: var(--button-grey-text) !important;
 }
 .lookFilled-yCfaCM.colorGrey-2iAG-B:hover,
 .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover,
 .iconWrapper-2_MXbk:hover,
-.colorable-3rVGna.primaryDark-3mSFDl:hover {
+.colorable-3rVGna.primaryDark-3mSFDl:hover,
+.button-3Vyz67:hover /* voice  full screen (invite) */ {
   background-color: var(--button-grey-hover) !important;
 }
 .lookFilled-yCfaCM.colorGrey-2iAG-B:active,
 .lookFilled-yCfaCM.colorPrimary-2AuQVo:active,
 .iconWrapper-2_MXbk:active,
-.colorable-3rVGna.primaryDark-3mSFDl:active {
+.colorable-3rVGna.primaryDark-3mSFDl:active,
+.button-3Vyz67:active /* voice full screen (invite) */ {
   background-color: var(--button-grey-active) !important;
 }
 .lookOutlined-3yKVGo.colorPrimary-2AuQVo,
