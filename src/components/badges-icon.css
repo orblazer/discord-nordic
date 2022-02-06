@@ -104,6 +104,10 @@
 /**
  * Server
  */
+ .activityIcon-vfIBet /* server list > hover */ {
+  color: var(--text-muted);
+}
+
 .partnered-23cXFN .icon-3BYlXK /* server list > hover > partner */ {
   color: var(--button-primary-text);
 }
