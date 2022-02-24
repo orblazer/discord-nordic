@@ -73,15 +73,15 @@
 }
 
 .queryContainer-ZunrLZ,
-.option-2KkUJO[aria-selected='true'] /* Selected */ {
+.option-ayUoaq[aria-selected='true'] /* Selected */ {
   background-color: var(--background-secondary-alt) !important;
 }
 
-.option-2KkUJO::after {
+.option-ayUoaq::after {
   background: var(--background-floating-gradient) !important;
 }
 
-.option-2KkUJO[aria-selected='true']::after {
+.option-ayUoaq[aria-selected='true']::after {
   background: var(--background-modifier-hover-gradient) !important;
 }
 
