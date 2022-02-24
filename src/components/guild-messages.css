@@ -26,6 +26,10 @@
   background-color: var(--background-slider) !important;
 }
 
+.container-2giAcK:hover .progressBar-2yl2pi {
+  background-image: linear-gradient(90deg, var(--nord-blue), var(--nord-pink) 34%, var(--nord-blue) 67%, var(--nord-pink)) !important;
+}
+
 /**
  * Channel
  */
