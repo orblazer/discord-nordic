@@ -18,7 +18,7 @@
 .lookFilled-yCfaCM.colorGrey-2iAG-B,
 .lookFilled-yCfaCM.colorPrimary-2AuQVo,
 .iconWrapper-2_MXbk,
-.colorable-3rVGna.primaryDark-3mSFDl,
+.colorable-3rVGna.primaryDark-2UJt1G, /* DM voice */
 .button-3Vyz67 /* voice  full screen (invite) */ {
   background-color: var(--button-grey) !important;
   color: var(--button-grey-text) !important;
@@ -26,14 +26,14 @@
 .lookFilled-yCfaCM.colorGrey-2iAG-B:hover,
 .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover,
 .iconWrapper-2_MXbk:hover,
-.colorable-3rVGna.primaryDark-3mSFDl:hover,
+.colorable-3rVGna.primaryDark-2UJt1G:hover, /* DM voice */
 .button-3Vyz67:hover /* voice  full screen (invite) */ {
   background-color: var(--button-grey-hover) !important;
 }
 .lookFilled-yCfaCM.colorGrey-2iAG-B:active,
 .lookFilled-yCfaCM.colorPrimary-2AuQVo:active,
 .iconWrapper-2_MXbk:active,
-.colorable-3rVGna.primaryDark-3mSFDl:active,
+.colorable-3rVGna.primaryDark-2UJt1G:active, /* DM voice */
 .button-3Vyz67:active /* voice full screen (invite) */ {
   background-color: var(--button-grey-active) !important;
 }
@@ -164,7 +164,7 @@
 .tabBar-ra-EuL .item-3mHhwr[style*='hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)'][aria-selected="false"],
 .circleIconButton-1VxDrg:hover,
 .circleIconButton-1VxDrg.selected-2r1Hvo,
-.colorable-3rVGna.green-plH-Mj,
+.colorable-3rVGna.green-3wkLbx, /* DM voice */
 .allow-1h61-Z.selected-3jieYB, /* guild permission */
 .iconContainer-6xlTpK,
 .iconContainer-3LclNk {
@@ -175,7 +175,7 @@
 .tabBar-ra-EuL
   .item-3mHhwr[style*='hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)'][aria-selected="false"]:hover,
 .circleIconButton-1VxDrg:active,
-.colorable-3rVGna.green-plH-Mj:hover {
+.colorable-3rVGna.green-3wkLbx:hover /* DM voice */ {
   background-color: var(--button-green-hover) !important;
 }
 .lookFilled-yCfaCM.colorGreen-3y-Z79:active,
@@ -184,7 +184,7 @@
   background-color: var(--button-green-active) !important;
 }
 .lookOutlined-3yKVGo.colorGreen-3y-Z79,
-.colorable-3rVGna.green-plH-Mj:active {
+.colorable-3rVGna.green-3wkLbx:active /* DM voice */ {
   color: var(--button-green);
   border-color: var(--button-green);
 }
