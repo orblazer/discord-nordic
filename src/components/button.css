@@ -61,18 +61,18 @@
 /* Brand (primary now) */
 .lookFilled-yCfaCM.colorBrand-I6CyqQ,
 .lookFilled-yCfaCM.colorBrandNew-2-gGsS,
-.datePicker--70cO23 .datePickerHint-17MnA8 .hintValue-1x-flY {
+.datePicker--3iA7_k .datePickerHint-Ir4715 .hintValue-V9hd8l {
   background-color: var(--button-primary) !important;
   color: var(--button-primary-text) !important;
 }
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover,
 .lookFilled-yCfaCM.colorBrandNew-2-gGsS:hover,
-.datePicker--70cO23 .datePickerHint-17MnA8 .hintValue-1x-flY:hover {
+.datePicker--3iA7_k .datePickerHint-Ir4715 .hintValue-V9hd8l:hover {
   background-color: var(--button-primary-hover) !important;
 }
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:active,
 .lookFilled-yCfaCM.colorBrandNew-2-gGsS:active,
-.datePicker--70cO23 .datePickerHint-17MnA8 .hintValue-1x-flY:active {
+.datePicker--3iA7_k .datePickerHint-Ir4715 .hintValue-V9hd8l:active {
   background-color: var(--button-primary-active) !important;
 }
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled {
