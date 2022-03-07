@@ -82,6 +82,15 @@
   color: var(--mentioned-timestamp);
 }
 
+/* Search jump */
+.backgroundFlash-1X5jVs {
+  transition: background-color 0.05s ease;
+}
+.backgroundFlash-1X5jVs[style*="background-color: rgba(88, 101, 242, 0."] {
+  color: var(--text-mention-hover) !important;
+  background-color: var(--background-mentioned-hover) !important;
+}
+
 /**
  * Reaction
  */
