@@ -1,33 +1,42 @@
-/**
- * Hover actions
- */
-.colorDefault-CDqZdO.focused-3qFvc8 {
+/* join voice channel on new guild */
+.container--0Z8bx {
   background-color: var(--nord-primary);
+}
+.subTitle-3STO2E,
+.title-9EXzqk {
   color: var(--text-primary-background);
 }
 
-.colorDefault-CDqZdO:active:not(.hideInteraction-1iHO1O) {
-  background-color: var(--button-primary-active);
+/**
+ * Hover actions
+ */
+.colorDefault-CDqZdO:not(.colorDanger-3n-KnP).focused-3qFvc8 {
+  background-color: var(--button-brand-background);
+  color: var(--button-brand-text);
+}
+.colorDefault-CDqZdO:not(.colorDanger-3n-KnP):active:not(.hideInteraction-1iHO1O) {
+  background-color: var(--button-brand-background-active);
+  color: var(--button-brand-text);
 }
 
-.colorDefault-CDqZdO.focused-3qFvc8 .check-1JyqgN {
+.colorDefault-CDqZdO:not(.colorDanger-3n-KnP).focused-3qFvc8 .subtext-2GlkbE {
   color: var(--text-primary-background);
 }
 
 .colorDanger-3n-KnP.focused-3qFvc8 {
-  background-color: var(--button-red);
-  color: var(--button-red-text) !important;
+  background-color: var(--button-danger-background);
+  color: var(--button-danger-text);
 }
-
-.colorDanger-CDqZdO.focused-3qFvc8 .check-1JyqgN {
-  color: var(--button-red-text) !important;
+.colorDanger-3n-KnP:active:not(.hideInteraction-2jPGL_) {
+  background-color: var(--button-danger-background-active);
+  color: var(--button-danger-text);
 }
 
 /**
  * Modal
  */
 .root-g14mjS:not(.modal-qgFCbT),
-.addGamePopout-3yePJc,
+.addGamePopout-2SKNIV,
 .container-KM8BU6, /* .Reaction */
 .reactors-1VXca7,
 .contentWrapper-3oy4Xo, /* Join server */
@@ -46,6 +55,22 @@
 /**
  * Notice
  */
+/* (view server as role) */
+.notice-2olXi7 {
+  background-color: var(--brand-experiment);
+  color: var(--text-primary-background);
+}
+.button-YGmtzG {
+  border-color: currentColor !important;
+  color: currentColor !important;
+}
+.button-YGmtzG:hover {
+  background-color: var(--button-brand-background-hover);
+}
+.button-YGmtzG:active {
+  background-color: var(--button-brand-background-active);
+}
+
 .noticeRegion-qjyUVg > .elevationHigh-28Pty4[style*='background-color: rgba(32, 34, 37, 0.9)'] {
   background-color: var(--background-tertiary) !important;
 }
@@ -93,28 +118,30 @@
   background-color: var(--background-floating) !important;
 }
 
+.calendarPicker-sDhzdi .react-datepicker__week .react-datepicker__day:last-of-type {
+  border-right-color: var(--deprecated-text-input-border-disabled) !important;
+}
+.calendarPicker-sDhzdi .react-datepicker__week:last-of-type .react-datepicker__day {
+  border-bottom-color: var(--deprecated-text-input-border-disabled) !important;
+}
+
+/* Normal */
+.calendarPicker-sDhzdi
+  .react-datepicker__day:not(.react-datepicker__day--disabled):not(.react-datepicker__day--outside-month) {
+  background-color: var(--background-primary) !important;
+  color: var(--text-normal) !important;
+}
+
+/* Disabled */
 .calendarPicker-sDhzdi .react-datepicker__day--disabled,
-.calendarPicker-sDhzdi .react-datepicker__day--outside-month {
+.calendarPicker-sDhzdi .react-datepicker__day--outside-month,
+.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled,
+.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover {
   background-color: transparent !important;
   color: var(--text-muted) !important;
 }
 
-.calendarPicker-sDhzdi .react-datepicker__day {
-  background-color: var(--background-primary) !important;
-  border-top-color: var(--calendar-border) !important;
-  border-left-color: var(--calendar-border) !important;
-  color: var(--text-normal) !important;
-}
-.calendarPicker-sDhzdi .react-datepicker__week .react-datepicker__day:last-of-type {
-  border-right-color: var(--nord-black2) !important;
-}
-.calendarPicker-sDhzdi .react-datepicker__week:last-of-type .react-datepicker__day {
-  border-bottom-color: var(--nord-black2) !important;
-}
-
-.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:after {
-  background-color: var(--nord-primary) !important;
-}
+/* Selected */
 .calendarPicker-sDhzdi
   .react-datepicker__day:not(.react-datepicker__day--disabled):not(.react-datepicker__day--outside-month).react-datepicker__day--keyboard-selected,
 .calendarPicker-sDhzdi
@@ -243,4 +270,20 @@
 .container-1S70rv .sectionTag-28mLyE {
   background-color: var(--background-floating) !important;
   color: var(--interactive-muted) !important;
+}
+
+.richTag-20_n21 {
+  background-color: var(--background-tertiary);
+}
+
+/**
+ * Create DM group
+ */
+.friend-8ZraY7 {
+  color: var(--interactive-normal) !important;
+}
+
+.friendSelected-3cwmD7 {
+  background-color: var(--background-modifier-hover) !important;
+  color: inherit !important;
 }

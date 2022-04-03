@@ -1,6 +1,18 @@
-.selected-g-kMVV.item-3XjbnG,
-.selected-g-kMVV.item-3XjbnG:hover {
-  color: var(--nord-primary);
+.closeButton-PCZcma path[fill='hsl(210, calc(var(--saturation-factor, 1) * 2.9%), 86.7%)'] {
+  fill: var(--interactive-normal) !important;
+}
+
+.item-2idW98[aria-checked=true] {
+  background-color: var(--background-tertiary);
+}
+
+.selected-2Uns2B, /* Discord nitro (selected) */
+.serverBoostTabItem-3QwA3W[aria-selected=true] /* server boost status (selected) */ {
+  color: var(--text-primary-background);
+}
+.selectedIcon-2zSuOP, /* Discord nitro (selected) */
+.serverBoostTabItem-3QwA3W[aria-selected=true] .icon-3FU6Ir /* server boost status (selected) */ {
+  fill: var(--text-primary-background);
 }
 
 /**
@@ -24,9 +36,14 @@
 }
 
 /**
- * Redemption redirect, video preview & keybind hover
+ * Billing, video preview & keybind hover
  */
-.codeRedemptionRedirect-3SBiCp {
+.defaultIndicator-2ndWks {
+  background-color: var(--background-secondary) !important;
+  color: var(--text-normal) !important;
+}
+
+.codeRedemptionRedirect-2hYMSQ {
   background-color: var(--card-settings-background) !important;
   border-color: var(--card-settings-border) !important;
   color: var(--text-normal) !important;
@@ -100,7 +117,7 @@
 .tierMarkerLabelPlusIcon-2zLkr7,
 .tierMarkerInProgress-2Tdxjz .currentTierIcon-2rq-bv.tier3Icon-959FdD,
 .foreground-3_3Pgi,
-.guildBoostingIcon-35OwPQ {
+.guildBoostingIcon-2B5iYK {
   color: var(--nord-pink) !important;
 }
 
@@ -159,7 +176,7 @@
 }
 
 .gemIndicatorContainer-PqApbX {
-  background-color: var(--background-secondary) !important;
+  background-color: var(--background-secondary-alt) !important;
 }
 
 .upsellContainer-22N_CL {

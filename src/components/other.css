@@ -30,16 +30,12 @@
 }
 
 /* Red */
-.colorDanger-3n-KnP,
-.colorDanger-3n-KnP:not(.focused-3qFvc8) .checkbox-hADx5o,
-.colorDanger-3n-KnP .radioSelection-1UHp0b,
 .warning-2DeIgm, /* .server settings */
 .doesNot-21xPGK,
 .container-YkUktl .redIcon-1ppjsM,
 .pruneLink-jE0uo7, /* server member */
 .iconServer-GeSR0b, /* voice mute/deaf icons */
-.error-1SecXe, /* Command argument */
-.error-29IZEE /* Command arg err reason */ {
+.error-3KCS1N/* Command arg err reason */ {
   color: var(--nord-red) !important;
 }
 
@@ -135,6 +131,10 @@
 
 .improved-2SJXHz::after {
   background-color: var(--nord-primary) !important;
+}
+
+.content-FDHp32 a {
+  color: var(--text-link);
 }
 
 /**
