@@ -23,7 +23,8 @@
 .dotOnline-j08lOY, /* discover */
 .dotOnline-cS7sxB, /* server > discovery */
 .pillIconOnline-2JLgFw, /* Join server */
-.statusOnline-Iw3r2o {
+.statusOnline-Iw3r2o,
+.liveIndicator-TJKS7N /* Event current */ {
   background-color: var(--status-online) !important;
 }
 
