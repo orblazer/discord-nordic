@@ -1,10 +1,11 @@
 /**
- * Number badge
+ * Number badge and `BETA` badge
  */
 .numberBadge-37OJ3S[style*='background-color: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)'] {
   background-color: var(--nord-red) !important;
 }
-.numberBadge-37OJ3S[style*='background-color: rgb(114, 137, 218)'] {
+.numberBadge-37OJ3S[style*='background-color: rgb(114, 137, 218)'],
+.textBadge-1fdDPJ[style*='background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)'] {
   background-color: var(--nord-primary) !important;
   color: var(--text-primary-background);
 }
