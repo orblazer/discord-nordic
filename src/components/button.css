@@ -126,7 +126,8 @@
 .checkmark-bW9BK8, /* new guild completed */
 .icon-3CZSYe[style*='background-color: rgb(59, 165, 92);'], /* guild stage waiting */
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx, .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx, /* guild > screen sharing */
-.planOptionDiscount-2nex9n /* Gist nitro */ {
+.planOptionDiscount-2nex9n, /* Gist nitro */
+.lookFilled-yCfaCM.hoverGreen-1KfT6K /* Library > play game */  {
   background-color: var(--button-positive-background) !important;
   color: var(--button-positive-text) !important;
 }
