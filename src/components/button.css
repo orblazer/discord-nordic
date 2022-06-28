@@ -14,7 +14,7 @@
 .iconWrapper-2_MXbk,
 .colorable-3rVGna.primaryDark-2UJt1G, /* voice */
 .button-3Vyz67, /* voice full screen (invite) */
-.icon-3CZSYe[style*='background-color: hsl(216, calc(var(--saturation-factor, 1) * 7.2%), 13.5%);'], /* guild stage waiting */ {
+.icon-3CZSYe[style*='background-color: hsl(216, calc(var(--saturation-factor, 1) * 7.2%), 13.5%);'] /* guild stage waiting */ {
   background-color: var(--button-secondary-background) !important;
   color: var(--button-secondary-text) !important;
 }
@@ -57,7 +57,7 @@
   color: var(--button-brand-text);
 }
 .lookFilled-yCfaCM.colorBrandNew-2-gGsS,
-.icon-3CZSYe[style*='background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);'], /* guild stage waiting */ {
+.icon-3CZSYe[style*='background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);'] /* guild stage waiting */ {
   color: var(--button-brand-text);
   background-color: var(--button-brand-background);
 }
@@ -75,7 +75,7 @@
 .lookInverted-2mDUMi.colorBrand-I6CyqQ,
 .tierUnlocked-1yG5Ic, /* server boost */
 .upsellButtonPrimary-1OnWlC,
-.upsellButtonPrimary-1OnWlC+button, {
+.upsellButtonPrimary-1OnWlC+button {
   background-color: var(--button-brand-text) !important;
   color: var(--button-brand-background) !important;
 }
