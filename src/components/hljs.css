@@ -47,11 +47,11 @@
 }
 
 .hljs-addition {
-  background-color: rgba(163, 190, 140, 0.5);
+  background-color: rgba(163, 190, 140, 0.25);
 }
 
 .hljs-deletion {
-  background-color: rgba(191, 97, 106, 0.5);
+  background-color: rgba(191, 97, 106, 0.25);
 }
 
 .hljs-built_in,
