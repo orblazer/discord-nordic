@@ -148,3 +148,16 @@
 .button-1iHNQ2 {
   border-color: var(--nord-light5) !important;
 }
+
+/**
+ * Nitro gift
+ */
+.tile-2mmK5T {
+  background-color: var(--background-tertiary) !important;
+}
+.description-X8_53U {
+  color: var(--header-primary) !important;
+}
+.tagline-3DhQWg {
+  color: var(--text-normal) !important;
+}
