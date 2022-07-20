@@ -35,7 +35,7 @@
 /**
  * Modal
  */
-.root-g14mjS:not(.modal-qgFCbT),
+.root-g14mjS:not(.carouselModal-1eUFoq), /* ? Exclude image fullscreen */
 .addGamePopout-2SKNIV,
 .container-KM8BU6, /* .Reaction */
 .reactors-1VXca7,
