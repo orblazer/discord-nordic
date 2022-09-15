@@ -144,6 +144,9 @@
   --deprecated-text-input-border-hover: #040405;
   --deprecated-text-input-border-disabled: var(--nord-black2);
   --deprecated-text-input-prefix: #dcddde;
+
+  --hljs-text-color: var(--nord-light1);
+  --hljs-comment-color: var(--nord-dark4);
 }
 
 .theme-light {
@@ -243,8 +246,11 @@
   --deprecated-text-input-bg: rgba(255, 255, 255, 0.2);
   --deprecated-text-input-border: rgba(255, 255, 255, 0.3);
   --deprecated-text-input-border-hover: #b9bbbe;
-  --deprecated-text-input-border-disabled:  var(--nord-light0);
+  --deprecated-text-input-border-disabled: var(--nord-light0);
   --deprecated-text-input-prefix: #b9bbbe;
+
+  --hljs-text-color: var(--nord-dark1);
+  --hljs-comment-color: var(--nord-dark5);
 }
 
 .theme-dark,
