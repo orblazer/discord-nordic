@@ -59,7 +59,7 @@
 
 .hljs-addition,
 .hljs-string,
-.hljs-meta .hljs-string {
+.hljs-meta .hljs-meta-string {
   color: var(--nord-green);
 }
 
@@ -133,7 +133,7 @@
 }
 
 .bnf .hljs-attribute,
-.cpp .hljs-meta .hljs-string,
+.cpp .hljs-meta .hljs-meta-string,
 .diff .hljs-meta,
 .ebnf .hljs-attribute,
 .ldif .hljs-attribute {
