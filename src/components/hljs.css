@@ -104,57 +104,57 @@
 
 /* per language customizations */
 
-.language-abnf .hljs-attribute,
-.language-apache .hljs-attribute,
-.language-arduino .hljs-built_in,
-.language-aspectj > .hljs-title,
-.language-clojure .hljs-name,
-.language-coq .hljs-built_in,
-.language-css .hljs-built_in,
-.language-glsl .hljs-built_in,
-.language-lisp .hljs-name,
-.language-lua .hljs-built_in,
-.language-moonscript .hljs-built_in,
-.language-nginx .hljs-attribute,
-.language-pf .hljs-built_in,
-.language-processing .hljs-built_in {
+.abnf .hljs-attribute,
+.apache .hljs-attribute,
+.arduino .hljs-built_in,
+.aspectj > .hljs-title,
+.clojure .hljs-name,
+.coq .hljs-built_in,
+.css .hljs-built_in,
+.glsl .hljs-built_in,
+.lisp .hljs-name,
+.lua .hljs-built_in,
+.moonscript .hljs-built_in,
+.nginx .hljs-attribute,
+.pf .hljs-built_in,
+.processing .hljs-built_in {
   color: var(--nord-turquoise);
 }
 
-.language-abnf .hljs-symbol,
-.language-clojure .hljs-symbol {
+.abnf .hljs-symbol,
+.clojure .hljs-symbol {
   color: var(--nord-yellow);
 }
 
-.language-apache .hljs-section,
-.language-scss .hljs-keyword,
-.language-stylus .hljs-keyword {
+.apache .hljs-section,
+.scss .hljs-keyword,
+.stylus .hljs-keyword {
   color: var(--nord-cyan);
 }
 
-.language-aspectj .hljs-meta,
-.language-css .hljs-keyword,
-.language-groovy .hljs-meta:not(:first-child),
-.language-haxe .hljs-meta,
-.language-java .hljs-meta,
-.language-swift .hljs-meta,
-.language-yaml .hljs-meta {
+.aspectj .hljs-meta,
+.css .hljs-keyword,
+.groovy .hljs-meta:not(:first-child),
+.haxe .hljs-meta,
+.java .hljs-meta,
+.swift .hljs-meta,
+.yaml .hljs-meta {
   color: var(--nord-orange);
 }
 
-.language-bnf .hljs-attribute,
-.language-cpp .hljs-meta .hljs-string,
-.language-diff .hljs-meta,
-.language-ebnf .hljs-attribute,
-.language-ldif .hljs-attribute {
+.bnf .hljs-attribute,
+.cpp .hljs-meta .hljs-string,
+.diff .hljs-meta,
+.ebnf .hljs-attribute,
+.ldif .hljs-attribute {
   color: var(--nord-green-blue);
 }
 
-.language-nginx .hljs-section {
+.nginx .hljs-section {
   color: var(--nord-blue);
 }
 
-.language-vim .hljs-built_in {
+.vim .hljs-built_in {
   color: var(--nord-turquoise);
   font-style: italic;
 }
