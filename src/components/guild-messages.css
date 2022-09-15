@@ -51,7 +51,8 @@
   font-weight: 700;
 }
 
-.background-fkKrXt { /* Home */
+.background-fkKrXt, /* Home */
+.container-3wLKDe /* Forum */ {
   background-color: var(--background-tertiary) !important;
 }
 
