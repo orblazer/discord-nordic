@@ -50,31 +50,11 @@
   --header-secondary: #a6b0bf;
   --text-normal: var(--nord-light2);
   --text-muted: var(--nord-grey1);
-  --text-link: hsl(213, calc(var(--saturation-factor, 1) * 75%), 60%); /* #4c91e6 */
-  --text-link-low-saturation: hsl(213, calc(var(--saturation-factor, 1) * 32%), 52%); /* --nord-blue */
-  --text-positive: hsl(92, calc(var(--saturation-factor, 1) * 28%), 65%); /* --nord-green */
-  --text-warning: hsl(14, calc(var(--saturation-factor, 1) * 51%), 63%); /* --nord-orange */
-  --text-danger: hsl(354, calc(var(--saturation-factor, 1) * 42%), 56%); /* --nord-red */
-  --text-brand: hsl(179, calc(var(--saturation-factor, 1) * 25%), 65%); /* --nord-primary */
   --text-primary-background: var(--nord-black1);
 
-  --interactive-normal: var(--text-normal);
-  --interactive-hover: var(--nord-primary);
   --interactive-active: var(--nord-light5);
   --interactive-muted: var(--nord-dark5);
-
-  --text-mention: var(--nord-primary);
-  --background-mention: rgba(143, 188, 187, 0.1);
-  --text-mention-hover: var(--text-primary-background);
-  --background-mention-hover: var(--nord-primary);
-  --message-ephemeral: var(--nord-blue);
-  --background-ephemeral: rgba(94, 129, 172, 0.1);
-  --background-ephemeral-hover: rgba(94, 129, 172, 0.2);
-  --mentioned-timestamp: var(--nord-grey1);
-
-  --reaction-count: var(--nord-grey1);
   --reaction-hover: var(--nord-light0);
-  --reaction-me: hsla(179, calc(var(--saturation-factor, 1) * 25%), 65%, 0.3);
 
   --background-primary: var(--nord-dark2);
   --background-secondary: var(--nord-dark1);
@@ -82,16 +62,11 @@
   --background-tertiary: var(--nord-black2);
   --background-accent: var(--nord-dark1);
   --background-floating: var(--background-secondary);
-  --background-floating-gradient: linear-gradient(90deg, rgba(46, 52, 64, 0), var(--background-floating) 80%);
   --background-nested-floating: #2f3136;
   --background-mobile-primary: #36393f;
   --background-mobile-secondary: #2f3136;
+  --chat-input-container-background: hsl(220, 7.7%, 22.9%);
   --background-modifier-hover: rgba(32, 36, 44, 0.3);
-  --background-modifier-hover-gradient: linear-gradient(
-    90deg,
-    rgba(43, 48, 59, 0),
-    var(--background-secondary-alt) 50%
-  );
   --background-modifier-active: rgba(32, 36, 44, 0.35);
   --background-modifier-selected: rgba(32, 36, 44, 0.4);
   --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
@@ -99,12 +74,9 @@
   --background-channel-header: var(--background-secondary);
   --background-channel-header-gradient: linear-gradient(90deg, rgba(46, 52, 64, 0) 0, var(--background-secondary));
 
-  --info-positive-text: var(--text-normal);
-  --info-warning-text: var(--text-normal);
-  --info-danger-text: var(--text-normal);
-  --info-help-background: hsla(213, calc(var(--saturation-factor, 1) * 32%), 52%, 0.1);
-  --info-help-foreground: hsl(213, calc(var(--saturation-factor, 1) * 32%), 52%);
-  --info-help-text: var(--text-normal);
+  --search-popout-option-fade: linear-gradient(90deg, rgba(46, 52, 64, 0), var(--background-floating) 80%);
+  --search-popout-option-fade-hover: linear-gradient(90deg, rgba(43, 48, 59, 0), var(--background-secondary-alt) 50%);
+
   --status-warning-text: #000;
 
   --keybind-background: var(--nord-dark5);
@@ -119,8 +91,6 @@
   --scrollbar-auto-scrollbar-color-track: var(--nord-black1);
 
   --logo-primary: #fff;
-  --control-brand-foreground: var(--text-brand);
-  --control-brand-foreground-new: var(--text-brand);
 
   --background-mentioned: hsla(179, calc(var(--saturation-factor, 1) * 25%), 65%, 0.15);
   --background-mentioned-hover: hsla(179, calc(var(--saturation-factor, 1) * 25%), 65%, 0.205);
@@ -128,11 +98,9 @@
   --channels-default: var(--nord-grey1);
   --guild-header-text-shadow: 0 1px 1px var(--nord-dark1);
   --channeltextarea-background: var(--nord-dark4);
-  --activity-card-background: var(--background-secondary-alt);
   --textbox-markdown-syntax: #8e9297;
 
   --input-background: rgba(0, 0, 0, 0.2);
-  --input-placeholder-text: var(--text-muted);
 
   --deprecated-card-bg: var(--nord-dark1);
   --deprecated-card-editable-bg: rgba(32, 34, 37, 0.3);
@@ -154,31 +122,11 @@
   --header-secondary: #4f5660;
   --text-normal: var(--nord-dark2);
   --text-muted: var(--nord-grey1);
-  --text-link: hsl(213, calc(var(--saturation-factor, 1) * 75%), 60%); /* #4c91e6 */
-  --text-link-low-saturation: hsl(213, calc(var(--saturation-factor, 1) * 32%), 52%); /* --nord-blue */
-  --text-positive: hsl(92, calc(var(--saturation-factor, 1) * 28%), 65%); /* --nord-green */
-  --text-warning: hsl(14, calc(var(--saturation-factor, 1) * 51%), 63%); /* --nord-orange */
-  --text-danger: hsl(354, calc(var(--saturation-factor, 1) * 42%), 56%); /* --nord-red */
-  --text-brand: hsl(179, calc(var(--saturation-factor, 1) * 25%), 65%); /* --nord-primary */
   --text-primary-background: #fff;
 
-  --interactive-normal: var(--text-normal);
-  --interactive-hover: var(--nord-primary);
   --interactive-active: var(--nord-dark5);
   --interactive-muted: var(--text-muted);
-
-  --text-mention: var(--nord-primary);
-  --background-mention: rgba(143, 188, 187, 0.1);
-  --text-mention-hover: var(--text-primary-background);
-  --background-mention-hover: var(--nord-primary);
-  --message-ephemeral: var(--nord-blue);
-  --background-ephemeral: rgba(94, 129, 172, 0.1);
-  --background-ephemeral-hover: rgba(94, 129, 172, 0.2);
-  --mentioned-timestamp: var(--nord-grey1);
-
-  --reaction-count: var(--nord-grey1);
   --reaction-hover: var(--nord-dark5);
-  --reaction-me: hsla(179, calc(var(--saturation-factor, 1) * 25%), 65%, 0.3);
 
   --background-primary: var(--nord-light1);
   --background-secondary: var(--nord-light2);
@@ -186,16 +134,10 @@
   --background-tertiary: var(--nord-light3);
   --background-accent: var(--nord-light-1);
   --background-floating: var(--background-secondary);
-  --background-floating-gradient: linear-gradient(90deg, rgba(229, 233, 240, 0), var(--background-floating) 80%);
   --background-nested-floating: #fff;
   --background-mobile-primary: #f8f9f9;
   --background-mobile-secondary: #fff;
   --background-modifier-hover: var(--nord-light3);
-  --background-modifier-hover-gradient: linear-gradient(
-    90deg,
-    rgba(236, 239, 244, 0),
-    var(--background-secondary-alt) 50%
-  );
   --background-modifier-active: rgba(155, 162, 172, 0.16);
   --background-modifier-selected: rgba(155, 162, 172, 0.24);
   --background-modifier-accent: rgba(96, 109, 133, 0.08);
@@ -203,12 +145,9 @@
   --background-channel-header: var(--background-secondary);
   --background-channel-header-gradient: linear-gradient(90deg, rgba(229, 233, 240, 0) 0, var(--background-secondary));
 
-  --info-positive-text: var(--text-normal);
-  --info-warning-text: var(--text-normal);
-  --info-danger-text: var(--text-normal);
-  --info-help-background: hsla(213, calc(var(--saturation-factor, 1) * 32%), 52%, 0.1);
-  --info-help-foreground: hsl(213, calc(var(--saturation-factor, 1) * 32%), 52%);
-  --info-help-text: var(--text-normal);
+  --search-popout-option-fade: linear-gradient(90deg, rgba(229, 233, 240, 0), var(--background-floating) 80%);
+  --search-popout-option-fade-hover: linear-gradient(90deg, rgba(236, 239, 244, 0), var(--background-secondary-alt) 50%);
+
   --status-warning-text: #fff;
 
   --keybind-background: var(--nord-light4);
@@ -223,8 +162,6 @@
   --scrollbar-auto-scrollbar-color-track: var(--nord-light1);
 
   --logo-primary: var(--text-brand);
-  --control-brand-foreground: var(--text-brand);
-  --control-brand-foreground-new: var(--text-brand);
 
   --background-mentioned: hsla(179, calc(var(--saturation-factor, 1) * 25%), 65%, 0.35);
   --background-mentioned-hover: hsla(179, calc(var(--saturation-factor, 1) * 25%), 65%, 0.45);
@@ -232,11 +169,9 @@
   --channels-default: var(--text-normal);
   --guild-header-text-shadow: 0 1px 1px hsla(0, 0%, 100%, 0.4);
   --channeltextarea-background: var(--background-secondary-alt);
-  --activity-card-background: var(--background-secondary-alt);
   --textbox-markdown-syntax: #6a7480;
 
   --input-background: rgba(255, 255, 255, 0.2);
-  --input-placeholder-text: var(--text-muted);
 
   --deprecated-card-bg: var(--nord-light1);
   --deprecated-card-editable-bg: rgba(236, 239, 244, 0.3);
@@ -255,26 +190,60 @@
 
 .theme-dark,
 .theme-light {
+  --text-link: hsl(213, calc(var(--saturation-factor, 1) * 75%), 60%); /* #4c91e6 */
+  --text-link-low-saturation: hsl(213, calc(var(--saturation-factor, 1) * 32%), 52%); /* --nord-blue */
+  --text-positive: hsl(92, calc(var(--saturation-factor, 1) * 28%), 65%); /* --nord-green */
+  --text-warning: hsl(14, calc(var(--saturation-factor, 1) * 51%), 63%); /* --nord-orange */
+  --text-danger: hsl(354, calc(var(--saturation-factor, 1) * 42%), 56%); /* --nord-red */
+  --text-brand: hsl(179, calc(var(--saturation-factor, 1) * 25%), 65%); /* --nord-primary */
+
+  --interactive-normal: var(--text-normal);
+  --interactive-hover: var(--nord-primary);
+
+  --modal-background: var(--background-floating);
+  --modal-footer-background: var(--background-secondary-alt);
+  --activity-card-background: var(--background-secondary-alt);
+
   --input-placeholder-text: var(--text-muted);
+  --control-brand-foreground: var(--text-brand);
+  --control-brand-foreground-new: var(--text-brand);
+  --channel-icon: var(--channels-default);
+
+  --text-mention: var(--nord-primary);
+  --background-mention: rgba(143, 188, 187, 0.1);
+  --text-mention-hover: var(--text-primary-background);
+  --background-mention-hover: var(--nord-primary);
+  --message-ephemeral: var(--nord-blue);
+  --background-ephemeral: rgba(94, 129, 172, 0.1);
+  --background-ephemeral-hover: rgba(94, 129, 172, 0.2);
+  --mentioned-timestamp: var(--nord-grey1);
+
+  --reaction-count: var(--nord-grey1);
+  --reaction-me: hsla(179, calc(var(--saturation-factor, 1) * 25%), 65%, 0.3);
 
   --info-positive-background: hsla(92, calc(var(--saturation-factor, 1) * 28%), 65%, 0.1);
   --info-positive-foreground: hsl(92, calc(var(--saturation-factor, 1) * 28%), 65%);
+  --info-positive-text: var(--text-normal);
   --info-warning-background: hsla(14, calc(var(--saturation-factor, 1) * 51%), 63%, 0.1);
   --info-warning-foreground: hsl(14, calc(var(--saturation-factor, 1) * 51%), 63%);
+  --info-warning-text: var(--text-normal);
   --info-danger-background: hsla(354, calc(var(--saturation-factor, 1) * 42%), 56%, 0.1);
   --info-danger-foreground: hsl(354, calc(var(--saturation-factor, 1) * 42%), 56%);
+  --info-danger-text: var(--text-normal);
+  --info-help-background: hsla(213, calc(var(--saturation-factor, 1) * 32%), 52%, 0.1);
+  --info-help-foreground: hsl(213, calc(var(--saturation-factor, 1) * 32%), 52%);
+  --info-help-text: var(--text-normal);
 
   --status-positive-background: hsl(92, calc(var(--saturation-factor, 1) * 28%), 65%);
   --status-positive-text: var(--nord-light5);
   --status-positive: hsl(92, calc(var(--saturation-factor, 1) * 28%), 65%);
-
   --status-warning-background: hsl(14, calc(var(--saturation-factor, 1) * 51%), 63%);
   --status-warning: hsl(14, calc(var(--saturation-factor, 1) * 51%), 63%);
-
   --status-danger-background: hsl(354, calc(var(--saturation-factor, 1) * 42%), 56%);
   --status-danger-text: var(--nord-light5);
   --status-danger: hsl(354, calc(var(--saturation-factor, 1) * 42%), 56%);
 
+  /* button */
   --button-secondary-background: var(--nord-dark5);
   --button-secondary-text: var(--nord-light5);
   --button-secondary-background-hover: var(--nord-dark4);

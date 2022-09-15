@@ -97,17 +97,8 @@
   color: var(--header-primary);
 }
 
-.queryContainer-ZunrLZ,
-.option-ayUoaq[aria-selected='true'] /* Selected */ {
+.queryContainer-ZunrLZ {
   background-color: var(--background-secondary-alt) !important;
-}
-
-.option-ayUoaq::after {
-  background: var(--background-floating-gradient) !important;
-}
-
-.option-ayUoaq[aria-selected='true']::after {
-  background: var(--background-modifier-hover-gradient) !important;
 }
 
 /**
