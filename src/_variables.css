@@ -99,6 +99,8 @@
   --guild-header-text-shadow: 0 1px 1px var(--nord-dark1);
   --channeltextarea-background: var(--nord-dark4);
   --textbox-markdown-syntax: #8e9297;
+  --background-message-automod: hsla(354, 42%, 56%, 0.15);
+  --background-message-automod-hover: hsla(354, 42%, 56%, 0.205);
 
   --input-background: rgba(0, 0, 0, 0.2);
 
@@ -170,6 +172,8 @@
   --guild-header-text-shadow: 0 1px 1px hsla(0, 0%, 100%, 0.4);
   --channeltextarea-background: var(--background-secondary-alt);
   --textbox-markdown-syntax: #6a7480;
+  --background-message-automod: hsla(354, 42%, 56%, 0.35);
+  --background-message-automod-hover: hsla(354, 42%, 56%, 0.45);
 
   --input-background: rgba(255, 255, 255, 0.2);
 
