@@ -280,10 +280,10 @@
  * Create DM group
  */
 .friend-8ZraY7 {
-  color: var(--interactive-normal) !important;
+  color: var(--header-secondary) !important;
 }
 
 .friendSelected-3cwmD7 {
   background-color: var(--background-modifier-hover) !important;
-  color: inherit !important;
+  color: var(--interactive-active) !important;
 }
