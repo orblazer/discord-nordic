@@ -146,7 +146,7 @@
   --deprecated-text-input-prefix: #dcddde;
 
   --hljs-text-color: var(--nord-light1);
-  --hljs-comment-color: var(--nord-dark4);
+  --hljs-comment-color: var(--nord-dark5);
 }
 
 .theme-light {

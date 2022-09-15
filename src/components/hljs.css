@@ -1,3 +1,7 @@
+:root {
+  --hljs-text-color: var(--nord-light1);
+  --hljs-comment-color: var(--nord-dark5);
+}
 /*
  * Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
  * Copyright (c) 2017-present Sven Greb <development@svengreb.de>
@@ -15,7 +19,6 @@
 .hljs,
 .hljs-subst,
 .hljs-params,
-.hljs-attribute,
 .hljs-variable,
 .hljs-template-variable {
   color: var(--hljs-text-color);
@@ -31,52 +34,46 @@
   color: var(--nord-cyan);
 }
 
-.hljs-selector-id {
-  color: var(--nord-green-blue);
-  font-weight: bold;
-}
-
+.hljs-selector-id,
 .hljs-selector-class,
 .hljs-selector-attr,
-.hljs-built_in,
 .hljs-type,
 .hljs-class,
 .hljs-title,
 .hljs-code,
 .hljs-formula,
+.hljs-attr,
 .hljs-doctag,
-.hljs-attr {
+.hljs-class.hljs-title,
+.hljs-class .hljs-title {
   color: var(--nord-green-blue);
 }
 
+.hljs-built_in,
 .hljs-property,
 .hljs-selector-pseudo,
 .hljs-function,
-.hljs-title.hljs-function,
-.hljs-function > .hljs-title,
 .hljs-section {
   color: var(--nord-turquoise);
 }
 
-.hljs-addition {
-  background-color: rgba(163, 190, 140, 0.25);
+.hljs-addition,
+.hljs-string,
+.hljs-meta .hljs-string {
+  color: var(--nord-green);
 }
 
 .hljs-deletion {
-  background-color: rgba(191, 97, 106, 0.25);
+  color: var(--nord-red);
 }
 
 .hljs-number {
   color: var(--nord-pink);
 }
 
+.hljs-attribute,
 .hljs-regexp {
   color: var(--nord-yellow);
-}
-
-.hljs-string,
-.hljs-meta .hljs-string {
-  color: var(--nord-green);
 }
 
 .hljs-emphasis {
@@ -98,26 +95,25 @@
 
 .hljs-meta,
 .hljs-meta .hljs-keyword,
-.hljs-template-tag {
-  color: var(--nord-blue);
+.hljs-template-tag,
+.hljs-link {
+  color: var(--nord-orange);
 }
 
-/* per language customizations */
+.hljs-class .hljs-title ~ .hljs-title {
+  font-weight: bold;
+}
+
+/**
+ * per language customizations
+ */
 
 .abnf .hljs-attribute,
 .apache .hljs-attribute,
-.arduino .hljs-built_in,
 .aspectj > .hljs-title,
 .clojure .hljs-name,
-.coq .hljs-built_in,
-.css .hljs-built_in,
-.glsl .hljs-built_in,
 .lisp .hljs-name,
-.lua .hljs-built_in,
-.moonscript .hljs-built_in,
-.nginx .hljs-attribute,
-.pf .hljs-built_in,
-.processing .hljs-built_in {
+.nginx .hljs-attribute {
   color: var(--nord-turquoise);
 }
 
@@ -128,18 +124,12 @@
 
 .apache .hljs-section,
 .scss .hljs-keyword,
-.stylus .hljs-keyword {
-  color: var(--nord-cyan);
-}
-
-.aspectj .hljs-meta,
+.stylus .hljs-keyword,
 .css .hljs-keyword,
-.groovy .hljs-meta:not(:first-child),
-.haxe .hljs-meta,
-.java .hljs-meta,
-.swift .hljs-meta,
-.yaml .hljs-meta {
-  color: var(--nord-orange);
+.ts .hljs-built_in,
+.shell .hljs-variable,
+.csharp .hljs-built_in {
+  color: var(--nord-cyan);
 }
 
 .bnf .hljs-attribute,
