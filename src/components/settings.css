@@ -144,7 +144,8 @@
 .tierHeaderUnlocked-1IvR2R,
 .wrapper-3Zq_cJ,
 .progressBarFill-r3JZQ7,
-.progressBar-2yl2pi /* Goal */ {
+.progressBar-2yl2pi, /* Goal */
+.tier2-2lPk-q.banner-oA34U0 /* settings > subscriptions */ {
   background-image: linear-gradient(90deg, var(--nord-blue), var(--nord-pink)) !important;
 }
 
@@ -208,4 +209,16 @@
 .overflowRolesPopout-1Puiuq,
 .overflowRolesPopoutArrow-2R7g3K {
   background-color: var(--background-floating) !important;
+}
+
+/**
+ * Subscriptions
+ */
+
+.tier2-1zUwdT {
+  background-image: linear-gradient(41.27deg, var(--nord-blue) 20.01%, var(--nord-pink) 56.27%);
+}
+
+.tier1-1HAX7O {
+  background-image: linear-gradient(270deg, var(--nord-cyan), var(--nord-blue));
 }

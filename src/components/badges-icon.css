@@ -236,7 +236,8 @@
 .tier1BoostPerk-V7RkB_, /* .user nitro */
 .tier1UploadPerk-1ZDumb,
 .stickerIcon-24vPBO, /* .settings > server boost */
-.uploadSizeIcon-3OSRBC {
+.uploadSizeIcon-3OSRBC,
+.guildSubscriptionSlotIcon-2EaGFn {
   color: var(--nord-pink) !important;
 }
 
@@ -291,7 +292,8 @@
   color: var(--nord-red);
 }
 
-.warningCircleIcon-JjxdGS /* server profile */ {
+.warningCircleIcon-JjxdGS, /* server profile */
+.paymentBannerIcon-1BGBJx /* settings > subscriptions */ {
   color: var(--nord-orange);
 }
 
