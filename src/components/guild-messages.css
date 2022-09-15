@@ -51,6 +51,10 @@
   font-weight: 700;
 }
 
+.background-fkKrXt { /* Home */
+  background-color: var(--background-tertiary) !important;
+}
+
 /* Unread */
 .divider-2rZFJK {
   --divider-color: var(--nord-red);

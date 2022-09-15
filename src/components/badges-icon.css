@@ -23,6 +23,7 @@
 .status-2DiCMd[style*='background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)'], /* status picker */
 .dotOnline-j08lOY, /* discover */
 .dotOnline-cS7sxB, /* server > discovery */
+.dotOnline-3uN0x9, /* server > Home */
 .pillIconOnline-2JLgFw, /* Join server */
 .statusOnline-Iw3r2o,
 .liveIndicator-TJKS7N /* Event current */ {
@@ -38,6 +39,7 @@
 }
 .status-2DiCMd[style*='background-color: hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)'],  /* status picker */
 .dotOffline-38lJFn, /* discover */
+.dotOffline-3Fue9z, /* server > Home */
 .statusOffline-2R-ArP {
   background-color: var(--status-offline) !important;
 }
