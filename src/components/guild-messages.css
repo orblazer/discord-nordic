@@ -220,3 +220,19 @@
 .selectedPill-3cOyS6 {
   border-color: var(--nord-primary) !important;
 }
+
+/**
+ * Forum
+ */
+.newBadge-1LcB6t {
+  background-color: var(--button-danger-background);
+  color: var(--button-brand-text);
+}
+
+.container-2qVG6q.isOpen-2OXbFs {
+  background-color: var(--background-secondary) !important;
+}
+
+.botTagOP-3pUTXu {
+  background-color: var(--brand-experiment);
+}
