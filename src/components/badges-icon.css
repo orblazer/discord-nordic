@@ -129,7 +129,8 @@
   fill: var(--nord-red);
 }
 
-.featureIcon-2sTnDK path[fill='hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)'] /* ?? */ {
+.featureIcon-2sTnDK path[fill='hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)'], /* ?? */
+.activeIcon-1ykRnF path[fill='hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)'] /* switch account  */ {
   fill: var(--nord-primary);
 }
 
