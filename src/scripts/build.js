@@ -13,6 +13,12 @@ const discordHeader = `/**
  * @authorId    179681974879911946
 */`
 
+const header = `/**
+ * name: Nordic
+ * author: orblazer#9152
+ * version: ${pkg.version}
+*/`
+
 const stylusHeader = `/* ==UserStyle==
 @name        Discord Nordic
 @namespace   ${pkg.repository}
@@ -31,7 +37,7 @@ const powercordManifest = {
   description: pkg.description,
   author: 'orblazer#9152',
   license: 'CC BY-NC-SA 4.0',
-  theme: 'nordic.theme.css'
+  theme: 'nordic.theme.css',
 }
 
 const files = [
@@ -73,7 +79,11 @@ files.forEach((file) => {
 const result = csso.minify(content).css
 
 // Create better discord files
-writeFileSync(resolve('base.css'), result)
+writeFileSync(
+  resolve('base.css'),
+  `${header}
+${result}`
+)
 writeFileSync(
   resolve('nordic.theme.css'),
   `${discordHeader}
