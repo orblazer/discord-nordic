@@ -172,7 +172,7 @@
 }
 
 .live-1V2D-f[style*='background-color: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);'] {
-  background-color: var(--button-danger-background);
+  background-color: var(--button-danger-background) !important;
   color: var(--button-danger-text);
 }
 
