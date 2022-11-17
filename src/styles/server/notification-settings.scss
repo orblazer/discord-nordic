@@ -1,0 +1,11 @@
+.checked-1pZh2h path[fill='#{$status-green-600}'] {
+  fill: var(--text-positive);
+}
+
+.checked-1pZh2h[style*='background-color: #{$status-green-600}'] {
+  border-color: var(--status-positive-background) !important;
+  background-color: var(--status-positive-background) !important;
+}
+.checked-1pZh2h path[fill='#{$white-500}'] {
+  fill: var(--black-500);
+}

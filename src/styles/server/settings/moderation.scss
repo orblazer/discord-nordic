@@ -1,0 +1,59 @@
+/*
+ * > rules screening
+ */
+.applicationIcon-SVAEk2[src='/assets/bd935213414be433dbfce91f7506bf54.svg'] {
+  content: url(svg('server/settings/moderation/rules.svg'));
+}
+.applicationIcon-SVAEk2[src='/assets/c90de2083432d65530258ceac785f427.svg'] {
+  content: url(svg('server/settings/moderation/rules-light.svg'));
+}
+
+.verificationLevelHook-2NkX9o[style*='color: #{$status-green-600}'] {
+  color: var(--text-positive) !important;
+}
+.verificationLevelHook-2NkX9o[style*='color: #{$status-yellow-500}'] {
+  color: var(--premium-perk-yellow) !important;
+}
+.verificationLevelHook-2NkX9o[style*='color: #{$status-orange-500}'] {
+  color: var(--text-warning) !important;
+}
+.verificationLevelHook-2NkX9o[style*='color: #{$status-red-500}'] {
+  color: var(--text-danger) !important;
+}
+
+/*
+ * > rules screening > verification level
+ */
+.radioBar-3w9XY-[style*='--radio-bar-accent-color:#{$status-yellow-500}'] {
+  --radio-bar-accent-color: var(--premium-perk-yellow) !important;
+}
+.radioBar-3w9XY-[style*='--radio-bar-accent-color:#{$status-orange-500}'] {
+  --radio-bar-accent-color: var(--status-warning-background) !important;
+}
+
+/*
+ * > rules screening > get started
+ */
+.addItemContainer-KX1VaV path[fill='#{$focus-primary-500}'] {
+  fill: var(--link-500);
+}
+
+/*
+ * AutoMod
+ */
+.automodText-azqvwf {
+  color: var(--black-500);
+}
+
+/*
+ * > audit log
+ */
+.typeCreate--o_pRH:after {
+  background: url(svg('server/settings/moderation/type-create.svg'));
+}
+.typeUpdate-34INPr:after {
+  background: url(svg('server/settings/moderation/type-update.svg'));
+}
+.typeDelete-1AYMTg:after {
+  background: url(svg('server/settings/moderation/type-delete.svg'));
+}

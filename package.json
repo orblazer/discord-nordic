@@ -1,6 +1,6 @@
 {
   "name": "discord-nordic",
-  "version": "3.11.4",
+  "version": "4.0.0",
   "description": "Complete theme for Nordic (https://www.nordtheme.com/)",
   "homepage": "https://github.com/orblazer/discord-nordic",
   "funding": "https://www.paypal.me/orblazer",
@@ -11,18 +11,20 @@
   "repository": "https://github.com/orblazer/discord-nordic",
   "license": "CC-BY-NC-SA-4.0",
   "main": "scripts/build.js",
+  "type": "module",
   "scripts": {
     "prepare": "husky install",
     "diff": "node src/scripts/diff",
     "build": "node src/scripts/build.js",
     "lint": "eslint"
   },
-  "dependencies": {
-    "csso": "^5.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^16.0.2",
     "@commitlint/config-conventional": "^16.0.0",
+    "@types/csso": "^5.0.0",
+    "@types/node": "^18.11.9",
+    "csso": "^5.0.5",
     "eslint": "^8.6.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
@@ -30,6 +32,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "sass": "^1.56.1"
   }
 }

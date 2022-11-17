@@ -1,0 +1,77 @@
+::selection {
+  background-color: rgba(var(--link-500-rgb), 0.25);
+}
+
+/*
+ * Settings switch
+ */
+.slider-32CRPX rect[fill='white'] {
+  fill: var(--white-500);
+}
+
+.container-2nx-BQ[style*='background-color: #{$status-green-600}'] {
+  background-color: var(--status-green-560) !important;
+}
+.slider-32CRPX path[fill='#{$status-green-600}'] {
+  fill: var(--status-green-760);
+}
+
+.container-2nx-BQ[style*='background-color: #{$primary-dark-400}'] {
+  background-color: var(--primary-dark-500) !important;
+}
+.slider-32CRPX path[fill='#{$primary-dark-400}'] {
+  fill: var(--primary-dark-500);
+}
+
+/*
+ * Button with brand background
+ */
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:not(.button-1EGGcP):not(.button-35nmN9), /** User settings */
+.lookOutlined-3yKVGo.colorBrand-I6CyqQ:hover, /** User settings > privacy & safety */
+.lookFilled-yCfaCM.colorBrandNew-2-gGsS, /** user settings > Accessibility */
+.premiumLabel-3HPvdB.selected-2Uns2B, /** user settings > nitro (btn) */
+.fakeButton-2eEUpc, /** server settings > rules screening (preview) */
+.botTagRegular-kpctgU:not(.botTagOP-3pUTXu), /** Bot tag */
+.allow-1h61-Z.selected-3jieYB, /** server > channel/category settings > permissions */
+.categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui /** Discover */ {
+  color: var(--black-500);
+}
+
+/*
+ * Button with green background
+ *   user settings > profiles
+ */
+.lookFilled-yCfaCM.colorGreen-3y-Z79 {
+  color: var(--black-500);
+}
+
+/*
+ * What's new (popup)
+ */
+.content-FDHp32 a {
+  color: var(--link-500);
+}
+
+/*
+ * Streamer mode (bar)
+ */
+.streamerModeEnabledBtn-2nlJTD:hover {
+  background-color: #a3759b;
+}
+
+/*
+ * Search > filter
+ */
+.theme-dark .searchAnswer-23w-CH,
+.theme-dark .searchFilter-2UfsDk {
+  background-color: var(--background-primary);
+}
+
+/*
+ * Search > date picker
+ */
+.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--keyboard-selected,
+.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:hover,
+.calendarPicker-sDhzdi .react-datepicker__day:hover {
+  color: var(--black-500);
+}

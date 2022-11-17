@@ -1,8 +1,8 @@
 {
-  "version": "3.11.4",
+  "version": "4.0.0",
   "name": "Nordic",
   "description": "Complete theme for Nordic (https://www.nordtheme.com/)",
   "author": "orblazer#9152",
   "license": "CC BY-NC-SA 4.0",
-  "theme": "nordic.theme.css"
+  "theme": "nordic.powercord.css"
 }

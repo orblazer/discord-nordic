@@ -1,0 +1,60 @@
+/*
+ * Popup > supports commands badge
+ */
+.profileBadge22-3OAigE[src='/assets/498591d63b352256a1bf18061eff9d57.svg'] {
+  content: url(svg('user/profile/badge-commands.svg'));
+}
+
+/*
+ * Popup > status > menu
+ */
+.status-2DiCMd[style*='background-color: #{$status-green-600}'] {
+  background-color: var(--user-status-online) !important;
+}
+.status-2DiCMd[style*='background-color: #{$status-yellow-500}'] {
+  background-color: var(--user-status-idle) !important;
+}
+.status-2DiCMd[style*='background-color: #{$status-red-500}'] {
+  background-color: var(--user-status-dnd) !important;
+}
+.status-2DiCMd[style*='background-color: #{$status-grey-500}'] {
+  background-color: var(--user-status-invisible) !important;
+}
+
+/*
+ * Popup > status > switch account
+ */
+.activeIcon-1ykRnF path[fill='#{$brand-500}'] {
+  fill: var(--brand-new-500);
+}
+.activeIcon-1ykRnF circle[fill='#{$white-500}'] {
+  fill: var(--black-500);
+}
+
+/*
+ * > status
+ ! Friends list
+ ! DM list
+ ! server > member list
+ */
+.mask-1FEkla rect[fill='#{$status-green-600}'] {
+  fill: var(--user-status-online);
+}
+.mask-1FEkla rect[fill='#{$status-yellow-500}'] {
+  fill: var(--user-status-idle);
+}
+.mask-1FEkla rect[fill='#{$status-red-500}'] {
+  fill: var(--user-status-dnd);
+}
+.mask-1FEkla rect[fill='#{$status-grey-500}'] {
+  fill: var(--user-status-invisible);
+}
+
+/*
+ ! Friends list
+ ! DM list
+ ! server > member list
+ */
+.mask-1FEkla rect[fill='#{$twitch}'] {
+  fill: var(--user-status-twitch);
+}

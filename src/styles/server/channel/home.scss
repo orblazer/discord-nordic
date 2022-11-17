@@ -1,0 +1,11 @@
+.background-fkKrXt {
+  background-color: var(--background-secondary-alt) !important;
+
+  &:after {
+    background: linear-gradient(
+      180deg,
+      rgba(var(--primary-dark-660-rgb), 0) 0,
+      var(--background-secondary-alt)
+    ) !important;
+  }
+}

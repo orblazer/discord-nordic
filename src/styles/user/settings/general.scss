@@ -1,0 +1,83 @@
+/*
+ * > my account
+ */
+.lockIcon-3t6Ow0[src='/assets/55b367aaef0b83c837ac6c3bfe01da4c.svg'],
+.secured-2wavXv:before /*! sidebar left > click on 'voice connected' */ {
+  content: url(svg('user/settings/general/lock.svg'));
+}
+
+/*
+ * >> edit username
+ */
+.questionMark-3V9mGJ .icon-3JHfo7 {
+  color: var(--black-500);
+}
+
+/*
+ * >> edit mail
+ */
+/* .headerImage-2osrlm[src='/assets/7b5789bc4c78776081a765ce007a210e.svg'] { !TODO: couldn't replaced
+} */
+
+/*
+ * > profiles
+ */
+.theme-dark .imageUploaderIcon-2OHmFu {
+  background-image: url(svg('user/settings/general/upload.svg'));
+}
+
+.premiumFeatureBorder-3vL7bn {
+  background: linear-gradient(var(--background-primary), var(--background-primary)) padding-box,
+    linear-gradient(45deg, var(--premium-tier-2-purple-for-gradients), var(--premium-tier-2-pink-for-gradients))
+      border-box;
+}
+
+/*
+ * status dot
+ */
+.statusDot-39Gozj rect[fill='#{$status-green-600}'] {
+  fill: var(--user-status-online);
+}
+.statusDot-39Gozj rect[fill='#{$status-yellow-500}'] {
+  fill: var(--user-status-idle);
+}
+.statusDot-39Gozj rect[fill='#{$status-red-500}'] {
+  fill: var(--user-status-dnd);
+}
+.statusDot-39Gozj rect[fill='#{$status-grey-500}'] {
+  fill: var(--user-status-invisible);
+}
+
+/*
+ * >> change banner/avatar > choose gif
+ */
+.icon-1YUWIM path {
+  fill: var(--premium-perk-pink);
+}
+
+/*
+ * >> server profiles > choose a server
+ */
+.selectedIcon-19TbzU circle[fill='white'] {
+  fill: var(--black-500);
+}
+
+/*
+ * > privacy & safety
+ */
+.radioBar-3w9XY-[style*='--radio-bar-accent-color:#{$status-green-600}'] {
+  --radio-bar-accent-color: var(--status-positive-background) !important;
+}
+.radioBar-3w9XY-[style*='--radio-bar-accent-color:#{$status-yellow-560}'] {
+  --radio-bar-accent-color: var(--status-warning-background) !important;
+}
+.radioBar-3w9XY-[style*='--radio-bar-accent-color:#{$status-red-500}'] {
+  --radio-bar-accent-color: var(--status-danger-background) !important;
+}
+
+/*
+ * > authorizes apps
+ */
+.permissionCheckmark-ji-OoY {
+  background-image: url(svg('user/settings/general/checkmark.svg'));
+}

@@ -1,0 +1,146 @@
+/*
+ * Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (c) 2017-present Sven Greb <development@svengreb.de>
+ *
+ * Project:    Nord highlight.js
+ * Version:    0.1.0
+ * Repository: https://github.com/arcticicestudio/nord-highlightjs
+ * License:    MIT
+ * References:
+ *   https://github.com/arcticicestudio/nord
+ *
+ * SRC: https://github.com/highlightjs/highlight.js/edit/main/src/styles/nord.css
+ */
+
+.hljs,
+.hljs-subst,
+.hljs-params,
+.hljs-variable,
+.hljs-template-variable {
+  color: var(--hljs-text-color);
+}
+
+.hljs-selector-tag,
+.hljs-keyword,
+.hljs-literal,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-name,
+.hljs-tag {
+  color: var(--nord-cyan);
+}
+
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-type,
+.hljs-class,
+.hljs-title,
+.hljs-code,
+.hljs-formula,
+.hljs-attr,
+.hljs-doctag,
+.hljs-class.hljs-title,
+.hljs-class .hljs-title {
+  color: var(--nord-green-blue);
+}
+
+.hljs-built_in,
+.hljs-property,
+.hljs-selector-pseudo,
+.hljs-function,
+.hljs-section {
+  color: var(--nord-turquoise);
+}
+
+.hljs-addition,
+.hljs-string,
+.hljs-meta .hljs-meta-string {
+  color: var(--nord-green);
+}
+
+.hljs-deletion {
+  color: var(--nord-red);
+}
+
+.hljs-number {
+  color: var(--nord-pink);
+}
+
+.hljs-attribute,
+.hljs-regexp {
+  color: var(--nord-yellow);
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-link:hover {
+  text-decoration: underline;
+}
+
+.hljs-quote,
+.hljs-comment {
+  color: var(--hljs-comment-color);
+}
+
+.hljs-meta,
+.hljs-meta .hljs-keyword,
+.hljs-template-tag,
+.hljs-link {
+  color: var(--nord-orange);
+}
+
+.hljs-class .hljs-title ~ .hljs-title {
+  font-weight: bold;
+}
+
+/**
+ * per language customizations
+ */
+
+.abnf .hljs-attribute,
+.apache .hljs-attribute,
+.aspectj > .hljs-title,
+.clojure .hljs-name,
+.lisp .hljs-name,
+.nginx .hljs-attribute {
+  color: var(--nord-turquoise);
+}
+
+.abnf .hljs-symbol,
+.clojure .hljs-symbol {
+  color: var(--nord-yellow);
+}
+
+.apache .hljs-section,
+.scss .hljs-keyword,
+.stylus .hljs-keyword,
+.css .hljs-keyword,
+.ts .hljs-built_in,
+.shell .hljs-variable,
+.csharp .hljs-built_in {
+  color: var(--nord-cyan);
+}
+
+.bnf .hljs-attribute,
+.cpp .hljs-meta .hljs-meta-string,
+.diff .hljs-meta,
+.ebnf .hljs-attribute,
+.ldif .hljs-attribute {
+  color: var(--nord-green-blue);
+}
+
+.nginx .hljs-section {
+  color: var(--nord-blue);
+}
+
+.vim .hljs-built_in {
+  color: var(--nord-turquoise);
+  font-style: italic;
+}

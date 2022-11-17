@@ -1,0 +1,14 @@
+/** Beta tag */
+.baseShapeRound-3epLEv[style*='background-color: #{$brand-500}'] {
+  background-color: var(--brand-new-500) !important;
+  color: var(--black-500);
+}
+
+/** Nitro badge */
+.premiumLabel-3HPvdB:not(.selected-2Uns2B) path,
+.upsellFooterIcon-2hvqqe path /*! Server > server boost > boost to level X */ {
+  fill: var(--premium-tier-2-pink);
+}
+.premiumLabel-3HPvdB.selected-2Uns2B path {
+  fill: currentColor;
+}

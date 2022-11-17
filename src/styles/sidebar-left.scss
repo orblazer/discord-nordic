@@ -1,0 +1,52 @@
+/*
+ * DM
+ * server without image
+ */
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub {
+  color: var(--black-500);
+}
+
+/*
+ * voice participating
+ */
+.iconBadge-32fMme.participating-2Z81oO {
+  color: var(--black-500);
+}
+
+/*
+ * add server
+ * discover
+ */
+.circleIconButton-1VxDrg.selected-2r1Hvo {
+  color: var(--black-500);
+}
+
+/*
+ * > add server > Customize your server ('+' image)
+ */
+.iconContainer-GFfNaA circle[fill='#{$brand-500-hex}' i] {
+  fill: var(--brand-new-500);
+
+  & + path[fill='white'] {
+    fill: var(--black-500);
+  }
+}
+
+/*
+ * > discover
+ */
+.footerImage-3DpC_8[src='/assets/3ed9c7cdbea131bc485afa998a5ec93e.svg'] {
+  content: url(svg('sidebar-left/discover.svg'));
+}
+
+/*
+ * > discover > student hub
+ */
+.icon-2kPPWH {
+  background-image: url(svg('sidebar-left/hub.svg'));
+}
+
+.addButton-Jt0onL {
+  color: var(--black-500);
+}

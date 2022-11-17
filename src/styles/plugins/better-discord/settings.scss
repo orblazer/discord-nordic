@@ -1,0 +1,84 @@
+.bd-settings-title {
+  color: var(--header-primary);
+}
+
+/*
+ * > settings
+ */
+.bd-switch input:checked + .bd-switch-body {
+  --switch-color: var(--status-green-560);
+}
+.bd-switch-body {
+  --switch-color: var(--primary-dark-500);
+}
+
+/*
+ * > updates
+ */
+.bd-filled-checkmark {
+  background: var(--status-green-560);
+
+  svg {
+    fill: var(--black-500);
+  }
+}
+
+.bd-empty-updates svg {
+  fill: var(--status-green-560);
+}
+
+/*
+ * > plugins
+ */
+.bd-button,/** updates + plugins */
+.bd-addon-modal-footer .bd-button /* >> [plugin] > settings */ {
+  background-color: var(--brand-experiment);
+  color: var(--black-500);
+
+  &:hover {
+    background-color: var(--brand-experiment-560);
+  }
+  &:active {
+    background-color: var(--brand-experiment-600);
+  }
+}
+.bd-button.bd-button-danger {
+  background-color: var(--button-danger-background);
+
+  &:hover {
+    background-color: var(--button-danger-background-hover);
+  }
+  &:active {
+    background-color: var(--button-danger-background-active);
+  }
+}
+
+.bd-controls > .bd-addon-button:not(.bd-button-danger) svg {
+  fill: var(--black-500);
+}
+.bd-controls > .bd-addon-button.bd-button-danger svg {
+  fill: var(--white-500);
+}
+
+.bd-addon-views .bd-view-button.selected {
+  background-color: var(--brand-experiment);
+
+  svg {
+    fill: var(--black-500);
+  }
+}
+
+.banner.banner-danger {
+  background-color: var(--info-danger-background);
+  border-color: var(--info-danger-foreground);
+}
+.banner-danger .bd-icon {
+  fill: var(--info-danger-foreground);
+}
+
+/*
+ * >> [plugin] > settings
+ */
+.react-error {
+  color: var(--text-danger);
+}

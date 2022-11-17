@@ -1,0 +1,38 @@
+/*
+ * (Waiting for the stage start)
+ */
+.icon-3CZSYe[style*='background-color: rgb(#{$status-green-600-rgb})'] {
+  background-color: var(--status-green-560) !important;
+  color: var(--black-500);
+}
+.icon-3CZSYe[style*='background-color: #{$brand-500}'] {
+  background-color: var(--brand-new-500) !important;
+  color: var(--black-500);
+}
+.icon-3CZSYe[style*='background-color: #{$primary-dark-700}'] {
+  background-color: var(--background-tertiary) !important;
+}
+
+.upsellTooltipHeader-28hJ7J,
+.upsellTooltipText-SIthpf,
+.upsellTooltipWrapper-1wqikQ .content-3aT_vH {
+  color: var(--black-500) !important;
+}
+
+.sparkleIcon-aHefnO[src='/assets/a4e25b25c89b862150e6eeb520e67dd5.svg'] {
+  content: url(svg('server/channel/stage/star.svg'));
+}
+.sparkleIcon-aHefnO[src='/assets/72db7a1fbe5d3c861fe63c26f634b5d2.svg'] {
+  content: url(svg('server/channel/stage/cross.svg'));
+}
+
+/*
+ * > stage > moderator badge
+ */
+.container-yn4cwV rect[fill='#{"" + $white-500-hex}' i] {
+  fill: var(--white-500);
+
+  & + path {
+    fill: var(--black-500);
+  }
+}

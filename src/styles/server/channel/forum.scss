@@ -1,0 +1,33 @@
+.container-3wLKDe {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+/*
+ * new badge
+ */
+.newBadge-1LcB6t[style*='background-color: #{$brand-260}'] {
+  background-color: var(--brand-260) !important;
+  color: var(--brand-new-800);
+}
+
+/*
+ * > filter
+ */
+.countText-1d5thl,
+.countText-35ewVE /** Dropdown menu */ {
+  color: var(--black-500);
+}
+
+/*
+ * Post
+ */
+.pinIcon-zVODC5 path[fill='white'] {
+  fill: var(--black-500);
+}
+
+/*
+ * > Post
+ */
+.botTagOP-3pUTXu {
+  color: var(--brand-new-900);
+}

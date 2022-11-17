@@ -1,0 +1,66 @@
+/*
+ * > enable community
+ */
+.featureIcon-2sTnDK path[fill='#{$status-green-600}'] {
+  fill: var(--text-positive);
+}
+.featureIcon-2sTnDK path[fill='#{$partner}'] {
+  fill: var(--nord-blue);
+}
+.featureIcon-2sTnDK path[fill='#{$status-red-400}'] {
+  fill: var(--text-danger);
+}
+
+/*
+ * > enable community > get started
+ */
+.overviewSidebar-3JDLaJ {
+  background: linear-gradient(
+    180deg,
+    var(--brand-new-500) 6.65%,
+    var(--brand-new-600) 69.44%,
+    var(--brand-new-800) 106.24%
+  );
+}
+
+.header-3ABLD1,
+.stepIndex-Kqaht-,
+.stepTitle-2LVW-a,
+.selected-2HDz3F .stepTitle-2LVW-a {
+  color: var(--black-500);
+}
+
+.selected-2HDz3F .stepIndex-Kqaht- {
+  color: var(--brand-new-800);
+}
+
+/*
+ * > partner programme
+ */
+.featureIcon-2sTnDK path[fill='#{$brand-500}'] {
+  fill: var(--brand-new-500);
+}
+
+.checklistIcon-D7psvE path[fill='#{$white-500}'] {
+  fill: var(--black-500);
+}
+.checklistIcon-D7psvE path[fill='#{$status-red-500}'] {
+  fill: var(--text-danger);
+}
+.checklistIcon-D7psvE path[fill='#{$status-yellow-500}'] {
+  fill: var(--text-warning);
+}
+
+/*
+ * > discovery
+ */
+.sparkles-1JOsCC[src='/assets/89c185367e2d2dd521f4265f2b8c93ee.svg'] {
+  content: url(svg('server/settings/community/stars.svg'));
+}
+
+/*
+ * > welcome screen
+ */
+.activeCircle-3rE6-u {
+  color: var(--black-500);
+}

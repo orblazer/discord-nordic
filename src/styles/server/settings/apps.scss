@@ -1,0 +1,10 @@
+/*
+ * > integrations > [bot]
+ */
+.syncIcon-3lhuwS path[fill='#{$status-yellow-500}'],
+.syncCard-Mu6lpD path[fill='#{$status-yellow-500}'] /** >> command (not synced) */ {
+  fill: var(--text-warning);
+}
+.syncIcon-3lhuwS path[fill='#{$status-green-500}'] {
+  fill: var(--text-positive);
+}

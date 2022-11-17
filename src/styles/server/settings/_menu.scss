@@ -1,0 +1,15 @@
+/*
+ * server boost status (btn)
+ */
+.serverBoostTabItem-3QwA3W[aria-selected='true'] {
+  color: var(--black-500) !important;
+
+  .icon-3FU6Ir {
+    fill: var(--black-500) !important;
+  }
+}
+
+/* badge */
+.icon-3FU6Ir[fill='#{$guild-boosting-pink-hex}' i] {
+  fill: var(--guild-boosting-pink);
+}

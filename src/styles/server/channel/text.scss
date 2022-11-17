@@ -1,0 +1,44 @@
+/*
+ * > interaction
+ */
+.interactive:hover {
+  color: var(--black-500);
+}
+
+/*
+ * > new messages bar
+ */
+.newMessagesBar-1hF-9G .barButtonBase-Sk2mdB {
+  color: var(--black-500);
+}
+
+/*
+ * Text channel (empty)
+ */
+.icon-2dMhn4[style*='background-image: url("/assets/be71475205180432aaa6a89bd8ee306c.svg")'] {
+  background-image: url(svg('server/channel/text/invite.svg')) !important;
+}
+.icon-2dMhn4[style*='background-image: url("/assets/40aa3feae87e9745dd56756762029544.svg")'] {
+  background-image: url(svg('server/channel/text/customize.svg')) !important;
+}
+.icon-2dMhn4[style*='background-image: url("/assets/364cec2cc5dfb64873e3a33626a56ba1.svg")'] {
+  background-image: url(svg('server/channel/text/chat.svg')) !important;
+}
+
+.checkmark-bW9BK8 {
+  color: var(--black-500);
+}
+
+/*
+ * Text channel (user join)
+ */
+.icon-JRJzJz[style*='background-image: url("/assets/d1382af8d9e755bc44811b1fd92990a8.svg")'] {
+  background-image: url(svg('server/channel/text/join.svg')) !important;
+}
+
+/*
+ * > mentioned
+ */
+.mentioned-Tre-dv:before {
+  background-color: var(--brand-new-500);
+}

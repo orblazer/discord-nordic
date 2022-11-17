@@ -1,0 +1,25 @@
+/*
+ * > title (status)
+ */
+.mask-2Me5HY rect[fill='#{$status-green-600}'] {
+  fill: var(--user-status-online);
+}
+.mask-2Me5HY rect[fill='#{$status-yellow-500}'] {
+  fill: var(--user-status-idle);
+}
+.mask-2Me5HY rect[fill='#{$status-red-500}'] {
+  fill: var(--user-status-dnd);
+}
+.mask-2Me5HY rect[fill='#{$status-grey-500}'] {
+  fill: var(--user-status-invisible);
+}
+
+/*
+ * call icons
+ */
+.icon-JRJzJz[style*='background-image: url("/assets/7f75ab26bc5deb393cd8db44d9fe14e7.svg")'] {
+  background-image: url(svg('user/dm-channel/call-incoming.svg')) !important;
+}
+.icon-JRJzJz[style*='background-image: url("/assets/5e64269a40d5bb745c2f3df29f26738d.svg")'] {
+  background-image: url(svg('user/dm-channel/call-missed.svg')) !important;
+}

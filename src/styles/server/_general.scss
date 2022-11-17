@@ -1,0 +1,21 @@
+/** discord partner badge */
+.icon-3BYlXK {
+  color: var(--black-500);
+}
+
+/*
+ * > goal
+ */
+.perkIcon-2DG0tJ path[fill='#{$premium-perk-pink}'] {
+  fill: var(--guild-boosting-pink);
+}
+.perkIcon-2DG0tJ path[fill='#{$premium-perk-yellow}'] {
+  fill: var(--premium-perk-yellow);
+}
+
+/*
+ * > dropdown menu
+ */
+.colorDefault-CDqZdO.focused-3qFvc8:not(.colorDanger-3n-KnP) {
+  color: var(--black-500);
+}

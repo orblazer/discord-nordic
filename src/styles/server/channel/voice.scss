@@ -1,0 +1,25 @@
+/*
+ * > invite (when empty)
+*/
+.art-3XrHCd[style*='background-image: url("/assets/ec499e7dcc451566caeda997fa9265db.svg")'] {
+  background-image: url(svg('server/channel/voice/invite.svg')) !important;
+}
+
+/*
+ * > screen share (step 2)
+ */
+.gradientBackground-MytxDL {
+  background: linear-gradient(
+    90deg,
+    var(--premium-tier-2-purple-for-gradients),
+    var(--premium-tier-2-pink-for-gradients)
+  );
+}
+
+/*
+ * > react with emoji > enable fun reaction with nitro
+ */
+.tooltipBrand-20XsMA,
+.tooltipText-1UXpqk {
+  color: var(--black-500) !important;
+}
