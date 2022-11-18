@@ -1,4 +1,28 @@
 /*
+ * open chat (not joined)
+ * hover (joined)
+ ! + stage bottom
+ */
+.gradientContainer-phMG8d {
+  --color-rgb: var(--primary-dark-700-rgb);
+  background-image: linear-gradient(
+    rgb(var(--color-rgb)),
+    rgba(var(--color-rgb), 0.738) 19%,
+    rgba(var(--color-rgb), 0.541) 34%,
+    rgba(var(--color-rgb), 0.382) 47%,
+    rgba(var(--color-rgb), 0.278) 56.5%,
+    rgba(var(--color-rgb), 0.194) 65%,
+    rgba(var(--color-rgb), 0.126) 73%,
+    rgba(var(--color-rgb), 0.075) 80.2%,
+    rgba(var(--color-rgb), 0.042) 86.1%,
+    rgba(var(--color-rgb), 0.021) 91%,
+    rgba(var(--color-rgb), 0.008) 95.2%,
+    rgba(var(--color-rgb), 0.002) 98.2%,
+    transparent
+  );
+}
+
+/*
  * > invite (when empty)
 */
 .art-3XrHCd[style*='background-image: url("/assets/ec499e7dcc451566caeda997fa9265db.svg")'] {
