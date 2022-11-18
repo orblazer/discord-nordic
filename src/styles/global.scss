@@ -75,3 +75,31 @@
 .calendarPicker-sDhzdi .react-datepicker__day:hover {
   color: var(--black-500);
 }
+
+/*
+ * Text/DM channel > drop file
+ */
+.uploadDropModal-13Kd20 .inner-rBP-MS {
+  .title-3ChJ_v,
+  .title-3ChJ_v strong,
+  .instructions-272j2A {
+    color: var(--black-500);
+  }
+}
+
+.document-1u6V3N {
+  background-image: url(svg('global/upload-document.svg'));
+}
+.code-rRQnfi {
+  background-image: url(svg('global/upload-code.svg'));
+}
+.image-2ssF8k {
+  background-image: url(svg('global/upload-mage.svg'));
+}
+
+/*
+ * Text/DM channel > upload file > edit
+ */
+.checkbox-f1HnKB path[fill='#{$brand-500}'] {
+  fill: var(--brand-new-500);
+}
