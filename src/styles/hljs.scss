@@ -12,14 +12,6 @@
  * SRC: https://github.com/highlightjs/highlight.js/edit/main/src/styles/nord.css
  */
 
-.hljs,
-.hljs-subst,
-.hljs-params,
-.hljs-variable,
-.hljs-template-variable {
-  color: var(--hljs-text-color);
-}
-
 .hljs-selector-tag,
 .hljs-keyword,
 .hljs-literal,
@@ -82,11 +74,6 @@
 
 .hljs-link:hover {
   text-decoration: underline;
-}
-
-.hljs-quote,
-.hljs-comment {
-  color: var(--hljs-comment-color);
 }
 
 .hljs-meta,
