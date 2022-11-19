@@ -1,5 +1,6 @@
 import { minify } from 'csso'
-import { readFile } from 'fs/promises'
+import { constants } from 'fs'
+import { access, readFile } from 'fs/promises'
 import { dirname, join, resolve } from 'path'
 import sass from 'sass'
 import { fileURLToPath } from 'url'
@@ -48,10 +49,14 @@ async function compile(entry) {
     functions: {
       async 'svg($path)'([pathArg]) {
         const path = pathArg.assertString('path').text
+        const localFilePath = join(assetsDir, path)
+
         // Use base64 for development
         if (dev) {
-          const file = await readFile(join(assetsDir, path), { encoding: 'base64' })
+          const file = await readFile(localFilePath, { encoding: 'base64' })
           return new sass.SassString(`data:image/svg+xml;base64,${file}`)
+        } else {
+          await access(localFilePath, constants.F_OK)
         }
 
         return new sass.SassString(`${baseAssetsUrl}/${path}`)
