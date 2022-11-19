@@ -1,9 +1,7 @@
-import { readFile, writeFile } from 'fs/promises'
+import { writeFile } from 'fs/promises'
 import { resolve } from 'path'
 
-const pkg = JSON.parse(await readFile(resolve('package.json')))
-
-export function betterDiscord(css) {
+export function betterDiscord(pkg, css) {
   return writeFile(
     resolve('nordic.theme.css'),
     `/**
@@ -33,7 +31,7 @@ ${css}
   )
 }
 
-export function stylus(css) {
+export function stylus(pkg, css) {
   return writeFile(
     resolve('nordic.user.css'),
     `/* ==UserStyle==
@@ -68,7 +66,7 @@ export function stylus(css) {
   )
 }
 
-export async function powercord(css) {
+export async function powercord(pkg, css) {
   await writeFile(
     resolve('nordic.powercord.css'),
     `/**

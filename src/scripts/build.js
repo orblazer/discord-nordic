@@ -5,11 +5,14 @@ import sass from 'sass'
 import { fileURLToPath } from 'url'
 import { betterDiscord, powercord, stylus } from './output.js'
 
+const pkg = JSON.parse(await readFile(resolve('package.json')))
+
 const __filename = dirname(fileURLToPath(import.meta.url))
 const srcDir = resolve(__filename, '..')
 const assetsDir = resolve(__filename, '../../assets')
 
 const dev = typeof process.env.DEV === 'undefined' ? false : Boolean(process.env.DEV)
+const baseAssetsUrl = `https://raw.githubusercontent.com/orblazer/discord-nordic/v${pkg.version}/assets`
 
 // Compile sass files
 const results = await Promise.allSettled([
@@ -29,9 +32,9 @@ for (const result of results) {
 
 if (success) {
   await Promise.allSettled([
-    betterDiscord([results[0].value, results[1].value].join('\n')),
-    stylus(results[0].value),
-    powercord(results[0].value),
+    betterDiscord(pkg, [results[0].value, results[1].value].join('\n')),
+    stylus(pkg, results[0].value),
+    powercord(pkg, results[0].value),
   ])
 }
 
@@ -45,8 +48,13 @@ async function compile(entry) {
     functions: {
       async 'svg($path)'([pathArg]) {
         const path = pathArg.assertString('path').text
-        const file = await readFile(join(assetsDir, path), { encoding: 'base64' })
-        return new sass.SassString(`data:image/svg+xml;base64,${file}`)
+        // Use base64 for development
+        if (dev) {
+          const file = await readFile(join(assetsDir, path), { encoding: 'base64' })
+          return new sass.SassString(`data:image/svg+xml;base64,${file}`)
+        }
+
+        return new sass.SassString(`${baseAssetsUrl}/${path}`)
       },
     },
   })
