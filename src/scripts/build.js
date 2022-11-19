@@ -7,6 +7,8 @@ import { betterDiscord, powercord, stylus } from './output.js'
 
 const __filename = dirname(fileURLToPath(import.meta.url))
 const srcDir = resolve(__filename, '..')
+const assetsDir = resolve(__filename, '../../assets')
+
 const dev = typeof process.env.DEV === 'undefined' ? false : Boolean(process.env.DEV)
 
 // Compile sass files
@@ -43,7 +45,7 @@ async function compile(entry) {
     functions: {
       async 'svg($path)'([pathArg]) {
         const path = pathArg.assertString('path').text
-        const file = await readFile(join(srcDir, 'assets', path), { encoding: 'base64' })
+        const file = await readFile(join(assetsDir, path), { encoding: 'base64' })
         return new sass.SassString(`data:image/svg+xml;base64,${file}`)
       },
     },
