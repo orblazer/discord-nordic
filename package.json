@@ -1,6 +1,6 @@
 {
   "name": "discord-nordic",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Complete theme for Nordic (https://www.nordtheme.com/)",
   "homepage": "https://github.com/orblazer/discord-nordic",
   "funding": "https://www.paypal.me/orblazer",
@@ -14,9 +14,10 @@
   "type": "module",
   "scripts": {
     "prepare": "husky install",
-    "diff": "node src/scripts/diff",
     "build": "node src/scripts/build.js",
-    "lint": "eslint"
+    "lint": "eslint",
+    "version": "npm run build && git add nordic.*.css powercord_manifest.json",
+    "postversion": "git push && git push --tag"
   },
   "dependencies": {},
   "devDependencies": {
