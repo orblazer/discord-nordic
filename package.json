@@ -16,7 +16,9 @@
     "prepare": "husky install",
     "build": "node src/scripts/build.js",
     "lint": "eslint",
-    "version": "npm run build && git add nordic.*.css powercord_manifest.json",
+    "version": "npm run version:build && npm run version:changelog",
+    "version:build": "npm run build && git add nordic.*.css powercord_manifest.json",
+    "version:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "postversion": "git push && git push --tag"
   },
   "dependencies": {},
