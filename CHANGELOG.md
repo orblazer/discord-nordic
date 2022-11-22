@@ -1,3 +1,20 @@
+# [4.1.0](https://github.com/orblazer/discord-nordic/compare/v4.0.2-hotfix.1...v4.1.0) (2022-11-22)
+
+
+### Bug Fixes
+
+* **bd:** colorize pin dm notification badge ([1c6794f](https://github.com/orblazer/discord-nordic/commit/1c6794fa0dafa5dfb82df2c39d10763fdb331006))
+* **bd:** colorize plugin settings checkbox ([78d193d](https://github.com/orblazer/discord-nordic/commit/78d193dc2a76f72b73ff01f376719498565d9a20))
+* **bd:** colorize plugin settings switch ([8773d0a](https://github.com/orblazer/discord-nordic/commit/8773d0af102bb0afbf63d70d208b9784cf59bcde))
+* **server:** right color when hover and checked ([5565e4f](https://github.com/orblazer/discord-nordic/commit/5565e4f95b07f7397f7895f0f5c17122e65eaa27))
+
+
+### Features
+
+* **user:** colorize badges ([053ee65](https://github.com/orblazer/discord-nordic/commit/053ee65bd15983f020e0fd7a21947d61145385aa))
+
+
+
 ## [4.0.2-hotfix.1](https://github.com/orblazer/discord-nordic/compare/v4.0.2...v4.0.2-hotfix.1) (2022-11-19)
 
 
