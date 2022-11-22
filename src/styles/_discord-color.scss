@@ -1,4 +1,5 @@
 $primary-dark-400: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);
+$primary-dark-400-rgb: 114, 118, 125;
 $primary-dark-700: hsl(216, calc(var(--saturation-factor, 1) * 7.2%), 13.5%);
 
 $white-500: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
@@ -28,6 +29,7 @@ $status-red-500-rgb: 237, 66, 69;
 $brand-260: hsl(235, calc(var(--saturation-factor, 1) * 86.2%), 88.6%);
 $brand-500: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);
 $brand-500-hex: #5865f2;
+$brand-500-rgb: 88, 101, 242;
 
 $focus-primary-500: hsl(197, calc(var(--saturation-factor, 1) * 100%), 47.8%);
 

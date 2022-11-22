@@ -82,3 +82,16 @@
 .react-error {
   color: var(--text-danger);
 }
+
+.container-2nx-BQ[style*='background-color: rgb(#{$brand-500-rgb})'] {
+  background-color: var(--status-green-560) !important;
+}
+.slider-32CRPX path[fill='rgba(#{$brand-500-rgb}, 1)'] {
+  fill: var(--status-green-760);
+}
+.container-2nx-BQ[style*='background-color: rgb(#{$primary-dark-400-rgb})'] {
+  background-color: var(--primary-dark-500) !important;
+}
+.slider-32CRPX path[fill='rgba(#{$primary-dark-400-rgb}, 1)'] {
+  fill: var(--primary-dark-500);
+}
