@@ -1,16 +1,6 @@
 /*
  * > enable community
  */
-.featureIcon-2sTnDK path[fill='#{$status-green-600}'] {
-  fill: var(--text-positive);
-}
-.featureIcon-2sTnDK path[fill='#{$partner}'] {
-  fill: var(--nord-blue);
-}
-.featureIcon-2sTnDK path[fill='#{$status-red-400}'] {
-  fill: var(--text-danger);
-}
-
 .sparkles-1nSL9S[src='/assets/7418d03d0480ed13eed00c28584d275a.svg'] {
   content: url(svg('server/settings/community/stars.svg'));
 }
@@ -46,23 +36,6 @@
 }
 .content--gAC_W img[src='/assets/b6193b9564ca0ecbbd1ed6b80f47646d.svg'] /** (step 3) */ {
   content: url(svg('server/settings/community/check.svg'));
-}
-
-/*
- * > partner programme
- */
-.featureIcon-2sTnDK path[fill='#{$brand-500}'] {
-  fill: var(--brand-new-500);
-}
-
-.checklistIcon-D7psvE path[fill='#{$white-500}'] {
-  fill: var(--black-500);
-}
-.checklistIcon-D7psvE path[fill='#{$status-red-500}'] {
-  fill: var(--text-danger);
-}
-.checklistIcon-D7psvE path[fill='#{$status-yellow-500}'] {
-  fill: var(--text-warning);
 }
 
 /*

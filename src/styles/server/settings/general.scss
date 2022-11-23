@@ -1,58 +1,6 @@
 /*
- * > Overview > unlock with boosting (server banner background)
- * > Overview > unlock with boosting (server invite background)
- ? > role > choose image
-*/
-.perkIcon-2DG0tJ path[fill="#{$premium-perk-orange}"],
-.perkIcon-2DG0tJ path[fill="#{$status-yellow-500}"] /** > custom invite link > unlock with boosting */ {
-  fill: var(--premium-perk-orange);
-}
-/*
- * > Overview > unlock with boosting (server banner background)
- * > Overview > unlock with boosting (server invite background)
- * > custom invite link > unlock with boosting
- ? > role > choose image
-*/
-.perkIcon-2DG0tJ path[fill='#{$premium-perk-green}'] {
-  fill: var(--premium-perk-light-blue);
-}
-/*
- * > Overview > unlock with boosting (server banner background)
- * > Overview > unlock with boosting (server invite background)
- * > custom invite link > unlock with boosting
- ? > role > choose image
-*/
-.perkIcon-2DG0tJ path[fill='#{$premium-perk-purple}'] {
-  fill: var(--premium-perk-purple);
-}
-/*
- * > Overview > unlock with boosting (server banner background)
- * > Overview > unlock with boosting (server invite background)
- * > custom invite link > unlock with boosting
- ? > role > choose image
- ! + Server > goal
-*/
-.perkIcon-2DG0tJ path[fill='#{$premium-perk-blue}'] {
-  fill: var(--brand-experiment-400);
-}
-
-/*
- * > emoji > uplod emoji (fail)
- */
-.emojiErrorItem-3KwEao path[fill='#ed4245'] {
-  fill: var(--text-danger);
-}
-
-/*
  * > server template
  */
 .descriptionIcon-3nDZrK circle[fill='var(--white-500)'] {
   fill: var(--black-500);
-}
-
-.descriptionIcon-3nDZrK path[fill='#{$status-green-600}'] {
-  fill: var(--text-positive);
-}
-.descriptionIcon-3nDZrK path[fill='#{$status-red-500}'] {
-  fill: var(--status-red-500);
 }

@@ -8,29 +8,6 @@
   content: url(svg('server/settings/moderation/rules-light.svg'));
 }
 
-.verificationLevelHook-2NkX9o[style*='color: #{$status-green-600}'] {
-  color: var(--text-positive) !important;
-}
-.verificationLevelHook-2NkX9o[style*='color: #{$status-yellow-500}'] {
-  color: var(--premium-perk-yellow) !important;
-}
-.verificationLevelHook-2NkX9o[style*='color: #{$status-orange-500}'] {
-  color: var(--text-warning) !important;
-}
-.verificationLevelHook-2NkX9o[style*='color: #{$status-red-500}'] {
-  color: var(--text-danger) !important;
-}
-
-/*
- * > rules screening > verification level
- */
-.radioBar-3w9XY-[style*='--radio-bar-accent-color:#{$status-yellow-500}'] {
-  --radio-bar-accent-color: var(--premium-perk-yellow) !important;
-}
-.radioBar-3w9XY-[style*='--radio-bar-accent-color:#{$status-orange-500}'] {
-  --radio-bar-accent-color: var(--status-warning-background) !important;
-}
-
 /*
  * > rules screening > get started
  */
