@@ -1,3 +1,40 @@
+# [4.2.0](https://github.com/orblazer/discord-nordic/compare/v4.1.0...v4.2.0) (2022-11-23)
+
+
+### Bug Fixes
+
+* **bd:** right colorize pn dm notification badge ([9efdc3a](https://github.com/orblazer/discord-nordic/commit/9efdc3a13d8897026341a9d20830c36ca1ffc06c))
+* **bd:** right colors on switch ([bec4ce3](https://github.com/orblazer/discord-nordic/commit/bec4ce319a666d464e792110b40de520b307a008))
+* **colors:** add missing green 500 variant ([88f1204](https://github.com/orblazer/discord-nordic/commit/88f1204b24b76caf09fd1f0c021f2b176fb2d948))
+* **colors:** add missing red 400 variant ([f782582](https://github.com/orblazer/discord-nordic/commit/f78258201e77b2104a728e50d0c420077731aad7))
+* **colors:** add missing yellow 560 variant ([a4821f8](https://github.com/orblazer/discord-nordic/commit/a4821f8eaa28baed901d9a6402efababf736c430))
+* **global:** right colorize switch ([58ae120](https://github.com/orblazer/discord-nordic/commit/58ae1207440a4f4c1a096d6fa46f1f14e437891f))
+* **global:** right text color on green button ([dd4889b](https://github.com/orblazer/discord-nordic/commit/dd4889b43152425bb63c029e7d018b3fad509c88))
+* **server:** right colorize app scope ([6a5f686](https://github.com/orblazer/discord-nordic/commit/6a5f6863f591ee75b3183602622677bf80b29968))
+* **server:** right colorize boost icon ([e6063d5](https://github.com/orblazer/discord-nordic/commit/e6063d51fca7e4843c55438fb850dc8d7eadd2bf))
+* **server:** right colorize emoji party icon ([26c57bc](https://github.com/orblazer/discord-nordic/commit/26c57bcd5b916f2715dbfbc3d6541bc14d1d4dd9))
+* **server:** right colorize forum pin and new badge ([c9ad6a4](https://github.com/orblazer/discord-nordic/commit/c9ad6a40d21579f797cec87b880bd7d1746171ef))
+* **server:** right colorize home header gradient ([4a57c34](https://github.com/orblazer/discord-nordic/commit/4a57c344f1b7a6393e0741ad257f41e45c19bf7d))
+* **server:** right colorize icons on template ([6a6d39c](https://github.com/orblazer/discord-nordic/commit/6a6d39cfb793a8c5fbd66de031cfc971bada0389))
+* **server:** right colorize notification overrides ([7d11b69](https://github.com/orblazer/discord-nordic/commit/7d11b69995bc4221eb85b0b425de5cbcacf4b883))
+* **server:** right colorize screen share popup ([0867693](https://github.com/orblazer/discord-nordic/commit/08676930128b967af9436554d9de39eb83725818))
+* **server:** right colorize stage icons ([e51958d](https://github.com/orblazer/discord-nordic/commit/e51958d768cee05ed5db718b15c7a5414d155536))
+* **server:** right colors for discovery stars ([2b6494e](https://github.com/orblazer/discord-nordic/commit/2b6494e722e84dcfeede4259c6df051462c53406))
+* **user:** colorize nitro offer banner ([b5f028b](https://github.com/orblazer/discord-nordic/commit/b5f028b9666c2265ca863e570b193093e00c9414))
+* **user:** right color for warn icon ([0e00f6b](https://github.com/orblazer/discord-nordic/commit/0e00f6bfdeece2080e8a172ae981b7e825d8f875))
+* **user:** right colorize nitro offer ([5f3c666](https://github.com/orblazer/discord-nordic/commit/5f3c66615c68ef4b6f8d3f5dd06dffd6ea13bb6e))
+* **user:** right colorize status ([8f3b9b1](https://github.com/orblazer/discord-nordic/commit/8f3b9b1ac45c853d85c34b60442683b46128951d))
+* **user:** update selector for beta tag ([976d184](https://github.com/orblazer/discord-nordic/commit/976d184c9da6f37cab7e7e80b6d000a7c8af74af))
+
+
+### Features
+
+* **colors:** add orange variables and right color for yellow ([85c8503](https://github.com/orblazer/discord-nordic/commit/85c85030cfadfdb4e26c05fd81956b84a8e24c01))
+* **colors:** colorize partner ([422d20f](https://github.com/orblazer/discord-nordic/commit/422d20f150ec5138b714cfed5882447a0dfb818e))
+* **server:** colorize assets on enable community ([1854861](https://github.com/orblazer/discord-nordic/commit/1854861016092520f55db1da910ce82733b40175))
+
+
+
 # [4.1.0](https://github.com/orblazer/discord-nordic/compare/v4.0.2-hotfix.1...v4.1.0) (2022-11-22)
 
 
