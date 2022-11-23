@@ -1,11 +1,15 @@
-.checked-1pZh2h path[fill='#{$status-green-600}'] {
-  fill: var(--text-positive);
+.checked-1pZh2h[style*='background-color: rgba(#{$status-green-600-rgb}, 0.15)'] {
+  border-color: rgba(var(--status-green-600-rgb), 0.15) !important;
+  background-color: rgba(var(--status-green-600-rgb), 0.15) !important;
+}
+.checked-1pZh2h path[fill='#{$status-green-600-hex}'] {
+  fill: var(--status-green-600);
 }
 
-.checked-1pZh2h[style*='background-color: #{$status-green-600}'] {
-  border-color: var(--status-positive-background) !important;
-  background-color: var(--status-positive-background) !important;
+.checked-1pZh2h[style*='background-color: rgb(#{$status-green-600-rgb})'] {
+  border-color: var(--status-green-600) !important;
+  background-color: var(--status-green-600) !important;
 }
-.checked-1pZh2h path[fill='#{$white-500}'] {
+.checked-1pZh2h path[fill='var(--white-500)'] /*! settings checkbox */ {
   fill: var(--black-500);
 }
