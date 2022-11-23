@@ -12,6 +12,12 @@
   --switch-color: var(--primary-dark-500);
 }
 
+.bd-switch input:checked + .bd-switch-body .bd-switch-handle {
+  fill: var(--status-green-760);
+}
+
+bd-switch-symbol
+
 /*
  * > updates
  */
@@ -83,7 +89,7 @@
   color: var(--text-danger);
 }
 
-// Slider
+// Switch
 .container-2nx-BQ[style*='background-color: rgb(#{$brand-500-rgb})'] {
   background-color: var(--status-green-560) !important;
 }
