@@ -1,16 +1,9 @@
 /*
  * (Waiting for the stage start)
  */
-.icon-3CZSYe[style*='background-color: rgb(#{$status-green-600-rgb})'] {
-  background-color: var(--status-green-560) !important;
+.icon-3CZSYe[style*='background-color: var(--status-green-600)'],
+.icon-3CZSYe[style*='background-color: var(--brand-new-500)'] {
   color: var(--black-500);
-}
-.icon-3CZSYe[style*='background-color: #{$brand-500}'] {
-  background-color: var(--brand-new-500) !important;
-  color: var(--black-500);
-}
-.icon-3CZSYe[style*='background-color: #{$primary-dark-700}'] {
-  background-color: var(--background-tertiary) !important;
 }
 
 .upsellTooltipHeader-28hJ7J,
@@ -29,10 +22,6 @@
 /*
  * > stage > moderator badge
  */
-.container-yn4cwV rect[fill='#{"" + $white-500-hex}' i] {
-  fill: var(--white-500);
-
-  & + path {
-    fill: var(--black-500);
-  }
+.container-yn4cwV rect[fill='var(--white-500)'] + path {
+  fill: var(--black-500);
 }
