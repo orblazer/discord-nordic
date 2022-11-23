@@ -36,12 +36,14 @@
   --primary-light-900: var(--primary-dark-800);
   --primary-light-900-rgb: var(--primary-dark-800-rgb);
 
-  --status-green-560: var(--nord-green); /*! nord color */
-  --status-green-560-rgb: var(--nord-green-rgb); /*! nord color */
-  --status-green-600: var(--status-green-560);
-  --status-green-600-rgb: var(--status-green-560-rgb);
-  --status-green-660: var(--status-green-560);
-  --status-green-660-rgb: var(--status-green-560-rgb);
+  --status-green-500: var(--nord-green); /*! nord color */
+  --status-green-500-rgb: var(--nord-green-rgb); /*! nord color */
+  --status-green-560: var(--status-green-500);
+  --status-green-560-rgb: var(--status-green-500-rgb);
+  --status-green-600: var(--status-green-500);
+  --status-green-600-rgb: var(--status-green-500-rgb);
+  --status-green-660: var(--status-green-500);
+  --status-green-660-rgb: var(--status-green-500-rgb);
   --status-green-730: hsl(93, 22%, 58%); /* #93ac7e */
   --status-green-730-rgb: 147, 172, 126; /* #93ac7e */
   --status-green-760: hsl(93, 17%, 52%); /* #82996f */
