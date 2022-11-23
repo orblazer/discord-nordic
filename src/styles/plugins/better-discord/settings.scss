@@ -11,12 +11,13 @@
 .bd-switch-body {
   --switch-color: var(--primary-dark-500);
 }
-
-.bd-switch input:checked + .bd-switch-body .bd-switch-handle {
-  fill: var(--status-green-760);
+.bd-switch-body .bd-switch-handle {
+  fill: var(--white-500);
 }
 
-bd-switch-symbol
+.bd-switch input:checked + .bd-switch-body .bd-switch-symbol path {
+  fill: var(--status-green-760);
+}
 
 /*
  * > updates
