@@ -49,6 +49,8 @@
   --status-green-760: hsl(93, 17%, 52%); /* #82996f */
   --status-green-760-rgb: 130, 153, 111; /* #82996f */
 
+  --status-red-400: var(--status-red-500);
+  --status-red-400-rgb: var(--status-red-500-rgb);
   --status-red-500: var(--nord-red); /*! nord color */
   --status-red-500-rgb: var(--nord-red-rgb); /*! nord color */
   --status-red-530: var(--status-red-500);
