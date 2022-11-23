@@ -65,16 +65,16 @@
  ! DM list
  ! server > member list
  */
-.mask-1FEkla rect[fill='#{$status-green-600}'] {
+.mask-1FEkla rect[fill='#{$status-green-600-hex}'] {
   fill: var(--user-status-online);
 }
-.mask-1FEkla rect[fill='#{$status-yellow-500}'] {
+.mask-1FEkla rect[fill='#{$status-yellow-500-hex}'] {
   fill: var(--user-status-idle);
 }
-.mask-1FEkla rect[fill='#{$status-red-500}'] {
+.mask-1FEkla rect[fill='#{$status-red-500-hex}'] {
   fill: var(--user-status-dnd);
 }
-.mask-1FEkla rect[fill='#{$status-grey-500}'] {
+.mask-1FEkla rect[fill='#{$status-grey-500-hex}'] {
   fill: var(--user-status-invisible);
 }
 

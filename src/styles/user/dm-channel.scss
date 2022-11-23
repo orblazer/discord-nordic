@@ -1,16 +1,16 @@
 /*
  * > title (status)
  */
-.mask-2Me5HY rect[fill='#{$status-green-600}'] {
+.mask-2Me5HY rect[fill^='rgba(#{$status-green-600-rgb}'] {
   fill: var(--user-status-online);
 }
-.mask-2Me5HY rect[fill='#{$status-yellow-500}'] {
+.mask-2Me5HY rect[fill^='rgba(#{$status-yellow-500-rgb}'] {
   fill: var(--user-status-idle);
 }
-.mask-2Me5HY rect[fill='#{$status-red-500}'] {
+.mask-2Me5HY rect[fill^='rgba(#{$status-red-500-rgb}'] {
   fill: var(--user-status-dnd);
 }
-.mask-2Me5HY rect[fill='#{$status-grey-500}'] {
+.mask-2Me5HY rect[fill^='rgba(#{$status-grey-500-rgb}'] {
   fill: var(--user-status-invisible);
 }
 
