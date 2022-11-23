@@ -32,12 +32,22 @@
 /*
  * > screen share (step 2)
  */
+.selectorTextSelected-2zup8I {
+  color: var(--black-500);
+}
+
 .gradientBackground-MytxDL {
   background: linear-gradient(
     90deg,
     var(--premium-tier-2-purple-for-gradients),
     var(--premium-tier-2-pink-for-gradients)
   );
+  color: var(--black-500);
+}
+.iconColor-3MUqJ2,
+.textLink-VbUIXl,
+.upsellText-29l7Q- {
+  color: currentColor;
 }
 
 /*
