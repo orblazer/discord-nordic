@@ -3,15 +3,6 @@
   color: var(--black-500);
 }
 
-/** Nitro badge */
-.premiumLabel-3HPvdB:not(.selected-2Uns2B) path,
-.upsellFooterIcon-2hvqqe path /*! Server > server boost > boost to level X */ {
-  fill: var(--premium-tier-2-pink);
-}
-.premiumLabel-3HPvdB.selected-2Uns2B path {
-  fill: currentColor;
-}
-
 /*
  * Nitro badge
  ! DM > Nitro btn
