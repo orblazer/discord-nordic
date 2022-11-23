@@ -11,6 +11,10 @@
   fill: var(--text-danger);
 }
 
+.sparkles-1nSL9S[src='/assets/7418d03d0480ed13eed00c28584d275a.svg'] {
+  content: url(svg('server/settings/community/stars.svg'));
+}
+
 /*
  * > enable community > get started
  */
@@ -34,6 +38,16 @@
   color: var(--brand-new-900);
 }
 
+.content--gAC_W img[src='/assets/070f1b98adc8ce07c7823021133efed5.svg'] {
+  content: url(svg('server/settings/community/shield.svg'));
+}
+.content--gAC_W img[src='/assets/d8a03b9985d824edc78c6eb4785dc949.svg'] /** (step 2) */ {
+  content: url(svg('server/settings/community/wrench.svg'));
+}
+.content--gAC_W img[src='/assets/b6193b9564ca0ecbbd1ed6b80f47646d.svg'] /** (step 3) */ {
+  content: url(svg('server/settings/community/check.svg'));
+}
+
 /*
  * > partner programme
  */
@@ -55,7 +69,7 @@
  * > discovery
  */
 .sparkles-1JOsCC[src='/assets/89c185367e2d2dd521f4265f2b8c93ee.svg'] {
-  content: url(svg('server/settings/community/stars.svg'));
+  content: url(svg('server/settings/community/discovery-stars.svg'));
 }
 
 /*
