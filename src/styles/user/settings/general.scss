@@ -33,22 +33,6 @@
 }
 
 /*
- * status dot
- */
-.statusDot-39Gozj rect[fill='#{$status-green-600}'] {
-  fill: var(--user-status-online);
-}
-.statusDot-39Gozj rect[fill='#{$status-yellow-500}'] {
-  fill: var(--user-status-idle);
-}
-.statusDot-39Gozj rect[fill='#{$status-red-500}'] {
-  fill: var(--user-status-dnd);
-}
-.statusDot-39Gozj rect[fill='#{$status-grey-500}'] {
-  fill: var(--user-status-invisible);
-}
-
-/*
  * >> change banner/avatar > choose gif
  */
 .icon-1YUWIM path {
