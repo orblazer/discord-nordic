@@ -47,19 +47,6 @@
 }
 
 /*
- * > privacy & safety
- */
-.radioBar-3w9XY-[style*='--radio-bar-accent-color:#{$status-green-600}'] {
-  --radio-bar-accent-color: var(--status-positive-background) !important;
-}
-.radioBar-3w9XY-[style*='--radio-bar-accent-color:#{$status-yellow-560}'] {
-  --radio-bar-accent-color: var(--status-warning-background) !important;
-}
-.radioBar-3w9XY-[style*='--radio-bar-accent-color:#{$status-red-500}'] {
-  --radio-bar-accent-color: var(--status-danger-background) !important;
-}
-
-/*
  * > authorizes apps
  */
 .permissionCheckmark-ji-OoY {
