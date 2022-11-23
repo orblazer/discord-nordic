@@ -60,10 +60,13 @@
   --status-red-630: hsl(355, 31%, 45%); /* #975056 */
   --status-red-630-rgb: 151, 80, 86; /* #975056 */
 
-  --status-yellow-400: var(--nord-orange); /*! nord color */
-  --status-yellow-400-rgb: var(--nord-orange-rgb); /*! nord color */
+  --status-yellow-400: var(--nord-yellow); /*! nord color */
+  --status-yellow-400-rgb: var(--nord-yellow-rgb); /*! nord color */
   --status-yellow-500: var(--status-yellow-400);
   --status-yellow-500-rgb: var(--status-yellow-400-rgb);
+
+  --status-orange-500: var(--nord-orange); /*! nord color */
+  --status-orange-500-rgb: var(--nord-orange-rgb); /*! nord color */
 
   --status-grey-700: var(--primary-dark-630);
   --status-grey-700-rgb: var(--primary-dark-630-rgb);
