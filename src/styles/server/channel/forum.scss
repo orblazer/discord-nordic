@@ -5,8 +5,7 @@
 /*
  * new badge
  */
-.newBadge-1LcB6t[style*='background-color: #{$brand-260}'] {
-  background-color: var(--brand-260) !important;
+.newBadge-1LcB6t[style*='background-color: var(--brand-260)'] {
   color: var(--brand-new-800);
 }
 
@@ -21,7 +20,7 @@
 /*
  * Post
  */
-.pinIcon-zVODC5 path[fill='white'] {
+.pinIcon-3I5-gm path[fill='white'] {
   fill: var(--black-500);
 }
 
