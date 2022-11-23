@@ -1,11 +1,17 @@
 .background-fkKrXt {
   background-color: var(--background-secondary-alt) !important;
-
-  &:after {
-    background: linear-gradient(
-      180deg,
-      rgba(var(--primary-dark-660-rgb), 0) 0,
-      var(--background-secondary-alt)
-    ) !important;
-  }
+}
+.theme-dark .headerBarInner-2pcZSM:after {
+  background: linear-gradient(
+    180deg,
+    rgba(var(--primary-dark-660-rgb), 0) 0,
+    var(--background-secondary-alt)
+  ) !important;
+}
+.theme-light .headerBarInner-2pcZSM:after {
+  background: linear-gradient(
+    180deg,
+    rgba(var(--primary-light-160-rgb), 0) 0,
+    var(--background-secondary-alt)
+  ) !important;
 }
