@@ -1,3 +1,20 @@
+# [4.3.0](https://github.com/orblazer/discord-nordic/compare/v4.2.0...v4.3.0) (2022-12-02)
+
+
+### Bug Fixes
+
+* **bd:** right colors on switch ([ad7cb22](https://github.com/orblazer/discord-nordic/commit/ad7cb22d857a43019c54fad2a76fd56b5ab2c1ce))
+* **colors:** add missing yellow 660 variant ([e045443](https://github.com/orblazer/discord-nordic/commit/e045443c9c22e280e54e150196514039ec8ce3c2))
+* **user:** right colorize changed dm status ([d091729](https://github.com/orblazer/discord-nordic/commit/d091729b35d0dda6cb3c0b220cbdc1de6e9d9380))
+
+
+### Features
+
+* **bd:** colorize staff crown ([86c9af6](https://github.com/orblazer/discord-nordic/commit/86c9af69f579b21fa2b35dbb8b198fc66539b6d1)), closes [mwittrien/BetterDiscordAddons#2066](https://github.com/mwittrien/BetterDiscordAddons/issues/2066) [mwittrien/BetterDiscordAddons#2068](https://github.com/mwittrien/BetterDiscordAddons/issues/2068)
+* **global:** colorize whats new popup ([1c813b5](https://github.com/orblazer/discord-nordic/commit/1c813b5de0e3ef094cdde2aa3921608b93b04635))
+
+
+
 # [4.2.0](https://github.com/orblazer/discord-nordic/compare/v4.1.0...v4.2.0) (2022-11-23)
 
 
