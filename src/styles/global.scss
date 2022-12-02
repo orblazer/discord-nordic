@@ -54,6 +54,14 @@
   color: var(--link-500);
 }
 
+.fixed-cTX7Hp {
+  color: var(--status-danger);
+
+  &::after {
+    background-color: var(--status-danger);
+  }
+}
+
 /*
  * Streamer mode (bar)
  */
