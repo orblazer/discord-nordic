@@ -12,6 +12,17 @@
 }
 
 /*
+ * Popup "Stop @everyone spam"
+ */
+.ping-2J18Tq {
+  content: url(svg('server/ping.svg'));
+}
+
+.checklistIcon-S-7rG0 circle[fill='var(--white-100)'] {
+  fill: var(--black-500);
+}
+
+/*
  * > goal
  */
 .perkIcon-2DG0tJ path[fill='#{$premium-perk-pink}'] {
