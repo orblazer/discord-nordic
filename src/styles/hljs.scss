@@ -12,111 +12,229 @@
  * SRC: https://github.com/highlightjs/highlight.js/edit/main/src/styles/nord.css
  */
 
+.hljs-ansi-foreground-black .hljs-ansi-background-black,
+.hljs-ansi-foreground-black .hljs-ansi-background-blue,
+.hljs-ansi-foreground-black .hljs-ansi-background-cyan,
+.hljs-ansi-foreground-black .hljs-ansi-background-green,
+.hljs-ansi-foreground-black .hljs-ansi-background-magenta,
+.hljs-ansi-foreground-black .hljs-ansi-background-red,
+.hljs-ansi-foreground-black .hljs-ansi-background-white,
+.hljs-ansi-foreground-black .hljs-ansi-background-yellow,
+.hljs-ansi-background-yellow,
+.hljs-ansi-background-magenta,
+.hljs-ansi-background-cyan,
+.hljs-ansi-background-green,
+.hljs-ansi-background-white {
+  color: var(--primary-dark-800);
+}
+.hljs-ansi-foreground-black {
+  color: var(--primary-dark-430);
+}
+.hljs-ansi-foreground-red {
+  color: var(--nord-red);
+}
+.hljs-ansi-foreground-green {
+  color: var(--nord-green);
+}
+.hljs-ansi-foreground-yellow {
+  color: var(--nord-yellow);
+}
+.hljs-ansi-foreground-blue {
+  color: var(--nord-blue);
+}
+.hljs-ansi-foreground-magenta {
+  color: var(--nord-pink);
+}
+.hljs-ansi-foreground-cyan {
+  color: var(--nord-cyan);
+}
+.hljs-ansi-foreground-white .hljs-ansi-background-black,
+.hljs-ansi-foreground-white .hljs-ansi-background-blue,
+.hljs-ansi-foreground-white .hljs-ansi-background-cyan,
+.hljs-ansi-foreground-white .hljs-ansi-background-green,
+.hljs-ansi-foreground-white .hljs-ansi-background-magenta,
+.hljs-ansi-foreground-white .hljs-ansi-background-red,
+.hljs-ansi-foreground-white .hljs-ansi-background-white,
+.hljs-ansi-foreground-white .hljs-ansi-background-yellow,
+.hljs-ansi-background-red,
+.hljs-ansi-background-blue {
+  color: var(--primary-light-160);
+}
+.hljs-ansi-background-black {
+  background-color: var(--primary-dark-700);
+}
+.hljs-ansi-background-red {
+  background-color: var(--nord-orange);
+}
+.hljs-ansi-background-green {
+  background-color: var(--nord-green);
+}
+.hljs-ansi-background-yellow {
+  background-color: var(--nord-yellow);
+}
+.hljs-ansi-background-blue {
+  background-color: var(--nord-blue);
+}
+.hljs-ansi-background-magenta {
+  background-color: var(--nord-pink);
+}
+.hljs-ansi-background-cyan {
+  background-color: var(--nord-cyan);
+}
+.hljs-ansi-background-white {
+  background-color: var(--nord-light3);
+}
+
+// .hljs,
+.hljs-subst,
+.hljs-params,
+.hljs-attribute,
+.hljs-variable,
+.hljs-template-variable {
+  color: var(--header-secondary);
+}
+
+.hljs-quote,
+.hljs-comment {
+  color: var(--primary-dark-430);
+}
+
+.hljs-link {
+  color: inherit;
+}
+
 .hljs-selector-tag,
 .hljs-keyword,
 .hljs-literal,
 .hljs-symbol,
 .hljs-bullet,
+.hljs-builtin-name,
 .hljs-name,
-.hljs-tag {
+.hljs-tag,
+.hljs-doctag {
   color: var(--nord-cyan);
+}
+
+.hljs-selector-id {
+  font-weight: bold;
 }
 
 .hljs-selector-id,
 .hljs-selector-class,
 .hljs-selector-attr,
+.hljs-built_in,
 .hljs-type,
 .hljs-class,
 .hljs-title,
 .hljs-code,
 .hljs-formula,
-.hljs-attr,
-.hljs-doctag,
-.hljs-class.hljs-title,
-.hljs-class .hljs-title {
-  color: var(--nord-green-blue);
+.hljs-attr {
+  color: var(--nord-green-blue) !important;
 }
 
-.hljs-built_in,
-.hljs-property,
 .hljs-selector-pseudo,
 .hljs-function,
+.hljs-function > .hljs-title,
 .hljs-section {
   color: var(--nord-turquoise);
-}
-
-.hljs-addition,
-.hljs-string,
-.hljs-meta .hljs-meta-string {
-  color: var(--nord-green);
-}
-
-.hljs-deletion {
-  color: var(--nord-red);
 }
 
 .hljs-number {
   color: var(--nord-pink);
 }
 
-.hljs-attribute,
 .hljs-regexp {
   color: var(--nord-yellow);
 }
 
-.hljs-emphasis {
-  font-style: italic;
+.hljs-string,
+.hljs-meta-string {
+  color: var(--nord-green) !important;
 }
 
-.hljs-strong {
-  font-weight: bold;
-}
-
-.hljs-link:hover {
+.hljs-link {
   text-decoration: underline;
 }
 
-.hljs-meta,
-.hljs-meta .hljs-keyword,
-.hljs-template-tag,
-.hljs-link {
+.hljs-meta-keyword,
+.hljs-template-tag {
+  color: var(--nord-blue);
+}
+
+.hljs-meta {
   color: var(--nord-orange);
 }
 
-.hljs-class .hljs-title ~ .hljs-title {
-  font-weight: bold;
+.hljs-deletion {
+  color: var(--nord-red);
+}
+
+.hljs-addition {
+  color: var(--nord-green);
+}
+
+.hljs-title ~ .hljs-title {
+  font-weight: 700;
 }
 
 /**
- * per language customizations
+ * Languages specific
  */
-
 .abnf .hljs-attribute,
 .apache .hljs-attribute,
+.arduino .hljs-built_in,
 .aspectj > .hljs-title,
 .clojure .hljs-name,
+.coq .hljs-built_in,
+.css .hljs-built_in,
+.glsl .hljs-built_in,
 .lisp .hljs-name,
-.nginx .hljs-attribute {
+.lua .hljs-built_in,
+.moonscript .hljs-built_in,
+.nginx .hljs-attribute,
+.pf .hljs-built_in,
+.processing .hljs-built_in,
+.vim .hljs-built_in,
+.julia .hljs-meta,
+.rb .hljs-subst,
+.ruby .hljs-subst,
+.swift .hljs-subst {
   color: var(--nord-turquoise);
 }
 
 .abnf .hljs-symbol,
-.clojure .hljs-symbol {
+.clojure .hljs-symbol,
+.css .hljs-attribute,
+.less .hljs-attribute,
+.scss .hljs-attribute {
   color: var(--nord-yellow);
 }
 
 .apache .hljs-section,
-.scss .hljs-keyword,
-.stylus .hljs-keyword,
-.css .hljs-keyword,
-.ts .hljs-built_in,
-.shell .hljs-variable,
-.csharp .hljs-built_in {
+.ps1 .hljs-operator,
+.ps1 .hljs-type,
+.powershell .hljs-operator,
+.powershell .hljs-type,
+.rb .hljs-variable,
+.ruby .hljs-variable,
+.bash .hljs-variable,
+.ini .hljs-variable,
+.makefile .hljs-variable {
   color: var(--nord-cyan);
 }
 
+.aspectj .hljs-meta,
+.css .hljs-keyword,
+.groovy .hljs-meta:not(:first-child),
+.haxe .hljs-meta,
+.java .hljs-meta,
+.swift .hljs-meta,
+.yaml .hljs-meta {
+  color: var(--nord-orange);
+}
+
 .bnf .hljs-attribute,
-.cpp .hljs-meta .hljs-meta-string,
+.cpp .hljs-meta-string,
 .diff .hljs-meta,
 .ebnf .hljs-attribute,
 .ldif .hljs-attribute {
@@ -128,6 +246,18 @@
 }
 
 .vim .hljs-built_in {
-  color: var(--nord-turquoise);
   font-style: italic;
+}
+
+.handlebars .hljs-template-tag {
+  color: var(--header-secondary);
+}
+
+.md .hljs-string,
+.markdown .hljs-string {
+  color: var(--nord-turquoise) !important;
+}
+
+.ini .hljs-attr {
+  color: var(--nord-cyan) !important;
 }
