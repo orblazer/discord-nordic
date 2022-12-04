@@ -70,3 +70,13 @@
 .mask-1FEkla rect[fill='#{$twitch-hex}'] {
   fill: var(--user-status-twitch);
 }
+
+/*
+ * Profile popup > profile too bright
+ */
+.upsellTooltipWrapper-1wqikQ {
+  .header-HL0rH-,
+  .content-3aT_vH {
+    color: var(--black-500) !important;
+  }
+}
