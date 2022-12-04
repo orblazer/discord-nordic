@@ -13,6 +13,10 @@
 .mask-2Me5HY rect[fill='#{$status-red-500-hex}'] {
   fill: var(--user-status-dnd);
 }
+.mask-2Me5HY rect[fill^='rgba(#{$twitch-rgb}'],
+.mask-2Me5HY rect[fill='#{$twitch-hex}'] {
+  fill: var(--user-status-twitch);
+}
 .mask-2Me5HY rect[fill^='rgba(#{$status-grey-500-rgb}'],
 .mask-2Me5HY rect[fill='#{$status-grey-500-hex}'] {
   fill: var(--user-status-invisible);
