@@ -1,3 +1,22 @@
+# [4.4.0](https://github.com/orblazer/discord-nordic/compare/v4.3.0...v4.4.0) (2022-12-08)
+
+
+### Bug Fixes
+
+* **colors:** right reference color for focus ([3a1468b](https://github.com/orblazer/discord-nordic/commit/3a1468bc01f1c69d1e92b18c1635a6f69af1138a)), closes [#18](https://github.com/orblazer/discord-nordic/issues/18)
+* **user:** improve readability hint profile popup ([ad3b221](https://github.com/orblazer/discord-nordic/commit/ad3b221897cfa614f4e456da814e48426b82103d))
+* **user:** right apply colors for profile popup ([7f53ada](https://github.com/orblazer/discord-nordic/commit/7f53ada1775b2f0e15f1b13fa8b8151f2f951787))
+* **user:** right colorize nitro badge ([93935f1](https://github.com/orblazer/discord-nordic/commit/93935f117b8de306b6087cafde0c801734a6b2e8))
+
+
+### Features
+
+* colorize snowsgiving ([30e7de1](https://github.com/orblazer/discord-nordic/commit/30e7de18eeac97d07711e7e473b85908e197ca6e))
+* **server:** colorize stop everyone spam popup ([128439e](https://github.com/orblazer/discord-nordic/commit/128439e4468b3c24451e2f41ea90c5240ae9f42b))
+* **user:** colorize streaming status ([8100829](https://github.com/orblazer/discord-nordic/commit/8100829ae5deb51203d737d797c160ac308cd436))
+
+
+
 # [4.3.0](https://github.com/orblazer/discord-nordic/compare/v4.2.0...v4.3.0) (2022-12-02)
 
 
