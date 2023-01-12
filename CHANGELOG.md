@@ -1,3 +1,18 @@
+# [4.5.0](https://github.com/orblazer/discord-nordic/compare/v4.4.0...v4.5.0) (2023-01-12)
+
+
+### Bug Fixes
+
+* **hljs:** right apply color ([a0af955](https://github.com/orblazer/discord-nordic/commit/a0af955c2a6cbe92973a9ef993424cf3da180bad))
+* **server:** no colorize user modal when hover ([4542e46](https://github.com/orblazer/discord-nordic/commit/4542e46ecd4692b28ba73a0c40b27fc10f999478))
+
+
+### Features
+
+* **server:** colorize browse channel ([2fdbf72](https://github.com/orblazer/discord-nordic/commit/2fdbf7257684af572efb4adcaba475ab2e4eecde))
+
+
+
 # [4.4.0](https://github.com/orblazer/discord-nordic/compare/v4.3.0...v4.4.0) (2022-12-08)
 
 
