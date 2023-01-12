@@ -91,12 +91,19 @@
 .hljs-attribute,
 .hljs-variable,
 .hljs-template-variable {
-  color: var(--header-secondary);
+  color: var(--header-secondary) !important;
 }
 
 .hljs-quote,
 .hljs-comment {
-  color: var(--primary-dark-430);
+  color: var(--primary-dark-430) !important;
+}
+
+.theme-light .hljs-emphasis {
+  color: var(--primary-dark-600);
+}
+.theme-dark .hljs-emphasis {
+  color: var(--primary-dark-400);
 }
 
 .hljs-link {
@@ -112,7 +119,7 @@
 .hljs-name,
 .hljs-tag,
 .hljs-doctag {
-  color: var(--nord-cyan);
+  color: var(--nord-cyan) !important;
 }
 
 .hljs-selector-id {
@@ -136,15 +143,15 @@
 .hljs-function,
 .hljs-function > .hljs-title,
 .hljs-section {
-  color: var(--nord-turquoise);
+  color: var(--nord-turquoise) !important;
 }
 
 .hljs-number {
-  color: var(--nord-pink);
+  color: var(--nord-pink) !important;
 }
 
 .hljs-regexp {
-  color: var(--nord-yellow);
+  color: var(--nord-yellow) !important;
 }
 
 .hljs-string,
@@ -158,19 +165,19 @@
 
 .hljs-meta-keyword,
 .hljs-template-tag {
-  color: var(--nord-blue);
+  color: var(--nord-blue) !important;
 }
 
 .hljs-meta {
-  color: var(--nord-orange);
+  color: var(--nord-orange) !important;
 }
 
 .hljs-deletion {
-  color: var(--nord-red);
+  color: var(--nord-red) !important;
 }
 
 .hljs-addition {
-  color: var(--nord-green);
+  color: var(--nord-green) !important;
 }
 
 .hljs-title ~ .hljs-title {
@@ -199,7 +206,7 @@
 .rb .hljs-subst,
 .ruby .hljs-subst,
 .swift .hljs-subst {
-  color: var(--nord-turquoise);
+  color: var(--nord-turquoise) !important;
 }
 
 .abnf .hljs-symbol,
@@ -207,7 +214,7 @@
 .css .hljs-attribute,
 .less .hljs-attribute,
 .scss .hljs-attribute {
-  color: var(--nord-yellow);
+  color: var(--nord-yellow) !important;
 }
 
 .apache .hljs-section,
@@ -220,7 +227,7 @@
 .bash .hljs-variable,
 .ini .hljs-variable,
 .makefile .hljs-variable {
-  color: var(--nord-cyan);
+  color: var(--nord-cyan) !important;
 }
 
 .aspectj .hljs-meta,
@@ -230,7 +237,7 @@
 .java .hljs-meta,
 .swift .hljs-meta,
 .yaml .hljs-meta {
-  color: var(--nord-orange);
+  color: var(--nord-orange) !important;
 }
 
 .bnf .hljs-attribute,
@@ -238,11 +245,11 @@
 .diff .hljs-meta,
 .ebnf .hljs-attribute,
 .ldif .hljs-attribute {
-  color: var(--nord-green-blue);
+  color: var(--nord-green-blue) !important;
 }
 
 .nginx .hljs-section {
-  color: var(--nord-blue);
+  color: var(--nord-blue) !important;
 }
 
 .vim .hljs-built_in {
@@ -250,7 +257,7 @@
 }
 
 .handlebars .hljs-template-tag {
-  color: var(--header-secondary);
+  color: var(--header-secondary) !important;
 }
 
 .md .hljs-string,
