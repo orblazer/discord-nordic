@@ -1,3 +1,7 @@
+# [4.6.0](https://github.com/orblazer/discord-nordic/compare/v4.5.0...v4.6.0) (2023-01-19)
+
+
+
 # [4.5.0](https://github.com/orblazer/discord-nordic/compare/v4.4.0...v4.5.0) (2023-01-12)
 
 
