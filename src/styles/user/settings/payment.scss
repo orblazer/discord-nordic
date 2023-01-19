@@ -30,6 +30,17 @@
 /*
  * > nitro
  */
+.settingsTextContainer-3grHhq .defaultColor-1GKx81[style*='color: white'],
+.settingsTextContainer-3grHhq .description-2_tPhd[style*='color: white'] {
+  color: var(--header-primary);
+}
+
+.lookInverted-2mDUMi.colorBrand-I6CyqQ,
+.upsellButton-36YQ7c /*! server settings > stickers */ {
+  color: var(--brand-new-800);
+}
+
+// Tier blocks
 .pricePerInterval-1HgDkM[style*='color: white'],
 .text-md-normal-304U3g[style*='color: white'] {
   color: currentColor !important;
@@ -42,22 +53,18 @@
   color: var(--primary-dark-660);
 }
 
-.lookInverted-2mDUMi.colorBrand-I6CyqQ,
-.upsellButton-36YQ7c /*! server settings > stickers */ {
-  color: var(--brand-new-800);
-}
-
-.tag-3Upstw {
+/*
+ * >> favorite perks section
+ */
+.tag-3Upstw /* (new tag) */ {
   color: var(--black-500);
 }
 
+/*
+ * >> pick plan section
+ */
 .mostPopularText-1WuXKM {
   color: var(--primary-dark-660);
-}
-
-.buttonBrand-2zsm1a {
-  color: var(--brand-new-800) !important;
-  border-color: var(--brand-new-800) !important;
 }
 
 .sparkleStar1-2v0V0s {
@@ -77,11 +84,12 @@
  * > nitro > subscribe
  ! Get nitro
  */
+.planOptionDiscount-2nex9n[style*='color: white'] {
+  color: var(--black-500) !important;
+}
+
 .warnIcon-3ly1wg {
   background-image: url(svg('user/settings/payment/warn.svg'));
-}
-.planOptionDiscount-2nex9n {
-  color: var(--black-500);
 }
 
 /*

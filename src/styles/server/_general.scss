@@ -13,6 +13,7 @@
 
 /*
  * Popup "Stop @everyone spam"
+ ? TODO: check utility
  */
 .ping-2J18Tq {
   content: url(svg('server/ping.svg'));
@@ -23,23 +24,10 @@
 }
 
 /*
- * > goal
+ * Modified settings
+ *   Server settings
+ *   Channel settings
  */
-.perkIcon-2DG0tJ path[fill='#{$premium-perk-pink}'] {
-  fill: var(--guild-boosting-pink);
-}
-.perkIcon-2DG0tJ path[fill='#{$premium-perk-yellow}'] {
-  fill: var(--premium-perk-yellow);
-}
-
-/*
- * > dropdown menu
- */
-.colorDefault-CDqZdO .check-3HZJs4, /** checkbox */
-/** hover state */
-.colorDefault-CDqZdO.focused-3qFvc8:not(.colorDanger-3n-KnP):not(.menuItemFocused-2cC4Ku),
-.colorDefault-CDqZdO.focused-3qFvc8 .checkbox-hADx5o,
-.colorDefault-CDqZdO.focused-3qFvc8 .radioSelection-1UHp0b,
-.colorDefault-CDqZdO.focused-3qFvc8 .subtext-2GlkbE {
-  color: var(--black-500);
+.container-20TyK0[style*='background-color: rgb(24, 25, 28)'] {
+  background-color: var(--background-floating) !important;
 }

@@ -1,35 +1,27 @@
+$nordColors: (
+  'dark1': #2e3440,
+  'dark2': #3b4252,
+  'dark3': #434c5e,
+  'dark4': #4c566a,
+
+  'light1': #d8dee9,
+  'light2': #e5e9f0,
+  'light3': #eceff4,
+
+  'green-blue': #8fbcbb,
+  'turquoise': #88c0d0,
+  'cyan': #81a1c1,
+  'blue': #5e81ac,
+
+  'red': #bf616a,
+  'orange': #d08770,
+  'yellow': #ebcb8b,
+  'green': #a3be8c,
+  'pink': #b48ead,
+);
+
 :root {
-  /** Nord colors */
-  --nord-dark1: hsl(220, calc(var(--saturation-factor, 1) * 16.4%), 21.6%); /* #2e3440 */
-  --nord-dark1-rgb: 46, 52, 64; /* #2e3440 */
-  --nord-dark2: hsl(222, calc(var(--saturation-factor, 1) * 16.3%), 27.6%); /* #3b4252 */
-  --nord-dark2-rgb: 59, 66, 82; /* #3b4252 */
-  --nord-dark3: hsl(220, calc(var(--saturation-factor, 1) * 16.8%), 31.6%); /* #434c5e */ /*? unused */
-  --nord-dark3-rgb: 67, 76, 94; /* #434c5e */ /*? unused */
-  --nord-dark4: hsl(220, calc(var(--saturation-factor, 1) * 16.5%), 35.7%); /* #4c566a */
-  --nord-dark4-rgb: 76, 86, 106; /* #4c566a */
-  --nord-light1: hsl(219, calc(var(--saturation-factor, 1) * 27.9%), 88%); /* #d8dee9 */
-  --nord-light1-rgb: 216, 222, 233; /* #d8dee9 */
-  --nord-light2: hsl(218, calc(var(--saturation-factor, 1) * 26.8%), 92%); /* #e5e9f0 */
-  --nord-light2-rgb: 229, 233, 240; /* #e5e9f0 */
-  --nord-light3: hsl(218, calc(var(--saturation-factor, 1) * 26.7%), 94.1%); /* #eceff4 */ /*? unused */
-  --nord-light3-rgb: 236, 239, 244; /* #eceff4 */ /*? unused */
-  --nord-green-blue: hsl(179, calc(var(--saturation-factor, 1) * 25.1%), 64.9%); /* #8fbcbb */
-  --nord-green-blue-rgb: 143, 188, 187; /* #8fbcbb */
-  --nord-turquoise: hsl(193, calc(var(--saturation-factor, 1) * 43.4%), 67.5%); /* #88c0d0 */
-  --nord-turquoise-rgb: 136, 192, 208; /* #88c0d0 */
-  --nord-cyan: hsl(210, calc(var(--saturation-factor, 1) * 34%), 63.1%); /* #81a1c1 */
-  --nord-cyan-rgb: 129, 161, 193; /* #81a1c1 */
-  --nord-blue: hsl(213, calc(var(--saturation-factor, 1) * 32%), 52.2%); /* #5e81ac */
-  --nord-blue-rgb: 94, 129, 172; /* #5e81ac */
-  --nord-red: hsl(354, calc(var(--saturation-factor, 1) * 42.3%), 56.5%); /* #bf616a */
-  --nord-red-rgb: 191, 97, 106; /* #bf616a */
-  --nord-orange: hsl(14, calc(var(--saturation-factor, 1) * 50.5%), 62.7%); /* #d08770 */
-  --nord-orange-rgb: 208, 135, 112; /* #d08770 */
-  --nord-yellow: hsl(40, calc(var(--saturation-factor, 1) * 70.6%), 73.3%); /* #ebcb8b */
-  --nord-yellow-rgb: 235, 203, 139; /* #ebcb8b */
-  --nord-green: hsl(92, calc(var(--saturation-factor, 1) * 27.8%), 64.7%); /* #a3be8c */
-  --nord-green-rgb: 163, 190, 140; /* #a3be8c */
-  --nord-pink: hsl(311, calc(var(--saturation-factor, 1) * 20.2%), 63.1%); /* #b48ead */
-  --nord-pink-rgb: 180, 142, 173; /* #b48ead */
+  @each $name, $color in $nordColors {
+    @include colorVars('nord-#{$name}', hexToHSL($color));
+  }
 }

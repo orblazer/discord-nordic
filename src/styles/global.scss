@@ -1,5 +1,5 @@
 ::selection {
-  background-color: rgba(var(--link-500-rgb), 0.25);
+  background-color: hsl(var(--link-500-hsl) / 0.25);
 }
 
 /*
@@ -32,19 +32,40 @@
 .premiumLabel-3HPvdB.selected-2Uns2B, /** user settings > nitro (btn) */
 .fakeButton-2eEUpc, /** server settings > rules screening (preview) */
 .botTagRegular-kpctgU:not(.botTagOP-3pUTXu), /** Bot tag */
-.allow-1h61-Z.selected-3jieYB, /** server > channel/category settings > permissions */
 .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui /** Discover */ {
   color: var(--black-500);
 }
 
 /*
  * Button with green background
- *   user settings > profiles
- *   sidebar (connected to voice channel) > share your screen (active)
  */
-.lookFilled-yCfaCM.colorGreen-3y-Z79,
-.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx {
+.lookFilled-yCfaCM.colorGreen-3y-Z79, /** user settings > profiles */
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx, /** sidebar (connected to voice channel) > share your screen (active) */
+.allow-1h61-Z.selected-3jieYB /** server > channel/category settings > permissions (allow) */ {
   color: var(--black-500);
+}
+
+/*
+ * Dropdown menus
+ */
+.colorDefault-CDqZdO .check-3HZJs4, /** checkbox + Profile Popup > status > switch account */
+/** hover state */
+.colorDefault-CDqZdO.focused-3qFvc8:not(.colorDanger-3n-KnP):not(.menuItemFocused-2cC4Ku), /** + Profile Popup > status > switch account */
+.colorDefault-CDqZdO.focused-3qFvc8 .checkbox-hADx5o,
+.colorDefault-CDqZdO.focused-3qFvc8 .radioSelection-1UHp0b,
+.colorDefault-CDqZdO.focused-3qFvc8 .subtext-2GlkbE {
+  color: var(--black-500);
+}
+
+/*
+ * Circle checked icon
+ */
+.checkbox-f1HnKB[style*='background-color: var(--brand-experiment-500)'] path[fill='var(--white-500)'], /** user settings [> nitro > subscribe]/[> accessibility] + server > notification settings + ! Get nitro */
+.activeIcon-1ykRnF circle[fill='var(--white-500)'], /** profile popup > status > switch account */
+.descriptionIcon-3nDZrK circle[cx='12'][fill='var(--white-500)'], /** server settings > server template */
+.checklistIcon-nKaK0A circle[fill='var(--white-500)'], /** server settings > enable community > get started (step 3)  */
+.activeCircle-3rE6-u /** server settings > welcome screen */ {
+  fill: var(--black-500);
 }
 
 /*
@@ -63,7 +84,7 @@
 }
 
 /*
- * Streamer mode (bar)
+ * Streamer mode enabled button
  */
 .streamerModeEnabledBtn-2nlJTD:hover {
   background-color: #a3759b;
@@ -72,9 +93,9 @@
 /*
  * Search > filter
  */
-.theme-dark .searchAnswer-23w-CH,
-.theme-dark .searchFilter-2UfsDk {
-  background-color: var(--background-primary);
+.searchAnswer-23w-CH,
+.searchFilter-2UfsDk {
+  background-color: var(--background-primary) !important;
 }
 
 /*
@@ -106,10 +127,6 @@
 .image-2ssF8k {
   background-image: url(svg('global/upload-image.svg'));
 }
-
-/*
- * Text/DM channel > upload file > edit
- */
-.checkbox-f1HnKB path[fill='#{$brand-500}'] {
-  fill: var(--brand-new-500);
+.webcode-18ObW7 {
+  background-image: url(svg('global/upload-webcode.svg'));
 }

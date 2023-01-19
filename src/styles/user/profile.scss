@@ -19,7 +19,7 @@
 .profileBadge-2YySEb[src='/assets/4441e07fe0f46b3cb41b79366236fca6.svg'] {
   content: url(svg('user/profile/badge-early-verified-bot.svg'));
 }
-.profileBadge-2YySEb[src='/assets/c981e58b5ea4b7fedd3a643cf0c60564.svg'] {
+.profileBadge-2YySEb[src='/assets/b945002f0e0fd7f11990d800e98b5504.svg'] {
   content: url(svg('user/profile/badge-certified-moderator.svg'));
 }
 .profileBadge-2YySEb[src='/assets/26c7a60fb1654315e0be26107bd47470.svg'] {
@@ -31,16 +31,6 @@
  */
 .profileBadge22-3OAigE[src='/assets/498591d63b352256a1bf18061eff9d57.svg'] {
   content: url(svg('user/profile/badge-commands.svg'));
-}
-
-/*
- * Popup > status > switch account
- */
-.activeIcon-1ykRnF path[fill='#{$brand-500}'] {
-  fill: var(--brand-new-500);
-}
-.activeIcon-1ykRnF circle[fill='#{$white-500}'] {
-  fill: var(--black-500);
 }
 
 /*
@@ -73,6 +63,7 @@
 
 /*
  * Profile popup > profile too bright
+ ? TODO: check this utility
  */
 .upsellTooltipWrapper-1wqikQ {
   .header-HL0rH-,

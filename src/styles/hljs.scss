@@ -118,7 +118,8 @@
 .hljs-builtin-name,
 .hljs-name,
 .hljs-tag,
-.hljs-doctag {
+.hljs-doctag,
+.hljs-operator {
   color: var(--nord-cyan) !important;
 }
 
@@ -173,11 +174,13 @@
 }
 
 .hljs-deletion {
-  color: var(--nord-red) !important;
+  color: var(--white-100) !important;
+  background-color: hsl(var(--status-red-500-hsl) / 0.45) !important;
 }
 
 .hljs-addition {
-  color: var(--nord-green) !important;
+  color: var(--white-100) !important;
+  background-color: hsl(var(--status-green-500-hsl) / 0.45) !important;
 }
 
 .hljs-title ~ .hljs-title {

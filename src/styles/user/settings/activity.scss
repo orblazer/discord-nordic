@@ -2,6 +2,14 @@
  * > registered games
  ! + server settings > emoji
  */
+.nowPlaying-3UpuKc {
+  .gameName-zbZetm,
+  .lastPlayed-1jum9A,
+  .overlayStatusText-In0YrK {
+    color: var(--black-500) !important;
+  }
+}
+
 .default-1Tkeeg {
   background-image: url(svg('user/settings/activity/cross.svg'));
 }

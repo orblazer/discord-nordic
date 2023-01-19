@@ -1,8 +1,20 @@
-/*
- * new badge
- */
+.newChannel-3q3LPr, /*! Server > new channel */
+.newPostCount-3SXe5K,
+.botTagOP-3pUTXu,
 .newBadge-1LcB6t[style*='background-color: var(--brand-260)'] {
-  color: var(--brand-new-800);
+  color: var(--brand-new-900);
+}
+
+/*
+ * Get started
+ */
+.base-3IDx3L[style*='background-color: var(--status-positive-background)'],
+.discordIcon-2-SnKe {
+  color: var(--black-500);
+}
+
+.inline-1Al0JA img[src='/assets/513f881c80a414c9f58190184516189b.svg'] {
+  content: url(svg('server/channel/forum/guide.svg'));
 }
 
 /*
@@ -18,11 +30,4 @@
  */
 .pinIcon-3I5-gm path[fill='white'] {
   fill: var(--black-500);
-}
-
-/*
- * > Post
- */
-.botTagOP-3pUTXu {
-  color: var(--brand-new-900);
 }
