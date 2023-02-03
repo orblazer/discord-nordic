@@ -31,6 +31,13 @@ This theme change all discord style for follow [Nord palette](https://www.nordth
 3. Click on `Install Style` (keep checked `check for updates`)
 4. Donate if you could <3
 
+### Vencord
+
+1. Install `Vencord Web` extension (is is not already)
+2. Copy this link `https://raw.githubusercontent.com/orblazer/discord-nordic/master/nordic.vencord.css`
+3. Past it on theme list in **Vencord** theme settings
+4. Donate if you could <3
+
 ## Customize (BetterDiscord & Powercord)
 
-If you want customize the theme can simply edit CSS variables in [nordic.theme.css](https://github.com/orblazer/discord-nordic/blob/master/nordic.theme.css).
+If you want customize the theme can simply edit CSS variables in theme file.
