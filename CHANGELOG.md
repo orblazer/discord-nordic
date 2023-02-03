@@ -1,3 +1,20 @@
+# [4.7.0](https://github.com/orblazer/discord-nordic/compare/v4.6.0...v4.7.0) (2023-02-03)
+
+
+### Bug Fixes
+
+* force override theme custom colors ([5154736](https://github.com/orblazer/discord-nordic/commit/51547362fa1847c905d49c384becae5408c44546))
+* right colors for fade over in light search ([644e381](https://github.com/orblazer/discord-nordic/commit/644e381f9b7350b53a0e06f5afa3fe88cc56060c))
+* **colors:** right filter background color ([6238070](https://github.com/orblazer/discord-nordic/commit/623807046fb2174c401c507cb02a1ab5121f97d0)), closes [#20](https://github.com/orblazer/discord-nordic/issues/20)
+
+
+### Features
+
+* add vencord support ([331c613](https://github.com/orblazer/discord-nordic/commit/331c6139b0ae6477511d5d3fbbe6abe26c647a8a)), closes [#19](https://github.com/orblazer/discord-nordic/issues/19)
+* **web:** add specific style ([2fea46c](https://github.com/orblazer/discord-nordic/commit/2fea46ca44b92e72746af08bdc8e85a53fbf1601)), closes [#19](https://github.com/orblazer/discord-nordic/issues/19)
+
+
+
 # [4.6.0](https://github.com/orblazer/discord-nordic/compare/v4.5.0...v4.6.0) (2023-01-19)
 
 
