@@ -4,7 +4,7 @@ import { access, readFile } from 'fs/promises'
 import { dirname, join, resolve } from 'path'
 import sass from 'sass'
 import { fileURLToPath } from 'url'
-import { betterDiscord, powercord, stylus } from './output.js'
+import { betterDiscord, powercord, stylus, vencord } from './output.js'
 
 const pkg = JSON.parse(await readFile(resolve('package.json')))
 
@@ -20,6 +20,7 @@ const results = await Promise.allSettled([
   compile('styles/_imports.scss'),
   compile('styles/web.scss'),
   compile('styles/plugins/better-discord/_imports.scss'),
+  compile('styles/plugins/vencord/_imports.scss'),
 ])
 
 // Check if error
@@ -37,6 +38,7 @@ if (success) {
     betterDiscord(pkg, [results[0].value, results[2].value].join('\n')),
     stylus(pkg, [results[0].value, results[1].value].join('\n')),
     powercord(pkg, results[0].value),
+    vencord(pkg, [results[0].value, results[1].value, results[3].value].join('\n')),
   ])
 }
 

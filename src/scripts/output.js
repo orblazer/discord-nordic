@@ -109,3 +109,33 @@ ${css}
     )
   )
 }
+
+export function vencord(pkg, css) {
+  return writeFile(
+    resolve('nordic.vencord.css'),
+    `/**
+ * @name        Nordic
+ * @author      orblazer#9152
+ * @authorId    179681974879911946
+ * @version     ${pkg.version}
+ * @description ${pkg.description}
+ * @source      ${pkg.repository}
+ * @donate      ${pkg.funding}
+ */
+/**
+ * SOURCE CODE
+ * /!\\ DON'T TOUCH ! /!\\
+ */
+${css}
+
+/**
+ * CUSTOMIZATION
+ */
+:root {
+}
+.theme-dark {
+}
+.theme-light {
+}`
+  )
+}

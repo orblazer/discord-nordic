@@ -1,0 +1,13 @@
+/* Checkbox */
+.checked-16gMAN[style*='background-color: #{$brand-500}'] {
+  border-color: var(--brand-500) !important;
+  background-color: var(--brand-500) !important;
+}
+.checked-16gMAN path[fill='#{"" + $white-500-hex}'] {
+  fill: var(--black-500);
+}
+
+/* Restart */
+.lookFilled-yCfaCM.colorYellow-Pgtmch {
+  color: var(--black-500);
+}
