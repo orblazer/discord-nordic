@@ -111,3 +111,11 @@
   --status-positive-text: var(--black-500);
   --search-popout-date-picker-hint-value-text: var(--black-500);
 }
+
+.theme-light {
+  --search-popout-option-fade-hover: linear-gradient(
+    90deg,
+    hsl(var(--primary-light-200-hsl) / 0),
+    var(--primary-light-200) 50%
+  );
+}
