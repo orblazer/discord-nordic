@@ -21,6 +21,7 @@ ${css}
 
 /**
  * CUSTOMIZATION
+ * Add '!important' non hsl discord colors, like 'primary-dark-200'
  */
 :root {
 }
@@ -55,6 +56,7 @@ export function stylus(pkg, css) {
 
   /**
    * CUSTOMIZATION
+   * Add '!important' non hsl discord colors, like 'primary-dark-200'
    */
   :root {
   }
@@ -85,6 +87,7 @@ ${css}
 
 /**
  * CUSTOMIZATION
+ * Add '!important' non hsl discord colors, like 'primary-dark-200'
  */
 :root {
 }
@@ -130,6 +133,7 @@ ${css}
 
 /**
  * CUSTOMIZATION
+ * Add '!important' non hsl discord colors, like 'primary-dark-200'
  */
 :root {
 }

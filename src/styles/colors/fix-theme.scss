@@ -42,18 +42,11 @@ $changedVariables:
   'premium-perk-pink', 'premium-perk-green', 'premium-perk-yellow', 'premium-perk-dark-blue', 'premium-perk-light-blue',
   'premium-perk-blue', 'premium-perk-orange', 'premium-perk-gold',
   // *Other
-  'link-500',
-  'focus-primary-500',
-  //
-  'partner',
-  'twitch',
-  //
-  'application-subscription-start',
-  'application-subscription-end';
+  'link-500';
 
 .theme-custom {
   @each $variable in $changedVariables {
-    --#{$variable}: hsl(var(--#{$variable}-hsl));
+    --#{$variable}: hsl(var(--#{$variable}-hsl)) !important;
   }
   --input-placeholder-text-dark: var(--primary-dark-360);
 }
