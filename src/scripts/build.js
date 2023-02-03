@@ -18,6 +18,7 @@ const baseAssetsUrl = `https://raw.githubusercontent.com/orblazer/discord-nordic
 // Compile sass files
 const results = await Promise.allSettled([
   compile('styles/_imports.scss'),
+  compile('styles/web.scss'),
   compile('styles/plugins/better-discord/_imports.scss'),
 ])
 
@@ -33,8 +34,8 @@ for (const result of results) {
 
 if (success) {
   await Promise.allSettled([
-    betterDiscord(pkg, [results[0].value, results[1].value].join('\n')),
-    stylus(pkg, results[0].value),
+    betterDiscord(pkg, [results[0].value, results[2].value].join('\n')),
+    stylus(pkg, [results[0].value, results[1].value].join('\n')),
     powercord(pkg, results[0].value),
   ])
 }
