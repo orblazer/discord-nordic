@@ -1,3 +1,15 @@
+# [4.8.0](https://github.com/orblazer/discord-nordic/compare/v4.7.0...v4.8.0) (2023-02-14)
+
+
+### Bug Fixes
+
+* **colors:** right color for hover following button ([11639a2](https://github.com/orblazer/discord-nordic/commit/11639a2285f12b76e49fac8992ec8b59565504d0))
+* **colors:** right colors for admin crown in light ([06ffc90](https://github.com/orblazer/discord-nordic/commit/06ffc90d8ff4688d942582795ad21f14bed8e1d1))
+* **server:** make readable mention hover ([468dbb7](https://github.com/orblazer/discord-nordic/commit/468dbb738aab9a2ba411c94c3c98027833887814))
+* **server:** right color on hover button in preview ([b61e65d](https://github.com/orblazer/discord-nordic/commit/b61e65daab8ea75e534b8fb2d4f59ebcee30f513))
+
+
+
 # [4.7.0](https://github.com/orblazer/discord-nordic/compare/v4.6.0...v4.7.0) (2023-02-03)
 
 
