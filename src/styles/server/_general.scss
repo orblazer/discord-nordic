@@ -34,8 +34,10 @@
 
 /*
  * Preview server (from discover) - hover buttons
+ * Server settings > Onboarding > Check it out (step 3 > preview) - hover buttons
  */
-.button-3_1yil:hover {
+.button-3_1yil:hover,
+.button-29sJG8:hover {
   background-color: var(--brand-experiment-500);
   color: var(--black-500);
 }

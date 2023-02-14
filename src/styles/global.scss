@@ -9,32 +9,33 @@
 /*
  * Settings switch
  */
-.slider-32CRPX rect[fill='white'] {
+.slider-HJFN2i rect[fill='white'] {
   fill: var(--white-500);
 }
 
-.container-2nx-BQ[style*='background-color: rgb(#{$status-green-600-rgb})'] {
+.container-1QtPKm[style*='background-color: rgb(#{$status-green-600-rgb})'] {
   background-color: var(--status-green-560) !important;
 }
-.slider-32CRPX path[fill^='rgba(#{$status-green-600-rgb}'] {
+.slider-HJFN2i path[fill^='rgba(#{$status-green-600-rgb}'] {
   fill: var(--status-green-760);
 }
 
-.container-2nx-BQ[style*='background-color: rgb(#{$primary-dark-400-rgb})'] {
+.container-1QtPKm[style*='background-color: rgb(#{$primary-dark-400-rgb})'] {
   background-color: var(--primary-dark-500) !important;
 }
-.slider-32CRPX path[fill^='rgba(#{$primary-dark-400}'] {
+.slider-HJFN2i path[fill^='rgba(#{$primary-dark-400}'] {
   fill: var(--primary-dark-500);
 }
 
 /*
  * Button with brand background
  */
-.lookFilled-yCfaCM.colorBrand-I6CyqQ:not(.button-1EGGcP):not(.button-35nmN9), /** User settings */
-.lookOutlined-3yKVGo.colorBrand-I6CyqQ:hover, /** User settings > privacy & safety */
-.lookFilled-yCfaCM.colorBrandNew-2-gGsS, /** user settings > Accessibility */
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:not(.button-1EGGcP):not(.button-35nmN9), /** User settings */
+.lookOutlined-3RTC7c.colorBrand-2M3O3N:hover, /** User settings > privacy & safety */
+.lookFilled-1H2Jvj.colorBrandNew-abZT3v, /** user settings > Accessibility */
 .premiumLabel-3HPvdB.selected-2Uns2B, /** user settings > nitro (btn) */
 .fakeButton-2eEUpc, /** server settings > rules screening (preview) */
+.button-2WPG1w[style*='color: rgb(#{$white-500-rgb})'], /* server settings > onboarding (check it out) */
 .botTagRegular-kpctgU:not(.botTagOP-3pUTXu), /** Bot tag */
 .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui /** Discover */ {
   color: var(--black-500);
@@ -43,7 +44,7 @@
 /*
  * Button with green background
  */
-.lookFilled-yCfaCM.colorGreen-3y-Z79, /** user settings > profiles */
+.lookFilled-1H2Jvj.colorGreen-jIPCAS, /** user settings > profiles */
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx, /** sidebar (connected to voice channel) > share your screen (active) */
 .allow-1h61-Z.selected-3jieYB /** server > channel/category settings > permissions (allow) */ {
   color: var(--black-500);
@@ -64,11 +65,23 @@
 /*
  * Circle checked icon
  */
-.checkbox-f1HnKB[style*='background-color: var(--brand-experiment-500)'] path[fill='var(--white-500)'], /** user settings [> nitro > subscribe]/[> accessibility] + server > notification settings + ! Get nitro */
+.selectedIcon-122rMx circle[fill='var(--white-500)'], /** user settings > profiles (server tab) > choose server */
+.checkbox-1LuCGM[style*='background-color: var(--brand-experiment-500)'] path[fill='var(--white-500)'], /** user settings [> nitro > subscribe]/[> accessibility] + server > notification settings + ! Get nitro */
 .activeIcon-1ykRnF circle[fill='var(--white-500)'], /** profile popup > status > switch account */
 .descriptionIcon-3nDZrK circle[cx='12'][fill='var(--white-500)'], /** server settings > server template */
 .checklistIcon-nKaK0A circle[fill='var(--white-500)'], /** server settings > enable community > get started (step 3)  */
+.icon-2dMyvd circle[fill="var(--white-100)"] /* server settings > onboarding (check it out) */ {
+  fill: var(--black-500);
+}
+
 .activeCircle-3rE6-u /** server settings > welcome screen */ {
+  color: var(--black-500);
+}
+
+/*
+ * Square checked icon
+ */
+.checked-22NTbO[style*='background-color: var(--brand-experiment-500)'] path[fill='var(--white-500)'] {
   fill: var(--black-500);
 }
 
@@ -121,6 +134,10 @@
   .instructions-272j2A {
     color: var(--black-500);
   }
+}
+
+.icon-HW4tZ-.two-1t2_74 {
+  filter: drop-shadow(0 0 48px hsla(var(--brand-new-500-hsl) / 0.5));
 }
 
 .document-1u6V3N {

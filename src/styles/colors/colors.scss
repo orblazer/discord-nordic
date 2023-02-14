@@ -56,7 +56,8 @@
   --brand-new-400-hsl: #{hexToHSL(#afcfce)};
   --brand-new-430-hsl: var(--brand-new-400-hsl);
   --brand-new-500-hsl: var(--nord-green-blue-hsl); /*! nord color */
-  --brand-new-560-hsl: #{hexToHSL(#7da8a8)};
+  --brand-new-530-hsl: #{hexToHSL(#7da8a8)};
+  --brand-new-560-hsl: var(--brand-new-530-hsl);
   --brand-new-600-hsl: #{hexToHSL(#709494)};
   --brand-new-800-hsl: #{hexToHSL(#4d6666)};
   --brand-260-hsl: var(--brand-new-200-hsl);
