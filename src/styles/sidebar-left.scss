@@ -1,3 +1,31 @@
+.scroller-3X7KbA, /* servers sidebar */
+.sidebarRegionScroller-FXiQOh, /* Settings > sidebar */
+.privateChannels-oVe7HL, .scroller-WSmht3, /* DM > channels */
+.container-1NXEtd, /* Server > channels */
+.sidebar-1tnWFu, /* Discover > tabs */
+.member-48YF_l, .members-3WRCEx, .container-2o3qEW /* ! DM/Server > members sidebar */ {
+  background-color: var(--background-primary) !important;
+}
+
+.scroller-3X7KbA, /* Servers sidebar */
+.sidebar-1tnWFu, /* Server > channels */
+.sidebarRegionScroller-FXiQOh /* Settings > sidebar */ {
+  border-right: 1px solid var(--c-separator-border);
+}
+
+.wrapper-3kah-n:not(.selected-1Drb7Z):not(:hover) .childWrapper-1j_1ub, /* server without avatar */
+.expandedFolderBackground-1kSAf6, /* servers folder */
+.folder-241Joy, /* server folder icon */
+.circleIconButton-1VxDrg:not(.selected-2r1Hvo), /* add and discover button */
+.panels-3wFtMD, .container-YkUktl, /* user area */
+.container-1zzFcN, /* user area (in voice) */ {
+  background-color: var(--background-secondary) !important;
+}
+
+.folder-241Joy.hover-3m7-WT /* server folder icon */ {
+  background-color: var(--c-background-secondary-alt2);
+}
+
 /*
  * DM (snowsgiving)
  */
@@ -18,10 +46,26 @@
 }
 
 /*
- * voice participating
+ * voice participating badge
  */
 .iconBadge-32fMme.participating-2Z81oO {
   color: var(--black-500);
+}
+
+/*
+ * User area (in voice)
+ */
+.button-1EGGcP.buttonColor-3bP3fX:hover,
+.button-1EGGcP .buttonColor-3bP3fX:hover {
+  background-color: var(--background-secondary-alt);
+}
+.button-1EGGcP.buttonColor-3bP3fX.fauxDisabled-8w0hCZ,
+.button-1EGGcP .buttonColor-3bP3fX.fauxDisabled-8w0hCZ,
+.button-1EGGcP.buttonColor-3bP3fX:disabled,
+.button-1EGGcP .buttonColor-3bP3fX:disabled,
+.button-1EGGcP.buttonColor-3bP3fX,
+.button-1EGGcP .buttonColor-3bP3fX {
+  background-color: var(--c-background-secondary-alt2);
 }
 
 /*

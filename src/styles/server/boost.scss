@@ -1,9 +1,37 @@
+.theme-light .tierMarkerBackground-G8FoN4 {
+}
+
+.theme-dark .perksModal-CLcR1c,
+.theme-dark .tierMarkerBackground-G8FoN4 {
+  background-color: var(--background-primary);
+}
+
+.tierBody-3ju-rc,
+.perk-19D_HN {
+  background-color: var(--background-secondary) !important;
+}
+
+.theme-dark .tierHeaderLocked-3ItHYn {
+  background-color: var(--c-background-secondary-alt2);
+}
+.theme-dark .tierHeaderLocked-3ItHYn,
+.theme-dark .tierLock-1uBqZ0 {
+  color: var(--text-muted) !important;
+}
+
 .tierMarkerAccomplished-1SkbEJ[style*='background: rgb(#{$guild-boosting-pink-rgb})'] {
   background-color: var(--guild-boosting-pink) !important;
 
   .currentTierIcon-2rq-bv {
     color: var(--black-500);
   }
+}
+
+.tierMarkerInProgress-2Tdxjz[style*='background: rgb(#{$primary-dark-700-rgb})'] {
+  background: var(--primary-dark-700) !important;
+}
+.tierMarkerInProgress-2Tdxjz[style*='background: rgb(#{$primary-light-160-rgb})'] {
+  background: var(--primary-light-160) !important;
 }
 
 .tierUnlocked-1yG5Ic {

@@ -1,3 +1,12 @@
+.colorable-3rVGna.primaryDark-2UJt1G /* (music button) */ {
+  background-color: var(--background-secondary);
+}
+.container-1IyjjY:hover, /* (cards) */
+.colorable-3rVGna.primaryDark-2UJt1G.active-3D763s, /** (music button) */
+.colorable-3rVGna.primaryDark-2UJt1G:hover {
+  background-color: var(--background-modifier-hover);
+}
+
 /*
  * (Waiting for the stage start)
  */

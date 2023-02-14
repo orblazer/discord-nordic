@@ -2,6 +2,10 @@
   background-color: hsl(var(--link-500-hsl) / 0.25);
 }
 
+.container-2o3qEW /* DM/Server > member sidebar */ {
+  border-left: 1px solid var(--c-separator-border);
+}
+
 /*
  * Settings switch
  */
@@ -93,9 +97,10 @@
 /*
  * Search > filter
  */
-.theme-dark .searchAnswer-23w-CH,
-.theme-dark .searchFilter-2UfsDk {
-  background-color: var(--background-primary);
+.searchAnswer-23w-CH,
+.searchFilter-2UfsDk {
+  background-color: var(--background-primary) !important;
+  color: var(--text-normal);
 }
 
 /*

@@ -1,4 +1,16 @@
 /*
+ * > input field
+ */
+.scrollableContainer-15eg7h {
+  box-shadow: 0 -1px 1px var(--background-primary);
+}
+
+.wrapper-22rqw6 /* emoji picker */ {
+  background-color: var(--background-secondary);
+  border-right: 1px solid hsl(var(--primary-dark-900-hsl) / 0.2);
+}
+
+/*
  * > interaction
  */
 /* .interactive:hover {
@@ -47,6 +59,16 @@
   background-color: var(--brand-new-500);
 }
 
-.mentioned-Tre-dv .repliedMessage-3Z6XBG:before {
-  border-color: var(--primary-dark-600);
+/*
+ * > Reaction
+ */
+.reaction-3vwAF2 {
+  border-color: var(--c-reaction-border);
+}
+
+/*
+ * > Embed
+ */
+.theme-dark .embedFull-1HGV2S {
+  border-left-color: var(--primary-dark-500);
 }

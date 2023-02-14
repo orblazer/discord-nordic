@@ -40,8 +40,19 @@
 }
 
 /*
+ * > Privacy & Safety
+ */
+.itemFilled-2Fo7lr[aria-checked='true'] {
+  background-color: var(--c-background-secondary-alt2);
+}
+
+/*
  * > authorizes apps
  */
 .permissionCheckmark-ji-OoY {
   background-image: url(svg('user/settings/general/checkmark.svg'));
+}
+
+.cardPrimaryOutline-1ofwVz {
+  border-color: var(--c-separator-border);
 }

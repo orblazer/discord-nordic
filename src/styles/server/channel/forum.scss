@@ -1,3 +1,7 @@
+.container-3wLKDe {
+  background-color: var(--background-primary);
+}
+
 .newChannel-3q3LPr, /*! Server > new channel */
 .newPostCount-3SXe5K,
 .botTagOP-3pUTXu,
@@ -30,4 +34,18 @@
  */
 .pinIcon-3I5-gm path[fill='white'] {
   fill: var(--black-500);
+}
+
+.mainCard-3KBsBI,
+.contentPreview-3fWiuC /* (gallery view) */ {
+  background-color: var(--background-secondary) /* !important */;
+}
+
+.container-2qVG6q:hover /* (list view) */ {
+  background-color: var(--background-modifier-hover);
+}
+
+.reaction-102jx9 {
+  background-color: var(--background-secondary-alt);
+  border-color: var(--c-reaction-border);
 }

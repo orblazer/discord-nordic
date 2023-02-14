@@ -2,8 +2,9 @@
 :root {
   /** Discord colors */
   --primary-dark-200-hsl: var(--nord-light1-hsl); /*! nord color */
+  --primary-dark-260-hsl: #{hexToHSL(#d2d6e0)};
   --primary-dark-300-hsl: #{hexToHSL(#b6bcc9)};
-  --primary-dark-330-hsl: var(--primary-dark-300-hsl);
+  --primary-dark-330-hsl: #{hexToHSL(#97a1b4)};
   --primary-dark-400-hsl: #{hexToHSL(#7a879f)};
   --primary-dark-430-hsl: #{hexToHSL(#606d85)};
   --primary-dark-500-hsl: var(--nord-dark4-hsl); /*! nord color */
@@ -102,9 +103,9 @@
   --application-subscription-start: var(--premium-perk-dark-blue) !important;
   --application-subscription-end: var(--premium-perk-blue) !important;
 
-  /** Override some variables */
-  --background-mentioned: hsl(var(--brand-new-500-hsl) / 0.15);
-  --background-mentioned-hover: hsl(var(--brand-new-500-hsl) / 0.12);
+  /* overwrite some variables */
+  --elevation-low: 0 1px 0 var(--c-separator-border);
+  --search-popout-date-picker-hint-text: var(--text-muted);
 }
 
 .theme-light,
@@ -113,10 +114,60 @@
   --search-popout-date-picker-hint-value-text: var(--black-500);
 }
 
+/** Uniformize colors */
+.theme-dark {
+  /* custom variables */
+  --c-separator-border: var(--primary-dark-560);
+  --c-background-secondary-alt2: var(--primary-dark-500);
+  --c-reaction-border: var(--primary-dark-660);
+
+  /* override variables */
+  --background-primary: var(--primary-dark-630);
+  --background-secondary: var(--primary-dark-600);
+  --background-secondary-alt: var(--primary-dark-560);
+
+  --interactive-muted: var(--primary-dark-430);
+  --channels-default: var(--primary-dark-330);
+  --channel-icon: var(--primary-dark-400);
+  --background-message-hover: hsl(var(--primary-dark-560-hsl) / 0.25);
+  --channeltextarea-background: var(--background-secondary);
+  --background-mentioned: hsl(var(--brand-new-500-hsl) / 0.18);
+
+  --background-mentioned-hover: hsl(var(--brand-new-500-hsl) / 0.15);
+  --background-modifier-hover: hsl(var(--primary-dark-500-hsl) / 0.6);
+  --mention-background: hsl(var(--brand-500-hsl) / 0.25);
+
+  --scrollbar-thin-thumb: var(--primary-dark-500);
+  --scrollbar-auto-thumb: var(--primary-dark-500);
+  --scrollbar-auto-track: var(--background-message-hover);
+}
+
 .theme-light {
   --search-popout-option-fade-hover: linear-gradient(
     90deg,
     hsl(var(--primary-light-200-hsl) / 0),
     var(--primary-light-200) 50%
   );
+
+  /* custom variables */
+  --c-separator-border: var(--primary-dark-260);
+  --c-background-secondary-alt2: var(--primary-dark-260);
+  --c-reaction-border: var(--primary-dark-260);
+
+  /* override variables */
+  --background-tertiary: var(--primary-dark-260);
+
+  --interactive-muted: var(--primary-dark-400);
+  --background-message-hover: hsl(var(--primary-dark-300-hsl) / 0.25);
+
+  --background-mentioned: hsl(var(--brand-new-500-hsl) / 0.5);
+  --background-mentioned-hover: hsl(var(--brand-new-500-hsl) / 0.4);
+  --mention-foreground: var(--black-500);
+  --mention-background: hsl(var(--brand-new-600-hsl) / 0.4);
+
+  --scrollbar-thin-thumb: var(--primary-dark-260);
+  --scrollbar-auto-thumb: var(--primary-dark-260);
+  --scrollbar-auto-track: var(--background-message-hover);
+
+  --input-background: var(--primary-light-160);
 }
