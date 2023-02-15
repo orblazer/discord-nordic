@@ -2,7 +2,8 @@
   background-color: hsl(var(--link-500-hsl) / 0.25);
 }
 
-.container-2o3qEW /* DM/Server > member sidebar */ {
+.container-2o3qEW, /* Server > member sidebar */
+.members-3WRCEx /* DM > member sidebar */ {
   border-left: 1px solid var(--c-separator-border);
 }
 
