@@ -6,9 +6,9 @@ This theme change all discord style for follow [Nord palette](https://www.nordth
 
 ## Preview
 
-|               Dark                |                     Light                     |
-| :-------------------------------: | :-------------------------------------------: |
-| ![preview](./.github/preview.png) | ![preview=light](./.github/preview-light.png) |
+|                                               Dark                                               |                                                    Light                                                     |
+| :----------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: |
+| ![preview](https://raw.githubusercontent.com/orblazer/discord-nordic/master/.github/preview.png) | ![preview=light](https://raw.githubusercontent.com/orblazer/discord-nordic/master/.github/preview-light.png) |
 
 ## Installation
 
