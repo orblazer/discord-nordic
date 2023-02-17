@@ -18,8 +18,10 @@
   --primary-700-hsl: #{hexToHSL(#20242c)};
   --primary-800-hsl: #{hexToHSL(#15181e)};
 
+  --green-230-hsl: var(--green-500-hsl);
   --green-330-hsl: var(--green-500-hsl);
   --green-360-hsl: var(--green-500-hsl);
+  --green-400-hsl: var(--green-500-hsl);
   --green-430-hsl: var(--green-500-hsl);
   --green-500-hsl: var(--nord-green-hsl); /*! nord color */
   --green-560-hsl: var(--green-500-hsl);
