@@ -13,17 +13,18 @@
   border-right: 1px solid var(--c-separator-border);
 }
 
-.wrapper-3kah-n:not(.selected-1Drb7Z):not(:hover) .childWrapper-1j_1ub, /* server without avatar */
+.wrapper-3kah-n:not(.selected-1Drb7Z) .childWrapper-1j_1ub, /* server without avatar */
 .expandedFolderBackground-1kSAf6, /* servers folder */
-.folder-241Joy, /* server folder icon */
+.folder-241Joy:not(.hover-3m7-WT), /* server folder icon */
 .circleIconButton-1VxDrg:not(.selected-2r1Hvo), /* add and discover button */
 .panels-3wFtMD, .container-YkUktl, /* user area */
 .container-1zzFcN, /* user area (in voice) */ {
-  background-color: var(--background-secondary) !important;
+  background-color: var(--background-secondary);
 }
 
-.folder-241Joy.hover-3m7-WT /* server folder icon */ {
-  background-color: var(--c-background-secondary-alt2);
+.folder-241Joy.hover-3m7-WT, /* server folder icon */
+.wrapper-38slSD .wrapper-3kah-n:not(.selected-1Drb7Z) .childWrapper-1j_1ub /* server (in folder) without avatar */ {
+  background-color: var(--background-modifier-hover);
 }
 
 /*
