@@ -36,8 +36,12 @@
 .lookFilled-1H2Jvj.colorBrandNew-abZT3v, /** user settings > Accessibility */
 .premiumLabel-3HPvdB.selected-2Uns2B, /** user settings > nitro (btn) */
 .button-2WPG1w[style*='color: rgb(#{$white-500-rgb})'], /* server settings > onboarding (check it out) */
-.categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui /** Discover */ {
+.categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui, /** Discover */ {
   color: var(--black-500);
+}
+
+.activeButton-LRWFC_ /* text channel > search result (pagination) */ {
+  color: var(--black-500) !important;
 }
 
 /*
