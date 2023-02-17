@@ -26,6 +26,10 @@
   content: url(svg('user/profile/badge-active-developer.svg'));
 }
 
+.botTagRegular-kpctgU:not(.botTagOP-3pUTXu), /** Bot tag */ {
+  color: var(--black-500);
+}
+
 /*
  * Popup > supports commands badge
  */
@@ -39,16 +43,16 @@
  ! DM list
  ! server > member list
  */
-.mask-1FEkla rect[fill='#{$status-green-600-hex}'] {
+.mask-1FEkla rect[fill='#{$green-360-hex}'] {
   fill: var(--user-status-online);
 }
-.mask-1FEkla rect[fill='#{$status-yellow-500-hex}'] {
+.mask-1FEkla rect[fill='#{$yellow-300-hex}'] {
   fill: var(--user-status-idle);
 }
-.mask-1FEkla rect[fill='#{$status-red-500-hex}'] {
+.mask-1FEkla rect[fill='#{$red-400-hex}'] {
   fill: var(--user-status-dnd);
 }
-.mask-1FEkla rect[fill='#{$status-grey-500-hex}'] {
+.mask-1FEkla rect[fill='#{$primary-400-hex}'] {
   fill: var(--user-status-invisible);
 }
 

@@ -1,6 +1,3 @@
-.theme-light .tierMarkerBackground-G8FoN4 {
-}
-
 .theme-dark .perksModal-CLcR1c,
 .theme-dark .tierMarkerBackground-G8FoN4 {
   background-color: var(--background-primary);
@@ -27,13 +24,13 @@
   }
 }
 
-.tierMarkerInProgress-2Tdxjz[style*='background: rgb(#{$primary-dark-700-rgb})'] {
-  background: var(--primary-dark-700) !important;
+.tierMarkerInProgress-2Tdxjz[style*='background: rgb(#{$primary-700-rgb})'] {
+  background: var(--primary-700) !important;
 }
-.tierMarkerInProgress-2Tdxjz[style*='background: rgb(#{$primary-light-160-rgb})'] {
-  background: var(--primary-light-160) !important;
+.tierMarkerInProgress-2Tdxjz[style*='background: rgb(#{$primary-160-rgb})'] {
+  background: var(--primary-160) !important;
 }
 
 .tierUnlocked-1yG5Ic {
-  color: var(--brand-new-800) !important;
+  color: var(--brand-800) !important;
 }

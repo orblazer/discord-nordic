@@ -25,10 +25,10 @@
 .hljs-ansi-background-cyan,
 .hljs-ansi-background-green,
 .hljs-ansi-background-white {
-  color: var(--primary-dark-800);
+  color: var(--primary-800);
 }
 .hljs-ansi-foreground-black {
-  color: var(--primary-dark-430);
+  color: var(--primary-430);
 }
 .hljs-ansi-foreground-red {
   color: var(--nord-red);
@@ -58,10 +58,10 @@
 .hljs-ansi-foreground-white .hljs-ansi-background-yellow,
 .hljs-ansi-background-red,
 .hljs-ansi-background-blue {
-  color: var(--primary-light-160);
+  color: var(--primary-160);
 }
 .hljs-ansi-background-black {
-  background-color: var(--primary-dark-700);
+  background-color: var(--primary-700);
 }
 .hljs-ansi-background-red {
   background-color: var(--nord-orange);
@@ -96,14 +96,14 @@
 
 .hljs-quote,
 .hljs-comment {
-  color: var(--primary-dark-430) !important;
+  color: var(--primary-430) !important;
 }
 
 .theme-light .hljs-emphasis {
-  color: var(--primary-dark-600);
+  color: var(--primary-600);
 }
 .theme-dark .hljs-emphasis {
-  color: var(--primary-dark-400);
+  color: var(--primary-400);
 }
 
 .hljs-link {
@@ -175,12 +175,12 @@
 
 .hljs-deletion {
   color: var(--white-100) !important;
-  background-color: hsl(var(--status-red-500-hsl) / 0.45) !important;
+  background-color: hsl(var(--red-500-hsl) / 0.45) !important;
 }
 
 .hljs-addition {
   color: var(--white-100) !important;
-  background-color: hsl(var(--status-green-500-hsl) / 0.45) !important;
+  background-color: hsl(var(--green-500-hsl) / 0.45) !important;
 }
 
 .hljs-title ~ .hljs-title {

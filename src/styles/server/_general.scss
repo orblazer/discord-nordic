@@ -8,7 +8,7 @@
 .iconBackgroundTierOne-1S68CI,
 .iconBackgroundTierThree-2hfNBO,
 .iconBackgroundTierTwo-2XoNXD {
-  color: var(--primary-dark-500) !important;
+  color: var(--primary-500) !important;
 }
 
 /*
@@ -28,7 +28,7 @@
  *   Server settings
  *   Channel settings
  */
-.container-20TyK0[style*='background-color: rgb(24, 25, 28)'] {
+.container-20TyK0[style*='background-color: rgb(#{$primary-800-rgb})'] {
   background-color: var(--background-floating) !important;
 }
 

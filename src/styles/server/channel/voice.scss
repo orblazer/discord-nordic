@@ -4,7 +4,7 @@
  ! + stage bottom
  */
 .gradientContainer-phMG8d {
-  --color-rgb: var(--primary-dark-700-hsl);
+  --color-rgb: var(--primary-700-hsl);
   background-image: linear-gradient(
     hsl(var(--color-rgb)),
     hsl(var(--color-rgb) / 0.738) 19%,
@@ -30,16 +30,23 @@
 }
 
 /*
+ * > Start activity
+ */
+.tryItOutBadge-27UB1L {
+  color: var(--black-500);
+}
+
+/*
  * > screen share (step 2)
  */
 .theme-dark .card-m7VgZ8 {
-  border-color: var(--primary-dark-430);
+  border-color: var(--primary-430);
   background-color: hsl(var(--black-500-hsl) / 0.5);
 }
 
 .theme-dark .qualitySettingsContainer-2LjkfM,
 .theme-dark .item-2OyinQ {
-  border-color: var(--primary-dark-430);
+  border-color: var(--primary-430);
 }
 
 .selectorTextSelected-2zup8I {

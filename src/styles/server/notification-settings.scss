@@ -1,12 +1,12 @@
-.checked-1pZh2h[style*='background-color: rgba(#{$status-green-600-rgb}, 0.15)'] {
-  border-color: hsl(var(--status-green-600-hsl) / 0.15) !important;
-  background-color: hsl(var(--status-green-600-hsl) / 0.15) !important;
+.checked-22NTbO[style*='background-color: rgba(#{$green-360-rgb}, 0.15)'] {
+  border-color: hsl(var(--green-360-hsl) / 0.15) !important;
+  background-color: hsl(var(--green-360-hsl) / 0.15) !important;
 }
-.checked-1pZh2h path[fill='#{$status-green-600-hex}'] {
-  fill: var(--status-green-600);
+.checked-22NTbO path[fill='#{$green-360-hex}'] {
+  fill: var(--green-360);
 }
 
-.checked-1pZh2h[style*='background-color: rgb(#{$status-green-600-rgb})'] {
-  border-color: var(--status-green-600) !important;
-  background-color: var(--status-green-600) !important;
+.checked-22NTbO[style*='background-color: rgb(#{$green-360-rgb})'] {
+  border-color: var(--green-360) !important;
+  background-color: var(--green-360) !important;
 }

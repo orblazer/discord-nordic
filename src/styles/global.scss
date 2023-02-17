@@ -1,5 +1,5 @@
 ::selection {
-  background-color: hsl(var(--link-500-hsl) / 0.25);
+  background-color: hsl(var(--blue-345-hsl) / 0.25);
 }
 
 .container-2o3qEW, /* Server > member sidebar */
@@ -14,18 +14,18 @@
   fill: var(--white-500);
 }
 
-.container-1QtPKm[style*='background-color: rgb(#{$status-green-600-rgb})'] {
-  background-color: var(--status-green-560) !important;
+.container-1QtPKm[style*='background-color: rgb(#{$green-360-rgb})'] {
+  background-color: var(--green-560) !important;
 }
-.slider-HJFN2i path[fill^='rgba(#{$status-green-600-rgb}'] {
-  fill: var(--status-green-760);
+.slider-HJFN2i path[fill^='rgba(#{$green-360-rgb}'] {
+  fill: var(--green-760);
 }
 
-.container-1QtPKm[style*='background-color: rgb(#{$primary-dark-400-rgb})'] {
-  background-color: var(--primary-dark-500) !important;
+.container-1QtPKm[style*='background-color: rgb(#{$primary-400-rgb})'] {
+  background-color: var(--primary-500) !important;
 }
-.slider-HJFN2i path[fill^='rgba(#{$primary-dark-400}'] {
-  fill: var(--primary-dark-500);
+.slider-HJFN2i path[fill^='rgba(#{$primary-400-rgb}'] {
+  fill: var(--primary-500);
 }
 
 /*
@@ -35,9 +35,7 @@
 .lookOutlined-3RTC7c.colorBrand-2M3O3N:hover, /** User settings > privacy & safety */
 .lookFilled-1H2Jvj.colorBrandNew-abZT3v, /** user settings > Accessibility */
 .premiumLabel-3HPvdB.selected-2Uns2B, /** user settings > nitro (btn) */
-.fakeButton-2eEUpc, /** server settings > rules screening (preview) */
 .button-2WPG1w[style*='color: rgb(#{$white-500-rgb})'], /* server settings > onboarding (check it out) */
-.botTagRegular-kpctgU:not(.botTagOP-3pUTXu), /** Bot tag */
 .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui /** Discover */ {
   color: var(--black-500);
 }
@@ -47,7 +45,7 @@
  */
 .lookFilled-1H2Jvj.colorGreen-jIPCAS, /** user settings > profiles */
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx, /** sidebar (connected to voice channel) > share your screen (active) */
-.allow-1h61-Z.selected-3jieYB /** server > channel/category settings > permissions (allow) */ {
+.-allow-1h61-Z.selected-3jieYB /** server > channel/category settings > permissions (allow) */ {
   color: var(--black-500);
 }
 
@@ -67,14 +65,15 @@
  * Circle checked icon
  */
 .selectedIcon-122rMx circle[fill='var(--white-500)'], /** user settings > profiles (server tab) > choose server */
-.checkbox-1LuCGM[style*='background-color: var(--brand-experiment-500)'] path[fill='var(--white-500)'], /** user settings [> nitro > subscribe]/[> accessibility] + server > notification settings + ! Get nitro */
+.checkbox-1LuCGM[style*='background-color: rgb(#{$green-360-rgb})'] path[fill='var(--white-500)'], /** server > notification settings */
 .activeIcon-1ykRnF circle[fill='var(--white-500)'], /** profile popup > status > switch account */
 .descriptionIcon-3nDZrK circle[cx='12'][fill='var(--white-500)'], /** server settings > server template */
-.checklistIcon-nKaK0A circle[fill='var(--white-500)'], /** server settings > enable community > get started (step 3)  */
-.icon-2dMyvd circle[fill="var(--white-100)"] /* server settings > onboarding (check it out) */ {
+.checklistIcon-nKaK0A circle[fill='var(--white-500)'], /** server settings > enable community > get started (step 3) */
+.-icon-2dMyvd circle[fill="var(--white-100)"] /* server settings > onboarding (check it out) */ {
   fill: var(--black-500);
 }
 
+.checkmark-1lGv7h, /** server settings > onboarding (also square checkbox) */
 .activeCircle-3rE6-u /** server settings > welcome screen */ {
   color: var(--black-500);
 }
@@ -90,7 +89,7 @@
  * What's new (popup)
  */
 .content-FDHp32 a {
-  color: var(--link-500);
+  color: var(--text-link);
 }
 
 .fixed-cTX7Hp {
@@ -138,7 +137,7 @@
 }
 
 .icon-HW4tZ-.two-1t2_74 {
-  filter: drop-shadow(0 0 48px hsla(var(--brand-new-500-hsl) / 0.5));
+  filter: drop-shadow(0 0 48px hsla(var(--brand-500-hsl) / 0.5));
 }
 
 .document-1u6V3N {

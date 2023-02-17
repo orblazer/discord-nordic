@@ -1,27 +1,24 @@
-$primary-dark-400: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);
-$primary-dark-400-rgb: 114, 118, 125;
-$primary-dark-700-rgb: 32, 34, 37;
+$primary-160-rgb: 238, 239, 241;
+$primary-400-rgb: 130, 133, 143;
+$primary-400-hex: #82858f;
+$primary-700-rgb: 30, 31, 34;
+$primary-800-rgb: 17, 18, 20;
 
-$primary-light-160-rgb: 235, 237, 239;
-
-$white-500: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
 $white-500-rgb: 255, 255, 255;
 $white-500-hex: #ffffff;
 
 /*
- * Status
+ * Colors
  */
-$status-grey-500-hex: #747f8d;
-$status-grey-500-rgb: 116, 127, 141;
+$yellow-300-hex: #f0b232;
+$yellow-300-rgb: 240, 178, 50;
 
-$status-yellow-500-hex: #faa61a;
-$status-yellow-500-rgb: 250, 166, 26;
+$green-360-rgb: 35, 165, 90;
+$green-360-hex: #23a55a;
+$status-green-600-hex: #3ba55c; // ? Old value
 
-$status-green-600-hex: #3ba55c;
-$status-green-600-rgb: 59, 165, 92;
-
-$status-red-500-hex: #ed4245;
-$status-red-500-rgb: 237, 66, 69;
+$red-400-hex: #f23f43;
+$red-400-rgb: 242, 63, 67;
 
 /*
  * Brand

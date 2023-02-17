@@ -7,7 +7,7 @@
 
 .wrapper-22rqw6 /* emoji picker */ {
   background-color: var(--background-secondary);
-  border-right: 1px solid hsl(var(--primary-dark-900-hsl) / 0.2);
+  border-right: 1px solid hsl(var(--primary-900-hsl) / 0.2);
 }
 
 /*
@@ -49,14 +49,14 @@
 }
 
 .userJoinSystemMessageIcon-3FQ_Mo path[fill='#{$status-green-600-hex}'] {
-  fill: var(--status-green-600);
+  fill: var(--green-600);
 }
 
 /*
  * > mentioned message
  */
 .mentioned-Tre-dv:before {
-  background-color: var(--brand-new-500);
+  background-color: var(--brand-500);
 }
 
 /*
@@ -70,5 +70,5 @@
  * > Embed
  */
 .theme-dark .embedFull-1HGV2S {
-  border-left-color: var(--primary-dark-500);
+  border-left-color: var(--primary-500);
 }

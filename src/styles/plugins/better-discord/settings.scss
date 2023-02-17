@@ -6,24 +6,24 @@
  * > settings
  */
 .bd-switch input:checked + .bd-switch-body {
-  --switch-color: var(--status-green-560);
+  --switch-color: var(--green-560);
 }
 .bd-switch-body {
-  --switch-color: var(--primary-dark-500);
+  --switch-color: var(--primary-500);
 }
 .bd-switch-body .bd-switch-handle {
   fill: var(--white-500);
 }
 
 .bd-switch input:checked + .bd-switch-body .bd-switch-symbol path {
-  fill: var(--status-green-760);
+  fill: var(--green-760);
 }
 
 /*
  * > updates
  */
 .bd-filled-checkmark {
-  background: var(--status-green-560);
+  background: var(--green-560);
 
   svg {
     fill: var(--black-500);
@@ -31,7 +31,7 @@
 }
 
 .bd-empty-updates svg {
-  fill: var(--status-green-560);
+  fill: var(--green-560);
 }
 
 /*
@@ -92,10 +92,10 @@
 
 // Switch
 .container-1QtPKm[style*='background-color: rgb(#{$brand-500-rgb})'] {
-  background-color: var(--status-green-560) !important;
+  background-color: var(--green-560) !important;
 }
 .slider-HJFN2i path[fill='rgba(#{$brand-500-rgb}, 1)'] {
-  fill: var(--status-green-760);
+  fill: var(--green-760);
 }
 
 // Checkbox
