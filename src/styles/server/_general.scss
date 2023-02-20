@@ -45,6 +45,8 @@
 /*
  * Popup "Invite People"
  */
-.theme-dark .inviteBannerUpsell-1t_LYM {
-  background-color: var(--c-background-secondary-alt2);
+@if is_uniform() {
+  .theme-dark .inviteBannerUpsell-1t_LYM {
+    background-color: var(--c-background-secondary-alt2);
+  }
 }

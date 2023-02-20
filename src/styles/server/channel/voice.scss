@@ -39,14 +39,16 @@
 /*
  * > screen share (step 2)
  */
-.theme-dark .card-m7VgZ8 {
-  border-color: var(--primary-430);
-  background-color: hsl(var(--black-500-hsl) / 0.5);
-}
+@if is_uniform() {
+  .theme-dark .card-m7VgZ8 {
+    border-color: var(--primary-430);
+    background-color: hsl(var(--black-500-hsl) / 0.5);
+  }
 
-.theme-dark .qualitySettingsContainer-2LjkfM,
-.theme-dark .item-2OyinQ {
-  border-color: var(--primary-430);
+  .theme-dark .qualitySettingsContainer-2LjkfM,
+  .theme-dark .item-2OyinQ {
+    border-color: var(--primary-430);
+  }
 }
 
 .selectorTextSelected-2zup8I {

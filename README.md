@@ -4,6 +4,8 @@
 
 This theme change all discord style for follow [Nord palette](https://www.nordtheme.com/).
 
+> If you want the uniform (with only 1 color for background) variant please go to [uniform folder](https://raw.githubusercontent.com/orblazer/discord-nordic/master/uniform)
+
 ## Preview
 
 |                                               Dark                                               |                                                    Light                                                     |

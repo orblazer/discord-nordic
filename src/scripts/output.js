@@ -1,9 +1,9 @@
 import { writeFile } from 'fs/promises'
-import { resolve } from 'path'
+import { join } from 'path'
 
-export function betterDiscord(pkg, css) {
+export function betterDiscord(baseDir, pkg, css) {
   return writeFile(
-    resolve('nordic.theme.css'),
+    join(baseDir, 'nordic.theme.css'),
     `/**
  * @name        Nordic
  * @author      orblazer#9152
@@ -32,9 +32,9 @@ ${css}
   )
 }
 
-export function stylus(pkg, css) {
+export function stylus(baseDir, pkg, css) {
   return writeFile(
-    resolve('nordic.user.css'),
+    join(baseDir, 'nordic.user.css'),
     `/* ==UserStyle==
 @name        Discord Nordic
 @namespace   ${pkg.repository}
@@ -68,9 +68,9 @@ export function stylus(pkg, css) {
   )
 }
 
-export async function powercord(pkg, css) {
+export async function powercord(baseDir, pkg, css) {
   await writeFile(
-    resolve('nordic.powercord.css'),
+    join(baseDir, 'nordic.powercord.css'),
     `/**
  * @name        Nordic
  * @author      orblazer#9152
@@ -97,7 +97,7 @@ ${css}
 }`
   )
   await writeFile(
-    resolve('powercord_manifest.json'),
+    join(baseDir, 'powercord_manifest.json'),
     JSON.stringify(
       {
         version: pkg.version,
@@ -113,9 +113,9 @@ ${css}
   )
 }
 
-export function vencord(pkg, css) {
+export function vencord(baseDir, pkg, css) {
   return writeFile(
-    resolve('nordic.vencord.css'),
+    join(baseDir, 'nordic.vencord.css'),
     `/**
  * @name        Nordic
  * @author      orblazer#9152

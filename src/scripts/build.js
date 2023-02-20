@@ -10,46 +10,62 @@ const pkg = JSON.parse(await readFile(resolve('package.json')))
 
 const __filename = dirname(fileURLToPath(import.meta.url))
 const srcDir = resolve(__filename, '..')
-const assetsDir = resolve(__filename, '../../assets')
+const rootDir = resolve(__filename, '../..')
+const assetsDir = resolve(rootDir, 'assets')
+const uniformDir = resolve(rootDir, 'uniform')
 
 const dev = typeof process.env.DEV === 'undefined' ? false : Boolean(process.env.DEV)
 const baseAssetsUrl = `https://raw.githubusercontent.com/orblazer/discord-nordic/v${pkg.version}/assets`
 
-// Compile sass files
-const results = await Promise.allSettled([
-  compile('styles/_imports.scss'),
-  compile('styles/web.scss'),
-  compile('styles/plugins/better-discord/_imports.scss'),
-  compile('styles/plugins/vencord/_imports.scss'),
-])
+await build(rootDir)
+await build(uniformDir, true)
 
-// Check if error
-let success = true
-for (const result of results) {
-  if (result.status === 'rejected') {
-    console.error(result.reason)
-    success = false
-    break
-  }
-}
-
-if (success) {
-  await Promise.allSettled([
-    betterDiscord(pkg, [results[0].value, results[2].value].join('\n')),
-    stylus(pkg, [results[0].value, results[1].value].join('\n')),
-    powercord(pkg, results[0].value),
-    vencord(pkg, [results[0].value, results[1].value, results[3].value].join('\n')),
+/**
+ * Build theme files
+ * @param {string} folder The folder of output
+ * @param {boolean} uniform Is uniform variant ?
+ */
+async function build(folder, uniform = false) {
+  // Compile sass files
+  const results = await Promise.allSettled([
+    compile('styles/_imports.scss', uniform),
+    compile('styles/web.scss', uniform),
+    compile('styles/plugins/better-discord/_imports.scss', uniform),
+    compile('styles/plugins/vencord/_imports.scss', uniform),
   ])
+
+  // Check if error
+  let success = true
+  for (const result of results) {
+    if (result.status === 'rejected') {
+      console.error(result.reason)
+      success = false
+      break
+    }
+  }
+
+  if (success) {
+    await Promise.allSettled([
+      betterDiscord(folder, pkg, [results[0].value, results[2].value].join('\n')),
+      stylus(folder, pkg, [results[0].value, results[1].value].join('\n')),
+      powercord(folder, pkg, results[0].value),
+      vencord(folder, pkg, [results[0].value, results[1].value, results[3].value].join('\n')),
+    ])
+  }
 }
 
 /**
  * Compile SASS files
  * @param {string} entry Entry file
+ * @param {boolean} uniform Is uniform variant ?
  */
-async function compile(entry) {
+async function compile(entry, uniform = false) {
   const result = await sass.compileAsync(join(srcDir, entry), {
     style: dev ? 'expanded' : 'compressed',
     functions: {
+      'is_uniform()'() {
+        return uniform ? sass.sassTrue : sass.sassFalse
+      },
       async 'svg($path)'([pathArg]) {
         const path = pathArg.assertString('path').text
         const localFilePath = join(assetsDir, path)

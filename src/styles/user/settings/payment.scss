@@ -102,21 +102,15 @@
   color: var(--premium-tier-2-pink);
 }
 
-.card-2xlCYc {
-  background-color: var(--background-secondary);
+@if is_uniform() {
+  .card-2xlCYc {
+    background-color: var(--background-secondary);
 
-  &:hover {
-    background-color: var(--background-secondary-alt);
+    &:hover {
+      background-color: var(--background-secondary-alt);
+    }
   }
-}
-.gemWithoutLabel-1od40y {
-  color: var(--text-muted) !important;
-}
-
-/*
- * > billing
- */
-.theme-dark .codeRedemptionRedirect-2hYMSQ /* user settings > billing */ {
-  border-color: var(--c-separator-border);
-  background-color: hsl(var(--black-500-hsl) / 0.8);
+  .gemWithoutLabel-1od40y {
+    color: var(--text-muted) !important;
+  }
 }
