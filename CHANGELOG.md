@@ -1,20 +1,29 @@
-## [4.8.1](https://github.com/orblazer/discord-nordic/compare/v4.8.0...v4.8.1) (2023-02-17)
+# [4.9.0](https://github.com/orblazer/discord-nordic/compare/v4.8.1...v4.9.0) (2023-02-23)
 
+## Revert to old colors and move new style in [uniform](./uniform/)
 
 ### Bug Fixes
 
-* **global:** right border on dm members ([93612d5](https://github.com/orblazer/discord-nordic/commit/93612d590ecacf00c49ccf5c0327583d119ad9f5))
-* **server:** right background for radio items ([f0addb0](https://github.com/orblazer/discord-nordic/commit/f0addb05222ebb62e94630053f6fa7c311e2325b))
-* **sidebar:** highlight server without logo in folder ([ddd690e](https://github.com/orblazer/discord-nordic/commit/ddd690eda586be701785d7a720cfdceab388eb56))
-* **sidebar:** right text color for new activities ([cec6f21](https://github.com/orblazer/discord-nordic/commit/cec6f211e2d4f05619ae0c9aaf4e3dd9d7c0a214))
-* **user:** right colorize text on nitro page ([c9678a0](https://github.com/orblazer/discord-nordic/commit/c9678a0b480b6bcb8e6d2d261b4ecc0714ad6dbb))
+- **global:** right color for pagination in search result ([79922d4](https://github.com/orblazer/discord-nordic/commit/79922d4b3eeab3612babe7bab33f5e77473037e5))
+- **sidebar:** right colorize new activities ([df93666](https://github.com/orblazer/discord-nordic/commit/df936662d1645985a3561f10e2684fcb99a4357c))
 
+### Reverts
+
+- split uniform and normal variants ([0219d60](https://github.com/orblazer/discord-nordic/commit/0219d603b6fd31dcf10d13d68b8bf62be3310d18))
+
+## [4.8.1](https://github.com/orblazer/discord-nordic/compare/v4.8.0...v4.8.1) (2023-02-17)
+
+### Bug Fixes
+
+- **global:** right border on dm members ([93612d5](https://github.com/orblazer/discord-nordic/commit/93612d590ecacf00c49ccf5c0327583d119ad9f5))
+- **server:** right background for radio items ([f0addb0](https://github.com/orblazer/discord-nordic/commit/f0addb05222ebb62e94630053f6fa7c311e2325b))
+- **sidebar:** highlight server without logo in folder ([ddd690e](https://github.com/orblazer/discord-nordic/commit/ddd690eda586be701785d7a720cfdceab388eb56))
+- **sidebar:** right text color for new activities ([cec6f21](https://github.com/orblazer/discord-nordic/commit/cec6f211e2d4f05619ae0c9aaf4e3dd9d7c0a214))
+- **user:** right colorize text on nitro page ([c9678a0](https://github.com/orblazer/discord-nordic/commit/c9678a0b480b6bcb8e6d2d261b4ecc0714ad6dbb))
 
 ### Features
 
-* **server:** colorize server subscriptions ([50163c7](https://github.com/orblazer/discord-nordic/commit/50163c74ee38a29d9fe1b0c75e68fff14313ff62))
-
-
+- **server:** colorize server subscriptions ([50163c7](https://github.com/orblazer/discord-nordic/commit/50163c74ee38a29d9fe1b0c75e68fff14313ff62))
 
 # [4.8.0](https://github.com/orblazer/discord-nordic/compare/v4.7.0...v4.8.0) (2023-02-14)
 

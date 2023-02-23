@@ -1,6 +1,6 @@
 {
   "name": "discord-nordic",
-  "version": "4.8.1",
+  "version": "4.9.0",
   "description": "Complete theme for Nordic (https://www.nordtheme.com/)",
   "homepage": "https://github.com/orblazer/discord-nordic",
   "funding": "https://www.paypal.me/orblazer",
@@ -17,7 +17,7 @@
     "build": "node src/scripts/build.js",
     "lint": "eslint",
     "version": "npm run version:build && npm run version:changelog",
-    "version:build": "npm run build && git add nordic.*.css powercord_manifest.json",
+    "version:build": "npm run build && git add nordic.*.css powercord_manifest.json uniform/nordic.*.css uniform/powercord_manifest.json ",
     "version:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "postversion": "git push && git push --tag"
   },
