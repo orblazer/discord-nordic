@@ -1,3 +1,18 @@
+# [4.9.0](https://github.com/orblazer/discord-nordic/compare/v4.8.1...v4.9.0) (2023-02-23)
+
+
+### Bug Fixes
+
+* **global:** right color for pagination in search result ([79922d4](https://github.com/orblazer/discord-nordic/commit/79922d4b3eeab3612babe7bab33f5e77473037e5))
+* **sidebar:** right colorize new activities ([df93666](https://github.com/orblazer/discord-nordic/commit/df936662d1645985a3561f10e2684fcb99a4357c))
+
+
+### Reverts
+
+* split uniform and normal variants ([0219d60](https://github.com/orblazer/discord-nordic/commit/0219d603b6fd31dcf10d13d68b8bf62be3310d18))
+
+
+
 ## [4.8.1](https://github.com/orblazer/discord-nordic/compare/v4.8.0...v4.8.1) (2023-02-17)
 
 
