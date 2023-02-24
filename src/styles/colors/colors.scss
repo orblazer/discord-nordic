@@ -1,8 +1,10 @@
 .default-colors,
 :root {
   /** Discord colors */
-  --primary-160-hsl: #{hexToHSL(#fcfcfd)};
+  --primary-130-hsl: #{hexToHSL(#fcfcfd)};
+  --primary-160-hsl: var(--primary-130-hsl);
   --primary-200-hsl: var(--nord-light1-hsl); /*! nord color */
+  --primary-230-hsl: var(--primary-200-hsl);
   --primary-260-hsl: #{hexToHSL(#d2d6e0)};
   --primary-300-hsl: #{hexToHSL(#b6bcc9)};
   --primary-330-hsl: #{hexToHSL(#97a1b4)};
@@ -32,6 +34,7 @@
   --green-760-hsl: #{hexToHSL(#82996f)};
 
   --red-360-hsl: var(--red-500-hsl);
+  --red-345-hsl: var(--red-500-hsl);
   --red-400-hsl: var(--red-500-hsl);
   --red-430-hsl: var(--red-500-hsl);
   --red-500-hsl: var(--nord-red-hsl); /*! nord color */
@@ -133,6 +136,7 @@
 .theme-dark {
   /* Overrides variables */
   --header-secondary: var(--primary-300);
+  --text-muted: var(--primary-300);
   --interactive-muted: var(--primary-430);
 
   --background-mentioned: hsl(var(--brand-500-hsl) / 0.18);
