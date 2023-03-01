@@ -1,24 +1,24 @@
 /*
  * > title (status)
  */
-.mask-2Me5HY rect[fill^='rgba(#{$green-360-rgb}'],
-.mask-2Me5HY rect[fill='#{$green-360-hex}'] {
+.mask-3tgVZv rect[fill^='rgba(#{$green-360-rgb}'],
+.mask-3tgVZv rect[fill='#{$green-360-hex}'] {
   fill: var(--user-status-online);
 }
-.mask-2Me5HY rect[fill^='rgba(#{$yellow-300-rgb}'],
-.mask-2Me5HY rect[fill='#{$yellow-300-hex}'] {
+.mask-3tgVZv rect[fill^='rgba(#{$yellow-300-rgb}'],
+.mask-3tgVZv rect[fill='#{$yellow-300-hex}'] {
   fill: var(--user-status-idle);
 }
-.mask-2Me5HY rect[fill^='rgba(#{$red-400-rgb}'],
-.mask-2Me5HY rect[fill='#{$red-400-hex}'] {
+.mask-3tgVZv rect[fill^='rgba(#{$red-400-rgb}'],
+.mask-3tgVZv rect[fill='#{$red-400-hex}'] {
   fill: var(--user-status-dnd);
 }
-.mask-2Me5HY rect[fill^='rgba(#{$twitch-rgb}'],
-.mask-2Me5HY rect[fill='#{$twitch-hex}'] {
+.mask-3tgVZv rect[fill^='rgba(#{$twitch-rgb}'],
+.mask-3tgVZv rect[fill='#{$twitch-hex}'] {
   fill: var(--user-status-twitch);
 }
-.mask-2Me5HY rect[fill^='rgba(#{$primary-400-rgb}'],
-.mask-2Me5HY rect[fill='#{$primary-400-hex}'] {
+.mask-3tgVZv rect[fill^='rgba(#{$primary-400-rgb}'],
+.mask-3tgVZv rect[fill='#{$primary-400-hex}'] {
   fill: var(--user-status-invisible);
 }
 

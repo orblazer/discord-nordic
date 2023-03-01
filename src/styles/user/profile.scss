@@ -43,16 +43,16 @@
  ! DM list
  ! server > member list
  */
-.mask-1FEkla rect[fill='#{$green-360-hex}'] {
+.mask-1y0tyc rect[fill='#{$green-360-hex}'] {
   fill: var(--user-status-online);
 }
-.mask-1FEkla rect[fill='#{$yellow-300-hex}'] {
+.mask-1y0tyc rect[fill='#{$yellow-300-hex}'] {
   fill: var(--user-status-idle);
 }
-.mask-1FEkla rect[fill='#{$red-400-hex}'] {
+.mask-1y0tyc rect[fill='#{$red-400-hex}'] {
   fill: var(--user-status-dnd);
 }
-.mask-1FEkla rect[fill='#{$primary-400-hex}'] {
+.mask-1y0tyc rect[fill='#{$primary-400-hex}'] {
   fill: var(--user-status-invisible);
 }
 
@@ -61,7 +61,7 @@
  ! DM list
  ! server > member list
  */
-.mask-1FEkla rect[fill='#{$twitch-hex}'] {
+.mask-1y0tyc rect[fill='#{$twitch-hex}'] {
   fill: var(--user-status-twitch);
 }
 

@@ -78,12 +78,12 @@
 /*
  * Dropdown menus
  */
-.colorDefault-CDqZdO .check-3HZJs4, /** checkbox + Profile Popup > status > switch account */
+.colorDefault-2_rLdz .check-3-73a4, /** checkbox + Profile Popup > status > switch account */
 /** hover state */
-.colorDefault-CDqZdO.focused-3qFvc8:not(.colorDanger-3n-KnP):not(.menuItemFocused-2cC4Ku), /** + Profile Popup > status > switch account */
-.colorDefault-CDqZdO.focused-3qFvc8 .checkbox-hADx5o,
-.colorDefault-CDqZdO.focused-3qFvc8 .radioSelection-1UHp0b,
-.colorDefault-CDqZdO.focused-3qFvc8 .subtext-2GlkbE {
+.colorDefault-2_rLdz.focused-3LIdPu:not(.colorDanger-3umuSx), /** + Profile Popup > status > switch account */
+.colorDefault-2_rLdz.focused-3LIdPu .checkbox-397WsK,
+.colorDefault-2_rLdz.focused-3LIdPu .radioSelection-3PDNAQ,
+.colorDefault-2_rLdz.focused-3LIdPu .subtext-1mqKVB {
   color: var(--black-500);
 }
 
@@ -123,6 +123,14 @@
 
   &::after {
     background-color: var(--status-danger);
+  }
+}
+
+.improved-2SJXHz {
+  color: var(--brand-500);
+
+  &::after {
+    background-color: var(--brand-500);
   }
 }
 
