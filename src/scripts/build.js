@@ -12,26 +12,23 @@ const __filename = dirname(fileURLToPath(import.meta.url))
 const srcDir = resolve(__filename, '..')
 const rootDir = resolve(__filename, '../..')
 const assetsDir = resolve(rootDir, 'assets')
-const uniformDir = resolve(rootDir, 'uniform')
 
 const dev = typeof process.env.DEV === 'undefined' ? false : Boolean(process.env.DEV)
 const baseAssetsUrl = `https://raw.githubusercontent.com/orblazer/discord-nordic/v${pkg.version}/assets`
 
 await build(rootDir)
-await build(uniformDir, true)
 
 /**
  * Build theme files
  * @param {string} folder The folder of output
- * @param {boolean} uniform Is uniform variant ?
  */
-async function build(folder, uniform = false) {
+async function build(folder) {
   // Compile sass files
   const results = await Promise.allSettled([
-    compile('styles/_imports.scss', uniform),
-    compile('styles/web.scss', uniform),
-    compile('styles/plugins/better-discord/_imports.scss', uniform),
-    compile('styles/plugins/vencord/_imports.scss', uniform),
+    compile('styles/_imports.scss'),
+    compile('styles/web.scss'),
+    compile('styles/plugins/better-discord/_imports.scss'),
+    compile('styles/plugins/vencord/_imports.scss'),
   ])
 
   // Check if error
@@ -57,15 +54,11 @@ async function build(folder, uniform = false) {
 /**
  * Compile SASS files
  * @param {string} entry Entry file
- * @param {boolean} uniform Is uniform variant ?
  */
-async function compile(entry, uniform = false) {
+async function compile(entry) {
   const result = await sass.compileAsync(join(srcDir, entry), {
     style: dev ? 'expanded' : 'compressed',
     functions: {
-      'is_uniform()'() {
-        return uniform ? sass.sassTrue : sass.sassFalse
-      },
       async 'svg($path)'([pathArg]) {
         const path = pathArg.assertString('path').text
         const localFilePath = join(assetsDir, path)

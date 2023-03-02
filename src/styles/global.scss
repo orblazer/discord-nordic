@@ -2,13 +2,6 @@
   background-color: hsl(var(--blue-345-hsl) / 0.25);
 }
 
-@if is_uniform() {
-  .container-2o3qEW, /* Server > member sidebar */
-  .members-3WRCEx /* DM > member sidebar */ {
-    border-left: 1px solid var(--background-secondary-alt);
-  }
-}
-
 /*
  * Settings switch
  */
@@ -24,18 +17,10 @@
 }
 
 .container-1QtPKm[style*='background-color: rgb(#{$primary-400-rgb})'] {
-  @if is_uniform() {
-    background-color: var(--primary-460) !important;
-  } @else {
-    background-color: var(--primary-500) !important;
-  }
+  background-color: var(--primary-500) !important;
 }
 .slider-HJFN2i path[fill^='rgba(#{$primary-400-rgb}'] {
-  @if is_uniform() {
-    fill: var(--primary-460);
-  } @else {
-    fill: var(--primary-500);
-  }
+  fill: var(--primary-500);
 }
 
 /*
@@ -146,11 +131,7 @@
  */
 .searchAnswer-23w-CH,
 .searchFilter-2UfsDk {
-  @if is_uniform() {
-    background-color: var(--background-secondary) !important;
-  } @else {
-    background-color: var(--background-primary) !important;
-  }
+  background-color: var(--background-primary) !important;
   color: var(--text-normal);
 }
 

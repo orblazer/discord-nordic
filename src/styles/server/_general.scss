@@ -41,12 +41,3 @@
   background-color: var(--brand-experiment-500);
   color: var(--black-500);
 }
-
-/*
- * Popup "Invite People"
- */
-@if is_uniform() {
-  .theme-dark .inviteBannerUpsell-1t_LYM {
-    background-color: var(--c-background-secondary-alt2);
-  }
-}

@@ -120,11 +120,6 @@
   --button-positive-background-active: var(--green-760);
 
   --home-background: var(--background-primary);
-
-  @if is_uniform() {
-    --elevation-low: 0 1px 0 var(--background-secondary-alt);
-    --search-popout-date-picker-hint-text: var(--text-muted);
-  }
 }
 
 .theme-light,
@@ -139,9 +134,12 @@
   --text-muted: var(--primary-300);
   --interactive-muted: var(--primary-430);
 
+  --background-modifier-selected: hsl(var(--primary-460-hsl) / 0.6);
   --background-mentioned: hsl(var(--brand-500-hsl) / 0.18);
   --background-mentioned-hover: hsl(var(--brand-500-hsl) / 0.15);
   --mention-background: hsl(var(--brand-500-hsl) / 0.25);
+  --channel-text-area-placeholder: var(--primary-400);
+  --channeltextarea-background: var(--primary-500);
 
   --search-popout-option-fade-hover: linear-gradient(
     90deg,
@@ -149,34 +147,8 @@
     hsl(var(--primary-530-hsl) / 0.2) 50%
   );
 
-  @if is_uniform() {
-    /* custom variables */
-    --c-background-secondary-alt2: var(--primary-430);
-    --c-reaction-border: var(--primary-660);
-
-    /* Override variables */
-    --background-primary: var(--primary-600);
-    --background-secondary: var(--primary-500);
-    --background-secondary-alt: var(--primary-460);
-    --background-tertiary: var(--primary-630);
-
-    --channels-default: var(--primary-330);
-    --channeltextarea-background: var(--background-secondary);
-
-    --scrollbar-thin-thumb: var(--primary-460);
-    --scrollbar-auto-thumb: var(--primary-460);
-
-    --button-secondary-background: var(--c-background-secondary-alt2);
-  } @else {
-    /* Override variables */
-    --background-modifier-selected: hsl(var(--primary-460-hsl) / 0.6);
-
-    --channel-text-area-placeholder: var(--primary-400);
-    --channeltextarea-background: var(--primary-500);
-
-    --scrollbar-thin-thumb: var(--primary-500);
-    --scrollbar-auto-thumb: var(--primary-500);
-  }
+  --scrollbar-thin-thumb: var(--primary-500);
+  --scrollbar-auto-thumb: var(--primary-500);
 }
 
 .theme-light {
@@ -186,6 +158,10 @@
 
   --background-message-hover: hsl(var(--primary-260-hsl) / 0.3);
 
+  --background-primary: var(--nord-light3);
+  --background-secondary: var(--nord-light2);
+  --background-secondary-alt: var(--primary-200);
+  --background-tertiary: var(--primary-260);
   --background-mentioned: hsl(var(--brand-500-hsl) / 0.5);
   --background-mentioned-hover: hsl(var(--brand-500-hsl) / 0.4);
   --mention-foreground: var(--black-500);
@@ -196,26 +172,4 @@
   --scrollbar-auto-track: var(--background-message-hover);
 
   --search-popout-option-fade-hover: linear-gradient(90deg, hsl(var(--primary-260-hsl) / 0), var(--primary-260) 50%);
-
-  @if is_uniform() {
-    /* custom variables */
-    --c-separator-border: var(--primary-260);
-    --c-background-secondary-alt2: var(--primary-160);
-    --c-reaction-border: var(--primary-260);
-
-    /* Override variables */
-    --background-primary: var(--nord-light1);
-    --background-secondary: var(--nord-light2);
-    --background-secondary-alt: var(--nord-light3);
-    --background-tertiary: var(--primary-300);
-
-    --input-background: var(--background-secondary);
-    --channeltextarea-background: var(--background-secondary-alt);
-  } @else {
-    /* Override variables */
-    --background-primary: var(--nord-light3);
-    --background-secondary: var(--nord-light2);
-    --background-secondary-alt: var(--primary-200);
-    --background-tertiary: var(--primary-260);
-  }
 }

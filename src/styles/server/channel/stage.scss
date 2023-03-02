@@ -5,22 +5,14 @@
 .container-1IyjjY, /* (cards) */
 .buttonColor-28DXIe, /* invite button */
 .colorable-3rVGna.primaryDark-2UJt1G /* music button */ {
-  @if is_uniform() {
-    background-color: var(--background-secondary);
-  } @else {
-    background-color: var(--background-primary);
-  }
+  background-color: var(--background-primary);
 }
 
 .container-1IyjjY:hover, /* (cards) */
 .buttonColor-28DXIe:hover,  /* invite button */
 .colorable-3rVGna.primaryDark-2UJt1G.active-3D763s, /** music button */
 .colorable-3rVGna.primaryDark-2UJt1G:hover {
-  @if is_uniform() {
-    background-color: var(--background-modifier-hover);
-  } @else {
-    background-color: var(--background-secondary);
-  }
+  background-color: var(--background-secondary);
 }
 
 /*

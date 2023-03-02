@@ -14,8 +14,5 @@
 
 /* shortcut */
 .theme-dark .container-30qY7E {
-  @if is_uniform() {
-    background-color: hsl(var(--black-500-hsl) / 0.5);
-  }
   border-color: var(--primary-630);
 }
