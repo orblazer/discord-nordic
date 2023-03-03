@@ -108,6 +108,22 @@
 }
 
 /*
+ * User popup
+ */
+.status-3cqfT9[style*='background-color: rgb(#{$green-360-rgb})'] {
+  background-color: var(--user-status-online) !important;
+}
+.status-3cqfT9[style*='background-color: rgb(#{$yellow-300-rgb})'] {
+  background-color: var(--user-status-idle) !important;
+}
+.status-3cqfT9[style*='background-color: rgb(#{$red-400-rgb})'] {
+  background-color: var(--user-status-dnd) !important;
+}
+.status-3cqfT9[style*='background-color: rgb(#{$primary-400-rgb})'] {
+  background-color: var(--user-status-invisible) !important;
+}
+
+/*
  * add server
  * discover
  */

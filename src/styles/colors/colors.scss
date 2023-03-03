@@ -52,13 +52,15 @@
   --yellow-630-hsl: var(--orange-500-hsl);
   --yellow-660-hsl: var(--orange-500-hsl);
 
+  --orange-345-hsl: var(--orange-500-hsl);
+  --orange-360-hsl: var(--orange-500-hsl);
   --orange-500-hsl: var(--nord-orange-hsl); /*! nord color */
 
   --white-500-hsl: var(--nord-light2-hsl); /*! nord color */
 
   --black-500-hsl: var(--primary-660-hsl);
 
-  --blue-330-hsl: var(--nord-blue); /*! nord color */
+  --blue-330-hsl: var(--nord-blue-hsl); /*! nord color */
   --blue-345-hsl: #{hexToHSL(#4c91e6)};
 
   /** Brand */

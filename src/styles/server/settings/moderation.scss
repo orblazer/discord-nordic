@@ -8,6 +8,24 @@
   content: url(svg('server/settings/moderation/rules-light.svg'));
 }
 
+.verificationLevelHook-2NkX9o[style*='color: rgb(#{$green-360-rgb})'] {
+  color: var(--green-360) !important;
+}
+.verificationLevelHook-2NkX9o[style*='color: rgb(#{$yellow-300-rgb})'] {
+  color: var(--yellow-300) !important;
+}
+.verificationLevelHook-2NkX9o[style*='color: rgb(#{$orange-345-rgb})'] {
+  color: var(--orange-345) !important;
+}
+.verificationLevelHook-2NkX9o[style*='color: rgb(#{$red-400-rgb})'] {
+  color: var(--red-400) !important;
+}
+
+/* (edit) */
+.radioBar-1XgZqD[style*='--radio-bar-accent-color:hsl(#{$orange-345-hsl})'] {
+  --radio-bar-accent-color: var(--orange-345) !important;
+}
+
 /*
  * AutoMod
  */

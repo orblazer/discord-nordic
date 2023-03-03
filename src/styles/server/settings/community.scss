@@ -9,6 +9,16 @@
   content: url(svg('server/settings/community/stars.svg'));
 }
 
+.featureIcon-2sTnDK path[fill='hsl(#{$green-360-hsl})'] {
+  fill: var(--green-360);
+}
+.featureIcon-2sTnDK path[fill='hsl(215.38,82.78%,59.02%)'] {
+  fill: var(--text-link);
+}
+.featureIcon-2sTnDK path[fill='hsl(#{$red-360-hsl})'] {
+  fill: var(--red-360);
+}
+
 /*
  * > enable community > get started
  */
@@ -35,6 +45,31 @@
 }
 .content--gAC_W img[src='/assets/b6193b9564ca0ecbbd1ed6b80f47646d.svg'] /** (step 3) */ {
   content: url(svg('server/settings/community/check.svg'));
+}
+
+/* (step 3) */
+.checklistIcon-nKaK0A {
+  circle[fill='hsl(#{$white-500-hsl})'] {
+    fill: var(--black-500);
+  }
+  path[fill='hsl(#{$green-360-hsl})'] {
+    fill: var(--green-360);
+  }
+}
+
+/*
+ * Partner programs
+ */
+.featureIcon-2sTnDK path[fill='hsl(#{$brand-500-hsl})'] {
+  fill: var(--brand-500);
+}
+
+/* ! > discovery */
+.checklistIcon-D7psvE path[fill='hsl(#{$red-400-hsl})'] {
+  fill: var(--red-400);
+}
+.checklistIcon-D7psvE path[fill='hsl(#{$yellow-300-hsl})'] {
+  fill: var(--yellow-300);
 }
 
 /*

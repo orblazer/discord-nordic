@@ -80,7 +80,7 @@
  */
 .colorDefault-2_rLdz .check-3-73a4, /** checkbox + Profile Popup > status > switch account */
 /** hover state */
-.colorDefault-2_rLdz.focused-3LIdPu:not(.colorDanger-3umuSx), /** + Profile Popup > status > switch account */
+.colorDefault-2_rLdz.focused-3LIdPu:not(.colorDanger-3umuSx):not(.menuItemFocused-2cC4Ku), /** + Profile Popup > status > switch account (menuItem = user popup) */
 .colorDefault-2_rLdz.focused-3LIdPu .checkbox-397WsK,
 .colorDefault-2_rLdz.focused-3LIdPu .radioSelection-3PDNAQ,
 .colorDefault-2_rLdz.focused-3LIdPu .subtext-1mqKVB {
@@ -90,12 +90,10 @@
 /*
  * Circle checked icon
  */
-.selectedIcon-122rMx circle[fill='var(--white-500)'], /** user settings > profiles (server tab) > choose server */
+.selectedIcon-122rMx circle[fill='white'], /** user settings > profiles (server tab) > choose server */
 .checkbox-1LuCGM[style*='background-color: rgb(#{$green-360-rgb})'] path[fill='var(--white-500)'], /** server > notification settings */
-.activeIcon-1ykRnF circle[fill='var(--white-500)'], /** profile popup > status > switch account */
-.descriptionIcon-3nDZrK circle[cx='12'][fill='var(--white-500)'], /** server settings > server template */
-.checklistIcon-nKaK0A circle[fill='var(--white-500)'], /** server settings > enable community > get started (step 3) */
-.-icon-2dMyvd circle[fill="var(--white-100)"] /* server settings > onboarding (check it out) */ {
+.descriptionIcon-3nDZrK circle[cx='12'][fill='hsl(#{$white-500-hsl})'], /** server settings > server template */
+.-icon-2dMyvd circle[fill="hsl(var(--white-500-hsl))"] /* server settings > onboarding (check it out) */ {
   fill: var(--black-500);
 }
 
@@ -104,10 +102,19 @@
   color: var(--black-500);
 }
 
+.activeIcon-1ykRnF /** profile popup > status > switch account */ {
+  circle[fill='hsl(#{$white-500-hsl})'] {
+    fill: var(--black-500);
+  }
+  path[fill='hsl(#{$brand-500-hsl})'] {
+    fill: var(--brand-500);
+  }
+}
+
 /*
  * Square checked icon
  */
-.checked-22NTbO[style*='background-color: var(--brand-experiment-500)'] path[fill='var(--white-500)'] {
+.checked-22NTbO[style*='background-color: var(--brand-experiment-500)'] path[fill='hsl(#{$white-500-hsl})'] {
   fill: var(--black-500);
 }
 
