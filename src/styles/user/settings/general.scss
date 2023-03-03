@@ -40,6 +40,15 @@
 }
 
 /*
+ * > Privacy & Safety
+ */
+@if is_uniform() {
+  .itemFilled-2Fo7lr[aria-checked='true'] {
+    background-color: var(--background-secondary-alt);
+  }
+}
+
+/*
  * > authorizes apps
  */
 .permissionCheckmark-ji-OoY {

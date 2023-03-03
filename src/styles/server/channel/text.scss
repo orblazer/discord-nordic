@@ -1,6 +1,8 @@
-.wrapper-22rqw6 /* emoji picker */ {
-  background-color: var(--background-secondary);
-  border-right: 1px solid hsl(var(--primary-900-hsl) / 0.2);
+@if is_uniform() {
+  .wrapper-22rqw6 /* emoji picker */ {
+    background-color: var(--background-secondary);
+    border-right: 1px solid hsl(var(--primary-900-hsl) / 0.2);
+  }
 }
 
 /*
@@ -55,8 +57,10 @@
 /*
  * > Reaction
  */
-.reaction-3vwAF2 {
-  border-color: var(--background-tertiary);
+@if is_uniform() {
+  .reaction-3vwAF2 {
+    border-color: var(--background-tertiary);
+  }
 }
 
 .theme-light .reaction-3vwAF2 {
@@ -66,6 +70,8 @@
 /*
  * > Embed
  */
-.theme-light .embedFull-1HGV2S {
-  background-color: var(--primary-160);
+@if is_uniform() == false {
+  .theme-light .embedFull-1HGV2S {
+    background-color: var(--primary-160);
+  }
 }

@@ -4,7 +4,7 @@
 
 This theme change all discord style for follow [Nord palette](https://www.nordtheme.com/).
 
-> If you want the uniform (with only 1 color for background) variant please go to [uniform branch](https://github.com/orblazer/discord-nordic/tree/uniform)
+> If you want the uniform (with only 1 color for background) variant please go to [uniform folder](https://raw.githubusercontent.com/orblazer/discord-nordic/master/uniform)
 
 ## Preview
 
@@ -24,7 +24,7 @@ This theme change all discord style for follow [Nord palette](https://www.nordth
 ### Powercord
 
 1. Go to your themes folder (from **[Powercord](https://powercord.dev/)**)
-2. Open a terminal of your choice and run this command: `git clone -b master https://github.com/orblazer/discord-nordic`
+2. Open a terminal of your choice and run this command: `git clone https://github.com/orblazer/discord-nordic`
 3. Go to the themes tab and click "Load missing themes".
 4. Donate if you could <3
 

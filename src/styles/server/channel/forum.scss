@@ -43,5 +43,10 @@
 }
 
 .reaction-102jx9 {
-  background-color: var(--background-primary);
+  @if is_uniform() {
+    background-color: var(--background-secondary-alt);
+    border-color: var(--background-primary);
+  } @else {
+    background-color: var(--background-primary);
+  }
 }

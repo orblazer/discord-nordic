@@ -101,3 +101,16 @@
 .uploadSizeIcon-3OSRBC {
   color: var(--premium-tier-2-pink);
 }
+
+@if is_uniform() {
+  .card-2xlCYc {
+    background-color: var(--background-secondary);
+
+    &:hover {
+      background-color: var(--background-secondary-alt);
+    }
+  }
+  .gemWithoutLabel-1od40y {
+    color: var(--text-muted) !important;
+  }
+}
