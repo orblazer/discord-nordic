@@ -1,3 +1,17 @@
+## [4.10.1](https://github.com/orblazer/discord-nordic/compare/v4.10.0...v4.10.1) (2023-03-03)
+
+
+### Bug Fixes
+
+* update to last discord version ([070f3a2](https://github.com/orblazer/discord-nordic/commit/070f3a20d65c0c0e1a6f11d69ffbc435e8882336))
+
+
+### Reverts
+
+* "refactor: move uniform to separate branch" ([c62c17b](https://github.com/orblazer/discord-nordic/commit/c62c17b8ac5f6a795970ab26af8b6bc1f7ec6d25))
+
+
+
 # [4.10.0](https://github.com/orblazer/discord-nordic/compare/v4.9.1...v4.10.0) (2023-03-02)
 
 ## Move uniform to [uniform branch](https://github.com/orblazer/discord-nordic/tree/uniform)
