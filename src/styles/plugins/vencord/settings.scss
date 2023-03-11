@@ -11,3 +11,11 @@
 .lookFilled-yCfaCM.colorYellow-Pgtmch {
   color: var(--black-500);
 }
+
+/*
+ * > Plugin
+ */
+/* "NEW" badge */
+.vc-plugins-badge[style*='background-color: rgb(237, 66, 69)'] {
+  background-color: var(--red-500);
+}
