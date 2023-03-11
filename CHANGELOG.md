@@ -1,3 +1,14 @@
+## [4.10.2](https://github.com/orblazer/discord-nordic/compare/v4.10.1...v4.10.2) (2023-03-11)
+
+
+### Bug Fixes
+
+* **vencord:** use right colors for new plugin badge ([e88ed4f](https://github.com/orblazer/discord-nordic/commit/e88ed4fd0da8e0fddf595ed7470a624e71822e8a))
+* **web:** colorize login artwork ([e624c22](https://github.com/orblazer/discord-nordic/commit/e624c22ac465d5b577eb65f94c2acd512f82abb1))
+* update to last discord version ([51d841b](https://github.com/orblazer/discord-nordic/commit/51d841ba4c7973a6ff04433254bc9a7e8e3a91ff))
+
+
+
 ## [4.10.1](https://github.com/orblazer/discord-nordic/compare/v4.10.0...v4.10.1) (2023-03-03)
 
 
