@@ -1,3 +1,54 @@
+@import 'discord-color';
+
+/*
+ * Login artwork
+ */
+.artwork-L5TAwQ {
+  & > path[fill='#{$brand-500-hex}'] {
+    fill: var(--brand-600);
+  }
+
+  circle[stroke="#29cc7a"] /* right avatar status */ {
+    stroke: var(--nord-green);
+  }
+
+  /* Clouds */
+  path[fill='#6270fc'],
+  path[fill='#6874f7'],
+  & > path[fill='#4452f2'],
+  g[data-name="Layer 22"] > path[fill='#4452f2'], /* shadow for top left avatar */
+  g[data-name="Layer 21"] > path[fill='#4452f2'] /* shadow for bottom left avatar */ {
+    fill: var(--brand-500);
+  }
+
+  path[fill='#707cff'],
+  path[fill='#6a77fc'] {
+    fill: var(--brand-400);
+  }
+
+  & > path[fill="#3442d9"],
+  circle[fill='#0c1aad'] /* brand avatar background */ {
+    fill: var(--brand-800);
+  }
+
+  /* Sparks */
+  & > path[fill='#ff78b9'],
+  g[data-name="Layer 22"] > path[fill='#eb459f'] /* ! Top left avatar background */ {
+    fill: var(--nord-pink);
+  }
+
+  path[fill='#91ffad'] {
+    fill: var(--nord-green);
+  }
+
+  & > path[fill='#66bcff'], /* Sparks */
+  path[fill='#4ab0ff'], /* Water droplets */
+  g[data-name='Layer 14'] > path[fill='#66bcff'],
+  circle[fill='#66bcff'] /* Right avatar background */ {
+    fill: var(--nord-cyan);
+  }
+}
+
 /*
  * Download bar
  */
@@ -12,8 +63,11 @@
 }
 
 .button-1iHNQ2 {
-  color: var(--black-500);
-  border-color: currentColor;
+  color: var(--black-500) !important;
+
+  &:not(:hover) {
+    border-color: currentColor !important;
+  }
 }
 
 .closeIcon-3eoP1e path {
