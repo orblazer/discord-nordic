@@ -34,15 +34,3 @@
     color: var(--text-muted);
   }
 }
-
-/*
- * > Server template
- */
-.descriptionIcon-3nDZrK {
-  path[fill='hsl(#{$green-360-hsl})'] {
-    fill: var(--green-360);
-  }
-  path[fill='hsl(#{$red-400-hsl})'] {
-    fill: var(--red-400);
-  }
-}

@@ -1,5 +1,4 @@
 $primary-160-rgb: 238, 239, 241;
-$primary-400-hsl: '226.15,5.49%,53.53%';
 $primary-400-hex: #82858f;
 $primary-400-rgb: 130, 133, 143;
 $primary-700-rgb: 30, 31, 34;
@@ -7,35 +6,24 @@ $primary-800-rgb: 17, 18, 20;
 
 $white-500-rgb: 255, 255, 255;
 $white-500-hex: #ffffff;
-$white-500-hsl: '0,0%,100%';
 
 /*
  * Colors
  */
-$orange-345-hsl: '28.34,87.67%,55.49%';
-$orange-345-rgb: 241, 136, 42;
-
-$yellow-360-hsl: '39.02,74.43%,42.94%';
-$yellow-300-hsl: '40.42,86.36%,56.86%';
 $yellow-300-hex: #f0b232;
 $yellow-300-rgb: 240, 178, 50;
 
-$green-360-hsl: '145.38,65%,39.22%';
 $green-360-rgb: 35, 165, 90;
 $green-360-hex: #23a55a;
 $status-green-600-hex: #3ba55c; // ? Old value
 
-$red-360-hsl: '358.47,91.81%,66.47%';
-$red-400-hsl: '358.66,87.32%,59.8%';
 $red-400-hex: #f23f43;
 $red-400-rgb: 242, 63, 67;
 
 /*
  * Brand
  */
-$brand-260-rgb: 201, 205, 251;
 $brand-500: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);
-$brand-500-hsl: '234.94,85.56%,64.71%';
 $brand-500-hex: #5865f2;
 $brand-500-rgb: 88, 101, 242;
 

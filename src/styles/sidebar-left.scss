@@ -103,24 +103,15 @@
 
 /* new activities */
 .defaultColor-1GKx81[style*='color: white'],
-.subheaderText-Jg7wmo[style*='color: white'] {
-  color: var(--black-500);
+.subheaderText-Jg7wmo[style*='color: white'],
+.subheaderText-3eTD8a[style*='color: white'] /* new way to react */ {
+  color: var(--black-500) !important;
 }
 
-/*
- * User popup
- */
-.status-3cqfT9[style*='background-color: rgb(#{$green-360-rgb})'] {
-  background-color: var(--user-status-online) !important;
-}
-.status-3cqfT9[style*='background-color: rgb(#{$yellow-300-rgb})'] {
-  background-color: var(--user-status-idle) !important;
-}
-.status-3cqfT9[style*='background-color: rgb(#{$red-400-rgb})'] {
-  background-color: var(--user-status-dnd) !important;
-}
-.status-3cqfT9[style*='background-color: rgb(#{$primary-400-rgb})'] {
-  background-color: var(--user-status-invisible) !important;
+/* new way to react */
+.content-2Nqgau,
+.subheaderText-3eTD8a a {
+  color: var(--black-500);
 }
 
 /*

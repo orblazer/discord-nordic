@@ -32,19 +32,6 @@
       border-box;
 }
 
-.statusDot-39Gozj rect[fill='hsl(#{$green-360-hsl})'] {
-  fill: var(--user-status-online);
-}
-.statusDot-39Gozj rect[fill='hsl(#{$yellow-300-hsl})'] {
-  fill: var(--user-status-idle);
-}
-.statusDot-39Gozj rect[fill='hsl(#{$red-400-hsl})'] {
-  fill: var(--user-status-dnd);
-}
-.statusDot-39Gozj rect[fill='hsl(#{$primary-400-hsl})'] {
-  fill: var(--user-status-invisible);
-}
-
 /*
  * >> server profiles > choose a server
  */
@@ -59,17 +46,6 @@
   .itemFilled-2Fo7lr[aria-checked='true'] {
     background-color: var(--background-secondary-alt);
   }
-}
-
-/* ! server settings > rules screening (edit) */
-.radioBar-1XgZqD[style*='--radio-bar-accent-color:hsl(#{$green-360-hsl})'] {
-  --radio-bar-accent-color: var(--green-360) !important;
-}
-.radioBar-1XgZqD[style*='--radio-bar-accent-color:hsl(#{$yellow-360-hsl})'] {
-  --radio-bar-accent-color: var(--yellow-360) !important;
-}
-.radioBar-1XgZqD[style*='--radio-bar-accent-color:hsl(#{$red-400-hsl})'] {
-  --radio-bar-accent-color: var(--red-400) !important;
 }
 
 /*

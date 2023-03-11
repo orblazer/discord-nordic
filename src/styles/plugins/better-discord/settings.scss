@@ -99,11 +99,6 @@
 }
 
 // Checkbox
-.checked-22NTbO[style*='background-color: rgb(#{$brand-500-rgb})'] {
-  background-color: var(--brand-500) !important;
-  border-color: var(--brand-500) !important;
-
-  path[fill='#{"" + $white-500-hex}'] {
-    fill: var(--black-500);
-  }
+.checked-22NTbO[style*='background-color: var(--brand-500)'] path[fill='#{"" + $white-500-hex}'] {
+  fill: var(--black-500);
 }
