@@ -13,6 +13,11 @@
     color: var(--white-500) !important;
   }
 }
-.subscriberCountText-2UmR-T path[fill='var(--white-500)'] {
-  fill: var(--black-500);
+.subscriberCountText-2UmR-T {
+  path[fill='var(--white-500)'] {
+    fill: var(--black-500);
+  }
+  & > .text-md-normal-2rFCH3 {
+    color: var(--black-500) !important;
+  }
 }
