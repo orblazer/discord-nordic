@@ -47,9 +47,11 @@
 }
 
 // Tier blocks
-.pricePerInterval-1HgDkM[style*='color: white'],
-.text-md-normal-2rFCH3[style*='color: white'] {
-  color: currentColor !important;
+.premiumCards-36uMGt {
+  .pricePerInterval-1HgDkM[style*='color: white'],
+  .text-md-normal-2rFCH3[style*='color: white'] {
+    color: currentColor !important;
+  }
 }
 .tier0-17mYUd {
   background: var(--premium-tier-0-blue);
@@ -67,7 +69,7 @@
 .theme-light .sparkle-20-Tko.sparkleStarTopRight-9-iiLE {
   color: var(--brand-experiment-400);
 }
-.tier0-17mYUd .containerColored-3FAZAx .sparkle-20-Tko.sparkleStarRight-1EeOs8,
+.containerColored-3FAZAx .sparkle-20-Tko.sparkleStarRight-1EeOs8,
 .theme-light .sparkle-20-Tko.sparkleStarRight-1EeOs8 {
   color: var(--premium-perk-pink);
 }

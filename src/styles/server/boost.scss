@@ -1,38 +1,69 @@
-@if is_uniform() {
-  .theme-dark .perksModal-CLcR1c,
-  .theme-dark .tierMarkerBackground-G8FoN4 {
-    background-color: var(--background-primary);
-  }
+.header-16U6Vf {
+  background: center 15%/90% auto url(svg('server/boost/sparks.svg')) no-repeat,
+    linear-gradient(359.37deg, rgba(0, 0, 0, 0.5) 12.68%, hsla(0, 0%, 100%, 0) 50.4%),
+    linear-gradient(
+      159.15deg,
+      var(--premium-tier-0-header-gradient-1) 8.49%,
+      var(--premium-tier-0-header-gradient-2) 32.21%,
+      var(--premium-tier-0-header-gradient-3) 62.9%,
+      var(--premium-tier-0-header-gradient-4) 86.06%,
+      var(--premium-tier-0-header-gradient-5) 91.4%
+    );
 
-  .tierBody-3ju-rc,
-  .perk-19D_HN {
-    background-color: var(--background-secondary) !important;
-  }
-
-  .theme-dark .tierHeaderLocked-3ItHYn {
-    background-color: var(--c-background-secondary-alt2);
-  }
-  .theme-dark .tierHeaderLocked-3ItHYn,
-  .theme-dark .tierLock-1uBqZ0 {
-    color: var(--text-muted) !important;
+  .heading-r8UAKC,
+  .guildName-3bWSIw {
+    color: var(--white-500) !important;
   }
 }
 
-.tierMarkerAccomplished-1SkbEJ[style*='background: rgb(#{$guild-boosting-pink-rgb})'] {
-  background-color: var(--guild-boosting-pink) !important;
+.guildBoostCount-ghTpE8 {
+  color: var(--white-100);
+}
 
-  .currentTierIcon-2rq-bv {
-    color: var(--black-500);
+.guildBoostCtaBoostContent-FoEo51 {
+  color: var(--brand-800);
+}
+
+.progressBarMarker-2dy17R + .progressBarMarker-2dy17R .progressBarMarkerLabel-2EgZ3G {
+  color: var(--primary-800);
+}
+
+/*
+ * > Cards
+ */
+.tierCardCurrentTier-ed2p6N {
+  background: var(--guild-boosting-purple);
+  color: var(--black-500) !important;
+}
+
+.tierCardNewFeatureBadge-Ber503 {
+  background: var(--white-500);
+  color: var(--black-500);
+}
+
+.tierCardBoostRequirement-1ZQXbZ {
+  color: var(--primary-800) !important;
+}
+.tierCardHeading-2752oA,
+.tierCardListItem-n3jr78 {
+  color: var(--primary-700) !important;
+}
+
+.tierCardListIcon-1nx1pO {
+  circle[fill='white'],
+  rect[fill='white'] {
+    fill: currentColor;
   }
 }
 
-.tierMarkerInProgress-2Tdxjz[style*='background: rgb(#{$primary-700-rgb})'] {
-  background: var(--primary-700) !important;
-}
-.tierMarkerInProgress-2Tdxjz[style*='background: rgb(#{$primary-160-rgb})'] {
-  background: var(--primary-160) !important;
+/*
+ * > level up server
+ */
+.recommendedTierHighlightTag-2Vgifo {
+  color: var(--black-500) !important;
+  background: var(--guild-boosting-purple);
 }
 
-.tierUnlocked-1yG5Ic {
-  color: var(--brand-800) !important;
+.wrapper-1ReDXd .defaultColor-1GKx81[style*='color: white'] {
+  color: var(--black-500) !important;
 }
