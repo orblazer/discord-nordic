@@ -26,14 +26,30 @@
   background-image: url(svg('user/settings/general/upload.svg'));
 }
 
-.premiumFeatureBorder-1i95si {
+.premiumFeatureBorder-1i95si,
+.upsellOverlayContainer-3NMgTS /* >> server profile */ {
   background: linear-gradient(var(--background-primary), var(--background-primary)) padding-box,
     linear-gradient(45deg, var(--premium-tier-2-purple-for-gradients), var(--premium-tier-2-pink-for-gradients))
       border-box;
 }
 
 /*
- * >> server profiles > choose a server
+ * >> server profile
+ */
+.upsellTextContainer-2_9JSn {
+  background: linear-gradient(
+    90deg,
+    var(--premium-tier-2-purple-for-gradients),
+    var(--premium-tier-2-pink-for-gradients)
+  );
+
+  .text-lg-semibold-UQkeZc[style*='color: white'] {
+    color: var(--black-500) !important;
+  }
+}
+
+/*
+ * >>> choose a server
  */
 .selectedIcon-19TbzU circle[fill='white'] {
   fill: var(--black-500);
