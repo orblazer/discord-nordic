@@ -30,6 +30,13 @@
 }
 
 /*
+ * > choose activity (when empty)
+ */
+.root-1BPI9i .colorBrand-2M3O3N .defaultColor-1EVLSt {
+  color: var(--black-500);
+}
+
+/*
  * > Start activity
  */
 .tryItOutBadge-27UB1L {
@@ -72,8 +79,8 @@
 /*
  * > react with emoji > "enable fun reaction with nitro" message
  */
-.tooltipBrand-20XsMA,
-.tooltipText-2kLmrq {
+.tooltipBrand-uKW6Xn,
+.tooltipBrand-uKW6Xn .tooltipText-2kLmrq {
   color: var(--black-500) !important;
 }
 
