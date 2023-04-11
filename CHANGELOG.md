@@ -1,3 +1,19 @@
+## [4.10.3](https://github.com/orblazer/discord-nordic/compare/v4.10.2...v4.10.3) (2023-04-11)
+
+
+### Bug Fixes
+
+* **menu:** colorize avatar decoration info ([8b9e91b](https://github.com/orblazer/discord-nordic/commit/8b9e91b55ed2c5495ab7e2a762efaf54da8f1b41))
+* **server:** colorize choose activity and tooltip react emoji ([80ab6e0](https://github.com/orblazer/discord-nordic/commit/80ab6e0fa0ca34f9e9807ac3a3b618c046f3a39f))
+* **server:** colorize item text in server boost nitro ([de79e74](https://github.com/orblazer/discord-nordic/commit/de79e74496e20e06ca347102f63fe7726c661866))
+* **server:** colorize new boost page ([1eabcf2](https://github.com/orblazer/discord-nordic/commit/1eabcf24cd2bfd82298ec29be833255a65d581f9))
+* **server:** colorize sub count text ([f3d8312](https://github.com/orblazer/discord-nordic/commit/f3d8312aeefa160329b6710898972b8c61b410ed))
+* update color for for offline status and switch ([23c74c2](https://github.com/orblazer/discord-nordic/commit/23c74c241f5471731f4f62787546c3fc2c62deca))
+* **user:** colorize beta and new tag on nitro ([2a153ac](https://github.com/orblazer/discord-nordic/commit/2a153ac83fac5444560de154d230b5a1d9b262d6))
+* **user:** colorize server profile upsell ([de0448b](https://github.com/orblazer/discord-nordic/commit/de0448b952111d7579012042aab8e0537b9d7232))
+
+
+
 ## [4.10.2](https://github.com/orblazer/discord-nordic/compare/v4.10.1...v4.10.2) (2023-03-11)
 
 
