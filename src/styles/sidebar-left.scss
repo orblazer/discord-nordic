@@ -102,16 +102,29 @@
 }
 
 /* new activities */
-.defaultColor-1GKx81[style*='color: white'],
+.defaultColor-1GKx81[style*='color: white'], /* + avatar decoration */
 .subheaderText-Jg7wmo[style*='color: white'],
-.subheaderText-3eTD8a[style*='color: white'] /* new way to react */ {
+.subheaderText-3eTD8a[style*='color: white'], /* new way to react */
+.text-sm-normal-AEQz4v[style*='color: white'] /* avatar decoration */ {
   color: var(--black-500) !important;
 }
 
 /* new way to react */
 .content-2Nqgau,
-.subheaderText-3eTD8a a {
+.subheaderText-3eTD8a a,
+/* avatar decoration */
+.premiumIcon-hLV4L9,
+.contentPremium-_Y0-cX .lookLink-13iF2K.colorWhite-Eshn2o {
   color: var(--black-500);
+}
+
+/* avatar decoration */
+.contentPremium-_Y0-cX .lookLink-13iF2K.colorWhite-Eshn2o:hover .contents-3NembX {
+  --button--underline-color: var(--black-500);
+}
+
+.contentPremium-_Y0-cX .pointer-1iS5lL {
+  border-top-color: var(--premium-tier-2-pink);
 }
 
 /*
