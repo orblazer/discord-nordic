@@ -30,6 +30,12 @@
 /*
  * > nitro
  */
+.betaTag-1SPc-F, /* >> favorite perks section */
+.betaTag-3EG9SR /* >> pick plan section */ {
+  background: var(--premium-perk-pink) !important;
+  color: var(--black-500);
+}
+
 .settingsTextContainer-3grHhq .defaultColor-1GKx81[style*='color: white'],
 .settingsTextContainer-3grHhq .description-2_tPhd[style*='color: white'] {
   color: var(--header-primary) !important;
@@ -53,11 +59,32 @@
   color: var(--primary-660);
 }
 
+.newTagItem-1LPxlR {
+  background: var(--white-500);
+  color: var(--black-500);
+}
+.containerColored-3FAZAx .sparkle-20-Tko.sparkleStarTopRight-9-iiLE,
+.theme-light .sparkle-20-Tko.sparkleStarTopRight-9-iiLE {
+  color: var(--brand-experiment-400);
+}
+.tier0-17mYUd .containerColored-3FAZAx .sparkle-20-Tko.sparkleStarRight-1EeOs8,
+.theme-light .sparkle-20-Tko.sparkleStarRight-1EeOs8 {
+  color: var(--premium-perk-pink);
+}
+.tier2-qNjKTW .containerColored-3FAZAx .sparkle-20-Tko.sparkleStarRight-1EeOs8 {
+  color: var(--premium-perk-light-blue);
+}
+
 /*
  * >> favorite perks section
  */
-.tag-3Upstw /* (new tag) */ {
+.tag-3Upstw:not(.smallPerkCardNewBadge-3-NllX ) /* (new tag) */ {
   color: var(--black-500);
+}
+
+.smallPerkCardNewBadge-3-NllX {
+  background: var(--premium-perk-pink);
+  color: var(--black-500) !important;
 }
 
 /*
