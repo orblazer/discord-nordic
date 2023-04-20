@@ -1,3 +1,12 @@
+## [4.10.5](https://github.com/orblazer/discord-nordic/compare/v4.10.4...v4.10.5) (2023-04-20)
+
+
+### Bug Fixes
+
+* **user:** right colorize badge command (again) ([8e5bc6a](https://github.com/orblazer/discord-nordic/commit/8e5bc6ad5b47dbfac7d9e04d27c67c8f8871a670))
+
+
+
 ## [4.10.4](https://github.com/orblazer/discord-nordic/compare/v4.10.3...v4.10.4) (2023-04-18)
 
 
