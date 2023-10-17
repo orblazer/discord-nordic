@@ -28,9 +28,24 @@
 
 .premiumFeatureBorder-1i95si,
 .upsellOverlayContainer-3NMgTS /* >> server profile */ {
-  background: linear-gradient(var(--background-primary), var(--background-primary)) padding-box,
-    linear-gradient(45deg, var(--premium-tier-2-purple-for-gradients), var(--premium-tier-2-pink-for-gradients))
+  background: linear-gradient(
+        var(--background-primary),
+        var(--background-primary)
+      )
+      padding-box,
+    linear-gradient(
+        45deg,
+        var(--premium-tier-2-purple-for-gradients),
+        var(--premium-tier-2-pink-for-gradients)
+      )
       border-box;
+}
+
+.premiumFeatureBannerBackground-Epwl-X {
+  .title-CXxZie[style*='color: white'],
+  .textBody-1mECjS[style*='color: white'] {
+    color: white !important;
+  }
 }
 
 /*
