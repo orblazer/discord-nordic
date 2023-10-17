@@ -79,10 +79,16 @@
   /** Nitro */
   --premium-tier-2-pink-hsl: var(--nord-pink-hsl); /*! nord color */
   --premium-tier-2-pink-for-gradients-hsl: var(--premium-tier-2-pink-hsl);
-  --premium-tier-2-pink-for-gradients-2-hsl: var(--premium-tier-2-pink-for-gradients-hsl);
+  --premium-tier-2-pink-for-gradients-2-hsl: var(
+    --premium-tier-2-pink-for-gradients-hsl
+  );
   --premium-tier-2-purple-hsl: var(--premium-tier-2-pink-hsl);
-  --premium-tier-2-purple-for-gradients-hsl: var(--premium-tier-2-pink-for-gradients-hsl);
-  --premium-tier-2-purple-for-gradients-2-hsl: var(--premium-tier-2-pink-for-gradients-hsl);
+  --premium-tier-2-purple-for-gradients-hsl: var(
+    --premium-tier-2-pink-for-gradients-hsl
+  );
+  --premium-tier-2-purple-for-gradients-2-hsl: var(
+    --premium-tier-2-pink-for-gradients-hsl
+  );
   --premium-tier-0-blue-hsl: var(--nord-blue-hsl); /*! nord color */
   --premium-tier-0-purple-hsl: var(--premium-tier-2-pink-hsl);
   --premium-tier-0-header-gradient-1-hsl: var(--premium-tier-0-blue-hsl);
@@ -95,7 +101,9 @@
   --guild-boosting-purple-hsl: var(--premium-tier-2-pink-hsl);
   --guild-boosting-blue-hsl: var(--premium-tier-0-blue-hsl);
   --guild-boosting-blue-for-gradients-hsl: var(--premium-tier-0-blue-hsl);
-  --guild-boosting-purple-for-gradients-hsl: var(--premium-tier-2-purple-for-gradients-hsl);
+  --guild-boosting-purple-for-gradients-hsl: var(
+    --premium-tier-2-purple-for-gradients-hsl
+  );
 
   --premium-perk-purple-hsl: var(--premium-tier-2-pink-hsl);
   --premium-perk-pink-hsl: var(--premium-tier-2-pink-hsl);
@@ -119,9 +127,6 @@
   --button-danger-background-active: var(--red-630);
   --button-outline-danger-background-active: var(--red-560);
 
-  --button-positive-background-hover: var(--green-730);
-  --button-positive-background-active: var(--green-760);
-
   --home-background: var(--background-primary);
 
   @if is_uniform() {
@@ -134,6 +139,9 @@
 .theme-dark {
   --status-positive-text: var(--black-500);
   --search-popout-date-picker-hint-value-text: var(--black-500);
+
+  --button-positive-background-hover: var(--green-730);
+  --button-positive-background-active: var(--green-760);
 }
 
 .theme-dark {
@@ -198,7 +206,11 @@
   --scrollbar-auto-thumb: var(--primary-260);
   --scrollbar-auto-track: var(--background-message-hover);
 
-  --search-popout-option-fade-hover: linear-gradient(90deg, hsl(var(--primary-260-hsl) / 0), var(--primary-260) 50%);
+  --search-popout-option-fade-hover: linear-gradient(
+    90deg,
+    hsl(var(--primary-260-hsl) / 0),
+    var(--primary-260) 50%
+  );
 
   @if is_uniform() {
     /* custom variables */
