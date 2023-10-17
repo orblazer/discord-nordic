@@ -53,7 +53,7 @@
 /*
  * Button with brand background
  */
-.lookFilled-1H2Jvj.colorBrand-2M3O3N:not(.button-1EGGcP):not(.button-35nmN9), /** User settings */
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:not(.button-2gNyE9):not(.button-35nmN9), /** User settings (2gNyE9 = voice buttons) */
 .lookOutlined-3RTC7c.colorBrand-2M3O3N:hover, /** User settings > privacy & safety */
 .lookFilled-1H2Jvj.colorBrandNew-abZT3v, /** user settings > Accessibility */
 .premiumLabel-3HPvdB.selected-2Uns2B, /** user settings > nitro (btn) */
@@ -86,7 +86,9 @@
 }
 
 /** hover state */
-.colorDefault-2_rLdz.focused-3LIdPu:not(.colorDanger-3umuSx):not(.menuItemFocused-2cC4Ku) {
+.colorDefault-2_rLdz.focused-3LIdPu:not(.colorDanger-3umuSx):not(
+    .menuItemFocused-2cC4Ku
+  ) {
   /** + Profile Popup > status > switch account (menuItem = user popup) */
   &,
   .checkbox-397WsK,
@@ -119,7 +121,8 @@
 /*
  * Square checked icon
  */
-.checked-22NTbO[style*='background-color: var(--brand-experiment-500)'] path[fill='var(--white-500)'] {
+.checked-22NTbO[style*='background-color: var(--brand-experiment-500)']
+  path[fill='var(--white-500)'] {
   fill: var(--black-500);
 }
 
@@ -169,8 +172,10 @@
 /*
  * Search > date picker
  */
-.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--keyboard-selected,
-.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:hover,
+.calendarPicker-sDhzdi
+  .react-datepicker__day.react-datepicker__day--keyboard-selected,
+.calendarPicker-sDhzdi
+  .react-datepicker__day.react-datepicker__day--selected:hover,
 .calendarPicker-sDhzdi .react-datepicker__day:hover {
   color: var(--black-500);
 }
