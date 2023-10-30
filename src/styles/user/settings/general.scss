@@ -1,72 +1,29 @@
 /*
  * > my account
  */
-.lockIcon-3t6Ow0[src='/assets/55b367aaef0b83c837ac6c3bfe01da4c.svg'],
-.secured-2wavXv:before /*! sidebar left > click on 'voice connected' */ {
+.lockIcon_cf3a4d[src='/assets/2035204bfda605f5ac43.svg'],
+.secured__615be:before /*! sidebar left > click on 'voice connected' */ {
   content: url(svg('user/settings/general/lock.svg'));
 }
 
 /*
- * >> edit username
- */
-.questionMark-3V9mGJ .icon-3JHfo7 {
-  color: var(--black-500);
-}
-
-/*
- * >> edit mail
- */
-/* .headerImage-2osrlm[src='/assets/7b5789bc4c78776081a765ce007a210e.svg'] { !TODO: couldn't replaced
-} */
-
-/*
  * > profiles
  */
-.theme-dark .imageUploaderIcon-2OHmFu {
-  background-image: url(svg('user/settings/general/upload.svg'));
-}
-
-.premiumFeatureBorder-1i95si,
-.upsellOverlayContainer-3NMgTS /* >> server profile */ {
-  background: linear-gradient(
-        var(--background-primary),
-        var(--background-primary)
-      )
-      padding-box,
-    linear-gradient(
-        45deg,
-        var(--premium-tier-2-purple-for-gradients),
-        var(--premium-tier-2-pink-for-gradients)
-      )
-      border-box;
-}
-
-.premiumFeatureBannerBackground-Epwl-X {
-  .title-CXxZie[style*='color: white'],
-  .textBody-1mECjS[style*='color: white'] {
-    color: white !important;
-  }
+.uploadIcon__68f2c {
+  color: var(--primary-460-hsl);
 }
 
 /*
  * >> server profile
  */
-.upsellTextContainer-2_9JSn {
-  background: linear-gradient(
-    90deg,
-    var(--premium-tier-2-purple-for-gradients),
-    var(--premium-tier-2-pink-for-gradients)
-  );
-
-  .text-lg-semibold-UQkeZc[style*='color: white'] {
-    color: var(--black-500) !important;
-  }
+.upsellTextContainer__62647 > div[style*='color: white'] {
+  color: var(--black-500) !important;
 }
 
 /*
  * >>> choose a server
  */
-.selectedIcon-19TbzU circle[fill='white'] {
+.selectedIcon__4b0ba circle[fill='white'] {
   fill: var(--black-500);
 }
 
@@ -74,7 +31,7 @@
  * > Privacy & Safety
  */
 @if is_uniform() {
-  .itemFilled-2Fo7lr[aria-checked='true'] {
+  .itemFilled__373d7[aria-checked='true'] {
     background-color: var(--background-secondary-alt);
   }
 }
@@ -82,6 +39,6 @@
 /*
  * > authorizes apps
  */
-.permissionCheckmark-ji-OoY {
+.permissionCheckmark__27f79 {
   background-image: url(svg('user/settings/general/checkmark.svg'));
 }

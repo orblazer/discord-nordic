@@ -3,7 +3,7 @@
  * hover (joined)
  ! + stage bottom
  */
-.gradientContainer-phMG8d {
+.gradientContainer__9a5a6 {
   --color-rgb: var(--primary-700-hsl);
   background-image: linear-gradient(
     hsl(var(--color-rgb)),
@@ -23,60 +23,23 @@
 }
 
 /*
- * > choose activity (when empty)
- */
-.root-1BPI9i .colorBrand-2M3O3N .defaultColor-1EVLSt {
-  color: var(--black-500);
-}
-
-/*
- * > Start activity
- */
-.tryItOutBadge-27UB1L {
-  color: var(--black-500);
-}
-
-/*
  * > screen share (step 2)
  */
 @if is_uniform() {
-  .theme-dark .card-m7VgZ8 {
+  .theme-dark .card__7756d /* (fields) */ {
     border-color: var(--primary-430);
     background-color: hsl(var(--black-500-hsl) / 0.5);
   }
 
-  .theme-dark .qualitySettingsContainer-2LjkfM,
-  .theme-dark .item-2OyinQ {
+  .theme-dark .qualitySettingsContainer__5cacd,
+  .theme-dark .item__126a6 {
     border-color: var(--primary-430);
   }
 }
 
-.selectorTextSelected-2zup8I {
+.selectorTextSelected_d7d560,
+.iconColor__6cd6f,
+.upsellText_fe6864,
+.textLink__973c8 {
   color: var(--black-500);
-}
-
-.gradientBackground-MytxDL {
-  background: linear-gradient(
-    90deg,
-    var(--premium-tier-2-purple-for-gradients),
-    var(--premium-tier-2-pink-for-gradients)
-  );
-  color: var(--black-500);
-}
-.iconColor-3MUqJ2,
-.textLink-VbUIXl,
-.upsellText-29l7Q- {
-  color: currentColor;
-}
-
-/*
- * > react with emoji > "enable fun reaction with nitro" message
- */
-.tooltipBrand-uKW6Xn,
-.tooltipBrand-uKW6Xn .tooltipText-2kLmrq {
-  color: var(--black-500) !important;
-}
-
-.emojiPickerHeader-2mWh2T img[src='/assets/99088efd1b1b695e2b026ae6923924d2.svg'] {
-  content: url(svg('server/channel/voice/emoji-party.svg'));
 }

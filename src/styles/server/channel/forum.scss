@@ -1,47 +1,70 @@
-.newPostCount-3SXe5K,
-.botTagOP-3pUTXu,
-.newBadge-1LcB6t[style*='background-color: var(--brand-260)'],
-.titleBadge-13kJKi[style*='background-color: var(--brand-260)'] {
+.botTagOP_e48ddb,
+.newBadge_f7859b[style*='background-color: var(--brand-260)'], /* (list view) */
+.newBadge_a2adb2[style*='background-color: var(--brand-260)'] /* (gallery view) */ {
   color: var(--brand-900);
+}
+
+/*
+ * Moderator guide
+ */
+.theme-dark .separator__3ec56 {
+  background-color: var(--primary-500);
 }
 
 /*
  * Get started
  */
-.base-3IDx3L[style*='background-color: var(--status-positive-background)'],
-.discordIcon-2-SnKe {
+.stepStatus_f620c2[style*='background-color: var(--status-positive-background)'],
+.discordIcon_aa2c2b {
   color: var(--black-500);
 }
 
-.inline-1Al0JA img[src='/assets/513f881c80a414c9f58190184516189b.svg'] {
+.stars_c83456 {
+  path[fill='#ADF3FF'] {
+    fill: var(--nord-cyan);
+  }
+  path[fill='#FFD01A'] {
+    fill: var(--nord-yellow);
+  }
+}
+
+.inline__99a93 img[src='/assets/e7c5287d6706ac82b14b.svg'] {
   content: url(svg('server/channel/forum/guide.svg'));
+}
+
+/*
+ * Matching port ("Search or create a post")
+ */
+.theme-dark .matchingPostsRow__510be {
+  background-color: var(--background-modifier-hover);
 }
 
 /*
  * > filter
  */
-.countText-1d5thl,
-.countText-35ewVE /** Dropdown menu */ {
+.countText__6ebee,
+.countText__8c2eb /** Dropdown menu */ {
   color: var(--black-500);
 }
 
 /*
  * Post
  */
-.pinIcon-3I5-gm path[fill='white'] {
+.pinIcon__2e5b2 path[fill='white'], /* (list view) */
+.pinIcon__39b6e path[fill='white'] /* (gallery view) */ {
   fill: var(--black-500);
 }
 
-.mainCard-3KBsBI,
-.contentPreview-3fWiuC /* (gallery view) */ {
-  background-color: var(--background-secondary) /* !important */;
+.theme-dark .contentPreview_b317ee,
+.theme-dark .optionButtonWrapper__4072c:not(:hover):not(.selected__90dd8) /*! Channels & Roles > Customise */ {
+  background-color: var(--primary-500);
 }
 
-.container-2qVG6q:hover /* (list view) */ {
+.container__15ddf:hover /* (list view) */ {
   background-color: var(--background-modifier-hover);
 }
 
-.reaction-102jx9 {
+.reaction__70f84 {
   @if is_uniform() {
     background-color: var(--background-secondary-alt);
     border-color: var(--background-primary);

@@ -1,19 +1,8 @@
 /*
  * > Voice & Video
  */
-/* mic test */
-.notches-2w7UZJ.gray-3wP137 {
-  color: var(--background-primary) !important;
-}
-.theme-dark .progress-1S-TDF {
-  background-color: var(--primary-430);
-}
-.theme-light .progress-1S-TDF {
-  background-color: var(--nord-light);
-}
-
 /* shortcut */
-.theme-dark .container-30qY7E {
+.theme-dark .container__0c807 {
   @if is_uniform() {
     background-color: hsl(var(--black-500-hsl) / 0.5);
   }

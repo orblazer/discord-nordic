@@ -5,7 +5,9 @@
   $saturation: math.div(math.round(saturation($color) * 100), 100);
   $lightness: math.div(math.round(lightness($color) * 100), 100);
 
-  @return unquote('#{$hue} calc(var(--saturation-factor, 1) * #{$saturation}) #{$lightness}');
+  @return unquote(
+    '#{$hue} calc(var(--saturation-factor, 1) * #{$saturation}) #{$lightness}'
+  );
 }
 
 @mixin colorVars($name, $color) {
@@ -15,5 +17,4 @@
 
 @import 'nord-colors.scss';
 @import 'colors.scss';
-// @import 'fix-theme.scss';
 @import 'variables.scss';

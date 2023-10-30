@@ -1,15 +1,15 @@
 /*
  * Channel or category
  */
-.checked-22NTbO[style*='background-color: rgba(#{$green-360-rgb}, 0.15)'] {
+.checked__24ad6[style*='background-color: rgba(#{$green-360-rgb}, 0.15)'] {
   border-color: hsl(var(--green-360-hsl) / 0.15) !important;
   background-color: hsl(var(--green-360-hsl) / 0.15) !important;
 }
-.checked-22NTbO path[fill='#{$green-360-hex}'] {
+.checked__24ad6 path[fill='#{$green-360-hex}'] {
   fill: var(--green-360);
 }
 
-.checked-22NTbO[style*='background-color: rgb(#{$green-360-rgb})'] {
+.checked__24ad6[style*='background-color: rgb(#{$green-360-rgb})'] {
   border-color: var(--green-360) !important;
   background-color: var(--green-360) !important;
 }

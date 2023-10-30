@@ -1,28 +1,24 @@
-.directoryModal-YJsOMv {
-  background-color: var(--background-primary) !important;
-}
-
 /*
  * > [app]
  */
-.premiumIcon-3uw5J0[src='/assets/61550500acf9704ea60d48d688f07f08.svg'] {
+.premiumIcon__6b5cd[src='/assets/675e342482b30a050363.svg'] {
   content: url(svg('server/app-directory/dollar.svg'));
 }
 
 /*
- * >> "premium" tab
+ * >> "premium" tab (subscribe btn)
  */
-.button-35nmN9 {
+.button_c1569f {
   color: var(--primary-700) !important;
 }
 
 /*
  * > [app] > add to server
  */
-.scopeCheck-3trytX {
+.scopeCheck_c4c2dd .icon__33514 {
   color: var(--black-500);
 }
 
-.headerSuccess-3n55Ht {
+.headerSuccess__8d8a4 {
   background-image: url(svg('server/app-directory/success.svg'));
 }

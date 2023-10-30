@@ -1,9 +1,17 @@
-.background-fkKrXt {
-  background-color: var(--background-secondary-alt) !important;
+.background_cb0a80 {
+  background-color: var(--background-secondary-alt);
 }
-.theme-dark .headerBarInner-2pcZSM:after {
-  background: linear-gradient(180deg, rgba(var(--primary-660-rgb), 0) 0, var(--background-secondary-alt)) !important;
+.theme-dark .headerBarInner__4f0f6:after {
+  background: linear-gradient(
+    180deg,
+    rgba(var(--primary-660-rgb), 0) 0,
+    var(--background-secondary-alt)
+  );
 }
-.theme-light .headerBarInner-2pcZSM:after {
-  background: linear-gradient(180deg, rgba(var(--primary-160-rgb), 0) 0, var(--background-secondary-alt)) !important;
+.theme-light .headerBarInner__4f0f6:after {
+  background: linear-gradient(
+    180deg,
+    rgba(var(--primary-160-rgb), 0) 0,
+    var(--background-secondary-alt)
+  );
 }

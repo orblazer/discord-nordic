@@ -1,45 +1,53 @@
-.container-ZSFRqx /* Onboarding > Check it out (step 2 > add answer) */ {
-  border-color: var(--c-reaction-border);
-}
-
 /*
  * > enable community
  */
-.sparkles-1nSL9S[src='/assets/7418d03d0480ed13eed00c28584d275a.svg'] {
+.sparkles__67f09[src='/assets/d763245961e240231735.svg'] {
   content: url(svg('server/settings/community/stars.svg'));
 }
 
 /*
  * > enable community > get started
  */
-.overviewSidebar-3JDLaJ {
-  background: linear-gradient(180deg, var(--brand-500) 6.65%, var(--brand-600) 69.44%, var(--brand-800) 106.24%);
+.overviewSidebar__80841 {
+  background: linear-gradient(
+    180deg,
+    var(--brand-500) 6.65%,
+    var(--brand-600) 69.44%,
+    var(--brand-800) 106.24%
+  );
 }
 
-.header-3ABLD1,
-.stepIndex-Kqaht-,
-.stepTitle-2LVW-a,
-.selected-2HDz3F .stepTitle-2LVW-a {
+.header_be1547,
+.stepIndex__1d9d1,
+.stepTitle__026a8,
+.selected_de8f03 .stepTitle__026a8 {
   color: var(--black-500);
 }
 
-.selected-2HDz3F .stepIndex-Kqaht- {
+.selected_de8f03 .stepIndex__1d9d1 {
   color: var(--brand-900);
 }
 
-.content--gAC_W img[src='/assets/070f1b98adc8ce07c7823021133efed5.svg'] {
+.content__98380img[src='/assets/e30b03b1854a7d11fb6d.svg'] {
   content: url(svg('server/settings/community/shield.svg'));
 }
-.content--gAC_W img[src='/assets/d8a03b9985d824edc78c6eb4785dc949.svg'] /** (step 2) */ {
+.content__98380 img[src='/assets/58bf98682d30fb823326.svg'] /** (step 2) */ {
   content: url(svg('server/settings/community/wrench.svg'));
 }
-.content--gAC_W img[src='/assets/b6193b9564ca0ecbbd1ed6b80f47646d.svg'] /** (step 3) */ {
+.content__98380 img[src='/assets/b6193b9564ca0ecbbd1ed6b80f47646d.svg'] /** (step 3) */ {
   content: url(svg('server/settings/community/check.svg'));
+}
+
+/*
+ * > Onboarding > check it out (skip button)
+ */
+.colorPrimary__6ed40 .button_c388c8[style*='color: rgb(#{$white-500-rgb})'] {
+  color: var(--white-500) !important;
 }
 
 /*
  * > discovery
  */
-.sparkles-1JOsCC[src='/assets/89c185367e2d2dd521f4265f2b8c93ee.svg'] {
+.sparkles__67f09[src='/assets/d763245961e240231735.svg'] {
   content: url(svg('server/settings/community/discovery-stars.svg'));
 }

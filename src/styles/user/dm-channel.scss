@@ -1,33 +1,9 @@
 /*
- * > title (status)
- */
-.mask-3tgVZv rect[fill^='rgba(#{$green-360-rgb}'],
-.mask-3tgVZv rect[fill='#{$green-360-hex}'] {
-  fill: var(--user-status-online);
-}
-.mask-3tgVZv rect[fill^='rgba(#{$yellow-300-rgb}'],
-.mask-3tgVZv rect[fill='#{$yellow-300-hex}'] {
-  fill: var(--user-status-idle);
-}
-.mask-3tgVZv rect[fill^='rgba(#{$red-400-rgb}'],
-.mask-3tgVZv rect[fill='#{$red-400-hex}'] {
-  fill: var(--user-status-dnd);
-}
-.mask-3tgVZv rect[fill^='rgba(#{$twitch-rgb}'],
-.mask-3tgVZv rect[fill='#{$twitch-hex}'] {
-  fill: var(--user-status-twitch);
-}
-.mask-3tgVZv rect[fill^='rgba(#{$primary-400-rgb}'],
-.mask-3tgVZv rect[fill='#{$primary-400-hex}'] {
-  fill: var(--user-status-invisible);
-}
-
-/*
  * call icons
  */
-.icon-JRJzJz[style*='background-image: url("/assets/7f75ab26bc5deb393cd8db44d9fe14e7.svg")'] {
+.icon__8c32c[style*='background-image: url("/assets/a1d461025204711133ec.svg")'] {
   background-image: url(svg('user/dm-channel/call-incoming.svg')) !important;
 }
-.icon-JRJzJz[style*='background-image: url("/assets/5e64269a40d5bb745c2f3df29f26738d.svg")'] {
+.icon__8c32c[style*='background-image: url("/assets/9f3b9c1b6e5f77294951.svg")'] {
   background-image: url(svg('user/dm-channel/call-missed.svg')) !important;
 }

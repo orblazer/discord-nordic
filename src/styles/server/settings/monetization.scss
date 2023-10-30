@@ -1,23 +1,23 @@
 /*
  * > Server subscriptions
  */
-.earningsPreviewContainer-2I6S8Z[style*='background-color: rgb(46, 54, 56)'] {
+.earningsPreviewContainer__775cb[style*='background-color: rgb(46, 54, 56)'] {
   background-color: hsl(var(--green-760-hsl) / 0.1) !important;
 }
 
 /* badge on "learn from other creators */
-.subscriberCountValue-LI_0MN {
+.subscriberCountValue__9f1fb {
   background-color: var(--brand-800);
 
-  & > .text-md-normal-2rFCH3 {
-    color: var(--white-500) !important;
+  & > div {
+    color: var(--white-100) !important;
   }
 }
-.subscriberCountText-2UmR-T {
-  path[fill='var(--white-500)'] {
+.subscriberCountText__986fb {
+  path[fill='var(--white)'] {
     fill: var(--black-500);
   }
-  & > .text-md-normal-2rFCH3 {
+  & > div {
     color: var(--black-500) !important;
   }
 }

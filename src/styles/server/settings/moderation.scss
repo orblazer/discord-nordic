@@ -1,34 +1,24 @@
 /*
- * > rules screening
+ * > Safety Setup > AutoMod
  */
-.applicationIcon-SVAEk2[src='/assets/bd935213414be433dbfce91f7506bf54.svg'] {
-  content: url(svg('server/settings/moderation/rules.svg'));
-}
-.applicationIcon-SVAEk2[src='/assets/c90de2083432d65530258ceac785f427.svg'] {
-  content: url(svg('server/settings/moderation/rules-light.svg'));
-}
-
-/*
- * > AutoMod
- */
-/* "AUTOMOD" badge */
-.textBadge-v9EW9y[style*='background-color: var(--brand-500)'] {
+.textBadge__9e179[style*='background-color: var(--brand-500)'], /* "AUTOMOD" badge */
+.textBadge__45d79[style*='background-color: var(--brand-500)']  /* "beta" tag */ {
   color: var(--black-500);
 }
 
-.automodText-azqvwf {
+.automodText_b20021 /* "AUTOMOD" badge */ {
   color: currentColor;
 }
 
 /*
  * > audit log
  */
-.typeCreate--o_pRH:after {
+.typeCreate__18a1f:after {
   background: url(svg('server/settings/moderation/type-create.svg'));
 }
-.typeUpdate-34INPr:after {
+.typeUpdate__7c320:after {
   background: url(svg('server/settings/moderation/type-update.svg'));
 }
-.typeDelete-1AYMTg:after {
+.typeDelete__1e939:after {
   background: url(svg('server/settings/moderation/type-delete.svg'));
 }

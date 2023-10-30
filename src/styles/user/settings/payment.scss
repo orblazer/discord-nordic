@@ -1,149 +1,54 @@
 /*
- * > nitro (offer banner)
- */
-.promoHeader-1ai_Qc {
-  color: currentColor !important;
-}
-.rulesLink-15zGJh {
-  color: currentColor;
-}
-
-/*
- * > nitro (snowsgiving offer)
- */
-.hero-2rQ_qr {
-  background: linear-gradient(
-    100.54deg,
-    var(--nord-blue) 18.42%,
-    var(--nord-cyan) 76.57%,
-    var(--nord-turquoise) 99.51%
-  );
-
-  .description-3QR_Ur {
-    color: var(--white-100) !important;
-    a {
-      color: currentColor;
-    }
-  }
-}
-
-/*
  * > nitro
  */
-.betaTag-1SPc-F, /* >> favorite perks section */
-.betaTag-3EG9SR /* >> pick plan section */ {
-  background: var(--premium-perk-pink) !important;
-  color: var(--black-500);
-}
-
-.settingsTextContainer-3grHhq .defaultColor-1GKx81[style*='color: white'],
-.settingsTextContainer-3grHhq .description-2_tPhd[style*='color: white'] {
+.settingsTextContainer__65ea6 > *[style*='color: white'] {
   color: var(--header-primary) !important;
 }
 
-.lookInverted-2GrLaB.colorBrand-2M3O3N,
-.upsellButton-36YQ7c /*! server settings > stickers */ {
+.lookInverted_ee4261.colorBrand_b2253e,
+.upsellButton__56757 /*! server settings > stickers */ {
   color: var(--brand-800);
 }
 
 // Tier blocks
-.premiumCards-36uMGt {
-  .pricePerInterval-1HgDkM[style*='color: white'],
-  .text-md-normal-2rFCH3[style*='color: white'] {
+.premiumCards__1b3a9 {
+  .pricePerInterval_c8c787[style*='color: white'],
+  .text-md-normal__6a4eb[style*='color: white'],
+  .text-md-normal__4afad[style*='color: white'] /* (web version) */ {
     color: currentColor !important;
   }
 }
-.tier0-17mYUd {
-  background: var(--premium-tier-0-blue);
-}
-.tier2-qNjKTW {
-  background: var(--premium-tier-2-pink);
+.tier2__1364f {
   color: var(--primary-660);
 
-  .text-md-normal-2rFCH3 /* ! server settings > server boost status */ {
+  /* ! server settings > server boost status */
+  .heading-md-medium_bfad58[style*='color: white'],
+  .heading-md-medium_dd6c29[style*='color: white'], /* (web version) */
+  .text-md-normal__6a4eb[style*='color: white'],
+  .text-md-normal__4afad[style*='color: white'] /* (web version) */ {
     color: currentColor !important;
   }
-}
-
-.newTagItem-1LPxlR {
-  background: var(--white-500);
-  color: var(--black-500);
-}
-.containerColored-3FAZAx .sparkle-20-Tko.sparkleStarTopRight-9-iiLE,
-.theme-light .sparkle-20-Tko.sparkleStarTopRight-9-iiLE {
-  color: var(--brand-experiment-400);
-}
-.containerColored-3FAZAx .sparkle-20-Tko.sparkleStarRight-1EeOs8,
-.theme-light .sparkle-20-Tko.sparkleStarRight-1EeOs8 {
-  color: var(--premium-perk-pink);
-}
-.tier2-qNjKTW .containerColored-3FAZAx .sparkle-20-Tko.sparkleStarRight-1EeOs8 {
-  color: var(--premium-perk-light-blue);
-}
-
-/*
- * >> favorite perks section
- */
-.tag-3Upstw:not(.smallPerkCardNewBadge-3-NllX ) /* (new tag) */ {
-  color: var(--black-500);
-}
-
-.smallPerkCardNewBadge-3-NllX {
-  background: var(--premium-perk-pink);
-  color: var(--black-500) !important;
 }
 
 /*
  * >> pick plan section
  */
-.mostPopularText-1WuXKM {
+.mostPopularText_a30e14 {
   color: var(--primary-660);
-}
-
-.sparkleStar1-2v0V0s {
-  color: var(--premium-perk-blue);
-}
-.sparkleStar2-1ry0eu {
-  color: var(--premium-perk-dark-blue);
-}
-.sparkleStar3-3rxehx {
-  color: var(--premium-perk-light-blue);
-}
-.sparkleStar4-3-pq8C {
-  color: var(--premium-perk-pink);
 }
 
 /*
  * > nitro > subscribe
  ! Get nitro
  */
-.planOptionDiscount-2nex9n[style*='color: white'] {
+.planOptionDiscount__956f7[style*='color: white'] {
   color: var(--black-500) !important;
 }
 
-.warnIcon-3ly1wg {
-  background-image: url(svg('user/settings/payment/warn.svg'));
-}
-
 /*
- * > server boost
+ * > Subscriptions
  */
-.audioQualityIcon-2V2mE1 {
-  color: var(--nord-blue);
-}
-.uploadSizeIcon-3OSRBC {
-  color: var(--premium-tier-2-pink);
-}
-
-@if is_uniform() {
-  .card-2xlCYc {
-    background-color: var(--background-secondary);
-
-    &:hover {
-      background-color: var(--background-secondary-alt);
-    }
-  }
-  .gemWithoutLabel-1od40y {
-    color: var(--text-muted) !important;
-  }
+.gameIcon__90c32.noItemsIcon_b1e42b,
+.noItemsIcon__38ca2 {
+  background: var(--primary-460-hsl) !important;
 }

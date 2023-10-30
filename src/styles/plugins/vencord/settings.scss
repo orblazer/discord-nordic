@@ -1,15 +1,16 @@
-/* Checkbox */
-.checked-16gMAN[style*='background-color: #{$brand-500}'] {
-  border-color: var(--brand-500) !important;
-  background-color: var(--brand-500) !important;
+/* Switch */
+.container__871ba[style*='background-color: rgb(#{$primary-400-rgb})'] {
+  @if is_uniform() {
+    background-color: var(--primary-460) !important;
+  } @else {
+    background-color: var(--primary-500) !important;
+  }
 }
-.checked-16gMAN path[fill='#{"" + $white-500-hex}'] {
-  fill: var(--black-500);
+.container__871ba[style*='background-color: rgb(#{$brand-500-rgb})'] {
+  background-color: var(--green-560) !important;
 }
-
-/* Restart */
-.lookFilled-yCfaCM.colorYellow-Pgtmch {
-  color: var(--black-500);
+.slider__41d94 path[fill='#{$brand-500}'] {
+  fill: var(--green-760);
 }
 
 /*
@@ -17,5 +18,5 @@
  */
 /* "NEW" badge */
 .vc-plugins-badge[style*='background-color: rgb(237, 66, 69)'] {
-  background-color: var(--red-500);
+  background-color: var(--red-500) !important;
 }

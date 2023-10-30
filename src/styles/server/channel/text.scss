@@ -1,5 +1,5 @@
 @if is_uniform() {
-  .wrapper-22rqw6 /* emoji picker */ {
+  .wrapper_cd625e /* emoji picker (sidebar) */ {
     background-color: var(--background-secondary);
     border-right: 1px solid hsl(var(--primary-900-hsl) / 0.2);
   }
@@ -15,42 +15,34 @@
 /*
  * > new messages bar
  */
-.newMessagesBar-1hF-9G .barButtonBase-Sk2mdB {
+.newMessagesBar__8b6d7 .barButtonBase__8fa46 {
   color: var(--black-500);
 }
 
 /*
  * Text channel (empty)
  */
-.icon-2dMhn4[style*='background-image: url("/assets/be71475205180432aaa6a89bd8ee306c.svg")'] {
+.icon__02e89[style*='background-image: url("/assets/c5eb15a73957da1bb6e9.svg")'] {
   background-image: url(svg('server/channel/text/invite.svg')) !important;
 }
-.icon-2dMhn4[style*='background-image: url("/assets/40aa3feae87e9745dd56756762029544.svg")'] {
+.icon__02e89[style*='background-image: url("/assets/00bc91145392d3941bf7.svg")'] {
   background-image: url(svg('server/channel/text/customize.svg')) !important;
 }
-.icon-2dMhn4[style*='background-image: url("/assets/364cec2cc5dfb64873e3a33626a56ba1.svg")'] {
+.icon__02e89[style*='background-image: url("/assets/0160dd25b3ba785c6008.svg")'] {
   background-image: url(svg('server/channel/text/chat.svg')) !important;
-}
-
-.checkmark-bW9BK8 {
-  color: var(--black-500);
 }
 
 /*
  * Text channel (user join)
  */
-.icon-JRJzJz[style*='background-image: url("/assets/d1382af8d9e755bc44811b1fd92990a8.svg")'] {
+.icon__8c32c[style*='background-image: url("/assets/7378a83d74ce97d83380.svg")'] {
   background-image: url(svg('server/channel/text/join.svg')) !important;
-}
-
-.userJoinSystemMessageIcon-3FQ_Mo path[fill='#{$status-green-600-hex}'] {
-  fill: var(--green-600);
 }
 
 /*
  * > mentioned message
  */
-.mentioned-Tre-dv:before {
+.mentioned__58017:before {
   background-color: var(--brand-500);
 }
 
@@ -58,12 +50,12 @@
  * > Reaction
  */
 @if is_uniform() {
-  .reaction-3vwAF2 {
+  .reaction_fef95b {
     border-color: var(--background-tertiary);
   }
 }
 
-.theme-light .reaction-3vwAF2 {
+.theme-light .reaction_fef95b {
   background-color: var(--primary-160);
 }
 
@@ -71,7 +63,7 @@
  * > Embed
  */
 @if is_uniform() == false {
-  .theme-light .embedFull-1HGV2S {
+  .theme-light .embedFull__8dc21 {
     background-color: var(--primary-160);
   }
 }

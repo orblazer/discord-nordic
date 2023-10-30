@@ -1,6 +1,10 @@
-.header-16U6Vf {
+.header__4f442 {
   background: center 15%/90% auto url(svg('server/boost/sparks.svg')) no-repeat,
-    linear-gradient(359.37deg, rgba(0, 0, 0, 0.5) 12.68%, hsla(0, 0%, 100%, 0) 50.4%),
+    linear-gradient(
+      359.37deg,
+      rgba(0, 0, 0, 0.5) 12.68%,
+      hsla(0, 0%, 100%, 0) 50.4%
+    ),
     linear-gradient(
       159.15deg,
       var(--premium-tier-0-header-gradient-1) 8.49%,
@@ -10,46 +14,49 @@
       var(--premium-tier-0-header-gradient-5) 91.4%
     );
 
-  .heading-r8UAKC,
-  .guildName-3bWSIw {
+  .heading__03f06,
+  .guildName__4f47a {
     color: var(--white-500) !important;
   }
 }
 
-.guildBoostCount-ghTpE8 {
+.guildBoostCountWrapper__701cb {
   color: var(--white-100);
 }
 
-.guildBoostCtaBoostContent-FoEo51 {
+.guildBoostCtaBoostContent__06ba2 {
   color: var(--brand-800);
 }
 
-.progressBarMarker-2dy17R + .progressBarMarker-2dy17R .progressBarMarkerLabel-2EgZ3G {
-  color: var(--primary-800);
+/*
+ * >> Boost this server
+ */
+.warnIcon_e73325 {
+  background-image: url(svg('user/settings/payment/warn.svg'));
 }
 
 /*
  * > Cards
  */
-.tierCardCurrentTier-ed2p6N {
+.tierCardCurrentTier_df8c32 {
   background: var(--guild-boosting-purple);
   color: var(--black-500) !important;
 }
 
-.tierCardNewFeatureBadge-Ber503 {
+.tierCardNewFeatureBadge__8a39a {
   background: var(--white-500);
   color: var(--black-500);
 }
 
-.tierCardBoostRequirement-1ZQXbZ {
+.tierCardBoostRequirement__2ae47 {
   color: var(--primary-800) !important;
 }
-.tierCardHeading-2752oA,
-.tierCardListItem-n3jr78 {
+.tierCardHeading_aa6988,
+.tierCardListItem_c78d02 {
   color: var(--primary-700) !important;
 }
 
-.tierCardListIcon-1nx1pO {
+.tierCardListIcon_c601ae {
   circle[fill='white'],
   rect[fill='white'] {
     fill: currentColor;
@@ -59,11 +66,7 @@
 /*
  * > level up server
  */
-.recommendedTierHighlightTag-2Vgifo {
+.recommendedTierHighlightTag__82cc1 {
   color: var(--black-500) !important;
   background: var(--guild-boosting-purple);
-}
-
-.wrapper-1ReDXd .defaultColor-1GKx81[style*='color: white'] {
-  color: var(--black-500) !important;
 }

@@ -1,82 +1,80 @@
-.profileBadge-2YySEb[src='/assets/48d5bdcffe9e7848067c2e187f1ef951.svg'] {
+// TODO: Commented code below for "profileBadge" is dead, and wait "ShowBadgesInChat" BD plugin
+// TODO: add "Originally known as" badge
+/* .profileBadge-2YySEb[src='/assets/48d5bdcffe9e7848067c2e187f1ef951.svg'] {
   content: url(svg('user/profile/badge-staff.svg'));
-}
-.profileBadge-2YySEb[src='/assets/34306011e46e87f8ef25f3415d3b99ca.svg'],
-.profileBadge18-2GrGvU[src*='3f9748e53446a137a052f3454e2de41e.png'] {
+} */
+// .profileBadge-2YySEb[src='/assets/34306011e46e87f8ef25f3415d3b99ca.svg'],
+.profileBadge__1d2d3[src*='3f9748e53446a137a052f3454e2de41e.png'] {
   content: url(svg('user/profile/badge-partner.svg'));
 }
-.profileBadge-2YySEb[src='/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg'],
-.profileBadge18-2GrGvU[src*='bf01d1073931f921909045f3a39fd264.png'] {
+// .profileBadge-2YySEb[src='/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg'],
+.profileBadge__1d2d3[src*='bf01d1073931f921909045f3a39fd264.png'] {
   content: url(svg('user/profile/badge-hypesquad-event.svg'));
 }
-.profileBadge-2YySEb[src='/assets/efcc751513ec434ea4275ecda4f61136.svg'] {
+/* .profileBadge-2YySEb[src='/assets/efcc751513ec434ea4275ecda4f61136.svg'] {
   content: url(svg('user/profile/badge-hypesquad-bravery.svg'));
 }
 .profileBadge-2YySEb[src='/assets/ec8e92568a7c8f19a052ef42f862ff18.svg'] {
   content: url(svg('user/profile/badge-hypesquad-brillance.svg'));
-}
-.profileBadge-2YySEb[src='/assets/9f00b18e292e10fc0ae84ff5332e8b0b.svg'],
-.profileBadge18-2GrGvU[src*='3aa41de486fa12454c3761e8e223442e.png'] {
+} */
+// .profileBadge-2YySEb[src='/assets/9f00b18e292e10fc0ae84ff5332e8b0b.svg'],
+.profileBadge__1d2d3[src*='3aa41de486fa12454c3761e8e223442e.png'] {
   content: url(svg('user/profile/badge-hypesquad-balance.svg'));
 }
-.profileBadge-2YySEb[src='/assets/4441e07fe0f46b3cb41b79366236fca6.svg'] {
+/* .profileBadge-2YySEb[src='/assets/4441e07fe0f46b3cb41b79366236fca6.svg'] {
   content: url(svg('user/profile/badge-early-verified-bot.svg'));
 }
 .profileBadge-2YySEb[src='/assets/b945002f0e0fd7f11990d800e98b5504.svg'] {
   content: url(svg('user/profile/badge-certified-moderator.svg'));
-}
-.profileBadge-2YySEb[src='/assets/26c7a60fb1654315e0be26107bd47470.svg'],
-.profileBadge18-2GrGvU[src*='6bdc42827a38498929a4920da12695d9.png'] {
+} */
+// .profileBadge-2YySEb[src='/assets/26c7a60fb1654315e0be26107bd47470.svg'],
+.profileBadge__1d2d3[src*='6bdc42827a38498929a4920da12695d9.png'] {
   content: url(svg('user/profile/badge-active-developer.svg'));
 }
+// .profileBadge22-3OAigE[src='/assets/498591d63b352256a1bf18061eff9d57.svg'],
+.profileBadge__1d2d3[src*='6f9e37f9029ff57aef81db857890005e.png'] {
+  content: url(svg('user/profile/badge-commands.svg'));
+}
 
-.botTagRegular-kpctgU:not(.botTagOP-3pUTXu), /** Bot tag */ {
+.botTagRegular_c89c9a:not(.botTagOP_e48ddb), /** Bot tag */ {
   color: var(--black-500);
 }
 
 /*
- * Popup > supports commands badge
- */
-.profileBadge22-3OAigE[src='/assets/498591d63b352256a1bf18061eff9d57.svg'],
-.profileBadge18-2GrGvU[src*='6f9e37f9029ff57aef81db857890005e.png'] {
-  content: url(svg('user/profile/badge-commands.svg'));
-}
-
-/*
- * > status
+ * > Status
  ! Friends list
  ! DM list
- ! server > member list
+ ! DM channel > title bar
+ ! Server > members list
  */
-.mask-1y0tyc rect[fill='#{$green-360-hex}'] {
+.mask__1979f rect[fill='#{$green-360-hex}'] {
   fill: var(--user-status-online);
 }
-.mask-1y0tyc rect[fill='#{$yellow-300-hex}'] {
+.mask__1979f rect[fill='#{$yellow-300-hex}'] {
   fill: var(--user-status-idle);
 }
-.mask-1y0tyc rect[fill='#{$red-400-hex}'] {
+.mask__1979f rect[fill='#{$red-400-hex}'] {
   fill: var(--user-status-dnd);
 }
-.mask-1y0tyc rect[fill='#{$primary-400-hex}'] {
+.mask__1979f rect[fill='#{$twitch-hex}'] /* (not on DM title bar) */ {
+  fill: var(--user-status-twitch);
+}
+.mask__1979f rect[fill='#{$primary-400-hex}'] {
   fill: var(--user-status-invisible);
 }
 
 /*
- ! Friends list
- ! DM list
- ! server > member list
+ * User popup (sidebar left) > status (online, dnd, etc)
  */
-.mask-1y0tyc rect[fill='#{$twitch-hex}'] {
-  fill: var(--user-status-twitch);
+.status__1c26d[style='background-color: var(--green-360);'] {
+  fill: var(--user-status-online);
 }
-
-/*
- * Profile popup > profile too bright
- ? TODO: check this utility
- */
-.upsellTooltipWrapper-1wqikQ {
-  .header-HL0rH-,
-  .content-3aT_vH {
-    color: var(--black-500) !important;
-  }
+.status__1c26d[style='background-color: var(--yellow-300);'] {
+  fill: var(--user-status-idle);
+}
+.status__1c26d[style='background-color: var(--red-400);'] {
+  fill: var(--user-status-dnd);
+}
+.status__1c26d[style='background-color: var(--primary-400);'] {
+  fill: var(--user-status-invisible);
 }

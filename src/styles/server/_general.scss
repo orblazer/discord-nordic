@@ -1,31 +1,22 @@
 /** Sidebar left > new channel tag */
-.newChannel-3q3LPr {
+.newChannel_f99b92 {
   color: var(--brand-900);
 }
 
-/** discord partner badge */
-.icon-3BYlXK {
-  color: var(--black-500);
-}
-
-/** boosted server badge */
-.iconBackgroundTierNone-3M21Zn,
-.iconBackgroundTierOne-1S68CI,
-.iconBackgroundTierThree-2hfNBO,
-.iconBackgroundTierTwo-2XoNXD {
-  color: var(--primary-500) !important;
+/*
+ * Server badge (partner, house and verified)
+ */
+.flowerStarContainer_d8d14b
+  .childContainer__4e664
+  path[fill='var(--white-400)'] {
+  fill: var(--black-500);
 }
 
 /*
- * Popup "Stop @everyone spam"
- ? TODO: check utility
+ * Events
  */
-.ping-2J18Tq {
-  content: url(svg('server/ping.svg'));
-}
-
-.checklistIcon-S-7rG0 circle[fill='var(--white-100)'] {
-  fill: var(--black-500);
+.eventStatusContainer__92035 path[fill='#{$brand-360-hex}'] {
+  fill: var(--brand-360);
 }
 
 /*
@@ -33,25 +24,52 @@
  *   Server settings
  *   Channel settings
  */
-.container-20TyK0[style*='background-color: rgb(#{$primary-800-rgb})'] {
+.container__467eb[style*='background-color: rgb(#{$primary-800-rgb})'] {
   background-color: var(--background-floating) !important;
-}
-
-/*
- * Preview server (from discover) - hover buttons
- * Server settings > Onboarding > Check it out (step 3 > preview) - hover buttons
- */
-.button-3_1yil:hover,
-.button-29sJG8:hover {
-  background-color: var(--brand-experiment-500);
-  color: var(--black-500);
 }
 
 /*
  * Popup "Invite People"
  */
 @if is_uniform() {
-  .theme-dark .inviteBannerUpsell-1t_LYM {
+  .theme-dark .inviteBannerUpsell__5bda4 {
     background-color: var(--c-background-secondary-alt2);
   }
+}
+
+/*
+ * New server settings popup
+ */
+.upsellTooltipWrapper_df8272 {
+  .upsellTooltipHeader_d74752,
+  .content__904b3 {
+    color: var(--black-500) !important;
+  }
+}
+
+/*
+ * "Emoji Picker" > new emoji
+ */
+.newlyAddedHighlight_b1b06a {
+  border-color: var(--green-500);
+}
+.newlyAddedBadge__97630 {
+  background-color: var(--green-500);
+}
+
+.newlyAddedBadgeStar_ac4dcc,
+.newlyAddedBadge__97630 .text-xs-semibold__2181c[style*='color: white'],
+/* (hover emoji) */
+.newlyAddedBadgeIcon__0fee2,
+.newlyAddedBadge__8109c .text-sm-semibold_a5824d[style*='color: white'] {
+  color: var(--black-500) !important;
+}
+
+/* (hover emoji) */
+.newlyAddedBadge__8109c {
+  background: linear-gradient(
+    268.26deg,
+    var(--blue-330) 0%,
+    var(--green-500) 102.45%
+  );
 }

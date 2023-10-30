@@ -1,9 +1,11 @@
 $primary-160-rgb: 238, 239, 241;
+$primary-400: hsl(223, calc(var(--saturation-factor, 1) * 5.8%), 52.9%);
 $primary-400-hex: #80848e;
 $primary-400-rgb: 128, 132, 142;
 $primary-700-rgb: 30, 31, 34;
 $primary-800-rgb: 17, 18, 20;
 
+$white-500: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
 $white-500-rgb: 255, 255, 255;
 $white-500-hex: #ffffff;
 
@@ -23,6 +25,7 @@ $red-400-rgb: 242, 63, 67;
 /*
  * Brand
  */
+$brand-360-hex: #949cf7;
 $brand-500: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);
 $brand-500-hex: #5865f2;
 $brand-500-rgb: 88, 101, 242;

@@ -3,34 +3,49 @@
 }
 
 @if is_uniform() {
-  .container-2o3qEW, /* Server > member sidebar */
-  .members-3WRCEx /* DM > member sidebar */ {
+  .members__9f47b, /* DM group/Server > member sidebar */
+  .profilePanel__12596 /* DM > member sidebar */ {
     border-left: 1px solid var(--background-secondary-alt);
+  }
+}
+
+/*
+ * Preview mode bar (join server via discover)
+ * + View server as role
+ */
+.notice__99c03 {
+  & > .lookOutlined__46d54.colorWhite__43488,
+  & > .header__72166 {
+    color: var(--black-500);
+  }
+
+  & > .lookOutlined__46d54.colorWhite__43488 {
+    border-color: currentColor;
   }
 }
 
 /*
  * Settings switch
  */
-.slider-HJFN2i rect[fill='white'] {
+.slider__41d94 rect[fill='white'] {
   fill: var(--white-500);
 }
 
-.container-1QtPKm[style*='background-color: rgb(#{$green-360-rgb})'] {
+.container__871ba[style*='background-color: rgb(#{$green-360-rgb})'] {
   background-color: var(--green-560) !important;
 }
-.slider-HJFN2i path[fill^='rgba(#{$green-360-rgb}'] {
+.slider__41d94 path[fill^='rgba(#{$green-360-rgb}'] {
   fill: var(--green-760);
 }
 
-.container-1QtPKm[style*='background-color: rgb(#{$primary-400-rgb})'] {
+.container__871ba[style*='background-color: rgb(#{$primary-400-rgb})'] {
   @if is_uniform() {
     background-color: var(--primary-460) !important;
   } @else {
     background-color: var(--primary-500) !important;
   }
 }
-.slider-HJFN2i path[fill^='rgba(#{$primary-400-rgb}'] {
+.slider__41d94 path[fill^='rgba(#{$primary-400-rgb}'] {
   @if is_uniform() {
     fill: var(--primary-460);
   } @else {
@@ -39,62 +54,69 @@
 }
 
 /*
+ * Settings square checkbox
+ */
+.checked__24ad6[style*='background-color: var(--brand-experiment-500)']
+  path[fill='var(--white-500)'],
+.checked__24ad6[style*='background-color: var(--text-brand)']
+  path[fill='var(--white-500)'] /* Server settings > onboarding > channels (channel checkmark) */ {
+  fill: var(--black-500);
+}
+
+/*
  * Settings slider
  */
-.theme-dark .bar-2H7Q9u,
-.theme-dark .markDash-1ATsxA {
+.theme-dark .bar_e58961 {
   background-color: var(--primary-460);
 }
-.theme-light .bar-2H7Q9u,
-.theme-light .markDash-1ATsxA {
+.theme-light .bar_e58961 {
   background-color: var(--primary-160);
 }
 
 /*
  * Button with brand background
  */
-.lookFilled-1H2Jvj.colorBrand-2M3O3N:not(.button-2gNyE9):not(.button-35nmN9), /** User settings (2gNyE9 = voice buttons) */
-.lookOutlined-3RTC7c.colorBrand-2M3O3N:hover, /** User settings > privacy & safety */
-.lookFilled-1H2Jvj.colorBrandNew-abZT3v, /** user settings > Accessibility */
-.premiumLabel-3HPvdB.selected-2Uns2B, /** user settings > nitro (btn) */
-.categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui, /** Discover */
+.lookFilled__19298.colorBrand_b2253e:not(.button__66e8c), /** User settings (button__66e8c = voice buttons) + actions button */
+.lookOutlined__46d54.colorBrand_b2253e:hover, /** User settings > privacy & safety */
+.lookFilled__19298.colorBrandNew_fd170a, /** user settings > Accessibility (preview btn) */
+.categoryItem_b1be5c.selectedCategoryItem__0bf4c, /** Discover */
 /* Profile Popup > status > switch account (hover) */
-.focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuDiscriminator-2Vj2p9,
-.focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuText-2e3Dry {
+.focused__27621 .userMenuUsername_f6de35,
+.colorBrand_b2253e .defaultColor__77578 /* server settings > onboarding > check it out ("Set up Welcome Sign" btn) */ {
   color: var(--black-500);
 }
 
-.activeButton-2K2Fwx, /* text channel > search result (pagination) */
-.button-2WPG1w[style*='color: rgb(#{$white-500-rgb})'] /* server settings > onboarding (check it out) */ {
+.activeButton__7a550, /* text channel > search result (pagination) */
+.colorBrand_b2253e .button_c388c8[style*='color: rgb(#{$white-500-rgb})'] /* server settings > onboarding > check it out (next btn) */ {
   color: var(--black-500) !important;
 }
 
 /*
  * Button with green background
  */
-.lookFilled-1H2Jvj.colorGreen-jIPCAS, /** user settings > profiles */
-.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx, /** sidebar (connected to voice channel) > share your screen (active) */
-.-allow-1h61-Z.selected-3jieYB /** server > channel/category settings > permissions (allow) */ {
+.lookFilled__19298.colorGreen__5f181, /** user settings > profiles + actions button */
+.button__66e8c.buttonColor_a6eb73.buttonActive__407a7, /** sidebar (connected to voice channel) > share your screen (active) */
+.allow_bbc621.selected__47401 /** server > channel/category settings > permissions (allow) */ {
   color: var(--black-500);
 }
 
 /*
  * Dropdown menus
  */
-.colorDefault-2_rLdz .check-3-73a4 /** checkbox + Profile Popup > status > switch account */ {
+.colorDefault__0b482 .check__8d1bd /** checkbox */ {
   color: var(--black-500);
 }
 
 /** hover state */
-.colorDefault-2_rLdz.focused-3LIdPu:not(.colorDanger-3umuSx):not(
-    .menuItemFocused-2cC4Ku
+.colorDefault__0b482.focused__27621:not(.colorDanger_eec36d):not(
+    .menuItemFocused__1490f
   ) {
-  /** + Profile Popup > status > switch account (menuItem = user popup) */
+  /** + user popup (sidebar left) > switch accounts (menuItem = user popup btns) */
   &,
-  .checkbox-397WsK,
-  .radioSelection-3PDNAQ,
-  .subtext-1mqKVB,
-  .caret-1TZU-U /* Right click (arrow icon) */ {
+  .subtext__8a015,
+  .checkbox__45366,
+  .radioSelection__5ed39,
+  .caret_ce50ce /* Right click (arrow icon) */ {
     color: var(--black-500);
   }
 }
@@ -102,38 +124,32 @@
 /*
  * Circle checked icon
  */
-.selectedIcon-122rMx circle[fill='white'], /** user settings > profiles (server tab) > choose server */
-.checkbox-1LuCGM[style*='background-color: rgb(#{$green-360-rgb})'] path[fill='var(--white-500)'], /** server > notification settings */
-.activeIcon-1ykRnF circle[fill='var(--white-500)'], /** profile popup > status > switch account */
-.activeIcon-1ykRnF path[fill='var(--white-500)'], /** profile popup > status > switch account (hover) */
-.descriptionIcon-3nDZrK circle[cx='12'][fill='var(--white-500)'], /** server settings > server template */
-.checklistIcon-nKaK0A circle[fill='var(--white-500)'], /** server settings > enable community > get started (step 3) */
-.icon-2dMyvd circle[fill="var(--white-500)"], /* server settings > onboarding (check it out) */
-.checkIcon-3eAeN_ path[fill="var(--white-500)"] /* server > Channel & Roles (selected role) */ {
+.activeIcon_e452f7 circle[fill='var(--white-500)'], /** user popup (sidebar left) > switch accounts */
+.activeIcon_e452f7 path[fill='var(--white-500)'], /** user popup (sidebar left) > switch accounts (hover) */
+.checkmarkCircle__11b1b circle[fill='var(--white-500)'], /** user settings > app settings > Appearance */
+.checked__24ad6[style*='background-color: rgb(#{$green-360-rgb})'] path[fill='var(--white-500)'], /** server > notification settings */
+.descriptionIcon__2e291 circle[cx='12'][fill='var(--white-500)'], /** server settings > server template */
+.checklistIcon_ce59b4 circle[fill='var(--white-500)'], /** server settings > enable community > get started (step 3) */
+.checkCircleCompleted_c66388 circle[fill="#fff"], /* server settings > onboarding (green checkmark) */
+.icon__3117c circle[fill="var(--white-100)"], /* server settings > onboarding > channels (right check mark) */
+.checkIcon__5aa1f path[fill="var(--white-500)"] /* server > Channel & Roles (selected role) */ {
   fill: var(--black-500);
 }
 
-.checkmark-1lGv7h, /** server settings > onboarding (also square checkbox) */
-.activeCircle-3rE6-u /** server settings > welcome screen */ {
+.checkmark__0b63d, /** Server > text channel (empty and complete some tasks) */
+.checkmark__4dfc9, /** server settings > onboarding (also square checkbox) */
+.activeCircle_b77e4d /** server settings > welcome screen */ {
   color: var(--black-500);
-}
-
-/*
- * Square checked icon
- */
-.checked-22NTbO[style*='background-color: var(--brand-experiment-500)']
-  path[fill='var(--white-500)'] {
-  fill: var(--black-500);
 }
 
 /*
  * What's new (popup)
  */
-.content-FDHp32 a {
+.content_dc3a33 a {
   color: var(--text-link);
 }
 
-.fixed-cTX7Hp {
+.fixed_f67fc0 {
   color: var(--status-danger);
 
   &::after {
@@ -141,7 +157,7 @@
   }
 }
 
-.improved-2SJXHz {
+.theme-dark .improved_fd72d9 {
   color: var(--brand-500);
 
   &::after {
@@ -152,15 +168,15 @@
 /*
  * Streamer mode enabled button
  */
-.streamerModeEnabledBtn-2nlJTD:hover {
+.streamerModeEnabledBtn__51c2f:hover {
   background-color: #a3759b;
 }
 
 /*
- * Search > filter
+ * Search > filter (typed, eg. from, before)
  */
-.searchAnswer-23w-CH,
-.searchFilter-2UfsDk {
+.searchAnswer_b452e7,
+.searchFilter__118cb {
   @if is_uniform() {
     background-color: var(--background-secondary) !important;
   } @else {
@@ -172,38 +188,38 @@
 /*
  * Search > date picker
  */
-.calendarPicker-sDhzdi
+.calendarPicker__5c474
   .react-datepicker__day.react-datepicker__day--keyboard-selected,
-.calendarPicker-sDhzdi
+.calendarPicker__5c474
   .react-datepicker__day.react-datepicker__day--selected:hover,
-.calendarPicker-sDhzdi .react-datepicker__day:hover {
+.calendarPicker__5c474 .react-datepicker__day:hover {
   color: var(--black-500);
 }
 
 /*
  * Text/DM channel > drop file
  */
-.uploadDropModal-13Kd20 .inner-rBP-MS {
-  .title-3ChJ_v,
-  .title-3ChJ_v strong,
-  .instructions-272j2A {
+.uploadDropModal__73a36 .inner__7afe9 {
+  .title__73a49,
+  .title__73a49 strong,
+  .instructions__9e259 {
     color: var(--black-500);
   }
 }
 
-.icon-HW4tZ-.two-1t2_74 {
+.icon__25b13.two_df01fc {
   filter: drop-shadow(0 0 48px hsla(var(--brand-500-hsl) / 0.5));
 }
 
-.document-1u6V3N {
+.document_ed6edd {
   background-image: url(svg('global/upload-document.svg'));
 }
-.code-rRQnfi {
+.code_c12073 {
   background-image: url(svg('global/upload-code.svg'));
 }
-.image-2ssF8k {
+.image__00ac0 {
   background-image: url(svg('global/upload-image.svg'));
 }
-.webcode-18ObW7 {
+.webcode_d3a040 {
   background-image: url(svg('global/upload-webcode.svg'));
 }

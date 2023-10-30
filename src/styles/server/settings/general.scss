@@ -1,6 +1,6 @@
 @if is_uniform() {
-  .theme-dark .avatarUploaderInnerEmpty-1WzULT, /* > Overview (server without avatar) */
-  .tierBody-1d3UiS /* > Sticker */ {
+  .theme-dark .avatarUploaderInnerEmpty_f2bc18, /* > Overview (server without avatar) */
+  .tierBody__615a1 /* > Sticker */ {
     background-color: var(--background-secondary) !important;
   }
 }
@@ -9,7 +9,7 @@
  * > Overview
  */
 @if is_uniform() {
-  .theme-light .avatarUploaderInnerEmpty-1WzULT .imageUploaderAcronym-2JJw9B {
+  .theme-light .avatarUploaderInnerEmpty_f2bc18 .imageUploaderAcronym__7bc67 {
     color: var(--black-500);
   }
 }
@@ -17,20 +17,20 @@
 /*
  * > Stickers
  */
-.upsellHeader-3707cG,
-.upsellDescription-2O_p3B {
+.upsellHeader_a81048,
+.upsellDescription_f4c5b8 {
   color: var(--white-100);
 }
-.currentTierIcon-23IR3F {
+.currentTierIcon_bca4bf {
   color: var(--black-500) !important;
 }
 
 @if is_uniform() {
-  .theme-dark .tierHeaderLocked-30MLlO,
-  .theme-dark .tierHeaderUnlocked-1OpOLf {
+  .theme-dark .tierHeaderLocked__4d099,
+  .theme-dark .tierHeaderUnlocked_cc60fa {
     background-color: var(--c-background-secondary-alt2);
   }
-  .theme-dark .tierIconLocked-RGSkSl {
+  .theme-dark .tierIconLocked_c2f292 {
     color: var(--text-muted);
   }
 }

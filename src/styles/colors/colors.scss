@@ -1,4 +1,3 @@
-.default-colors,
 :root {
   /** Discord colors */
   --primary-130-hsl: #{hexToHSL(#fcfcfd)};
@@ -43,6 +42,7 @@
   --red-600-hsl: var(--red-560-hsl);
   --red-630-hsl: #{hexToHSL(#975056)};
 
+  --yellow-260-hsl: var(--yellow-400-hsl);
   --yellow-300-hsl: var(--yellow-400-hsl);
   --yellow-360-hsl: var(--yellow-400-hsl);
   --yellow-400-hsl: var(--nord-yellow-hsl); /*! nord color */
@@ -90,12 +90,19 @@
     --premium-tier-2-pink-for-gradients-hsl
   );
   --premium-tier-0-blue-hsl: var(--nord-blue-hsl); /*! nord color */
+  --premium-tier-0-blue-for-gradients: hsl(var(--premium-tier-0-blue-hsl));
   --premium-tier-0-purple-hsl: var(--premium-tier-2-pink-hsl);
+  --premium-tier-0-purple-for-gradients-hsl: var(--premium-tier-2-pink-hsl);
   --premium-tier-0-header-gradient-1-hsl: var(--premium-tier-0-blue-hsl);
   --premium-tier-0-header-gradient-2-hsl: var(--premium-tier-0-blue-hsl);
   --premium-tier-0-header-gradient-3-hsl: var(--premium-tier-0-purple-hsl);
   --premium-tier-0-header-gradient-4-hsl: var(--premium-tier-0-purple-hsl);
   --premium-tier-0-header-gradient-5-hsl: var(--premium-tier-0-purple-hsl);
+  --custom-premium-colors-premium-gradient-tier-0: linear-gradient(
+    to right,
+    var(--premium-tier-0-blue-for-gradients),
+    var(--premium-tier-0-blue-for-gradients)
+  );
 
   --guild-boosting-pink-hsl: var(--premium-tier-2-pink-hsl);
   --guild-boosting-purple-hsl: var(--premium-tier-2-pink-hsl);
@@ -127,7 +134,9 @@
   --button-danger-background-active: var(--red-630);
   --button-outline-danger-background-active: var(--red-560);
 
-  --home-background: var(--background-primary);
+  --input-placeholder-text-dark-hsl: var(--primary-dark-360-hsl);
+
+  --home-background: var(--background-secondary-alt);
 
   @if is_uniform() {
     --elevation-low: 0 1px 0 var(--background-secondary-alt);

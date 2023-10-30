@@ -1,35 +1,18 @@
 /*
  * Beta tag
  */
-.base-3IDx3L[style*='background-color: var(--brand-500)'] {
+.betaTagIcon__9c02c[style*='background-color: var(--brand-500)'] {
   color: var(--black-500);
 }
 
 /*
- * Nitro badge
+ * Nitro selected button
  */
-.premiumLabel-3HPvdB.selected-2Uns2B {
+.premiumLabel_f2cd55.selected_d25ad4 {
+  color: var(--black-500);
+
   path[fill='url(#paint0_linear_6413_12612)'],
   path[fill='url(#paint1_linear_6413_12612)'] {
     fill: var(--black-500);
   }
-}
-
-/*
- * Nitro badge (with offer)
- ! DM > Nitro btn (with offer)
- */
-.offerBadge-1KDtMz {
-  color: var(--black-500) !important;
-}
-
-/*
- * Limited Time (nitro)
- */
-.limitedTimeBadge-JvRtll {
-  background: none;
-  background-color: var(--premium-tier-2-pink) !important;
-}
-.limitedTimeText-1YqDvf[style*='color: white'] {
-  color: var(--black-500) !important;
 }

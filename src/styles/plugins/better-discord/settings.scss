@@ -91,14 +91,22 @@
 }
 
 // Switch
-.container-1QtPKm[style*='background-color: rgb(#{$brand-500-rgb})'] {
+.container__871ba[style*='background-color: #{$primary-400}'] {
+  @if is_uniform() {
+    background-color: var(--primary-460) !important;
+  } @else {
+    background-color: var(--primary-500) !important;
+  }
+}
+.container__871ba[style*='background-color: #{$brand-500}'] {
   background-color: var(--green-560) !important;
 }
-.slider-HJFN2i path[fill='rgba(#{$brand-500-rgb}, 1)'] {
+.slider__41d94 path[fill='#{$brand-500}'] {
   fill: var(--green-760);
 }
 
 // Checkbox
-.checked-22NTbO[style*='background-color: var(--brand-500)'] path[fill='#{"" + $white-500-hex}'] {
+.checked__24ad6[style*='background-color: var(--brand-500)']
+  path[fill='#{$white-500}'] {
   fill: var(--black-500);
 }
