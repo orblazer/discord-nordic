@@ -1,3 +1,14 @@
+## [4.10.8](https://github.com/orblazer/discord-nordic/compare/v4.10.7...v4.10.8) (2023-11-14)
+
+
+### Bug Fixes
+
+* right uniform colors ([30ef6ab](https://github.com/orblazer/discord-nordic/commit/30ef6abde6e738ee5898b9413b9b73ac810d5ae9)), closes [#30](https://github.com/orblazer/discord-nordic/issues/30)
+* **popup:** right colors for what's new ([ae7ebb2](https://github.com/orblazer/discord-nordic/commit/ae7ebb24ce7e1172e27abd247a19b288f2ff972c))
+* **user:** apply style on all badges ([921988f](https://github.com/orblazer/discord-nordic/commit/921988fbe3931fef6d5fe52ebbae39bd1bfba1f3))
+
+
+
 ## [4.10.7](https://github.com/orblazer/discord-nordic/compare/v4.10.6...v4.10.7) (2023-10-30)
 
 
