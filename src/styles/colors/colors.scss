@@ -136,11 +136,13 @@
 
   --input-placeholder-text-dark-hsl: var(--primary-dark-360-hsl);
 
-  --home-background: var(--background-secondary-alt);
-
   @if is_uniform() {
     --elevation-low: 0 1px 0 var(--background-secondary-alt);
     --search-popout-date-picker-hint-text: var(--text-muted);
+
+    --home-background: var(--background-primary);
+  } @else {
+    --home-background: var(--background-secondary-alt);
   }
 }
 

@@ -3,7 +3,11 @@
 .header__60bef, /* Channels & Roles (header bar) */
 .container__10dc7, /* Channels & Roles (tabs navigation) */
 .scrollerContainer_bf5dbd /* Channels & Roles (content) */ {
-  background-color: var(--background-secondary-alt) !important;
+  @if is_uniform() {
+    background-color: var(--background-primary) !important;
+  } @else {
+    background-color: var(--background-secondary-alt) !important;
+  }
 }
 .innerHeader_afca2f:after /* Channels & Roles */ {
   background: linear-gradient(
@@ -27,8 +31,22 @@
 /*
  * > Browse Channels
  */
+@if is_uniform() {
+  .channelRow__96673 {
+    background-color: var(--background-secondary);
+
+    .lookOutlined__46d54.colorPrimary__6ed40 {
+      border-color: var(--c-background-secondary-alt2);
+    }
+  }
+}
+
 .channelRow__96673:hover:not(.disabled__583e7) {
-  background-color: var(--background-modifier-hover);
+  @if is_uniform() {
+    background-color: var(--background-secondary-alt);
+  } @else {
+    background-color: var(--background-modifier-hover);
+  }
 }
 
 /*

@@ -3,6 +3,20 @@
   color: var(--brand-900);
 }
 
+/** Members wrapper (this is for force full height on members list **/
+.container_b2ce9c .membersWrap__90226 {
+  flex-grow: 1;
+}
+
+/*
+ * Members list > items
+ */
+@if is_uniform() {
+  .member_b44d5d {
+    background-color: transparent;
+  }
+}
+
 /*
  * Server badge (partner, house and verified)
  */

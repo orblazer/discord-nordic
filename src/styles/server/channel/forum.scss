@@ -4,6 +4,16 @@
   color: var(--brand-900);
 }
 
+@if is_uniform() {
+  .mainCard__8a660 {
+    background-color: var(--background-secondary);
+  }
+
+  .increasedActivityDotIcon__273c4 {
+    color: var(--background-primary);
+  }
+}
+
 /*
  * Moderator guide
  */
@@ -14,6 +24,15 @@
 /*
  * Get started
  */
+@if is_uniform() {
+  .container_a4e239 {
+    background-color: var(--background-secondary);
+  }
+  .stepContainer__2f6a9 {
+    background-color: var(--background-primary);
+  }
+}
+
 .stepStatus_f620c2[style*='background-color: var(--status-positive-background)'],
 .discordIcon_aa2c2b {
   color: var(--black-500);
@@ -36,7 +55,11 @@
  * Matching port ("Search or create a post")
  */
 .theme-dark .matchingPostsRow__510be {
-  background-color: var(--background-modifier-hover);
+  @if is_uniform() {
+    background-color: var(--background-secondary-alt);
+  } @else {
+    background-color: var(--background-modifier-hover);
+  }
 }
 
 /*
@@ -55,16 +78,39 @@
   fill: var(--black-500);
 }
 
-.theme-dark .contentPreview_b317ee,
-.theme-dark .optionButtonWrapper__4072c:not(:hover):not(.selected__90dd8) /*! Channels & Roles > Customise */ {
-  background-color: var(--primary-500);
+@if is_uniform() {
+  .container__99b06:hover, /* "Get started" */
+  .container_c24cbd:hover, /* (grid view) */
+  .container__15ddf:hover /* (list view) */ {
+    background-color: var(--background-secondary-alt);
+  }
+
+  .increasedActivityMainCard__916ed, /* (list view) */
+  .replies_c11247:hover /* conversation line */ {
+    background-color: var(--background-secondary);
+  }
+
+  .replies_c11247,
+  .container__15ddf:not(:hover) .addReactButton__82bd9 {
+    background-color: var(--background-primary);
+  }
+
+  .container__15ddf:not(:hover) .addReactButton__82bd9 {
+    background-color: var(--background-primary);
+  }
+} @else {
+  .theme-dark .contentPreview_b317ee,
+  .theme-dark .optionButtonWrapper__4072c:not(:hover):not(.selected__90dd8) /*! Channels & Roles > Customise */ {
+    background-color: var(--primary-500);
+  }
+
+  .container__15ddf:hover /* (list view) */ {
+    background-color: var(--background-modifier-hover);
+  }
 }
 
-.container__15ddf:hover /* (list view) */ {
-  background-color: var(--background-modifier-hover);
-}
-
-.reaction__70f84 {
+.reaction__70f84,
+.reaction_b90ab0 {
   @if is_uniform() {
     background-color: var(--background-secondary-alt);
     border-color: var(--background-primary);

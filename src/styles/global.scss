@@ -3,9 +3,13 @@
 }
 
 @if is_uniform() {
-  .members__9f47b, /* DM group/Server > member sidebar */
+  .members__9f47b, /* DM group/Server > members sidebar */
   .profilePanel__12596 /* DM > member sidebar */ {
     border-left: 1px solid var(--background-secondary-alt);
+  }
+
+  .clickable__17ccb:hover .layout_bb8e67 /* Items hovers (channels, tab, members */ {
+    background-color: var(--background-secondary);
   }
 }
 

@@ -1,0 +1,18 @@
+@if is_uniform() {
+  .mainTableContainer__5ffe0 {
+    background-color: var(--background-secondary);
+  }
+
+  .table_a843c4,
+  .paginationContainer__7663e {
+    border-top-color: var(--background-secondary-alt);
+  }
+
+  .memberRowContainer_f0d0e5 td:after {
+    background: var(--background-primary);
+  }
+
+  .memberRowContainer_f0d0e5:hover td {
+    background-color: var(--background-secondary-alt);
+  }
+}
