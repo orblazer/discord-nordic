@@ -14,7 +14,9 @@
   "type": "module",
   "scripts": {
     "prepare": "husky install",
-    "build": "node src/scripts/build.js",
+    "build": "node src/scripts/build.js && replugged build theme",
+    "bundle": "replugged bundle theme",
+    "release": "replugged release",
     "lint": "eslint",
     "version": "npm run version:build && npm run version:changelog",
     "version:build": "npm run build && git add nordic.*.css powercord_manifest.json uniform/nordic.*.css uniform/powercord_manifest.json",
@@ -36,6 +38,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "husky": "^7.0.4",
+    "replugged": "^4.7.9",
     "sass": "^1.56.1"
   }
 }
