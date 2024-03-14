@@ -1,0 +1,31 @@
+{
+  "id": "dev.natowb.nordic",
+  "name": "Nordic",
+  "description": "An full themed discord with Nord palette (https://www.nordtheme.com/)",
+  "author": [
+   {
+      "name": "orblazer",
+      "discordID": "NEED_DISCORD_ID",
+      "github": "orblazer"
+    },
+    {
+      "name": "Nato",
+      "discordID": "258366189875494922",
+      "github": "natowb"
+    }
+    
+  ],
+  "version": "1.0.0",
+  "updater": {
+    "type": "github",
+    "id": "natowb/discord-nordic"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "nordic.theme.css",
+  "source": "https://github.com/nordic/discord-nordic/",
+  "image": [
+    "https://i.imgur.com/CemWnVK.png"
+  ]
+}
+
