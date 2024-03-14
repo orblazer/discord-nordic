@@ -22,7 +22,7 @@ This theme change all discord style for follow [Nord palette](https://www.nordth
 4. Donate if you could <3
 
 ### Replugged
-[![Install in Replugged](https://img.shields.io/badge/-Install%20in%20Replugged-blue?style=for-the-badge&logo=none)](https://replugged.dev/install?identifier=natowb/discord-nordic&source=github)
+[![Install in Replugged](https://img.shields.io/badge/-Install%20in%20Replugged-blue?style=for-the-badge&logo=none)](https://replugged.dev/install?identifier=orblazer/discord-nordic&source=github)
 
 ### Powercord
 
