@@ -18,12 +18,12 @@
   "version": "0.0.1",
   "updater": {
     "type": "github",
-    "id": "natowb/discord-nordic"
+    "id": "orblazer/discord-nordic"
   },
   "license": "MIT",
   "type": "replugged-theme",
   "main": "nordic.theme.css",
-  "source": "https://github.com/nordic/discord-nordic/",
+  "source": "https://github.com/orblazer/discord-nordic/",
   "image": [
     "https://i.imgur.com/CemWnVK.png"
   ]
