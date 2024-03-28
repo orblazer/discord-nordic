@@ -1,3 +1,12 @@
+## [4.10.10](https://github.com/orblazer/discord-nordic/compare/v4.10.9...v4.10.10) (2024-03-28)
+
+
+### Bug Fixes
+
+* **uniform:** right server list background ([a23a22b](https://github.com/orblazer/discord-nordic/commit/a23a22bf09edbaf3a21378b47db541ce1b1950db)), closes [#32](https://github.com/orblazer/discord-nordic/issues/32)
+
+
+
 ## [4.10.9](https://github.com/orblazer/discord-nordic/compare/v4.10.8...v4.10.9) (2024-03-28)
 
 
