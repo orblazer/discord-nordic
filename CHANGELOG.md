@@ -1,3 +1,14 @@
+## [4.10.9](https://github.com/orblazer/discord-nordic/compare/v4.10.8...v4.10.9) (2024-03-28)
+
+
+### Bug Fixes
+
+* **global:** add missing upload icons ([4f15582](https://github.com/orblazer/discord-nordic/commit/4f155820a5643ad5d1a63797952c9473568f42c9))
+* **user:** right colorize status in selector ([b3c7fe1](https://github.com/orblazer/discord-nordic/commit/b3c7fe183286296796fbbdd3ec29aaa66cc056fd))
+* update to last discord version ([4e2d5ce](https://github.com/orblazer/discord-nordic/commit/4e2d5ce3689ce56287d67442fba5cf90016ae672))
+
+
+
 ## [4.10.8](https://github.com/orblazer/discord-nordic/compare/v4.10.7...v4.10.8) (2023-11-14)
 
 
