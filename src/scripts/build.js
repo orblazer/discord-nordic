@@ -4,7 +4,7 @@ import { access, readFile } from 'fs/promises'
 import { dirname, join, resolve } from 'path'
 import sass from 'sass'
 import { fileURLToPath } from 'url'
-import { betterDiscord, powercord, stylus, vencord } from './output.js'
+import { betterDiscord, stylus, vencord } from './output.js'
 
 const pkg = JSON.parse(await readFile(resolve('package.json')))
 
@@ -14,7 +14,8 @@ const rootDir = resolve(__filename, '../..')
 const assetsDir = resolve(rootDir, 'assets')
 const uniformDir = resolve(rootDir, 'uniform')
 
-const dev = typeof process.env.DEV === 'undefined' ? false : Boolean(process.env.DEV)
+const dev =
+  typeof process.env.DEV === 'undefined' ? false : Boolean(process.env.DEV)
 const baseAssetsUrl = `https://raw.githubusercontent.com/orblazer/discord-nordic/v${pkg.version}/assets`
 
 await build(rootDir)
@@ -46,10 +47,17 @@ async function build(folder, uniform = false) {
 
   if (success) {
     await Promise.allSettled([
-      betterDiscord(folder, pkg, [results[0].value, results[2].value].join('\n')),
+      betterDiscord(
+        folder,
+        pkg,
+        [results[0].value, results[2].value].join('\n')
+      ),
       stylus(folder, pkg, [results[0].value, results[1].value].join('\n')),
-      powercord(folder, pkg, results[0].value),
-      vencord(folder, pkg, [results[0].value, results[1].value, results[3].value].join('\n')),
+      vencord(
+        folder,
+        pkg,
+        [results[0].value, results[1].value, results[3].value].join('\n')
+      ),
     ])
   }
 }
