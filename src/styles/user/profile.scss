@@ -65,14 +65,14 @@
  * User popup (sidebar left) > status (online, dnd, etc)
  */
 .status__1c26d[style='background-color: var(--green-360);'] {
-  fill: var(--user-status-online);
+  background-color: var(--user-status-online);
 }
 .status__1c26d[style='background-color: var(--yellow-300);'] {
-  fill: var(--user-status-idle);
+  background-color: var(--user-status-idle);
 }
 .status__1c26d[style='background-color: var(--red-400);'] {
-  fill: var(--user-status-dnd);
+  background-color: var(--user-status-dnd);
 }
 .status__1c26d[style='background-color: var(--primary-400);'] {
-  fill: var(--user-status-invisible);
+  background-color: var(--user-status-invisible);
 }
