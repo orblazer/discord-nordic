@@ -201,16 +201,47 @@
     filter: drop-shadow(0 0 48px hsla(var(--brand-500-hsl) / 0.5));
   }
 
-  &.document__7e851 {
-    background-image: url(svg('global/upload-document.svg'));
+  &.video_edf1b6 {
+    background-image: url(svg('global/upload/video.svg'));
+  }
+  &.acrobat__81c91 {
+    background-image: url(svg('global/upload/acrobat.svg'));
+  }
+  &.ae__1760d {
+    background-image: url(svg('global/upload/ae.svg'));
+  }
+  &.sketch_ad9b56 {
+    background-image: url(svg('global/upload/sketch.svg'));
+  }
+  &.ai_e6b437 {
+    background-image: url(svg('global/upload/ai.svg'));
+  }
+  &.archive__37ca1 {
+    background-image: url(svg('global/upload/archive.svg'));
   }
   &.code_e8fdeb {
-    background-image: url(svg('global/upload-code.svg'));
+    background-image: url(svg('global/upload/code.svg'));
+  }
+  &.document__7e851 {
+    background-image: url(svg('global/upload/document.svg'));
+  }
+  &.ps__5148e,
+  &.photoshop__9a3e3 {
+    background-image: url(svg('global/upload/ps.svg'));
+  }
+  &.spreadsheet__8517d {
+    background-image: url(svg('global/upload/spreadsheet.svg'));
   }
   &.image_c29be6 {
-    background-image: url(svg('global/upload-image.svg'));
+    background-image: url(svg('global/upload/image.svg'));
   }
   &.webcode_a69010 {
-    background-image: url(svg('global/upload-webcode.svg'));
+    background-image: url(svg('global/upload/webcode.svg'));
+  }
+  &.audio__586e3 {
+    background-image: url(svg('global/upload/audio.svg'));
+  }
+  &.unknown_d8ffbd {
+    background-image: url(svg('global/upload/unknown.svg'));
   }
 }
