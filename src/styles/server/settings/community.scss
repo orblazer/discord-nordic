@@ -1,14 +1,14 @@
 /*
  * > enable community
  */
-.sparkles__67f09[src='/assets/d763245961e240231735.svg'] {
+.sparkles__3fc33[src='/assets/80e1b10b95478f7f4c6c.svg'] {
   content: url(svg('server/settings/community/stars.svg'));
 }
 
 /*
  * > enable community > get started
  */
-.overviewSidebar__80841 {
+.overviewSidebar__3f481 {
   background: linear-gradient(
     180deg,
     var(--brand-500) 6.65%,
@@ -17,37 +17,37 @@
   );
 }
 
-.header_be1547,
-.stepIndex__1d9d1,
-.stepTitle__026a8,
-.selected_de8f03 .stepTitle__026a8 {
+.header_baff9b,
+.stepIndex_d150fc,
+.stepTitle__59e8e,
+.selected__98621 .stepTitle__59e8e {
   color: var(--black-500);
 }
 
-.selected_de8f03 .stepIndex__1d9d1 {
+.selected__98621 .stepIndex_d150fc {
   color: var(--brand-900);
 }
 
-.content__98380img[src='/assets/e30b03b1854a7d11fb6d.svg'] {
+.content__5b1c5 img[src='/assets/ecfe36ef271f7e911ca5.svg'] {
   content: url(svg('server/settings/community/shield.svg'));
 }
-.content__98380 img[src='/assets/58bf98682d30fb823326.svg'] /** (step 2) */ {
+.content__5b1c5 img[src='/assets/96b942a639c79017725c.svg'] /** (step 2) */ {
   content: url(svg('server/settings/community/wrench.svg'));
 }
-.content__98380 img[src='/assets/b6193b9564ca0ecbbd1ed6b80f47646d.svg'] /** (step 3) */ {
+.content__5b1c5 img[src='/assets/92540035a45cc24f78a3.svg'] /** (step 3) */ {
   content: url(svg('server/settings/community/check.svg'));
 }
 
 /*
  * > Onboarding > check it out (skip button)
  */
-.colorPrimary__6ed40 .button_c388c8[style*='color: rgb(#{$white-500-rgb})'] {
+.colorPrimary_ebe632 .button__3e450[style*='color: rgb(#{$white-500-rgb})'] {
   color: var(--white-500) !important;
 }
 
 /*
  * > discovery
  */
-.sparkles__67f09[src='/assets/d763245961e240231735.svg'] {
+.sparkles_b90792[src='/assets/a95275382740de62488b.svg'] {
   content: url(svg('server/settings/community/discovery-stars.svg'));
 }

@@ -1,8 +1,8 @@
-.pageWrapper_fef757 {
+.pageWrapper_c182d3 {
   background-color: var(--background-primary) !important;
 }
 .card__86773,
-.iconMask__1aff7 {
+.iconMask__4092e {
   background-color: var(--background-secondary) !important;
 
   &:hover {
@@ -10,17 +10,13 @@
   }
 }
 
-.footerImage_b0b86b[src='/assets/f5fcce7c509fcb9e2e7f.svg'] {
+.footerImage__2c3fd[src='/assets/679d8a1ef4bba5d92f03.svg'] {
   content: url(svg('discover/discover.svg'));
 }
 
 /*
  * > student hub
  */
-.icon__388ab {
+.icon__77722 /* ("Join Hub" popup) */ {
   background-image: url(svg('discover/hub.svg'));
-}
-
-.addButton__7e2ae /* ("Join Hub" btn) */ {
-  color: var(--black-500);
 }

@@ -1,37 +1,40 @@
 /*
  * > my account
  */
-.lockIcon_cf3a4d[src='/assets/2035204bfda605f5ac43.svg'],
-.secured__615be:before /*! sidebar left > click on 'voice connected' */ {
+.lockIcon_f844b1[src='/assets/fbfaf2b5ff4cf0632f65.svg'] {
   content: url(svg('user/settings/general/lock.svg'));
 }
 
 /*
  * > profiles
  */
-.uploadIcon__68f2c {
+.uploadIcon_d35ec2 /* Change avatar */ {
   color: var(--primary-460-hsl);
 }
 
 /*
  * >> server profile
  */
-.upsellTextContainer__62647 > div[style*='color: white'] {
+.upsellTextContainer__3adf2 > div[style*='color: white'] {
   color: var(--black-500) !important;
 }
 
 /*
  * >>> choose a server
  */
-.selectedIcon__4b0ba circle[fill='white'] {
+.selectedIcon_e9ecc2 circle[fill='white'] {
   fill: var(--black-500);
 }
 
 /*
  * > Privacy & Safety
  */
+.betaTagIcon_d65f20[style*='background-color: var(--brand-500)'] {
+  color: var(--black-500);
+}
+
 @if is_uniform() {
-  .itemFilled__373d7[aria-checked='true'] {
+  .itemFilled__5a849[aria-checked='true'] {
     background-color: var(--background-secondary-alt);
   }
 }
@@ -39,6 +42,6 @@
 /*
  * > authorizes apps
  */
-.permissionCheckmark__27f79 {
+.permissionCheckmark__6860a {
   background-image: url(svg('user/settings/general/checkmark.svg'));
 }

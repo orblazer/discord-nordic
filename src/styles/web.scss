@@ -3,7 +3,7 @@
 /*
  * Login artwork
  */
-.artwork__8fc92 {
+.artwork__94141 {
   & > path[fill='#{$brand-500-hex}'] {
     fill: var(--brand-600);
   }
@@ -52,17 +52,17 @@
 /*
  * Download bar
  */
-.iconApple__38c42 {
+.iconApple__75200 {
   background-image: url(svg('web/apple.svg'));
 }
-.iconAndroid__90385 {
+.iconAndroid__121e5 {
   background-image: url(svg('web/android.svg'));
 }
-.iconWindows_ca56a9 {
+.iconWindows__56d93 {
   background-image: url(svg('web/windows.svg'));
 }
 
-.button__57d93 {
+.button__33db6 {
   color: currentColor !important;
 
   &:not(:hover) {
@@ -70,6 +70,6 @@
   }
 }
 
-.closeIcon_ae6326 path {
+.closeIcon__967e7 path {
   fill: var(--black-500);
 }

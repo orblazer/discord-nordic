@@ -1,10 +1,16 @@
-/** Sidebar left > new channel tag */
-.newChannel_f99b92 {
+/*
+ * "new" badge
+ */
+.newChannel__1bbcf, /* Sidebar left > new channel tag */
+.newBadge_e55d5e, /* Event (popup) */
+.title__97e53 .textBadge_f05120[style="background-color: var(--bg-brand);"], /* Event (popup) > Create new (step 2) */
+.titleBadge__9f72c, /* Browse Channels */
+.newBadge__27392 /* Channels & Roles > Customise*/ {
   color: var(--brand-900);
 }
 
-/** Members wrapper (this is for force full height on members list **/
-.container_b2ce9c .membersWrap__90226 {
+/** Members wrapper (this is for force full height on members list) **/
+.container_f79ab4 .membersWrap__5ca6b {
   flex-grow: 1;
 }
 
@@ -12,7 +18,7 @@
  * Members list > items
  */
 @if is_uniform() {
-  .member_b44d5d {
+  .member_aa4760 {
     background-color: transparent;
   }
 }
@@ -20,8 +26,8 @@
 /*
  * Server badge (partner, house and verified)
  */
-.flowerStarContainer_d8d14b
-  .childContainer__4e664
+.flowerStarContainer__00f61
+  .childContainer__3a40c
   path[fill='var(--white-400)'] {
   fill: var(--black-500);
 }
@@ -29,7 +35,7 @@
 /*
  * Events
  */
-.eventStatusContainer__92035 path[fill='#{$brand-360-hex}'] {
+.eventStatusContainer__591e7 path[fill='#{$brand-360-hex}'] /** (popup) > Create new (step 3) */ {
   fill: var(--brand-360);
 }
 
@@ -38,7 +44,7 @@
  *   Server settings
  *   Channel settings
  */
-.container__467eb[style*='background-color: rgb(#{$primary-800-rgb})'] {
+.container__353bc[style*='background-color: rgb(#{$primary-800-rgb})'] {
   background-color: var(--background-floating) !important;
 }
 
@@ -46,17 +52,17 @@
  * Popup "Invite People"
  */
 @if is_uniform() {
-  .theme-dark .inviteBannerUpsell__5bda4 {
+  .theme-dark .inviteBannerUpsell_d4a58d {
     background-color: var(--c-background-secondary-alt2);
   }
 }
 
 /*
- * New server settings popup
+ * New server settings popup // TODO: find new classes
  */
-.upsellTooltipWrapper_df8272 {
-  .upsellTooltipHeader_d74752,
-  .content__904b3 {
+.upsellTooltipWrapper__11dad {
+  .upsellTooltipHeader__85849,
+  .upsellTooltipText_e9359d {
     color: var(--black-500) !important;
   }
 }
@@ -64,23 +70,23 @@
 /*
  * "Emoji Picker" > new emoji
  */
-.newlyAddedHighlight_b1b06a {
+.newlyAddedHighlight__42344 {
   border-color: var(--green-500);
 }
-.newlyAddedBadge__97630 {
+.newlyAddedBadge__25dcf {
   background-color: var(--green-500);
 }
 
-.newlyAddedBadgeStar_ac4dcc,
-.newlyAddedBadge__97630 .text-xs-semibold__2181c[style*='color: white'],
+.newlyAddedBadgeStar__02934,
+.newlyAddedBadge__25dcf .text-xs-semibold__767f1[style*='color: white'],
 /* (hover emoji) */
 .newlyAddedBadgeIcon__0fee2,
-.newlyAddedBadge__8109c .text-sm-semibold_a5824d[style*='color: white'] {
+.newlyAddedBadge__8c824 .text-xs-semibold__767f1[style*='color: white'] {
   color: var(--black-500) !important;
 }
 
 /* (hover emoji) */
-.newlyAddedBadge__8109c {
+.newlyAddedBadge__8c824 {
   background: linear-gradient(
     268.26deg,
     var(--blue-330) 0%,

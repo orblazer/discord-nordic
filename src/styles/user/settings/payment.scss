@@ -1,31 +1,29 @@
 /*
  * > nitro
  */
-.settingsTextContainer__65ea6 > *[style*='color: white'] {
+.settingsTextContainer__406ba > *[style*='color: white'] {
   color: var(--header-primary) !important;
 }
 
-.lookInverted_ee4261.colorBrand_b2253e,
+.lookInverted_a299dc.colorBrand__27d57,
 .upsellButton__56757 /*! server settings > stickers */ {
+  // TODO
   color: var(--brand-800);
 }
 
 // Tier blocks
-.premiumCards__1b3a9 {
-  .pricePerInterval_c8c787[style*='color: white'],
-  .text-md-normal__6a4eb[style*='color: white'],
-  .text-md-normal__4afad[style*='color: white'] /* (web version) */ {
+.premiumCards_ed071e {
+  .pricePerInterval_c2c66a[style*='color: white'],
+  .text-md-normal__6e567[style*='color: white'] {
     color: currentColor !important;
   }
 }
+/* !+ server settings > server boost status */
 .tier2__1364f {
   color: var(--primary-660);
 
-  /* ! server settings > server boost status */
-  .heading-md-medium_bfad58[style*='color: white'],
-  .heading-md-medium_dd6c29[style*='color: white'], /* (web version) */
-  .text-md-normal__6a4eb[style*='color: white'],
-  .text-md-normal__4afad[style*='color: white'] /* (web version) */ {
+  .text-md-normal__6e567[style*='color: white'],
+  .heading-md-medium__2dff4[style*='color: white'] {
     color: currentColor !important;
   }
 }
@@ -33,22 +31,22 @@
 /*
  * >> pick plan section
  */
-.mostPopularText_a30e14 {
+.mostPopularText__4997a {
   color: var(--primary-660);
 }
 
 /*
- * > nitro > subscribe
+ * >> subscribe (popup)
  ! Get nitro
  */
-.planOptionDiscount__956f7[style*='color: white'] {
+.planOptionDiscount__196a1[style*='color: white'] {
   color: var(--black-500) !important;
 }
 
 /*
  * > Subscriptions
  */
-.gameIcon__90c32.noItemsIcon_b1e42b,
-.noItemsIcon__38ca2 {
+.noItemsIcon__299fb,
+.noItemsIcon_ead6f9 {
   background: var(--primary-460-hsl) !important;
 }

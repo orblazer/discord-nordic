@@ -1,15 +1,15 @@
 /*
  * server boost status (btn)
  */
-.serverBoostTabItem_b19426[aria-selected='true'] {
+.serverBoostTabItem__0267d[aria-selected='true'] {
   color: var(--black-500) !important;
 
-  .icon__11372 {
+  .icon_c69952 {
     fill: var(--black-500) !important;
   }
 }
 
 /* badge */
-.icon__11372[fill='#{$guild-boosting-pink-hex}' i] {
+.icon_c69952[fill='#{$guild-boosting-pink-hex}' i] {
   fill: var(--guild-boosting-pink);
 }

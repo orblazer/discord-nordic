@@ -1,15 +1,15 @@
-.emptyPage__3e15d, /*! Discover > preview mode > Channels & Roles */
-.container__7590f, /* Browse channels */
-.header__60bef, /* Channels & Roles (header bar) */
-.container__10dc7, /* Channels & Roles (tabs navigation) */
-.scrollerContainer_bf5dbd /* Channels & Roles (content) */ {
+.container__6b2e5, /* Browse channels */
+.header__71942, /* Channels & Roles (header bar) */
+.container__03ec9, /* Channels & Roles (tabs navigation) */
+.scrollerContainer_dda72c, /* Channels & Roles (content) */
+.emptyPage_feb902 /*! Discover > preview mode > Channels & Roles */ {
   @if is_uniform() {
     background-color: var(--background-primary) !important;
   } @else {
     background-color: var(--background-secondary-alt) !important;
   }
 }
-.innerHeader_afca2f:after /* Channels & Roles */ {
+.innerHeader_ccbd77:after /* Channels & Roles */ {
   background: linear-gradient(
       180deg,
       rgba(var(--background-primary-rgb), 0) 0,
@@ -22,26 +22,20 @@
     ) !important;
 }
 
-/* "New" badge */
-.titleBadge__6322b, /* (badge in channels > new channel) */
-.newBadge_b013d6 /* (badge in customise > new options) */ {
-  color: var(--brand-900);
-}
-
 /*
  * > Browse Channels
  */
 @if is_uniform() {
-  .channelRow__96673 {
+  .channelRow__538ef {
     background-color: var(--background-secondary);
 
-    .lookOutlined__46d54.colorPrimary__6ed40 {
+    .lookOutlined__014b5.colorPrimary_ebe632 {
       border-color: var(--c-background-secondary-alt2);
     }
   }
 }
 
-.channelRow__96673:hover:not(.disabled__583e7) {
+.channelRow__538ef:hover:not(.disabled__556e5) {
   @if is_uniform() {
     background-color: var(--background-secondary-alt);
   } @else {
@@ -52,7 +46,7 @@
 /*
  * > Empty page
  */
-.emptyIcon__3ebb5 {
+.emptyIcon__99e5c {
   path[fill='#58F287'] {
     fill: var(--green-500);
   }

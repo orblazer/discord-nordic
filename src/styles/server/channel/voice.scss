@@ -3,7 +3,7 @@
  * hover (joined)
  ! + stage bottom
  */
-.gradientContainer__9a5a6 {
+.gradientContainer_cdada6 {
   --color-rgb: var(--primary-700-hsl);
   background-image: linear-gradient(
     hsl(var(--color-rgb)),
@@ -31,15 +31,16 @@
     background-color: hsl(var(--black-500-hsl) / 0.5);
   }
 
-  .theme-dark .qualitySettingsContainer__5cacd,
+  .theme-dark .qualitySettingsContainer__8f353,
   .theme-dark .item__126a6 {
     border-color: var(--primary-430);
   }
 }
 
-.selectorTextSelected_d7d560,
-.iconColor__6cd6f,
-.upsellText_fe6864,
-.textLink__973c8 {
+.selectorTextSelected__147ec {
   color: var(--black-500);
+}
+
+.enhancedSelectorNitroText__4daeb {
+  color: var(--premium-perk-pink-hsl) !important;
 }

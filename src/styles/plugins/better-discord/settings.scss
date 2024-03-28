@@ -91,14 +91,14 @@
 }
 
 // Switch
-.container__871ba[style*='background-color: #{$primary-400}'] {
+.container__2ed72[style*='background-color: #{$primary-400}'] {
   @if is_uniform() {
     background-color: var(--primary-460) !important;
   } @else {
     background-color: var(--primary-500) !important;
   }
 }
-.container__871ba[style*='background-color: #{$brand-500}'] {
+.container__2ed72[style*='background-color: #{$brand-500}'] {
   background-color: var(--green-560) !important;
 }
 .slider__41d94 path[fill='#{$brand-500}'] {
@@ -106,7 +106,7 @@
 }
 
 // Checkbox
-.checked__24ad6[style*='background-color: var(--brand-500)']
+.checkbox_fcf2ad[style*='background-color: var(--brand-500)']
   path[fill='#{$white-500}'] {
   fill: var(--black-500);
 }

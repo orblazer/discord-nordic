@@ -1,18 +1,3 @@
-/* Switch */
-.container__871ba[style*='background-color: rgb(#{$primary-400-rgb})'] {
-  @if is_uniform() {
-    background-color: var(--primary-460) !important;
-  } @else {
-    background-color: var(--primary-500) !important;
-  }
-}
-.container__871ba[style*='background-color: rgb(#{$brand-500-rgb})'] {
-  background-color: var(--green-560) !important;
-}
-.slider__41d94 path[fill='#{$brand-500}'] {
-  fill: var(--green-760);
-}
-
 /*
  * > Plugin
  */

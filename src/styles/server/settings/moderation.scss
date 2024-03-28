@@ -1,24 +1,24 @@
 /*
  * > Safety Setup > AutoMod
  */
-.textBadge__9e179[style*='background-color: var(--brand-500)'], /* "AUTOMOD" badge */
-.textBadge__45d79[style*='background-color: var(--brand-500)']  /* "beta" tag */ {
+.textBadge__9b873[style*='background-color: var(--brand-500)'], /* "AUTOMOD" badge */
+.alphaBetaTag__8e1a5[style*='background-color: var(--brand-500)']  /* "beta" tag */ {
   color: var(--black-500);
 }
 
-.automodText_b20021 /* "AUTOMOD" badge */ {
+.automodText__3bcbc /* "AUTOMOD" badge */ {
   color: currentColor;
 }
 
 /*
  * > audit log
  */
-.typeCreate__18a1f:after {
+.typeCreate__01e59:after {
   background: url(svg('server/settings/moderation/type-create.svg'));
 }
-.typeUpdate__7c320:after {
+.typeUpdate__4b21b:after {
   background: url(svg('server/settings/moderation/type-update.svg'));
 }
-.typeDelete__1e939:after {
+.typeDelete__5f7ca:after {
   background: url(svg('server/settings/moderation/type-delete.svg'));
 }

@@ -1,21 +1,21 @@
 /*
  * (Waiting for the stage start)
  */
-.icon__4443b[style*='background-color: var(--green-360)'],
-.icon__4443b[style*='background-color: var(--brand-500)'] {
+.icon_cad888[style*='background-color: var(--green-360)'],
+.icon_cad888[style*='background-color: var(--brand-500)'] {
   color: var(--black-500);
 }
 
-.sparkleIcon__50612[src='/assets/f92a8b5812e2da52a179.svg'] {
+.sparkleIcon_f97bad[src='/assets/f92a8b5812e2da52a179.svg'] {
   content: url(svg('server/channel/stage/star.svg'));
 }
-.sparkleIcon__50612[src='/assets/51063f34b3960c1d5da8.svg'] {
+.sparkleIcon_f97bad[src='/assets/51063f34b3960c1d5da8.svg'] {
   content: url(svg('server/channel/stage/cross.svg'));
 }
 
 /*
  * > stage > moderator badge
  */
-.container__0e8b9 rect[fill='var(--white-500)'] + path {
+.container__81b28 rect[fill='var(--white-500)'] + path {
   fill: var(--black-500);
 }
