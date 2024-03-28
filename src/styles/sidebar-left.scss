@@ -1,4 +1,5 @@
 @if is_uniform() {
+  .wrapper__216eb, /* Servers list */
   .sidebar_e031be, /* Left sidebar (servers + discover) */
   .sidebarRegionScroller__8113e, /* Settings > sidebar */
   .privateChannels__9b518, .scroller__89969, /* DM > channels */
@@ -8,6 +9,7 @@
     background-color: var(--background-primary) !important;
   }
 
+  .wrapper__216eb, /* Servers list */
   .sidebar_e031be, /* Left sidebar (servers + discover) */
   .sidebarRegionScroller__8113e /* Settings > sidebar */ {
     border-right: 1px solid var(--background-secondary-alt);
