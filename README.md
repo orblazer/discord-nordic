@@ -35,6 +35,13 @@ This theme change all discord style for follow [Nord palette](https://www.nordth
 3. Past it on theme list in **Vencord** theme settings
 4. Donate if you could <3
 
+### Replugged
+
+> ⚠️ The `uniform` variant is not yet available.
+
+1. [![Install in Replugged](https://img.shields.io/badge/-Install%20in%20Replugged-blue)](https://replugged.dev/install?identifier=orblazer/discord-nordic&source=github)
+2. Donate if you could <3
+
 ## Customize (BetterDiscord)
 
 If you want customize the theme can simply edit CSS variables in theme file.

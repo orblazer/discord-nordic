@@ -4,7 +4,7 @@ import { access, readFile } from 'fs/promises'
 import { dirname, join, resolve } from 'path'
 import sass from 'sass'
 import { fileURLToPath } from 'url'
-import { betterDiscord, stylus, vencord } from './output.js'
+import { betterDiscord, replugged, stylus, vencord } from './output.js'
 
 const pkg = JSON.parse(await readFile(resolve('package.json')))
 
@@ -59,6 +59,15 @@ async function build(folder, uniform = false) {
         [results[0].value, results[1].value, results[3].value].join('\n')
       ),
     ])
+
+    // TODO: uniform variant is not supported
+    if (!uniform) {
+      await replugged(
+        folder,
+        pkg,
+        [results[0].value, results[1].value].join('\n')
+      )
+    }
   }
 }
 

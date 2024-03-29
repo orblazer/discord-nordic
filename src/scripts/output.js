@@ -1,4 +1,4 @@
-import { writeFile } from 'fs/promises'
+import { readFile, writeFile } from 'fs/promises'
 import { join } from 'path'
 
 export function betterDiscord(baseDir, pkg, css) {
@@ -97,4 +97,18 @@ ${css}
 .theme-light {
 }`
   )
+}
+
+export async function replugged(baseDir, pkg, css) {
+  // Sync manifest.json
+  const manifestFilepath = join(baseDir, 'manifest.json')
+  const manifest = JSON.parse(await readFile(manifestFilepath))
+  manifest.version = pkg.version
+  manifest.description = pkg.description
+  manifest.source = pkg.repository
+
+  return Promise.allSettled([
+    writeFile(manifestFilepath, JSON.stringify(manifest, null, 2)),
+    writeFile(join(baseDir, 'nordic.replugged.css'), css),
+  ])
 }

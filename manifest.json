@@ -1,0 +1,27 @@
+{
+  "id": "dev.orblazer.nordic",
+  "name": "Nordic",
+  "description": "Complete theme for Nordic (https://www.nordtheme.com/)",
+  "author": [
+    {
+      "name": "orblazer",
+      "discordID": "179681974879911946",
+      "github": "orblazer"
+    },
+    {
+      "name": "Nato",
+      "discordID": "258366189875494922",
+      "github": "natowb"
+    }
+  ],
+  "version": "4.10.10",
+  "updater": {
+    "type": "github",
+    "id": "orblazer/discord-nordic"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "nordic.replugged.css",
+  "source": "https://github.com/orblazer/discord-nordic",
+  "image": ["https://i.imgur.com/CemWnVK.png"]
+}
