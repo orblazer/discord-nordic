@@ -1,3 +1,14 @@
+## [4.10.11](https://github.com/orblazer/discord-nordic/compare/v4.10.10...v4.10.11) (2024-03-29)
+
+
+### Bug Fixes
+
+* **global:** right color when branded background items ([7bf009a](https://github.com/orblazer/discord-nordic/commit/7bf009a4955d133c9598656133c5001202b3f920))
+* **server:** right reactions background and remove hover on forum ([6c35815](https://github.com/orblazer/discord-nordic/commit/6c358155df3ee80956eb2c44947f1efb94d811bc))
+* **user:** right apply status colors on popup ([bdddceb](https://github.com/orblazer/discord-nordic/commit/bdddcebb40363fa9ccd89c6a0d131c2e28263fde))
+
+
+
 ## [4.10.10](https://github.com/orblazer/discord-nordic/compare/v4.10.9...v4.10.10) (2024-03-28)
 
 
