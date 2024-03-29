@@ -79,42 +79,20 @@
 }
 
 @if is_uniform() {
-  .container__7afce:hover, /* "Get started" */
-  .container__7d004:hover, /* (grid view) */
-  .container__5130c:hover /* (list view) */ {
-    background-color: var(--background-secondary-alt);
-  }
-
   .increasedActivityMainCard_e53744, /* (list view) */
   .replies__1b03e:hover /* conversation line */ {
     background-color: var(--background-secondary);
   }
 
   .replies__1b03e,
-  .container__5130c:not(:hover) .addReactButton_c67c5a {
-    background-color: var(--background-primary);
-  }
-
-  .container__5130c:not(:hover) .addReactButton_c67c5a {
+  .container__5130c .addReactButton_c67c5a, /* (list view) */
+  .reaction_ef7e09, /* (grid view) */
+  .defaultReaction_cda082, .reaction_a0e18f /* (list view) */ {
     background-color: var(--background-primary);
   }
 } @else {
   .theme-dark .contentPreview__122fc,
   .theme-dark .optionButtonWrapper_c86844:not(:hover):not(.selected__31118) /*! Channels & Roles > Customise */ {
     background-color: var(--primary-500);
-  }
-
-  .container__5130c:hover /* (list view) */ {
-    background-color: var(--background-modifier-hover);
-  }
-}
-
-.reaction_ef7e09, /* (grid view) */
-.reaction__4a43f /* (list view) */ {
-  @if is_uniform() {
-    background-color: var(--background-secondary-alt);
-    border-color: var(--background-primary);
-  } @else {
-    background-color: var(--background-primary);
   }
 }
