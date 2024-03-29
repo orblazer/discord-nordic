@@ -70,8 +70,8 @@
 .lookOutlined__014b5.colorBrand__27d57:hover, /** User settings > privacy & safety */
 .lookFilled__950dd.colorBrandNew__8872c, /** user settings > Accessibility (preview btn) */
 .categoryItem__0608f.selectedCategoryItem__3e361, /** Discover */
-.focused_a7ad64 .userMenuUsername_d2fe10, /* Profile Popup > status > switch account (hover) */
-.colorBrand__27d57 .defaultColor__77578 /* server settings > onboarding > check it out ("Set up Welcome Sign" btn) */ {
+.focused_a7ad64 .userMenuUsername_d2fe10 .userMenuText_b1842d, /* Profile Popup > status > switch account (hover) */
+.colorBrand__27d57 .defaultColor__30336 /* server settings > onboarding > check it out ("Set up Welcome Sign" btn) + server > voice channel ("choose an activity" btn) */ {
   color: var(--black-500);
 }
 
@@ -97,16 +97,20 @@
 }
 
 /** hover state */
-.colorDefault_e361cf.focused_a7ad64:not(.colorDanger__08c25):not(
+.colorDefault_e361cf.focused_dcafb9:not(.colorDanger__08c25):not(
     .menuItemFocused__7beab
   ) {
   /** + user popup (sidebar left) > switch accounts (menuItem = user popup btns) */
   &,
   .subtext__694e2,
   .checkbox__378d3,
-  .radioSelection__5ed39,
+  .radioSelection__41d1e,
   .caret_ce50ce /* Right click (arrow icon) */ {
     color: var(--black-500);
+  }
+
+  path /* Right click (arrow icon) */ {
+    fill: currentColor;
   }
 }
 
