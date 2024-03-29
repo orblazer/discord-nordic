@@ -64,15 +64,15 @@
 /*
  * User popup (sidebar left) > status (online, dnd, etc)
  */
-.status__1c26d[style='background-color: var(--green-360);'] {
-  background-color: var(--user-status-online);
+.status__1c26d[style='background-color: rgb(#{$green-360-rgb});'] {
+  background-color: var(--user-status-online) !important;
 }
-.status__1c26d[style='background-color: var(--yellow-300);'] {
-  background-color: var(--user-status-idle);
+.status__1c26d[style='background-color: rgb(#{$yellow-300-rgb});'] {
+  background-color: var(--user-status-idle) !important;
 }
-.status__1c26d[style='background-color: var(--red-400);'] {
-  background-color: var(--user-status-dnd);
+.status__1c26d[style='background-color: rgb(#{$red-400-rgb});'] {
+  background-color: var(--user-status-dnd) !important;
 }
-.status__1c26d[style='background-color: var(--primary-400);'] {
-  background-color: var(--user-status-invisible);
+.status__1c26d[style='background-color: rgb(#{$primary-400-rgb});'] {
+  background-color: var(--user-status-invisible) !important;
 }
