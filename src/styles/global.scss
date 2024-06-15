@@ -56,10 +56,8 @@
 /*
  * Settings square checkbox
  */
-.checkbox_fcf2ad[style*='background-color: var(--brand-experiment-500)']
-  path[fill='var(--white-500)'],
-.checkbox_fcf2ad[style*='background-color: var(--text-brand)']
-  path[fill='var(--white-500)'] /* Server settings > onboarding > channels (channel checkmark) */ {
+.checkbox_fcf2ad[style*='background-color: var(--brand-500)']
+  path[fill='var(--white-500)'] {
   fill: var(--black-500);
 }
 

@@ -1,3 +1,8 @@
+/* beta tag */
+.textBadge__4c235[style*='background-color: var(--brand-500)'] {
+  color: var(--black-500);
+}
+
 /*
  * > my account
  */
@@ -29,10 +34,6 @@
 /*
  * > Privacy & Safety
  */
-.betaTagIcon_d65f20[style*='background-color: var(--brand-500)'] {
-  color: var(--black-500);
-}
-
 @if is_uniform() {
   .itemFilled__5a849[aria-checked='true'] {
     background-color: var(--background-secondary-alt);
@@ -44,4 +45,12 @@
  */
 .permissionCheckmark__6860a {
   background-image: url(svg('user/settings/general/checkmark.svg'));
+}
+
+/*
+ * > Keybinds
+ */
+.key__6a8d9 {
+  border-color: var(--background-tertiary);
+  box-shadow: inset 0 -4px 0 var(--background-secondary);
 }

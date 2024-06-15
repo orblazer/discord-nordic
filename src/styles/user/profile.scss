@@ -34,8 +34,12 @@
   }
 }
 
-.botTagRegular_fc4b4a:not(.botTagOP_fd6360), /** Bot tag */ {
+.botTagRegular_fc4b4a:not(.botTagOP_fd6360) /** Bot tag */ {
   color: var(--black-500);
+
+  path[fill='var(--white-500)'] /* Verified badge*/ {
+    fill: currentColor;
+  }
 }
 
 /*
