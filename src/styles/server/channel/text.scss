@@ -41,6 +41,10 @@
 .icon__467d5[style*='background-image: url("/assets/b754caa743f8c49fbbf0.svg")'] {
   background-image: url(svg('server/channel/text/join.svg')) !important;
 }
+/* Reply message */
+.userJoinSystemMessageIcon_ccc769 path[fill='#{$status-green-600-hex}'] {
+  fill: hsl(var(--user-status-online-hsl));
+}
 
 /*
  * > mentioned message

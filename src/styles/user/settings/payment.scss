@@ -1,12 +1,16 @@
 /*
  * > nitro
  */
+.giftButton_ec2522:hover:not(:active) {
+  color: var(--black-500) !important;
+}
+
 .settingsTextContainer__406ba > *[style*='color: white'] {
   color: var(--header-primary) !important;
 }
 
-.lookInverted_a299dc.colorBrand__27d57,
-.upsellButton__56757 /*! server settings > stickers */ {
+.lookFilled__950dd.colorBrandInverted__52602,
+.upsellButton__04c8a /*! server settings > stickers */ {
   // TODO
   color: var(--brand-800);
 }
@@ -14,7 +18,7 @@
 // Tier blocks
 .premiumCards_ed071e {
   .pricePerInterval_c2c66a[style*='color: white'],
-  .text-md-normal__6e567[style*='color: white'] {
+  .text-sm-normal__95a78[style*='color: white'] {
     color: currentColor !important;
   }
 }
@@ -22,8 +26,9 @@
 .tier2__1364f {
   color: var(--primary-660);
 
-  .text-md-normal__6e567[style*='color: white'],
-  .heading-md-medium__2dff4[style*='color: white'] {
+  .display-md__564fa[style*='color: white'],
+  .text-sm-normal__95a78[style*='color: white'],
+  .heading-lg-normal__3932e[style*='color: white'] {
     color: currentColor !important;
   }
 }

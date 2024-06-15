@@ -11,3 +11,8 @@
 .default__23a5a {
   background-image: url(svg('user/settings/activity/cross.svg'));
 }
+
+/* Verified badge */
+.gameVerifiedIcon__31a94 .childContainer__3a40c path[fill='var(--white-500)'] {
+  fill: var(--black-500);
+}

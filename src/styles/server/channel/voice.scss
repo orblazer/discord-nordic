@@ -37,10 +37,10 @@
   }
 }
 
-.selectorTextSelected__147ec {
-  color: var(--black-500);
-}
-
 .enhancedSelectorNitroText__4daeb {
-  color: var(--premium-perk-pink-hsl) !important;
+  color: hsl(var(--premium-perk-pink-hsl)) !important;
+}
+.selectorButton_ea0609:hover .selectorText__8286b,
+.selectorButton_ea0609.selectorButtonSelected__707fb .selectorText__8286b {
+  color: var(--black-500);
 }
