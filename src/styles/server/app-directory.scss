@@ -1,24 +1,17 @@
 /*
  * > [app]
  */
-.premiumIcon__2b16f[src='/assets/0a7531c7a7a37dc8ac1b.svg'] {
+.premiumIcon_a1eac2[src='/assets/45485d7fb82075646f32.svg'] {
   content: url(svg('server/app-directory/dollar.svg'));
 }
 
 /*
- * >> "premium" tab (subscribe btn)
+ * > [app] > "Add App" popup
  */
-.button_f9cb38 {
-  color: var(--primary-700) !important;
-}
-
-/*
- * > [app] > add to server
- */
-.scopeIcon__68826 .icon_d5f2cc {
+.scopeIcon_cf14a8 .icon_cf14a8 {
   color: var(--black-500);
 }
 
-.headerSuccess__45334 {
+.headerSuccess_e1a4cf {
   background-image: url(svg('server/app-directory/success.svg'));
 }

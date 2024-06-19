@@ -1,33 +1,33 @@
-/* beta tag */
-.textBadge__4c235[style*='background-color: var(--brand-500)'] {
+/* beta tag + "AUTOMOD" badge */
+.textBadge_df8943[style*='background-color: var(--brand-500)'] {
   color: var(--black-500);
 }
 
 /*
  * > my account
  */
-.lockIcon_f844b1[src='/assets/fbfaf2b5ff4cf0632f65.svg'] {
+.lockIcon_ad4a7c[src='/assets/12e739083a6d997cba7b.svg'] {
   content: url(svg('user/settings/general/lock.svg'));
 }
 
 /*
  * > profiles
  */
-.uploadIcon_d35ec2 /* Change avatar */ {
+.uploadIcon_f2f431 /* Change avatar */ {
   color: var(--primary-460-hsl);
 }
 
 /*
  * >> server profile
  */
-.upsellTextContainer__3adf2 > div[style*='color: white'] {
+.upsellTextContainer_eb49af > div[style*='color: white'] {
   color: var(--black-500) !important;
 }
 
 /*
  * >>> choose a server
  */
-.selectedIcon_e9ecc2 circle[fill='white'] {
+.selectedIcon_f6639d circle[fill='white'] {
   fill: var(--black-500);
 }
 
@@ -35,7 +35,7 @@
  * > Privacy & Safety
  */
 @if is_uniform() {
-  .itemFilled__5a849[aria-checked='true'] {
+  .itemFilled_eb92a8[aria-checked='true'] {
     background-color: var(--background-secondary-alt);
   }
 }
@@ -43,14 +43,6 @@
 /*
  * > authorizes apps
  */
-.permissionCheckmark__6860a {
+.permissionCheckmark_f0135d {
   background-image: url(svg('user/settings/general/checkmark.svg'));
-}
-
-/*
- * > Keybinds
- */
-.key__6a8d9 {
-  border-color: var(--background-tertiary);
-  box-shadow: inset 0 -4px 0 var(--background-secondary);
 }

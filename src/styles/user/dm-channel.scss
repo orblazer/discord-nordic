@@ -1,9 +1,20 @@
+@if is_uniform() {
+  .members_cbd271, /* DM group + Server > members sidebar */
+  .profilePanel_b433b4 /* member sidebar */ {
+    border-left: 1px solid var(--background-secondary-alt);
+  }
+
+  .profilePanel_b433b4 .userProfileOuterUnthemed_c69a7b .userPanelInnerThemed_c69a7b /* DM unthemed user profile sidebar */ {
+    background: var(--background-primary) !important;
+  }
+}
+
 /*
  * call icons
  */
-.icon__467d5[style*='background-image: url("/assets/d750b80048af0194841b.svg")'] {
+.icon_e62b38[style*='background-image: url("/assets/617505e363f7f7cf9492.svg")'] {
   background-image: url(svg('user/dm-channel/call-incoming.svg')) !important;
 }
-.icon__467d5[style*='background-image: url("/assets/27552340cbc7f06073e6.svg")'] {
+.icon_e62b38[style*='background-image: url("/assets/22ff731ec050e3214b69.svg")'] {
   background-image: url(svg('user/dm-channel/call-missed.svg')) !important;
 }

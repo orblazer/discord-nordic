@@ -1,15 +1,15 @@
 /*
  * Channel or category
  */
-.checkbox_fcf2ad[style*='background-color: rgba(#{$green-360-rgb}, 0.15)'] {
+.checkbox_f6cde8[style*='background-color: rgba(#{$green-360-rgb}, 0.15)'] {
   border-color: hsl(var(--green-360-hsl) / 0.15) !important;
   background-color: hsl(var(--green-360-hsl) / 0.15) !important;
 }
-.checkbox_fcf2ad path[fill='#{$green-360-hex}'] {
+.checkbox_f6cde8 path[fill='#{$green-360-hex}'] {
   fill: var(--green-360);
 }
 
-.checkbox_fcf2ad[style*='background-color: rgb(#{$green-360-rgb})'] {
+.checkbox_f6cde8[style*='background-color: rgb(#{$green-360-rgb})'] {
   border-color: var(--green-360) !important;
   background-color: var(--green-360) !important;
 }

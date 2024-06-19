@@ -1,18 +1,18 @@
 @if is_uniform() {
-  .mainTableContainer__37b54 {
+  .mainTableContainer_e23072 {
     background-color: var(--background-secondary);
   }
 
-  .table_c0e94f,
-  .paginationContainer_b8c933 {
+  .table_aabef9,
+  .paginationContainer_cb152b {
     border-top-color: var(--background-secondary-alt);
   }
 
-  .memberRowContainer__8a95f td:after {
+  .memberRowContainer_a39fe9 td:after {
     background: var(--background-primary);
   }
 
-  .memberRowContainer__8a95f:hover td {
+  .memberRowContainer_a39fe9:hover td {
     background-color: var(--background-secondary-alt);
   }
 }

@@ -3,7 +3,7 @@
  * hover (joined)
  ! + stage bottom
  */
-.gradientContainer_cdada6 {
+.gradientContainer_dd069c {
   --color-rgb: var(--primary-700-hsl);
   background-image: linear-gradient(
     hsl(var(--color-rgb)),
@@ -25,22 +25,10 @@
 /*
  * > screen share (step 2)
  */
-@if is_uniform() {
-  .theme-dark .card__7756d /* (fields) */ {
-    border-color: var(--primary-430);
-    background-color: hsl(var(--black-500-hsl) / 0.5);
-  }
-
-  .theme-dark .qualitySettingsContainer__8f353,
-  .theme-dark .item__126a6 {
-    border-color: var(--primary-430);
-  }
-}
-
-.enhancedSelectorNitroText__4daeb {
+.enhancedSelectorNitroText_a78967 {
   color: hsl(var(--premium-perk-pink-hsl)) !important;
 }
-.selectorButton_ea0609:hover .selectorText__8286b,
-.selectorButton_ea0609.selectorButtonSelected__707fb .selectorText__8286b {
+.selectorButton_a78967:hover .selectorText_a78967,
+.selectorButton_a78967.selectorButtonSelected_a78967 .selectorText_a78967 {
   color: var(--black-500);
 }

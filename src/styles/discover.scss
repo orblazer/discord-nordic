@@ -1,8 +1,8 @@
-.pageWrapper_c182d3 {
+/* .pageWrapper_c182d3 {
   background-color: var(--background-primary) !important;
-}
-.card__86773,
-.iconMask__4092e {
+} */
+.card_eb1ca6,
+.iconMask_eb1ca6 {
   background-color: var(--background-secondary) !important;
 
   &:hover {
@@ -10,8 +10,13 @@
   }
 }
 
-.footerImage__2c3fd[src='/assets/679d8a1ef4bba5d92f03.svg'] {
+.footerImage_a3a4ce[src='/assets/826b6a84605f7eb8a469.svg'] {
   content: url(svg('discover/discover.svg'));
+}
+
+/* Server badge (partner, house and verified) */
+.guildBadge_eb1ca6 .icon_db1980 {
+  color: var(--black-500);
 }
 
 /*

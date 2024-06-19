@@ -1,58 +1,57 @@
 @if is_uniform() {
-  .wrapper__216eb, /* Servers list */
-  .sidebar_e031be, /* Left sidebar (servers + discover) */
-  .sidebarRegionScroller__8113e, /* Settings > sidebar */
-  .privateChannels__9b518, .scroller__89969, /* DM > channels */
-  .container__7e23c, /* Server > channels */
-  .members__573eb, /* DM group/Server > members sidebar */
-  .profilePanel_e2cafe .userProfileOuterUnthemed_e14365 .userPanelInnerThemed_c2aed9 /* DM unthemed user profile sidebar */ {
+  .wrapper_fea3ef, /* Servers sidebar */
+  .sidebar_a4d4d9, /* Left sidebar (servers + discover) */
+  .sidebarRegionScroller_c25c6d, /* Settings > sidebar */
+  .privateChannels_f0963d, .scroller_c47fa9, /* DM > channels */
+  .container_ee69e0, /* Server > channels */
+  .members_cbd271 /* ! DM group/Server > members sidebar */ {
     background-color: var(--background-primary) !important;
   }
 
-  .wrapper__216eb, /* Servers list */
-  .sidebar_e031be, /* Left sidebar (servers + discover) */
-  .sidebarRegionScroller__8113e /* Settings > sidebar */ {
+  .wrapper_fea3ef, /* Servers sidebar */
+  .sidebar_a4d4d9, /* Left sidebar (servers + discover) */
+  .sidebarRegionScroller_c25c6d /* Settings > sidebar */ {
     border-right: 1px solid var(--background-secondary-alt);
   }
 
-  .wrapper_a6f950:not(.selected_b420e6) .childWrapper__760c6, /* server without avatar */
-  .expandedFolderBackground_b1385f, /* servers folder */
-  .circleIconButton__05cf2:not(.selected_aded59) /* add and discover button */ {
+  .wrapper_f90abb:not(.selected_f90abb) .childWrapper_f90abb, /* server without avatar */
+  .expandedFolderBackground_bc7085, /* servers folder */
+  .circleIconButton_db6521:not(.selected_db6521) /* add and discover button */ {
     background-color: var(--background-secondary);
   }
-  .container_debb33, /* user area */
-  .container_e1958d /* user area (in voice) */ {
+
+  .container_b2ca13, /* user area */
+  .container_adcaac /* user area (in voice) */ {
     background-color: var(--background-secondary) !important;
   }
-
-  .theme-dark .folder__17546.hover__043de, /* server folder icon */
-  .theme-dark .wrapper__832f2 .wrapper_a6f950:not(.selected_b420e6) .childWrapper__760c6 /* server (in folder) without avatar */ {
-    background-color: var(--c-background-secondary-alt2);
+  .container_adcaac /* user area (in voice) */ {
+    border-bottom-color: var(--background-secondary-alt);
   }
-  .theme-light .folder__17546.hover__043de, /* server folder icon */
-  .theme-light .wrapper__832f2 .wrapper_a6f950:not(.selected_b420e6) .childWrapper__760c6 /* server (in folder) without avatar */ {
-    background-color: var(--background-modifier-hover);
+
+  .folder_bc7085.hover_bc7085, /* server folder icon */
+  .wrapper_bc7085 .wrapper_f90abb:not(.selected_f90abb) .childWrapper_f90abb /* server (in folder) without avatar */ {
+    background-color: var(--c-background-secondary-alt2) !important;
   }
 } @else {
-  .wrapper__216eb /* Servers sidebar */ {
+  .wrapper_fea3ef /* Servers sidebar */ {
     background-color: var(--background-secondary-alt) !important;
   }
 
-  .panels__58331 /* user area (global) */ {
-    border-left: 1px solid var(--background-secondary);
+  .panels_a4d4d9 /* user area (global) */ {
+    border-left: 1px solid var(--background-modifier-accent);
   }
 
-  .expandedFolderBackground_b1385f, /* servers folder */
-  .folder__17546:not(.hover__043de) /* server folder icon */ {
+  .expandedFolderBackground_bc7085, /* servers folder */
+  .folder_bc7085:not(.hover_bc7085) /* server folder icon */ {
     background-color: var(--background-primary) !important;
   }
 
-  .theme-dark .folder__17546.hover__043de, /* server folder icon */
-  .theme-dark .wrapper__832f2 .wrapper_a6f950:not(.selected_b420e6) .childWrapper__760c6 /* server (in folder) without avatar */ {
+  .theme-dark .folder_bc7085.hover_bc7085, /* server folder icon */
+  .theme-dark .wrapper_bc7085 .wrapper_f90abb:not(.selected_f90abb) .childWrapper_f90abb /* server (in folder) without avatar */ {
     background-color: var(--primary-500);
   }
-  .theme-light .folder__17546.hover__043de, /* server folder icon */
-  .theme-light .wrapper__832f2 .wrapper_a6f950:not(.selected_b420e6) .childWrapper__760c6 /* server (in folder) without avatar */ {
+  .theme-light .folder_bc7085.hover_bc7085, /* server folder icon */
+  .theme-light .wrapper_bc7085 .wrapper_f90abb:not(.selected_f90abb) .childWrapper_f90abb /* server (in folder) without avatar */ {
     background-color: var(--primary-160);
   }
 }
@@ -61,8 +60,8 @@
  * DM
  * server without image
  */
-.wrapper_a6f950:hover .childWrapper__760c6,
-.wrapper_a6f950.selected_b420e6 .childWrapper__760c6 {
+.wrapper_f90abb:hover .childWrapper_f90abb,
+.wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
   color: var(--black-500);
 }
 
@@ -70,34 +69,30 @@
  * voice connected badge
  */
 @if is_uniform() {
-  .iconBadge__19638 {
+  .iconBadge_c96c45 {
     // (When other people are connected)
     background-color: var(--background-secondary-alt);
   }
 }
 
-.iconBadge__19638.isCurrentUserConnected__3bd70 {
+.iconBadge_c96c45.isCurrentUserConnected_c96c45 {
   color: var(--black-500);
-}
-
-.tooltipGreen__36421 /* ping (when over badge) */ {
-  color: var(--black-500) !important;
 }
 
 /*
  * User area (in voice)
  */
 @if is_uniform() {
-  .button_b82d53.buttonColor__7bad9.fauxDisabled_daee54,
-  .button_b82d53 .buttonColor__7bad9.fauxDisabled_daee54,
-  .button_b82d53.buttonColor__7bad9:disabled,
-  .button_b82d53 .buttonColor__7bad9:disabled,
-  .button_b82d53.buttonColor__7bad9,
-  .button_b82d53 .buttonColor__7bad9 {
+  .button_adcaac.buttonColor_adcaac.fauxDisabled_adcaac,
+  .button_adcaac .buttonColor_adcaac.fauxDisabled_adcaac,
+  .button_adcaac.buttonColor_adcaac:disabled,
+  .button_adcaac .buttonColor_adcaac:disabled,
+  .button_adcaac.buttonColor_adcaac,
+  .button_adcaac .buttonColor_adcaac {
     background-color: var(--c-background-secondary-alt2);
   }
-  .button_b82d53.buttonColor__7bad9:hover,
-  .button_b82d53 .buttonColor__7bad9:hover {
+  .button_adcaac.buttonColor_adcaac:hover,
+  .button_adcaac .buttonColor_adcaac:hover {
     background-color: var(--background-primary);
   }
 }
@@ -106,14 +101,14 @@
  * add server
  * discover
  */
-.circleIconButton__05cf2.selected_aded59 {
+.circleIconButton_db6521.selected_db6521 {
   color: var(--black-500);
 }
 
 /*
  ! > add server > Customize your server ('+' image)
  */
-.iconContainer__60b4b circle[fill='#{$brand-500-hex}' i] {
+.iconContainer_a2aef9 circle[fill='#{$brand-500-hex}' i] {
   fill: var(--brand-500);
 
   & + path[fill='white'] {

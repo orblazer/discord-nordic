@@ -1,4 +1,4 @@
-.profileBadge__3cc69 {
+.badge_e5a42d {
   &[src*='6bdc42827a38498929a4920da12695d9.png'] {
     content: url(svg('user/profile/badge-active-developer.svg'));
   }
@@ -34,7 +34,7 @@
   }
 }
 
-.botTagRegular_fc4b4a:not(.botTagOP_fd6360) /** Bot tag */ {
+.botTagRegular_a02df3:not(.botTagOP_a02df3) /** Bot tag */ {
   color: var(--black-500);
 
   path[fill='var(--white-500)'] /* Verified badge*/ {
@@ -49,34 +49,34 @@
  ! DM channel > title bar
  ! Server > members list
  */
-.mask_d5067d rect[fill='#{$green-360-hex}'] {
+.mask_c51b4e rect[fill='#{$green-360-hex}'] {
   fill: var(--user-status-online);
 }
-.mask_d5067d rect[fill='#{$yellow-300-hex}'] {
+.mask_c51b4e rect[fill='#{$yellow-300-hex}'] {
   fill: var(--user-status-idle);
 }
-.mask_d5067d rect[fill='#{$red-400-hex}'] {
+.mask_c51b4e rect[fill='#{$red-400-hex}'] {
   fill: var(--user-status-dnd);
 }
-.mask_d5067d rect[fill='#{$twitch-hex}'] /* (not on DM title bar) */ {
+.mask_c51b4e rect[fill='#{$twitch-hex}'] /* (not on DM title bar) */ {
   fill: var(--user-status-twitch);
 }
-.mask_d5067d rect[fill='#{$primary-400-hex}'] {
+.mask_c51b4e rect[fill='#{$primary-400-hex}'] {
   fill: var(--user-status-invisible);
 }
 
 /*
  * User popup (sidebar left) > status (online, dnd, etc)
  */
-.status__1c26d[style='background-color: rgb(#{$green-360-rgb});'] {
+.status_c7d26b[style='background-color: rgb(#{$green-360-rgb});'] {
   background-color: var(--user-status-online) !important;
 }
-.status__1c26d[style='background-color: rgb(#{$yellow-300-rgb});'] {
+.status_c7d26b[style='background-color: rgb(#{$yellow-300-rgb});'] {
   background-color: var(--user-status-idle) !important;
 }
-.status__1c26d[style='background-color: rgb(#{$red-400-rgb});'] {
+.status_c7d26b[style='background-color: rgb(#{$red-400-rgb});'] {
   background-color: var(--user-status-dnd) !important;
 }
-.status__1c26d[style='background-color: rgb(#{$primary-400-rgb});'] {
+.status_c7d26b[style='background-color: rgb(#{$primary-400-rgb});'] {
   background-color: var(--user-status-invisible) !important;
 }

@@ -1,10 +1,3 @@
-@if is_uniform() {
-  .wrapper__45980 /* emoji picker (sidebar) */ {
-    background-color: var(--background-secondary);
-    border-right: 1px solid hsl(var(--primary-900-hsl) / 0.2);
-  }
-}
-
 /*
  * > interaction
  */
@@ -15,41 +8,41 @@
 /*
  * > new messages bar
  */
-.newMessagesBar__8b272 .barButtonBase__5e4cf {
+.newMessagesBar_cf58b5 .barButtonBase_cf58b5 {
   color: var(--black-500);
 }
 
 /*
  * Text channel (empty)
  */
-.icon__19b48[style*='background-image: url("/assets/2ae6db8c391d7038bf4a.svg")'] {
+.icon_f9902b[style*='background-image: url("/assets/fea1d92557530364cefd.svg")'] {
   background-image: url(svg('server/channel/text/invite.svg')) !important;
 }
-.icon__19b48[style*='background-image: url("/assets/73ba7cc1c59ea6e8a0a5.svg")'] {
+.icon_f9902b[style*='background-image: url("/assets/b8566c6e8b65576532c0.svg")'] {
   background-image: url(svg('server/channel/text/customize.svg')) !important;
 }
-.icon__19b48[style*='background-image: url("/assets/8c3a6c9f5fca465294f8.svg")'] {
+.icon_f9902b[style*='background-image: url("/assets/cf6b9f0ee7c5cee7fb45.svg")'] {
   background-image: url(svg('server/channel/text/chat.svg')) !important;
 }
-.icon__19b48[style*='background-image: url("/assets/c6d38f860f7845d2cce1.svg")'] {
+.icon_f9902b[style*='background-image: url("/assets/9db0c99df4cb2d4dfa87.svg")'] {
   background-image: url(svg('server/channel/text/first-app.svg')) !important;
 }
 
 /*
  * Text channel (user join)
  */
-.icon__467d5[style*='background-image: url("/assets/b754caa743f8c49fbbf0.svg")'] {
+.icon_e62b38[style*='background-image: url("/assets/db0473de8224a02f3a88.svg")'] {
   background-image: url(svg('server/channel/text/join.svg')) !important;
 }
 /* Reply message */
-.userJoinSystemMessageIcon_ccc769 path[fill='#{$status-green-600-hex}'] {
+.userJoinSystemMessageIcon_ec86aa path[fill='#{$status-green-600-hex}'] {
   fill: hsl(var(--user-status-online-hsl));
 }
 
 /*
  * > mentioned message
  */
-.mentioned_fa6fd2:before {
+.mentioned_d5deea:before {
   background-color: var(--brand-500);
 }
 
@@ -57,12 +50,12 @@
  * > Reaction
  */
 @if is_uniform() {
-  .message_ccca67 .reaction__4a43f {
+  .message_ccca67 .reaction_ec6b19 {
     border-color: var(--background-secondary-alt);
   }
 }
 
-.theme-light .reaction__4a43f {
+.theme-light .reaction_ec6b19 {
   background-color: var(--primary-160);
 }
 
@@ -70,7 +63,7 @@
  * > Embed
  */
 @if is_uniform() == false {
-  .theme-light .embedFull__14919 {
+  .theme-light .embedFull_ad0b71 {
     background-color: var(--primary-160);
   }
 }

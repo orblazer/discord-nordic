@@ -1,24 +1,38 @@
+/** Members wrapper (this is for force full height on members list) **/
+.container_cbd271 .membersWrap_cbd271 {
+  flex-grow: 1;
+}
+
+/*
+ * Voice channels limits
+ */
+@if is_uniform() {
+  .users_a5bc92 {
+    background-color: var(--background-secondary);
+  }
+} @else {
+  .theme-light .users_a5bc92 {
+    background-color: var(--primary-100);
+  }
+}
+
 /*
  * "new" badge
  */
-.newChannel__1bbcf, /* Sidebar left > new channel tag */
-.newBadge_e55d5e, /* Event (popup) */
-.title__97e53 .textBadge_f05120[style="background-color: var(--bg-brand);"], /* Event (popup) > Create new (step 2) */
-.titleBadge__9f72c, /* Browse Channels */
-.newBadge__27392 /* Channels & Roles > Customise*/ {
+.newChannel_ecb303, /* Sidebar left > new channel tag */
+.newBadgeText_d6a475, /* Event (popup) */
+.title_a33974 .textBadge_df8943[style="background-color: var(--bg-brand);"], /* Event (popup) > Create new (step 2) */
+.newBadge_f1fd9c, /* Browse Channels (navbar) */
+.titleBadge_f04d06, /* Browse Channels */
+.newBadge_c6b11b /* Channels & Roles > Customise*/ {
   color: var(--brand-900);
-}
-
-/** Members wrapper (this is for force full height on members list) **/
-.container_f79ab4 .membersWrap__5ca6b {
-  flex-grow: 1;
 }
 
 /*
  * Members list > items
  */
 @if is_uniform() {
-  .member_aa4760 {
+  .member_a31c43 {
     background-color: transparent;
   }
 }
@@ -26,14 +40,16 @@
 /*
  * Server badge (partner, house and verified)
  */
-.flowerStarContainer__00f61 .childContainer__3a40c .icon__87f1f {
-  color: var(--black-500);
+.flowerStarContainer_ff7d90
+  .childContainer_ff7d90
+  path[fill='var(--white-400)'] {
+  fill: var(--black-500);
 }
 
 /*
  * Events
  */
-.eventStatusContainer__591e7 path[fill='#{$brand-360-hex}'] /** (popup) > Create new (step 3) */ {
+.eventStatusContainer_d6a475 path[fill='#{$brand-360-hex}'] /** (popup) > Create new (step 3) */ {
   fill: var(--brand-360);
 }
 
@@ -42,52 +58,66 @@
  *   Server settings
  *   Channel settings
  */
-.container__353bc[style*='background-color: rgb(#{$primary-800-rgb})'] {
+.container_b6cd66[style*='background-color: rgb(#{$primary-800-rgb})'] {
   background-color: var(--background-floating) !important;
 }
 
 /*
- * Popup "Invite People"
+ * New server settings popup
  */
-@if is_uniform() {
-  .theme-dark .inviteBannerUpsell_d4a58d {
-    background-color: var(--c-background-secondary-alt2);
-  }
-}
-
-/*
- * New server settings popup // TODO: find new classes
- */
-.upsellTooltipWrapper__11dad {
-  .upsellTooltipHeader__85849,
-  .upsellTooltipText_e9359d {
+.upsellTooltipWrapper_dafa63 {
+  .upsellTooltipHeader_dafa63,
+  .upsellTooltipText_dafa63 {
     color: var(--black-500) !important;
   }
 }
 
 /*
- * "Emoji Picker" > new emoji
+ * "Emoji Picker"
  */
-.newlyAddedHighlight__42344 {
+.badgeLabel_c3120f /* (label when over "popular" or "new") */ {
+  & > .newlyAddedBadgeIcon_c3120f,
+  & > .text-sm\/semibold_dc00ef[style*='color: white'] {
+    color: currentColor !important;
+  }
+}
+
+@if is_uniform() {
+  .wrapper_ba23fe /* (sidebar) */ {
+    background-color: var(--background-secondary);
+    border-right: 1px solid hsl(var(--primary-900-hsl) / 0.2);
+  }
+}
+
+.topGuildEmojiBadge_c3120f /* "popular" label (hover) */ {
+  background: linear-gradient(
+    268.26deg,
+    var(--red-500) 0%,
+    var(--orange-500) 102.45%
+  );
+  color: var(--black-900);
+}
+
+/* "new" emoji */
+.newlyAddedHighlight_fbfedd {
   border-color: var(--green-500);
 }
-.newlyAddedBadge__25dcf {
+.newlyAddedBadge_fbfedd {
   background-color: var(--green-500);
-}
 
-.newlyAddedBadgeStar__02934,
-.newlyAddedBadge__25dcf .text-xs-semibold__767f1[style*='color: white'],
-/* (hover emoji) */
-.newlyAddedBadgeIcon__0fee2,
-.newlyAddedBadge__8c824 .text-xs-semibold__767f1[style*='color: white'] {
-  color: var(--black-500) !important;
+  .newlyAddedBadgeStar_fbfedd,
+  .text-xs\/semibold_dc00ef[style*='color: white'] {
+    color: var(--black-500) !important;
+  }
 }
-
-/* (hover emoji) */
-.newlyAddedBadge__8c824 {
+.newlyAddedBadge_c3120f /* (hover) */ {
   background: linear-gradient(
     268.26deg,
     var(--blue-330) 0%,
     var(--green-500) 102.45%
   );
+}
+
+.upsellButton_a3bc57 /* "Get Nitro" btn */ {
+  color: var(--primary-660) !important;
 }
