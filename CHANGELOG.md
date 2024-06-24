@@ -1,3 +1,12 @@
+## [4.10.14](https://github.com/orblazer/discord-nordic/compare/v4.10.13...v4.10.14) (2024-06-24)
+
+
+### Bug Fixes
+
+* **global:** prevent not lisible user popup ([99b8a35](https://github.com/orblazer/discord-nordic/commit/99b8a351a52e9af0a48bb2554801bb75f71802e6))
+
+
+
 ## [4.10.13](https://github.com/orblazer/discord-nordic/compare/v4.10.11...v4.10.13) (2024-06-19)
 
 
