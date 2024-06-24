@@ -121,9 +121,9 @@
 
 /** hover state */
 .colorDefault_d90b3d.focused_d90b3d:not(.colorDanger_d90b3d):not(
-    .focused_e1268c
+    .menuItemFocused_ad5fac
   ) {
-  /** + user popup (sidebar left) > switch accounts (focused_e1268c = user popup btns) */
+  /** + user popup (sidebar left) > switch accounts (menuItemFocused = user popup btns) */
   &,
   .subtext_d90b3d,
   .checkbox_d90b3d,
