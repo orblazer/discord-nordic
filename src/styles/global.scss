@@ -107,8 +107,8 @@
   color: var(--black-500);
 }
 
-.tooltipGreen_b6c360, /* ping (when over badge) */
-.tooltipBrand_b6c360 /* voice emoji (when over bottom emoji) */ {
+.tooltipGreen_b6c360 /* ping (when over badge) */ {
+  // .tooltipBrand_b6c360 /* voice emoji (when over bottom emoji) */ { // TODO: useless ?
   color: var(--black-500) !important;
 }
 
