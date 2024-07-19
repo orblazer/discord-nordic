@@ -1,3 +1,13 @@
+## [4.10.15](https://github.com/orblazer/discord-nordic/compare/v4.10.14...v4.10.15) (2024-07-19)
+
+
+### Bug Fixes
+
+* add missing colors tweak ([7ad0321](https://github.com/orblazer/discord-nordic/commit/7ad032159f552c969bb7e44079fee33b9b15ad5d))
+* update to last discord version ([33a72b0](https://github.com/orblazer/discord-nordic/commit/33a72b049200470e0035627f315224cd073a77ed))
+
+
+
 ## [4.10.14](https://github.com/orblazer/discord-nordic/compare/v4.10.13...v4.10.14) (2024-06-24)
 
 
