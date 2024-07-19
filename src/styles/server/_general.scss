@@ -110,6 +110,14 @@
     color: var(--black-500) !important;
   }
 }
+.newlyAddedHighlightContainer_fbfedd:hover {
+  .newlyAddedHighlight_fbfedd {
+    border-color: var(--button-positive-background-hover);
+  }
+  .newlyAddedBadge_fbfedd {
+    background-color: var(--button-positive-background-hover);
+  }
+}
 .newlyAddedBadge_c3120f /* (hover) */ {
   background: linear-gradient(
     268.26deg,
