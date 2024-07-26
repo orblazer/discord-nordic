@@ -65,6 +65,10 @@
   color: var(--black-500);
 }
 
+.container_e85446 div[style*='background-color: rgb(#{$green-360-rgb})'] /* Typing on DM group */ {
+  background-color: var(--user-status-online) !important;
+}
+
 /*
  * voice connected badge
  */

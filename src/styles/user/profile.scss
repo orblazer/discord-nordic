@@ -37,7 +37,7 @@
 .botTagRegular_a9e77f:not(.botTagOP_a9e77f) /** Bot tag */ {
   color: var(--black-500);
 
-  path[fill='var(--white-500)'] /* Verified badge*/ {
+  path[fill='var(--white)'] /* Verified badge*/ {
     fill: currentColor;
   }
 }
