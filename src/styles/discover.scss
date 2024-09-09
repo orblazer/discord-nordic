@@ -1,6 +1,3 @@
-/* .pageWrapper_c182d3 {
-  background-color: var(--background-primary) !important;
-} */
 .card_eb1ca6,
 .iconMask_eb1ca6 {
   background-color: var(--background-secondary) !important;
@@ -25,4 +22,11 @@
  */
 .icon__77722 /* ("Join Hub" popup) */ {
   background-image: url(svg('discover/hub.svg'));
+}
+
+/*
+ * > Quests
+ */
+.contentContainer_a56260 {
+  background: var(--background-primary) !important;
 }
