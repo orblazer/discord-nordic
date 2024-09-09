@@ -1,3 +1,17 @@
+## [4.10.17](https://github.com/orblazer/discord-nordic/compare/v4.10.16...v4.10.17) (2024-09-09)
+
+
+### Bug Fixes
+
+* update to last discord version ([dfbb2df](https://github.com/orblazer/discord-nordic/commit/dfbb2df9849957b92bccecdf6d5c3b2199fe72da))
+
+
+### Features
+
+* **discover:** colorize quest background ([adaaaa1](https://github.com/orblazer/discord-nordic/commit/adaaaa19926c9efe8604b5c0fce52a7f058d8f01))
+
+
+
 ## [4.10.16](https://github.com/orblazer/discord-nordic/compare/v4.10.15...v4.10.16) (2024-07-26)
 
 
