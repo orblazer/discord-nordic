@@ -84,7 +84,7 @@
  */
 .lookFilled_dd4f85.colorBrand_dd4f85:not(.button_adcaac), /** User settings (button_adcaac = voice buttons) + actions button */
 .lookOutlined_dd4f85.colorBrand_dd4f85:hover, /** User settings > privacy & safety */
-.categoryItem_c72b37.selectedCategoryItem_c72b37, /** Discover */
+.categoryItem_c72b37.selectedCategoryItem_c72b37, .categoryItem_f75d68.selectedCategoryItem_f75d68, /** Discover (sidebar) */
 .focused_e1268c .userMenuUsername_e1268c .userMenuText_e1268c,
 .focused_e1268c .userMenuUsername_e1268c .userMenuDiscriminator_e1268c, /* Profile Popup > status > switch account (hover) */
 .colorBrand_dd4f85 .defaultColor__30336 /* server settings > onboarding > check it out ("Set up Welcome Sign" btn) + server > voice channel ("choose an activity" btn) */ {
@@ -103,12 +103,13 @@
 .lookFilled_dd4f85.colorGreen_dd4f85, /** user settings > profiles + actions button */
 .button_adcaac .buttonColor_adcaac.buttonActive_adcaac,
 .button_adcaac.buttonColor_adcaac.buttonActive_adcaac, /** sidebar (connected to voice channel) > share your screen (active) */
-.allow_e3c4bb.selected_e3c4bb /** server > channel/category settings > permissions (allow) */ {
+.allow_e3c4bb.selected_e3c4bb, /** server > channel/category settings > permissions (allow) */
+.addButton_f11cbf /** Discover > Student Hubs > "Join Hub" button  */ {
   color: var(--black-500);
 }
 
-.tooltipGreen_b6c360 /* ping (when over badge) */ {
-  // .tooltipBrand_b6c360 /* voice emoji (when over bottom emoji) */ { // TODO: useless ?
+.tooltipGreen_b6c360, /* ping (when over badge) */
+.tooltipBrand_b6c360 /* voice emoji (when over bottom emoji) */ {
   color: var(--black-500) !important;
 }
 

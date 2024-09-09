@@ -32,3 +32,10 @@
 .selectorButton_a78967.selectorButtonSelected_a78967 .selectorText_a78967 {
   color: var(--black-500);
 }
+
+/*
+ * Emoji reaction
+ */
+.emojiPickerHeader_bdea70 img[src='/assets/96098492389840cbb20f.svg'] {
+  content: url(svg('server/channel/voice-emoji-nitro.svg'));
+}
