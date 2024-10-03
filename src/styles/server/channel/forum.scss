@@ -1,30 +1,14 @@
+@if is_uniform() {
+  .mainCard_a6d69a {
+    background: transparent;
+    border-color: var(--background-secondary-alt);
+  }
+}
+
 .botTagOP_a9e77f,
 .newBadge_d331f1[style*='background-color: var(--brand-260)'], /* (list view) */
 .newBadge_a57509[style*='background-color: var(--brand-260)'] /* (gallery view) */ {
   color: var(--brand-900);
-}
-
-@if is_uniform() {
-  .mainCard_a6d69a {
-    background-color: var(--background-secondary) !important;
-  }
-} @else {
-  .mainCard_a6d69a {
-    background-color: var(--background-primary) !important;
-  }
-}
-
-/*
- * Get started
- */
-@if is_uniform() {
-  .container_a039eb,
-  .container_a03b48 /* + first conversation */ {
-    background-color: var(--background-secondary);
-  }
-  .stepContainer_a039eb {
-    background-color: var(--background-primary);
-  }
 }
 
 .stepStatus_a039eb[style*='background-color: var(--status-positive-background)'],
@@ -65,37 +49,7 @@
   color: var(--black-500);
 }
 
-/*
- * Post
- */
-@if is_uniform() == false {
-  .contentPreview_a57509 {
-    background-color: var(--background-secondary);
-  }
-  .theme-dark .textContentFooter_a57509 {
-    background: linear-gradient(
-      to top,
-      hsl(var(--primary-630-hsl) / 1),
-      hsl(var(--primary-630-hsl) / 0.97) 36px,
-      hsl(var(--primary-630-hsl) / 0.4)
-    );
-  }
-  .theme-dark .textContentFooter_a57509.noTags_a57509 {
-    background: linear-gradient(
-      to top,
-      hsl(var(--primary-630-hsl) / 1),
-      hsl(var(--primary-630-hsl) / 0)
-    );
-  }
-}
-
 .pinIcon_f451cd path[fill='white'], /* (list view) */
 .pinIcon_f451cd path[fill='white'] /* (gallery view) */ {
   fill: var(--black-500);
-}
-
-@if is_uniform() {
-  .mainCard_a6d69a .reaction_f61c73 {
-    background-color: var(--background-secondary);
-  }
 }

@@ -164,6 +164,12 @@
   --background-mentioned: hsl(var(--brand-500-hsl) / 0.18);
   --background-mentioned-hover: hsl(var(--brand-500-hsl) / 0.15);
   --mention-background: hsl(var(--brand-500-hsl) / 0.25);
+  --background-modifier-hover: color-mix(
+    in oklab,
+    var(--primary-560) 100%,
+    hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.3)
+      var(--theme-base-color-amount, 0%)
+  );
 
   --search-popout-option-fade-hover: linear-gradient(
     90deg,
@@ -191,6 +197,18 @@
     --button-secondary-background: var(--c-background-secondary-alt2);
   } @else {
     /* Override variables */
+    --bg-mod-faint: color-mix(
+      in oklab,
+      var(--primary-530) 100%,
+      hsl(var(--theme-base-color-hsl, 0 0% 0%))
+        var(--theme-base-color-amount, 0%)
+    );
+    --background-modifier-hover: color-mix(
+      in oklab,
+      var(--primary-560) 100%,
+      hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.3)
+        var(--theme-base-color-amount, 0%)
+    );
     --background-modifier-selected: hsl(var(--primary-460-hsl) / 0.6);
 
     --channel-text-area-placeholder: var(--primary-400);

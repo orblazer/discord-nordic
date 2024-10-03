@@ -1,32 +1,31 @@
-.card_eb1ca6,
-.iconMask_eb1ca6 {
-  background-color: var(--background-secondary) !important;
-
-  &:hover {
-    background-color: var(--background-modifier-hover) !important;
-  }
+.theme-dark .gradient_b97772 {
+  background: radial-gradient(
+      130.66% 324.98% at -3.95% 0%,
+      var(--blue-330) 0%,
+      hsl(var(--primary-600-hsl) / 0%) 100%
+    ),
+    var(--primary-600) !important;
 }
-
-.footerImage_a3a4ce[src='/assets/826b6a84605f7eb8a469.svg'] {
-  content: url(svg('discover/discover.svg'));
+.theme-light .gradient_b97772 {
+  background: radial-gradient(
+      130.66% 324.98% at -3.95% 0%,
+      var(--blue-330) 0%,
+      hsl(var(--nord-light1-hsl) / 0%) 100%
+    ),
+    var(--nord-light1) !important;
 }
 
 /* Server badge (partner, house and verified) */
-.guildBadge_eb1ca6 .icon_db1980,
-.guildBadge_e90879 .icon_d082f7 /*+ Discover */ {
+.guildBadge_c73cee .icon_d082f7 {
   color: var(--black-500);
 }
 
 /*
  * > student hub
  */
-.icon__77722 /* ("Join Hub" popup) */ {
-  background-image: url(svg('discover/hub.svg'));
+.iconContainer_f11cbf path[fill='var(--white)'] {
+  fill: var(--black-500);
 }
-
-/*
- * > Quests
- */
-.contentContainer_a56260 {
-  background: var(--background-primary) !important;
+.icon_f38045 /* ("Join Hub" popup) */ {
+  background-image: url(svg('discover/hub.svg'));
 }
