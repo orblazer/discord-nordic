@@ -1,3 +1,12 @@
+## [4.10.18](https://github.com/orblazer/discord-nordic/compare/v4.10.17...v4.10.18) (2024-10-03)
+
+
+### Bug Fixes
+
+* update to last discord version ([23ea8da](https://github.com/orblazer/discord-nordic/commit/23ea8da4ecf0b8e01a0a3e272a1f35dde07cd161))
+
+
+
 ## [4.10.17](https://github.com/orblazer/discord-nordic/compare/v4.10.16...v4.10.17) (2024-09-09)
 
 
