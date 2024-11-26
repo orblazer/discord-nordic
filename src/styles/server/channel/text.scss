@@ -67,3 +67,19 @@
     background-color: var(--primary-160);
   }
 }
+
+/*
+ * > Voice message
+ */
+.playIcon_d6cb89 {
+  color: var(--black-500);
+}
+
+.playing_d6cb89 .playButtonContainer_d6cb89 {
+  background: var(--black-500);
+}
+
+.playing_d6cb89 .duration_d6cb89,
+.playing_d6cb89 .volumeButtonIcon_d6cb89 {
+  color: var(--black-500);
+}
