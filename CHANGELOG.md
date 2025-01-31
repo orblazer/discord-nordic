@@ -1,3 +1,12 @@
+## [4.10.21-hotfix.1](https://github.com/orblazer/discord-nordic/compare/v4.10.21...v4.10.21-hotfix.1) (2025-01-31)
+
+
+### Bug Fixes
+
+* **uniform:** right header border ([ec006db](https://github.com/orblazer/discord-nordic/commit/ec006db2037e4189d76d73b34291c77127d6cb81)), closes [#36](https://github.com/orblazer/discord-nordic/issues/36)
+
+
+
 ## [4.10.21](https://github.com/orblazer/discord-nordic/compare/v4.10.20...v4.10.21) (2025-01-31)
 
 
