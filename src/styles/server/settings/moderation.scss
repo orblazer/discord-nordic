@@ -1,11 +1,11 @@
 /*
  * > Safety Setup
  */
-.divider_abe1fa {
+.divider_eae0ef {
   background-color: var(--background-secondary-alt);
 }
 
-.safetyStepRow_abe1fa .button_dd4f85 {
+.safetyStepRow_eae0ef .button__201d5 {
   border-color: var(--background-secondary-alt);
 
   &:hover {
@@ -17,19 +17,19 @@
 /*
  * >> AutoMod
  */
-.automodText_a7a160 /* "AUTOMOD" badge */ {
+.automodText__0034b /* "AUTOMOD" badge */ {
   color: currentColor;
 }
 
 /*
  * > audit log
  */
-.typeCreate_eebd33:after {
+.typeUpdate__43dab:after {
   background: url(svg('server/settings/moderation/type-create.svg'));
 }
-.typeUpdate_eebd33:after {
+.typeCreate__43dab:after {
   background: url(svg('server/settings/moderation/type-update.svg'));
 }
-.typeDelete_eebd33:after {
+.typeDelete__43dab:after {
   background: url(svg('server/settings/moderation/type-delete.svg'));
 }

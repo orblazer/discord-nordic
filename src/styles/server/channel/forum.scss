@@ -1,23 +1,23 @@
 @if is_uniform() {
-  .mainCard_a6d69a {
+  .mainCard_f369db {
     background: transparent;
     border-color: var(--background-secondary-alt);
   }
 }
 
-.botTagOP_a9e77f,
-.newBadge_d331f1[style*='background-color: var(--brand-260)'], /* (list view) */
-.newBadge_a57509[style*='background-color: var(--brand-260)'] /* (gallery view) */ {
+.botTagOP__82f07,
+.newBadge_faa96b[style*='background-color: var(--brand-260)'], /* (list view) */
+.newBadge__9a337[style*='background-color: var(--brand-260)'] /* (gallery view) */ {
   color: var(--brand-900);
 }
 
-.stepStatus_a039eb[style*='background-color: var(--status-positive-background)'],
-.discordIcon_ad4d4c {
+.stepStatus_a68543[style*='background-color: var(--status-positive-background)'],
+.discordIcon__56dee {
   color: var(--black-500);
 }
 
-.stars_a03b48,
-.emptyStateStars_b767ed /* + empty forum  */ {
+.stars__93db4,
+.emptyStateStars__7641b /* + empty forum  */ {
   path[fill='#ADF3FF'] {
     fill: var(--nord-cyan);
   }
@@ -26,14 +26,15 @@
   }
 }
 
-.inline_ad4d4c img[src='/assets/db8dd898bbfa31caea78.svg'] {
+.inline__56dee img[src='/assets/db8dd898bbfa31caea78.svg'] {
+  // TODO: Url is outdated
   content: url(svg('server/channel/forum/guide.svg'));
 }
 
 /*
  * Matching post ("Search or create a post")
  */
-.theme-dark .matchingPostsRow_a6d69a {
+.theme-dark .matchingPostsRow_f369db {
   @if is_uniform() {
     background-color: var(--background-secondary-alt);
   } @else {
@@ -44,12 +45,11 @@
 /*
  * > filter
  */
-.countText_a6d69a,
-.countText_ae4f46 /** Dropdown menu */ {
+.countText_f369db,
+.countText__5808f /** Dropdown menu */ {
   color: var(--black-500);
 }
 
-.pinIcon_f451cd path[fill='white'], /* (list view) */
-.pinIcon_f451cd path[fill='white'] /* (gallery view) */ {
+.pinIcon__08166 path[fill='white'] {
   fill: var(--black-500);
 }

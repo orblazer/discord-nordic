@@ -1,10 +1,28 @@
+.callContainer_cb9592,
+/* ! + stage bottom */
+.callContainer__722ff,
+.rowContainer__8a920,
+.scroller__56ccd,
+.participants__9c309,
+.tileContainer__71eb2:not(:hover) {
+  @if is_uniform() {
+    background-color: var(--background-primary);
+  } @else {
+    background-color: var(--primary-800);
+  }
+}
+
 /*
  * open chat (not joined)
  * hover (joined)
  ! + stage bottom
  */
-.gradientContainer_dd069c {
-  --color-rgb: var(--primary-700-hsl);
+.gradientContainer_bfe55a {
+  @if is_uniform() {
+    --color-rgb: var(--background-primary-hsl);
+  } @else {
+    --color-rgb: var(--primary-800-hsl);
+  }
   background-image: linear-gradient(
     hsl(var(--color-rgb)),
     hsl(var(--color-rgb) / 0.738) 19%,
@@ -25,17 +43,14 @@
 /*
  * > screen share (step 2)
  */
-.enhancedSelectorNitroText_a78967 {
-  color: hsl(var(--premium-perk-pink-hsl)) !important;
-}
-.selectorButton_a78967:hover .selectorText_a78967,
-.selectorButton_a78967.selectorButtonSelected_a78967 .selectorText_a78967 {
+.selectorButton_c6d3dc:hover .selectorText_c6d3dc,
+.selectorButton_c6d3dc.selectorButtonSelected_c6d3dc .selectorText_c6d3dc {
   color: var(--black-500);
 }
 
 /*
  * Emoji reaction
  */
-.emojiPickerHeader_bdea70 img[src='/assets/96098492389840cbb20f.svg'] {
+.emojiPickerHeader__0800c img[src='/assets/24d8f2c8f4fce44c.svg'] {
   content: url(svg('server/channel/voice-emoji-nitro.svg'));
 }

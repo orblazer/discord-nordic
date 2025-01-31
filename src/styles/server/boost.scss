@@ -1,4 +1,4 @@
-.header_a50853 {
+.header__6fd0e {
   background: center 15%/90% auto url(svg('server/boost/sparks.svg')) no-repeat,
     linear-gradient(
       359.37deg,
@@ -14,47 +14,47 @@
       var(--premium-tier-0-header-gradient-5) 91.4%
     );
 
-  .heading_a50853,
-  .guildName_cbe7a3 {
+  .heading__6fd0e,
+  .guildName_f9f04c {
     color: var(--white-500) !important;
   }
 }
 
-.guildBoostCountWrapper_cbe7a3 {
+.guildBoostCountWrapper_f9f04c {
   color: var(--white-100);
 }
 
-.guildBoostCtaBoostContent_cbe7a3 {
+.guildBoostCtaBoostContent_f9f04c {
   color: var(--brand-800);
 }
 
-.progressBarMarkerUnlocked_c29408 .boostedTierIcon_c29408 {
+.progressBarMarkerLabel__1f1cb {
   color: var(--black-500);
 }
 
 /*
  * >* Cards
  */
-.tierCardCurrentTier_e3ebb9, /* ("curent" badge) + >* level up server */
-.recommendedTierHighlightTag_ebd3d3 /* >* level up server ("recommended" badge) */ {
+.tierCardCurrentTier_be48d0, /* ("curent" badge) + >* level up server */
+.recommendedTierHighlightTag__686cf /* >* level up server ("recommended" badge) */ {
   background: var(--guild-boosting-purple);
   color: var(--black-500) !important;
 }
 
-.tierCardNewFeatureBadge_e3ebb9 {
+.tierCardNewFeatureBadge_be48d0 {
   background: var(--white-500);
   color: var(--black-500);
 }
 
 // Text
-.tierCardBoostRequirement_e3ebb9 {
+.tierCardBoostRequirement_be48d0 {
   color: var(--primary-800) !important;
 }
-.tierCardHeading_e3ebb9,
-.tierCardListItem_e3ebb9 {
+.tierCardHeading_be48d0,
+.tierCardListItem_be48d0 {
   color: var(--primary-700) !important;
 }
 
-.tierCardListIcon_e3ebb9 path[fill='var(--interactive-normal)'] {
+.tierCardListIcon_be48d0 path[fill='var(--interactive-normal)'] {
   fill: currentColor;
 }

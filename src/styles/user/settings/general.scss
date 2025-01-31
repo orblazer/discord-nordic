@@ -1,48 +1,48 @@
-/* beta tag + "AUTOMOD" badge */
-.textBadge_df8943[style*='background-color: var(--brand-500)'] {
-  color: var(--black-500);
-}
-
 /*
  * > my account
  */
-.lockIcon_ad4a7c[src='/assets/12e739083a6d997cba7b.svg'] {
+.lockIcon__2666b[src='/assets/513846bd926efc73.svg'] {
   content: url(svg('user/settings/general/lock.svg'));
 }
 
 /*
  * > profiles
  */
-.uploadIcon_f2f431 /* Change avatar */ {
-  color: var(--primary-460-hsl);
+.uploadIcon_edf440 /* Change avatar */ {
+  color: var(--black-500);
 }
 
 /*
  * >> server profile
  */
-.upsellTextContainer_eb49af > div[style*='color: white'] {
+.upsellTextContainer__0f7dc > div[style*='color: white'] {
   color: var(--black-500) !important;
 }
 
 /*
  * >>> choose a server
  */
-.selectedIcon_f6639d circle[fill='white'] {
+.selectedIcon__3f413 circle[fill='white'] {
   fill: var(--black-500);
 }
 
 /*
- * > Privacy & Safety
+ * > Content & Social
  */
 @if is_uniform() {
-  .itemFilled_eb92a8[aria-checked='true'] {
+  .itemFilled__001a7[aria-checked='true'] {
     background-color: var(--background-secondary-alt);
   }
+}
+
+/* Discord icon (when "all server") */
+.guildSelectOptionIcon_b476ba path[fill='white'] {
+  fill: var(--black-500);
 }
 
 /*
  * > authorizes apps
  */
-.permissionCheckmark_f0135d {
+.permissionCheckmark__50a54 {
   background-image: url(svg('user/settings/general/checkmark.svg'));
 }

@@ -109,6 +109,13 @@
   --guild-boosting-purple-hsl: var(--premium-tier-2-pink-hsl);
   --guild-boosting-blue-hsl: var(--premium-tier-0-blue-hsl);
   --guild-boosting-blue-for-gradients-hsl: var(--premium-tier-0-blue-hsl);
+  --premium-tier-2-pink-for-gradients: var(--premium-perk-pink);
+  --premium-tier-2-purple-for-gradients: var(
+    --premium-tier-2-pink-for-gradients
+  );
+  --premium-tier-2-purple-for-gradients-2: var(
+    --premium-tier-2-pink-for-gradients
+  );
   --guild-boosting-purple-for-gradients-hsl: var(
     --premium-tier-2-purple-for-gradients-hsl
   );
@@ -122,6 +129,7 @@
   --premium-perk-blue-hsl: var(--nord-cyan-hsl); /*! nord color */
   --premium-perk-orange-hsl: var(--yellow-500-hsl);
   --premium-perk-gold-hsl: var(--yellow-500-hsl);
+  --premium-nitro-pink-light: var(--premium-perk-pink);
 
   /** Other */
   --partner-hsl: var(--nord-blue-hsl); /*! nord color */
@@ -134,6 +142,7 @@
   --button-danger-background-hover: var(--red-560);
   --button-danger-background-active: var(--red-630);
   --button-outline-danger-background-active: var(--red-560);
+  --button-filled-brand-text: var(--black-500);
 
   --input-placeholder-text-dark-hsl: var(--primary-dark-360-hsl);
 
@@ -142,6 +151,7 @@
     --search-popout-date-picker-hint-text: var(--text-muted);
 
     --home-background: var(--background-primary);
+    --custom-channel-members-bg: var(--background-primary);
   } @else {
     --home-background: var(--background-secondary-alt);
   }

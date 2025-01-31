@@ -1,4 +1,4 @@
-.badge_e5a42d {
+.badge__8061a {
   &[src*='6bdc42827a38498929a4920da12695d9.png'] {
     content: url(svg('user/profile/badge-active-developer.svg'));
   }
@@ -34,7 +34,7 @@
   }
 }
 
-.botTagRegular_a9e77f:not(.botTagOP_a9e77f) /** Bot tag */ {
+.botTagRegular__82f07:not(.botTagOP__82f07) /** Bot tag */ {
   color: var(--black-500);
 
   path[fill='var(--white)'] /* Verified badge*/ {
@@ -49,34 +49,38 @@
  ! DM channel > title bar
  ! Server > members list
  */
-.mask_c51b4e rect[fill='#{$green-360-hex}'] {
-  fill: var(--user-status-online);
-}
-.mask_c51b4e rect[fill='#{$yellow-300-hex}'] {
-  fill: var(--user-status-idle);
-}
-.mask_c51b4e rect[fill='#{$red-400-hex}'] {
-  fill: var(--user-status-dnd);
-}
-.mask_c51b4e rect[fill='#{$twitch-hex}'] /* (not on DM title bar) */ {
-  fill: var(--user-status-twitch);
-}
-.mask_c51b4e rect[fill='#{$primary-400-hex}'] {
-  fill: var(--user-status-invisible);
+.mask__44b0c {
+  rect[fill='#{$green-360-hex}'] {
+    fill: var(--user-status-online);
+  }
+  rect[fill='#{$yellow-300-hex}'] {
+    fill: var(--user-status-idle);
+  }
+  rect[fill='#{$red-400-hex}'] {
+    fill: var(--user-status-dnd);
+  }
+  rect[fill='#{$twitch-hex}'] /* (not on DM title bar) */ {
+    fill: var(--user-status-twitch);
+  }
+  rect[fill='#{$primary-400-hex}'] {
+    fill: var(--user-status-invisible);
+  }
 }
 
 /*
  * User popup (sidebar left) > status (online, dnd, etc)
  */
-.status_c7d26b[style='background-color: rgb(#{$green-360-rgb});'] {
-  background-color: var(--user-status-online) !important;
-}
-.status_c7d26b[style='background-color: rgb(#{$yellow-300-rgb});'] {
-  background-color: var(--user-status-idle) !important;
-}
-.status_c7d26b[style='background-color: rgb(#{$red-400-rgb});'] {
-  background-color: var(--user-status-dnd) !important;
-}
-.status_c7d26b[style='background-color: rgb(#{$primary-400-rgb});'] {
-  background-color: var(--user-status-invisible) !important;
+.status_a423bd {
+  &[style='background-color: rgb(#{$green-360-rgb});'] {
+    background-color: var(--user-status-online) !important;
+  }
+  &[style='background-color: rgb(#{$yellow-300-rgb});'] {
+    background-color: var(--user-status-idle) !important;
+  }
+  &[style='background-color: rgb(#{$red-400-rgb});'] {
+    background-color: var(--user-status-dnd) !important;
+  }
+  &[style='background-color: rgb(#{$primary-400-rgb});'] {
+    background-color: var(--user-status-invisible) !important;
+  }
 }

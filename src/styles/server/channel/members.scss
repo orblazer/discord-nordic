@@ -1,18 +1,20 @@
 @if is_uniform() {
-  .mainTableContainer_e23072 {
+  .mainTableContainer__09a38 {
     background-color: var(--background-secondary);
   }
 
-  .table_aabef9,
-  .paginationContainer_cb152b {
+  .table_b4ec0b,
+  .paginationContainer_e8f197 {
     border-top-color: var(--background-secondary-alt);
   }
 
-  .memberRowContainer_a39fe9 td:after {
-    background: var(--background-primary);
-  }
+  .memberRowContainer__71c22 {
+    td:after {
+      background: var(--background-primary);
+    }
 
-  .memberRowContainer_a39fe9:hover td {
-    background-color: var(--background-secondary-alt);
+    &:hover td {
+      background-color: var(--background-secondary-alt);
+    }
   }
 }

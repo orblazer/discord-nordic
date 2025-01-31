@@ -1,5 +1,5 @@
 /** Members wrapper (this is for force full height on members list) **/
-.container_cbd271 .membersWrap_cbd271 {
+.container_c8ffbb .membersWrap_c8ffbb {
   flex-grow: 1;
 }
 
@@ -7,11 +7,11 @@
  * Voice channels limits
  */
 @if is_uniform() {
-  .users_a5bc92 {
+  .users__260e1 {
     background-color: var(--background-secondary);
   }
 } @else {
-  .theme-light .users_a5bc92 {
+  .theme-light .users__260e1 {
     background-color: var(--primary-100);
   }
 }
@@ -19,55 +19,46 @@
 /*
  * "new" badge
  */
-.newChannel_ecb303, /* Sidebar left > new channel tag */
-.newBadgeText_d6a475, /* Event (popup) */
-.title_a33974 .textBadge_df8943[style="background-color: var(--bg-brand);"], /* Event (popup) > Create new (step 2) */
-.newBadge_f1fd9c, /* Browse Channels (navbar) */
-.titleBadge_f04d06, /* Browse Channels */
-.newBadge_c6b11b /* Channels & Roles > Customise*/ {
+.newChannel__599fa, /* Sidebar left > new channel tag */
+.newBadgeText__29021, /* Event (popup) */
+.title__0396e .textBadge__2b1f5[style="background-color: var(--bg-brand);"], /* Event (popup) > Create new (step 2) */
+.newBadge__270d7, /* Browse Channels (navbar) */ // ? Not sure
+.titleBadge_e4503a, /* Browse Channels */
+.newBadge__5d7c9 /* Channels & Roles > Customise */ {
   color: var(--brand-900);
-}
-
-/*
- * Members list > items
- */
-@if is_uniform() {
-  .member_a31c43 {
-    background-color: transparent;
-  }
 }
 
 /*
  * Server badge (partner, house and verified)
  */
-.flowerStarContainer_c91f7d
-  .childContainer_c91f7d
-  path[fill='var(--white-400)'] {
-  fill: var(--black-500);
+.rowIconV2_b1f768,
+.guildBadge__85d16 {
+  .childContainer__3e3b0 path[fill='var(--white-400)'] {
+    fill: var(--black-500);
+  }
 }
 
 /*
- * Events
+ * Events icons
  */
-.eventStatusContainer_d6a475 path[fill='#{$brand-360-hex}'] /** (popup) > Create new (step 3) */ {
-  fill: var(--brand-360);
+.eventStatusContainer__29021 {
+  path[fill='#{$brand-360-hex}'] /** + (popup) > Create new (step 3) */ {
+    fill: var(--brand-360);
+  }
+  path[fill='#{$green-330-hex}'] {
+    fill: var(--green-330);
+  }
 }
-
-/*
- * Modified settings
- *   Server settings
- *   Channel settings
- */
-.container_b6cd66[style*='background-color: rgb(#{$primary-800-rgb})'] {
-  background-color: var(--background-floating) !important;
+.guildIcon__4591d {
+  color: var(--black-500);
 }
 
 /*
  * New server settings popup
  */
-.upsellTooltipWrapper_dafa63 {
-  .upsellTooltipHeader_dafa63,
-  .upsellTooltipText_dafa63 {
+.upsellTooltipWrapper__675aa {
+  .upsellTooltipHeader__675aa,
+  .upsellTooltipText__675aa {
     color: var(--black-500) !important;
   }
 }
@@ -75,21 +66,21 @@
 /*
  * "Emoji Picker"
  */
-.badgeLabel_c3120f /* (label when over "popular" or "new") */ {
-  & > .newlyAddedBadgeIcon_c3120f,
-  & > .text-sm\/semibold_dc00ef[style*='color: white'] {
+.badgeLabel_aeaaeb /* (label when over "popular" or "new") */ {
+  & > .newlyAddedBadgeIcon_aeaaeb,
+  & > .text-sm\/semibold_cf4812[style*='color: white'] {
     color: currentColor !important;
   }
 }
 
 @if is_uniform() {
-  .wrapper_ba23fe /* (sidebar) */ {
+  .wrapper__4e6ce /* (sidebar) */ {
     background-color: var(--background-secondary);
     border-right: 1px solid hsl(var(--primary-900-hsl) / 0.2);
   }
 }
 
-.topGuildEmojiBadge_c3120f /* "popular" label (hover) */ {
+.topGuildEmojiBadge_aeaaeb /* "popular" label (hover) */ {
   background: linear-gradient(
     268.26deg,
     var(--red-500) 0%,
@@ -99,26 +90,26 @@
 }
 
 /* "new" emoji */
-.newlyAddedHighlight_fbfedd {
+.newlyAddedHighlight_fc7141 {
   border-color: var(--green-500);
 }
-.newlyAddedBadge_fbfedd {
+.newlyAddedBadge_fc7141 {
   background-color: var(--green-500);
 
-  .newlyAddedBadgeStar_fbfedd,
-  .text-xs\/semibold_dc00ef[style*='color: white'] {
+  .newlyAddedBadgeStar_fc7141,
+  .text-xs\/semibold_cf4812[style*='color: white'] {
     color: var(--black-500) !important;
   }
 }
-.newlyAddedHighlightContainer_fbfedd:hover {
-  .newlyAddedHighlight_fbfedd {
+.newlyAddedHighlightContainer_fc7141:hover {
+  .newlyAddedHighlight_fc7141 {
     border-color: var(--button-positive-background-hover);
   }
-  .newlyAddedBadge_fbfedd {
+  .newlyAddedBadge_fc7141 {
     background-color: var(--button-positive-background-hover);
   }
 }
-.newlyAddedBadge_c3120f /* (hover) */ {
+.newlyAddedBadge_aeaaeb /* (hover) */ {
   background: linear-gradient(
     268.26deg,
     var(--blue-330) 0%,
@@ -126,9 +117,9 @@
   );
 }
 
-.nitroTopDividerLockCircle_e8f337 path[fill='white'] {
+.nitroTopDividerLockCircle_b3fb5f path[fill='white'] {
   fill: var(--black-500);
 }
-.upsellButton_a3bc57 /* "Get Nitro" btn */ {
+.upsellButton__0b69f /* "Get Nitro" btn */ {
   color: var(--primary-660) !important;
 }

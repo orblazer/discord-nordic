@@ -1,75 +1,75 @@
 @if is_uniform() {
-  .wrapper_fea3ef, /* Servers sidebar */
-  .sidebar_a4d4d9, /* Left sidebar (servers + discover) */
-  .sidebarRegionScroller_c25c6d, /* Settings > sidebar */
-  .privateChannels_f0963d, .scroller_c47fa9, /* DM > channels */
-  .container_ee69e0, /* Server > channels */
-  .members_cbd271 /* ! DM group/Server > members sidebar */ {
+  .wrapper_ef3116, /* Servers sidebar */
+  .sidebar_c48ade, /* Left sidebar (servers + discover) */
+  .sidebarRegionScroller__23e6b, /* Settings > sidebar */
+  .privateChannels__35e86, .scroller__99e7c, /* DM > channels */
+  .container__2637a, /* Server > channels */
+  .footer__214dc /* Servers sidebar (discovery button background) */ {
     background-color: var(--background-primary) !important;
   }
 
-  .wrapper_fea3ef, /* Servers sidebar */
-  .sidebar_a4d4d9, /* Left sidebar (servers + discover) */
-  .sidebarRegionScroller_c25c6d /* Settings > sidebar */ {
+  .wrapper_ef3116, /* Servers sidebar */
+  .sidebar_c48ade, /* Left sidebar (servers + discover) */
+  .sidebarRegionScroller__23e6b /* Settings > sidebar */ {
     border-right: 1px solid var(--background-secondary-alt);
   }
 
-  .wrapper_f90abb:not(.selected_f90abb) .childWrapper_f90abb, /* server without avatar */
-  .expandedFolderBackground_bc7085, /* servers folder */
-  .circleIconButton_db6521:not(.selected_db6521) /* add and discover button */ {
+  .wrapper__6e9f8:not(.selected__6e9f8) .childWrapper__6e9f8, /* server without avatar */
+  .expandedFolderBackground__48112, /* servers folder */
+  .circleIconButton__5bc7e:not(.selected_db6521) /* add and discover button */ {
     background-color: var(--background-secondary);
   }
 
-  .container_b2ca13, /* user area */
-  .container_adcaac /* user area (in voice) */ {
+  .container__37e49, /* user area */
+  .container_e131a9 /* user area (in voice) */ {
     background-color: var(--background-secondary) !important;
   }
-  .container_adcaac /* user area (in voice) */ {
+  .container_e131a9 /* user area (in voice) */ {
     border-bottom-color: var(--background-secondary-alt);
   }
 
-  .folder_bc7085.hover_bc7085, /* server folder icon */
-  .wrapper_bc7085 .wrapper_f90abb:not(.selected_f90abb) .childWrapper_f90abb /* server (in folder) without avatar */ {
+  .folder__48112.hover__48112, /* server folder icon */
+  .wrapper_bc7085 .wrapper__6e9f8:not(.selected__6e9f8) .childWrapper__6e9f8 /* server (in folder) without avatar */ {
     background-color: var(--c-background-secondary-alt2) !important;
   }
 } @else {
-  .wrapper_fea3ef /* Servers sidebar */ {
+  .wrapper_ef3116, /* Servers sidebar */
+  .footer__214dc /* Servers sidebar (discovery button background) */ {
     background-color: var(--background-secondary-alt) !important;
   }
 
-  .panels_a4d4d9 /* user area (global) */ {
+  .panels_c48ade /* user area (global) */ {
     border-left: 1px solid var(--background-modifier-accent);
   }
 
-  .expandedFolderBackground_bc7085, /* servers folder */
-  .folder_bc7085:not(.hover_bc7085) /* server folder icon */ {
+  .expandedFolderBackground__48112, /* servers folder */
+  .folder__48112:not(.hover__48112) /* server folder icon */ {
     background-color: var(--background-primary) !important;
   }
 
-  .theme-dark .folder_bc7085.hover_bc7085, /* server folder icon */
-  .theme-dark .wrapper_bc7085 .wrapper_f90abb:not(.selected_f90abb) .childWrapper_f90abb /* server (in folder) without avatar */ {
+  .theme-dark .folder__48112.hover__48112, /* server folder icon */
+  .theme-dark .wrapper__48112 .wrapper__6e9f8:not(.selected__6e9f8) .childWrapper__6e9f8 /* server (in folder) without avatar */ {
     background-color: var(--primary-500);
   }
-  .theme-light .folder_bc7085.hover_bc7085, /* server folder icon */
-  .theme-light .wrapper_bc7085 .wrapper_f90abb:not(.selected_f90abb) .childWrapper_f90abb /* server (in folder) without avatar */ {
+  .theme-light .folder__48112.hover__48112, /* server folder icon */
+  .theme-light .wrapper__48112 .wrapper__6e9f8:not(.selected__6e9f8) .childWrapper__6e9f8 /* server (in folder) without avatar */ {
     background-color: var(--primary-160);
   }
-}
-
-.footer_d71945 /* Servers sidebar (discovery button background) */ {
-  background: none;
 }
 
 /*
  * DM
  * server without image
  */
-.wrapper_f90abb:hover .childWrapper_f90abb,
-.wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
+.wrapper__6e9f8:hover .childWrapper__6e9f8,
+.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 {
   color: var(--black-500);
 }
 
-.container_e85446 div[style*='background-color: rgb(#{$green-360-rgb})'] /* Typing on DM group */ {
+/*
+ * Typing on DM group
+ */
+.container__1ce5d div[style*='background-color: rgb(#{$green-360-rgb})'] {
   background-color: var(--user-status-online) !important;
 }
 
@@ -77,13 +77,13 @@
  * voice connected badge
  */
 @if is_uniform() {
-  .iconBadge_c96c45 {
+  .iconBadge__650eb {
     // (When other people are connected)
     background-color: var(--background-secondary-alt);
   }
 }
 
-.iconBadge_c96c45.isCurrentUserConnected_c96c45 {
+.iconBadge__650eb.isCurrentUserConnected__650eb {
   color: var(--black-500);
 }
 
@@ -91,16 +91,16 @@
  * User area (in voice)
  */
 @if is_uniform() {
-  .button_adcaac.buttonColor_adcaac.fauxDisabled_adcaac,
-  .button_adcaac .buttonColor_adcaac.fauxDisabled_adcaac,
-  .button_adcaac.buttonColor_adcaac:disabled,
-  .button_adcaac .buttonColor_adcaac:disabled,
-  .button_adcaac.buttonColor_adcaac,
-  .button_adcaac .buttonColor_adcaac {
+  .button_e131a9 .buttonColor_e131a9,
+  .button_e131a9 .buttonColor_e131a9:disabled,
+  .button_e131a9 .buttonColor_e131a9.fauxDisabled_e131a9,
+  .button_e131a9.buttonColor_e131a9,
+  .button_e131a9.buttonColor_e131a9:disabled,
+  .button_e131a9.buttonColor_e131a9.fauxDisabled_e131a9 {
     background-color: var(--c-background-secondary-alt2);
   }
-  .button_adcaac.buttonColor_adcaac:hover,
-  .button_adcaac .buttonColor_adcaac:hover {
+  .button_e131a9 .buttonColor_e131a9:hover,
+  .button_e131a9.buttonColor_e131a9:hover {
     background-color: var(--background-primary);
   }
 }
@@ -109,14 +109,14 @@
  * add server
  * discover
  */
-.circleIconButton_db6521.selected_db6521 {
+.circleIconButton__5bc7e.selected__5bc7e {
   color: var(--black-500);
 }
 
 /*
  ! > add server > Customize your server ('+' image)
  */
-.iconContainer_a2aef9 circle[fill='#{$brand-500-hex}' i] {
+.iconContainer__98cf7 circle[fill='#{$brand-500-hex}' i] {
   fill: var(--brand-500);
 
   & + path[fill='white'] {

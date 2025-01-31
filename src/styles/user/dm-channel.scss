@@ -1,20 +1,16 @@
 @if is_uniform() {
-  .members_cbd271, /* DM group + Server > members sidebar */
-  .profilePanel_b433b4 /* member sidebar */ {
+  .members_c8ffbb, /* DM group + Server > members sidebar */
+  .outer_c0bea0:not(.custom-profile-theme) /* member sidebar */ {
     border-left: 1px solid var(--background-secondary-alt);
-  }
-
-  .profilePanel_b433b4 .userProfileOuterUnthemed_c69a7b .userPanelInnerThemed_c69a7b /* DM unthemed user profile sidebar */ {
-    background: var(--background-primary) !important;
   }
 }
 
 /*
  * call icons
  */
-.icon_d76df7[style*='background-image: url("/assets/617505e363f7f7cf9492.svg")'] {
+.icon__235ca[style*='background-image: url("/assets/61ccab047dad737a.svg")'] {
   background-image: url(svg('user/dm-channel/call-incoming.svg')) !important;
 }
-.icon_d76df7[style*='background-image: url("/assets/22ff731ec050e3214b69.svg")'] {
+.icon__235ca[style*='background-image: url("/assets/6f076a64de25de4b.svg")'] {
   background-image: url(svg('user/dm-channel/call-missed.svg')) !important;
 }

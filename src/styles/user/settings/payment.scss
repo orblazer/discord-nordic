@@ -1,43 +1,33 @@
 /*
  * > nitro
  */
-.giftButton_b105e9:hover:not(:active) {
+.giftButton_b322b1:hover:not(:active) {
   color: var(--black-500) !important;
 }
 
-.settingsTextContainer_f26610 > *[style*='color: white'] {
-  color: var(--header-primary) !important;
-}
-
-.lookFilled_dd4f85.colorBrandInverted_dd4f85, /*+ user settings > profile */
-.upsellButton_bb33d5 /*! server settings > stickers */ {
-  color: var(--brand-800);
+.subButton__81281, .subButtonText_c880e8, /* ("subscribe" button) */
+.lookFilled__201d5.colorBrandInverted__201d5, /*+ user settings > profile (go to shop) */
+.upsellButton_c0eeaa /*! server settings > stickers */ {
+  color: var(--brand-800) !important;
 }
 
 // Tier blocks
-.premiumCards_c87d73 {
-  .display-md_dc00ef[style*='color: white'],
-  .pricePerInterval_af8f09[style*='color: white'],
-  .text-sm\/normal_dc00ef[style*='color: white'] {
+.premiumCards_ac86f6,
+.tier0Card__176c7 /* !+ server settings > server boost status */ {
+  .pricePerInterval_fd0764[style*='color: white'],
+  .text-md\/normal_cf4812[style*='color: white'] {
     color: currentColor !important;
   }
 }
 /* !+ server settings > server boost status */
-.tier2_c87d73 {
+.tier2_ac86f6 {
   color: var(--primary-660);
-
-  .display-md_dc00ef[style*='color: white'],
-  .pricePerInterval_af8f09[style*='color: white'],
-  .text-md\/normal_dc00ef[style*='color: white'],
-  .text-sm\/normal_dc00ef[style*='color: white'] {
-    color: currentColor !important;
-  }
 }
 
 /*
  * >> pick plan section
  */
-.mostPopularText_b1bbf4 {
+.mostPopularText_e4ef5c {
   color: var(--primary-660);
 }
 
@@ -45,14 +35,14 @@
  * >> subscribe (popup)
  ! Get nitro
  */
-.planOptionDiscount_bd3462[style*='color: white'] {
+.planOptionDiscount_b13085[style*='color: white'] {
   color: var(--black-500) !important;
 }
 
 /*
  * > Subscriptions
  */
-.noItemsIcon_a206c7,
-.noItemsIcon_e70817 {
+.noItemsIcon_e335a7,
+.noItemsIcon__70151 {
   background: var(--primary-460-hsl) !important;
 }

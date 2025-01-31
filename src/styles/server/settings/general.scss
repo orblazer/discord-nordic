@@ -1,6 +1,6 @@
 @if is_uniform() {
-  .theme-dark .avatarUploaderInnerEmpty_f0a9ff, /* > Overview (server without avatar) */
-  .tierBody_da77bd /* > Sticker */ {
+  .theme-dark .avatarUploaderInnerEmpty_cd0bbe, /* > Overview (server without avatar) */
+  .tierBody_f15dca /* > Sticker */ {
     background-color: var(--background-secondary) !important;
   }
 }
@@ -8,29 +8,28 @@
 /*
  * > Overview
  */
-@if is_uniform() {
-  .theme-light .avatarUploaderInnerEmpty_f0a9ff .imageUploaderAcronym_de76e4 {
-    color: var(--black-500);
-  }
+.avatarUploaderInnerEmpty_cd0bbe .imageUploaderAcronym_e4d0bf {
+  color: var(--black-500) !important;
 }
 
 /*
  * > Stickers
  */
-.upsellHeader_bb33d5,
-.upsellDescription_bb33d5 {
+.upsellHeader_c0eeaa,
+.upsellDescription_c0eeaa {
   color: var(--white-100);
 }
-.currentTierIcon_a4fd01 {
+.currentTierIcon_c44edb {
   color: var(--black-500) !important;
 }
 
 @if is_uniform() {
-  .theme-dark .tierHeaderLocked_da77bd,
-  .theme-dark .tierHeaderUnlocked_da77bd {
+  .theme-dark .tierHeaderLocked_f15dca,
+  .theme-dark .tierHeaderUnlocked_f15dca {
     background-color: var(--background-secondary-alt);
   }
-  .theme-dark .tierIconLocked_da77bd {
+  .theme-dark .tierIconLocked_f15dca,
+  .theme-dark .tierLock_f15dca {
     color: var(--text-muted);
   }
 }

@@ -1,15 +1,12 @@
-.container_c2efea,  /* Browse channels */
-.header_f1fd9c, /* Channels & Roles (header bar) */
-.container_f1fd9c, /* Channels & Roles (tabs navigation) */
-.scrollerContainer_c6b11b, /* Channels & Roles (content) */
-.emptyPage_c6b11b /*! Discover > preview mode > Channels & Roles */ {
+.container__0b563, /* content */
+.header__0b563 /* header bar */ {
   @if is_uniform() {
     background-color: var(--background-primary) !important;
   } @else {
     background-color: var(--background-secondary-alt) !important;
   }
 }
-.innerHeader_f1fd9c:after /* Channels & Roles */ {
+.children__9293f:after /* Channels & Roles */ {
   background: linear-gradient(
       180deg,
       rgba(var(--background-primary-rgb), 0) 0,
@@ -23,7 +20,7 @@
 }
 
 @if is_uniform() {
-  .tabBar_f1fd9c {
+  .tabBar__0b563 /* Channels & Roles (active tab) */ {
     border-bottom-color: var(--background-secondary-alt);
   }
 }
@@ -32,12 +29,12 @@
  * > Customise
  */
 @if is_uniform() {
-  .prompt_c6b11b,
-  .profileCard_c6b11b {
+  .prompt__5d7c9,
+  .profileCard__5d7c9 {
     background-color: var(--background-secondary);
   }
 
-  .theme-dark .optionButtonWrapper_bd5e1f:not(.selected_bd5e1f) {
+  .theme-dark .optionButtonWrapper__270d7:not(.selected__270d7) {
     border-color: var(--interactive-muted);
 
     &:hover {
@@ -45,11 +42,11 @@
     }
   }
 
-  .role_c6b11b {
+  .role__5d7c9 {
     background-color: var(--background-secondary-alt);
   }
 } @else {
-  .theme-dark .optionButtonWrapper_bd5e1f:not(.selected_bd5e1f) {
+  .theme-dark .optionButtonWrapper__270d7:not(.selected__270d7) {
     border-color: var(--primary-460);
 
     &:hover {
@@ -62,16 +59,16 @@
  * > Browse Channels
  */
 @if is_uniform() {
-  .channelRow_f04d06 {
+  .channelRow_e4503a {
     background-color: var(--background-secondary);
 
-    .lookOutlined_dd4f85.colorPrimary_dd4f85 {
+    .lookOutlined__201d5.colorPrimary__201d5 {
       border-color: var(--c-background-secondary-alt2);
     }
   }
 }
 
-.channelRow_f04d06:hover:not(.disabled__556e5) {
+.channelRow_e4503a:hover:not(.disabled_e4503a) {
   @if is_uniform() {
     background-color: var(--background-secondary-alt);
   } @else {
@@ -82,7 +79,7 @@
 /*
  * > Empty page
  */
-.emptyIcon_c6b11b {
+.emptyIcon__5d7c9 {
   path[fill='#58F287'] {
     fill: var(--green-500);
   }

@@ -1,29 +1,29 @@
 /*
  * > registered games
  */
-.theme-light .nowPlayingAdd_fd966d {
+.theme-light .nowPlayingAdd_cc46f0 {
   color: var(--text-normal);
 }
 
-.nowPlaying_fd966d {
-  .gameName_fd966d,
-  .lastPlayed_fd966d {
+.nowPlaying_cc46f0 {
+  .gameName_cc46f0,
+  .lastPlayed_cc46f0 {
     color: var(--black-500) !important;
   }
 }
 
-.default_a467ac {
+.default_e18686 {
   background-image: url(svg('user/settings/activity/cross.svg'));
 }
 
-.theme-light .game_fd966d {
+.theme-light .game_cc46f0 {
   box-shadow: 0 1px 0 0 var(--background-tertiary);
 }
-.theme-light .card_ffe375:before {
+.theme-light .card_b846e5:before {
   background-color: var(--background-secondary);
 }
 
 /* Verified badge */
-.gameVerifiedIcon_fd966d .childContainer_c91f7d path[fill='var(--white-500)'] {
+.gameVerifiedIcon_cc46f0 .childContainer__3e3b0 path[fill='var(--white-500)'] {
   fill: var(--black-500);
 }

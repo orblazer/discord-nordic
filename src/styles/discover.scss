@@ -1,4 +1,4 @@
-.theme-dark .gradient_b97772 {
+.theme-dark .gradient_e9ef78 {
   background: radial-gradient(
       130.66% 324.98% at -3.95% 0%,
       var(--blue-330) 0%,
@@ -6,7 +6,7 @@
     ),
     var(--primary-600) !important;
 }
-.theme-light .gradient_b97772 {
+.theme-light .gradient_e9ef78 {
   background: radial-gradient(
       130.66% 324.98% at -3.95% 0%,
       var(--blue-330) 0%,
@@ -16,16 +16,23 @@
 }
 
 /* Server badge (partner, house and verified) */
-.guildBadge_c73cee .icon_d082f7 {
+.guildBadge__4cb8a .icon__09691 {
   color: var(--black-500);
+}
+
+/*
+ * > App
+ */
+.headerSuccess_b76614 /* "Add App" popup */ {
+  background-image: url(svg('server/app-directory/success.svg'));
 }
 
 /*
  * > student hub
  */
-.iconContainer_f11cbf path[fill='var(--white)'] {
+.iconContainer_a76561 path[fill='var(--white)'] {
   fill: var(--black-500);
 }
-.icon_f38045 /* ("Join Hub" popup) */ {
+.icon_c1298c /* ("Join Hub" popup) */ {
   background-image: url(svg('discover/hub.svg'));
 }

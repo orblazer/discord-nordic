@@ -1,21 +1,68 @@
+/* Match background and scrollbar with new call background */
+.no-webkit-scrollbar .auto_c8b5c7,
+.no-webkit-scrollbar .auto_c8b5c7.fade_c8b5c7:hover,
+.no-webkit-scrollbar .fade_c8b5c7 {
+  @if is_uniform() {
+    scrollbar-color: var(--background-primary)
+      var(--background-modifier-accent);
+  } @else {
+    scrollbar-color: var(--primary-800) var(--background-modifier-accent);
+  }
+}
+.auto_c8b5c7 {
+  &::-webkit-scrollbar-track,
+  &::-webkit-scrollbar-corner {
+    @if is_uniform() {
+      background-color: var(--background-primary);
+    } @else {
+      background-color: var(--primary-800);
+    }
+  }
+  &::-webkit-scrollbar-track,
+  &::-webkit-scrollbar-thumb {
+    @if is_uniform() {
+      border-color: var(--background-primary);
+    } @else {
+      border-color: var(--primary-800);
+    }
+  }
+}
+
 /*
  * (Waiting for the stage start)
  */
-.icon_dc3fc4[style*='background-color: var(--green-360)'],
-.icon_dc3fc4[style*='background-color: var(--brand-500)'] {
-  color: var(--black-500);
+.icon__6b38f {
+  &[style*='background-color: var(--green-360)'],
+  &[style*='background-color: var(--brand-500)'] {
+    color: var(--black-500);
+  }
 }
 
-.sparkleIcon_c5e69b[src='/assets/9d5696b9d1f0b77fd074.svg'] /* ! "Events" popup */ {
-  content: url(svg('server/channel/stage/star.svg'));
-}
-.sparkleIcon_c5e69b[src='/assets/8447e4e321cc04bd6a4c.svg'] /* ! "Events" popup */ {
-  content: url(svg('server/channel/stage/cross.svg'));
+/* ! "Events" popup (no interested) */
+.sparkleIcon__05cdc {
+  &[src='/assets/3a6a08a976f34e04.svg'] {
+    content: url(svg('server/channel/stage/star.svg'));
+  }
+  &[src='/assets/30d1720360dd2c40.svg'] {
+    content: url(svg('server/channel/stage/cross.svg'));
+  }
 }
 
 /*
- * > stage > moderator badge
+ * > stage
  */
-.container_f80572 rect[fill='var(--white-500)'] + path {
+.tileContainer__71eb2:hover {
+  background-color: var(--background-tertiary);
+}
+@if is_uniform() {
+  .container__6b38f:hover {
+    background-color: var(--background-secondary-alt);
+  }
+}
+
+/*
+ * >> moderator badge
+ */
+.container_fdb9cf rect[fill='var(--white-500)'] + path {
   fill: var(--black-500);
 }
