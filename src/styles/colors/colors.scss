@@ -148,6 +148,7 @@
 
   @if is_uniform() {
     --elevation-low: 0 1px 0 var(--background-secondary-alt);
+    --shadow-ledge: var(--elevation-low);
     --search-popout-date-picker-hint-text: var(--text-muted);
 
     --home-background: var(--background-primary);
