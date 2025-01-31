@@ -1,3 +1,14 @@
+## [4.10.21](https://github.com/orblazer/discord-nordic/compare/v4.10.20...v4.10.21) (2025-01-31)
+
+
+### Bug Fixes
+
+* **inbox:** colorize icons ([e20859e](https://github.com/orblazer/discord-nordic/commit/e20859e556695caeda96060f10d9d141fa2c78e8))
+* **profile:** use right way to check badge url ([bc476e6](https://github.com/orblazer/discord-nordic/commit/bc476e6f668c56af8a81763585722e28f070a1b9))
+* update to last discord version ([5e736b7](https://github.com/orblazer/discord-nordic/commit/5e736b72051991c51c41c1410a63e01a5b953bd4))
+
+
+
 ## [4.10.20](https://github.com/orblazer/discord-nordic/compare/v4.10.19...v4.10.20) (2024-11-26)
 
 
