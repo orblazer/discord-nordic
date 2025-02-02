@@ -211,7 +211,7 @@
     /* Override variables */
     --bg-mod-faint: color-mix(
       in oklab,
-      var(--primary-530) 100%,
+      var(--background-primary) 100%,
       hsl(var(--theme-base-color-hsl, 0 0% 0%))
         var(--theme-base-color-amount, 0%)
     );
