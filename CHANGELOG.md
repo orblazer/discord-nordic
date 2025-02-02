@@ -1,3 +1,15 @@
+## [4.10.22](https://github.com/orblazer/discord-nordic/compare/v4.10.21-hotfix.1...v4.10.22) (2025-02-02)
+
+
+### Bug Fixes
+
+* **color:** darken faint ([4369361](https://github.com/orblazer/discord-nordic/commit/43693616e25f17b1df371a365e42fc7d6f053126))
+* correctly colorize files and upload drop error ([127fffa](https://github.com/orblazer/discord-nordic/commit/127fffa65970c0a3cbdf158d8612b3928eeeef1a))
+* **global:** correctly colorize tick in notification settings ([f4103a6](https://github.com/orblazer/discord-nordic/commit/f4103a617e2ec6ed64c16beb572e3a49f9b399f7))
+* **global:** no colorize icon in danger dropdown ([30cecab](https://github.com/orblazer/discord-nordic/commit/30cecabc33c7d1a12d232534e73a8e1916544b0e))
+
+
+
 ## [4.10.21-hotfix.1](https://github.com/orblazer/discord-nordic/compare/v4.10.21...v4.10.21-hotfix.1) (2025-01-31)
 
 
