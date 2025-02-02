@@ -113,9 +113,10 @@
   .caret_c1e9c4 /* Right click (arrow icon) */ {
     color: var(--black-500);
   }
-}
-.colorDefault_c1e9c4.focused_c1e9c4:not(.checkboxContainer_c1e9c4) path {
-  fill: var(--black-500);
+
+  &:not(.checkboxContainer_c1e9c4) path {
+    fill: var(--black-500);
+  }
 }
 
 /*
