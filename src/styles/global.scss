@@ -180,7 +180,7 @@
 /*
  * Text/DM channel > drop file
  */
-.uploadDropModal_dbca3c .inner_dbca3c {
+.uploadDropModal_dbca3c:not(.error_dbca3c) .inner_dbca3c {
   .title_dbca3c,
   .title_dbca3c strong,
   .instructions_dbca3c {
@@ -190,7 +190,7 @@
 
 .icon_dbca3c {
   &.two_dbca3c {
-    filter: drop-shadow(0 0 48px hsla(var(--brand-500-hsl) / 0.5));
+    filter: drop-shadow(0 0 48px hsla(var(--brand-500-hsl) / 0.5)) !important;
   }
 
   &.video_dbca3c {
@@ -236,9 +236,6 @@
   &.unknown_dbca3c {
     background-image: url(svg('global/upload/unknown.svg'));
   }
-}
-.icon__0ccae[src='/assets/94660b205108a49f.svg'] /* send unknown file */ {
-  content: url(svg('global/upload/unknown.svg'));
 }
 
 /*

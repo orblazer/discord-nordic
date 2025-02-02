@@ -87,3 +87,90 @@
     color: var(--black-500);
   }
 }
+
+/*
+ * Sended files
+ */
+/* writing message */
+.icon__41ea0 {
+  &.video__41ea0 {
+    background-image: url(svg('global/upload/video.svg'));
+  }
+  &.acrobat__41ea0 {
+    background-image: url(svg('global/upload/acrobat.svg'));
+  }
+  &.ae__41ea0 {
+    background-image: url(svg('global/upload/ae.svg'));
+  }
+  &.sketch__41ea0 {
+    background-image: url(svg('global/upload/sketch.svg'));
+  }
+  &.ai__41ea0 {
+    background-image: url(svg('global/upload/ai.svg'));
+  }
+  &.archive__41ea0 {
+    background-image: url(svg('global/upload/archive.svg'));
+  }
+  &.code__41ea0 {
+    background-image: url(svg('global/upload/code.svg'));
+  }
+  &.document__41ea0 {
+    background-image: url(svg('global/upload/document.svg'));
+  }
+  &.ps__41ea0,
+  &.photoshop__41ea0 {
+    background-image: url(svg('global/upload/ps.svg'));
+  }
+  &.spreadsheet__41ea0 {
+    background-image: url(svg('global/upload/spreadsheet.svg'));
+  }
+  &.image__41ea0 {
+    background-image: url(svg('global/upload/image.svg'));
+  }
+  &.webcode__41ea0 {
+    background-image: url(svg('global/upload/webcode.svg'));
+  }
+  &.audio__41ea0 {
+    background-image: url(svg('global/upload/audio.svg'));
+  }
+  &.unknown__41ea0 {
+    background-image: url(svg('global/upload/unknown.svg'));
+  }
+}
+
+/* in channel */
+.icon__0ccae {
+  &[src='/assets/a42338c030af6d9c.svg'] /* acrobat file */ {
+    content: url(svg('global/upload/acrobat.svg'));
+  }
+  &[src='/assets/88b289225ff6142a.svg'] /* ae file */ {
+    content: url(svg('global/upload/ae.svg'));
+  }
+  &[src='/assets/c9f0992f0ab98d49.svg'] /* sketch file */ {
+    content: url(svg('global/upload/sketch.svg'));
+  }
+  &[src='/assets/93636da24d7ab467.svg'] /* ai file */ {
+    content: url(svg('global/upload/ai.svg'));
+  }
+  &[src='/assets/f89b66e97ea52ba7.svg'] /* archive file */ {
+    content: url(svg('global/upload/archive.svg'));
+  }
+  &[src='/assets/f4bad77442422ded.svg'] /* code file */ {
+    content: url(svg('global/upload/code.svg'));
+  }
+  &[src='/assets/1084490cf680dd7c.svg'] /* ps file */ {
+    content: url(svg('global/upload/ps.svg'));
+  }
+  &[src='/assets/b8ca4488a6d443bc.svg'] /* spreadsheet file */ {
+    content: url(svg('global/upload/spreadsheet.svg'));
+  }
+  &[src='/assets/6e688b0c124e0ca8.svg'] /* webcode file */ {
+    content: url(svg('global/upload/webcode.svg'));
+  }
+  &[src='/assets/94660b205108a49f.svg'] /* unknown */ {
+    content: url(svg('global/upload/unknown.svg'));
+  }
+}
+.audioMetadata_cf09d8:before {
+  background-image: url(svg('global/upload/audio.svg'));
+}
