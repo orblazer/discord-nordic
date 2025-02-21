@@ -1,3 +1,17 @@
+## [4.10.23](https://github.com/orblazer/discord-nordic/compare/v4.10.22...v4.10.23) (2025-02-21)
+
+
+### Bug Fixes
+
+* colorize missing things ([d052269](https://github.com/orblazer/discord-nordic/commit/d052269aced696dd15f70bda4367cc944ee1b8e4))
+
+
+### Reverts
+
+* fix(color): darken faint ([60e1262](https://github.com/orblazer/discord-nordic/commit/60e126219f5a8465f90f8e30e0dd3351ff045efc))
+
+
+
 ## [4.10.22](https://github.com/orblazer/discord-nordic/compare/v4.10.21-hotfix.1...v4.10.22) (2025-02-02)
 
 
