@@ -28,8 +28,26 @@
   color: var(--brand-800);
 }
 
+.progressBarMarkerUnlocked__1f1cb .boostedTierIcon__1f1cb,
 .progressBarMarkerLabel__1f1cb {
   color: var(--black-500);
+}
+
+/* Server Guide (hover flower) */
+.tooltipPremiumFooterContainer__7d7fe {
+  background: linear-gradient(
+    95.07deg,
+    var(--premium-tier-2-purple-for-gradients),
+    var(--premium-tier-2-purple-for-gradients-2) 49.96%,
+    var(--premium-tier-2-pink-for-gradients) 95.93%
+  );
+
+  .text-xs\/semibold_cf4812[style*='color: white'] {
+    color: var(--black-500) !important;
+  }
+  .gemIcon__7d7fe path[fill='white'] {
+    fill: var(--black-500);
+  }
 }
 
 /*

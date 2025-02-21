@@ -73,7 +73,8 @@
  * Button with brand background
  */
 .focused_d40c56 .userMenuUsername_d40c56 .userMenuText_d40c56,
-.focused_d40c56 .userMenuUsername_d40c56 .userMenuDiscriminator_d40c56 /* Profile Popup > status > switch account (hover) */ {
+.focused_d40c56 .userMenuUsername_d40c56 .userMenuDiscriminator_d40c56, /* Profile Popup > status > switch account (hover) */
+.row__76f04:hover /* Popup on hover forum channel */ {
   color: var(--black-500);
 }
 

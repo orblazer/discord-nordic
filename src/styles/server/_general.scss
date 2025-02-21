@@ -24,18 +24,18 @@
 .title__0396e .textBadge__2b1f5[style="background-color: var(--bg-brand);"], /* Event (popup) > Create new (step 2) */
 .newBadge__270d7, /* Browse Channels (navbar) */ // ? Not sure
 .titleBadge_e4503a, /* Browse Channels */
-.newBadge__5d7c9 /* Channels & Roles > Customise */ {
+.newBadge__5d7c9, /* Channels & Roles > Customise */
+.textBadge__2b1f5[style*='background-color: var(--bg-brand);'] /* ! Context menu */ {
   color: var(--brand-900);
 }
 
 /*
  * Server badge (partner, house and verified)
  */
-.rowIconV2_b1f768,
-.guildBadge__85d16 {
-  .childContainer__3e3b0 path[fill='var(--white-400)'] {
-    fill: var(--black-500);
-  }
+.flowerStarContainer__3e3b0
+  .childContainer__3e3b0
+  path[fill='var(--white-400)'] {
+  fill: var(--black-500);
 }
 
 /*
