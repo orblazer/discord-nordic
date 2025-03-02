@@ -1,3 +1,13 @@
+## [4.10.24](https://github.com/orblazer/discord-nordic/compare/v4.10.23...v4.10.24) (2025-03-02)
+
+
+### Bug Fixes
+
+* **color:** right apply colors for buttons ([e6f6fa7](https://github.com/orblazer/discord-nordic/commit/e6f6fa71bca56198b52be4b039770afe370cf1c7))
+* **user:** colorize activity icon ([5c8592f](https://github.com/orblazer/discord-nordic/commit/5c8592f9b23c346ae72fefa929a7ec851f278602))
+
+
+
 ## [4.10.23](https://github.com/orblazer/discord-nordic/compare/v4.10.22...v4.10.23) (2025-02-21)
 
 
