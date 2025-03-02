@@ -139,11 +139,6 @@
   --application-subscription-end-hsl: var(--nord-cyan-hsl); /*! nord color */
 
   /* Override variables */
-  --button-danger-background-hover: var(--red-560);
-  --button-danger-background-active: var(--red-630);
-  --button-outline-danger-background-active: var(--red-560);
-  --button-filled-brand-text: var(--black-500);
-
   --input-placeholder-text-dark-hsl: var(--primary-dark-360-hsl);
 
   @if is_uniform() {
@@ -165,6 +160,10 @@
 
   --button-positive-background-hover: var(--green-730);
   --button-positive-background-active: var(--green-760);
+  --button-danger-background-hover: var(--red-560);
+  --button-danger-background-active: var(--red-630);
+  --button-outline-danger-background-active: var(--red-560);
+  --button-filled-brand-text: var(--black-500);
 }
 
 .theme-dark {
