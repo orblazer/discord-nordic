@@ -84,3 +84,10 @@
     background-color: var(--user-status-invisible) !important;
   }
 }
+
+/*
+ * Activity icon (in user list)
+ */
+.icon__8ac07 path[fill='#{$green-360-hex}'] {
+  fill: var(--green-360);
+}
