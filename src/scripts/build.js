@@ -97,6 +97,20 @@ async function compile(entry, uniform = false) {
 
         return new sass.SassString(`${baseAssetsUrl}/${path}`)
       },
+      async 'png($path)'([pathArg]) {
+        const path = pathArg.assertString('path').text
+        const localFilePath = join(assetsDir, path)
+
+        // Use base64 for development
+        if (dev) {
+          const file = await readFile(localFilePath, { encoding: 'base64' })
+          return new sass.SassString(`data:image/png;base64,${file}`)
+        } else {
+          await access(localFilePath, constants.F_OK)
+        }
+
+        return new sass.SassString(`${baseAssetsUrl}/${path}`)
+      },
     },
   })
 
