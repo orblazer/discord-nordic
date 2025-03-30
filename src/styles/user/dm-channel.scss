@@ -1,10 +1,3 @@
-@if is_uniform() {
-  .members_c8ffbb, /* DM group + Server > members sidebar */
-  .outer_c0bea0:not(.custom-profile-theme) /* member sidebar */ {
-    border-left: 1px solid var(--background-secondary-alt);
-  }
-}
-
 /*
  * call icons
  */

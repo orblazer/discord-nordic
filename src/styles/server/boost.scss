@@ -9,9 +9,9 @@
       159.15deg,
       var(--premium-tier-0-header-gradient-1) 8.49%,
       var(--premium-tier-0-header-gradient-2) 32.21%,
-      var(--premium-tier-0-header-gradient-3) 62.9%,
-      var(--premium-tier-0-header-gradient-4) 86.06%,
-      var(--premium-tier-0-header-gradient-5) 91.4%
+      var(--premium-tier-0-header-gradient-3) 42.9%,
+      var(--premium-tier-0-header-gradient-4) 66.06%,
+      var(--premium-tier-0-header-gradient-5) 71.4%
     );
 
   .heading__6fd0e,
@@ -20,34 +20,14 @@
   }
 }
 
-.guildBoostCountWrapper_f9f04c {
-  color: var(--white-100);
+.guildBoostCountWrapper_f9f04c,
+.progressBarMarkerUnlocked__1f1cb .boostedTierIcon__1f1cb,
+.progressBarMarkerLabel__1f1cb {
+  color: var(--white);
 }
 
 .guildBoostCtaBoostContent_f9f04c {
-  color: var(--brand-800);
-}
-
-.progressBarMarkerUnlocked__1f1cb .boostedTierIcon__1f1cb,
-.progressBarMarkerLabel__1f1cb {
-  color: var(--black-500);
-}
-
-/* Server Guide (hover flower) */
-.tooltipPremiumFooterContainer__7d7fe {
-  background: linear-gradient(
-    95.07deg,
-    var(--premium-tier-2-purple-for-gradients),
-    var(--premium-tier-2-purple-for-gradients-2) 49.96%,
-    var(--premium-tier-2-pink-for-gradients) 95.93%
-  );
-
-  .text-xs\/semibold_cf4812[style*='color: white'] {
-    color: var(--black-500) !important;
-  }
-  .gemIcon__7d7fe path[fill='white'] {
-    fill: var(--black-500);
-  }
+  color: var(--blurple-87);
 }
 
 /*
@@ -65,14 +45,12 @@
 }
 
 // Text
-.tierCardBoostRequirement_be48d0 {
-  color: var(--primary-800) !important;
-}
+.tierCardBoostRequirement_be48d0,
 .tierCardHeading_be48d0,
 .tierCardListItem_be48d0 {
-  color: var(--primary-700) !important;
+  color: var(--black-500) !important;
 }
 
-.tierCardListIcon_be48d0 path[fill='var(--interactive-normal)'] {
+.tierCardListIcon_be48d0 path[fill='var(--white)'] {
   fill: currentColor;
 }

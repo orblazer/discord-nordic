@@ -41,8 +41,21 @@
 }
 
 /*
- * > discovery
+ * > Server subscriptions
  */
-.sparkles__5afba[src='/assets/dfcaffb5a0388dc3.svg'] {
-  content: url(svg('server/settings/community/discovery-stars.svg'));
+.earningsPreviewContainer__02e4c[style*='background-color: rgb(46, 54, 56)'] {
+  background-color: hsl(var(--nord-green-hsl) / 0.1) !important;
+}
+
+/* badge on "learn from other creators */
+.subscriberCountValue__2485e > div {
+  color: var(--white-100) !important;
+}
+.subscriberCountText__2485e {
+  path[fill='var(--white)'] {
+    fill: var(--black-500);
+  }
+  & > div {
+    color: var(--black-500) !important;
+  }
 }

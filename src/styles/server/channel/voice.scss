@@ -1,43 +1,8 @@
-.callContainer_cb9592,
-/* ! + stage bottom */
-.callContainer__722ff,
-.rowContainer__8a920,
-.scroller__56ccd,
-.participants__9c309,
-.tileContainer__71eb2:not(:hover) {
-  @if is_uniform() {
-    background-color: var(--background-primary);
-  } @else {
-    background-color: var(--primary-800);
-  }
-}
-
 /*
- * open chat (not joined)
- * hover (joined)
- ! + stage bottom
+ * When screen share or activity is active
  */
-.gradientContainer_bfe55a {
-  @if is_uniform() {
-    --color-rgb: var(--background-primary-hsl);
-  } @else {
-    --color-rgb: var(--primary-800-hsl);
-  }
-  background-image: linear-gradient(
-    hsl(var(--color-rgb)),
-    hsl(var(--color-rgb) / 0.738) 19%,
-    hsl(var(--color-rgb) / 0.541) 34%,
-    hsl(var(--color-rgb) / 0.382) 47%,
-    hsl(var(--color-rgb) / 0.278) 56.5%,
-    hsl(var(--color-rgb) / 0.194) 65%,
-    hsl(var(--color-rgb) / 0.126) 73%,
-    hsl(var(--color-rgb) / 0.075) 80.2%,
-    hsl(var(--color-rgb) / 0.042) 86.1%,
-    hsl(var(--color-rgb) / 0.021) 91%,
-    hsl(var(--color-rgb) / 0.008) 95.2%,
-    hsl(var(--color-rgb) / 0.002) 98.2%,
-    transparent
-  );
+.colorable_f1ceac.greenGlow_f1ceac {
+  background-color: hsl(var(--nord-green-hsl) / 0.1) !important;
 }
 
 /*
@@ -53,4 +18,14 @@
  */
 .emojiPickerHeader__0800c img[src='/assets/24d8f2c8f4fce44c.svg'] {
   content: url(svg('server/channel/voice-emoji-nitro.svg'));
+}
+
+.theme-dark .container__0800c {
+  background-color: var(--background-base-low);
+
+  .header_c0e32c,
+  .emojiPicker_c0e32c,
+  .wrapper__14245 {
+    background-color: transparent;
+  }
 }

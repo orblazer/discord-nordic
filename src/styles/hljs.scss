@@ -12,79 +12,6 @@
  * SRC: https://github.com/highlightjs/highlight.js/edit/main/src/styles/nord.css
  */
 
-.hljs-ansi-foreground-black .hljs-ansi-background-black,
-.hljs-ansi-foreground-black .hljs-ansi-background-blue,
-.hljs-ansi-foreground-black .hljs-ansi-background-cyan,
-.hljs-ansi-foreground-black .hljs-ansi-background-green,
-.hljs-ansi-foreground-black .hljs-ansi-background-magenta,
-.hljs-ansi-foreground-black .hljs-ansi-background-red,
-.hljs-ansi-foreground-black .hljs-ansi-background-white,
-.hljs-ansi-foreground-black .hljs-ansi-background-yellow,
-.hljs-ansi-background-yellow,
-.hljs-ansi-background-magenta,
-.hljs-ansi-background-cyan,
-.hljs-ansi-background-green,
-.hljs-ansi-background-white {
-  color: var(--primary-800);
-}
-.hljs-ansi-foreground-black {
-  color: var(--primary-430);
-}
-.hljs-ansi-foreground-red {
-  color: var(--nord-red);
-}
-.hljs-ansi-foreground-green {
-  color: var(--nord-green);
-}
-.hljs-ansi-foreground-yellow {
-  color: var(--nord-yellow);
-}
-.hljs-ansi-foreground-blue {
-  color: var(--nord-blue);
-}
-.hljs-ansi-foreground-magenta {
-  color: var(--nord-pink);
-}
-.hljs-ansi-foreground-cyan {
-  color: var(--nord-cyan);
-}
-.hljs-ansi-foreground-white .hljs-ansi-background-black,
-.hljs-ansi-foreground-white .hljs-ansi-background-blue,
-.hljs-ansi-foreground-white .hljs-ansi-background-cyan,
-.hljs-ansi-foreground-white .hljs-ansi-background-green,
-.hljs-ansi-foreground-white .hljs-ansi-background-magenta,
-.hljs-ansi-foreground-white .hljs-ansi-background-red,
-.hljs-ansi-foreground-white .hljs-ansi-background-white,
-.hljs-ansi-foreground-white .hljs-ansi-background-yellow,
-.hljs-ansi-background-red,
-.hljs-ansi-background-blue {
-  color: var(--primary-160);
-}
-.hljs-ansi-background-black {
-  background-color: var(--primary-700);
-}
-.hljs-ansi-background-red {
-  background-color: var(--nord-orange);
-}
-.hljs-ansi-background-green {
-  background-color: var(--nord-green);
-}
-.hljs-ansi-background-yellow {
-  background-color: var(--nord-yellow);
-}
-.hljs-ansi-background-blue {
-  background-color: var(--nord-blue);
-}
-.hljs-ansi-background-magenta {
-  background-color: var(--nord-pink);
-}
-.hljs-ansi-background-cyan {
-  background-color: var(--nord-cyan);
-}
-.hljs-ansi-background-white {
-  background-color: var(--nord-light3);
-}
-
 // .hljs,
 .hljs-subst,
 .hljs-params,
@@ -97,13 +24,6 @@
 .hljs-quote,
 .hljs-comment {
   color: var(--primary-430) !important;
-}
-
-.theme-light .hljs-emphasis {
-  color: var(--primary-600);
-}
-.theme-dark .hljs-emphasis {
-  color: var(--primary-400);
 }
 
 .hljs-link {
@@ -171,16 +91,6 @@
 
 .hljs-meta {
   color: var(--nord-orange) !important;
-}
-
-.hljs-deletion {
-  color: var(--white-100) !important;
-  background-color: hsl(var(--red-500-hsl) / 0.45) !important;
-}
-
-.hljs-addition {
-  color: var(--white-100) !important;
-  background-color: hsl(var(--green-500-hsl) / 0.45) !important;
 }
 
 .hljs-title ~ .hljs-title {

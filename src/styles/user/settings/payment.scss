@@ -5,14 +5,14 @@
   color: var(--black-500) !important;
 }
 
-.subButton__81281, .subButtonText_c880e8, /* ("subscribe" button) */
-.lookFilled__201d5.colorBrandInverted__201d5, /*+ user settings > profile (go to shop) */
+.subButton__81281, .subButtonText_c880e8, .subButton__70f7f, /* ("subscribe" button) */
 .upsellButton_c0eeaa /*! server settings > stickers */ {
-  color: var(--brand-800) !important;
+  color: var(--blurple-87) !important;
 }
 
 // Tier blocks
 .premiumCards_ac86f6,
+.tier2MarketingCard__9e160, /*  ("subscribe" button clicked) */
 .tier0Card__176c7 /* !+ server settings > server boost status */ {
   .pricePerInterval_fd0764[style*='color: white'],
   .text-md\/normal_cf4812[style*='color: white'] {
@@ -21,14 +21,14 @@
 }
 /* !+ server settings > server boost status */
 .tier2_ac86f6 {
-  color: var(--primary-660);
+  color: var(--neutral-76);
 }
 
 /*
  * >> pick plan section
  */
 .mostPopularText_e4ef5c {
-  color: var(--primary-660);
+  color: var(--neutral-76);
 }
 
 /*
@@ -44,5 +44,5 @@
  */
 .noItemsIcon_e335a7,
 .noItemsIcon__70151 {
-  background: var(--primary-460-hsl) !important;
+  background: var(--neutral-45-hsl) !important;
 }

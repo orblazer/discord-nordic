@@ -1,276 +1,288 @@
-:root {
-  /** Discord colors */
-  --primary-130-hsl: #{hexToHSL(#fcfcfd)};
-  --primary-160-hsl: var(--primary-130-hsl);
-  --primary-200-hsl: var(--nord-light1-hsl); /*! nord color */
-  --primary-230-hsl: var(--primary-200-hsl);
-  --primary-260-hsl: #{hexToHSL(#d2d6e0)};
-  --primary-300-hsl: #{hexToHSL(#b6bcc9)};
-  --primary-330-hsl: #{hexToHSL(#97a1b4)};
-  --primary-360-hsl: var(--primary-330-hsl);
-  --primary-400-hsl: #{hexToHSL(#7a879f)};
-  --primary-430-hsl: #{hexToHSL(#606d85)};
-  --primary-460-hsl: var(--nord-dark4-hsl); /*! nord color */
-  --primary-500-hsl: var(--nord-dark3-hsl); /*! nord color */
-  --primary-530-hsl: var(--primary-500-hsl);
-  --primary-560-hsl: #{hexToHSL(#424a5c)};
-  --primary-600-hsl: var(--nord-dark2-hsl); /*! nord color */
-  --primary-630-hsl: var(--nord-dark1-hsl); /*! nord color */
-  --primary-660-hsl: #{hexToHSL(#2b303b)};
-  --primary-700-hsl: #{hexToHSL(#20242c)};
-  --primary-800-hsl: #{hexToHSL(#15181e)};
+.visual-refresh {
+  @include colorVars('neutral-4', hexToHSL(#fcfcfd)); /* old: primary-130 */
+  @include aliasColor('neutral-6', 'neutral-4'); /* old: primary-160 */
+  @include aliasColor(
+    'neutral-8',
+    'nord-light1'
+  ); /* old: primary-200 */ /*! nord color */
+  @include aliasColor('neutral-9', 'neutral-8'); /* old: primary-230 */
+  @include aliasColor('neutral-11', 'neutral-8');
+  @include colorVars('neutral-12', hexToHSL(#d2d6e0)); /* old: primary-260 */
+  @include colorVars('neutral-15', hexToHSL(#b6bcc9)); /* old: primary-300 */
+  @include colorVars('neutral-19', hexToHSL(#97a1b4)); /* old: primary-330 */
+  @include aliasColor('neutral-22', 'neutral-19');
+  @include aliasColor('neutral-27', 'neutral-19');
+  @include aliasColor('neutral-28', 'neutral-19'); /* old: primary-360 */
+  @include aliasColor('neutral-29', 'neutral-19');
+  @include colorVars('neutral-31', hexToHSL(#7a879f)); /* old: primary-400 */
+  @include aliasColor('neutral-34', 'neutral-31');
+  @include colorVars('neutral-37', hexToHSL(#606d85)); /* old: primary-430 */
+  @include aliasColor('neutral-38', 'neutral-37');
+  @include aliasColor('neutral-39', 'neutral-37');
+  @include aliasColor('neutral-40', 'neutral-37');
+  @include aliasColor(
+    'neutral-45',
+    'nord-dark4'
+  ); /* old: primary-460 */ /*! nord color */
+  @include aliasColor(
+    'neutral-49',
+    'nord-dark3'
+  ); /* old: primary-500 */ /*! nord color */
+  @include aliasColor('neutral-59', 'neutral-49'); /* old: primary-530 */
+  @include aliasColor('neutral-60', 'neutral-49'); /* old: primary-530 */
+  @include colorVars('neutral-63', hexToHSL(#424a5c)); /* old: primary-560 */
+  @include aliasColor('neutral-65', 'neutral-63');
+  @include colorVars('neutral-66', hexToHSL(#404859));
+  @include aliasColor('neutral-69', 'nord-dark2'); /*! nord color */
+  @include aliasColor('neutral-70', 'neutral-69');
+  @include aliasColor('neutral-71', 'neutral-69');
+  @include aliasColor('neutral-72', 'nord-dark1'); /*! nord color */
+  @include aliasColor('neutral-73', 'neutral-72');
+  @include colorVars('neutral-76', hexToHSL(#2b303b)); /* old: primary-660 */
+  @include aliasColor('neutral-79', 'neutral-76');
+  @include colorVars('neutral-83', hexToHSL(#20242c)); /* old: primary-700 */
+  @include aliasColor('neutral-87', 'neutral-83');
+  @include aliasColor('neutral-91', 'neutral-83');
+  @include aliasColor('neutral-92', 'neutral-83'); /* old: primary-800 */
+  @include aliasColor('neutral-95', 'neutral-83');
+  @include colorVars('neutral-97', hexToHSL(#15181e));
+  @include aliasColor('neutral-99', 'neutral-97');
 
-  --green-230-hsl: var(--green-500-hsl);
-  --green-330-hsl: var(--green-500-hsl);
-  --green-360-hsl: var(--green-500-hsl);
-  --green-400-hsl: var(--green-500-hsl);
-  --green-430-hsl: var(--green-500-hsl);
-  --green-500-hsl: var(--nord-green-hsl); /*! nord color */
-  --green-560-hsl: var(--green-500-hsl);
-  --green-600-hsl: var(--green-500-hsl);
-  --green-660-hsl: var(--green-500-hsl);
-  --green-730-hsl: #{hexToHSL(#93ac7e)};
-  --green-760-hsl: #{hexToHSL(#82996f)};
+  // @include aliasColor('green-new-16', 'green-new-62'); /* old: green-230 */
+  @include aliasColor('green-new-26', 'green-new-62');
+  @include aliasColor('green-new-25', 'green-new-62'); /* old: green-300 */
+  @include aliasColor('green-new-38', 'green-new-62'); /* old: green-360 */
+  // @include aliasColor('green-new-44', 'green-new-62'); /* old: green-400 */
+  @include aliasColor('green-new-52', 'green-new-62'); /* old: green-430 */
+  @include aliasColor(
+    'green-new-62',
+    'nord-green'
+  ); /* old: green-500 */ /*! nord color */
+  // @include aliasColor('green-new-72', 'green-new-62'); /* old: green-560 */
+  // @include aliasColor('green-new-75', 'green-new-62'); /* old: green-600 */
+  @include aliasColor('green-new-77', 'green-new-62');
+  // @include aliasColor('green-new-82', 'green-new-62'); /* old: green-660 */
+  @include colorVars('green-new-87', hexToHSL(#93ac7e)); /* old: green-730 */
+  @include colorVars('green-new-91', hexToHSL(#82996f)); /* old: green-760 */
 
-  --red-360-hsl: var(--red-500-hsl);
-  --red-345-hsl: var(--red-500-hsl);
-  --red-400-hsl: var(--red-500-hsl);
-  --red-430-hsl: var(--red-500-hsl);
-  --red-500-hsl: var(--nord-red-hsl); /*! nord color */
-  --red-530-hsl: var(--red-500-hsl);
-  --red-560-hsl: #{hexToHSL(#ac5861)};
-  --red-600-hsl: var(--red-560-hsl);
-  --red-630-hsl: #{hexToHSL(#975056)};
+  @include aliasColor('red-new-23', 'red-new-61');
+  @include aliasColor('red-new-29', 'red-new-61'); /* old: red-345 */
+  @include aliasColor('red-new-38', 'red-new-61'); /* old: red-360 */
+  @include aliasColor('red-new-45', 'red-new-61'); /* old: red-400 */
+  @include aliasColor('red-new-47', 'red-new-61'); /* old: red-430 */
+  @include aliasColor(
+    'red-new-61',
+    'nord-red'
+  ); /* old: red-500 */ /*! nord color */
+  // @include aliasColor('red-new-66', 'red-new-61'); /* old: red-530 */
+  @include colorVars('red-new-70', hexToHSL(#ac5861)); /* old: red-560 */
+  // @include aliasColor('red-new-75', 'red-new-70'); /* old: red-600 */
+  @include colorVars('red-new-78', hexToHSL(#975056)); /* old: red-630 */
 
-  --yellow-260-hsl: var(--yellow-400-hsl);
-  --yellow-300-hsl: var(--yellow-400-hsl);
-  --yellow-360-hsl: var(--yellow-400-hsl);
-  --yellow-400-hsl: var(--nord-yellow-hsl); /*! nord color */
-  --yellow-430-hsl: var(--yellow-400-hsl);
-  --yellow-500-hsl: var(--yellow-400-hsl);
-  --yellow-560-hsl: var(--yellow-400-hsl);
-  --yellow-630-hsl: var(--orange-500-hsl);
-  --yellow-660-hsl: var(--orange-500-hsl);
+  @include aliasColor('yellow-new-24', 'yellow-new-57'); /* old: yellow-260 */
+  @include aliasColor('yellow-new-28', 'yellow-new-57'); /* old: yellow-300 */
+  @include aliasColor('yellow-new-39', 'yellow-new-57'); /* old: yellow-360 */
+  @include aliasColor(
+    'yellow-new-57',
+    'nord-yellow'
+  ); /* old: yellow-400 */ /*! nord color */
+  // @include aliasColor('yellow-new-48', 'yellow-new-57'); /* old: yellow-430 */
+  // @include aliasColor('yellow-new-61', 'yellow-new-57'); /* old: yellow-500 */
+  // @include aliasColor('yellow-new-71', 'yellow-new-57'); /* old: yellow-560 */
+  // @include aliasColor('yellow-new-77', 'yellow-new-57'); /* old: yellow-630 */
+  // @include aliasColor('yellow-new-79', 'yellow-new-57'); /* old: yellow-660 */
 
-  --orange-345-hsl: var(--orange-500-hsl);
-  --orange-360-hsl: var(--orange-500-hsl);
-  --orange-500-hsl: var(--nord-orange-hsl); /*! nord color */
+  // @include aliasColor('orange-new-35', 'orange-new-63'); /* old: orange-345 */
+  // @include aliasColor('orange-new-38', 'orange-new-63'); /* old: orange-360 */
+  @include aliasColor(
+    'orange-new-63',
+    'nord-orange'
+  ); /* old: orange-500 */ /*! nord color */
 
-  --white-500-hsl: var(--nord-light2-hsl); /*! nord color */
+  @include aliasColor('white-500', 'nord-light2'); /*! nord color */
+  @include aliasColor('black-500', 'neutral-79'); /*! nord color */
 
-  --black-500-hsl: var(--primary-660-hsl);
+  @include aliasColor(
+    'blue-new-31',
+    'nord-blue'
+  ); /* old: blue-330 */ /*! nord color */
+  @include colorVars('blue-new-35', hexToHSL(#4c91e6)); /* old: blue-345 */
 
-  --blue-330-hsl: var(--nord-blue-hsl); /*! nord color */
-  --blue-345-hsl: #{hexToHSL(#4c91e6)};
+  @include colorVars('blurple-1', hexToHSL(#f0f4f4)); /* old: brand-100 */
+  @include colorVars('blurple-4', hexToHSL(#d8e7e7)); /* old: brand-200 */
+  @include aliasColor('blurple-10', 'blurple-4'); /* old: brand-260 */
+  @include aliasColor('blurple-25', 'blurple-49'); /* For tabs */
+  @include aliasColor(
+    'blurple-28',
+    'blurple-49'
+  ); /* old: brand-360 */ /* For some links */
+  @include colorVars('blurple-37', hexToHSL(#afcfce)); /* old: brand-400 */
+  @include aliasColor('blurple-44', 'blurple-37'); /* old: brand-460 */
+  @include aliasColor(
+    'blurple-49',
+    'nord-green-blue'
+  ); /* old: brand-500 */ /*! nord color */
+  @include aliasColor('blurple-50', 'blurple-49');
+  @include colorVars('blurple-54', hexToHSL(#7da8a8)); /* old: brand-530 */
+  @include aliasColor('blurple-59', 'blurple-54'); /* old: brand-560 */
+  @include colorVars('blurple-65', hexToHSL(#709494)); /* old: brand-600 */
+  @include aliasColor('blurple-70', 'blurple-87'); /* old: brand-630 */
+  @include colorVars('blurple-87', hexToHSL(#4d6666)); /* old: brand-800 */
 
-  /** Brand */
-  --brand-100-hsl: #{hexToHSL(#f0f4f4)};
-  --brand-200-hsl: #{hexToHSL(#d8e7e7)};
-  --brand-260-hsl: var(--brand-200-hsl);
-  --brand-360-hsl: var(--brand-500-hsl);
-  --brand-400-hsl: #{hexToHSL(#afcfce)};
-  --brand-430-hsl: var(--brand-400-hsl);
-  --brand-460-hsl: var(--brand-400-hsl);
-  --brand-500-hsl: var(--nord-green-blue-hsl); /*! nord color */
-  --brand-530-hsl: #{hexToHSL(#7da8a8)};
-  --brand-560-hsl: var(--brand-530-hsl);
-  --brand-600-hsl: #{hexToHSL(#709494)};
-  --brand-800-hsl: #{hexToHSL(#4d6666)};
+  --opacity-blurple-8: var(
+    --opacity-blurple-16
+  ); /* server > Channel & Roles (selected role) */
+  --opacity-blurple-16: hsl(
+    var(--blurple-49-hsl) / 0.07
+  ); /* "add friend" active btn */
+  --opacity-blurple-24: hsl(var(--blurple-49-hsl) / 0.2);
+  --opacity-blurple-32: hsl(var(--blurple-49-hsl) / 0.2);
 
-  /** Nitro */
-  --premium-tier-2-pink-hsl: var(--nord-pink-hsl); /*! nord color */
-  --premium-tier-2-pink-for-gradients-hsl: var(--premium-tier-2-pink-hsl);
-  --premium-tier-2-pink-for-gradients-2-hsl: var(
-    --premium-tier-2-pink-for-gradients-hsl
-  );
-  --premium-tier-2-purple-hsl: var(--premium-tier-2-pink-hsl);
-  --premium-tier-2-purple-for-gradients-hsl: var(
-    --premium-tier-2-pink-for-gradients-hsl
-  );
-  --premium-tier-2-purple-for-gradients-2-hsl: var(
-    --premium-tier-2-pink-for-gradients-hsl
-  );
-  --premium-tier-0-blue-hsl: var(--nord-blue-hsl); /*! nord color */
-  --premium-tier-0-blue-for-gradients: hsl(var(--premium-tier-0-blue-hsl));
-  --premium-tier-0-purple-hsl: var(--premium-tier-2-pink-hsl);
-  --premium-tier-0-purple-for-gradients-hsl: var(--premium-tier-2-pink-hsl);
-  --premium-tier-0-header-gradient-1-hsl: var(--premium-tier-0-blue-hsl);
-  --premium-tier-0-header-gradient-2-hsl: var(--premium-tier-0-blue-hsl);
-  --premium-tier-0-header-gradient-3-hsl: var(--premium-tier-0-purple-hsl);
-  --premium-tier-0-header-gradient-4-hsl: var(--premium-tier-0-purple-hsl);
-  --premium-tier-0-header-gradient-5-hsl: var(--premium-tier-0-purple-hsl);
-  --custom-premium-colors-premium-gradient-tier-0: linear-gradient(
-    to right,
-    var(--premium-tier-0-blue-for-gradients),
-    var(--premium-tier-0-blue-for-gradients)
-  );
+  @include aliasColor('twitch', 'nord-pink');
+  @include colorVars('twitch-secondary', hexToHSL(#a3759b));
+  @include aliasColor('partner', 'nord-blue');
 
-  --guild-boosting-pink-hsl: var(--premium-tier-2-pink-hsl);
-  --guild-boosting-purple-hsl: var(--premium-tier-2-pink-hsl);
-  --guild-boosting-blue-hsl: var(--premium-tier-0-blue-hsl);
-  --guild-boosting-blue-for-gradients-hsl: var(--premium-tier-0-blue-hsl);
-  --premium-tier-2-pink-for-gradients: var(--premium-perk-pink);
-  --premium-tier-2-purple-for-gradients: var(
-    --premium-tier-2-pink-for-gradients
-  );
-  --premium-tier-2-purple-for-gradients-2: var(
-    --premium-tier-2-pink-for-gradients
-  );
-  --guild-boosting-purple-for-gradients-hsl: var(
-    --premium-tier-2-purple-for-gradients-hsl
-  );
+  --status-positive: var(--nord-green);
+  --status-danger: var(--nord-red);
 
-  --premium-perk-purple-hsl: var(--premium-tier-2-pink-hsl);
-  --premium-perk-pink-hsl: var(--premium-tier-2-pink-hsl);
-  --premium-perk-green-hsl: var(--green-560-hsl);
-  --premium-perk-yellow-hsl: var(--nord-yellow-hsl); /*! nord color */
-  --premium-perk-dark-blue-hsl: var(--nord-blue-hsl); /*! nord color */
-  --premium-perk-light-blue-hsl: var(--nord-turquoise-hsl); /*! nord color */
-  --premium-perk-blue-hsl: var(--nord-cyan-hsl); /*! nord color */
-  --premium-perk-orange-hsl: var(--yellow-500-hsl);
-  --premium-perk-gold-hsl: var(--yellow-500-hsl);
-  --premium-nitro-pink-light: var(--premium-perk-pink);
-
-  /** Other */
-  --partner-hsl: var(--nord-blue-hsl); /*! nord color */
-  --twitch-hsl: var(--nord-pink-hsl); /*! nord color */
-
-  --application-subscription-start-hsl: var(--nord-blue-hsl); /*! nord color */
-  --application-subscription-end-hsl: var(--nord-cyan-hsl); /*! nord color */
-
-  /* Override variables */
-  --input-placeholder-text-dark-hsl: var(--primary-dark-360-hsl);
-
-  @if is_uniform() {
-    --elevation-low: 0 1px 0 var(--background-secondary-alt);
-    --shadow-ledge: var(--elevation-low);
-    --search-popout-date-picker-hint-text: var(--text-muted);
-
-    --home-background: var(--background-primary);
-    --custom-channel-members-bg: var(--background-primary);
-  } @else {
-    --home-background: var(--background-secondary-alt);
-  }
+  --guild-boosting-blue: var(--nord-blue);
+  --guild-boosting-blue-for-gradients: var(--nord-blue);
+  --guild-boosting-purple: var(--nord-pink);
+  --guild-boosting-purple-for-gradients: var(--nord-pink);
+  --guild-boosting-pink: var(--nord-pink);
+  --premium-tier-0-header-gradient-1: var(--nord-blue);
+  --premium-tier-0-header-gradient-2: var(--nord-blue);
+  --premium-tier-0-header-gradient-3: var(--nord-blue);
+  --premium-tier-0-header-gradient-4: var(--nord-pink);
+  --premium-tier-0-header-gradient-5: var(--nord-pink);
+  --premium-tier-0-purple-for-gradients: var(--nord-blue);
+  --premium-tier-0-blue-for-gradients: var(--nord-blue);
+  --premium-tier-2-purple-for-gradients: var(--nord-pink);
+  --premium-tier-2-pink-for-gradients: var(--nord-pink);
+  --premium-tier-2-purple-for-gradients-2: var(--nord-pink);
+  --custom-premium-colors-premium-gradient-tier-2-diagonal: var(--nord-pink);
+  @include aliasColor('premium-tier-2-purple', 'nord-pink');
+  @include aliasColor('premium-tier-2-pink', 'nord-pink');
+  @include aliasColor('premium-perk-blue', 'nord-blue');
+  @include aliasColor('premium-perk-dark-blue', 'blue-new-35');
+  @include aliasColor('premium-perk-green', 'nord-turquoise');
+  @include aliasColor('premium-perk-light-blue', 'nord-cyan');
+  @include aliasColor('premium-perk-orange', 'nord-orange');
+  @include aliasColor('premium-perk-pink', 'nord-pink');
+  @include aliasColor('premium-perk-purple', 'nord-pink');
+  @include aliasColor('premium-perk-yellow', 'nord-yellow');
 }
 
-.theme-light,
-.theme-dark {
-  --status-positive-text: var(--black-500);
-  --search-popout-date-picker-hint-value-text: var(--black-500);
-
-  --button-positive-background-hover: var(--green-730);
-  --button-positive-background-active: var(--green-760);
-  --button-danger-background-hover: var(--red-560);
-  --button-danger-background-active: var(--red-630);
-  --button-outline-danger-background-active: var(--red-560);
+.visual-refresh.theme-dark,
+.visual-refresh .theme-dark,
+.visual-refresh.theme-light,
+.visual-refresh .theme-light {
+  --button-danger-background: var(--nord-red);
+  --button-danger-background-active: var(--red-new-78);
+  --button-danger-background-disabled: var(--nord-red);
+  --button-danger-background-hover: var(--red-new-70);
+  --button-danger-border: hsl(var(--nord-red-hsl) / 0.08);
   --button-filled-brand-text: var(--black-500);
+  --button-filled-brand-inverted-text: var(--blurple-87);
+  --button-positive-background: var(--nord-green);
+  --button-positive-background-active: var(--green-new-91);
+  --button-positive-background-disabled: var(--nord-green);
+  --button-positive-background-hover: var(--green-new-87);
+  --button-positive-border: hsl(var(--nord-green-hsl) / 0.08);
 }
 
-.theme-dark {
-  /* Overrides variables */
-  --header-secondary: var(--primary-300);
-  --text-muted: var(--primary-300);
-  --interactive-muted: var(--primary-430);
+.visual-refresh.theme-dark,
+.visual-refresh .theme-dark {
+  --background-mentioned: hsl(var(--blurple-49-hsl) / 0.16);
+  --background-mentioned-hover: hsl(var(--blurple-49-hsl) / 0.12);
+  --background-message-highlight: hsl(var(--blurple-49-hsl) / 0.16);
+  --background-message-highlight-hover: hsl(var(--blurple-49-hsl) / 0.12);
+  --background-message-hover: hsl(var(--neutral-45-hsl) / 0.15);
+  --background-modifier-accent: hsl(var(--neutral-34-hsl) / 0.3);
+  --background-modifier-active: hsl(var(--neutral-34-hsl) / 0.25);
+  --background-modifier-hover: hsl(var(--neutral-34-hsl) / 0.2);
+  --background-modifier-selected: hsl(var(--neutral-40-hsl) / 0.5);
+  --background-primary: var(--neutral-66);
+  --bg-base-secondary: var(--neutral-69);
+  --bg-mod-faint: hsl(var(--neutral-34-hsl) / 0.1);
+  --bg-mod-strong: hsl(var(--neutral-40-hsl) / 0.5);
+  --bg-mod-subtle: hsl(var(--neutral-40-hsl) / 0.2);
+  --button-outline-danger-background: hsl(var(--nord-dark4-hsl) / 0.5);
+  --button-outline-danger-background-active: hsl(var(--nord-dark4-hsl) / 0.7);
+  --button-outline-danger-background-hover: var(--nord-dark4);
+  --button-outline-danger-border: transparent;
+  --button-outline-danger-border-active: transparent;
+  --button-outline-danger-border-hover: transparent;
+  --button-outline-danger-text: var(--nord-red);
+  --button-outline-danger-text-active: var(--nord-red);
+  --button-outline-danger-text-hover: var(--nord-red);
+  --button-secondary-background: hsl(var(--neutral-40-hsl) / 0.2);
+  --button-secondary-background-active: hsl(var(--neutral-40-hsl) / 0.5);
+  --button-secondary-background-disabled: hsl(var(--neutral-40-hsl) / 0.2);
+  --button-secondary-background-hover: hsl(var(--neutral-40-hsl) / 0.35);
+  --icon-primary: var(--neutral-8);
+  --info-danger-background: hsl(var(--nord-red-hsl) / 0.1);
+  --info-danger-text: var(--nord-red);
+  --info-help-background: hsl(var(--nord-blue-hsl) / 0.15);
+  --info-help-text: var(--nord-blue);
+  --info-positive-background: hsl(var(--nord-green-hsl) / 0.1);
+  --info-positive-text: var(--nord-green);
+  --info-warning-background: hsl(var(--nord-yellow-hsl) / 0.08);
+  --info-warning-text: var(--nord-yellow);
+  --input-background: hsl(var(--black-hsl) / 0.1);
+  --mention-background: var(--opacity-blurple-24);
+  --mention-foreground: var(--blurple-1);
+  --message-reacted-background: hsl(var(--blurple-49-hsl) / 0.3);
+  --message-reacted-text: var(--blurple-1);
+  --premium-nitro-pink-text: var(--nord-pink);
+  --text-link: var(--blue-new-35);
+  --text-normal: var(--neutral-12);
+  --text-primary: var(--neutral-8);
+  --text-secondary: var(--neutral-12);
+  --background-base-low: var(--neutral-63);
+  --background-base-lower: var(--neutral-69);
+  --background-code: hsl(var(--nord-dark1-hsl) / 0.1);
+  --background-code-addition: hsl(var(--nord-green-hsl) / 0.45);
+  --background-code-deletion: hsl(var(--nord-red-hsl) / 0.45);
+  --background-feedback-critical: hsl(var(--nord-red-hsl) / 0.1);
+  --background-feedback-info: hsl(var(--nord-blue-hsl) / 0.1);
+  --background-feedback-positive: hsl(var(--nord-green-hsl) / 0.1);
+  --background-feedback-warning: hsl(var(--nord-yellow-hsl) / 0.1);
+  --background-mod-faint: hsl(var(--neutral-34-hsl) / 0.1);
+  --background-mod-normal: hsl(var(--neutral-34-hsl) / 0.25);
+  --background-mod-strong: hsl(var(--neutral-40-hsl) / 0.4);
+  --background-mod-subtle: hsl(var(--neutral-40-hsl) / 0.3);
+  --background-surface-higher: var(--neutral-66);
+  --border-feedback-critical: hsl(var(--nord-red-hsl) / 0.2);
+  --chat-background-default: var(--neutral-49);
+  --notice-background-critical: var(--nord-red);
+  --notice-background-info: var(--nord-blue);
+  --notice-background-positive: var(--nord-green);
+  --notice-background-warning: var(--nord-yellow);
+  --notice-text-critical: var(--white-500);
+  --notice-text-info: var(--white-500);
+  --notice-text-positive: var(--black-500);
+  --notice-text-warning: var(--black-500);
+  --text-code-addition: var(--white);
+  --text-code-builtin: var(--nord-cyan);
+  --text-code-bullet: var(--nord-cyan);
+  --text-code-comment: var(--neutral-40);
+  --text-code-default: var(--text-normal);
+  --text-code-deletion: var(--white);
+  --text-code-keyword: var(--nord-cyan);
+  --text-code-section: var(--text-normal);
+  --text-code-string: var(--nord-green);
+  --text-code-tag: var(--nord-cyan);
+  --text-code-title: var(--blurple-49);
+  --text-code-variable: var(--header-secondary);
 
-  --background-mentioned: hsl(var(--brand-500-hsl) / 0.18);
-  --background-mentioned-hover: hsl(var(--brand-500-hsl) / 0.15);
-  --mention-background: hsl(var(--brand-500-hsl) / 0.25);
-  --background-modifier-hover: color-mix(
-    in oklab,
-    var(--primary-560) 100%,
-    hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.3)
-      var(--theme-base-color-amount, 0%)
-  );
-
-  --search-popout-option-fade-hover: linear-gradient(
-    90deg,
-    hsl(var(--primary-530-hsl) / 0),
-    hsl(var(--primary-530-hsl) / 0.2) 50%
-  );
-
-  @if is_uniform() {
-    /* custom variables */
-    --c-background-secondary-alt2: var(--primary-430);
-    --c-reaction-border: var(--primary-660);
-
-    /* Override variables */
-    --background-primary: var(--primary-600);
-    --background-secondary: var(--primary-500);
-    --background-secondary-alt: var(--primary-460);
-    --background-tertiary: var(--primary-630);
-
-    --channels-default: var(--primary-330);
-    --channeltextarea-background: var(--background-secondary);
-
-    --scrollbar-thin-thumb: var(--primary-460);
-    --scrollbar-auto-thumb: var(--primary-460);
-
-    --button-secondary-background: var(--c-background-secondary-alt2);
-  } @else {
-    /* Override variables */
-    --bg-mod-faint: color-mix(
-      in oklab,
-      var(--primary-560) 100%,
-      hsl(var(--theme-base-color-hsl, 0 0% 0%))
-        var(--theme-base-color-amount, 0%)
-    );
-    --background-modifier-hover: color-mix(
-      in oklab,
-      var(--primary-560) 100%,
-      hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.3)
-        var(--theme-base-color-amount, 0%)
-    );
-    --background-modifier-selected: hsl(var(--primary-460-hsl) / 0.6);
-
-    --channel-text-area-placeholder: var(--primary-400);
-    --channeltextarea-background: var(--primary-500);
-
-    --scrollbar-thin-thumb: var(--primary-500);
-    --scrollbar-auto-thumb: var(--primary-500);
-  }
+  --interactive-muted: var(--neutral-40);
+  --search-popout-date-picker-hint-value-text: var(--black-500);
+  --search-popout-date-picker-hint-value-background-hover: var(--blurple-54);
+  --channel-text-area-placeholder: var(--neutral-34);
 }
 
-.theme-light {
-  /* Override variables */
-  --header-secondary: var(--primary-600);
-  --interactive-muted: var(--primary-360);
-
-  --background-message-hover: hsl(var(--primary-260-hsl) / 0.3);
-
-  --background-mentioned: hsl(var(--brand-500-hsl) / 0.5);
-  --background-mentioned-hover: hsl(var(--brand-500-hsl) / 0.4);
-  --mention-foreground: var(--black-500);
-  --mention-background: hsl(var(--brand-600-hsl) / 0.4);
-
-  --scrollbar-thin-thumb: var(--primary-260);
-  --scrollbar-auto-thumb: var(--primary-260);
-  --scrollbar-auto-track: var(--background-message-hover);
-
-  --search-popout-option-fade-hover: linear-gradient(
-    90deg,
-    hsl(var(--primary-260-hsl) / 0),
-    var(--primary-260) 50%
-  );
-
-  @if is_uniform() {
-    /* custom variables */
-    --c-separator-border: var(--primary-260);
-    --c-background-secondary-alt2: var(--primary-160);
-    --c-reaction-border: var(--primary-260);
-
-    /* Override variables */
-    --background-primary: var(--nord-light1);
-    --background-secondary: var(--nord-light2);
-    --background-secondary-alt: var(--nord-light3);
-    --background-tertiary: var(--primary-300);
-
-    --input-background: var(--background-secondary);
-    --channeltextarea-background: var(--background-secondary-alt);
-  } @else {
-    /* Override variables */
-    --background-primary: var(--nord-light3);
-    --background-secondary: var(--nord-light2);
-    --background-secondary-alt: var(--primary-200);
-    --background-tertiary: var(--primary-260);
-  }
+.theme-midnight {
+  --bg-tile-gradient-magenta-start: hsl(var(--nord-pink-hsl) / 0.5);
+  --bg-tile-gradient-magenta-end: hsl(var(--nord-pink-hsl) / 0.25);
 }

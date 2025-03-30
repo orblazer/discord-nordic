@@ -1,40 +1,23 @@
+.scroller__56ccd,
+.rowContainer__8a920,
+.participants__9c309,
+.tileContainer__71eb2 {
+  background-color: var(--black);
+}
 /* Match background and scrollbar with new call background */
 .no-webkit-scrollbar .auto_c8b5c7,
 .no-webkit-scrollbar .auto_c8b5c7.fade_c8b5c7:hover,
 .no-webkit-scrollbar .fade_c8b5c7 {
-  @if is_uniform() {
-    scrollbar-color: var(--background-primary)
-      var(--background-modifier-accent);
-  } @else {
-    scrollbar-color: var(--primary-800) var(--background-modifier-accent);
-  }
+  scrollbar-color: var(--black) var(--background-modifier-accent);
 }
 .auto_c8b5c7 {
   &::-webkit-scrollbar-track,
   &::-webkit-scrollbar-corner {
-    @if is_uniform() {
-      background-color: var(--background-primary);
-    } @else {
-      background-color: var(--primary-800);
-    }
+    background-color: var(--black);
   }
   &::-webkit-scrollbar-track,
   &::-webkit-scrollbar-thumb {
-    @if is_uniform() {
-      border-color: var(--background-primary);
-    } @else {
-      border-color: var(--primary-800);
-    }
-  }
-}
-
-/*
- * (Waiting for the stage start)
- */
-.icon__6b38f {
-  &[style*='background-color: var(--green-360)'],
-  &[style*='background-color: var(--brand-500)'] {
-    color: var(--black-500);
+    border-color: var(--black);
   }
 }
 
@@ -45,18 +28,6 @@
   }
   &[src='/assets/30d1720360dd2c40.svg'] {
     content: url(svg('server/channel/stage/cross.svg'));
-  }
-}
-
-/*
- * > stage
- */
-.tileContainer__71eb2:hover {
-  background-color: var(--background-tertiary);
-}
-@if is_uniform() {
-  .container__6b38f:hover {
-    background-color: var(--background-secondary-alt);
   }
 }
 

@@ -1,29 +1,35 @@
 ::selection {
-  background-color: hsl(var(--blue-345-hsl) / 0.25);
-}
-
-/* fix weird border radius on preview and streamer bar */
-.notice__6e2b9 {
-  border-radius: 0;
+  background-color: hsl(var(--blue-new-35-hsl) / 0.25);
 }
 
 /*
- * Preview mode bar (join server via discover)
- * + View server as role
+ * "beta" or some "new" tag
  */
-.notice_c5cd6a {
-  & > .lookOutlined__201d5.colorWhite__201d5,
-  & > .header_dd5a33 {
-    color: var(--black-500);
-  }
-
-  & > .lookOutlined__201d5.colorWhite__201d5 {
-    border-color: currentColor;
-  }
+.textBadge__2b1f5[style*='background-color: var(--brand-500)'],
+.textBadge__2b1f5[style*='background-color: var(--bg-brand);'] {
+  color: var(--black-500);
 }
 
 /*
- * Streamer mode enabled bar
+ * Tooltips
+ */
+.tooltipGreen__382e7, /* ping (when over badge) */
+.tooltipBrand__382e7 /* voice emoji (when over bottom emoji) */ {
+  color: var(--black-500);
+}
+.tooltipBrand__382e7 .tooltipText__0ca35[style='color: white;']  /* voice emoji (when over nitro btn) */ {
+  color: var(--black-500) !important;
+}
+
+/*
+ * What's new (popup)
+ */
+.content__487be a {
+  color: var(--text-link);
+}
+
+/*
+ * Streamer mode bar
  */
 .colorStreamerMode__6e2b9 {
   --custom-notice-text: var(--black-500);
@@ -36,136 +42,86 @@
   rect[fill='white'] {
     fill: var(--white-500);
   }
-  path[fill^='rgba(#{$green-360-rgb}'] {
-    fill: var(--green-760);
+  path[fill^='rgba(#{$blurple-49-rgb}'] {
+    fill: var(--blurple-65);
   }
-  path[fill^='rgba(#{$primary-400-rgb}'] {
-    @if is_uniform() {
-      fill: var(--primary-460);
-    } @else {
-      fill: var(--primary-500);
-    }
+  path[fill^='rgba(#{$neutral-49-rgb}'] {
+    fill: var(--neutral-45);
   }
 }
-
 .container__87bf1 {
-  &[style*='background-color: rgb(#{$green-360-rgb})'] {
-    background-color: var(--green-560) !important;
+  &[style*='background-color: rgb(85, 95, 196'],
+  &[style*='background-color: rgb(#{$blurple-49-rgb})'] {
+    background-color: var(--blurple-49) !important;
   }
-  &[style*='background-color: rgb(#{$primary-400-rgb})'] {
-    @if is_uniform() {
-      background-color: var(--primary-460) !important;
-    } @else {
-      background-color: var(--primary-500) !important;
-    }
+  &[style*='background-color: rgb(81, 86, 134)'],
+  &[style*='background-color: rgb(#{$neutral-49-rgb})'] {
+    background-color: var(--neutral-40) !important;
   }
 }
 
 /*
- * Settings square checkbox + some circle checked icon
+ * Settings radio/checkbox
  */
-.checkbox_f525d3[style*='background-color: var(--brand-500)']
-  path[fill='var(--white)'] {
+.refreshIcon__001a7, /* radio */
+.checkbox_f525d3.checked_f525d3:not([style*='background-color']) path[fill='var(--white)'], /* checkbox */
+.checkbox_f525d3.checked_f525d3[style*='background-color: var(--brand-500)'] path[fill='var(--white)'] /* user settings > nitro > subscribe (tiers) */ {
   fill: var(--black-500);
 }
 
-/*
- * Button with brand background
- */
-.focused_d40c56 .userMenuUsername_d40c56 .userMenuText_d40c56,
-.focused_d40c56 .userMenuUsername_d40c56 .userMenuDiscriminator_d40c56, /* Profile Popup > status > switch account (hover) */
-.row__76f04:hover /* Popup on hover forum channel */ {
-  color: var(--black-500);
-}
+.checkbox_f525d3.checked_f525d3[style*='background-color: rgb(#{$green-new-43-rgb})'] /** server > notification settings */ {
+  border-color: var(--nord-green) !important;
+  background-color: var(--nord-green) !important;
 
-.activeButton_c15210 /* text channel > search result (pagination) */ {
-  color: var(--black-500) !important;
-}
-
-/*
- * Button with green background
- */
-.lookFilled__201d5.colorGreen__201d5, /** user settings > profiles + actions button */
-.button_e131a9 .buttonColor_e131a9.buttonActive_e131a9,
-.button_e131a9.buttonColor_e131a9.buttonActive_e131a9, /** sidebar (connected to voice channel) > share your screen (active) */
-.addButton_a76561 /** Discover > Student Hubs > "Join Hub" button  */ {
-  color: var(--black-500);
-}
-
-.tooltipGreen__382e7, /* ping (when over badge) */
-.tooltipBrand__382e7, /* voice emoji (when over bottom emoji) */
-.button_c50183 .text-md\/medium_cf4812[style*='color: white'] /* user settings > gift inventory ("view quests" btn) */ {
-  color: var(--black-500) !important;
-}
-
-/*
- * Dropdown menus
- */
-.colorDefault_c1e9c4 .check_c1e9c4 /** checkbox */ {
-  color: var(--black-500);
-}
-
-/** hover state */
-.colorDefault_c1e9c4.focused_c1e9c4:not(.colorDanger_c1e9c4) {
-  &,
-  .subtext_c1e9c4,
-  .checkbox_c1e9c4,
-  .radioSelection_c1e9c4,
-  .caret_c1e9c4 /* Right click (arrow icon) */ {
-    color: var(--black-500);
-  }
-
-  &:not(.checkboxContainer_c1e9c4) path {
+  path[fill='var(--white)'] {
     fill: var(--black-500);
   }
+}
+.checkbox_f525d3.checked_f525d3[style*='background-color: rgba(#{$green-new-43-rgb}'] /** server > notification settings */ {
+  border-color: hsl(var(--nord-green-hsl) / 0.15) !important;
+  background-color: hsl(var(--nord-green-hsl) / 0.15) !important;
+}
+
+/*
+ * Buttons with brand or green background
+ */
+.tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf:not([aria-selected=true]), /* DM ("add friend" btn) */
+.lookFilled__201d5.colorGreen__201d5, /** user settings > profiles + actions button */
+.activeButton_c15210, /* text channel > search result (pagination) */
+.lookFilled__201d5.colorBrand__201d5 .defaultColor__4bd52, /* server settings > onboarding > server guide */
+.addButton_a76561, /** Discover > Student Hubs > "Join Hub" button  */
+.colorable_f1ceac.join_f1ceac, .colorable_f1ceac.join_f1ceac .centerIcon_f1ceac /** DM (Call button)  */ {
+  color: var(--black-500);
+}
+
+.button_c50183 .text-md\/medium_cf4812[style*='color: white'], /* user settings > gift inventory ("view quests" btn) */
+.lookFilled__201d5.colorGreen__201d5 .text-sm\/medium_cf4812[style*='color: var(--text-normal)'] /* server settings > onboarding > server guide */ {
+  color: var(--black-500) !important;
 }
 
 /*
  * Circle checked icon
  */
 .activeIcon_d40c56 circle[fill='var(--white-500)'], /** user popup (sidebar left) > switch accounts */
-.activeIcon_d40c56 path[fill='var(--white-500)'], /** user popup (sidebar left) > switch accounts (hover) */
+.selectedIcon__3f413 circle[fill='white'], /** user settings > profiles > per-server-profiles (checkmark in dropdown "Choose a server") */
 .checkmarkCircle__36dee circle[fill='var(--white-500)'], /** user settings > app settings > Appearance */
-.checkbox_f525d3[style*='background-color: rgb(#{$green-360-rgb})'] path[fill='var(--white)'], /** server > notification settings */
 .descriptionSection__981f7:first-child .descriptionIcon__981f7 circle[fill='var(--white-500)'], /** server settings > server template */
 .checklistIcon_ef2eb4 circle[fill='var(--white-500)'], /** server settings > enable community > get started (step 3) */
 .icon_e9b3cb circle[fill="var(--white-100)"], /* server settings > onboarding > defaults channels (right check mark) */
 .checkIcon__270d7 path[fill="var(--white-500)"], /* server > Channel & Roles (selected role) */
-.answerSelectionIcon__4c520 circle[fill="var(--white-500)"], /* Text channel poll answers */
-.victorIcon_f69538 circle[fill="var(--white-500)"] /* Text channel poll result */ {
+.answerSelectionIcon__4c520 circle[fill="var(--white-500)"], /* Text channel > poll answers */
+.victorIcon_f69538 circle[fill="var(--white-500)"], /* Text channel >  poll result */ {
   fill: var(--black-500);
 }
 
 .checkmark_aae012, /** Server > text channel (empty and complete some tasks) */
-.activeCircle__5ea8c /** server settings > welcome screen */ {
+.activeCircle__5ea8c, /** server settings > welcome screen */
+.stepStatus_a68543[style*='background-color: var(--status-positive-background)'] /* Forum channel > "get started" */ {
   color: var(--black-500);
 }
 
-/*
- * What's new (popup)
- */
-.content__487be a {
-  color: var(--text-link);
-}
-
-/*
- * Streamer mode enabled button
- */
-.streamerModeEnabledBtn_aa3ffd:hover {
-  background-color: #a3759b;
-}
-
-/*
- * Search > filter (typed, eg. from, before)
- */
-.searchAnswer_bd8186,
-.searchFilter_bd8186 {
-  @if is_uniform() {
-    background-color: var(--background-secondary) !important;
-  } @else {
-    background-color: var(--background-primary) !important;
-  }
-  color: var(--text-normal);
+.activeIcon_d40c56 circle[fill='var(--brand-500)'] /** user popup (sidebar left) > switch accounts (hover) */ {
+  fill: var(--blurple-87);
 }
 
 /*
@@ -180,7 +136,7 @@
 }
 
 /*
- * Text/DM channel > drop file
+ * Drop file and files in text channel
  */
 .uploadDropModal_dbca3c:not(.error_dbca3c) .inner_dbca3c {
   .title_dbca3c,
@@ -189,67 +145,18 @@
     color: var(--black-500);
   }
 }
-
 .icon_dbca3c {
   &.two_dbca3c {
     filter: drop-shadow(0 0 48px hsla(var(--brand-500-hsl) / 0.5)) !important;
   }
 
-  &.video_dbca3c {
-    background-image: url(svg('global/upload/video.svg'));
-  }
-  &.acrobat_dbca3c {
-    background-image: url(svg('global/upload/acrobat.svg'));
-  }
-  &.ae_dbca3c {
-    background-image: url(svg('global/upload/ae.svg'));
-  }
-  &.sketch_dbca3c {
-    background-image: url(svg('global/upload/sketch.svg'));
-  }
-  &.ai_dbca3c {
-    background-image: url(svg('global/upload/ai.svg'));
-  }
-  &.archive_dbca3c {
-    background-image: url(svg('global/upload/archive.svg'));
-  }
-  &.code_dbca3c {
-    background-image: url(svg('global/upload/code.svg'));
-  }
   &.document_dbca3c {
     background-image: url(svg('global/upload/document.svg'));
-  }
-  &.ps_dbca3c,
-  &.photoshop_dbca3c {
-    background-image: url(svg('global/upload/ps.svg'));
-  }
-  &.spreadsheet_dbca3c {
-    background-image: url(svg('global/upload/spreadsheet.svg'));
   }
   &.image_dbca3c {
     background-image: url(svg('global/upload/image.svg'));
   }
-  &.webcode_dbca3c {
-    background-image: url(svg('global/upload/webcode.svg'));
+  &.code_dbca3c {
+    background-image: url(svg('global/upload/code.svg'));
   }
-  &.audio_dbca3c {
-    background-image: url(svg('global/upload/audio.svg'));
-  }
-  &.unknown_dbca3c {
-    background-image: url(svg('global/upload/unknown.svg'));
-  }
-}
-
-/*
- * beta tag
- */
-.textBadge__2b1f5[style*='background-color: var(--brand-500)'] {
-  color: var(--black-500);
-}
-
-/*
- * Inbox
- */
-.maskIcon_db811b[src='/assets/c8ae30e56eb87fdf.svg'] {
-  content: url(svg('inbox/check.svg'));
 }

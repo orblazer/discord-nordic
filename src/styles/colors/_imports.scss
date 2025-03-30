@@ -10,6 +10,11 @@
   );
 }
 
+@mixin aliasColor($name, $color) {
+  --#{$name}-hsl: var(--#{$color}-hsl);
+  --#{$name}: var(--#{$color});
+}
+
 @mixin colorVars($name, $color) {
   --#{$name}-hsl: #{$color};
   --#{$name}: hsl(var(--#{$name}-hsl) / 1);

@@ -1,7 +1,7 @@
 :root {
-  @include colorVars('user-status-online', var(--green-560-hsl));
-  @include colorVars('user-status-idle', var(--orange-500-hsl));
-  @include colorVars('user-status-dnd', var(--red-500-hsl));
-  @include colorVars('user-status-invisible', var(--primary-430-hsl));
-  @include colorVars('user-status-twitch', var(--nord-pink-hsl));
+  @include aliasColor('user-status-online', 'nord-green');
+  @include aliasColor('user-status-idle', 'nord-yellow');
+  @include aliasColor('user-status-dnd', 'nord-red');
+  @include aliasColor('user-status-invisible', 'neutral-40');
+  @include aliasColor('user-status-twitch', 'nord-pink');
 }

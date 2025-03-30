@@ -1,40 +1,28 @@
-$primary-160-rgb: 238, 239, 241;
-$primary-400: hsl(223, calc(var(--saturation-factor, 1) * 5.8%), 52.9%);
-$primary-400-hex: #80848e;
-$primary-400-rgb: 128, 132, 142;
-$primary-700-rgb: 30, 31, 34;
-$primary-800-rgb: 17, 18, 20;
+$neutral-34-rgb: 131, 131, 139;
+$neutral-34-hex: #83838b;
+$neutral-49-rgb: 78, 80, 88;
 
-$white-500: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
-$white-500-rgb: 255, 255, 255;
-$white-500-hex: #ffffff;
+$blurple-28-hex: #949cf7;
+$blurple-49-rgb: 88, 101, 242;
+$blurple-49-hex: #5865f2;
 
-/*
- * Colors
- */
-$yellow-300-hex: #f0b232;
-$yellow-300-rgb: 240, 178, 50;
+$green-new-43-rgb: 35, 165, 90;
+$green-new-37-hex: #3ba55c;
+$green-new-38-rgb: 67, 162, 90;
+$green-new-38-hex: #43a25a;
 
-$green-330-hex: #2dc771;
-$green-360-rgb: 35, 165, 90;
-$green-360-hex: #23a55a;
-$status-green-600-hex: #3ba55c;
+$yellow-new-30-rgb: 202, 150, 84;
+$yellow-new-30-hex: #ca9654;
 
-$red-400-hex: #f23f43;
-$red-400-rgb: 242, 63, 67;
+$red-new-46-rgb: 216, 58, 66;
+$red-new-46-hex: #d83a42;
 
-/*
- * Brand
- */
-$brand-360-hex: #949cf7;
-$brand-500: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);
-$brand-500-hex: #5865f2;
-$brand-500-rgb: 88, 101, 242;
-
-/*
- * Other
- */
-$guild-boosting-pink-rgb: 255, 115, 250;
 $guild-boosting-pink-hex: #ff73fa;
-$twitch-rgb: 89, 54, 149;
 $twitch-hex: #593695;
+
+/////////////////////////////////////////
+// TODO: Bellow is OLD theme (need to be replaced)
+$primary-400: hsl(223, calc(var(--saturation-factor, 1) * 5.8%), 52.9%);
+$white-500: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+$green-330-hex: #2dc771;
+$brand-500: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);

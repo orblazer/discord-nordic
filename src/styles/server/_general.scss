@@ -1,20 +1,6 @@
-/** Members wrapper (this is for force full height on members list) **/
-.container_c8ffbb .membersWrap_c8ffbb {
-  flex-grow: 1;
-}
-
 /*
  * Voice channels limits
  */
-@if is_uniform() {
-  .users__260e1 {
-    background-color: var(--background-secondary);
-  }
-} @else {
-  .theme-light .users__260e1 {
-    background-color: var(--primary-100);
-  }
-}
 
 /*
  * "new" badge
@@ -38,16 +24,32 @@
   fill: var(--black-500);
 }
 
+.flowerStar__3e3b0 path[fill='url(#bf28dbaa-eff0-424f-b25b-646f0eacee7a)'] {
+  fill: var(--guild-boosting-pink);
+}
+
+.tooltipPremiumFooterContainer__7d7fe {
+  background: var(--guild-boosting-pink);
+
+  .text-xs\/semibold_cf4812[style*='color: white'] {
+    color: var(--black-500) !important;
+  }
+  .gemIcon__7d7fe path[fill='white'] {
+    fill: var(--black-500);
+  }
+}
+
 /*
  * Events icons
  */
 .eventStatusContainer__29021 {
-  path[fill='#{$brand-360-hex}'] /** + (popup) > Create new (step 3) */ {
-    fill: var(--brand-360);
+  path[fill='#{$blurple-28-hex}'] /** + (popup) > Create new (step 3) */ {
+    fill: var(--blurple-49);
   }
-  path[fill='#{$green-330-hex}'] {
-    fill: var(--green-330);
-  }
+  // TODO: Dead code below
+  // path[fill='#{$green-330-hex}'] {
+  //   fill: var(--green-330);
+  // }
 }
 .guildIcon__4591d {
   color: var(--black-500);
@@ -73,28 +75,21 @@
   }
 }
 
-@if is_uniform() {
-  .wrapper__4e6ce /* (sidebar) */ {
-    background-color: var(--background-secondary);
-    border-right: 1px solid hsl(var(--primary-900-hsl) / 0.2);
-  }
-}
-
 .topGuildEmojiBadge_aeaaeb /* "popular" label (hover) */ {
   background: linear-gradient(
     268.26deg,
-    var(--red-500) 0%,
-    var(--orange-500) 102.45%
+    var(--red-new-61) 0%,
+    var(--orange-new-63) 102.45%
   );
   color: var(--black-900);
 }
 
 /* "new" emoji */
 .newlyAddedHighlight_fc7141 {
-  border-color: var(--green-500);
+  border-color: var(--green-new-62);
 }
 .newlyAddedBadge_fc7141 {
-  background-color: var(--green-500);
+  background-color: var(--green-new-62);
 
   .newlyAddedBadgeStar_fc7141,
   .text-xs\/semibold_cf4812[style*='color: white'] {
@@ -112,14 +107,14 @@
 .newlyAddedBadge_aeaaeb /* (hover) */ {
   background: linear-gradient(
     268.26deg,
-    var(--blue-330) 0%,
-    var(--green-500) 102.45%
+    var(--blue-new-31) 0%,
+    var(--green-new-62) 102.45%
   );
 }
 
 .nitroTopDividerLockCircle_b3fb5f path[fill='white'] {
   fill: var(--black-500);
 }
-.upsellButton__0b69f /* "Get Nitro" btn */ {
-  color: var(--primary-660) !important;
+.upsellContainerShadow__0b69f {
+  filter: drop-shadow(0 0 10px hsl(var(--twitch-secondary-hsl) / 0.5));
 }

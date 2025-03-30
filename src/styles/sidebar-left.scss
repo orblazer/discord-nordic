@@ -1,60 +1,12 @@
-@if is_uniform() {
-  .wrapper_ef3116, /* Servers sidebar */
-  .sidebar_c48ade, /* Left sidebar (servers + discover) */
-  .sidebarRegionScroller__23e6b, /* Settings > sidebar */
-  .privateChannels__35e86, .scroller__99e7c, /* DM > channels */
-  .container__2637a, /* Server > channels */
-  .footer__214dc /* Servers sidebar (discovery button background) */ {
-    background-color: var(--background-primary) !important;
-  }
+.panels_c48ade {
+  background: var(--background-base-lower) !important;
+}
 
-  .wrapper_ef3116, /* Servers sidebar */
-  .sidebar_c48ade, /* Left sidebar (servers + discover) */
-  .sidebarRegionScroller__23e6b /* Settings > sidebar */ {
-    border-right: 1px solid var(--background-secondary-alt);
-  }
-
-  .wrapper__6e9f8:not(.selected__6e9f8) .childWrapper__6e9f8, /* server without avatar */
-  .expandedFolderBackground__48112, /* servers folder */
-  .circleIconButton__5bc7e:not(.selected_db6521) /* add and discover button */ {
-    background-color: var(--background-secondary);
-  }
-
-  .container__37e49, /* user area */
-  .container_e131a9 /* user area (in voice) */ {
-    background-color: var(--background-secondary) !important;
-  }
-  .container_e131a9 /* user area (in voice) */ {
-    border-bottom-color: var(--background-secondary-alt);
-  }
-
-  .folder__48112.hover__48112, /* server folder icon */
-  .wrapper_bc7085 .wrapper__6e9f8:not(.selected__6e9f8) .childWrapper__6e9f8 /* server (in folder) without avatar */ {
-    background-color: var(--c-background-secondary-alt2) !important;
-  }
-} @else {
-  .wrapper_ef3116, /* Servers sidebar */
-  .footer__214dc /* Servers sidebar (discovery button background) */ {
-    background-color: var(--background-secondary-alt) !important;
-  }
-
-  .panels_c48ade /* user area (global) */ {
-    border-left: 1px solid var(--background-modifier-accent);
-  }
-
-  .expandedFolderBackground__48112, /* servers folder */
-  .folder__48112:not(.hover__48112) /* server folder icon */ {
-    background-color: var(--background-primary) !important;
-  }
-
-  .theme-dark .folder__48112.hover__48112, /* server folder icon */
-  .theme-dark .wrapper__48112 .wrapper__6e9f8:not(.selected__6e9f8) .childWrapper__6e9f8 /* server (in folder) without avatar */ {
-    background-color: var(--primary-500);
-  }
-  .theme-light .folder__48112.hover__48112, /* server folder icon */
-  .theme-light .wrapper__48112 .wrapper__6e9f8:not(.selected__6e9f8) .childWrapper__6e9f8 /* server (in folder) without avatar */ {
-    background-color: var(--primary-160);
-  }
+.theme-dark
+  .wrapper__48112
+  .wrapper__6e9f8:not(.selected__6e9f8)
+  .childWrapperNoHoverBg__6e9f8 {
+  background-color: var(--background-mod-strong);
 }
 
 /*
@@ -67,42 +19,10 @@
 }
 
 /*
- * Typing on DM group
- */
-.container__1ce5d div[style*='background-color: rgb(#{$green-360-rgb})'] {
-  background-color: var(--user-status-online) !important;
-}
-
-/*
  * voice connected badge
  */
-@if is_uniform() {
-  .iconBadge__650eb {
-    // (When other people are connected)
-    background-color: var(--background-secondary-alt);
-  }
-}
-
 .iconBadge__650eb.isCurrentUserConnected__650eb {
   color: var(--black-500);
-}
-
-/*
- * User area (in voice)
- */
-@if is_uniform() {
-  .button_e131a9 .buttonColor_e131a9,
-  .button_e131a9 .buttonColor_e131a9:disabled,
-  .button_e131a9 .buttonColor_e131a9.fauxDisabled_e131a9,
-  .button_e131a9.buttonColor_e131a9,
-  .button_e131a9.buttonColor_e131a9:disabled,
-  .button_e131a9.buttonColor_e131a9.fauxDisabled_e131a9 {
-    background-color: var(--c-background-secondary-alt2);
-  }
-  .button_e131a9 .buttonColor_e131a9:hover,
-  .button_e131a9.buttonColor_e131a9:hover {
-    background-color: var(--background-primary);
-  }
 }
 
 /*
@@ -116,10 +36,26 @@
 /*
  ! > add server > Customize your server ('+' image)
  */
-.iconContainer__98cf7 circle[fill='#{$brand-500-hex}' i] {
-  fill: var(--brand-500);
+.iconContainer__98cf7 circle[fill='#{$blurple-49-hex}' i] {
+  fill: var(--blurple-49);
 
   & + path[fill='white'] {
     fill: var(--black-500);
   }
+}
+
+/*
+ * User panel (connected to voice channel) > share your screen (active)
+ */
+.theme-dark .experimentButton_e131a9.buttonColor_e131a9.buttonActive_e131a9,
+.theme-dark .experimentButton_e131a9 .buttonColor_e131a9.buttonActive_e131a9 {
+  border-color: hsl(var(--nord-green-hsl) / 0.15) !important;
+  background-color: hsl(var(--nord-green-hsl) / 0.15) !important;
+}
+
+/*
+ * Typing on DM group
+ */
+.container__1ce5d div[style*='background-color: rgb(#{$green-new-38-rgb})'] {
+  background-color: var(--user-status-online) !important;
 }

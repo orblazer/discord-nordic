@@ -1,15 +1,6 @@
-@if is_uniform() {
-  .theme-dark .avatarUploaderInnerEmpty_cd0bbe, /* > Overview (server without avatar) */
-  .tierBody_f15dca /* > Sticker */ {
-    background-color: var(--background-secondary) !important;
-  }
-}
-
-/*
- * > Overview
- */
-.avatarUploaderInnerEmpty_cd0bbe .imageUploaderAcronym_e4d0bf {
-  color: var(--black-500) !important;
+/* Fix bug in channel permission and other place */
+.scroller__53543 {
+  background-color: transparent;
 }
 
 /*
@@ -17,19 +8,8 @@
  */
 .upsellHeader_c0eeaa,
 .upsellDescription_c0eeaa {
-  color: var(--white-100);
+  color: var(--white);
 }
 .currentTierIcon_c44edb {
   color: var(--black-500) !important;
-}
-
-@if is_uniform() {
-  .theme-dark .tierHeaderLocked_f15dca,
-  .theme-dark .tierHeaderUnlocked_f15dca {
-    background-color: var(--background-secondary-alt);
-  }
-  .theme-dark .tierIconLocked_f15dca,
-  .theme-dark .tierLock_f15dca {
-    color: var(--text-muted);
-  }
 }

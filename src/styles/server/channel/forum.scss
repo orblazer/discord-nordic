@@ -1,19 +1,5 @@
-@if is_uniform() {
-  .mainCard_f369db {
-    background: transparent;
-    border-color: var(--background-secondary-alt);
-  }
-}
-
-.botTagOP__82f07,
-.newBadge_faa96b[style*='background-color: var(--brand-260)'], /* (list view) */
-.newBadge__9a337[style*='background-color: var(--brand-260)'] /* (gallery view) */ {
-  color: var(--brand-900);
-}
-
-.stepStatus_a68543[style*='background-color: var(--status-positive-background)'],
-.discordIcon__56dee {
-  color: var(--black-500);
+.botTagOP__82f07 {
+  color: var(--blurple-87);
 }
 
 .stars__93db4,
@@ -27,20 +13,8 @@
   }
 }
 
-.inline__56dee img[src='/assets/db8dd898bbfa31caea78.svg'] {
-  // TODO: Url is outdated
-  content: url(svg('server/channel/forum/guide.svg'));
-}
-
-/*
- * Matching post ("Search or create a post")
- */
-.theme-dark .matchingPostsRow_f369db {
-  @if is_uniform() {
-    background-color: var(--background-secondary-alt);
-  } @else {
-    background-color: var(--background-modifier-hover);
-  }
+.visual-refresh .reaction_f8896c.reactionMe_f8896c .reactionCount_f8896c {
+  color: var(--message-reacted-text);
 }
 
 /*

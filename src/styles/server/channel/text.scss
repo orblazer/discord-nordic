@@ -13,32 +13,14 @@
 }
 
 /*
- * Text channel (empty)
- */
-.icon_aae012 {
-  &[src='/assets/26c61c1ac309c2bc.svg'] {
-    content: url(svg('server/channel/text/invite.svg')) !important;
-  }
-  &[src='/assets/3878ad314914c1c5.svg'] {
-    content: url(svg('server/channel/text/customize.svg')) !important;
-  }
-  &[src='/assets/83a251292d50b8de.svg'] {
-    content: url(svg('server/channel/text/chat.svg')) !important;
-  }
-  &[src='/assets/07013e975e46d1c2.svg'] {
-    content: url(svg('server/channel/text/first-app.svg')) !important;
-  }
-}
-
-/*
  * Text channel (user join)
  */
 .icon__235ca[style*='background-image: url("/assets/8b9de960da063cb9.svg")'] {
   background-image: url(svg('server/channel/text/join.svg')) !important;
 }
 /* Reply message */
-.userJoinSystemMessageIcon_c19a55 path[fill='#{$status-green-600-hex}'] {
-  fill: hsl(var(--user-status-online-hsl));
+.userJoinSystemMessageIcon_c19a55 path[fill='#{$green-new-37-hex}'] {
+  fill: var(--nord-green);
 }
 
 /*
@@ -46,28 +28,6 @@
  */
 .mentioned__5126c:before {
   background-color: var(--brand-500);
-}
-
-/*
- * > Reaction
- */
-@if is_uniform() {
-  .message_ccca67 .reaction__23977 {
-    border-color: var(--background-secondary-alt);
-  }
-}
-
-.theme-light .reaction__23977 {
-  background-color: var(--primary-160);
-}
-
-/*
- * > Embed
- */
-@if is_uniform() == false {
-  .theme-light .embedFull__623de {
-    background-color: var(--primary-160);
-  }
 }
 
 /*

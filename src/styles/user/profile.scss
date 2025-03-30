@@ -1,40 +1,40 @@
 .badge__8061a {
-  &[src*='6bdc42827a38498929a4920da12695d9.png'] {
+  &[src*='/6bdc42827a38498929a4920da12695d9.png'] {
     content: url(svg('user/profile/badge-active-developer.svg'));
   }
-  &[src*='6f9e37f9029ff57aef81db857890005e.png'] {
+  &[src*='/6f9e37f9029ff57aef81db857890005e.png'] {
     content: url(svg('user/profile/badge-commands.svg'));
   }
-  &[src='/assets/fee1624003e2fee35cb398e125dc479b.png'] {
+  &[src='/fee1624003e2fee35cb398e125dc479b.png'] {
     content: url(svg('user/profile/badge-certified-moderator.svg'));
   }
-  &[src*='bf01d1073931f921909045f3a39fd264.png'] {
+  &[src*='/bf01d1073931f921909045f3a39fd264.png'] {
     content: url(svg('user/profile/badge-hypesquad.svg'));
   }
-  &[src*='/assets/8a88d63823d8a71cd5e390baa45efa02.png'] {
+  &[src*='/8a88d63823d8a71cd5e390baa45efa02.png'] {
     content: url(svg('user/profile/badge-hypesquad-house-1.svg'));
   }
-  &[src*='/assets/011940fd013da3f7fb926e4a1cd2e618.png'] {
+  &[src*='/011940fd013da3f7fb926e4a1cd2e618.png'] {
     content: url(svg('user/profile/badge-hypesquad-house-2.svg'));
   }
-  &[src*='3aa41de486fa12454c3761e8e223442e.png'] {
+  &[src*='/3aa41de486fa12454c3761e8e223442e.png'] {
     content: url(svg('user/profile/badge-hypesquad-house-3.svg'));
   }
-  &[src*='3f9748e53446a137a052f3454e2de41e.png'] {
+  &[src*='/3f9748e53446a137a052f3454e2de41e.png'] {
     content: url(svg('user/profile/badge-partner.svg'));
   }
-  &[src*='/assets/5e74e9b61934fc1f67c65515d1f7e60d.png'] {
+  &[src*='/5e74e9b61934fc1f67c65515d1f7e60d.png'] {
     content: url(svg('user/profile/badge-staff.svg'));
   }
-  &[src*='/assets/6df5892e0f35b051f8b61eace34f4967.png'] {
+  &[src*='/6df5892e0f35b051f8b61eace34f4967.png'] {
     content: url(svg('user/profile/badge-verified-developer.svg'));
   }
-  &[src*='/assets/6de6d34650760ba5551a79732e98ed60.png'] {
-    content: url(svg('user/profile/badge-originaly-know-as.png'));
+  &[src*='/6de6d34650760ba5551a79732e98ed60.png'] {
+    content: url(png('user/profile/badge-originaly-know-as.png'));
   }
 }
 
-.botTagRegular__82f07:not(.botTagOP__82f07) /** Bot tag */ {
+.botTagRegular__82f07:not(.botTagOP__82f07) /** "APP" tag */ {
   color: var(--black-500);
 
   path[fill='var(--white)'] /* Verified badge*/ {
@@ -50,19 +50,19 @@
  ! Server > members list
  */
 .mask__44b0c {
-  rect[fill='#{$green-360-hex}'] {
+  rect[fill='#{$green-new-38-hex}'] {
     fill: var(--user-status-online);
   }
-  rect[fill='#{$yellow-300-hex}'] {
+  rect[fill='#{$yellow-new-30-hex}'] {
     fill: var(--user-status-idle);
   }
-  rect[fill='#{$red-400-hex}'] {
+  rect[fill='#{$red-new-46-hex}'] {
     fill: var(--user-status-dnd);
   }
   rect[fill='#{$twitch-hex}'] /* (not on DM title bar) */ {
     fill: var(--user-status-twitch);
   }
-  rect[fill='#{$primary-400-hex}'] {
+  rect[fill='#{$neutral-34-hex}'] {
     fill: var(--user-status-invisible);
   }
 }
@@ -71,16 +71,16 @@
  * User popup (sidebar left) > status (online, dnd, etc)
  */
 .status_a423bd {
-  &[style='background-color: rgb(#{$green-360-rgb});'] {
+  &[style='background-color: rgb(#{$green-new-38-rgb});'] {
     background-color: var(--user-status-online) !important;
   }
-  &[style='background-color: rgb(#{$yellow-300-rgb});'] {
+  &[style='background-color: rgb(#{$yellow-new-30-rgb});'] {
     background-color: var(--user-status-idle) !important;
   }
-  &[style='background-color: rgb(#{$red-400-rgb});'] {
+  &[style='background-color: rgb(#{$red-new-46-rgb});'] {
     background-color: var(--user-status-dnd) !important;
   }
-  &[style='background-color: rgb(#{$primary-400-rgb});'] {
+  &[style='background-color: rgb(#{$neutral-34-rgb});'] {
     background-color: var(--user-status-invisible) !important;
   }
 }
@@ -88,6 +88,6 @@
 /*
  * Activity icon (in user list)
  */
-.icon__8ac07 path[fill='#{$green-360-hex}'] {
-  fill: var(--green-360);
+.icon_c9d15c path[fill='#{$green-new-38-hex}'] {
+  fill: var(--nord-green);
 }

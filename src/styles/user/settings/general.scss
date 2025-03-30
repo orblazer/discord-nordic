@@ -6,36 +6,15 @@
 }
 
 /*
- * > profiles
- */
-.uploadIcon_edf440 /* Change avatar */ {
-  color: var(--black-500);
-}
-
-/*
- * >> server profile
+ * > profiles > Per-server profile
  */
 .upsellTextContainer__0f7dc > div[style*='color: white'] {
   color: var(--black-500) !important;
 }
 
 /*
- * >>> choose a server
+ * > Content & Social > Discord icon (when "all server")
  */
-.selectedIcon__3f413 circle[fill='white'] {
-  fill: var(--black-500);
-}
-
-/*
- * > Content & Social
- */
-@if is_uniform() {
-  .itemFilled__001a7[aria-checked='true'] {
-    background-color: var(--background-secondary-alt);
-  }
-}
-
-/* Discord icon (when "all server") */
 .guildSelectOptionIcon_b476ba path[fill='white'] {
   fill: var(--black-500);
 }
