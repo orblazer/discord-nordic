@@ -12,14 +12,14 @@ const __filename = dirname(fileURLToPath(import.meta.url))
 const srcDir = resolve(__filename, '..')
 const rootDir = resolve(__filename, '../..')
 const assetsDir = resolve(rootDir, 'assets')
-const uniformDir = resolve(rootDir, 'uniform')
+// const uniformDir = resolve(rootDir, 'uniform')
 
 const dev =
   typeof process.env.DEV === 'undefined' ? false : Boolean(process.env.DEV)
 const baseAssetsUrl = `https://raw.githubusercontent.com/orblazer/discord-nordic/v${pkg.version}/assets`
 
 await build(rootDir)
-await build(uniformDir, true)
+// await build(uniformDir, true) // TODO: uniform is not updated
 
 /**
  * Build theme files

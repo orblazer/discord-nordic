@@ -1,5 +1,8 @@
 # Discord nordic theme (uniform variant)
 
+> [!WARNING]
+> This variant is no longer updated, feel free to open an PR to update it.
+
 This theme change all discord style for follow [Nord palette](https://www.nordtheme.com/).
 
 ## Preview
