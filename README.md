@@ -12,6 +12,9 @@ This theme change all discord style for follow [Nord palette](https://www.nordth
 | :----------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: |
 | ![preview](https://raw.githubusercontent.com/orblazer/discord-nordic/master/.github/preview.png) | ![preview=light](https://raw.githubusercontent.com/orblazer/discord-nordic/master/.github/preview-light.png) |
 
+> [!WARNING]
+> Only `Light` and `Ash` themes are supported. Feel free to open an PR for other themes.
+
 ## Installation
 
 ### BetterDiscord
