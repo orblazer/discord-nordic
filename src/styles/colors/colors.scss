@@ -1,11 +1,13 @@
 .visual-refresh {
-  @include colorVars('neutral-4', hexToHSL(#fcfcfd)); /* old: primary-130 */
+  @include colorVars('neutral-1', hexToHSL(#fcfcfd));
+  @include aliasColor('neutral-2', 'nord-light3');
+  @include aliasColor('neutral-4', 'nord-light2');
   @include aliasColor('neutral-6', 'neutral-4'); /* old: primary-160 */
   @include aliasColor(
     'neutral-8',
     'nord-light1'
   ); /* old: primary-200 */ /*! nord color */
-  @include aliasColor('neutral-9', 'neutral-8'); /* old: primary-230 */
+  @include colorVars('neutral-9', hexToHSL(#ced6e3));
   @include aliasColor('neutral-11', 'neutral-8');
   @include colorVars('neutral-12', hexToHSL(#d2d6e0)); /* old: primary-260 */
   @include colorVars('neutral-15', hexToHSL(#b6bcc9)); /* old: primary-300 */
@@ -52,13 +54,13 @@
   @include aliasColor('green-new-26', 'green-new-62');
   @include aliasColor('green-new-25', 'green-new-62'); /* old: green-300 */
   @include aliasColor('green-new-38', 'green-new-62'); /* old: green-360 */
-  // @include aliasColor('green-new-44', 'green-new-62'); /* old: green-400 */
+  @include aliasColor('green-new-44', 'green-new-62'); /* old: green-400 */
   @include aliasColor('green-new-52', 'green-new-62'); /* old: green-430 */
   @include aliasColor(
     'green-new-62',
     'nord-green'
   ); /* old: green-500 */ /*! nord color */
-  // @include aliasColor('green-new-72', 'green-new-62'); /* old: green-560 */
+  @include aliasColor('green-new-55', 'green-new-62');
   // @include aliasColor('green-new-75', 'green-new-62'); /* old: green-600 */
   @include aliasColor('green-new-77', 'green-new-62');
   // @include aliasColor('green-new-82', 'green-new-62'); /* old: green-660 */
@@ -82,6 +84,7 @@
   @include aliasColor('yellow-new-24', 'yellow-new-57'); /* old: yellow-260 */
   @include aliasColor('yellow-new-28', 'yellow-new-57'); /* old: yellow-300 */
   @include aliasColor('yellow-new-39', 'yellow-new-57'); /* old: yellow-360 */
+  @include aliasColor('yellow-new-54', 'yellow-new-57');
   @include aliasColor(
     'yellow-new-57',
     'nord-yellow'
@@ -285,4 +288,87 @@
 .theme-midnight {
   --bg-tile-gradient-magenta-start: hsl(var(--nord-pink-hsl) / 0.5);
   --bg-tile-gradient-magenta-end: hsl(var(--nord-pink-hsl) / 0.25);
+}
+
+.visual-refresh.theme-light,
+.visual-refresh .theme-light {
+  --background-mentioned: hsl(var(--blurple-49-hsl) / 0.45);
+  --background-mentioned-hover: hsl(var(--blurple-49-hsl) / 0.35);
+  --background-message-highlight: hsl(var(--blurple-49-hsl) / 0.45);
+  --background-message-highlight-hover: hsl(var(--blurple-49-hsl) / 0.35);
+  --background-message-hover: hsl(var(--neutral-8-hsl) / 0.4);
+  --background-modifier-accent: hsl(var(--neutral-9-hsl) / 0.4);
+  --background-modifier-active: hsl(var(--neutral-9-hsl) / 0.45);
+  --background-modifier-hover: hsl(var(--neutral-9-hsl) / 0.8);
+  --background-modifier-selected: hsl(var(--neutral-9-hsl) / 0.65);
+  --background-primary: var(--neutral-1);
+  --bg-mod-faint: hsl(var(--neutral-9-hsl) / 0.2);
+  --bg-mod-strong: hsl(var(--neutral-9-hsl) / 0.5);
+  --bg-mod-subtle: hsl(var(--neutral-9-hsl) / 0.3);
+  --button-outline-danger-background: hsl(var(--neutral-9-hsl) / 0.4);
+  --button-outline-danger-background-active: hsl(var(--neutral-9-hsl) / 0.55);
+  --button-outline-danger-background-hover: hsl(var(--neutral-9-hsl) / 0.7);
+  --button-outline-danger-border: transparent;
+  --button-outline-danger-border-active: transparent;
+  --button-outline-danger-border-hover: transparent;
+  --button-outline-danger-text: var(--nord-red);
+  --button-outline-danger-text-active: var(--nord-red);
+  --button-outline-danger-text-hover: var(--nord-red);
+  --button-secondary-background: hsl(var(--neutral-9-hsl) / 0.7);
+  --button-secondary-background-active: var(--neutral-9);
+  --button-secondary-background-disabled: hsl(var(--neutral-9-hsl) / 0.7);
+  --button-secondary-background-hover: hsl(var(--neutral-9-hsl) / 0.8);
+  --info-danger-background: hsl(var(--nord-red-hsl) / 0.1);
+  --info-danger-text: var(--nord-red);
+  --info-help-background: hsl(var(--nord-blue-hsl) / 0.15);
+  --info-help-text: var(--nord-blue);
+  --info-positive-background: hsl(var(--nord-green-hsl) / 0.1);
+  --info-positive-text: var(--nord-green);
+  --info-warning-background: hsl(var(--nord-yellow-hsl) / 0.08);
+  --info-warning-text: var(--nord-yellow);
+  --input-background: hsl(var(--neutral-9-hsl) / 0.4);
+  --mention-background: hsl(var(--blurple-49-hsl) / 0.45);
+  --mention-foreground: var(--black-500);
+  --message-reacted-background: hsl(var(--blurple-49-hsl) / 0.3);
+  --message-reacted-text: var(--blurple-87);
+  --premium-nitro-pink-text: var(--nord-pink);
+  --text-link: var(--blue-new-35);
+  --text-default: var(--neutral-79);
+  --text-muted: var(--neutral-45);
+  --text-tertiary: var(--neutral-45);
+  --background-code: var(--neutral-1);
+  --background-code-addition: hsl(var(--nord-green-hsl) / 0.3);
+  --background-code-deletion: hsl(var(--nord-red-hsl) / 0.3);
+  --background-feedback-critical: hsl(var(--nord-red-hsl) / 0.1);
+  --background-feedback-info: hsl(var(--nord-blue-hsl) / 0.1);
+  --background-feedback-positive: hsl(var(--nord-green-hsl) / 0.1);
+  --background-feedback-warning: hsl(var(--nord-yellow-hsl) / 0.1);
+  --background-mod-faint: hsl(var(--neutral-9-hsl) / 0.45);
+  --background-mod-normal: hsl(var(--neutral-9-hsl) / 0.55);
+  --background-mod-strong: hsl(var(--neutral-9-hsl) / 0.8);
+  --background-mod-subtle: hsl(var(--neutral-9-hsl) / 0.6);
+  --border-feedback-critical: hsl(var(--nord-red-hsl) / 0.2);
+  --notice-background-critical: var(--nord-red);
+  --notice-background-info: var(--nord-blue);
+  --notice-background-positive: var(--nord-green);
+  --notice-background-warning: var(--nord-yellow);
+  --notice-text-critical: var(--white-500);
+  --notice-text-info: var(--white-500);
+  --notice-text-positive: var(--black-500);
+  --notice-text-warning: var(--black-500);
+  --text-code-addition: var(--black-500);
+  --text-code-builtin: var(--nord-cyan);
+  --text-code-bullet: var(--nord-cyan);
+  --text-code-comment: var(--neutral-40);
+  --text-code-default: var(--text-normal);
+  --text-code-deletion: var(--black-500);
+  --text-code-keyword: var(--nord-cyan);
+  --text-code-section: var(--text-normal);
+  --text-code-string: var(--nord-green);
+  --text-code-tag: var(--nord-cyan);
+  --text-code-title: var(--blurple-49);
+  --text-code-variable: var(--header-secondary);
+
+  --search-popout-date-picker-hint-value-text: var(--black-500);
+  --search-popout-date-picker-hint-value-background-hover: var(--blurple-54);
 }

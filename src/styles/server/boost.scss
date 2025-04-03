@@ -1,3 +1,14 @@
+.theme-light .root__5c9fc {
+  .closeIconWrapper__6fd0e {
+    mix-blend-mode: normal;
+  }
+
+  .closeButton_c2b141,
+  .keybind_c2b141 {
+    color: var(--neutral-8);
+  }
+}
+
 .header__6fd0e {
   background: center 15%/90% auto url(svg('server/boost/sparks.svg')) no-repeat,
     linear-gradient(
@@ -48,7 +59,7 @@
 .tierCardBoostRequirement_be48d0,
 .tierCardHeading_be48d0,
 .tierCardListItem_be48d0 {
-  color: var(--black-500) !important;
+  color: var(--neutral-2) !important;
 }
 
 .tierCardListIcon_be48d0 path[fill='var(--white)'] {
