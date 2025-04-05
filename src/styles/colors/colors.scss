@@ -33,7 +33,8 @@
   @include aliasColor('neutral-59', 'neutral-49'); /* old: primary-530 */
   @include aliasColor('neutral-60', 'neutral-49'); /* old: primary-530 */
   @include colorVars('neutral-63', hexToHSL(#424a5c)); /* old: primary-560 */
-  @include aliasColor('neutral-65', 'neutral-63');
+  @include aliasColor('neutral-64', 'neutral-66');
+  @include aliasColor('neutral-65', 'neutral-66');
   @include colorVars('neutral-66', hexToHSL(#404859));
   @include aliasColor('neutral-69', 'nord-dark2'); /*! nord color */
   @include aliasColor('neutral-70', 'neutral-69');
@@ -51,8 +52,9 @@
   @include aliasColor('neutral-99', 'neutral-97');
 
   // @include aliasColor('green-new-16', 'green-new-62'); /* old: green-230 */
-  @include aliasColor('green-new-26', 'green-new-62');
+  @include aliasColor('green-new-24', 'green-new-62');
   @include aliasColor('green-new-25', 'green-new-62'); /* old: green-300 */
+  @include aliasColor('green-new-26', 'green-new-62');
   @include aliasColor('green-new-38', 'green-new-62'); /* old: green-360 */
   @include aliasColor('green-new-44', 'green-new-62'); /* old: green-400 */
   @include aliasColor('green-new-52', 'green-new-62'); /* old: green-430 */
