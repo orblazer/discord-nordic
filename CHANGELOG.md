@@ -1,3 +1,17 @@
+## [4.11.1](https://github.com/orblazer/discord-nordic/compare/v4.11.0...v4.11.1) (2025-04-05)
+
+
+### Bug Fixes
+
+* **colors:** add missing overwrite for last update ([51de6fd](https://github.com/orblazer/discord-nordic/commit/51de6fd587a5a9aac90c987d76afafbb7fe818a4))
+
+
+### Performance Improvements
+
+* merge nord-colors and user status variables ([34bbdd3](https://github.com/orblazer/discord-nordic/commit/34bbdd3dfd3e2eb9d9ecda4bfc495684a4be5db9))
+
+
+
 # [4.11.0](https://github.com/orblazer/discord-nordic/compare/v4.10.24...v4.11.0) (2025-04-03)
 
 
