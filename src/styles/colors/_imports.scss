@@ -20,6 +20,5 @@
   --#{$name}: hsl(var(--#{$name}-hsl) / 1);
 }
 
-@import 'nord-colors.scss';
-@import 'colors.scss';
 @import 'variables.scss';
+@import 'colors.scss';
