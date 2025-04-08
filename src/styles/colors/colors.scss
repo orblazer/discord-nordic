@@ -15,10 +15,11 @@
   @include aliasColor('neutral-29', 'neutral-19');
   @include colorVars('neutral-31', hexToHSL(#7a879f));
   @include aliasColor('neutral-34', 'neutral-31');
-  @include colorVars('neutral-37', hexToHSL(#606d85));
-  @include aliasColor('neutral-38', 'neutral-37');
-  @include aliasColor('neutral-39', 'neutral-37');
-  @include aliasColor('neutral-40', 'neutral-37');
+  @include colorVars('neutral-36', hexToHSL(#606d85));
+  @include aliasColor('neutral-37', 'neutral-36');
+  @include aliasColor('neutral-38', 'neutral-36');
+  @include aliasColor('neutral-39', 'neutral-36');
+  @include aliasColor('neutral-40', 'neutral-36');
   @include aliasColor('neutral-45', 'nord-dark4'); /*! nord color */
   @include aliasColor('neutral-49', 'nord-dark3'); /*! nord color */
   @include aliasColor('neutral-59', 'neutral-49');
@@ -32,6 +33,7 @@
   @include aliasColor('neutral-71', 'neutral-69');
   @include aliasColor('neutral-72', 'nord-dark1'); /*! nord color */
   @include aliasColor('neutral-73', 'neutral-72');
+  @include aliasColor('neutral-74', 'neutral-72');
   @include colorVars('neutral-76', hexToHSL(#2b303b));
   @include aliasColor('neutral-79', 'neutral-76');
   @include colorVars('neutral-83', hexToHSL(#20242c));
