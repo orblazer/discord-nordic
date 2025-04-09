@@ -14,7 +14,7 @@
       "github": "natowb"
     }
   ],
-  "version": "4.11.1",
+  "version": "4.11.2",
   "updater": {
     "type": "github",
     "id": "orblazer/discord-nordic"

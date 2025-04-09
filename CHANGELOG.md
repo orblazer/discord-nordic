@@ -1,3 +1,13 @@
+## [4.11.2](https://github.com/orblazer/discord-nordic/compare/v4.11.1...v4.11.2) (2025-04-09)
+
+
+### Bug Fixes
+
+* **colors:** add variants for scrollbar ([3430f2f](https://github.com/orblazer/discord-nordic/commit/3430f2f98e578193850b587ad029624b6d43c6fa))
+* **colors:** use new colors for user status ([e4979e5](https://github.com/orblazer/discord-nordic/commit/e4979e5c5adc3b8e778c839161bd90f05944da41))
+
+
+
 ## [4.11.1](https://github.com/orblazer/discord-nordic/compare/v4.11.0...v4.11.1) (2025-04-05)
 
 
