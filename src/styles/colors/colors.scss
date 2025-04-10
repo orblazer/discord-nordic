@@ -44,6 +44,7 @@
   @include colorVars('neutral-97', hexToHSL(#15181e));
   @include aliasColor('neutral-99', 'neutral-97');
 
+  @include aliasColor('green-new-23', 'green-new-62');
   @include aliasColor('green-new-24', 'green-new-62');
   @include aliasColor('green-new-25', 'green-new-62');
   @include aliasColor('green-new-26', 'green-new-62');
@@ -83,6 +84,10 @@
   @include colorVars('blurple-4', hexToHSL(#d8e7e7));
   @include aliasColor('blurple-10', 'blurple-4');
   @include aliasColor('blurple-25', 'blurple-49'); /* For tabs */
+  @include aliasColor(
+    'blurple-27',
+    'blurple-49'
+  ); /* start stream popup >  "cancel" button */
   @include aliasColor('blurple-28', 'blurple-49'); /* For some links */
   @include colorVars('blurple-37', hexToHSL(#afcfce));
   @include aliasColor('blurple-44', 'blurple-37');
