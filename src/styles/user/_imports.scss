@@ -1,5 +1,5 @@
-@import '_general.scss';
-@import 'profile.scss';
-@import 'dm-channel.scss';
+@use '_general.scss';
+@use 'profile.scss';
+@use 'dm-channel.scss';
 
-@import 'settings/imports';
+@use 'settings/imports';

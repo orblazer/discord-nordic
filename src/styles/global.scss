@@ -1,3 +1,5 @@
+@use 'discord-color' as discord;
+
 ::selection {
   background-color: hsl(var(--blue-new-35-hsl) / 0.25);
 }
@@ -42,20 +44,20 @@
   rect[fill='white'] {
     fill: var(--white-500);
   }
-  path[fill^='rgba(#{$blurple-49-rgb}'] {
+  path[fill^='rgba(#{discord.$blurple-49-rgb}'] {
     fill: var(--blurple-65);
   }
-  path[fill^='rgba(#{$neutral-49-rgb}'] {
+  path[fill^='rgba(#{discord.$neutral-49-rgb}'] {
     fill: var(--neutral-45);
   }
 }
 .container__87bf1 {
   &[style*='background-color: rgb(85, 95, 196'],
-  &[style*='background-color: rgb(#{$blurple-49-rgb})'] {
+  &[style*='background-color: rgb(#{discord.$blurple-49-rgb})'] {
     background-color: var(--blurple-49) !important;
   }
   &[style*='background-color: rgb(81, 86, 134)'],
-  &[style*='background-color: rgb(#{$neutral-49-rgb})'] {
+  &[style*='background-color: rgb(#{discord.$neutral-49-rgb})'] {
     background-color: var(--neutral-40) !important;
   }
 }
@@ -69,7 +71,7 @@
   fill: var(--black-500);
 }
 
-.checkbox_f525d3.checked_f525d3[style*='background-color: rgb(#{$green-new-43-rgb})'] /** server > notification settings */ {
+.checkbox_f525d3.checked_f525d3[style*='background-color: rgb(#{discord.$green-new-43-rgb})'] /** server > notification settings */ {
   border-color: var(--nord-green) !important;
   background-color: var(--nord-green) !important;
 
@@ -77,7 +79,7 @@
     fill: var(--black-500);
   }
 }
-.checkbox_f525d3.checked_f525d3[style*='background-color: rgba(#{$green-new-43-rgb}'] /** server > notification settings */ {
+.checkbox_f525d3.checked_f525d3[style*='background-color: rgba(#{discord.$green-new-43-rgb}'] /** server > notification settings */ {
   border-color: hsl(var(--nord-green-hsl) / 0.15) !important;
   background-color: hsl(var(--nord-green-hsl) / 0.15) !important;
 }

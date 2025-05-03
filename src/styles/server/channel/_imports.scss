@@ -1,7 +1,7 @@
 // @import 'channels-roles.scss';
-@import 'text.scss';
-@import 'announcement.scss';
-@import 'forum.scss';
+@use 'text.scss';
+@use 'announcement.scss';
+@use 'forum.scss';
 
-@import 'voice.scss';
-@import 'stage.scss';
+@use 'voice.scss';
+@use 'stage.scss';

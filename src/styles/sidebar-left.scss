@@ -1,3 +1,5 @@
+@use 'discord-color' as discord;
+
 .panels_c48ade {
   background: var(--background-base-lower) !important;
 }
@@ -36,7 +38,7 @@
 /*
  ! > add server > Customize your server ('+' image)
  */
-.iconContainer__98cf7 circle[fill='#{$blurple-49-hex}' i] {
+.iconContainer__98cf7 circle[fill='#{discord.$blurple-49-hex}' i] {
   fill: var(--blurple-49);
 
   & + path[fill='white'] {
@@ -56,6 +58,7 @@
 /*
  * Typing on DM group
  */
-.container__1ce5d div[style*='background-color: rgb(#{$green-new-38-rgb})'] {
+.container__1ce5d
+  div[style*='background-color: rgb(#{discord.$green-new-38-rgb})'] {
   background-color: var(--user-status-online) !important;
 }

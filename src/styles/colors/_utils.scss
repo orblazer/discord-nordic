@@ -1,0 +1,30 @@
+@use 'sass:math';
+@use 'sass:color';
+@use 'sass:string';
+
+@function hexToHSL($color: '1') {
+  $color: color.to-space($color, hsl);
+  $hue: math.div(math.round(color.channel($color, 'hue') * 100), 100);
+  $saturation: math.div(
+    math.round(color.channel($color, 'saturation') * 100),
+    100
+  );
+  $lightness: math.div(
+    math.round(color.channel($color, 'lightness') * 100),
+    100
+  );
+
+  @return string.unquote(
+    '#{$hue} calc(var(--saturation-factor, 1) * #{$saturation}) #{$lightness}'
+  );
+}
+
+@mixin aliasColor($name, $color) {
+  --#{$name}-hsl: var(--#{$color}-hsl);
+  --#{$name}: var(--#{$color});
+}
+
+@mixin colorVars($name, $color) {
+  --#{$name}-hsl: #{$color};
+  --#{$name}: hsl(var(--#{$name}-hsl) / 1);
+}

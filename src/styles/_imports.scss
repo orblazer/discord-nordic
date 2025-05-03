@@ -1,10 +1,9 @@
-@import 'discord-color';
-@import 'colors/imports';
+@use 'colors/imports';
 
-@import 'global.scss';
-@import 'sidebar-left.scss';
-@import 'hljs.scss';
+@use 'global.scss';
+@use 'sidebar-left.scss';
+@use 'hljs.scss';
 
-@import 'user/imports';
-@import 'server/imports';
-@import 'discover.scss';
+@use 'user/imports' as user;
+@use 'server/imports' as server;
+@use 'discover.scss';

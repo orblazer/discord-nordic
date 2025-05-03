@@ -1,3 +1,5 @@
+@use 'utils';
+
 $nordColors: (
   'dark1': #2e3440,
   'dark2': #3b4252,
@@ -22,12 +24,12 @@ $nordColors: (
 
 :root {
   @each $name, $color in $nordColors {
-    @include colorVars('nord-#{$name}', hexToHSL($color));
+    @include utils.colorVars('nord-#{$name}', utils.hexToHSL($color));
   }
 
-  @include aliasColor('user-status-online', 'nord-green');
-  @include aliasColor('user-status-idle', 'nord-yellow');
-  @include aliasColor('user-status-dnd', 'nord-red');
-  @include aliasColor('user-status-invisible', 'neutral-40');
-  @include aliasColor('user-status-twitch', 'nord-pink');
+  @include utils.aliasColor('user-status-online', 'nord-green');
+  @include utils.aliasColor('user-status-idle', 'nord-yellow');
+  @include utils.aliasColor('user-status-dnd', 'nord-red');
+  @include utils.aliasColor('user-status-invisible', 'neutral-40');
+  @include utils.aliasColor('user-status-twitch', 'nord-pink');
 }

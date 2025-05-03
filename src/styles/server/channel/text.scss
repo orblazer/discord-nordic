@@ -1,3 +1,5 @@
+@use '../../discord-color' as discord;
+
 /*
  * > interaction
  */
@@ -19,7 +21,7 @@
   background-image: url(svg('server/channel/text/join.svg')) !important;
 }
 /* Reply message */
-.userJoinSystemMessageIcon_c19a55 path[fill='#{$green-new-37-hex}'] {
+.userJoinSystemMessageIcon_c19a55 path[fill='#{discord.$green-new-37-hex}'] {
   fill: var(--nord-green);
 }
 

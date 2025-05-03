@@ -2,7 +2,7 @@ import { minify } from 'csso'
 import { constants } from 'fs'
 import { access, readFile } from 'fs/promises'
 import { dirname, join, resolve } from 'path'
-import sass from 'sass'
+import * as sass from 'sass'
 import { fileURLToPath } from 'url'
 import { betterDiscord, replugged, stylus, vencord } from './output.js'
 

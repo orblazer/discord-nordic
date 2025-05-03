@@ -1,109 +1,111 @@
+@use 'utils';
+
 .visual-refresh {
-  @include colorVars('neutral-1', hexToHSL(#fcfcfd));
-  @include aliasColor('neutral-2', 'nord-light3');
-  @include aliasColor('neutral-4', 'nord-light2');
-  @include aliasColor('neutral-6', 'neutral-4');
-  @include aliasColor('neutral-8', 'nord-light1'); /*! nord color */
-  @include colorVars('neutral-9', hexToHSL(#ced6e3));
-  @include aliasColor('neutral-11', 'neutral-8');
-  @include colorVars('neutral-12', hexToHSL(#d2d6e0));
-  @include colorVars('neutral-15', hexToHSL(#b6bcc9));
-  @include colorVars('neutral-19', hexToHSL(#97a1b4));
-  @include aliasColor('neutral-22', 'neutral-19');
-  @include aliasColor('neutral-27', 'neutral-19');
-  @include aliasColor('neutral-28', 'neutral-19');
-  @include aliasColor('neutral-29', 'neutral-19');
-  @include colorVars('neutral-31', hexToHSL(#7a879f));
-  @include aliasColor('neutral-32', 'neutral-31');
-  @include aliasColor('neutral-34', 'neutral-31');
-  @include colorVars('neutral-36', hexToHSL(#606d85));
-  @include aliasColor('neutral-37', 'neutral-36');
-  @include aliasColor('neutral-38', 'neutral-36');
-  @include aliasColor('neutral-39', 'neutral-36');
-  @include aliasColor('neutral-40', 'neutral-36');
-  @include aliasColor('neutral-45', 'nord-dark4'); /*! nord color */
-  @include aliasColor('neutral-49', 'nord-dark3'); /*! nord color */
-  @include aliasColor('neutral-59', 'neutral-49');
-  @include aliasColor('neutral-60', 'neutral-49');
-  @include colorVars('neutral-63', hexToHSL(#424a5c));
-  @include aliasColor('neutral-64', 'neutral-66');
-  @include aliasColor('neutral-65', 'neutral-66');
-  @include colorVars('neutral-66', hexToHSL(#404859));
-  @include aliasColor('neutral-69', 'nord-dark2'); /*! nord color */
-  @include aliasColor('neutral-70', 'neutral-69');
-  @include aliasColor('neutral-71', 'neutral-69');
-  @include aliasColor('neutral-72', 'nord-dark1'); /*! nord color */
-  @include aliasColor('neutral-73', 'neutral-72');
-  @include aliasColor('neutral-74', 'neutral-72');
-  @include aliasColor('neutral-75', 'neutral-76');
-  @include colorVars('neutral-76', hexToHSL(#2b303b));
-  @include aliasColor('neutral-79', 'neutral-76');
-  @include colorVars('neutral-83', hexToHSL(#20242c));
-  @include aliasColor('neutral-87', 'neutral-83');
-  @include aliasColor('neutral-91', 'neutral-83');
-  @include aliasColor('neutral-92', 'neutral-83');
-  @include aliasColor('neutral-95', 'neutral-83');
-  @include colorVars('neutral-97', hexToHSL(#15181e));
-  @include aliasColor('neutral-99', 'neutral-97');
+  @include utils.colorVars('neutral-1', utils.hexToHSL(#fcfcfd));
+  @include utils.aliasColor('neutral-2', 'nord-light3');
+  @include utils.aliasColor('neutral-4', 'nord-light2');
+  @include utils.aliasColor('neutral-6', 'neutral-4');
+  @include utils.aliasColor('neutral-8', 'nord-light1'); /*! nord color */
+  @include utils.colorVars('neutral-9', utils.hexToHSL(#ced6e3));
+  @include utils.aliasColor('neutral-11', 'neutral-8');
+  @include utils.colorVars('neutral-12', utils.hexToHSL(#d2d6e0));
+  @include utils.colorVars('neutral-15', utils.hexToHSL(#b6bcc9));
+  @include utils.colorVars('neutral-19', utils.hexToHSL(#97a1b4));
+  @include utils.aliasColor('neutral-22', 'neutral-19');
+  @include utils.aliasColor('neutral-27', 'neutral-19');
+  @include utils.aliasColor('neutral-28', 'neutral-19');
+  @include utils.aliasColor('neutral-29', 'neutral-19');
+  @include utils.colorVars('neutral-31', utils.hexToHSL(#7a879f));
+  @include utils.aliasColor('neutral-32', 'neutral-31');
+  @include utils.aliasColor('neutral-34', 'neutral-31');
+  @include utils.colorVars('neutral-36', utils.hexToHSL(#606d85));
+  @include utils.aliasColor('neutral-37', 'neutral-36');
+  @include utils.aliasColor('neutral-38', 'neutral-36');
+  @include utils.aliasColor('neutral-39', 'neutral-36');
+  @include utils.aliasColor('neutral-40', 'neutral-36');
+  @include utils.aliasColor('neutral-45', 'nord-dark4'); /*! nord color */
+  @include utils.aliasColor('neutral-49', 'nord-dark3'); /*! nord color */
+  @include utils.aliasColor('neutral-59', 'neutral-49');
+  @include utils.aliasColor('neutral-60', 'neutral-49');
+  @include utils.colorVars('neutral-63', utils.hexToHSL(#424a5c));
+  @include utils.aliasColor('neutral-64', 'neutral-66');
+  @include utils.aliasColor('neutral-65', 'neutral-66');
+  @include utils.colorVars('neutral-66', utils.hexToHSL(#404859));
+  @include utils.aliasColor('neutral-69', 'nord-dark2'); /*! nord color */
+  @include utils.aliasColor('neutral-70', 'neutral-69');
+  @include utils.aliasColor('neutral-71', 'neutral-69');
+  @include utils.aliasColor('neutral-72', 'nord-dark1'); /*! nord color */
+  @include utils.aliasColor('neutral-73', 'neutral-72');
+  @include utils.aliasColor('neutral-74', 'neutral-72');
+  @include utils.aliasColor('neutral-75', 'neutral-76');
+  @include utils.colorVars('neutral-76', utils.hexToHSL(#2b303b));
+  @include utils.aliasColor('neutral-79', 'neutral-76');
+  @include utils.colorVars('neutral-83', utils.hexToHSL(#20242c));
+  @include utils.aliasColor('neutral-87', 'neutral-83');
+  @include utils.aliasColor('neutral-91', 'neutral-83');
+  @include utils.aliasColor('neutral-92', 'neutral-83');
+  @include utils.aliasColor('neutral-95', 'neutral-83');
+  @include utils.colorVars('neutral-97', utils.hexToHSL(#15181e));
+  @include utils.aliasColor('neutral-99', 'neutral-97');
 
-  @include aliasColor('green-new-23', 'green-new-62');
-  @include aliasColor('green-new-24', 'green-new-62');
-  @include aliasColor('green-new-25', 'green-new-62');
-  @include aliasColor('green-new-26', 'green-new-62');
-  @include aliasColor('green-new-38', 'green-new-62');
-  @include aliasColor('green-new-44', 'green-new-62');
-  @include aliasColor('green-new-52', 'green-new-62');
-  @include aliasColor('green-new-62', 'nord-green'); /*! nord color */
-  @include aliasColor('green-new-55', 'green-new-62');
-  @include aliasColor('green-new-77', 'green-new-62');
-  @include colorVars('green-new-87', hexToHSL(#93ac7e));
-  @include colorVars('green-new-91', hexToHSL(#82996f));
+  @include utils.aliasColor('green-new-23', 'green-new-62');
+  @include utils.aliasColor('green-new-24', 'green-new-62');
+  @include utils.aliasColor('green-new-25', 'green-new-62');
+  @include utils.aliasColor('green-new-26', 'green-new-62');
+  @include utils.aliasColor('green-new-38', 'green-new-62');
+  @include utils.aliasColor('green-new-44', 'green-new-62');
+  @include utils.aliasColor('green-new-52', 'green-new-62');
+  @include utils.aliasColor('green-new-62', 'nord-green'); /*! nord color */
+  @include utils.aliasColor('green-new-55', 'green-new-62');
+  @include utils.aliasColor('green-new-77', 'green-new-62');
+  @include utils.colorVars('green-new-87', utils.hexToHSL(#93ac7e));
+  @include utils.colorVars('green-new-91', utils.hexToHSL(#82996f));
 
-  @include aliasColor('red-new-23', 'red-new-61');
-  @include aliasColor('red-new-29', 'red-new-61');
-  @include aliasColor('red-new-38', 'red-new-61');
-  @include aliasColor('red-new-45', 'red-new-61');
-  @include aliasColor('red-new-47', 'red-new-61');
-  @include aliasColor('red-new-61', 'nord-red'); /*! nord color */
-  @include colorVars('red-new-70', hexToHSL(#ac5861));
-  @include colorVars('red-new-78', hexToHSL(#975056));
+  @include utils.aliasColor('red-new-23', 'red-new-61');
+  @include utils.aliasColor('red-new-29', 'red-new-61');
+  @include utils.aliasColor('red-new-38', 'red-new-61');
+  @include utils.aliasColor('red-new-45', 'red-new-61');
+  @include utils.aliasColor('red-new-47', 'red-new-61');
+  @include utils.aliasColor('red-new-61', 'nord-red'); /*! nord color */
+  @include utils.colorVars('red-new-70', utils.hexToHSL(#ac5861));
+  @include utils.colorVars('red-new-78', utils.hexToHSL(#975056));
 
-  @include aliasColor('yellow-new-24', 'yellow-new-57');
-  @include aliasColor('yellow-new-28', 'yellow-new-57');
-  @include aliasColor('yellow-new-39', 'yellow-new-57');
-  @include aliasColor('yellow-new-54', 'yellow-new-57');
-  @include aliasColor('yellow-new-57', 'nord-yellow'); /*! nord color */
+  @include utils.aliasColor('yellow-new-24', 'yellow-new-57');
+  @include utils.aliasColor('yellow-new-28', 'yellow-new-57');
+  @include utils.aliasColor('yellow-new-39', 'yellow-new-57');
+  @include utils.aliasColor('yellow-new-54', 'yellow-new-57');
+  @include utils.aliasColor('yellow-new-57', 'nord-yellow'); /*! nord color */
 
-  @include aliasColor('orange-new-63', 'nord-orange'); /*! nord color */
+  @include utils.aliasColor('orange-new-63', 'nord-orange'); /*! nord color */
 
-  @include aliasColor('white-500', 'nord-light2'); /*! nord color */
-  @include aliasColor('black-500', 'neutral-79'); /*! nord color */
+  @include utils.aliasColor('white-500', 'nord-light2'); /*! nord color */
+  @include utils.aliasColor('black-500', 'neutral-79'); /*! nord color */
 
-  @include aliasColor('blue-new-31', 'nord-blue'); /*! nord color */
-  @include colorVars('blue-new-35', hexToHSL(#4c91e6));
+  @include utils.aliasColor('blue-new-31', 'nord-blue'); /*! nord color */
+  @include utils.colorVars('blue-new-35', utils.hexToHSL(#4c91e6));
 
-  @include colorVars('blurple-1', hexToHSL(#f0f4f4));
-  @include colorVars('blurple-4', hexToHSL(#d8e7e7));
-  @include aliasColor('blurple-10', 'blurple-4');
-  @include aliasColor('blurple-25', 'blurple-49'); /* For tabs */
-  @include aliasColor(
+  @include utils.colorVars('blurple-1', utils.hexToHSL(#f0f4f4));
+  @include utils.colorVars('blurple-4', utils.hexToHSL(#d8e7e7));
+  @include utils.aliasColor('blurple-10', 'blurple-4');
+  @include utils.aliasColor('blurple-25', 'blurple-49'); /* For tabs */
+  @include utils.aliasColor(
     'blurple-26',
     'blurple-49'
   ); /* For "--text-brand" variable */
-  @include aliasColor(
+  @include utils.aliasColor(
     'blurple-27',
     'blurple-49'
   ); /* start stream popup >  "cancel" button */
-  @include aliasColor('blurple-28', 'blurple-49'); /* For some links */
-  @include colorVars('blurple-37', hexToHSL(#afcfce));
-  @include aliasColor('blurple-44', 'blurple-37');
-  @include aliasColor('blurple-49', 'nord-green-blue'); /*! nord color */
-  @include aliasColor('blurple-50', 'blurple-49');
-  @include colorVars('blurple-54', hexToHSL(#7da8a8));
-  @include aliasColor('blurple-59', 'blurple-54');
-  @include colorVars('blurple-65', hexToHSL(#709494));
-  @include aliasColor('blurple-70', 'blurple-87');
-  @include colorVars('blurple-87', hexToHSL(#4d6666));
+  @include utils.aliasColor('blurple-28', 'blurple-49'); /* For some links */
+  @include utils.colorVars('blurple-37', utils.hexToHSL(#afcfce));
+  @include utils.aliasColor('blurple-44', 'blurple-37');
+  @include utils.aliasColor('blurple-49', 'nord-green-blue'); /*! nord color */
+  @include utils.aliasColor('blurple-50', 'blurple-49');
+  @include utils.colorVars('blurple-54', utils.hexToHSL(#7da8a8));
+  @include utils.aliasColor('blurple-59', 'blurple-54');
+  @include utils.colorVars('blurple-65', utils.hexToHSL(#709494));
+  @include utils.aliasColor('blurple-70', 'blurple-87');
+  @include utils.colorVars('blurple-87', utils.hexToHSL(#4d6666));
 
   --opacity-blurple-8: var(
     --opacity-blurple-16
@@ -114,9 +116,9 @@
   --opacity-blurple-24: hsl(var(--blurple-49-hsl) / 0.2);
   --opacity-blurple-32: hsl(var(--blurple-49-hsl) / 0.2);
 
-  @include aliasColor('twitch', 'nord-pink');
-  @include colorVars('twitch-secondary', hexToHSL(#a3759b));
-  @include aliasColor('partner', 'nord-blue');
+  @include utils.aliasColor('twitch', 'nord-pink');
+  @include utils.colorVars('twitch-secondary', utils.hexToHSL(#a3759b));
+  @include utils.aliasColor('partner', 'nord-blue');
 
   --status-positive: var(--nord-green);
   --status-danger: var(--nord-red);
@@ -137,16 +139,16 @@
   --premium-tier-2-pink-for-gradients: var(--nord-pink);
   --premium-tier-2-purple-for-gradients-2: var(--nord-pink);
   --custom-premium-colors-premium-gradient-tier-2-diagonal: var(--nord-pink);
-  @include aliasColor('premium-tier-2-purple', 'nord-pink');
-  @include aliasColor('premium-tier-2-pink', 'nord-pink');
-  @include aliasColor('premium-perk-blue', 'nord-blue');
-  @include aliasColor('premium-perk-dark-blue', 'blue-new-35');
-  @include aliasColor('premium-perk-green', 'nord-turquoise');
-  @include aliasColor('premium-perk-light-blue', 'nord-cyan');
-  @include aliasColor('premium-perk-orange', 'nord-orange');
-  @include aliasColor('premium-perk-pink', 'nord-pink');
-  @include aliasColor('premium-perk-purple', 'nord-pink');
-  @include aliasColor('premium-perk-yellow', 'nord-yellow');
+  @include utils.aliasColor('premium-tier-2-purple', 'nord-pink');
+  @include utils.aliasColor('premium-tier-2-pink', 'nord-pink');
+  @include utils.aliasColor('premium-perk-blue', 'nord-blue');
+  @include utils.aliasColor('premium-perk-dark-blue', 'blue-new-35');
+  @include utils.aliasColor('premium-perk-green', 'nord-turquoise');
+  @include utils.aliasColor('premium-perk-light-blue', 'nord-cyan');
+  @include utils.aliasColor('premium-perk-orange', 'nord-orange');
+  @include utils.aliasColor('premium-perk-pink', 'nord-pink');
+  @include utils.aliasColor('premium-perk-purple', 'nord-pink');
+  @include utils.aliasColor('premium-perk-yellow', 'nord-yellow');
 }
 
 .visual-refresh.theme-dark,

@@ -1,3 +1,5 @@
+@use '../discord-color' as discord;
+
 .badge__8061a {
   &[src*='/6bdc42827a38498929a4920da12695d9.png'] {
     content: url(svg('user/profile/badge-active-developer.svg'));
@@ -50,19 +52,19 @@
  ! Server > members list
  */
 .mask__44b0c {
-  rect[fill='#{$green-new-38-hex}'] {
+  rect[fill='#{discord.$green-new-38-hex}'] {
     fill: var(--user-status-online);
   }
-  rect[fill='#{$yellow-new-30-hex}'] {
+  rect[fill='#{discord.$yellow-new-30-hex}'] {
     fill: var(--user-status-idle);
   }
-  rect[fill='#{$red-new-46-hex}'] {
+  rect[fill='#{discord.$red-new-46-hex}'] {
     fill: var(--user-status-dnd);
   }
-  rect[fill='#{$twitch-hex}'] /* (not on DM title bar) */ {
+  rect[fill='#{discord.$twitch-hex}'] /* (not on DM title bar) */ {
     fill: var(--user-status-twitch);
   }
-  rect[fill='#{$neutral-34-hex}'] {
+  rect[fill='#{discord.$neutral-34-hex}'] {
     fill: var(--user-status-invisible);
   }
 }
@@ -71,16 +73,16 @@
  * User popup (sidebar left) > status (online, dnd, etc)
  */
 .status_a423bd {
-  &[style='background-color: rgb(#{$green-new-38-rgb});'] {
+  &[style='background-color: rgb(#{discord.$green-new-38-rgb});'] {
     background-color: var(--user-status-online) !important;
   }
-  &[style='background-color: rgb(#{$yellow-new-30-rgb});'] {
+  &[style='background-color: rgb(#{discord.$yellow-new-30-rgb});'] {
     background-color: var(--user-status-idle) !important;
   }
-  &[style='background-color: rgb(#{$red-new-46-rgb});'] {
+  &[style='background-color: rgb(#{discord.$red-new-46-rgb});'] {
     background-color: var(--user-status-dnd) !important;
   }
-  &[style='background-color: rgb(#{$neutral-34-rgb});'] {
+  &[style='background-color: rgb(#{discord.$neutral-34-rgb});'] {
     background-color: var(--user-status-invisible) !important;
   }
 }
@@ -88,6 +90,6 @@
 /*
  * Activity icon (in user list)
  */
-.icon_c9d15c path[fill='#{$green-new-38-hex}'] {
+.icon_c9d15c path[fill='#{discord.$green-new-38-hex}'] {
   fill: var(--nord-green);
 }

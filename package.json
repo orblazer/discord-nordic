@@ -13,7 +13,7 @@
   "main": "scripts/build.js",
   "type": "module",
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "build": "node src/scripts/build.js && replugged build theme",
     "replugged:bundle": "replugged bundle theme",
     "lint": "eslint",
@@ -24,21 +24,21 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "^16.0.2",
-    "@commitlint/config-conventional": "^16.0.0",
-    "@types/csso": "^5.0.0",
-    "@types/node": "^18.11.9",
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "@eslint/js": "^9.26.0",
+    "@types/csso": "^5.0.4",
+    "@types/node": "^22.15.3",
     "conventional-changelog-cli": "^5.0.0",
     "csso": "^5.0.5",
-    "eslint": "^8.6.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.25.4",
+    "eslint": "^9.26.0",
+    "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "husky": "^7.0.4",
-    "replugged": "^4.7.9",
-    "sass": "^1.56.1"
+    "eslint-plugin-prettier": "^5.2.6",
+    "globals": "^16.0.0",
+    "husky": "^9.1.7",
+    "neostandard": "^0.12.1",
+    "replugged": "^4.9.1",
+    "sass": "^1.87.0"
   }
 }

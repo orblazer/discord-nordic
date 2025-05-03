@@ -1,5 +1,5 @@
-@import 'general';
-@import 'boost.scss';
+@use 'general';
+@use 'boost.scss';
 
-@import 'settings/imports';
-@import 'channel/imports';
+@use 'settings/imports';
+@use 'channel/imports' as channel;
