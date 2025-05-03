@@ -3,12 +3,14 @@
  */
 .newChannel__599fa, /* Sidebar left > new channel tag */
 .newBadgeText__29021, /* Event (popup) */
-.title__0396e .textBadge__2b1f5[style="background-color: var(--bg-brand);"], /* Event (popup) > Create new (step 2) */
+.title__0396e .textBadge__2b1f5[style="background-color: var(--bg-brand)"], /* Event (popup) > Create new (step 2) */
 .newBadge__270d7, /* Browse Channels (navbar) */ // ? Not sure
 .titleBadge_e4503a, /* Browse Channels */
 .newBadge__5d7c9, /* Channels & Roles > Customise */
-.textBadge__2b1f5[style*='background-color: var(--bg-brand);'] /* ! Context menu */ {
-  color: var(--brand-900);
+.textBadge__2b1f5[style*='background-color: var(--bg-brand)'], /* ! Context menu */
+.newBadge_faa96b[style*='background-color: var(--brand-260)'], /* ! Forum (list)  */
+.newBadge__9a337[style*='background-color: var(--brand-260)'] /* ! Forum (gallery)  */ {
+  color: var(--black-500);
 }
 
 /*
