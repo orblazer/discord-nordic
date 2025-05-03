@@ -85,6 +85,10 @@
   @include aliasColor('blurple-10', 'blurple-4');
   @include aliasColor('blurple-25', 'blurple-49'); /* For tabs */
   @include aliasColor(
+    'blurple-26',
+    'blurple-49'
+  ); /* For "--text-brand" variable */
+  @include aliasColor(
     'blurple-27',
     'blurple-49'
   ); /* start stream popup >  "cancel" button */
