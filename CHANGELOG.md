@@ -1,3 +1,18 @@
+## [4.11.3](https://github.com/orblazer/discord-nordic/compare/v4.11.2...v4.11.3) (2025-05-03)
+
+
+### Bug Fixes
+
+* **colors:** add variant for input placeholder ([798b4f1](https://github.com/orblazer/discord-nordic/commit/798b4f184c0b9edc415810fc8477114deefc327a))
+* **colors:** add variant for text-brand color ([90621f7](https://github.com/orblazer/discord-nordic/commit/90621f76e54a79b92287e862f1c8bb28d36ec0a0))
+* **colors:** add variants for stream and activity buttons ([fa3d458](https://github.com/orblazer/discord-nordic/commit/fa3d4584d6fe7c937298286f7c9ece659749d072))
+* **colors:** use new colors for user status ([2480920](https://github.com/orblazer/discord-nordic/commit/2480920d9e13fb0d0f339c3f8ed3538e9a264647))
+* **server:** colorize empty roles page ([77ef60b](https://github.com/orblazer/discord-nordic/commit/77ef60bf612e937a1b543a46ff50a44a98c0382f))
+* **server:** colorize forum new tag and use right color for other ([a58a5cc](https://github.com/orblazer/discord-nordic/commit/a58a5cc11e9298cec6d997f3c534893135e43849))
+* **server:** use black text for view as role bar ([cd91c76](https://github.com/orblazer/discord-nordic/commit/cd91c7698e92323b918445590350013a4b9a34fd))
+
+
+
 ## [4.11.2](https://github.com/orblazer/discord-nordic/compare/v4.11.1...v4.11.2) (2025-04-09)
 
 
