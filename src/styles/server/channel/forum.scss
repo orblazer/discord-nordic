@@ -4,12 +4,16 @@
 
 .stars__93db4,
 .emptyStateStars__7641b, /* + empty forum  */
+.emptyIcon__5d7c9, /* ! + empty "Channel & role" (when server not joined, from discover)  */
 .stars_d404a3 /* ! + inbox */ {
   path[fill='#ADF3FF'] {
     fill: var(--nord-cyan);
   }
   path[fill='#FFD01A'] {
     fill: var(--nord-yellow);
+  }
+  path[fill='#58F287'] {
+    fill: var(--nord-green);
   }
 }
 
