@@ -1,3 +1,13 @@
+## [4.11.4](https://github.com/orblazer/discord-nordic/compare/v4.11.3...v4.11.4) (2025-05-30)
+
+
+### Bug Fixes
+
+* **global:** colorize some get nitro buttons ([ecd4714](https://github.com/orblazer/discord-nordic/commit/ecd47145e9ed16596b8e8e2295891891249c0f4d))
+* **sidebar:** right colorize share screen button ([22d6b98](https://github.com/orblazer/discord-nordic/commit/22d6b98bf0487b2775bace261644d535cd5d0649))
+
+
+
 ## [4.11.3](https://github.com/orblazer/discord-nordic/compare/v4.11.2...v4.11.3) (2025-05-03)
 
 
