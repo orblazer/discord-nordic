@@ -85,7 +85,7 @@
 }
 
 /*
- * Buttons with brand or green background
+ * Buttons with brand, green ot nitro background
  */
 .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf:not([aria-selected=true]), /* DM ("add friend" btn) */
 .lookFilled__201d5.colorGreen__201d5, /** user settings > profiles + actions button */
@@ -98,6 +98,10 @@
 
 .button_c50183 .text-md\/medium_cf4812[style*='color: white'], /* user settings > gift inventory ("view quests" btn) */
 .lookFilled__201d5.colorGreen__201d5 .text-sm\/medium_cf4812[style*='color: var(--text-normal)'] /* server settings > onboarding > server guide */ {
+  color: var(--black-500) !important;
+}
+
+.tier2Gradient_e00877 /* "get nitro" buttons */ {
   color: var(--black-500) !important;
 }
 
