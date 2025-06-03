@@ -1,3 +1,12 @@
+## [4.11.5](https://github.com/orblazer/discord-nordic/compare/v4.11.4...v4.11.5) (2025-06-03)
+
+
+### Bug Fixes
+
+* **sidebar:** right colorize share screen button again ([acdc881](https://github.com/orblazer/discord-nordic/commit/acdc88190fed076bbfe2f5fdfe692a1981798768))
+
+
+
 ## [4.11.4](https://github.com/orblazer/discord-nordic/compare/v4.11.3...v4.11.4) (2025-05-30)
 
 
