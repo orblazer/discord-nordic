@@ -1,3 +1,12 @@
+## [4.11.6](https://github.com/orblazer/discord-nordic/compare/v4.11.5...v4.11.6) (2025-07-20)
+
+
+### Bug Fixes
+
+* right colorize most buttons ([b4d9db3](https://github.com/orblazer/discord-nordic/commit/b4d9db3b35343452e34e5fc34d05c62c5ff4adff))
+
+
+
 ## [4.11.5](https://github.com/orblazer/discord-nordic/compare/v4.11.4...v4.11.5) (2025-06-03)
 
 
