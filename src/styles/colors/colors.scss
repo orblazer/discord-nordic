@@ -54,6 +54,7 @@
   @include utils.aliasColor('green-new-26', 'green-new-62');
   @include utils.aliasColor('green-new-38', 'green-new-62');
   @include utils.aliasColor('green-new-44', 'green-new-62');
+  @include utils.aliasColor('green-new-50', 'green-new-62');
   @include utils.aliasColor('green-new-52', 'green-new-62');
   @include utils.aliasColor('green-new-62', 'nord-green'); /*! nord color */
   @include utils.aliasColor('green-new-55', 'green-new-62');
@@ -65,6 +66,7 @@
   @include utils.aliasColor('red-new-29', 'red-new-61');
   @include utils.aliasColor('red-new-38', 'red-new-61');
   @include utils.aliasColor('red-new-45', 'red-new-61');
+  @include utils.aliasColor('red-new-50', 'red-new-61');
   @include utils.aliasColor('red-new-47', 'red-new-61');
   @include utils.aliasColor('red-new-61', 'nord-red'); /*! nord color */
   @include utils.colorVars('red-new-70', utils.hexToHSL(#ac5861));
@@ -103,6 +105,7 @@
   @include utils.aliasColor('blurple-50', 'blurple-49');
   @include utils.colorVars('blurple-54', utils.hexToHSL(#7da8a8));
   @include utils.aliasColor('blurple-59', 'blurple-54');
+  @include utils.aliasColor('blurple-60', 'blurple-54');
   @include utils.colorVars('blurple-65', utils.hexToHSL(#709494));
   @include utils.aliasColor('blurple-70', 'blurple-87');
   @include utils.colorVars('blurple-87', utils.hexToHSL(#4d6666));
@@ -122,6 +125,17 @@
 
   --status-positive: var(--nord-green);
   --status-danger: var(--nord-red);
+
+  --control-text-active-default: var(--black-500);
+  --control-text-active-hover: var(--black-500);
+  --control-background-active-hover: var(--green-new-87);
+  --control-text-active-active: var(--neutral-8);
+  --control-background-active-active: var(--green-new-91);
+  --control-text-primary-default: var(--black-500);
+  --control-text-primary-hover: var(--black-500);
+  --control-text-primary-active: var(--neutral-4);
+  --control-background-critical-primary-hover: var(--red-new-70);
+  --control-background-critical-primary-active: var(--red-new-78);
 
   --guild-boosting-blue: var(--nord-blue);
   --guild-boosting-blue-for-gradients: var(--nord-blue);
