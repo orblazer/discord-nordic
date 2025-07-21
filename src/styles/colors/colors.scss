@@ -126,17 +126,6 @@
   --status-positive: var(--nord-green);
   --status-danger: var(--nord-red);
 
-  --control-text-active-default: var(--black-500);
-  --control-text-active-hover: var(--black-500);
-  --control-background-active-hover: var(--green-new-87);
-  --control-text-active-active: var(--neutral-8);
-  --control-background-active-active: var(--green-new-91);
-  --control-text-primary-default: var(--black-500);
-  --control-text-primary-hover: var(--black-500);
-  --control-text-primary-active: var(--neutral-4);
-  --control-background-critical-primary-hover: var(--red-new-70);
-  --control-background-critical-primary-active: var(--red-new-78);
-
   --guild-boosting-blue: var(--nord-blue);
   --guild-boosting-blue-for-gradients: var(--nord-blue);
   --guild-boosting-purple: var(--nord-pink);
@@ -182,6 +171,17 @@
   --button-positive-background-disabled: var(--nord-green);
   --button-positive-background-hover: var(--green-new-87);
   --button-positive-border: hsl(var(--nord-green-hsl) / 0.08);
+
+  --control-text-active-default: var(--black-500);
+  --control-text-active-hover: var(--black-500);
+  --control-background-active-hover: var(--green-new-87);
+  --control-text-active-active: var(--neutral-8);
+  --control-background-active-active: var(--green-new-91);
+  --control-text-primary-default: var(--black-500);
+  --control-text-primary-hover: var(--black-500);
+  --control-text-primary-active: var(--neutral-4);
+  --control-background-critical-primary-hover: var(--red-new-70);
+  --control-background-critical-primary-active: var(--red-new-78);
 }
 
 .visual-refresh.theme-dark,
