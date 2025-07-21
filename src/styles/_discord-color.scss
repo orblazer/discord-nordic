@@ -6,6 +6,7 @@ $blurple-28-hex: #949cf7;
 $blurple-49-rgb: 88, 101, 242;
 $blurple-49-hex: #5865f2;
 
+$green-new-25-hex: #75c383;
 $green-new-43-rgb: 35, 165, 90;
 $green-new-37-hex: #3ba55c;
 $green-new-38-rgb: 67, 162, 90;
@@ -24,5 +25,4 @@ $twitch-hex: #9147ff;
 // TODO: Bellow is OLD theme (need to be replaced)
 $primary-400: hsl(223, calc(var(--saturation-factor, 1) * 5.8%), 52.9%);
 $white-500: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
-$green-330-hex: #2dc771;
 $brand-500: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);
