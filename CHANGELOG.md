@@ -1,3 +1,14 @@
+## [4.11.7](https://github.com/orblazer/discord-nordic/compare/v4.11.6...v4.11.7) (2025-07-25)
+
+
+### Bug Fixes
+
+* **colors:** correctly apply buttons colors ([559e278](https://github.com/orblazer/discord-nordic/commit/559e2787e89b21026990b4faa7a6ba7c1b177c63))
+* **server:** apply color on new boost goal ([1ef56fb](https://github.com/orblazer/discord-nordic/commit/1ef56fb2735a77121410e00d4d9bd7b45d170495))
+* **server:** right colorize event icon ([aa1ab0d](https://github.com/orblazer/discord-nordic/commit/aa1ab0d8714334901ad793ff52641a1de11927e8))
+
+
+
 ## [4.11.6](https://github.com/orblazer/discord-nordic/compare/v4.11.5...v4.11.6) (2025-07-20)
 
 
