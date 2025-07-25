@@ -24,21 +24,21 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "^19.8.0",
-    "@commitlint/config-conventional": "^19.8.0",
-    "@eslint/js": "^9.26.0",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@eslint/js": "^9.32.0",
     "@types/csso": "^5.0.4",
-    "@types/node": "^22.15.3",
+    "@types/node": "^24.1.0",
     "conventional-changelog-cli": "^5.0.0",
     "csso": "^5.0.5",
-    "eslint": "^9.26.0",
-    "eslint-config-prettier": "^10.1.2",
+    "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^5.2.6",
-    "globals": "^16.0.0",
+    "eslint-plugin-prettier": "^5.5.3",
+    "globals": "^16.3.0",
     "husky": "^9.1.7",
-    "neostandard": "^0.12.1",
-    "replugged": "^4.9.1",
-    "sass": "^1.87.0"
+    "neostandard": "^0.12.2",
+    "replugged": "^4.10.0",
+    "sass": "^1.89.2"
   }
 }
