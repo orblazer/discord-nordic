@@ -132,3 +132,27 @@
     color: currentColor !important;
   }
 }
+
+/*
+ * "Boost goal" bar
+ */
+.progress__0d0f9 {
+  background: linear-gradient(
+    270deg,
+    hsl(var(--nord-pink-hsl) / 0.7),
+    hsl(var(--neutral-45-hsl) / 0.1)
+  );
+}
+.container__0d0f9:hover .progress__0d0f9 {
+  background: linear-gradient(
+    270deg,
+    var(--nord-pink),
+    hsl(var(--neutral-45-hsl) / 0.25)
+  );
+}
+.theme-dark .text__0d0f9 {
+  color: var(--white-500);
+}
+.boostCountText__0d0f9 {
+  opacity: 0.8;
+}
