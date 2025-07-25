@@ -16,20 +16,22 @@ jobs:
       - name: Check out Git repository
         uses: actions/checkout@v2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+          run_install: false
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: "pnpm"
 
-      - uses: mskelton/setup-yarn@v1
-        with:
-          version: latest
-
-      - name: Install Node.js dependencies
-        run: yarn install
+      - name: Install dependencies
+        run: pnpm install
 
       - name: Build TypeScript and bundle into asar
-        run: yarn run replugged:bundle
+        run: pnpm run replugged:bundle
 
       - uses: ncipollo/release-action@v1
         with:
