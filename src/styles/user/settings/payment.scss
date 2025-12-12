@@ -1,18 +1,12 @@
 /*
  * > nitro
  */
-.giftButton_b322b1:hover:not(:active) {
-  color: var(--black-500) !important;
-}
-
-.subButton__81281, .subButtonText_ac86f6, .subButton__70f7f, .v2SubButtonText_ac86f6, /* ("subscribe" button) */
-.upsellButton_c0eeaa /*! server settings > stickers */ {
+.subButton__81281, .subButtonText_ac86f6, .subButton__70f7f /*, .v2SubButtonText_ac86f6, */ /* ("subscribe" button) */ {
   color: var(--blurple-87) !important;
 }
 
 // Tier blocks
 .premiumCards_ac86f6,
-.tier2MarketingCard__9e160, /*  ("subscribe" button clicked) */
 .tier0Card__176c7 /* !+ server settings > server boost status */ {
   .pricePerInterval_fd0764[style*='color: white'],
   .text-md\/normal_cf4812[style*='color: white'] {
@@ -22,16 +16,6 @@
 /* !+ server settings > server boost status */
 .tier2_ac86f6 {
   color: var(--neutral-76);
-}
-
-/* "Gift nitro" button */
-.buttonWhite_b322b1 {
-  color: var(--white-500) !important;
-  border-color: var(--white-500) !important;
-}
-.buttonBrand_b322b1 {
-  color: var(--blurple-65) !important;
-  border-color: var(--blurple-65) !important;
 }
 
 /*
@@ -45,8 +29,16 @@
  * >> subscribe (popup)
  ! Get nitro
  */
+.card__6df1a .pillGradient_e7b36e {
+  background: var(--nord-pink);
+
+  & > .pillText_e7b36e {
+    color: var(--neutral-76) !important;
+  }
+}
+
 .planOptionDiscount_b13085[style*='color: white'] {
-  color: var(--black-500) !important;
+  color: var(--neutral-76) !important;
 }
 
 /*
@@ -54,5 +46,5 @@
  */
 .noItemsIcon_e335a7,
 .noItemsIcon__70151 {
-  background: var(--neutral-45-hsl) !important;
+  background: var(--background-base-low) !important;
 }

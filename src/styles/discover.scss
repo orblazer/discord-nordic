@@ -19,7 +19,7 @@
  * > App
  */
 .headerSuccess_b76614 /* "Add App" popup */ {
-  background-image: url(svg('server/app-directory/success.svg'));
+  background-image: url(svg('discover/app/success.svg'));
 }
 
 /*
@@ -34,19 +34,4 @@
  */
 .iconContainer_a76561 path[fill='var(--white)'] {
   fill: var(--black-500);
-}
-.icon_c1298c /* ("Join Hub" popup) */ {
-  background-image: url(svg('discover/hub.svg'));
-}
-
-/*
- * > Quests
- */
-.darkThemeGradient_b5b7aa {
-  background: linear-gradient(
-    0deg,
-    var(--neutral-76) 0,
-    hsl(var(--neutral-76-hsl) / 0.95) 20.31%,
-    hsl(var(--neutral-76-hsl) / 0)
-  );
 }

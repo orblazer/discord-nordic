@@ -27,6 +27,7 @@
   @include utils.aliasColor('neutral-49', 'nord-dark3'); /*! nord color */
   @include utils.aliasColor('neutral-59', 'neutral-49');
   @include utils.aliasColor('neutral-60', 'neutral-49');
+  @include utils.aliasColor('neutral-62', 'neutral-66');
   @include utils.colorVars('neutral-63', utils.hexToHSL(#424a5c));
   @include utils.aliasColor('neutral-64', 'neutral-66');
   @include utils.aliasColor('neutral-65', 'neutral-66');
@@ -41,6 +42,7 @@
   @include utils.colorVars('neutral-76', utils.hexToHSL(#2b303b));
   @include utils.aliasColor('neutral-79', 'neutral-76');
   @include utils.colorVars('neutral-83', utils.hexToHSL(#20242c));
+  @include utils.aliasColor('neutral-84', 'neutral-83');
   @include utils.aliasColor('neutral-87', 'neutral-83');
   @include utils.aliasColor('neutral-91', 'neutral-83');
   @include utils.aliasColor('neutral-92', 'neutral-83');
@@ -48,17 +50,29 @@
   @include utils.colorVars('neutral-97', utils.hexToHSL(#15181e));
   @include utils.aliasColor('neutral-99', 'neutral-97');
 
-  @include utils.aliasColor('green-new-23', 'green-new-62');
-  @include utils.aliasColor('green-new-24', 'green-new-62');
-  @include utils.aliasColor('green-new-25', 'green-new-62');
-  @include utils.aliasColor('green-new-26', 'green-new-62');
-  @include utils.aliasColor('green-new-38', 'green-new-62');
-  @include utils.aliasColor('green-new-44', 'green-new-62');
-  @include utils.aliasColor('green-new-50', 'green-new-62');
-  @include utils.aliasColor('green-new-52', 'green-new-62');
-  @include utils.aliasColor('green-new-62', 'nord-green'); /*! nord color */
-  @include utils.aliasColor('green-new-55', 'green-new-62');
-  @include utils.aliasColor('green-new-77', 'green-new-62');
+  @include utils.aliasColor('white-500', 'nord-light2'); /*! nord color */
+  @include utils.aliasColor('black-500', 'neutral-79'); /*! nord color */
+
+  @include utils.aliasColor('green-new-23', 'green-new-61');
+  @include utils.aliasColor('green-new-24', 'green-new-61');
+  @include utils.aliasColor('green-new-25', 'green-new-61');
+  @include utils.aliasColor('green-new-26', 'green-new-61');
+  @include utils.aliasColor('green-new-30', 'green-new-61');
+  @include utils.aliasColor('green-new-38', 'green-new-61');
+  @include utils.aliasColor('green-new-44', 'green-new-61');
+  @include utils.aliasColor('green-new-50', 'green-new-61');
+  @include utils.aliasColor('green-new-52', 'green-new-61');
+  @include utils.aliasColor('green-new-61', 'nord-green'); /*! nord color */
+  @include utils.aliasColor(
+    'green-new-62',
+    'green-new-91'
+  ); /* success button (active) */
+  @include utils.aliasColor(
+    'green-new-55',
+    'green-new-87'
+  ); /* success button (hover) */
+  @include utils.aliasColor('green-new-76', 'green-new-61');
+  @include utils.aliasColor('green-new-77', 'green-new-61');
   @include utils.colorVars('green-new-87', utils.hexToHSL(#93ac7e));
   @include utils.colorVars('green-new-91', utils.hexToHSL(#82996f));
 
@@ -67,11 +81,20 @@
   @include utils.aliasColor('red-new-38', 'red-new-61');
   @include utils.aliasColor('red-new-45', 'red-new-61');
   @include utils.aliasColor('red-new-50', 'red-new-61');
+  @include utils.aliasColor(
+    'red-new-55',
+    'red-new-70'
+  ); /* danger button (hover) */
   @include utils.aliasColor('red-new-47', 'red-new-61');
   @include utils.aliasColor('red-new-61', 'nord-red'); /*! nord color */
+  @include utils.aliasColor(
+    'red-new-62',
+    'red-new-78'
+  ); /* danger button (active) */
   @include utils.colorVars('red-new-70', utils.hexToHSL(#ac5861));
   @include utils.colorVars('red-new-78', utils.hexToHSL(#975056));
 
+  @include utils.aliasColor('yellow-new-22', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-24', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-28', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-39', 'yellow-new-57');
@@ -80,14 +103,14 @@
 
   @include utils.aliasColor('orange-new-63', 'nord-orange'); /*! nord color */
 
-  @include utils.aliasColor('white-500', 'nord-light2'); /*! nord color */
-  @include utils.aliasColor('black-500', 'neutral-79'); /*! nord color */
-
+  @include utils.aliasColor('blue-new-24', 'blue-new-31');
+  @include utils.aliasColor('blue-new-26', 'blue-new-35'); /* For links */
   @include utils.aliasColor('blue-new-31', 'nord-blue'); /*! nord color */
   @include utils.colorVars('blue-new-35', utils.hexToHSL(#4c91e6));
 
   @include utils.colorVars('blurple-1', utils.hexToHSL(#f0f4f4));
   @include utils.colorVars('blurple-4', utils.hexToHSL(#d8e7e7));
+  @include utils.aliasColor('blurple-8', 'blurple-4');
   @include utils.aliasColor('blurple-10', 'blurple-4');
   @include utils.aliasColor('blurple-25', 'blurple-49'); /* For tabs */
   @include utils.aliasColor(
@@ -110,14 +133,39 @@
   @include utils.aliasColor('blurple-70', 'blurple-87');
   @include utils.colorVars('blurple-87', utils.hexToHSL(#4d6666));
 
-  --opacity-blurple-8: var(
-    --opacity-blurple-16
+  --opacity-4-hsl: var(--neutral-19-hsl);
+  --opacity-8-hsl: var(--neutral-31-hsl);
+  --opacity-16-hsl: var(--neutral-31-hsl);
+  --opacity-20-hsl: var(--neutral-31-hsl);
+
+  --opacity-green-8-hsl: var(--green-new-61-hsl);
+  --opacity-green-12-hsl: var(--green-new-61-hsl);
+  --opacity-green-24-hsl: var(--green-new-61-hsl);
+  --opacity-green-36-hsl: var(--green-new-61-hsl);
+
+  --opacity-red-8-hsl: var(--red-new-61-hsl);
+  --opacity-red-12-hsl: var(--red-new-61-hsl);
+  --opacity-red-24-hsl: var(--red-new-61-hsl);
+  --opacity-red-36-hsl: var(--red-new-61-hsl);
+
+  --opacity-yellow-8-hsl: var(--yellow-new-57-hsl);
+
+  --opacity-blue-8-hsl: var(--blue-new-31-hsl);
+
+  --opacity-blurple-8-hsl: var(
+    --blurple-49-hsl
   ); /* server > Channel & Roles (selected role) */
-  --opacity-blurple-16: hsl(
-    var(--blurple-49-hsl) / 0.07
-  ); /* "add friend" active btn */
-  --opacity-blurple-24: hsl(var(--blurple-49-hsl) / 0.2);
+  --opacity-blurple-16-hsl: var(--blurple-49-hsl); /* "add friend" active btn */
+  --opacity-blurple-24-hsl: var(--blurple-49-hsl);
   --opacity-blurple-32: hsl(var(--blurple-49-hsl) / 0.2);
+
+  --illo-green-50-hsl: var(--nord-green-hsl);
+  --illo-pink-50-hsl: var(--nord-pink-hsl);
+  --illo-pink-60-hsl: var(--nord-pink-hsl);
+  --illo-pink-70-hsl: var(--nord-pink-hsl);
+  --illo-purple-40-hsl: var(--nord-pink-hsl);
+  --illo-purple-60-hsl: var(--nord-pink-hsl);
+  --illo-nitro-blue-hsl: var(--nord-blue-hsl);
 
   @include utils.aliasColor('twitch', 'nord-pink');
   @include utils.colorVars('twitch-secondary', utils.hexToHSL(#a3759b));
@@ -155,107 +203,30 @@
   @include utils.aliasColor('premium-nitro-pink-light', 'nord-pink');
 }
 
-.visual-refresh.theme-dark,
-.visual-refresh .theme-dark,
-.visual-refresh.theme-light,
-.visual-refresh .theme-light {
-  --button-danger-background: var(--nord-red);
-  --button-danger-background-active: var(--red-new-78);
-  --button-danger-background-disabled: var(--nord-red);
-  --button-danger-background-hover: var(--red-new-70);
-  --button-danger-border: hsl(var(--nord-red-hsl) / 0.08);
-  --button-filled-brand-text: var(--black-500);
-  --button-filled-brand-inverted-text: var(--blurple-87);
-  --button-positive-background: var(--nord-green);
-  --button-positive-background-active: var(--green-new-91);
-  --button-positive-background-disabled: var(--nord-green);
-  --button-positive-background-hover: var(--green-new-87);
-  --button-positive-border: hsl(var(--nord-green-hsl) / 0.08);
+.theme-light,
+.theme-dark {
+  --control-primary-text-default: var(--neutral-79);
+  --control-primary-text-hover: var(--neutral-99);
+  --control-primary-text-active: var(--neutral-99);
+  --control-connect-text-default: var(--neutral-79);
+  --control-connect-text-hover: var(--neutral-79);
+  --control-connect-text-active: var(--neutral-99);
 
-  --control-text-active-default: var(--black-500);
-  --control-text-active-hover: var(--black-500);
-  --control-background-active-hover: var(--green-new-87);
-  --control-text-active-active: var(--neutral-8);
-  --control-background-active-active: var(--green-new-91);
-  --control-text-primary-default: var(--black-500);
-  --control-text-primary-hover: var(--black-500);
-  --control-text-primary-active: var(--neutral-4);
-  --control-background-critical-primary-hover: var(--red-new-70);
-  --control-background-critical-primary-active: var(--red-new-78);
+  --notice-text-positive: var(--neutral-79);
+  --search-popout-date-picker-hint-value-text: var(--neutral-79);
 }
 
-.visual-refresh.theme-dark,
-.visual-refresh .theme-dark {
-  --background-mentioned: hsl(var(--blurple-49-hsl) / 0.16);
-  --background-mentioned-hover: hsl(var(--blurple-49-hsl) / 0.12);
-  --background-message-highlight: hsl(var(--blurple-49-hsl) / 0.16);
-  --background-message-highlight-hover: hsl(var(--blurple-49-hsl) / 0.12);
-  --background-message-hover: hsl(var(--neutral-45-hsl) / 0.15);
-  --background-modifier-accent: hsl(var(--neutral-34-hsl) / 0.3);
-  --background-modifier-active: hsl(var(--neutral-34-hsl) / 0.25);
-  --background-modifier-hover: hsl(var(--neutral-34-hsl) / 0.2);
-  --background-modifier-selected: hsl(var(--neutral-40-hsl) / 0.5);
-  --background-primary: var(--neutral-66);
-  --bg-base-secondary: var(--neutral-69);
-  --bg-mod-faint: hsl(var(--neutral-34-hsl) / 0.1);
-  --bg-mod-strong: hsl(var(--neutral-40-hsl) / 0.5);
-  --bg-mod-subtle: hsl(var(--neutral-40-hsl) / 0.2);
-  --button-outline-danger-background: hsl(var(--nord-dark4-hsl) / 0.5);
-  --button-outline-danger-background-active: hsl(var(--nord-dark4-hsl) / 0.7);
-  --button-outline-danger-background-hover: var(--nord-dark4);
-  --button-outline-danger-border: transparent;
-  --button-outline-danger-border-active: transparent;
-  --button-outline-danger-border-hover: transparent;
-  --button-outline-danger-text: var(--nord-red);
-  --button-outline-danger-text-active: var(--nord-red);
-  --button-outline-danger-text-hover: var(--nord-red);
-  --button-secondary-background: hsl(var(--neutral-40-hsl) / 0.2);
-  --button-secondary-background-active: hsl(var(--neutral-40-hsl) / 0.5);
-  --button-secondary-background-disabled: hsl(var(--neutral-40-hsl) / 0.2);
-  --button-secondary-background-hover: hsl(var(--neutral-40-hsl) / 0.35);
-  --icon-primary: var(--neutral-8);
-  --info-danger-background: hsl(var(--nord-red-hsl) / 0.1);
-  --info-danger-text: var(--nord-red);
-  --info-help-background: hsl(var(--nord-blue-hsl) / 0.15);
-  --info-help-text: var(--nord-blue);
-  --info-positive-background: hsl(var(--nord-green-hsl) / 0.1);
-  --info-positive-text: var(--nord-green);
-  --info-warning-background: hsl(var(--nord-yellow-hsl) / 0.08);
-  --info-warning-text: var(--nord-yellow);
-  --input-background: hsl(var(--black-hsl) / 0.1);
-  --mention-background: var(--opacity-blurple-24);
-  --mention-foreground: var(--blurple-1);
-  --message-reacted-background: hsl(var(--blurple-49-hsl) / 0.3);
-  --message-reacted-text: var(--blurple-1);
-  --premium-nitro-pink-text: var(--nord-pink);
-  --text-link: var(--blue-new-35);
-  --text-normal: var(--neutral-12);
-  --text-primary: var(--neutral-8);
-  --text-secondary: var(--neutral-12);
-  --background-base-low: var(--neutral-63);
-  --background-base-lower: var(--neutral-69);
+.theme-dark {
+  --message-mentioned-background-default: hsl(var(--blurple-49-hsl) / 0.16);
+  --message-mentioned-background-hover: hsl(var(--blurple-49-hsl) / 0.12);
+  --message-highlight-background-default: hsl(var(--blue-new-31-hsl) / 0.16);
+  --message-highlight-background-hover: hsl(var(--blue-new-31-hsl) / 0.12);
+
+  --interactive-muted: var(--neutral-40);
+
   --background-code: hsl(var(--nord-dark1-hsl) / 0.1);
   --background-code-addition: hsl(var(--nord-green-hsl) / 0.45);
   --background-code-deletion: hsl(var(--nord-red-hsl) / 0.45);
-  --background-feedback-critical: hsl(var(--nord-red-hsl) / 0.1);
-  --background-feedback-info: hsl(var(--nord-blue-hsl) / 0.1);
-  --background-feedback-positive: hsl(var(--nord-green-hsl) / 0.1);
-  --background-feedback-warning: hsl(var(--nord-yellow-hsl) / 0.1);
-  --background-mod-faint: hsl(var(--neutral-34-hsl) / 0.1);
-  --background-mod-normal: hsl(var(--neutral-34-hsl) / 0.25);
-  --background-mod-strong: hsl(var(--neutral-40-hsl) / 0.4);
-  --background-mod-subtle: hsl(var(--neutral-40-hsl) / 0.3);
-  --background-surface-higher: var(--neutral-66);
-  --border-feedback-critical: hsl(var(--nord-red-hsl) / 0.2);
-  --chat-background-default: var(--neutral-49);
-  --notice-background-critical: var(--nord-red);
-  --notice-background-info: var(--nord-blue);
-  --notice-background-positive: var(--nord-green);
-  --notice-background-warning: var(--nord-yellow);
-  --notice-text-critical: var(--white-500);
-  --notice-text-info: var(--white-500);
-  --notice-text-positive: var(--black-500);
-  --notice-text-warning: var(--black-500);
   --text-code-addition: var(--white);
   --text-code-builtin: var(--nord-cyan);
   --text-code-bullet: var(--nord-cyan);
@@ -268,84 +239,17 @@
   --text-code-tag: var(--nord-cyan);
   --text-code-title: var(--blurple-49);
   --text-code-variable: var(--header-secondary);
-
-  --interactive-muted: var(--neutral-40);
-  --search-popout-date-picker-hint-value-text: var(--black-500);
-  --search-popout-date-picker-hint-value-background-hover: var(--blurple-54);
-  --channel-text-area-placeholder: var(--neutral-34);
 }
 
-.theme-midnight {
-  --bg-tile-gradient-magenta-start: hsl(var(--nord-pink-hsl) / 0.5);
-  --bg-tile-gradient-magenta-end: hsl(var(--nord-pink-hsl) / 0.25);
-}
+.theme-light {
+  --message-mentioned-background-default: hsl(var(--blurple-49-hsl) / 0.45);
+  --message-mentioned-background-hover: hsl(var(--blurple-49-hsl) / 0.35);
+  --message-highlight-background-default: hsl(var(--blue-new-31-hsl) / 0.45);
+  --message-highlight-background-hover: hsl(var(--blue-new-31-hsl) / 0.35);
 
-.visual-refresh.theme-light,
-.visual-refresh .theme-light {
-  --background-mentioned: hsl(var(--blurple-49-hsl) / 0.45);
-  --background-mentioned-hover: hsl(var(--blurple-49-hsl) / 0.35);
-  --background-message-highlight: hsl(var(--blurple-49-hsl) / 0.45);
-  --background-message-highlight-hover: hsl(var(--blurple-49-hsl) / 0.35);
-  --background-message-hover: hsl(var(--neutral-8-hsl) / 0.4);
-  --background-modifier-accent: hsl(var(--neutral-9-hsl) / 0.4);
-  --background-modifier-active: hsl(var(--neutral-9-hsl) / 0.45);
-  --background-modifier-hover: hsl(var(--neutral-9-hsl) / 0.8);
-  --background-modifier-selected: hsl(var(--neutral-9-hsl) / 0.65);
-  --background-primary: var(--neutral-1);
-  --bg-mod-faint: hsl(var(--neutral-9-hsl) / 0.2);
-  --bg-mod-strong: hsl(var(--neutral-9-hsl) / 0.5);
-  --bg-mod-subtle: hsl(var(--neutral-9-hsl) / 0.3);
-  --button-outline-danger-background: hsl(var(--neutral-9-hsl) / 0.4);
-  --button-outline-danger-background-active: hsl(var(--neutral-9-hsl) / 0.55);
-  --button-outline-danger-background-hover: hsl(var(--neutral-9-hsl) / 0.7);
-  --button-outline-danger-border: transparent;
-  --button-outline-danger-border-active: transparent;
-  --button-outline-danger-border-hover: transparent;
-  --button-outline-danger-text: var(--nord-red);
-  --button-outline-danger-text-active: var(--nord-red);
-  --button-outline-danger-text-hover: var(--nord-red);
-  --button-secondary-background: hsl(var(--neutral-9-hsl) / 0.7);
-  --button-secondary-background-active: var(--neutral-9);
-  --button-secondary-background-disabled: hsl(var(--neutral-9-hsl) / 0.7);
-  --button-secondary-background-hover: hsl(var(--neutral-9-hsl) / 0.8);
-  --info-danger-background: hsl(var(--nord-red-hsl) / 0.1);
-  --info-danger-text: var(--nord-red);
-  --info-help-background: hsl(var(--nord-blue-hsl) / 0.15);
-  --info-help-text: var(--nord-blue);
-  --info-positive-background: hsl(var(--nord-green-hsl) / 0.1);
-  --info-positive-text: var(--nord-green);
-  --info-warning-background: hsl(var(--nord-yellow-hsl) / 0.08);
-  --info-warning-text: var(--nord-yellow);
-  --input-background: hsl(var(--neutral-9-hsl) / 0.4);
-  --mention-background: hsl(var(--blurple-49-hsl) / 0.45);
-  --mention-foreground: var(--black-500);
-  --message-reacted-background: hsl(var(--blurple-49-hsl) / 0.3);
-  --message-reacted-text: var(--blurple-87);
-  --premium-nitro-pink-text: var(--nord-pink);
-  --text-link: var(--blue-new-35);
-  --text-default: var(--neutral-79);
-  --text-muted: var(--neutral-45);
-  --text-tertiary: var(--neutral-45);
   --background-code: var(--neutral-1);
   --background-code-addition: hsl(var(--nord-green-hsl) / 0.3);
   --background-code-deletion: hsl(var(--nord-red-hsl) / 0.3);
-  --background-feedback-critical: hsl(var(--nord-red-hsl) / 0.1);
-  --background-feedback-info: hsl(var(--nord-blue-hsl) / 0.1);
-  --background-feedback-positive: hsl(var(--nord-green-hsl) / 0.1);
-  --background-feedback-warning: hsl(var(--nord-yellow-hsl) / 0.1);
-  --background-mod-faint: hsl(var(--neutral-9-hsl) / 0.45);
-  --background-mod-normal: hsl(var(--neutral-9-hsl) / 0.55);
-  --background-mod-strong: hsl(var(--neutral-9-hsl) / 0.8);
-  --background-mod-subtle: hsl(var(--neutral-9-hsl) / 0.6);
-  --border-feedback-critical: hsl(var(--nord-red-hsl) / 0.2);
-  --notice-background-critical: var(--nord-red);
-  --notice-background-info: var(--nord-blue);
-  --notice-background-positive: var(--nord-green);
-  --notice-background-warning: var(--nord-yellow);
-  --notice-text-critical: var(--white-500);
-  --notice-text-info: var(--white-500);
-  --notice-text-positive: var(--black-500);
-  --notice-text-warning: var(--black-500);
   --text-code-addition: var(--black-500);
   --text-code-builtin: var(--nord-cyan);
   --text-code-bullet: var(--nord-cyan);
@@ -358,7 +262,4 @@
   --text-code-tag: var(--nord-cyan);
   --text-code-title: var(--blurple-49);
   --text-code-variable: var(--header-secondary);
-
-  --search-popout-date-picker-hint-value-text: var(--black-500);
-  --search-popout-date-picker-hint-value-background-hover: var(--blurple-54);
 }

@@ -2,23 +2,12 @@
   color: var(--blurple-87);
 }
 
-.stars__93db4,
-.emptyStateStars__7641b, /* + empty forum  */
-.emptyIcon__5d7c9, /* ! + empty "Channel & role" (when server not joined, from discover)  */
-.stars_d404a3 /* ! + inbox */ {
-  path[fill='#ADF3FF'] {
-    fill: var(--nord-cyan);
-  }
-  path[fill='#FFD01A'] {
-    fill: var(--nord-yellow);
-  }
-  path[fill='#58F287'] {
-    fill: var(--nord-green);
-  }
+.pinIcon__08166 path[fill='white'] {
+  fill: var(--black-500);
 }
 
-.visual-refresh .reaction_f8896c.reactionMe_f8896c .reactionCount_f8896c {
-  color: var(--message-reacted-text);
+.reaction_f8896c.reactionMe_f8896c .reactionCount_f8896c {
+  color: var(--message-reacted-text-default);
 }
 
 /*
@@ -27,8 +16,4 @@
 .countText_f369db,
 .countText__5808f /** Dropdown menu */ {
   color: var(--black-500);
-}
-
-.pinIcon__08166 path[fill='white'] {
-  fill: var(--black-500);
 }

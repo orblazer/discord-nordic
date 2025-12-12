@@ -5,7 +5,7 @@
 }
 
 .theme-dark
-  .wrapper__48112
+  .folderGroup__48112
   .wrapper__6e9f8:not(.selected__6e9f8)
   .childWrapperNoHoverBg__6e9f8 {
   background-color: var(--background-mod-strong);
@@ -44,29 +44,6 @@
   & + path[fill='white'] {
     fill: var(--black-500);
   }
-}
-
-/*
- * User panel (connected to voice channel) > share your screen (active)
- */
-.button_e131a9.buttonColor_e131a9.buttonActive_e131a9,
-.button_e131a9.buttonColor_e131a9.buttonActive_e131a9 {
-  border: hsl(var(--nord-green-hsl) / 0.15) !important;
-  background-color: hsl(var(--nord-green-hsl) / 0.15) !important;
-}
-.button_e131a9.buttonActive_e131a9:not(.buttonColor_e131a9) {
-  color: var(--black-500) !important;
-
-  &:hover {
-    background-color: var(--green-new-87) !important;
-  }
-}
-
-/*
- ! Screen share
- */
-.root__175e2 .infoText__175e2 {
-  color: var(--black-500) !important;
 }
 
 /*

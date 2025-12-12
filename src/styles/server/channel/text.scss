@@ -1,7 +1,7 @@
 @use '../../discord-color' as discord;
 
 /*
- * > interaction
+ * > interaction (mention)
  */
 .interactive:hover {
   color: var(--black-500);
@@ -26,10 +26,21 @@
 }
 
 /*
- * > mentioned message
+ * > mentioned/reply/ephemeral message
  */
 .mentioned__5126c:before {
   background-color: var(--brand-500);
+}
+.replying__5126c:before,
+.ephemeral__5126c:before {
+  background-color: var(--nord-blue);
+}
+.ephemeral__5126c {
+  background-color: var(--message-highlight-background-default);
+}
+.message__5126c.replying__5126c.selected__5126c,
+.mouse-mode.full-motion .message__5126c.replying__5126c:hover {
+  background-color: var(--message-highlight-background-hover);
 }
 
 /*
@@ -53,6 +64,30 @@
 /*
  * Sended files
  */
+/* Drop file */
+.uploadDropModal_b78547:not(.error_b78547) .inner_b78547 {
+  .title_b78547,
+  .title_b78547 strong,
+  .instructions_b78547 {
+    color: var(--black-500);
+  }
+}
+.icon_b78547 {
+  &.two_b78547 {
+    filter: drop-shadow(0 0 48px hsla(var(--brand-500-hsl) / 0.5)) !important;
+  }
+
+  &.document_b78547 {
+    background-image: url(svg('global/upload/document.svg'));
+  }
+  &.image_b78547 {
+    background-image: url(svg('global/upload/image.svg'));
+  }
+  &.code_b78547 {
+    background-image: url(svg('global/upload/code.svg'));
+  }
+}
+
 /* writing message */
 .icon__41ea0 {
   &.video__41ea0 {

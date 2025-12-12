@@ -1,31 +1,13 @@
 /*
- * When screen share or activity is active
+ * > screen share
  */
-.colorable_f1ceac.greenGlow_f1ceac {
-  background-color: hsl(var(--nord-green-hsl) / 0.1) !important;
-}
+.root__175e2 {
+  .infoText__175e2,
+  .ctaButtonText__175e2 {
+    color: var(--black-500) !important;
+  }
 
-/*
- * > screen share (step 2)
- */
-.selectorButton_c6d3dc:hover .selectorText_c6d3dc,
-.selectorButton_c6d3dc.selectorButtonSelected_c6d3dc .selectorText_c6d3dc {
-  color: var(--black-500);
-}
-
-/*
- * Emoji reaction
- */
-.emojiPickerHeader__0800c img[src='/assets/24d8f2c8f4fce44c.svg'] {
-  content: url(svg('server/channel/voice-emoji-nitro.svg'));
-}
-
-.theme-dark .container__0800c {
-  background-color: var(--background-base-low);
-
-  .header_c0e32c,
-  .emojiPicker_c0e32c,
-  .wrapper__14245 {
-    background-color: transparent;
+  .premiumIcon__175e2 path {
+    fill: var(--black-500) !important;
   }
 }

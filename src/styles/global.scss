@@ -7,27 +7,23 @@
 /*
  * "beta" or some "new" tag
  */
-.textBadge__2b1f5[style*='background-color: var(--brand-500)'],
-.textBadge__2b1f5[style*='background-color: var(--bg-brand);'] {
+.textBadge__2b1f5[style*='background-color: var(--brand-500)'] {
   color: var(--black-500);
 }
 
 /*
  * Tooltips
  */
-.tooltipGreen__382e7, /* ping (when over badge) */
-.tooltipBrand__382e7 /* voice emoji (when over bottom emoji) */ {
+.tooltipGreen_c36707, /* ping (when over badge) */
+.tooltipBrand_c36707 /* voice emoji (when over bottom emoji) */ {
   color: var(--black-500);
-}
-.tooltipBrand__382e7 .tooltipText__0ca35[style='color: white;']  /* voice emoji (when over nitro btn) */ {
-  color: var(--black-500) !important;
 }
 
 /*
- * What's new (popup)
+ * Toast
  */
-.content__487be a {
-  color: var(--text-link);
+.toast__3fde7[data-type='success'] path[fill='var(--status-positive)'] {
+  fill: currentColor;
 }
 
 /*
@@ -40,7 +36,7 @@
 /*
  * Settings switch
  */
-.slider__87bf1 {
+.slider__3f21e {
   rect[fill='white'] {
     fill: var(--white-500);
   }
@@ -51,7 +47,7 @@
     fill: var(--neutral-45);
   }
 }
-.container__87bf1 {
+.container__3f21e {
   &[style*='background-color: rgb(85, 95, 196'],
   &[style*='background-color: rgb(#{discord.$blurple-49-rgb})'] {
     background-color: var(--blurple-49) !important;
@@ -65,52 +61,26 @@
 /*
  * Settings radio/checkbox
  */
-.refreshIcon__001a7, /* radio */
-.checkbox_f525d3.checked_f525d3:not([style*='background-color']) path[fill='var(--white)'], /* checkbox */
-.checkbox_f525d3.checked_f525d3[style*='background-color: var(--brand-500)'] path[fill='var(--white)'] /* user settings > nitro > subscribe (tiers) */ {
+.refreshIcon__88a69, /* radio */
+.checkbox__09aca.checked__09aca:not([style*='background-color']) path[fill='var(--white)'], /* checkbox */ {
   fill: var(--black-500);
 }
 
-.checkbox_f525d3.checked_f525d3[style*='background-color: rgb(#{discord.$green-new-43-rgb})'] /** server > notification settings */ {
-  border-color: var(--nord-green) !important;
-  background-color: var(--nord-green) !important;
-
-  path[fill='var(--white)'] {
-    fill: var(--black-500);
-  }
-}
-.checkbox_f525d3.checked_f525d3[style*='background-color: rgba(#{discord.$green-new-43-rgb}'] /** server > notification settings */ {
-  border-color: hsl(var(--nord-green-hsl) / 0.15) !important;
-  background-color: hsl(var(--nord-green-hsl) / 0.15) !important;
-}
-
 /*
- * Buttons with brand, green ot nitro background
+ * Buttons
  */
 .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf:not([aria-selected=true]), /* DM ("add friend" btn) */
-.lookFilled__201d5.colorGreen__201d5, /** user settings > profiles + actions button */
+.lookFilled__201d5.colorGreen__201d5, /* user settings > profiles + actions button */
 .activeButton_c15210, /* text channel > search result (pagination) */
-.lookFilled__201d5.colorBrand__201d5 .defaultColor__4bd52, /* server settings > onboarding > server guide */
-.addButton_a76561, /** Discover > Student Hubs > "Join Hub" button  */
-.colorable_f1ceac.join_f1ceac, .colorable_f1ceac.join_f1ceac .centerIcon_f1ceac, /** DM (Call button)  */
-.roleStyleUpsellButtonContents__981c8 /* server settings > People > Role (edit) */ {
+.theme-light .expressive_a22cb0 /* user settings > Appearance > "unlock with nitro" btn */ {
   color: var(--black-500);
-}
-
-.button_c50183 .text-md\/medium_cf4812[style*='color: white'], /* user settings > gift inventory ("view quests" btn) */
-.lookFilled__201d5.colorGreen__201d5 .text-sm\/medium_cf4812[style*='color: var(--text-normal)'] /* server settings > onboarding > server guide */ {
-  color: var(--black-500) !important;
-}
-
-.tier2Gradient_e00877 /* "get nitro" buttons */ {
-  color: var(--black-500) !important;
 }
 
 /*
  * Circle checked icon
  */
 .activeIcon_d40c56 circle[fill='var(--white-500)'], /** user popup (sidebar left) > switch accounts */
-.selectedIcon__3f413 circle[fill='white'], /** user settings > profiles > per-server-profiles (checkmark in dropdown "Choose a server") */
+.selectedIcon_a16aea circle[fill='white'], /** checkmark in dropdown (eg. user settings > Content & Social > Discord > ["show/block/blur"]) */
 .checkmarkCircle__36dee circle[fill='var(--white-500)'], /** user settings > app settings > Appearance */
 .descriptionSection__981f7:first-child .descriptionIcon__981f7 circle[fill='var(--white-500)'], /** server settings > server template */
 .checklistIcon_ef2eb4 circle[fill='var(--white-500)'], /** server settings > enable community > get started (step 3) */
@@ -143,27 +113,17 @@
 }
 
 /*
- * Drop file and files in text channel
+ * Stars
  */
-.uploadDropModal_dbca3c:not(.error_dbca3c) .inner_dbca3c {
-  .title_dbca3c,
-  .title_dbca3c strong,
-  .instructions_dbca3c {
-    color: var(--black-500);
+.emptyIcon__5d7c9, /* ! + empty "Channel & role" (when server not joined, from discover)  */
+.stars_d404a3 /* ! + inbox */ {
+  path[fill='#ADF3FF'] {
+    fill: var(--nord-cyan);
   }
-}
-.icon_dbca3c {
-  &.two_dbca3c {
-    filter: drop-shadow(0 0 48px hsla(var(--brand-500-hsl) / 0.5)) !important;
+  path[fill='#FFD01A'] {
+    fill: var(--nord-yellow);
   }
-
-  &.document_dbca3c {
-    background-image: url(svg('global/upload/document.svg'));
-  }
-  &.image_dbca3c {
-    background-image: url(svg('global/upload/image.svg'));
-  }
-  &.code_dbca3c {
-    background-image: url(svg('global/upload/code.svg'));
+  path[fill='#58F287'] {
+    fill: var(--nord-green);
   }
 }

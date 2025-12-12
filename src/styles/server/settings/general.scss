@@ -1,13 +1,8 @@
-/* Fix bug in channel permission and other place */
-.scroller__53543 {
-  background-color: transparent;
-}
-
 /*
  * > Stickers
  */
-.upsellHeader_c0eeaa,
-.upsellDescription_c0eeaa {
+.upsellHeader__17daa,
+.upsellDescription__17daa {
   color: var(--white);
 }
 .currentTierIcon_c44edb {
@@ -19,4 +14,11 @@
  */
 .allow__344e6.selected__344e6 {
   color: var(--black-500);
+}
+
+/*
+ * > Server Boost Status
+ */
+.tierIconLocked_a36dee {
+  color: var(--interactive-muted);
 }

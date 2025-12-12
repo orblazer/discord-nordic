@@ -1,17 +1,10 @@
-@use '../../discord-color' as discord;
-
 /*
  * server boost status (btn)
  */
 .serverBoostTabItem_cbe0b4[aria-selected='true'] {
   color: var(--black-500) !important;
 
-  .icon_cbe0b4 {
-    fill: var(--black-500) !important;
+  .icon_cbe0b4 path {
+    fill: var(--black-500);
   }
-}
-
-/* badge */
-.icon_cbe0b4[fill='#{discord.$guild-boosting-pink-hex}' i] {
-  fill: var(--guild-boosting-pink);
 }
