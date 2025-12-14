@@ -1,3 +1,13 @@
+## [4.12.1](https://github.com/orblazer/discord-nordic/compare/v4.12.0...v4.12.1) (2025-12-14)
+
+
+### Bug Fixes
+
+* **global:** colorize join call button ([b7c5860](https://github.com/orblazer/discord-nordic/commit/b7c5860e877f816b4097bf4368e16c9d178fbef1))
+* **server:** colorize highlight ([f1528a7](https://github.com/orblazer/discord-nordic/commit/f1528a76ba771c3920d5e72578658d96e13d0a06))
+
+
+
 # [4.12.0](https://github.com/orblazer/discord-nordic/compare/v4.11.7...v4.12.0) (2025-12-12)
 
 
