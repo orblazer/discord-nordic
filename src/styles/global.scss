@@ -71,9 +71,10 @@
  */
 .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf:not([aria-selected=true]), /* DM ("add friend" btn) */
 .lookFilled__201d5.colorGreen__201d5, /* user settings > profiles + actions button */
-.activeButton_c15210, /* text channel > search result (pagination) */
+.activeButton_c15210, .activeButton_c15210:hover, /* text channel > search result (pagination) */
 .theme-light .expressive_a22cb0, /* user settings > Appearance > "unlock with nitro" btn */
-.colorable_f1ceac.join_f1ceac, .colorable_f1ceac.join_f1ceac .centerIcon_f1ceac /* DM text channel > call + call popup */ {
+.colorable_f1ceac.join_f1ceac, .colorable_f1ceac.join_f1ceac .centerIcon_f1ceac, /* DM text channel > call + call popup */
+.customLabelContainer_c2c6a6 .labelText_c2c6a6.focused_c2c6a6, .customLabelContainer_c2c6a6:hover /* server > members > filters dropdown  */ {
   color: var(--black-500);
 }
 
