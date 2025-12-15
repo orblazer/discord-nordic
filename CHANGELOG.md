@@ -1,3 +1,20 @@
+## [4.12.2](https://github.com/orblazer/discord-nordic/compare/v4.12.1...v4.12.2) (2025-12-15)
+
+
+### Bug Fixes
+
+* **color:** correctly color when hover dm mute button ([8ed8340](https://github.com/orblazer/discord-nordic/commit/8ed83405c754b2a1e0af313bbe6d8abfbee8c7e5))
+* **color:** correctly handle reconnect warning bar ([c475171](https://github.com/orblazer/discord-nordic/commit/c475171784c330e5a5f5e8a851a56b67401f75b0))
+* **dm:** correctly colorize clicked active add friend button ([e7e0d6a](https://github.com/orblazer/discord-nordic/commit/e7e0d6a809d29539c2bc04ce6dd75b5f776655a9))
+* **global:** colorize some buttons in members table ([2f187e9](https://github.com/orblazer/discord-nordic/commit/2f187e961d54d7525153cccd1f1bc4ccecf03535))
+* **global:** colorize star on empty threads ([55222b9](https://github.com/orblazer/discord-nordic/commit/55222b92ef452a28d5d9544507e2f21dc5b22764))
+* **server:** colorize edit attachment icons ([659cc19](https://github.com/orblazer/discord-nordic/commit/659cc19c3dfeea4c47df981616925cd99fa14ce9))
+* **server:** correctly colorize new emoji and lock icon ([4e04292](https://github.com/orblazer/discord-nordic/commit/4e0429207174a2030b620b6c0e8246f91566f8de))
+* **user:** keep buttons on custom theme white ([c33214c](https://github.com/orblazer/discord-nordic/commit/c33214cf67877256917fd5208710dd1039a6e2ed))
+* **vencord:** correctly colorize new badge on plugins ([71ab266](https://github.com/orblazer/discord-nordic/commit/71ab2667e7f483b9855ef9f2357bdc95b2d2fbd7))
+
+
+
 ## [4.12.1](https://github.com/orblazer/discord-nordic/compare/v4.12.0...v4.12.1) (2025-12-14)
 
 
