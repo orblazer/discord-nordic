@@ -1,5 +1,10 @@
 @use '../discord-color' as discord;
 
+/* Profile popup (with custom theme > "Add friend" btn */
+.custom-user-profile-theme .primary_a22cb0 {
+  color: var(--white);
+}
+
 .badge__8061a {
   &[src*='/6bdc42827a38498929a4920da12695d9.png'] {
     content: url(svg('user/profile/badge-active-developer.svg'));
