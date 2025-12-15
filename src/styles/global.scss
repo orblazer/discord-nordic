@@ -69,7 +69,8 @@
 /*
  * Buttons
  */
-.tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf:not([aria-selected=true]), /* DM ("add friend" btn) */
+.tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf:not([aria-selected=true]),
+.tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf:active, /* DM ("add friend" btn) */
 .lookFilled__201d5.colorGreen__201d5, /* user settings > profiles + actions button */
 .activeButton_c15210, .activeButton_c15210:hover, /* text channel > search result (pagination) */
 .theme-light .expressive_a22cb0, /* user settings > Appearance > "unlock with nitro" btn */
