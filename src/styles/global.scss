@@ -117,8 +117,9 @@
 /*
  * Stars
  */
-.emptyIcon__5d7c9, /* ! + empty "Channel & role" (when server not joined, from discover)  */
-.stars_d404a3 /* ! + inbox */ {
+.emptyIcon__5d7c9, /* empty "Channel & role" (when server not joined, from discover)  */
+.stars_d404a3, /* inbox */
+.stars__1b24f /* server > text channels > empty threads */ {
   path[fill='#ADF3FF'] {
     fill: var(--nord-cyan);
   }
