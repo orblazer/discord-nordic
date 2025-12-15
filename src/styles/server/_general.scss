@@ -86,15 +86,15 @@
 
   .newlyAddedBadgeStar_fc7141,
   .text-xs\/semibold_cf4812[style*='color: white'] {
-    color: var(--black-500) !important;
+    color: var(--white-500) !important;
   }
 }
 .newlyAddedHighlightContainer_fc7141:hover {
   .newlyAddedHighlight_fc7141 {
-    border-color: var(--button-positive-background-hover);
+    border-color: hsla(var(--green-new-55-hsl) / 0.5);
   }
   .newlyAddedBadge_fc7141 {
-    background-color: var(--button-positive-background-hover);
+    background-color: hsla(var(--green-new-55-hsl) / 0.5);
   }
 }
 .newlyAddedBadge_aeaaeb /* (hover) */ {
@@ -105,9 +105,6 @@
   );
 }
 
-.nitroTopDividerLockCircle_b3fb5f path[fill='white'] {
-  fill: var(--black-500);
-}
 .upsellContainerShadow__0b69f {
   filter: drop-shadow(0 0 10px hsl(var(--twitch-secondary-hsl) / 0.5));
 }
