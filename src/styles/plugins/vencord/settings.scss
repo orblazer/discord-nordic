@@ -1,7 +1,7 @@
 /*
- * > Plugin
+ * > Plugins
  */
 /* "NEW" badge */
-.vc-plugins-badge[style*='background-color: rgb(237, 66, 69)'] {
-  background-color: var(--red-500) !important;
+.vc-addon-badge[style*='background-color: rgb(237, 66, 69)'] {
+  background-color: var(--status-danger) !important;
 }
