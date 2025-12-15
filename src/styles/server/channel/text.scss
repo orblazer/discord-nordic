@@ -88,7 +88,7 @@
   }
 }
 
-/* writing message */
+/* edit attachment */
 .icon__41ea0 {
   &.video__41ea0 {
     background-image: url(svg('global/upload/video.svg'));
@@ -170,4 +170,51 @@
 }
 .audioMetadata_cf09d8:before {
   background-image: url(svg('global/upload/audio.svg'));
+}
+
+/* writing message */
+.fileIcon_b78547 {
+  &.video_b78547 {
+    background-image: url(svg('global/upload/video.svg'));
+  }
+  &.acrobat_b78547 {
+    background-image: url(svg('global/upload/acrobat.svg'));
+  }
+  &.ae_b78547 {
+    background-image: url(svg('global/upload/ae.svg'));
+  }
+  &.sketch_b78547 {
+    background-image: url(svg('global/upload/sketch.svg'));
+  }
+  &.ai_b78547 {
+    background-image: url(svg('global/upload/ai.svg'));
+  }
+  &.archive_b78547 {
+    background-image: url(svg('global/upload/archive.svg'));
+  }
+  &.code_b78547 {
+    background-image: url(svg('global/upload/code.svg'));
+  }
+  &.document_b78547 {
+    background-image: url(svg('global/upload/document.svg'));
+  }
+  &.ps_b78547,
+  &.photoshop_b78547 {
+    background-image: url(svg('global/upload/ps.svg'));
+  }
+  &.spreadsheet_b78547 {
+    background-image: url(svg('global/upload/spreadsheet.svg'));
+  }
+  &.image_b78547 {
+    background-image: url(svg('global/upload/image.svg'));
+  }
+  &.webcode_b78547 {
+    background-image: url(svg('global/upload/webcode.svg'));
+  }
+  &.audio_b78547 {
+    background-image: url(svg('global/upload/audio.svg'));
+  }
+  &.unknown_b78547 {
+    background-image: url(svg('global/upload/unknown.svg'));
+  }
 }
