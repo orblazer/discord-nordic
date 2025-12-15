@@ -100,6 +100,7 @@
   @include utils.aliasColor('yellow-new-39', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-54', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-57', 'nord-yellow'); /*! nord color */
+  @include utils.aliasColor('yellow-new-75', 'yellow-new-57');
 
   @include utils.aliasColor('orange-new-63', 'nord-orange'); /*! nord color */
 
@@ -214,6 +215,7 @@
   --control-connect-text-active: var(--neutral-99);
 
   --notice-text-positive: var(--neutral-79);
+  --notice-text-warning: var(--neutral-79);
   --search-popout-date-picker-hint-value-text: var(--neutral-79);
 }
 
