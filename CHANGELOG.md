@@ -1,3 +1,14 @@
+## [4.12.3](https://github.com/orblazer/discord-nordic/compare/v4.12.2...v4.12.3) (2025-12-17)
+
+
+### Bug Fixes
+
+* **server:** colorize preview bar ([2918c03](https://github.com/orblazer/discord-nordic/commit/2918c034a22d1d4d328f66e8e795767063655873))
+* **server:** colorize sparks in boost ([07051c0](https://github.com/orblazer/discord-nordic/commit/07051c08aa5951f961fba2627cca9acf74dcc3f9))
+* update to last version ([0b6488f](https://github.com/orblazer/discord-nordic/commit/0b6488fcc33414472c6b01489dab501d87a89227))
+
+
+
 ## [4.12.2](https://github.com/orblazer/discord-nordic/compare/v4.12.1...v4.12.2) (2025-12-15)
 
 
