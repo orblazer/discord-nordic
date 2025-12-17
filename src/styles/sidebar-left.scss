@@ -1,13 +1,10 @@
 @use 'discord-color' as discord;
 
-.panels_c48ade {
-  background: var(--background-base-lower) !important;
-}
-
+/* Server without image in folder */
 .theme-dark
-  .folderGroup__48112
-  .wrapper__6e9f8:not(.selected__6e9f8)
-  .childWrapperNoHoverBg__6e9f8 {
+  ._48112cbe77dc5022-folderGroup
+  ._6e9f8dce4cc18de3-wrapper:not(._6e9f8dce4cc18de3-selected)
+  ._6e9f8dce4cc18de3-childWrapperNoHoverBg {
   background-color: var(--background-mod-strong);
 }
 
@@ -15,15 +12,16 @@
  * DM
  * server without image
  */
-.wrapper__6e9f8:hover .childWrapper__6e9f8,
-.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 {
+._6e9f8dce4cc18de3-wrapper:hover ._6e9f8dce4cc18de3-childWrapper,
+._6e9f8dce4cc18de3-wrapper._6e9f8dce4cc18de3-selected
+  ._6e9f8dce4cc18de3-childWrapper {
   color: var(--black-500);
 }
 
 /*
  * voice connected badge
  */
-.iconBadge__650eb.isCurrentUserConnected__650eb {
+._650eb104245d257b-iconBadge._650eb104245d257b-isCurrentUserConnected {
   color: var(--black-500);
 }
 
@@ -31,14 +29,14 @@
  * add server
  * discover
  */
-.circleIconButton__5bc7e.selected__5bc7e {
+._5bc7ed9d4097f6b5-circleIconButton._5bc7ed9d4097f6b5-selected {
   color: var(--black-500);
 }
 
 /*
  ! > add server > Customize your server ('+' image)
  */
-.iconContainer__98cf7 circle[fill='#{discord.$blurple-49-hex}' i] {
+._98cf72876e6760d6-iconContainer circle[fill='#{discord.$blurple-49-hex}' i] {
   fill: var(--blurple-49);
 
   & + path[fill='white'] {
@@ -49,7 +47,7 @@
 /*
  * Typing on DM group
  */
-.container__1ce5d
+._1ce5d425feffd32a-container
   div[style*='background-color: rgb(#{discord.$green-new-38-rgb})'] {
   background-color: var(--user-status-online) !important;
 }

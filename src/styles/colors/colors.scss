@@ -10,6 +10,7 @@
   @include utils.aliasColor('neutral-11', 'neutral-8');
   @include utils.colorVars('neutral-12', utils.hexToHSL(#d2d6e0));
   @include utils.colorVars('neutral-15', utils.hexToHSL(#b6bcc9));
+  @include utils.aliasColor('neutral-16', 'neutral-15');
   @include utils.colorVars('neutral-19', utils.hexToHSL(#97a1b4));
   @include utils.aliasColor('neutral-22', 'neutral-19');
   @include utils.aliasColor('neutral-27', 'neutral-19');
@@ -71,6 +72,10 @@
     'green-new-55',
     'green-new-87'
   ); /* success button (hover) */
+  @include utils.aliasColor(
+    'green-new-72',
+    'green-new-91'
+  ); /* now playing input (hover) */
   @include utils.aliasColor('green-new-76', 'green-new-61');
   @include utils.aliasColor('green-new-77', 'green-new-61');
   @include utils.colorVars('green-new-87', utils.hexToHSL(#93ac7e));
@@ -216,6 +221,7 @@
 
   --notice-text-positive: var(--neutral-79);
   --notice-text-warning: var(--neutral-79);
+  --status-positive-text: var(--neutral-79);
   --search-popout-date-picker-hint-value-text: var(--neutral-79);
 }
 
@@ -249,6 +255,8 @@
   --message-mentioned-background-hover: hsl(var(--blurple-49-hsl) / 0.35);
   --message-highlight-background-default: hsl(var(--blue-new-31-hsl) / 0.45);
   --message-highlight-background-hover: hsl(var(--blue-new-31-hsl) / 0.35);
+
+  --control-expressive-text-default: var(--neutral-79);
 
   --background-code: var(--neutral-1);
   --background-code-addition: hsl(var(--nord-green-hsl) / 0.3);

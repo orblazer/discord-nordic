@@ -3,50 +3,44 @@
 /*
  * "new" badge
  */
-.textBadge__2b1f5[style*='background-color: var(--badge-background-default);'], /* Sidebar left > Browse Channels/Channels & Roles */
-.newChannel__599fa[style*='background-color: var(--brand-260)'], /* Sidebar left > new channel tag */
-.newBadgeText__29021, /* Event (popup) */
+._2b1f52e43a8f1c02-textBadge[style*='background-color: var(--badge-background-default);'], /* Sidebar left > Browse Channels/Channels & Roles */
+._290218226e53085c-newBadgeText, /* Event (popup) */
 // .title__0396e .textBadge__2b1f5[style="background-color: var(--bg-brand)"], /* Event (popup) > Create new (step 2) */ // ? Not sure
 // .newBadge__270d7, /* Browse Channels (navbar) */ // ? Not sure
 // .titleBadge_e4503a, /* Browse Channels */ // ? Not sure
-// .newBadge__5d7c9, /* Channels & Roles > Customise */ // ? Not sure
+._5d7c9a81ac5dd074-newBadge[style*='background-color: var(--brand-260)'], /* Channels & Roles > Customise */
 // .textBadge__2b1f5[style*='background-color: var(--bg-brand)'], /* ! Context menu */ // ? Not sure
-.newBadge_faa96b[style*='background-color: var(--brand-260)'], /* ! Forum (list)  */
-.newBadge__9a337[style*='background-color: var(--brand-260)'] /* ! Forum (gallery)  */ {
+.faa96b2163f6a142-newBadge[style*='background-color: var(--brand-260)'], /* ! Forum (list)  */
+._9a337c84ff86a914-newBadge[style*='background-color: var(--brand-260)'] /* ! Forum (gallery)  */ {
   color: var(--black-500);
 }
 
 /*
- * Server badge (partner, house and verified)
+ * Server badge (all except house)
  */
-.flowerStarContainer__3e3b0 .flowerStar__3e3b0 path[fill='var(--primary-500)'] {
-  fill: var(--white);
-}
-.flowerStarContainer__3e3b0
-  .childContainer__3e3b0
-  path[fill='var(--white-400)'] {
-  fill: var(--black-500);
-}
-
-.flowerStar__3e3b0 path[fill='url(#bf28dbaa-eff0-424f-b25b-646f0eacee7a)'] {
-  fill: var(--guild-boosting-pink);
-}
-
-.tooltipPremiumFooterContainer__7d7fe {
-  background: var(--guild-boosting-pink);
-
-  .text-xs\/semibold_cf4812[style*='color: white'] {
-    color: var(--black-500) !important;
-  }
-  .gemIcon__7d7fe path[fill='white'] {
+._85d1663d6a9fc7f6-guildIconV2Container,
+.b1f768426adf64d9-rowGuildName {
+  div[tabindex='0'] /* Exclude home badge */
+  ._3e3b0b1c0f688f9e-childContainer
+  path[fill='var(--white-400)'],
+  ._3e3b0b1c0f688f9e-childContainer svg[width="13"] path[fill='var(--white-400)'] /* verified badge */ {
     fill: var(--black-500);
   }
 }
 
 /*
- * Events icons
+ * Events popup
  */
-.eventStatusContainer__29021 {
+._05cdce811fa6027a-sparkleIcon {
+  &[src='/assets/3a6a08a976f34e04.svg'] {
+    content: url(svg('server/channel/stage/star.svg'));
+  }
+  &[src='/assets/30d1720360dd2c40.svg'] {
+    content: url(svg('server/channel/stage/cross.svg'));
+  }
+}
+
+._290218226e53085c-eventStatusContainer {
   path[fill='#{discord.$blurple-26-hex}'] /** + (popup) > Create new (step 3) */ {
     fill: var(--blurple-49);
   }
@@ -54,21 +48,21 @@
     fill: var(--green-new-25);
   }
 }
-.guildIcon__4591d {
+._4591d8bfef72d059-guildIcon {
   color: var(--black-500);
 }
 
 /*
  * "Emoji Picker"
  */
-.badgeLabel_aeaaeb /* (label when over "popular" or "new") */ {
-  & > .newlyAddedBadgeIcon_aeaaeb,
-  & > .text-sm\/semibold_cf4812[style*='color: white'] {
+.aeaaeb2a573807f0-badgeLabel /* (label when over "popular" or "new") */ {
+  & > .aeaaeb2a573807f0-newlyAddedBadgeIcon,
+  & > .cf48127484dbde85-text-sm\/semibold[style*='color: white'] {
     color: currentColor !important;
   }
 }
 
-.topGuildEmojiBadge_aeaaeb /* "popular" label (hover) */ {
+.aeaaeb2a573807f0-topGuildEmojiBadge /* "popular" label (hover) */ {
   background: linear-gradient(
     268.26deg,
     var(--red-new-61) 0%,
@@ -76,28 +70,7 @@
   );
   color: var(--black-900);
 }
-
-/* "new" emoji */
-.newlyAddedHighlight_fc7141 {
-  border-color: var(--green-new-62);
-}
-.newlyAddedBadge_fc7141 {
-  background-color: var(--green-new-62);
-
-  .newlyAddedBadgeStar_fc7141,
-  .text-xs\/semibold_cf4812[style*='color: white'] {
-    color: var(--white-500) !important;
-  }
-}
-.newlyAddedHighlightContainer_fc7141:hover {
-  .newlyAddedHighlight_fc7141 {
-    border-color: hsla(var(--green-new-55-hsl) / 0.5);
-  }
-  .newlyAddedBadge_fc7141 {
-    background-color: hsla(var(--green-new-55-hsl) / 0.5);
-  }
-}
-.newlyAddedBadge_aeaaeb /* (hover) */ {
+.aeaaeb2a573807f0-newlyAddedBadge /* "new" label (hover) */ {
   background: linear-gradient(
     268.26deg,
     var(--blue-new-31) 0%,
@@ -105,17 +78,38 @@
   );
 }
 
-.upsellContainerShadow__0b69f {
+/* "new" emoji */
+.fc7141859aaa98b7-newlyAddedHighlight {
+  border-color: var(--green-new-62);
+}
+.fc7141859aaa98b7-newlyAddedBadge {
+  background-color: var(--green-new-62);
+
+  .fc7141859aaa98b7-newlyAddedBadgeStar,
+  .cf48127484dbde85-text-xs\/semibold[style*='color: white'] {
+    color: var(--white-500) !important;
+  }
+}
+.fc7141859aaa98b7-newlyAddedHighlightContainer:hover {
+  .fc7141859aaa98b7-newlyAddedHighlight {
+    border-color: hsla(var(--green-new-55-hsl) / 0.5);
+  }
+  .fc7141859aaa98b7-newlyAddedBadge {
+    background-color: hsla(var(--green-new-55-hsl) / 0.5);
+  }
+}
+
+._0b69f200eb3bf411-upsellContainerShadow {
   filter: drop-shadow(0 0 10px hsl(var(--twitch-secondary-hsl) / 0.5));
 }
 
 /*
  * "View as role" bar
  */
-.notice_c9e42f {
+.c9e42fe11bb9448d-notice {
   color: var(--black-500);
 
-  .button_c9e42f {
+  .c9e42fe11bb9448d-button {
     border-color: currentColor !important;
     color: currentColor !important;
   }
@@ -124,23 +118,23 @@
 /*
  * "Boost goal" bar
  */
-.progress__0d0f9 {
+._0d0f9ddd12a3ace3-progress {
   background: linear-gradient(
     270deg,
     hsl(var(--nord-pink-hsl) / 0.7),
     hsl(var(--neutral-45-hsl) / 0.1)
   );
 }
-.container__0d0f9:hover .progress__0d0f9 {
+._0d0f9ddd12a3ace3-container:hover ._0d0f9ddd12a3ace3-progress {
   background: linear-gradient(
     270deg,
     var(--nord-pink),
     hsl(var(--neutral-45-hsl) / 0.25)
   );
 }
-.theme-dark .text__0d0f9 {
-  color: var(--white-500);
+.theme-dark ._0d0f9ddd12a3ace3-text {
+  color: var(--white);
 }
-.boostCountText__0d0f9 {
+._0d0f9ddd12a3ace3-boostCountText {
   opacity: 0.8;
 }

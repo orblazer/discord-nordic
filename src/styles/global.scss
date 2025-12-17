@@ -7,36 +7,37 @@
 /*
  * "beta" or some "new" tag
  */
-.textBadge__2b1f5[style*='background-color: var(--brand-500)'] {
+._2b1f52e43a8f1c02-textBadge[style*='background-color: var(--brand-500)'] {
   color: var(--black-500);
 }
 
 /*
  * Tooltips
  */
-.tooltipGreen_c36707, /* ping (when over badge) */
-.tooltipBrand_c36707 /* voice emoji (when over bottom emoji) */ {
+.c36707910f687430-tooltipGreen, /* ping (when over badge) */
+.c36707910f687430-tooltipBrand {
   color: var(--black-500);
 }
 
 /*
  * Toast
  */
-.toast__3fde7[data-type='success'] path[fill='var(--status-positive)'] {
+._3fde7e375925af75-toast[data-type='success']
+  path[fill='var(--status-positive)'] {
   fill: currentColor;
 }
 
 /*
  * Streamer mode bar
  */
-.colorStreamerMode__6e2b9 {
+._6e2b9359c6f84cfd-colorStreamerMode {
   --custom-notice-text: var(--black-500);
 }
 
 /*
  * Settings switch
  */
-.slider__3f21e {
+._3f21e80f8677ec40-slider {
   rect[fill='white'] {
     fill: var(--white-500);
   }
@@ -47,7 +48,7 @@
     fill: var(--neutral-45);
   }
 }
-.container__3f21e {
+._3f21e80f8677ec40-container {
   &[style*='background-color: rgb(85, 95, 196'],
   &[style*='background-color: rgb(#{discord.$blurple-49-rgb})'] {
     background-color: var(--blurple-49) !important;
@@ -61,53 +62,53 @@
 /*
  * Settings radio/checkbox
  */
-.refreshIcon__88a69, /* radio */
-.checkbox__09aca.checked__09aca:not([style*='background-color']) path[fill='var(--white)'], /* checkbox */ {
+._88a69141dd70013a-refreshIcon, /* radio */
+._09aca73e6d4b214b-checkbox._09aca73e6d4b214b-checked:not([style*='background-color']) path[fill='var(--white)'], /* checkbox */ {
   fill: var(--black-500);
 }
 
 /*
  * Buttons
  */
-.tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf:not([aria-selected=true]),
-.tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf:active, /* DM ("add friend" btn) */
-.lookFilled__201d5.colorGreen__201d5, /* user settings > profiles + actions button */
-.activeButton_c15210, .activeButton_c15210:hover, /* text channel > search result (pagination) */
-.theme-light .expressive_a22cb0, /* user settings > Appearance > "unlock with nitro" btn */
-.colorable_f1ceac.join_f1ceac, .colorable_f1ceac.join_f1ceac .centerIcon_f1ceac, /* DM text channel > call + call popup */
-.customLabelContainer_c2c6a6 .labelText_c2c6a6.focused_c2c6a6, .customLabelContainer_c2c6a6:hover /* server > members > filters dropdown  */ {
+._133bf5eea8e33a34-tabBar ._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend:not([aria-selected=true]),
+._133bf5eea8e33a34-tabBar ._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend:active, /* DM ("add friend" btn) */
+._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorGreen, /* user settings > profiles + actions button */
+.c1521037ef09de7e-activeButton, .c1521037ef09de7e-activeButton:hover, /* text channel > search result (pagination) + members table (pagination) */
+.f1ceaca61b18918e-colorable.f1ceaca61b18918e-join, .f1ceaca61b18918e-colorable.f1ceaca61b18918e-join .f1ceaca61b18918e-centerIcon, /* DM text channel > call + call popup */
+.c2c6a6d2eee20594-labelText.c2c6a6d2eee20594-focused, .c2c6a6d2eee20594-customLabelContainer:hover,
+._786f453be957f780-otherDateLabel._786f453be957f780-focused /* server > members > filters dropdown  */ {
   color: var(--black-500);
 }
 
 /*
  * Circle checked icon
  */
-.activeIcon_d40c56 circle[fill='var(--white-500)'], /** user popup (sidebar left) > switch accounts */
-.selectedIcon_a16aea circle[fill='white'], /** checkmark in dropdown (eg. user settings > Content & Social > Discord > ["show/block/blur"]) */
-.checkmarkCircle__36dee circle[fill='var(--white-500)'], /** user settings > app settings > Appearance */
-.descriptionSection__981f7:first-child .descriptionIcon__981f7 circle[fill='var(--white-500)'], /** server settings > server template */
-.checklistIcon_ef2eb4 circle[fill='var(--white-500)'], /** server settings > enable community > get started (step 3) */
-.icon_e9b3cb circle[fill="var(--white-100)"], /* server settings > onboarding > defaults channels (right check mark) */
-.checkIcon__270d7 path[fill="var(--white-500)"], /* server > Channel & Roles (selected role) */
-.answerSelectionIcon__4c520 circle[fill="var(--white-500)"], /* Text channel > poll answers */
-.victorIcon_f69538 circle[fill="var(--white-500)"], /* Text channel >  poll result */ {
+.d40c56f847687e8d-activeIcon circle[fill='var(--white-500)'], /** user popup (sidebar left) > switch accounts */
+.a16aea1526925c2c-selectedIcon circle[fill='white'], /** checkmark in dropdown (eg. user settings > Content & Social > Discord > ["show/block/blur"]) */
+._36dee59b8fa89219-checkmarkCircle circle[fill='var(--white-500)'], /** user settings > app settings > Appearance */
+._981f723644a1a061-descriptionSection:first-child ._981f723644a1a061-descriptionIcon circle[fill='var(--white-500)'], /** server settings > server template */
+.ef2eb43282958c32-checklistIcon circle[fill='var(--white-500)'], /** server settings > enable community > get started (step 3) */
+.e9b3cb124c21889c-icon circle[fill="var(--white-100)"], /* server settings > onboarding > defaults channels (right check mark) */
+._270d7a28db32b312-checkIcon path[fill="var(--white-500)"], /* server > Channel & Roles (selected role) */
+._4c5209741d147f1b-answerSelectionIcon circle[fill="var(--white-500)"], /* Text channel > poll answers */
+.f69538e19b6eaacd-victorIcon circle[fill="var(--white-500)"], /* Text channel >  poll result */ {
   fill: var(--black-500);
 }
 
-.checkmark_aae012, /** Server > text channel (empty and complete some tasks) */
-.activeCircle__5ea8c, /** server settings > welcome screen */
-.stepStatus_a68543[style*='background-color: var(--status-positive-background)'] /* Forum channel > "get started" */ {
+.aae01227de06a74c-checkmark, /** Server > text channel (empty and complete some tasks) */
+._5ea8ce30885a2f21-activeCircle, /** server settings > welcome screen */
+.a685436e98c0d8fa-stepStatus[style*='background-color: var(--status-positive-background)'] /* Forum channel > "get started" */ {
   color: var(--black-500);
 }
 
-.theme-dark .activeIcon_d40c56 circle[fill='var(--brand-500)'] /** user popup (sidebar left) > switch accounts (hover) */ {
+.theme-dark .d40c56f847687e8d-activeIcon circle[fill='var(--brand-500)'] /** user popup (sidebar left) > switch accounts (hover) */ {
   fill: var(--blurple-87);
 }
 
 /*
  * Search > date picker
  */
-.calendarPicker_d27f17 {
+.d27f17593b8064c5-calendarPicker {
   .react-datepicker__day.react-datepicker__day--keyboard-selected,
   .react-datepicker__day.react-datepicker__day--selected:hover,
   .react-datepicker__day:hover {
@@ -118,9 +119,9 @@
 /*
  * Stars
  */
-.emptyIcon__5d7c9, /* empty "Channel & role" (when server not joined, from discover)  */
-.stars_d404a3, /* inbox */
-.stars__1b24f /* server > text channels > empty threads */ {
+._5d7c9a81ac5dd074-emptyIcon, /* empty "Channel & role" (when server not joined, from discover)  */
+.d404a36e7b59cdcf-stars, /* inbox */
+._1b24f0fdfb13e41c-stars /* server > text channels > empty threads */ {
   path[fill='#ADF3FF'] {
     fill: var(--nord-cyan);
   }

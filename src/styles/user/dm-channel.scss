@@ -1,9 +1,11 @@
 /*
  * call icons
  */
-.icon__235ca[style*='background-image: url("/assets/61ccab047dad737a.svg")'] {
-  background-image: url(svg('user/dm-channel/call-incoming.svg')) !important;
-}
-.icon__235ca[style*='background-image: url("/assets/6f076a64de25de4b.svg")'] {
-  background-image: url(svg('user/dm-channel/call-missed.svg')) !important;
+._235ca3770d90ab7c-icon {
+  &[style*='background-image: url("/assets/61ccab047dad737a.svg")'] {
+    background-image: url(svg('user/dm-channel/call-incoming.svg')) !important;
+  }
+  &[style*='background-image: url("/assets/6f076a64de25de4b.svg")'] {
+    background-image: url(svg('user/dm-channel/call-missed.svg')) !important;
+  }
 }

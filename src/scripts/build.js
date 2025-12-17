@@ -30,7 +30,6 @@ async function build(folder, uniform = false) {
   // Compile sass files
   const results = await Promise.allSettled([
     compile('styles/_imports.scss', uniform),
-    compile('styles/web.scss', uniform),
     compile('styles/plugins/better-discord/_imports.scss', uniform),
     compile('styles/plugins/vencord/_imports.scss', uniform),
   ])
@@ -50,23 +49,15 @@ async function build(folder, uniform = false) {
       betterDiscord(
         folder,
         pkg,
-        [results[0].value, results[2].value].join('\n')
+        [results[0].value, results[1].value].join('\n')
       ),
-      stylus(folder, pkg, [results[0].value, results[1].value].join('\n')),
-      vencord(
-        folder,
-        pkg,
-        [results[0].value, results[1].value, results[3].value].join('\n')
-      ),
+      stylus(folder, pkg, results[0].value),
+      vencord(folder, pkg, [results[0].value, results[2].value].join('\n')),
     ])
 
     // TODO: uniform variant is not supported
     if (!uniform) {
-      await replugged(
-        folder,
-        pkg,
-        [results[0].value, results[1].value].join('\n')
-      )
+      await replugged(folder, pkg, results[0].value)
     }
   }
 }

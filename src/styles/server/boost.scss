@@ -1,15 +1,15 @@
-.theme-light .root__5c9fc {
-  .closeIconWrapper__6fd0e {
+.theme-light ._5c9fcec194debbe7-root {
+  ._6fd0e42f91edfda6-closeIconWrapper {
     mix-blend-mode: normal;
   }
 
-  .closeButton_c2b141,
-  .keybind_c2b141 {
+  .c2b141c0f80863fb-closeButton,
+  .c2b141c0f80863fb-keybind {
     color: var(--neutral-8);
   }
 }
 
-.header__6fd0e {
+._6fd0e42f91edfda6-header {
   background: center 15%/90% auto url(svg('server/boost/sparks.svg')) no-repeat,
     linear-gradient(
       359.37deg,
@@ -25,23 +25,19 @@
       var(--premium-tier-0-header-gradient-5) 71.4%
     );
 
-  .heading__6fd0e,
-  .guildName_f9f04c {
+  ._6fd0e42f91edfda6-heading,
+  .f9f04c96ff5e7a45-guildName {
     color: var(--white-500) !important;
   }
 }
 
-.guildBoostCountWrapper_f9f04c,
-.progressBarMarkerUnlocked__1f1cb .boostedTierIcon__1f1cb,
-.progressBarMarkerLabel__1f1cb {
+.f9f04c96ff5e7a45-guildBoostCountWrapper,
+._1f1cb76e4e3b2f9e-progressBarMarkerUnlocked ._1f1cb76e4e3b2f9e-boostedTierIcon,
+._1f1cb76e4e3b2f9e-progressBarMarkerLabel {
   color: var(--white);
 }
 
-.button__83f66 {
-  color: var(--white) !important;
-}
-
-.guildBoostCtaBoostContent_f9f04c {
+.f9f04c96ff5e7a45-guildBoostCtaBoostContent {
   color: var(--blurple-87);
 }
 
@@ -52,24 +48,25 @@
 /*
  * >* Cards
  */
-.tierCardCurrentTier_be48d0, /* ("curent" badge) + >* level up server */
-.recommendedTierHighlightTag__686cf /* >* level up server ("recommended" badge) */ {
+.be48d0ea9c89668f-tierCardCurrentTier, /* ("curent" badge) + >* level up server */
+._686cf09df72934da-recommendedTierHighlightTag /* >* level up server ("recommended" badge) */ {
   background: var(--guild-boosting-purple);
   color: var(--black-500) !important;
 }
 
-.tierCardNewFeatureBadge_be48d0 {
-  background: var(--white-500);
-  color: var(--black-500);
-}
-
 // Text
-.tierCardBoostRequirement_be48d0,
-.tierCardHeading_be48d0,
-.tierCardListItem_be48d0 {
-  color: var(--neutral-2) !important;
+.be48d0ea9c89668f-tierCardHeading,
+.be48d0ea9c89668f-tierCardBoostRequirement,
+.be48d0ea9c89668f-tierCardListItem {
+  color: var(--white) !important;
 }
 
-.tierCardListIcon_be48d0 path[fill='var(--white)'] {
+.be48d0ea9c89668f-tierCardListIcon path[fill='var(--white)'] {
   fill: currentColor;
+}
+
+// "new" tag
+.be48d0ea9c89668f-tierCardNewFeatureBadge {
+  background: var(--white);
+  color: var(--black-500);
 }

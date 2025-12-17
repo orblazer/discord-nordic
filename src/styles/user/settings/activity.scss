@@ -1,23 +1,21 @@
 /*
  * > registered games
  */
-.theme-light .nowPlayingAdd_cc46f0 {
-  color: var(--text-normal);
-}
-
-.nowPlaying_cc46f0 {
-  .gameName_cc46f0,
-  .lastPlayed_cc46f0,
-  .overlayStatusText_cc46f0 {
+.cc46f0f859f26200-nowPlaying {
+  .cc46f0f859f26200-gameName,
+  .cc46f0f859f26200-lastPlayed,
+  .cc46f0f859f26200-overlayStatusText {
     color: var(--neutral-76);
   }
 
-  .fill_cc46f0 {
+  .cc46f0f859f26200-fill {
     fill: var(--neutral-76) !important;
   }
 }
 
 /* Verified badge */
-.gameVerifiedIcon_cc46f0 .childContainer__3e3b0 path[fill='var(--white-500)'] {
+.cc46f0f859f26200-gameVerifiedIcon
+  ._3e3b0b1c0f688f9e-childContainer
+  path[fill='var(--white-500)'] {
   fill: var(--neutral-76);
 }

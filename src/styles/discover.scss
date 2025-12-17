@@ -1,4 +1,4 @@
-.theme-dark .gradient_e9ef78 {
+.theme-dark .e9ef783a74d3f83a-gradient {
   background: radial-gradient(
       130.66% 324.98% at -3.95% 0%,
       var(--blue-new-31) 0%,
@@ -6,7 +6,7 @@
     ),
     var(--primary-600) !important;
 }
-.theme-light .gradient_e9ef78 {
+.theme-light .e9ef783a74d3f83a-gradient {
   background: radial-gradient(
       130.66% 324.98% at -3.95% 0%,
       var(--blue-new-31) 0%,
@@ -18,20 +18,23 @@
 /*
  * > App
  */
-.headerSuccess_b76614 /* "Add App" popup */ {
+.b766146650f2018a-headerSuccess /* "Add App" popup */ {
   background-image: url(svg('discover/app/success.svg'));
 }
 
 /*
- * > Servers > Server badge (partner, house and verified)
+ * > Servers > Server badge (verified, partnered)
  */
-.guildBadge__4cb8a .icon__09691,
-.verified__09691 .icon__09691 /*+ Server > events (detail) */ {
-  color: var(--black-500);
+._09691b0a8e9f4365-verified, /*+ Server > events (detail) */
+._09691b0a8e9f4365-partnered {
+  ._09691b0a8e9f4365-icon {
+    color: var(--black-500);
+  }
 }
+
 /*
  * >> student hub
  */
-.iconContainer_a76561 path[fill='var(--white)'] {
+.a7656153eb3db678-iconContainer path[fill='var(--white)'] {
   fill: var(--black-500);
 }
