@@ -116,6 +116,21 @@
 }
 
 /*
+ * "preview mode" bar
+ */
+.c5cd6ac154c385c9-notice {
+  color: var(--black-500);
+
+  .c5cd6ac154c385c9-header {
+    color: currentColor !important;
+  }
+  .c5cd6ac154c385c9-button {
+    border-color: currentColor !important;
+    color: currentColor !important;
+  }
+}
+
+/*
  * "Boost goal" bar
  */
 ._0d0f9ddd12a3ace3-progress {
