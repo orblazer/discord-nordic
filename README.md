@@ -4,8 +4,6 @@
 
 This theme change all discord style for follow [Nord palette](https://www.nordtheme.com/).
 
-> If you want the uniform (with only 1 color for background) variant please go to [uniform folder](https://raw.githubusercontent.com/orblazer/discord-nordic/master/uniform)
-
 ## Preview
 
 |                                               Dark                                               |                                                    Light                                                     |
@@ -39,8 +37,6 @@ This theme change all discord style for follow [Nord palette](https://www.nordth
 4. Donate if you could <3
 
 ### Replugged
-
-> ⚠️ The `uniform` variant is not yet available.
 
 1. [![Install in Replugged](https://img.shields.io/badge/-Install%20in%20Replugged-blue)](https://replugged.dev/install?identifier=orblazer/discord-nordic&source=github)
 2. Donate if you could <3

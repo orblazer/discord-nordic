@@ -18,7 +18,7 @@
     "replugged:bundle": "replugged bundle theme",
     "lint": "eslint",
     "version": "npm run version:build && npm run version:changelog",
-    "version:build": "npm run build && git add manifest.json nordic.*.css uniform/nordic.*.css",
+    "version:build": "npm run build && git add manifest.json nordic.*.css",
     "version:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "postversion": "git push && git push --tag"
   },

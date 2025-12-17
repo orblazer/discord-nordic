@@ -27,7 +27,6 @@ If applicable, add screenshots to help explain your problem.
 
 - Theme style : [e.g. Dark]
 - Theme version : [e.g. 2.8.1]
-- Is `uniform` variant ?
 - Discord Version : [e.g. Stable 77192 (f5037df)]
 - Client name & version (BetterDiscord, Vencord, etc) : [e.g. BetterDiscord 1.8.4]
 

@@ -94,11 +94,7 @@
 
 // Switch
 .container_cebd1c[style*='background-color: #{discord.$primary-400}'] {
-  @if is_uniform() {
-    background-color: var(--primary-460) !important;
-  } @else {
-    background-color: var(--primary-500) !important;
-  }
+  background-color: var(--primary-500) !important;
 }
 .container_cebd1c[style*='background-color: #{discord.$brand-500}'] {
   background-color: var(--green-560) !important;
