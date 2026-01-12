@@ -13,6 +13,7 @@
   @include utils.aliasColor('neutral-16', 'neutral-15');
   @include utils.colorVars('neutral-19', utils.hexToHSL(#97a1b4));
   @include utils.aliasColor('neutral-22', 'neutral-19');
+  @include utils.aliasColor('neutral-23', 'neutral-19');
   @include utils.aliasColor('neutral-27', 'neutral-19');
   @include utils.aliasColor('neutral-28', 'neutral-19');
   @include utils.aliasColor('neutral-29', 'neutral-19');
@@ -25,7 +26,9 @@
   @include utils.aliasColor('neutral-39', 'neutral-36');
   @include utils.aliasColor('neutral-40', 'neutral-36');
   @include utils.aliasColor('neutral-45', 'nord-dark4'); /*! nord color */
+  @include utils.aliasColor('neutral-46', 'neutral-45');
   @include utils.aliasColor('neutral-49', 'nord-dark3'); /*! nord color */
+  @include utils.aliasColor('neutral-50', 'neutral-49');
   @include utils.aliasColor('neutral-59', 'neutral-49');
   @include utils.aliasColor('neutral-60', 'neutral-49');
   @include utils.aliasColor('neutral-62', 'neutral-66');
@@ -59,19 +62,21 @@
   @include utils.aliasColor('green-new-25', 'green-new-61');
   @include utils.aliasColor('green-new-26', 'green-new-61');
   @include utils.aliasColor('green-new-30', 'green-new-61');
+  @include utils.aliasColor('green-new-31', 'green-new-61');
   @include utils.aliasColor('green-new-38', 'green-new-61');
+  @include utils.aliasColor('green-new-40', 'green-new-61');
   @include utils.aliasColor('green-new-44', 'green-new-61');
   @include utils.aliasColor('green-new-50', 'green-new-61');
   @include utils.aliasColor('green-new-52', 'green-new-61');
-  @include utils.aliasColor('green-new-61', 'nord-green'); /*! nord color */
   @include utils.aliasColor(
-    'green-new-62',
-    'green-new-91'
-  ); /* success button (active) */
-  @include utils.aliasColor(
-    'green-new-55',
+    'green-new-60',
     'green-new-87'
   ); /* success button (hover) */
+  @include utils.aliasColor('green-new-61', 'nord-green'); /*! nord color */
+  @include utils.aliasColor(
+    'green-new-65',
+    'green-new-91'
+  ); /* success button (active) */
   @include utils.aliasColor(
     'green-new-72',
     'green-new-91'
@@ -81,36 +86,43 @@
   @include utils.colorVars('green-new-87', utils.hexToHSL(#93ac7e));
   @include utils.colorVars('green-new-91', utils.hexToHSL(#82996f));
 
+  @include utils.aliasColor('red-new-22', 'red-new-61');
   @include utils.aliasColor('red-new-23', 'red-new-61');
   @include utils.aliasColor('red-new-29', 'red-new-61');
   @include utils.aliasColor('red-new-38', 'red-new-61');
   @include utils.aliasColor('red-new-45', 'red-new-61');
   @include utils.aliasColor('red-new-50', 'red-new-61');
+  @include utils.aliasColor('red-new-46', 'red-new-61');
+  @include utils.aliasColor('red-new-47', 'red-new-61');
   @include utils.aliasColor(
-    'red-new-55',
+    'red-new-60',
     'red-new-70'
   ); /* danger button (hover) */
-  @include utils.aliasColor('red-new-47', 'red-new-61');
   @include utils.aliasColor('red-new-61', 'nord-red'); /*! nord color */
   @include utils.aliasColor(
-    'red-new-62',
+    'red-new-65',
     'red-new-78'
   ); /* danger button (active) */
   @include utils.colorVars('red-new-70', utils.hexToHSL(#ac5861));
+  @include utils.aliasColor('red-new-75', 'red-new-70');
   @include utils.colorVars('red-new-78', utils.hexToHSL(#975056));
 
   @include utils.aliasColor('yellow-new-22', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-24', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-28', 'yellow-new-57');
+  @include utils.aliasColor('yellow-new-31', 'yellow-new-57');
+  @include utils.aliasColor('yellow-new-36', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-39', 'yellow-new-57');
+  @include utils.aliasColor('yellow-new-46', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-54', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-57', 'nord-yellow'); /*! nord color */
   @include utils.aliasColor('yellow-new-75', 'yellow-new-57');
+  @include utils.aliasColor('yellow-new-84', 'yellow-new-57');
 
   @include utils.aliasColor('orange-new-63', 'nord-orange'); /*! nord color */
 
   @include utils.aliasColor('blue-new-24', 'blue-new-31');
-  @include utils.aliasColor('blue-new-26', 'blue-new-35'); /* For links */
+  @include utils.aliasColor('blue-new-27', 'blue-new-35'); /* For links */
   @include utils.aliasColor('blue-new-31', 'nord-blue'); /*! nord color */
   @include utils.colorVars('blue-new-35', utils.hexToHSL(#4c91e6));
 
@@ -128,11 +140,15 @@
     'blurple-49'
   ); /* start stream popup >  "cancel" button */
   @include utils.aliasColor('blurple-28', 'blurple-49'); /* For some links */
+  @include utils.aliasColor('blurple-29', 'blurple-49'); /* For controls */
   @include utils.colorVars('blurple-37', utils.hexToHSL(#afcfce));
   @include utils.aliasColor('blurple-44', 'blurple-37');
+  @include utils.aliasColor('blurple-48', 'blurple-37');
   @include utils.aliasColor('blurple-49', 'nord-green-blue'); /*! nord color */
   @include utils.aliasColor('blurple-50', 'blurple-49');
+  @include utils.aliasColor('blurple-52', 'blurple-49');
   @include utils.colorVars('blurple-54', utils.hexToHSL(#7da8a8));
+  @include utils.aliasColor('blurple-58', 'blurple-54');
   @include utils.aliasColor('blurple-59', 'blurple-54');
   @include utils.aliasColor('blurple-60', 'blurple-54');
   @include utils.colorVars('blurple-65', utils.hexToHSL(#709494));
@@ -215,9 +231,10 @@
   --control-primary-text-default: var(--neutral-79);
   --control-primary-text-hover: var(--neutral-99);
   --control-primary-text-active: var(--neutral-99);
-  --control-connect-text-default: var(--neutral-79);
-  --control-connect-text-hover: var(--neutral-79);
-  --control-connect-text-active: var(--neutral-99);
+  --control-connected-text-default: var(--neutral-79);
+  --control-connected-text-hover: var(--neutral-79);
+  --control-connected-text-active: var(--neutral-99);
+  --badge-text-brand: var(--neutral-79);
 
   --notice-text-positive: var(--neutral-79);
   --notice-text-warning: var(--neutral-79);

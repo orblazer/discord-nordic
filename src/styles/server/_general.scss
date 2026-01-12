@@ -3,13 +3,9 @@
 /*
  * "new" badge
  */
-._2b1f52e43a8f1c02-textBadge[style*='background-color: var(--badge-background-default);'], /* Sidebar left > Browse Channels/Channels & Roles */
+._2b1f52e43a8f1c02-textBadge[style*='background-color: var(--badge-background-brand)'], /* Sidebar left > Browse Channels/Channels & Roles */
 ._290218226e53085c-newBadgeText, /* Event (popup) */
-// .title__0396e .textBadge__2b1f5[style="background-color: var(--bg-brand)"], /* Event (popup) > Create new (step 2) */ // ? Not sure
-// .newBadge__270d7, /* Browse Channels (navbar) */ // ? Not sure
-// .titleBadge_e4503a, /* Browse Channels */ // ? Not sure
 ._5d7c9a81ac5dd074-newBadge[style*='background-color: var(--brand-260)'], /* Channels & Roles > Customise */
-// .textBadge__2b1f5[style*='background-color: var(--bg-brand)'], /* ! Context menu */ // ? Not sure
 .faa96b2163f6a142-newBadge[style*='background-color: var(--brand-260)'], /* ! Forum (list)  */
 ._9a337c84ff86a914-newBadge[style*='background-color: var(--brand-260)'] /* ! Forum (gallery)  */ {
   color: var(--black-500);
@@ -22,8 +18,8 @@
 .b1f768426adf64d9-rowGuildName {
   div[tabindex='0'] /* Exclude home badge */
   ._3e3b0b1c0f688f9e-childContainer
-  path[fill='var(--white-400)'],
-  ._3e3b0b1c0f688f9e-childContainer svg[width="13"] path[fill='var(--white-400)'] /* verified badge */ {
+  path[fill='var(--white)'],
+  ._3e3b0b1c0f688f9e-childContainer svg[width="13"] path[fill='var(--white)'] /* verified badge */ {
     fill: var(--black-500);
   }
 }

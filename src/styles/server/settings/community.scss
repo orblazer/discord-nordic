@@ -8,27 +8,27 @@
 /*
  * > enable community > get started
  */
-._6515e2dee2dfdb8e-overviewSidebar {
+.b071d449c343cb88-overviewSidebar {
   background: linear-gradient(
     180deg,
-    var(--brand-500) 6.65%,
-    var(--brand-600) 69.44%,
-    var(--brand-800) 106.24%
+    var(--blurple-58) 6.65%,
+    var(--blurple-52) 69.44%,
+    var(--blurple-48) 106.24%
   );
 }
 
-._6515e2dee2dfdb8e-header,
-._6515e2dee2dfdb8e-stepIndex,
-._6515e2dee2dfdb8e-stepTitle,
-._6515e2dee2dfdb8e-selected ._6515e2dee2dfdb8e-stepTitle {
+.b071d449c343cb88-header,
+.b071d449c343cb88-stepIndex,
+.b071d449c343cb88-stepTitle,
+.b071d449c343cb88-selected .b071d449c343cb88-stepTitle {
   color: var(--black-500);
 }
 
-._6515e2dee2dfdb8e-selected ._6515e2dee2dfdb8e-stepIndex {
+.b071d449c343cb88-selected .b071d449c343cb88-stepIndex {
   color: var(--brand-900);
 }
 
-.ef2eb43282958c32-content {
+._50e4ecc92cc862b6-content {
   img[src='/assets/0280ce34b0947c59.svg'] {
     content: url(svg('server/settings/community/shield.svg'));
   }

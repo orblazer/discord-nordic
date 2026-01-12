@@ -51,7 +51,19 @@
 /*
  * > Voice message
  */
-.a8e786485f0c32f8-playIcon {
+.a8e786485f0c32f8-container:not(.a8e786485f0c32f8-playing)
+  .a8e786485f0c32f8-playButtonContainer {
+  background: var(--control-primary-background-default) !important;
+
+  &:hover {
+    background: var(--control-primary-background-hover) !important;
+  }
+  &:active {
+    background: var(--control-primary-background-active) !important;
+  }
+}
+.a8e786485f0c32f8-playIcon,
+.a8e786485f0c32f8-playButtonContainer:active .a8e786485f0c32f8-playIcon {
   color: var(--black-500);
 }
 

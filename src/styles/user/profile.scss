@@ -60,7 +60,7 @@
   rect[fill='#{discord.$green-new-38-hex}'] {
     fill: var(--user-status-online);
   }
-  rect[fill='#{discord.$yellow-new-30-hex}'] {
+  rect[fill='#{discord.$yellow-new-29-hex}'] {
     fill: var(--user-status-idle);
   }
   rect[fill='#{discord.$red-new-46-hex}'] {
@@ -81,7 +81,7 @@
   &[style='background-color: rgb(#{discord.$green-new-38-rgb});'] {
     background-color: var(--user-status-online) !important;
   }
-  &[style='background-color: rgb(#{discord.$yellow-new-30-rgb});'] {
+  &[style='background-color: rgb(#{discord.$yellow-new-29-rgb});'] {
     background-color: var(--user-status-idle) !important;
   }
   &[style='background-color: rgb(#{discord.$red-new-46-rgb});'] {

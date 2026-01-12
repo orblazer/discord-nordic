@@ -20,10 +20,3 @@
     border-color: var(--black);
   }
 }
-
-/*
- * >> moderator badge
- */
-.fdb9cf70bd87740b-container rect[fill='var(--white-500)'] + path {
-  fill: var(--black-500);
-}
