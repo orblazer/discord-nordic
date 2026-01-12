@@ -75,9 +75,13 @@
 ._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorGreen, /* user settings > profiles + actions button */
 .c1521037ef09de7e-activeButton, .c1521037ef09de7e-activeButton:hover, /* text channel > search result (pagination) + members table (pagination) */
 .f1ceaca61b18918e-colorable.f1ceaca61b18918e-join, .f1ceaca61b18918e-colorable.f1ceaca61b18918e-join .f1ceaca61b18918e-centerIcon, /* DM text channel > call + call popup */
-.c2c6a6d2eee20594-labelText.c2c6a6d2eee20594-focused, .c2c6a6d2eee20594-customLabelContainer:hover,
-._786f453be957f780-otherDateLabel._786f453be957f780-focused /* server > members > filters dropdown  */ {
+.c2c6a6d2eee20594-customLabelContainer:hover, .c2c6a6d2eee20594-customLabelContainer:hover .c2c6a6d2eee20594-labelText,
+._786f453be957f780-nagivateBackContainer:hover, ._786f453be957f780-otherDateLabel._786f453be957f780-focused /* server > members > filters dropdown */ {
   color: var(--black-500);
+}
+
+._786f453be957f780-nagivateBackContainer:hover .cf48127484dbde85-eyebrow /* server > members > filters dropdown  */ {
+  color: currentColor !important;
 }
 
 /*
