@@ -5,3 +5,21 @@
 .vc-addon-badge[style*='background-color: rgb(237, 66, 69)'] {
   background-color: var(--status-danger) !important;
 }
+
+/*
+ * > Cloud
+ */
+.vc-btn-positive {
+  // TODO: temporary
+  background-color: var(--control-connected-background-default);
+  color: var(--control-connected-text-default);
+
+  &:hover {
+    background-color: var(--control-connected-background-hover);
+    color: var(--control-connected-text-hover);
+  }
+  &:active {
+    background-color: var(--control-connected-background-active);
+    color: var(--control-connected-text-active);
+  }
+}
