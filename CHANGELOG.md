@@ -1,3 +1,19 @@
+## [4.12.4](https://github.com/orblazer/discord-nordic/compare/v4.12.3...v4.12.4) (2026-01-13)
+
+
+### Bug Fixes
+
+* **server:**  correctly colorize filters button ([e7373e1](https://github.com/orblazer/discord-nordic/commit/e7373e1e8314397eb83a8c28d602645371e163c3))
+* update to last version ([2cc9d59](https://github.com/orblazer/discord-nordic/commit/2cc9d596df4aab3a8a7eecfb45ae420d22637918))
+* **vencord:** correctly colorize positive button ([df7e9d2](https://github.com/orblazer/discord-nordic/commit/df7e9d26858ffba483dc8e89ddae7c948f49b009))
+
+
+### Features
+
+* **server:** add missing color for member icon ([46f456a](https://github.com/orblazer/discord-nordic/commit/46f456aefc3073487d4d4494ff27cdeb4f29ed59))
+
+
+
 ## [4.12.3](https://github.com/orblazer/discord-nordic/compare/v4.12.2...v4.12.3) (2025-12-17)
 
 
