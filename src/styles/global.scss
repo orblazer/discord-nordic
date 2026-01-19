@@ -4,6 +4,10 @@
   background-color: hsl(var(--blue-new-35-hsl) / 0.25);
 }
 
+._7aaec78b97ff00f7-mentionsBar ._7aaec78b97ff00f7-barText {
+  color: var(--text-strong) !important;
+}
+
 /*
  * "beta" or some "new" tag
  */
@@ -37,34 +41,16 @@
 /*
  * Settings switch
  */
-._3f21e80f8677ec40-slider {
-  rect[fill='white'] {
-    fill: var(--white-500);
-  }
-  path[fill^='rgba(#{discord.$blurple-49-rgb}'] {
-    fill: var(--blurple-65);
-  }
-  path[fill^='rgba(#{discord.$neutral-49-rgb}'] {
-    fill: var(--neutral-45);
-  }
-}
-._3f21e80f8677ec40-container {
-  &[style*='background-color: rgb(85, 95, 196'],
-  &[style*='background-color: rgb(#{discord.$blurple-49-rgb})'] {
+.a2827844fe91d55f-switchIndicator {
+  &[style*='background-color: rgb(#{discord.$blurple-49-rgb})'] /* Selected */ {
     background-color: var(--blurple-49) !important;
   }
-  &[style*='background-color: rgb(81, 86, 134)'],
-  &[style*='background-color: rgb(#{discord.$neutral-49-rgb})'] {
-    background-color: var(--neutral-40) !important;
+  &[style*='background-color: rgb(#{discord.$blurple-60-rgb})'] /* selected hover */ {
+    background-color: var(--blurple-65) !important;
   }
-}
-
-/*
- * Settings radio/checkbox
- */
-._88a69141dd70013a-refreshIcon, /* radio */
-._09aca73e6d4b214b-checkbox._09aca73e6d4b214b-checked:not([style*='background-color']) path[fill='var(--white)'], /* checkbox */ {
-  fill: var(--black-500);
+  &[style*='background-color: rgb(#{discord.$blurple-65-rgb})'] /* selected active */ {
+    background-color: var(--blurple-87) !important;
+  }
 }
 
 /*

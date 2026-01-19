@@ -1,3 +1,8 @@
+._823e17af53f649ad-boostContainer._823e17af53f649ad-boostContainerActive
+  path[fill='var(--icon-strong)'] {
+  fill: var(--neutral-79);
+}
+
 .theme-light ._5c9fcec194debbe7-root {
   ._6fd0e42f91edfda6-closeIconWrapper {
     mix-blend-mode: normal;
@@ -10,7 +15,8 @@
 }
 
 ._6fd0e42f91edfda6-header {
-  background: center 15%/90% auto url(svg('server/boost/sparks.svg')) no-repeat,
+  background:
+    center 15%/90% auto url(svg('server/boost/sparks.svg')) no-repeat,
     linear-gradient(
       359.37deg,
       rgba(0, 0, 0, 0.5) 12.68%,

@@ -27,6 +27,7 @@
   @include utils.aliasColor('neutral-40', 'neutral-36');
   @include utils.aliasColor('neutral-45', 'nord-dark4'); /*! nord color */
   @include utils.aliasColor('neutral-46', 'neutral-45');
+  @include utils.aliasColor('neutral-47', 'neutral-45');
   @include utils.aliasColor('neutral-49', 'nord-dark3'); /*! nord color */
   @include utils.aliasColor('neutral-50', 'neutral-49');
   @include utils.aliasColor('neutral-59', 'neutral-49');
@@ -157,6 +158,7 @@
 
   --opacity-4-hsl: var(--neutral-19-hsl);
   --opacity-8-hsl: var(--neutral-31-hsl);
+  --opacity-12-hsl: var(--neutral-31-hsl);
   --opacity-16-hsl: var(--neutral-31-hsl);
   --opacity-20-hsl: var(--neutral-31-hsl);
 
@@ -235,6 +237,8 @@
   --control-connected-text-hover: var(--neutral-79);
   --control-connected-text-active: var(--neutral-99);
   --badge-text-brand: var(--neutral-79);
+  --radio-thumb-background-active: var(--neutral-79);
+  --checkbox-icon-active: var(--neutral-79);
 
   --notice-text-positive: var(--neutral-79);
   --notice-text-warning: var(--neutral-79);
