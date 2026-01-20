@@ -13,22 +13,7 @@ export function betterDiscord(baseDir, pkg, css) {
  * @source      ${pkg.repository}
  * @donate      ${pkg.funding}
  */
-/**
- * SOURCE CODE
- * /!\\ DON'T TOUCH ! /!\\
- */
-${css}
-
-/**
- * CUSTOMIZATION
- * Add '!important' non hsl discord colors, like 'primary-dark-200'
- */
-:root {
-}
-.theme-dark {
-}
-.theme-light {
-}`
+${css}`,
   )
 }
 
@@ -48,23 +33,7 @@ export function stylus(baseDir, pkg, css) {
 ==/UserStyle== */
 
 @-moz-document domain("discord.com") {
-  /**
-   * SOURCE CODE
-   * /!\\ DON'T TOUCH ! /!\\
-   */
-  ${css}
-
-  /**
-   * CUSTOMIZATION
-   * Add '!important' non hsl discord colors, like 'primary-dark-200'
-   */
-  :root {
-  }
-  .theme-dark {
-  }
-  .theme-light {
-  }
-}`
+  ${css}`,
   )
 }
 
@@ -80,22 +49,7 @@ export function vencord(baseDir, pkg, css) {
  * @source      ${pkg.repository}
  * @donate      ${pkg.funding}
  */
-/**
- * SOURCE CODE
- * /!\\ DON'T TOUCH ! /!\\
- */
-${css}
-
-/**
- * CUSTOMIZATION
- * Add '!important' non hsl discord colors, like 'primary-dark-200'
- */
-:root {
-}
-.theme-dark {
-}
-.theme-light {
-}`
+${css}`,
   )
 }
 

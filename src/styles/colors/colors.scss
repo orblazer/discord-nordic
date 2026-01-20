@@ -5,7 +5,7 @@
   @include utils.aliasColor('neutral-2', 'nord-light3');
   @include utils.aliasColor('neutral-4', 'nord-light2');
   @include utils.aliasColor('neutral-6', 'neutral-4');
-  @include utils.aliasColor('neutral-8', 'nord-light1'); /*! nord color */
+  @include utils.aliasColor('neutral-8', 'nord-light1'); /* ! nord color */
   @include utils.colorVars('neutral-9', utils.hexToHSL(#ced6e3));
   @include utils.aliasColor('neutral-11', 'neutral-8');
   @include utils.colorVars('neutral-12', utils.hexToHSL(#d2d6e0));
@@ -25,10 +25,10 @@
   @include utils.aliasColor('neutral-38', 'neutral-36');
   @include utils.aliasColor('neutral-39', 'neutral-36');
   @include utils.aliasColor('neutral-40', 'neutral-36');
-  @include utils.aliasColor('neutral-45', 'nord-dark4'); /*! nord color */
+  @include utils.aliasColor('neutral-45', 'nord-dark4'); /* ! nord color */
   @include utils.aliasColor('neutral-46', 'neutral-45');
   @include utils.aliasColor('neutral-47', 'neutral-45');
-  @include utils.aliasColor('neutral-49', 'nord-dark3'); /*! nord color */
+  @include utils.aliasColor('neutral-49', 'nord-dark3'); /* ! nord color */
   @include utils.aliasColor('neutral-50', 'neutral-49');
   @include utils.aliasColor('neutral-59', 'neutral-49');
   @include utils.aliasColor('neutral-60', 'neutral-49');
@@ -37,10 +37,10 @@
   @include utils.aliasColor('neutral-64', 'neutral-66');
   @include utils.aliasColor('neutral-65', 'neutral-66');
   @include utils.colorVars('neutral-66', utils.hexToHSL(#404859));
-  @include utils.aliasColor('neutral-69', 'nord-dark2'); /*! nord color */
+  @include utils.aliasColor('neutral-69', 'nord-dark2'); /* ! nord color */
   @include utils.aliasColor('neutral-70', 'neutral-69');
   @include utils.aliasColor('neutral-71', 'neutral-69');
-  @include utils.aliasColor('neutral-72', 'nord-dark1'); /*! nord color */
+  @include utils.aliasColor('neutral-72', 'nord-dark1'); /* ! nord color */
   @include utils.aliasColor('neutral-73', 'neutral-72');
   @include utils.aliasColor('neutral-74', 'neutral-72');
   @include utils.aliasColor('neutral-75', 'neutral-76');
@@ -55,8 +55,8 @@
   @include utils.colorVars('neutral-97', utils.hexToHSL(#15181e));
   @include utils.aliasColor('neutral-99', 'neutral-97');
 
-  @include utils.aliasColor('white-500', 'nord-light2'); /*! nord color */
-  @include utils.aliasColor('black-500', 'neutral-79'); /*! nord color */
+  @include utils.aliasColor('white-500', 'nord-light2'); /* ! nord color */
+  @include utils.aliasColor('black-500', 'neutral-79'); /* ! nord color */
 
   @include utils.aliasColor('green-new-23', 'green-new-61');
   @include utils.aliasColor('green-new-24', 'green-new-61');
@@ -73,7 +73,7 @@
     'green-new-60',
     'green-new-87'
   ); /* success button (hover) */
-  @include utils.aliasColor('green-new-61', 'nord-green'); /*! nord color */
+  @include utils.aliasColor('green-new-61', 'nord-green'); /* ! nord color */
   @include utils.aliasColor(
     'green-new-65',
     'green-new-91'
@@ -99,7 +99,7 @@
     'red-new-60',
     'red-new-70'
   ); /* danger button (hover) */
-  @include utils.aliasColor('red-new-61', 'nord-red'); /*! nord color */
+  @include utils.aliasColor('red-new-61', 'nord-red'); /* ! nord color */
   @include utils.aliasColor(
     'red-new-65',
     'red-new-78'
@@ -116,15 +116,15 @@
   @include utils.aliasColor('yellow-new-39', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-46', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-54', 'yellow-new-57');
-  @include utils.aliasColor('yellow-new-57', 'nord-yellow'); /*! nord color */
+  @include utils.aliasColor('yellow-new-57', 'nord-yellow'); /* ! nord color */
   @include utils.aliasColor('yellow-new-75', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-84', 'yellow-new-57');
 
-  @include utils.aliasColor('orange-new-63', 'nord-orange'); /*! nord color */
+  @include utils.aliasColor('orange-new-63', 'nord-orange'); /* ! nord color */
 
   @include utils.aliasColor('blue-new-24', 'blue-new-31');
   @include utils.aliasColor('blue-new-27', 'blue-new-35'); /* For links */
-  @include utils.aliasColor('blue-new-31', 'nord-blue'); /*! nord color */
+  @include utils.aliasColor('blue-new-31', 'nord-blue'); /* ! nord color */
   @include utils.colorVars('blue-new-35', utils.hexToHSL(#4c91e6));
 
   @include utils.colorVars('blurple-1', utils.hexToHSL(#f0f4f4));
@@ -145,7 +145,7 @@
   @include utils.colorVars('blurple-37', utils.hexToHSL(#afcfce));
   @include utils.aliasColor('blurple-44', 'blurple-37');
   @include utils.aliasColor('blurple-48', 'blurple-37');
-  @include utils.aliasColor('blurple-49', 'nord-green-blue'); /*! nord color */
+  @include utils.aliasColor('blurple-49', 'nord-green-blue'); /* ! nord color */
   @include utils.aliasColor('blurple-50', 'blurple-49');
   @include utils.aliasColor('blurple-52', 'blurple-49');
   @include utils.colorVars('blurple-54', utils.hexToHSL(#7da8a8));

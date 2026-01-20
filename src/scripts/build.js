@@ -1,4 +1,4 @@
-import { minify } from 'csso'
+import CleanCSS from 'clean-css'
 import { constants } from 'fs'
 import { access, readFile } from 'fs/promises'
 import { dirname, join, resolve } from 'path'
@@ -46,7 +46,7 @@ async function build(folder) {
       betterDiscord(
         folder,
         pkg,
-        [results[0].value, results[1].value].join('\n')
+        [results[0].value, results[1].value].join('\n'),
       ),
       stylus(folder, pkg, results[0].value),
       vencord(folder, pkg, [results[0].value, results[2].value].join('\n')),
@@ -60,7 +60,7 @@ async function build(folder) {
  */
 async function compile(entry) {
   const result = await sass.compileAsync(join(srcDir, entry), {
-    style: dev ? 'expanded' : 'compressed',
+    style: 'expanded',
     functions: {
       async 'svg($path)'([pathArg]) {
         const path = pathArg.assertString('path').text
@@ -93,5 +93,12 @@ async function compile(entry) {
     },
   })
 
-  return dev ? result.css : minify(result.css).css
+  return new CleanCSS({
+    format: 'beautify',
+    level: {
+      2: {
+        all: true,
+      },
+    },
+  }).minify(result.css).styles
 }

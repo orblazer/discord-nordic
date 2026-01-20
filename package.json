@@ -22,15 +22,14 @@
     "version:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "postversion": "git push && git push --tag"
   },
-  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@eslint/js": "^9.32.0",
-    "@types/csso": "^5.0.4",
+    "@types/clean-css": "^4.2.11",
     "@types/node": "^24.1.0",
+    "clean-css": "^5.3.3",
     "conventional-changelog-cli": "^5.0.0",
-    "csso": "^5.0.5",
     "eslint": "^9.31.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-node": "^11.1.0",
