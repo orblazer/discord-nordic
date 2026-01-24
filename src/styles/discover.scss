@@ -1,13 +1,15 @@
-.theme-dark .e9ef783a74d3f83a-gradient {
-  background: radial-gradient(
+.theme-dark .gradient_e9ef78 {
+  background:
+    radial-gradient(
       130.66% 324.98% at -3.95% 0%,
       var(--blue-new-31) 0%,
       hsl(var(--primary-600-hsl) / 0%) 100%
     ),
     var(--primary-600) !important;
 }
-.theme-light .e9ef783a74d3f83a-gradient {
-  background: radial-gradient(
+.theme-light .gradient_e9ef78 {
+  background:
+    radial-gradient(
       130.66% 324.98% at -3.95% 0%,
       var(--blue-new-31) 0%,
       hsl(var(--nord-light1-hsl) / 0%) 100%
@@ -18,16 +20,16 @@
 /*
  * > App
  */
-.b766146650f2018a-headerSuccess /* "Add App" popup */ {
+.headerSuccess_b76614 /* "Add App" popup */ {
   background-image: url(svg('discover/app/success.svg'));
 }
 
 /*
  * > Servers > Server badge (verified, partnered)
  */
-._09691b0a8e9f4365-verified, /*+ Server > events (detail) */
-._09691b0a8e9f4365-partnered {
-  ._09691b0a8e9f4365-icon {
+.verified__09691, /*+ Server > events (detail) */
+.partnered__09691 {
+  .icon__09691 {
     color: var(--black-500);
   }
 }
@@ -35,6 +37,6 @@
 /*
  * >> student hub
  */
-.a7656153eb3db678-iconContainer path[fill='var(--white)'] {
+.iconContainer_a76561 path[fill='var(--white)'] {
   fill: var(--black-500);
 }

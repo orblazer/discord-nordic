@@ -1,20 +1,20 @@
 /*
  * Channel (sidebar left)
  */
-.c69b6db0641110f6-voiceChannelHighlightGlow {
+.voiceChannelHighlightGlow_c69b6d {
   background-color: hsla(var(--green-new-44-hsl) / 0.8);
 }
 
 /*
  * > screen share
  */
-.a66361967cf9ac88-root {
-  .a66361967cf9ac88-infoText,
-  .a66361967cf9ac88-ctaButtonText {
+.root_a66361 {
+  .infoText_a66361,
+  .ctaButtonText_a66361 {
     color: var(--black-500) !important;
   }
 
-  .a66361967cf9ac88-premiumIcon path {
+  .premiumIcon_a66361 path {
     fill: var(--black-500) !important;
   }
 }

@@ -1,16 +1,16 @@
-._56ccd9a4ea869e7b-scroller,
-._8a9209d2fbd9f45c-rowContainer,
-._9c309f82892ed3cd-participants,
-._71eb2d6ae9535ae3-tileContainer {
+.scroller__56ccd,
+.rowContainer__8a920,
+.participants__9c309,
+.tileContainer__71eb2 {
   background-color: var(--black);
 }
 /* Match background and scrollbar with new call background */
-.no-webkit-scrollbar .c8b5c7128a90b79f-auto,
-.no-webkit-scrollbar .c8b5c7128a90b79f-auto.c8b5c7128a90b79f-fade:hover,
-.no-webkit-scrollbar .c8b5c7128a90b79f-fade {
+.no-webkit-scrollbar .auto_c8b5c7,
+.no-webkit-scrollbar .auto_c8b5c7.fade_c8b5c7:hover,
+.no-webkit-scrollbar .fade_c8b5c7 {
   scrollbar-color: var(--black) var(--background-modifier-accent);
 }
-.c8b5c7128a90b79f-auto {
+.auto_c8b5c7 {
   &::-webkit-scrollbar-track,
   &::-webkit-scrollbar-corner {
     background-color: var(--black);

@@ -1,20 +1,20 @@
-._823e17af53f649ad-boostContainer._823e17af53f649ad-boostContainerActive
+.boostContainer__823e1.boostContainerActive__823e1
   path[fill='var(--icon-strong)'] {
   fill: var(--neutral-79);
 }
 
-.theme-light ._5c9fcec194debbe7-root {
-  ._6fd0e42f91edfda6-closeIconWrapper {
+.theme-light .root__5c9fc {
+  .closeIconWrapper__6fd0e {
     mix-blend-mode: normal;
   }
 
-  .c2b141c0f80863fb-closeButton,
-  .c2b141c0f80863fb-keybind {
+  .closeButton_c2b141,
+  .keybind_c2b141 {
     color: var(--neutral-8);
   }
 }
 
-._6fd0e42f91edfda6-header {
+.header__6fd0e {
   background:
     center 15%/90% auto url(svg('server/boost/sparks.svg')) no-repeat,
     linear-gradient(
@@ -31,19 +31,19 @@
       var(--premium-tier-0-header-gradient-5) 71.4%
     );
 
-  ._6fd0e42f91edfda6-heading,
-  .f9f04c96ff5e7a45-guildName {
+  .heading__6fd0e,
+  .guildName_f9f04c {
     color: var(--white-500) !important;
   }
 }
 
-.f9f04c96ff5e7a45-guildBoostCountWrapper,
-._1f1cb76e4e3b2f9e-progressBarMarkerUnlocked ._1f1cb76e4e3b2f9e-boostedTierIcon,
-._1f1cb76e4e3b2f9e-progressBarMarkerLabel {
+.guildBoostCountWrapper_f9f04c,
+.progressBarMarkerUnlocked__1f1cb .boostedTierIcon__1f1cb,
+.progressBarMarkerLabel__1f1cb {
   color: var(--white);
 }
 
-.f9f04c96ff5e7a45-guildBoostCtaBoostContent {
+.guildBoostCtaBoostContent_f9f04c {
   color: var(--blurple-87);
 }
 
@@ -54,32 +54,32 @@
 /*
  * >* Cards
  */
-.be48d0ea9c89668f-tierCardCurrentTier, /* ("curent" badge) + >* level up server */
-._686cf09df72934da-recommendedTierHighlightTag /* >* level up server ("recommended" badge) */ {
+.tierCardCurrentTier_be48d0, /* ("curent" badge) + >* level up server */
+.recommendedTierHighlightTag__686cf /* >* level up server ("recommended" badge) */ {
   background: var(--guild-boosting-purple);
   color: var(--black-500) !important;
 }
 
 // Text
-.be48d0ea9c89668f-tierCardHeading,
-.be48d0ea9c89668f-tierCardBoostRequirement,
-.be48d0ea9c89668f-tierCardListItem {
+.tierCardHeading_be48d0,
+.tierCardBoostRequirement_be48d0,
+.tierCardListItem_be48d0 {
   color: var(--white) !important;
 }
 
-.be48d0ea9c89668f-tierCardListIcon path[fill='var(--white)'] {
+.tierCardListIcon_be48d0 path[fill='var(--white)'] {
   fill: currentColor;
 }
 
 // "new" tag
-.be48d0ea9c89668f-tierCardNewFeatureBadge {
+.tierCardNewFeatureBadge_be48d0 {
   background: var(--white);
   color: var(--black-500);
 }
 
-.bb1234f41db08c20-sparkle.bb1234f41db08c20-sparkleStarTopRight {
+.sparkle_bb1234.sparkleStarTopRight_bb1234 {
   color: var(--nord-turquoise) !important;
 }
-.bb1234f41db08c20-sparkle.bb1234f41db08c20-sparkleStarRight {
+.sparkle_bb1234.sparkleStarRight_bb1234 {
   color: var(--nord-pink) !important;
 }

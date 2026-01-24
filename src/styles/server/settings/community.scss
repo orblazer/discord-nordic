@@ -1,14 +1,14 @@
 /*
  * > enable community
  */
-._7dd5e5d187db8f31-sparkles[src='/assets/2990c2614b7e7388.svg'] {
+.sparkles__7dd5e[src='/assets/2990c2614b7e7388.svg'] {
   content: url(svg('server/settings/community/stars.svg'));
 }
 
 /*
  * > enable community > get started
  */
-.b071d449c343cb88-overviewSidebar {
+.overviewSidebar_b071d4 {
   background: linear-gradient(
     180deg,
     var(--blurple-58) 6.65%,
@@ -17,18 +17,18 @@
   );
 }
 
-.b071d449c343cb88-header,
-.b071d449c343cb88-stepIndex,
-.b071d449c343cb88-stepTitle,
-.b071d449c343cb88-selected .b071d449c343cb88-stepTitle {
+.header_b071d4,
+.stepIndex_b071d4,
+.stepTitle_b071d4,
+.selected_b071d4 .stepTitle_b071d4 {
   color: var(--black-500);
 }
 
-.b071d449c343cb88-selected .b071d449c343cb88-stepIndex {
+.selected_b071d4 .stepIndex_b071d4 {
   color: var(--brand-900);
 }
 
-._50e4ecc92cc862b6-content {
+.content__50e4e {
   img[src='/assets/0280ce34b0947c59.svg'] {
     content: url(svg('server/settings/community/shield.svg'));
   }

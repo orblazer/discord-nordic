@@ -1,27 +1,27 @@
 /*
  * > nitro
  */
-._81281805fb6b6ae4-subButton, .ac86f68ab746d5ff-subButtonText, ._70f7f6541f6f031e-subButton /* ("subscribe" button) */ {
+.subButton__81281, .subButtonText_ac86f6, .subButton__70f7f /* ("subscribe" button) */ {
   color: var(--blurple-87) !important;
 }
 
 // Tier blocks
-.ac86f68ab746d5ff-premiumCards,
-._176c72b6f550dacc-tier0Card /* !+ server settings > server boost status */ {
-  .fd0764d549c356e7-pricePerInterval[style*='color: white'],
-  .cf48127484dbde85-text-md\/normal[style*='color: white'] {
+.premiumCards_ac86f6,
+.tier0Card__176c7 /* !+ server settings > server boost status */ {
+  .pricePerInterval_fd0764[style*='color: white'],
+  .text-md_cf4812\/normal[style*='color: white'] {
     color: currentColor !important;
   }
 }
 /* !+ server settings > server boost status */
-.ac86f68ab746d5ff-tier2 {
+.tier2_ac86f6 {
   color: var(--neutral-76);
 }
 
 /*
  * >> pick plan section
  */
-.e4ef5cb9eb007591-mostPopularText {
+.mostPopularText_e4ef5c {
   color: var(--neutral-76);
 }
 
@@ -29,7 +29,7 @@
  * >> subscribe (popup)
  ! Get nitro
  */
-._6df1abcb56d96feb-card .e7b36efa701226e4-pillGradient {
+.card__6df1a .pillGradient_e7b36e {
   background: var(--nord-pink);
 
   & > div[style*='color: var(--text-strong)'] {
@@ -37,15 +37,15 @@
   }
 }
 
-.b130855d8984d74e-annualPlanOptionDiscount[style*='color: white'],
-.b130855d8984d74e-planOptionDiscount[style*='color: white'] {
+.annualPlanOptionDiscount_b13085[style*='color: white'],
+.planOptionDiscount_b13085[style*='color: white'] {
   color: var(--neutral-76) !important;
 }
 
 /*
  * > Subscriptions
  */
-.e335a78803b4d1df-noItemsIcon,
-._7015147b977b3e0e-noItemsIcon {
+.noItemsIcon_e335a7,
+.noItemsIcon__70151 {
   background: var(--background-base-low) !important;
 }

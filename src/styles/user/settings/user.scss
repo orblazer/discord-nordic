@@ -1,20 +1,20 @@
 /*
  * > profiles > Per-server profile
  */
-._0f7dce48ad846f17-upsellTextContainer > div[style*='color: white'] {
+.upsellTextContainer__0f7dc > div[style*='color: white'] {
   color: var(--neutral-79) !important;
 }
 
 /*
  * > Content & Social > Discord icon (when "all server")
  */
-.b476ba9066043148-guildSelectOptionIcon path[fill='white'] {
+.guildSelectOptionIcon_b476ba path[fill='white'] {
   fill: var(--neutral-79);
 }
 
 /*
  * > authorizes apps
  */
-._50a5493e9d9cc496-permissionCheckmark {
+.permissionCheckmark__50a54 {
   background-image: url(svg('user/settings/general/checkmark.svg'));
 }
