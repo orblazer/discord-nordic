@@ -1,3 +1,18 @@
+# [4.13.0](https://github.com/orblazer/discord-nordic/compare/v4.12.5...v4.13.0) (2026-01-24)
+
+
+### Bug Fixes
+
+* **server:** add missing coloring add tag btn ([91c4343](https://github.com/orblazer/discord-nordic/commit/91c434386850a6f3bd8e2e1596568089b385f4cb))
+* update to last version ([2fca234](https://github.com/orblazer/discord-nordic/commit/2fca2345c1c055c878980c7fb3d22297f839f296))
+
+
+### Features
+
+* **build:** add discord version on metadata ([17d2750](https://github.com/orblazer/discord-nordic/commit/17d27502b25b0d53c5c4abe35a777489a914b75e))
+
+
+
 ## [4.12.5](https://github.com/orblazer/discord-nordic/compare/v4.12.4...v4.12.5) (2026-01-19)
 
 

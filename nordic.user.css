@@ -2,7 +2,7 @@
 @name         Discord Nordic
 @namespace    https://github.com/orblazer/discord-nordic
 @homepageURL  https://github.com/orblazer/discord-nordic
-@version      4.12.5
+@version      4.13.0
 @discordBuild stable 488579 (28327b1)
 @license      CC BY-NC-SA 4.0
 @description  Complete theme for Nordic (https://www.nordtheme.com/)
@@ -462,6 +462,7 @@
 .iconBadge__650eb.isCurrentUserConnected__650eb,
 .interactive:hover,
 .lookFilled__201d5.colorGreen__201d5,
+.nagivateBackContainer__786f4:hover,
 .newBadgeText__29021,
 .newBadge__5d7c9[style*="background-color: var(--brand-260)"],
 .newBadge__9a337[style*="background-color: var(--brand-260)"],
@@ -510,7 +511,7 @@
 }
 .badgeLabel_aeaaeb>.newlyAddedBadgeIcon_aeaaeb,
 .badgeLabel_aeaaeb>.text-sm_cf4812\/semibold[style*="color: white"],
-.customLabelContainer_c2c6a6:hover .eyebrow_cf4812,
+.nagivateBackContainer__786f4:hover .eyebrow_cf4812,
 .notice_c5cd6a .header_c5cd6a,
 .premiumCards_ac86f6 .pricePerInterval_fd0764[style*="color: white"],
 .premiumCards_ac86f6 .text-md_cf4812\/normal[style*="color: white"],
@@ -556,6 +557,7 @@
 .iconContainer__98cf7 circle[fill="#5865f2"i] {
   fill: var(--blurple-49)
 }
+.addTags__3f6df path[fill="var(--white)"],
 .guildIconV2Container__85d16 .childContainer__3e3b0 svg[width="13"] path[fill="var(--white)"],
 .guildIconV2Container__85d16 div[tabindex="0"] .childContainer__3e3b0 path[fill="var(--white)"],
 .iconContainer__98cf7 circle[fill="#5865f2"i]+path[fill=white],
@@ -708,37 +710,37 @@
   color: var(--white)
 }
 .badge__8061a[src*="/6bdc42827a38498929a4920da12695d9.png"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/user/profile/badge-active-developer.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/user/profile/badge-active-developer.svg")
 }
 .badge__8061a[src*="/6f9e37f9029ff57aef81db857890005e.png"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/user/profile/badge-commands.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/user/profile/badge-commands.svg")
 }
 .badge__8061a[src="/fee1624003e2fee35cb398e125dc479b.png"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/user/profile/badge-certified-moderator.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/user/profile/badge-certified-moderator.svg")
 }
 .badge__8061a[src*="/bf01d1073931f921909045f3a39fd264.png"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/user/profile/badge-hypesquad.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/user/profile/badge-hypesquad.svg")
 }
 .badge__8061a[src*="/8a88d63823d8a71cd5e390baa45efa02.png"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/user/profile/badge-hypesquad-house-1.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/user/profile/badge-hypesquad-house-1.svg")
 }
 .badge__8061a[src*="/011940fd013da3f7fb926e4a1cd2e618.png"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/user/profile/badge-hypesquad-house-2.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/user/profile/badge-hypesquad-house-2.svg")
 }
 .badge__8061a[src*="/3aa41de486fa12454c3761e8e223442e.png"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/user/profile/badge-hypesquad-house-3.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/user/profile/badge-hypesquad-house-3.svg")
 }
 .badge__8061a[src*="/3f9748e53446a137a052f3454e2de41e.png"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/user/profile/badge-partner.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/user/profile/badge-partner.svg")
 }
 .badge__8061a[src*="/5e74e9b61934fc1f67c65515d1f7e60d.png"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/user/profile/badge-staff.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/user/profile/badge-staff.svg")
 }
 .badge__8061a[src*="/6df5892e0f35b051f8b61eace34f4967.png"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/user/profile/badge-verified-developer.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/user/profile/badge-verified-developer.svg")
 }
 .badge__8061a[src*="/6de6d34650760ba5551a79732e98ed60.png"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/user/profile/badge-originally-know-as.png")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/user/profile/badge-originally-know-as.png")
 }
 .botTagRegular__82f07:not(.botTagOP__82f07) path[fill="var(--white)"],
 .tierCardListIcon_be48d0 path[fill="var(--white)"] {
@@ -769,10 +771,10 @@
   background-color: var(--user-status-invisible)!important
 }
 .icon__235ca[style*='background-image: url("/assets/61ccab047dad737a.svg")'] {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/user/dm-channel/call-incoming.svg")!important
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/user/dm-channel/call-incoming.svg")!important
 }
 .icon__235ca[style*='background-image: url("/assets/6f076a64de25de4b.svg")'] {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/user/dm-channel/call-missed.svg")!important
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/user/dm-channel/call-missed.svg")!important
 }
 .upsellTextContainer__0f7dc > div[style*="color: white"] {
   color: var(--neutral-79)!important
@@ -782,7 +784,7 @@
   fill: var(--neutral-79)
 }
 .permissionCheckmark__50a54 {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/user/settings/general/checkmark.svg")
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/user/settings/general/checkmark.svg")
 }
 .subButtonText_ac86f6,
 .subButton__70f7f,
@@ -815,10 +817,10 @@
   fill: var(--neutral-76)
 }
 .sparkleIcon__05cdc[src="/assets/3a6a08a976f34e04.svg"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/server/channel/stage/star.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/server/channel/stage/star.svg")
 }
 .sparkleIcon__05cdc[src="/assets/30d1720360dd2c40.svg"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/server/channel/stage/cross.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/server/channel/stage/cross.svg")
 }
 .eventStatusContainer__29021 path[fill="#75c383"] {
   fill: var(--green-new-25)
@@ -874,7 +876,7 @@
   color: var(--neutral-8)
 }
 .header__6fd0e {
-  background: center 15%/90% auto url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/server/boost/sparks.svg") no-repeat,linear-gradient(359.37deg,rgba(0,0,0,.5) 12.68%,hsla(0,0%,100%,0) 50.4%),linear-gradient(159.15deg,var(--premium-tier-0-header-gradient-1) 8.49%,var(--premium-tier-0-header-gradient-2) 32.21%,var(--premium-tier-0-header-gradient-3) 42.9%,var(--premium-tier-0-header-gradient-4) 66.06%,var(--premium-tier-0-header-gradient-5) 71.4%)
+  background: center 15%/90% auto url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/server/boost/sparks.svg") no-repeat,linear-gradient(359.37deg,rgba(0,0,0,.5) 12.68%,hsla(0,0%,100%,0) 50.4%),linear-gradient(159.15deg,var(--premium-tier-0-header-gradient-1) 8.49%,var(--premium-tier-0-header-gradient-2) 32.21%,var(--premium-tier-0-header-gradient-3) 42.9%,var(--premium-tier-0-header-gradient-4) 66.06%,var(--premium-tier-0-header-gradient-5) 71.4%)
 }
 .header__6fd0e .guildName_f9f04c,
 .header__6fd0e .heading__6fd0e {
@@ -908,16 +910,16 @@
   color: var(--interactive-muted)
 }
 .typeUpdate__43dab:after {
-  background: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/server/settings/moderation/type-create.svg")
+  background: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/server/settings/moderation/type-create.svg")
 }
 .typeCreate__43dab:after {
-  background: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/server/settings/moderation/type-update.svg")
+  background: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/server/settings/moderation/type-update.svg")
 }
 .typeDelete__43dab:after {
-  background: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/server/settings/moderation/type-delete.svg")
+  background: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/server/settings/moderation/type-delete.svg")
 }
 .sparkles__7dd5e[src="/assets/2990c2614b7e7388.svg"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/server/settings/community/stars.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/server/settings/community/stars.svg")
 }
 .overviewSidebar_b071d4 {
   background: linear-gradient(180deg,var(--blurple-58) 6.65%,var(--blurple-52) 69.44%,var(--blurple-48) 106.24%)
@@ -926,16 +928,16 @@
   color: var(--brand-900)
 }
 .content__50e4e img[src="/assets/0280ce34b0947c59.svg"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/server/settings/community/shield.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/server/settings/community/shield.svg")
 }
 .content__50e4e img[src="/assets/83bf855b8ecf7f86.svg"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/server/settings/community/wrench.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/server/settings/community/wrench.svg")
 }
 .content__50e4e img[src="/assets/30c9caf58319d0f5.svg"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/server/settings/community/check.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/server/settings/community/check.svg")
 }
 .icon__235ca[style*='background-image: url("/assets/8b9de960da063cb9.svg")'] {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/server/channel/text/join.svg")!important
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/server/channel/text/join.svg")!important
 }
 .mentioned__5126c:before {
   background-color: var(--brand-500)
@@ -971,100 +973,100 @@
 .fileIcon_b78547.document_b78547,
 .icon__41ea0.document__41ea0,
 .icon_b78547.document_b78547 {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/document.svg")
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/document.svg")
 }
 .fileIcon_b78547.image_b78547,
 .icon__41ea0.image__41ea0,
 .icon_b78547.image_b78547 {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/image.svg")
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/image.svg")
 }
 .fileIcon_b78547.code_b78547,
 .icon__41ea0.code__41ea0,
 .icon_b78547.code_b78547 {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/code.svg")
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/code.svg")
 }
 .fileIcon_b78547.video_b78547,
 .icon__41ea0.video__41ea0 {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/video.svg")
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/video.svg")
 }
 .fileIcon_b78547.acrobat_b78547,
 .icon__41ea0.acrobat__41ea0 {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/acrobat.svg")
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/acrobat.svg")
 }
 .fileIcon_b78547.ae_b78547,
 .icon__41ea0.ae__41ea0 {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/ae.svg")
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/ae.svg")
 }
 .fileIcon_b78547.sketch_b78547,
 .icon__41ea0.sketch__41ea0 {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/sketch.svg")
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/sketch.svg")
 }
 .fileIcon_b78547.ai_b78547,
 .icon__41ea0.ai__41ea0 {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/ai.svg")
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/ai.svg")
 }
 .fileIcon_b78547.archive_b78547,
 .icon__41ea0.archive__41ea0 {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/archive.svg")
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/archive.svg")
 }
 .fileIcon_b78547.photoshop_b78547,
 .fileIcon_b78547.ps_b78547,
 .icon__41ea0.photoshop__41ea0,
 .icon__41ea0.ps__41ea0 {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/ps.svg")
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/ps.svg")
 }
 .fileIcon_b78547.spreadsheet_b78547,
 .icon__41ea0.spreadsheet__41ea0 {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/spreadsheet.svg")
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/spreadsheet.svg")
 }
 .fileIcon_b78547.webcode_b78547,
 .icon__41ea0.webcode__41ea0 {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/webcode.svg")
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/webcode.svg")
 }
 .audioMetadata_cf09d8:before,
 .fileIcon_b78547.audio_b78547,
 .icon__41ea0.audio__41ea0 {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/audio.svg")
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/audio.svg")
 }
 .fileIcon_b78547.unknown_b78547,
 .icon__41ea0.unknown__41ea0 {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/unknown.svg")
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/unknown.svg")
 }
 .icon__0ccae[src="/assets/a42338c030af6d9c.svg"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/acrobat.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/acrobat.svg")
 }
 .icon__0ccae[src="/assets/88b289225ff6142a.svg"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/ae.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/ae.svg")
 }
 .icon__0ccae[src="/assets/c9f0992f0ab98d49.svg"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/sketch.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/sketch.svg")
 }
 .icon__0ccae[src="/assets/93636da24d7ab467.svg"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/ai.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/ai.svg")
 }
 .icon__0ccae[src="/assets/f89b66e97ea52ba7.svg"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/archive.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/archive.svg")
 }
 .icon__0ccae[src="/assets/f4bad77442422ded.svg"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/code.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/code.svg")
 }
 .icon__0ccae[src="/assets/1084490cf680dd7c.svg"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/ps.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/ps.svg")
 }
 .icon__0ccae[src="/assets/b8ca4488a6d443bc.svg"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/spreadsheet.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/spreadsheet.svg")
 }
 .icon__0ccae[src="/assets/6e688b0c124e0ca8.svg"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/webcode.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/webcode.svg")
 }
 .icon__0ccae[src="/assets/94660b205108a49f.svg"] {
-  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/global/upload/unknown.svg")
+  content: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/global/upload/unknown.svg")
 }
 .images-dark .header__5ca14 {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/server/channel/announcement/follow-bg.svg")
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/server/channel/announcement/follow-bg.svg")
 }
 .images-light .header__5ca14 {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/server/channel/announcement/follow-bg-light.svg")
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/server/channel/announcement/follow-bg-light.svg")
 }
 .reaction_f8896c.reactionMe_f8896c .reactionCount_f8896c {
   color: var(--message-reacted-text-default)
@@ -1101,5 +1103,5 @@
   background: radial-gradient(130.66% 324.98% at -3.95% 0,var(--blue-new-31) 0,hsl(var(--nord-light1-hsl)/0%) 100%),var(--nord-light1)!important
 }
 .headerSuccess_b76614 {
-  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.12.5/assets/discover/app/success.svg")
+  background-image: url("https://raw.githubusercontent.com/orblazer/discord-nordic/v4.13.0/assets/discover/app/success.svg")
 }
