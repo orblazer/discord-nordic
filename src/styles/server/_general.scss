@@ -1,9 +1,16 @@
 @use '../discord-color' as discord;
 
+/* server "shop" channel highlight  */
+.withGradient_fce7ca:after {
+  background-image: linear-gradient(90deg, var(--nord-blue), var(--nord-pink));
+  opacity: 0.3;
+}
+
 /*
  * "new" badge
  */
 .textBadge__2b1f5[style*='background-color: var(--badge-background-brand)'], /* Sidebar left > Browse Channels/Channels & Roles */
+.textBadge__2b1f5[style*='background-color: var(--background-brand)'], /* Sidebar left > Shop */
 .newBadgeText__29021, /* Event (popup) */
 .newBadge__5d7c9[style*='background-color: var(--brand-260)'], /* Channels & Roles > Customise */
 .newBadge_faa96b[style*='background-color: var(--brand-260)'], /* ! Forum (list)  */

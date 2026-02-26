@@ -2,7 +2,11 @@
  * Channel (sidebar left)
  */
 .voiceChannelHighlightGlow_c69b6d {
-  background-color: hsla(var(--green-new-44-hsl) / 0.8);
+  background: radial-gradient(
+    ellipse 40px 50% at left center,
+    hsla(var(--green-new-44-hsl) / 0.125) 0,
+    hsla(var(--green-new-44-hsl) / 0) 100%
+  );
 }
 
 /*
