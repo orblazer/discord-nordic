@@ -1,85 +1,63 @@
-.boostContainer__823e1.boostContainerActive__823e1
-  path[fill='var(--icon-strong)'] {
-  fill: var(--neutral-79);
+.boostContainer__823e1.boostContainerActive__823e1 path {
+  fill: var(--neutral-76);
 }
 
-.theme-light .root__5c9fc {
-  .closeIconWrapper__6fd0e {
-    mix-blend-mode: normal;
-  }
-
-  .closeButton_c2b141,
-  .keybind_c2b141 {
-    color: var(--neutral-8);
-  }
-}
-
-.header__6fd0e {
+.headerGradient__00843 {
   background:
-    center 15%/90% auto url(svg('server/boost/sparks.svg')) no-repeat,
-    linear-gradient(
-      359.37deg,
-      rgba(0, 0, 0, 0.5) 12.68%,
-      hsla(0, 0%, 100%, 0) 50.4%
+    radial-gradient(
+      ellipse 100% 70% at 50% 0,
+      hsla(var(--premium-tier-2-pink-hsl) / 0.4) 0,
+      hsla(var(--premium-tier-2-pink-hsl) / 0.3) 50%,
+      transparent 80%
     ),
-    linear-gradient(
-      159.15deg,
-      var(--premium-tier-0-header-gradient-1) 8.49%,
-      var(--premium-tier-0-header-gradient-2) 32.21%,
-      var(--premium-tier-0-header-gradient-3) 42.9%,
-      var(--premium-tier-0-header-gradient-4) 66.06%,
-      var(--premium-tier-0-header-gradient-5) 71.4%
-    );
-
-  .heading__6fd0e,
-  .guildName_f9f04c {
-    color: var(--white-500) !important;
-  }
-}
-
-.guildBoostCountWrapper_f9f04c,
-.progressBarMarkerUnlocked__1f1cb .boostedTierIcon__1f1cb,
-.progressBarMarkerLabel__1f1cb {
-  color: var(--white);
-}
-
-.guildBoostCtaBoostContent_f9f04c {
-  color: var(--blurple-87);
-}
-
-.roleStyleUpsellButtonContents__981c8 path[fill='white'] /* ! server settings > People > Role (edit) */ {
-  fill: var(--black-500);
+    var(--background-base-lowest);
 }
 
 /*
  * >* Cards
  */
-.tierCardCurrentTier_be48d0, /* ("curent" badge) + >* level up server */
-.recommendedTierHighlightTag__686cf /* >* level up server ("recommended" badge) */ {
-  background: var(--guild-boosting-purple);
-  color: var(--black-500) !important;
+/* Inactive */
+.progressBarInactive_c50892,
+.gemContainerLevel1_c50892:not(.gemContainerActive_c50892),
+.gemContainerLevel2_c50892,
+.gemContainerLevel3_c50892 {
+  background: #5c5668;
+}
+.gemContainerLevel1_c50892:not(.gemContainerActive_c50892),
+.gemContainerLevel2_c50892,
+.gemContainerLevel3_c50892 {
+  border-color: #443541;
 }
 
-// Text
-.tierCardHeading_be48d0,
-.tierCardBoostRequirement_be48d0,
-.tierCardListItem_be48d0 {
-  color: var(--white) !important;
+/* Active*/
+.progressBarActive_c50892 {
+  background: linear-gradient(
+    90deg,
+    var(--premium-tier-2-pink),
+    hsla(var(--premium-tier-2-pink-hsl) / 0.4)
+  );
+  box-shadow: inset 0 0 4px 0 rgba(194, 163, 188, 0.3);
+}
+.gemContainerActive_c50892.gemContainerLevel1_c50892,
+.gemContainerActive_c50892.gemContainerLevel2_c50892,
+.gemContainerActive_c50892.gemContainerLevel3_c50892 {
+  border-color: var(--neutral-83);
 }
 
-.tierCardListIcon_be48d0 path[fill='var(--white)'] {
-  fill: currentColor;
+.card__65e57 {
+  background:
+    radial-gradient(
+      ellipse 355px 208px at 50% -31.5px,
+      hsla(var(--premium-tier-2-pink-hsl) / 0.2) 0,
+      hsla(var(--premium-tier-2-pink-hsl) / 0) 100%
+    ),
+    hsla(var(--opacity-12-hsl) / 0.12);
+  border-color: hsla(var(--opacity-12-hsl) / 0.18);
 }
 
-// "new" tag
-.tierCardNewFeatureBadge_be48d0 {
-  background: var(--white);
-  color: var(--black-500);
-}
-
-.sparkle_bb1234.sparkleStarTopRight_bb1234 {
-  color: var(--nord-turquoise) !important;
-}
-.sparkle_bb1234.sparkleStarRight_bb1234 {
-  color: var(--nord-pink) !important;
+/*
+ * >* Table
+ */
+.recommendedTierHighlightTag__0a9d0 {
+  color: var(--neutral-76) !important;
 }

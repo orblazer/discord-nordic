@@ -53,6 +53,13 @@
 }
 
 /*
+ * Settings radio
+ */
+.radioIndicatorChecked__88a69 .refreshIcon__88a69 {
+  fill: var(--radio-thumb-background-active);
+}
+
+/*
  * Buttons
  */
 .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf:not([aria-selected=true]),
@@ -76,7 +83,7 @@
 .selectedIcon_a16aea circle[fill='white'], /** checkmark in dropdown (eg. user settings > Content & Social > Discord > ["show/block/blur"]) */
 .checkmarkCircle__36dee circle[fill='var(--white)'], /** user settings > app settings > Appearance */
 .descriptionSection__981f7:first-child .descriptionIcon__981f7 circle[fill='var(--white)'], /** server settings > server template */
-.checklistIcon_ef2eb4 circle[fill='var(--white)'], /** server settings > enable community > get started (step 3) */
+.checklistIcon__50e4e circle[fill='var(--white)'], /** server settings > enable community > get started (step 3) */
 .icon_e9b3cb circle[fill="var(--white)"], /* server settings > onboarding > defaults channels (right check mark) */
 .checkIcon__270d7 path[fill="var(--white)"], /* server > Channel & Roles (selected role) */
 .answerSelectionIcon__4c520 circle[fill="var(--white)"], /* Text channel > poll answers */

@@ -58,6 +58,7 @@
   @include utils.aliasColor('white-500', 'nord-light2'); /* ! nord color */
   @include utils.aliasColor('black-500', 'neutral-79'); /* ! nord color */
 
+  @include utils.aliasColor('green-new-22', 'green-new-61');
   @include utils.aliasColor('green-new-23', 'green-new-61');
   @include utils.aliasColor('green-new-24', 'green-new-61');
   @include utils.aliasColor('green-new-25', 'green-new-61');
@@ -113,6 +114,7 @@
   @include utils.aliasColor('yellow-new-28', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-31', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-36', 'yellow-new-57');
+  @include utils.aliasColor('yellow-new-38', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-39', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-46', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-54', 'yellow-new-57');
@@ -142,6 +144,10 @@
   ); /* start stream popup >  "cancel" button */
   @include utils.aliasColor('blurple-28', 'blurple-49'); /* For some links */
   @include utils.aliasColor('blurple-29', 'blurple-49'); /* For controls */
+  @include utils.aliasColor(
+    'blurple-38',
+    'blurple-49'
+  ); /* For banner selected */
   @include utils.colorVars('blurple-37', utils.hexToHSL(#afcfce));
   @include utils.aliasColor('blurple-44', 'blurple-37');
   @include utils.aliasColor('blurple-48', 'blurple-37');
@@ -185,6 +191,7 @@
   --opacity-blurple-32: hsl(var(--blurple-49-hsl) / 0.2);
 
   --illo-green-50-hsl: var(--nord-green-hsl);
+  --illo-pink-40-hsl: var(--nord-pink-hsl);
   --illo-pink-50-hsl: var(--nord-pink-hsl);
   --illo-pink-60-hsl: var(--nord-pink-hsl);
   --illo-pink-70-hsl: var(--nord-pink-hsl);
@@ -204,6 +211,7 @@
   --guild-boosting-purple: var(--nord-pink);
   --guild-boosting-purple-for-gradients: var(--nord-pink);
   --guild-boosting-pink: var(--nord-pink);
+  --guild-boosting-pink-refresh: var(--nord-pink);
   --premium-tier-0-header-gradient-1: var(--nord-blue);
   --premium-tier-0-header-gradient-2: var(--nord-blue);
   --premium-tier-0-header-gradient-3: var(--nord-blue);
@@ -226,6 +234,8 @@
   @include utils.aliasColor('premium-perk-purple', 'nord-pink');
   @include utils.aliasColor('premium-perk-yellow', 'nord-yellow');
   @include utils.aliasColor('premium-nitro-pink-light', 'nord-pink');
+
+  @include utils.aliasColor('platform-partner', 'nord-blue');
 }
 
 .theme-light,
