@@ -118,6 +118,7 @@
   @include utils.aliasColor('yellow-new-39', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-46', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-54', 'yellow-new-57');
+  @include utils.aliasColor('yellow-new-55', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-57', 'nord-yellow'); /* ! nord color */
   @include utils.aliasColor('yellow-new-75', 'yellow-new-57');
   @include utils.aliasColor('yellow-new-84', 'yellow-new-57');
@@ -180,6 +181,7 @@
   --opacity-red-36-hsl: var(--red-new-61-hsl);
 
   --opacity-yellow-8-hsl: var(--yellow-new-57-hsl);
+  --opacity-yellow-32-hsl: var(--yellow-new-57-hsl);
 
   --opacity-blue-8-hsl: var(--blue-new-31-hsl);
 
@@ -199,7 +201,7 @@
   --illo-purple-60-hsl: var(--nord-pink-hsl);
   --illo-nitro-blue-hsl: var(--nord-blue-hsl);
 
-  @include utils.aliasColor('twitch', 'nord-pink');
+  @include utils.aliasColor('platform-twitch', 'nord-pink');
   @include utils.colorVars('twitch-secondary', utils.hexToHSL(#a3759b));
   @include utils.aliasColor('partner', 'nord-blue');
 
@@ -254,6 +256,7 @@
   --notice-text-warning: var(--neutral-79);
   --status-positive-text: var(--neutral-79);
   --search-popout-date-picker-hint-value-text: var(--neutral-79);
+  --badge-primary-text: var(--neutral-79);
 }
 
 .theme-dark {

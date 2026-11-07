@@ -1,41 +1,6 @@
 /*
  * > enable community
  */
-.sparkles__7dd5e[src='/assets/2990c2614b7e7388.svg'] {
+.sparkles_Freh-X[src='/assets/2990c2614b7e7388.svg'] {
   content: url(svg('server/settings/community/stars.svg'));
-}
-
-/*
- * > enable community > get started
- */
-.overviewSidebar_b071d4 {
-  background: linear-gradient(
-    180deg,
-    var(--blurple-58) 6.65%,
-    var(--blurple-52) 69.44%,
-    var(--blurple-48) 106.24%
-  );
-}
-
-.header_b071d4,
-.stepIndex_b071d4,
-.stepTitle_b071d4,
-.selected_b071d4 .stepTitle_b071d4 {
-  color: var(--black-500);
-}
-
-.selected_b071d4 .stepIndex_b071d4 {
-  color: var(--brand-900);
-}
-
-.content__50e4e {
-  img[src='/assets/0280ce34b0947c59.svg'] {
-    content: url(svg('server/settings/community/shield.svg'));
-  }
-  img[src='/assets/83bf855b8ecf7f86.svg'] /** (step 2) */ {
-    content: url(svg('server/settings/community/wrench.svg'));
-  }
-  img[src='/assets/30c9caf58319d0f5.svg'] /** (step 3) */ {
-    content: url(svg('server/settings/community/check.svg'));
-  }
 }

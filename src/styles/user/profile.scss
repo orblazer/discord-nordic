@@ -1,11 +1,11 @@
 @use '../discord-color' as discord;
 
 /* Profile popup (with custom theme > "Add friend" btn */
-.custom-user-profile-theme .primary_a22cb0 {
+.custom-user-profile-theme .primary_F7qvhY {
   color: var(--white);
 }
 
-.badge__8061a {
+.badge_IqWmhA {
   &[src*='/6bdc42827a38498929a4920da12695d9.png'] {
     content: url(svg('user/profile/badge-active-developer.svg'));
   }
@@ -41,7 +41,7 @@
   }
 }
 
-.botTagRegular__82f07:not(.botTagOP__82f07) /** "APP" tag */ {
+.botTagRegular_feVUtO:not(.botTagOP_feVUtO) /** "APP" tag */ {
   color: var(--black-500);
 
   path[fill='var(--white)'] /* Verified badge*/ {
@@ -56,7 +56,7 @@
  ! DM channel > title bar
  ! Server > members list
  */
-.mask__44b0c {
+.mask_XpIUHy {
   rect[fill='#{discord.$green-new-38-hex}'] {
     fill: var(--user-status-online);
   }
@@ -77,7 +77,7 @@
 /*
  * User popup (sidebar left) > status (online, dnd, etc)
  */
-.status_a423bd {
+.status_PlwcO5 {
   &[style='background-color: rgb(#{discord.$green-new-38-rgb});'] {
     background-color: var(--user-status-online) !important;
   }
@@ -95,6 +95,6 @@
 /*
  * Activity icon (in user list)
  */
-.icon_c9d15c path[fill='#{discord.$green-new-38-hex}'] {
+.icon_HigqCD path[fill='#{discord.$green-new-38-hex}'] {
   fill: var(--nord-green);
 }

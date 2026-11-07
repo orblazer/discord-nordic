@@ -1,0 +1,69 @@
+@use '../../discord-color' as discord;
+/*
+ * > nitro
+ */
+.subButton_7GLVMr, .subButtonText_1nVkKR, .subButton_9n0AUP /* ("subscribe" button) */ {
+  color: var(--blurple-87) !important;
+}
+
+// Tier blocks
+.premiumCards_1nVkKR {
+  .pricePerInterval_S0tnPR[style*='color: var(--text-overlay-light)'],
+  .body-md\/normal_RAOoio[style*='color: var(--text-overlay-light)'] {
+    color: currentColor !important;
+  }
+}
+/* !+ server settings > server boost status */
+.tier2_1nVkKR {
+  color: var(--neutral-76);
+
+  .pricePerInterval_S0tnPR[style*='color: var(--text-overlay-light)'],
+  .body-md\/normal_RAOoio[style*='color: var(--text-overlay-light)'] {
+    color: currentColor !important;
+  }
+}
+
+/*
+ * >> pick plan section
+ */
+.mostPopularText_02LA0a {
+  color: var(--neutral-76);
+}
+
+/*
+ * >> subscribe (popup)
+ ! Get nitro
+ */
+.card_nkh6Dx .betaPill_nkh6Dx {
+  background: var(--nord-pink);
+
+  & > div[style*='color: var(--text-strong)'] {
+    color: var(--neutral-76) !important;
+  }
+}
+
+.annualPlanOptionDiscount_b13085[style*='color: var(--text-overlay-light)'],
+.discountBadge__220d4[style*='color: var(--text-overlay-light)'] {
+  color: var(--neutral-76) !important;
+}
+
+/*
+ * > Subscriptions
+ */
+.noItemsIcon_4VCFtm,
+.noItemsIcon_NedsCW {
+  background: var(--background-base-low) !important;
+}
+
+/*
+ * Billing
+ */
+.paymentSourceRow_d3LvfJ svg {
+  path[fill='#5865F2'] /* --blurple-49 */ {
+    fill: var(--blurple-49) !important;
+  }
+  mask[fill='#fff'] > path,
+  path[fill='EFEFF1'] /* --neutral-5 */ {
+    fill: var(--neutral-79) !important;
+  }
+}

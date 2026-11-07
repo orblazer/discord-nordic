@@ -9,21 +9,6 @@
 }
 
 /*
- * "beta" or some "new" tag
- */
-.textBadge__2b1f5[style*='background-color: var(--brand-500)'] {
-  color: var(--black-500);
-}
-
-/*
- * Tooltips
- */
-.tooltipGreen_c36707, /* ping (when over badge) */
-.tooltipBrand_c36707 {
-  color: var(--black-500);
-}
-
-/*
  * Toast
  */
 .toast__3fde7[data-type='success'] path[fill='var(--status-positive)'] {
@@ -33,14 +18,14 @@
 /*
  * Streamer mode bar
  */
-.colorStreamerMode__6e2b9 {
+.colorStreamerMode_Q02kKo {
   --custom-notice-text: var(--black-500);
 }
 
 /*
  * Settings switch
  */
-.switchIndicator_a28278 {
+.switchIndicator_9AraPt {
   &[style*='background-color: rgb(#{discord.$blurple-49-rgb})'] /* Selected */ {
     background-color: var(--blurple-49) !important;
   }
@@ -53,58 +38,50 @@
 }
 
 /*
- * Settings radio
- */
-.radioIndicatorChecked__88a69 .refreshIcon__88a69 {
-  fill: var(--radio-thumb-background-active);
-}
-
-/*
  * Buttons
  */
-.tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf:not([aria-selected=true]),
-.tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf:active, /* DM ("add friend" btn) */
-.lookFilled__201d5.colorGreen__201d5, /* user settings > profiles + actions button */
-.activeButton_c15210, .activeButton_c15210:hover, /* text channel > search result (pagination) */
-.colorable_f1ceac.join_f1ceac, .colorable_f1ceac.join_f1ceac .centerIcon_f1ceac, /* DM text channel > call + call popup */
-.customLabelContainer_c2c6a6:hover, .customLabelContainer_c2c6a6:hover .labelText_c2c6a6,
-.nagivateBackContainer__786f4:hover, .otherDateLabel__786f4.focused__786f4 /* server > members > filters dropdown */ {
-  color: var(--black-500);
+.tabBar_zrUwGA .addFriend_zrUwGA.addFriend_zrUwGA.addFriend_zrUwGA:not([aria-selected=true]),
+.tabBar_zrUwGA .addFriend_zrUwGA.addFriend_zrUwGA.addFriend_zrUwGA:active, /* DM ("add friend" btn) */
+.activeButton_0MrDiE, .activeButton_0MrDiE:hover, /* text channel > search result (pagination) */
+.colorable_K9Xq13.join_K9Xq13, .colorable_K9Xq13.join_K9Xq13 .centerIcon_K9Xq13 /* DM text channel > call + call popup // TODO */
+{
+  color: var(--neutral-79);
 }
 
-.nagivateBackContainer__786f4:hover .eyebrow_cf4812 /* server > members > filters dropdown  */ {
+.nagivateBackContainer_K-iqS8:hover, .otherDateLabel_K-iqS8.focused_K-iqS8 /* server > members > filters dropdown */ {
+  color: var(--neutral-99);
+}
+.nagivateBackContainer_K-iqS8:hover .body-sm\/medium_RAOoio /* server > members > filters dropdown  */ {
   color: currentColor !important;
 }
 
 /*
  * Circle checked icon
  */
-.activeIcon_d40c56 circle[fill='var(--white)'], /** user popup (sidebar left) > switch accounts */
-.selectedIcon_a16aea circle[fill='white'], /** checkmark in dropdown (eg. user settings > Content & Social > Discord > ["show/block/blur"]) */
-.checkmarkCircle__36dee circle[fill='var(--white)'], /** user settings > app settings > Appearance */
-.descriptionSection__981f7:first-child .descriptionIcon__981f7 circle[fill='var(--white)'], /** server settings > server template */
-.checklistIcon__50e4e circle[fill='var(--white)'], /** server settings > enable community > get started (step 3) */
-.icon_e9b3cb circle[fill="var(--white)"], /* server settings > onboarding > defaults channels (right check mark) */
-.checkIcon__270d7 path[fill="var(--white)"], /* server > Channel & Roles (selected role) */
-.answerSelectionIcon__4c520 circle[fill="var(--white)"], /* Text channel > poll answers */
-.victorIcon_f69538 circle[fill="var(--white)"], /* Text channel >  poll result */ {
+.activeIcon_lZtGs8 circle[fill='var(--white)'], /** user popup (sidebar left) > switch accounts */
+.selectedIcon_uFkqU2 circle[fill='white'], /** checkmark in dropdown (eg. user settings > Content & Social > Discord > ["show/block/blur"]) */
+.checkmarkCircle_IhyaN_ circle[fill='var(--white)'], /** Experience > Appearance */
+.descriptionSection_5tsZcq:first-child .descriptionIcon_5tsZcq circle[fill='var(--white)'], /** server settings > server template */
+.checkIcon_87WSWY path[fill="var(--white)"], /* server > Channel & Roles (selected role) */
+.answerSelectionIcon_D4-WfD circle[fill="var(--white)"], /* Text channel > poll answers */
+.victorIcon_D5ZFqQ circle[fill="var(--white)"], /* Text channel >  poll result */ {
   fill: var(--black-500);
 }
 
-.checkmark_aae012, /** Server > text channel (empty and complete some tasks) */
-.activeCircle__5ea8c, /** server settings > welcome screen */
-.stepStatus_a68543[style*='background-color: var(--status-positive-background)'] /* Forum channel > "get started" */ {
+.checkmark_rh88Fa, /** Server > text channel (empty and complete some tasks) */
+.activeCircle_tQBDXx, /** server settings > welcome screen */
+.stepStatus_LpNLOM[style*='background-color: var(--status-positive-background)'] /* Forum channel > "get started" */ {
   color: var(--black-500);
 }
 
-.theme-dark .activeIcon_d40c56 circle[fill='var(--brand-500)'] /** user popup (sidebar left) > switch accounts (hover) */ {
+.theme-dark .activeIcon_lZtGs8 circle[fill='var(--brand-500)'] /** user popup (sidebar left) > switch accounts (hover) */ {
   fill: var(--blurple-87);
 }
 
 /*
  * Search > date picker
  */
-.calendarPicker_d27f17 {
+.calendarPicker_7yAVe6 {
   .react-datepicker__day.react-datepicker__day--keyboard-selected,
   .react-datepicker__day.react-datepicker__day--selected:hover,
   .react-datepicker__day:hover {
@@ -115,9 +92,8 @@
 /*
  * Stars
  */
-.emptyIcon__5d7c9, /* empty "Channel & role" (when server not joined, from discover)  */
-.stars_d404a3, /* inbox */
-.stars__1b24f /* server > text channels > empty threads */ {
+.emptyIcon_pHGfKY, /* empty "Channel & role" (when server not joined, from discover)  */
+.stars_FgrH4y /* inbox */ {
   path[fill='#ADF3FF'] {
     fill: var(--nord-cyan);
   }

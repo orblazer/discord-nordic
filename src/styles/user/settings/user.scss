@@ -1,20 +1,6 @@
 /*
- * > profiles > Per-server profile
+ * > Messaging Permissions > Discord icon (when "all server")
  */
-.upsellTextContainer__0f7dc > div[style*='color: white'] {
-  color: var(--neutral-79) !important;
-}
-
-/*
- * > Content & Social > Discord icon (when "all server")
- */
-.guildSelectOptionIcon__53d6e path[fill='white'] {
+.guildSelectOptionIcon_JGnPL8 path[fill='white'] {
   fill: var(--neutral-79);
-}
-
-/*
- * > authorizes apps
- */
-.permissionCheckmark__50a54 {
-  background-image: url(svg('user/settings/general/checkmark.svg'));
 }

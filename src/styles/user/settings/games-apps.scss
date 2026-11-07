@@ -1,0 +1,17 @@
+.container__06283[style*='background'] {
+  background: linear-gradient(to right, var(--yellow-260), var(--green-new-43));
+}
+
+/*
+ * > Registered Games > Verified badge
+ */
+.gameVerifiedIcon_kQPUsd .childContainer_d3vyhc path[fill='var(--white)'] {
+  fill: var(--neutral-76);
+}
+
+/*
+ * > Connected apps > Permissions
+ */
+.permissionCheckmark_-8GDCL {
+  background-image: url(svg('user/settings/general/checkmark.svg'));
+}
